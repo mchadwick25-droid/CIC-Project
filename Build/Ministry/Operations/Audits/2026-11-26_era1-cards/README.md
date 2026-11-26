@@ -68,3 +68,15 @@ All are quoted verbatim in `Header.md`: the short-description rulings, and the w
 - Latin Pastoral: the 240s (Cyprian's election rests on modern reckoning; shown "250 to 430").
 - Open-Gaps 429's list: Latin Apologists `end` 320 and the years 205 and 250; Apocryphal c. 100-900; Marcionism `start` 140; Ebionites dates, start, end and region; Greek Apologists 124.
 - Montanism: the start (Gratus's proconsulship has no held year; Epiphanius gives about the 19th year of Antoninus Pius).
+
+## Newly held (Library thread, 2026-11-26, PR #1828, branch `source-research/era1-library`)
+
+Record: `Build/Ministry/Operations/Audits/2026-11-26_era1-library/README.md`. Every AD year from a regnal or Seleucid year is a conversion: say so on the card.
+- Jerome's Chronicle (`cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt`): Quadratus and Aristides to Hadrian, Hadrian year 9-10 (42531-42534); Justin, Antoninus year 4 (42752-42754); Valentinus and Cerdo at Rome under Hyginus, Antoninus year 3 (42747-42750, Cerdo, not Marcion); Montanism begins, Marcus year 11 (43052-43055), against Epiphanius, Panarion 48.1, about Antoninus year 19 (`epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt` 17019): the two disagree; Polycarp martyred, Marcus year 6-7 (42977-42979); Alexandria's teachers (43267, 43374-43377, 43456, 43485, 43699-43702, 43741); Tertullian famous, Severus year 16 (43480-43482); Cyprian's plague, Novatus, letters, martyrdom in Valerian year 3 (43965-44192), no election year.
+- Epiphanius, Panarion 29-30 (`epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt`): Ebionites' places (25026-25031), "after the capture of Jerusalem" (25334-25343), spread (26876-26879); no end year. Marcion, heresies 41-42 (Holl 1922, 7149, 7418-7423).
+- Syriac end: Synodicon Orientale, Chabot 1902, French, synod of Mar Isaac 16074-17925, "En la 11e année du règne de Yezdegerd" at 16155; Chronicon Edessenum, Guidi's Latin (`chronica-minora-pars-prior-versio-lat_guidi1903.txt`) from 542.
+- The anonymous writer against the Montanists: his own clue, HE V.16.19 (npnf201 29886-29889), "more than thirteen years since the woman died"; "about 192" is McGiffert's reckoning from it.
+- Cyprian, Letters 43, 57, 59 and Pontius: all in Hartel (`cyprian_epistulae-lat_hartel1871-csel3-tei.txt`); Letter 57 gives no AD year.
+- Polycarp's stories already held: Irenaeus, Against Heresies III.3.4 (anf01); Eusebius HE IV.14, V.20, V.24 (npnf201).
+- Not found by the Library: years for Minucius (205) and Commodian (250); Gratus's proconsulship; a later keeper of On the Soul 9; old bounds for Alexandria and the Africa river.
+- Also new (Open-Gaps 415): Chrysostom, Homily 50 on Matthew in Greek (Field 1839); Jerome, Letter 51 in Latin (Hilberg).

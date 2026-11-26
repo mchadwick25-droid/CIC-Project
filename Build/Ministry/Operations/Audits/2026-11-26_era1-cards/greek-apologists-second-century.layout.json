@@ -1,0 +1,371 @@
+{
+ "shortDescription": "From Athens and Rome to Sardis and Antioch, Christians who wrote in Greek defended their faith to emperors, and to pagans who asked about it. Accused of being godless, of incest and of eating human flesh, they asked to be judged by how they lived.",
+ "dates": "c. 125 to c. 180",
+ "timeline": [
+  {
+   "when": "Under Hadrian",
+   "headline": "Quadratus and Aristides give the emperor Hadrian defenses of the faith",
+   "lines": [
+    {
+     "when": "in the reign of Hadrian",
+     "text": "Because certain wicked men are trying to trouble the Christians, Quadratus addresses a defense of the faith to the emperor Hadrian.",
+     "reference": "Eusebius, Church History IV.3.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 20993-20995, 21048-21050",
+     "note": "Eusebius's account. He still had the book in the early 300s."
+    },
+    {
+     "when": "date unknown",
+     "text": "Quadratus argues that Christ's works were real: people he healed or raised from the dead lived on, some of them to Quadratus's own day.",
+     "reference": "Quadratus, in Eusebius, Church History IV.3.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 21055-21068",
+     "note": "Quadratus's one surviving passage, as Eusebius copied it."
+    },
+    {
+     "when": "in the reign of Hadrian",
+     "text": "Aristides, a philosopher of Athens, also leaves a defense of the faith addressed to Hadrian.",
+     "reference": "Eusebius, Church History IV.3.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 21073-21075; the Syriac version's headings, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 19005-19008",
+     "note": "The Syriac version's longer heading names Caesar Titus Hadrianus Antoninus."
+    },
+    {
+     "when": "date unknown",
+     "text": "Aristides writes that Christians who have give to those who have not, and take a stranger under their roof as a brother.",
+     "reference": "Aristides, Apology 15, the Greek and the Syriac, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 18960-18964, 19596-19600",
+     "note": "His Greek survives only reworked inside a later Christian romance."
+    },
+    {
+     "when": "date unknown",
+     "text": "The Syriac version of Aristides adds that Christians fast two or three days to feed the needy, and persuade their slaves to become Christians and then call them brothers.",
+     "reference": "Aristides, Apology 15, the Syriac, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 19589-19592, 19605-19608",
+     "note": "Only the Syriac has these lines."
+    },
+    {
+     "when": "about 125, in the 226th Olympiad",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, sets the books of Quadratus and Aristides early in Hadrian's reign. It then says Hadrian, moved by a letter from the legate Serenus Granius, wrote to Minucius Fundanus, governor of Asia, that Christians were not to be condemned without a charge of crime.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42526-42547; the year worked out from the Chronicle's own date, the 226th Olympiad, about the ninth year of Hadrian, counting his reign from 117",
+     "note": "Written about two centuries later. It ties Hadrian's letter to the legate's letter, not to the defenses."
+    }
+   ]
+  },
+  {
+   "when": "Under Antoninus Pius",
+   "headline": "Justin answers the charge that Christians are atheists",
+   "witness": "Justin, in his own First Apology",
+   "lines": [
+    {
+     "when": "in the reign of Antoninus Pius",
+     "text": "Justin, from Flavia Neapolis in Syria Palestine, addresses a petition to the emperor Antoninus Pius and his sons, on behalf of people of every nation who are unjustly hated.",
+     "reference": "Justin, First Apology 1, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 68-75; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 13966-13969",
+     "note": "Justin writes as one who says Christ was born one hundred and fifty years before (First Apology 46, lines 15679-15681)."
+    },
+    {
+     "when": "date unknown",
+     "text": "You can kill us, Justin tells the emperors, but you cannot harm us.",
+     "reference": "Justin, First Apology 2, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 94-96; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 13992-13994"
+    },
+    {
+     "when": "date unknown",
+     "text": "Justin grants that Christians are called atheists, people who refuse the gods of the cities. He says they are atheists of such gods, and worship the most true God.",
+     "reference": "Justin, First Apology 6, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 186-188; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 14141-14145"
+    },
+    {
+     "when": "date unknown",
+     "text": "Everywhere, Justin writes, Christians take care to pay their taxes, as Christ taught them. They worship God alone, and gladly serve the emperors in all else.",
+     "reference": "Justin, First Apology 17, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 506-516; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 14580-14595"
+    },
+    {
+     "when": "date unknown",
+     "text": "Justin names Marcion of Pontus, still teaching that there is another god greater than the Creator. His followers are also called Christians, Justin says, yet they are not persecuted for their teaching.",
+     "reference": "Justin, First Apology 26, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 729-743; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 14943-14961"
+    }
+   ]
+  },
+  {
+   "when": "Under Marcus Aurelius",
+   "headline": "Justin is put to death, and Melito pleads for the Christians of Asia",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "In a second defense, Justin writes that he expects to be plotted against, perhaps by Crescens, a philosopher who publicly calls Christians atheists and impious to please the crowd.",
+     "reference": "Justin, Second Apology 8, cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt lines 273-277; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16849-16859",
+     "note": "Eusebius says Justin addressed this second work to the emperors who followed Antoninus Pius (Church History IV.15.10 and IV.16.1, lines 23032-23036, 23756-23764)."
+    },
+    {
+     "when": "date unknown",
+     "text": "Justin, who says he is living at Rome for the second time, is tried with his companions before Rusticus, prefect of Rome. Rusticus sentences them to death for refusing to sacrifice to the gods and obey the emperor's command, and they are beheaded.",
+     "reference": "The Martyrdom of Justin 2 and 5, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 29307-29311, 29396-29404",
+     "note": "From the record of the trial. Eusebius sets Justin's martyrdom in this reign, and puts it down to a plot laid by Crescens (Church History IV.16.1, lines 23749, 23756-23764, 23781-23782)."
+    },
+    {
+     "when": "date unknown",
+     "text": "Melito, bishop of Sardis, writes to the emperor that Christians in Asia are driven about by new decrees, and that informers use them to rob the innocent night and day.",
+     "reference": "Melito, in Eusebius, Church History IV.26.1 and IV.26.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25325-25326, 25471-25476, 25818-25826",
+     "note": "Melito's words survive as Eusebius copied them."
+    },
+    {
+     "when": "date unknown",
+     "text": "If this is done at the emperor's command, Melito writes, they gladly accept such a death. If the decree is not the emperor's, he begs not to be left to the plundering of the crowd.",
+     "reference": "Melito, in Eusebius, Church History IV.26.5-6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25826-25829, 25834-25838"
+    },
+    {
+     "when": "date unknown",
+     "text": "Melito tells the emperor that the Christians' philosophy grew up with the empire under Augustus, and that Hadrian, and the emperor's own father, wrote against new measures against them.",
+     "reference": "Melito, in Eusebius, Church History IV.26.7-10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25852-25855, 25890-25897",
+     "note": "Melito's own claim."
+    }
+   ]
+  },
+  {
+   "when": "Under Marcus Aurelius and his son Commodus, ruling together",
+   "headline": "Athenagoras answers the three charges",
+   "witness": "Athenagoras of Athens, in his own Plea for the Christians",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Athenagoras, an Athenian, addresses his plea to Marcus Aurelius and Commodus, conquerors of Armenia and Sarmatia, and above all philosophers.",
+     "reference": "Athenagoras, Plea, heading, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 72-74; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 11408-11414"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes that every people may worship its own gods, the Egyptians even cats and crocodiles. Yet Christians, he says, are hunted for their name alone, and slaughtered on the word of false accusers.",
+     "reference": "Athenagoras, Plea 1, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 88-95, 104-111; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 11430-11457"
+    },
+    {
+     "when": "date unknown",
+     "text": "He names the three charges: atheism, eating human flesh at their feasts, and incest. If they are true, he says, let the emperors destroy the Christians root and branch, with their wives and children.",
+     "reference": "Athenagoras, Plea 3, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 179-182; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 11553-11560"
+    },
+    {
+     "when": "date unknown",
+     "text": "If the charges are false, Athenagoras asks the emperors to look into the Christians' life, their teaching, and their loyalty to the emperors and their house.",
+     "reference": "Athenagoras, Plea 3, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 196-198; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 11571-11573"
+    },
+    {
+     "when": "date unknown",
+     "text": "Poets and philosophers, he says, write freely about God, and almost all speak of one God. Yet a law stands against the Christians, who say the same.",
+     "reference": "Athenagoras, Plea 7, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 311-318; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 11728-11735"
+    },
+    {
+     "when": "date unknown",
+     "text": "On the charge of eating human flesh, he says no accuser would dare claim to have seen it, and not one of the Christians' own slaves has made up such a thing.",
+     "reference": "Athenagoras, Plea 35, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 1534-1542; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 13319-13326"
+    },
+    {
+     "when": "date unknown",
+     "text": "Christians have given up the gladiator shows, fights of armed men and of wild beasts, he says, because to watch a man killed is close to killing him.",
+     "reference": "Athenagoras, Plea 35, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 1543-1550; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 13328-13332"
+    },
+    {
+     "when": "date unknown",
+     "text": "He ends by asking the emperors to bend their heads in approval, since Christians pray that the throne pass from father to son.",
+     "reference": "Athenagoras, Plea 37, cic/texts/athenagoras_legatio-grc_otto1857.txt lines 1598-1602; cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 13426-13431"
+    }
+   ]
+  },
+  {
+   "when": "Late 2nd century",
+   "headline": "At Antioch, Theophilus writes to a pagan friend about the age of the Christian books",
+   "witness": "Theophilus, in his own three books to Autolycus",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Autolycus, a pagan friend, boasts of his gods of wood and stone, and calls Theophilus a Christian as if it were a damning name. Theophilus answers that he is one.",
+     "reference": "Theophilus, To Autolycus I.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 7757-7762"
+    },
+    {
+     "when": "date unknown",
+     "text": "The two talk about God, and part as friends, each going to his own house.",
+     "reference": "Theophilus, To Autolycus II.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 8241-8246"
+    },
+    {
+     "when": "date unknown",
+     "text": "The friend believes the rumor that Christians share their wives, commit incest and eat human flesh. He thinks their writings are recent and their teaching an idle tale.",
+     "reference": "Theophilus, To Autolycus III.1 and III.4, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 10155-10157, 10239-10244"
+    },
+    {
+     "when": "date unknown",
+     "text": "Theophilus counts back the years to show that the writings of the law given through Moses are older than the Greeks' lawgivers and the Trojan war.",
+     "reference": "Theophilus, To Autolycus III.1 and III.23, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 10157-10160, 10880-10886"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes that Christians are forbidden even to watch the gladiator shows, so as to take no part in murder.",
+     "reference": "Theophilus, To Autolycus III.15, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 10610-10614"
+    },
+    {
+     "when": "date unknown",
+     "text": "He calls the three days before the lights in the sky were made types of the Trinity: God, his Word and his Wisdom.",
+     "reference": "Theophilus, To Autolycus II.15, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 8990-8993",
+     "note": "Otto's Latin of the same passage reads triadis."
+    },
+    {
+     "when": "after the death of the emperor he calls Aurelius Verus",
+     "text": "He counts the years of the world from its creation down to the death of the emperor Aurelius Verus.",
+     "reference": "Theophilus, To Autolycus III.28, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 11067-11078"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius calls Theophilus bishop of the church of Antioch, and lists his three books to Autolycus.",
+     "reference": "Eusebius, Church History IV.24, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25228-25231",
+     "note": "Only Eusebius, and Jerome after him, calls him bishop. His books do not say so."
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "A letter to Diognetus, by an unknown writer, describes Christians as strangers at home",
+   "witness": "The letter to Diognetus, in its own words",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The writer tells a man named Diognetus that Christians live in their own homelands, but as resident foreigners.",
+     "reference": "Epistle to Diognetus 5, cic/texts/pseudo-justin_epistle-to-diognetus-grc_lake1917.txt lines 312-317; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 2735-2738"
+    },
+    {
+     "when": "date unknown",
+     "text": "The letter says those who hate Christians cannot give a reason for their hatred.",
+     "reference": "Epistle to Diognetus 5, cic/texts/pseudo-justin_epistle-to-diognetus-grc_lake1917.txt lines 384-386; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 2762-2765"
+    },
+    {
+     "when": "date unknown",
+     "text": "It says Christians, punished day by day, grow all the more in number.",
+     "reference": "Epistle to Diognetus 6, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 2796-2799"
+    }
+   ]
+  },
+  {
+   "when": "Late 2nd to late 4th century",
+   "headline": "Later writers keep, use and answer them",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that Tatian was a hearer of Justin's, and broke from the church after Justin's martyrdom.",
+     "reference": "Irenaeus, Against Heresies I.28.1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 33663-33666"
+    },
+    {
+     "when": "date unknown",
+     "text": "At Alexandria, Clement writes that Tatian, in his book To the Greeks, discussed the age of Moses with accuracy, the argument Theophilus also made.",
+     "reference": "Clement of Alexandria, Stromata I.21, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 29724-29727"
+    },
+    {
+     "when": "date unknown",
+     "text": "At Carthage, Tertullian names Justin first among the earlier writers who had refuted the followers of Valentinus. He scoffs at the heavens they stack one on another for their gods.",
+     "reference": "Tertullian, Against the Valentinians 5 and 7, cic/texts/anf03_tertullian.xml lines 43153-43166, 43233-43237"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian, in his seven books written on behalf of Montanus, says in mockery that many Christians counted Melito a prophet.",
+     "reference": "Jerome, Lives of Illustrious Men 24, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40019-40022",
+     "note": "Known only from Jerome. Tertullian's books are not held."
+    },
+    {
+     "when": "in the early 300s",
+     "text": "Eusebius still has Quadratus's book, and copies passages of Melito's petition into his Church History.",
+     "reference": "Eusebius, Church History IV.3 and IV.26, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 21050-21052, 25818-25829"
+    },
+    {
+     "when": "about 392, by Jerome's own date",
+     "text": "Jerome writes that Quadratus said he had seen many whom the Lord healed in Judea, and some raised from the dead.",
+     "reference": "Jerome, Lives of Illustrious Men 19, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39904-39906; the year worked out from Jerome's preface, which takes the work down to the fourteenth year of the emperor Theodosius, line 38785",
+     "note": "Quadratus's own words say only that some of them lived to his day."
+    },
+    {
+     "when": "date unknown",
+     "text": "A summary of Methodius's book On the Resurrection says Methodius spoke of the devil as Athenagoras had.",
+     "reference": "Methodius, On the Resurrection, summary, cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml lines 35907-35911"
+    }
+   ]
+  },
+  {
+   "when": "1889",
+   "headline": "Aristides's defense is found again",
+   "lines": [
+    {
+     "when": "1889",
+     "text": "J. Rendel Harris finds a Syriac version of the whole of Aristides's defense in the library of the convent of St. Catharine on Mount Sinai.",
+     "reference": "The editor's introduction to Aristides, Ante-Nicene Fathers 9, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 18398-18403"
+    },
+    {
+     "when": "after the Syriac was found",
+     "text": "J. A. Robinson, reading Harris's translation, finds most of the Greek kept, unrecognized, inside a later Christian romance, the Life of Barlaam and Josaphat.",
+     "reference": "The editor's introduction to Aristides, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 18413-18420"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Plea for the Christians, in Greek",
+   "author": "Athenagoras of Athens",
+   "file": "cic/texts/athenagoras_legatio-grc_otto1857.txt"
+  },
+  {
+   "title": "Plea for the Christians and To Autolycus, in English, with Clement of Alexandria's Stromata",
+   "author": "Athenagoras of Athens and Theophilus of Antioch",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+  },
+  {
+   "title": "First Apology, in Greek",
+   "author": "Justin",
+   "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt"
+  },
+  {
+   "title": "First Apology, the Martyrdom of Justin and the Epistle to Diognetus, in English",
+   "author": "Justin and others",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+  },
+  {
+   "title": "Church History, Book IV, with Quadratus's passage and Melito's petition",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Epistle to Diognetus, in Greek",
+   "file": "cic/texts/pseudo-justin_epistle-to-diognetus-grc_lake1917.txt"
+  },
+  {
+   "title": "Against the Valentinians, in English",
+   "author": "Tertullian",
+   "file": "cic/texts/anf03_tertullian.xml"
+  }
+ ],
+ "uncertain": [
+  "Which emperor Aristides addressed. Eusebius says Hadrian, and so does the short heading of the Syriac version. Its longer heading names Caesar Titus Hadrianus Antoninus, and Justin addresses Antoninus Pius as Titus Aelius Hadrianus Antoninus.",
+  "What Aristides says of Christian life. His Greek survives only reworked inside a later Christian romance, Barlaam and Josaphat, and his Syriac version differs from it. Both say that Christians who have give to those who have not, and take a stranger under their roof as a brother. Only the Syriac adds that they fast two or three days to feed the needy, and that they persuade their slaves to become Christians and then call them brothers.",
+  "What Quadratus saw. Quadratus says that people Christ healed or raised from the dead lived on, some of them to his own day. Jerome, writing much later, says Quadratus had seen many of them.",
+  "Whether a plot killed Justin. Justin wrote that he expected to be plotted against, perhaps by Crescens, a philosopher at Rome who publicly called Christians atheists and impious to please the crowd. Eusebius, writing in the early 300s, says Justin was put to death through a plot laid by Crescens.",
+  "Whether the emperors answered. No old source records a reply to any of these defenses. Eusebius's Chronicle, in Jerome's Latin, sets the books of Quadratus and Aristides under Hadrian, then says Hadrian wrote to Minucius Fundanus, moved by a letter from the legate Serenus Granius, not by the defenses. Melito himself told Marcus Aurelius that Hadrian had written to Fundanus and many others, and that his father, while Marcus ruled with him, wrote to the cities forbidding any new measures against Christians.",
+  "Theophilus as bishop. Only Eusebius, and Jerome after him, calls Theophilus bishop of Antioch. His books to Autolycus do not say so."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "If this is done at your command, well and good. For a just ruler will never take unjust measures, and we gladly accept the honor of such a death.",
+   "printed": "If these things are done by thy command, well and good. For a just ruler will never take unjust measures; and we indeed gladly accept the honor of such a death.",
+   "work": "Melito of Sardis, petition to Marcus Aurelius, as quoted by Eusebius, Church History IV.26.5 (tr. A. C. McGiffert, Nicene and Post-Nicene Fathers, second series, 1, 1890)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "25826-25829",
+   "uncertain": "Eusebius's Greek for this book is held only in a damaged scan, so the English stands alone. Melito's words survive only as Eusebius copied them.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "But we hold that to watch a man being killed is close to killing him, so we have given up such shows. We do not even watch, so that we bring no guilt or stain on ourselves. How then could we commit murder?",
+   "printed": "Ἀλλ᾿ ἡμεῖς, πλησίον εἶναι τὸ ἰδεῖν τὸν φονευόμενον τοῦ ἀποκτεῖναι νομίζοντες, ἀπηγορεύσαμεν τὰς τοιαύτας θέας. Πῶς οὖν μηδὲ ὁρῶντες, ἵνα μὴ ἑαυτοῖς ἅγος καὶ μίασμα προστριψαίμεθα, φονεύειν δυνάμεθα;",
+   "work": "Athenagoras, Plea for the Christians 35 (ed. J. C. T. von Otto, 1857)",
+   "file": "cic/texts/athenagoras_legatio-grc_otto1857.txt",
+   "lines": "1546-1550",
+   "englishPrinted": "But we, deeming that to see a man put to death is much the same as killing him, have abjured such spectacles. How, then, when we do not even look on, lest we should contract guilt and pollution, can we put people to death?",
+   "englishFile": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "englishLines": "13330-13349",
+   "uncertain": "πλησίον is near, so close to killing, not the same as killing.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "They live in their own homelands, but as resident foreigners. They share in everything as citizens, and endure everything as strangers. Every foreign land is a homeland to them, and every homeland is foreign.",
+   "printed": "πατρίδας οἰκοῦσιν ἰδίας, ἀλλ’ ὡς πάροικοι: μετέχουσι πάντων ὡς πολῖται, καὶ πάνθ̓ ὑπομένουσιν ὡς ξένοι: πᾶσα ξένη πατρίς ἐστιν αὐτῶν, καὶ πᾶσα πατρὶς ξένη.",
+   "work": "Epistle to Diognetus 5.5 (ed. K. Lake, 1917)",
+   "file": "cic/texts/pseudo-justin_epistle-to-diognetus-grc_lake1917.txt",
+   "lines": "312-317",
+   "englishPrinted": "They dwell in their own countries, but simply as sojourners. As citizens, they share in all things with others, and yet endure all things as if foreigners. Every foreign land is to them as their native country, and every land of their birth as a land of strangers.",
+   "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "englishLines": "2735-2738",
+   "secondReading": "same"
+  }
+ ]
+}

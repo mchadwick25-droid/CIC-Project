@@ -1,0 +1,369 @@
+{
+ "shortDescription": "At Carthage, Rome and Nicomedia, Christian writers defended their faith in Latin to the educated people who despised it. They answered the charges against Christians out of the pagans' own books.",
+ "dates": "c. 200 to early 4th c.",
+ "timeline": [
+  {
+   "when": "Around 200, under Severus and Caracalla",
+   "headline": "Tertullian defends the Christians in Latin at Carthage",
+   "witness": "Tertullian of Carthage, in his own books",
+   "lines": [
+    {
+     "when": "in the reigns of Severus and Antoninus Caracalla",
+     "text": "Jerome writes that Tertullian, a presbyter from Carthage in the province of Africa, flourished in these reigns.",
+     "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40494-40499",
+     "note": "Jerome wrote much later."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian addresses his Apology, a defense speech, to the rulers who sit in judgment on their tribunals, asking them to look into the charges against the Christians.",
+     "reference": "Tertullian, Apology 1, cic/texts/anf03_tertullian.xml lines 1448-1453"
+    },
+    {
+     "when": "date unknown",
+     "text": "He says Christians are accused of killing and eating a little child at a holy rite, and of incest after the feast, when dogs overturn the lights.",
+     "reference": "Tertullian, Apology 7, cic/texts/anf03_tertullian.xml lines 1946-1950"
+    },
+    {
+     "when": "date unknown",
+     "text": "Torture, he writes, is turned around for Christians: the executioner is to make them deny what they are, not confess what they do.",
+     "reference": "Tertullian, Apology 7, cic/texts/anf03_tertullian.xml lines 1956-1958"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes that Christians pray for the emperors, their ministers and all in authority, and for peace.",
+     "reference": "Tertullian, Apology 39, cic/texts/anf03_tertullian.xml lines 3872-3877"
+    },
+    {
+     "when": "date unknown",
+     "text": "Each month, he says, those who wish give a small gift, to support and bury the poor and to keep orphans, old people, the shipwrecked, and those in the mines, on the islands or in prison for their faith.",
+     "reference": "Tertullian, Apology 39, cic/texts/anf03_tertullian.xml lines 3895-3907"
+    },
+    {
+     "when": "date unknown",
+     "text": "He says this love puts a brand on Christians in the eyes of others: see how they love one another, say people who hate one another.",
+     "reference": "Tertullian, Apology 39, cic/texts/anf03_tertullian.xml lines 3907-3913"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Cornelius Tacitus first suggested that the Christians' god is an ass's head.",
+     "reference": "Tertullian, To the Nations I.11, cic/texts/anf03_tertullian.xml lines 10078-10082"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes against Marcion, a teacher of Pontus who brought in two Gods, the Creator and a god of his own.",
+     "reference": "Tertullian, Against Marcion I.2, cic/texts/anf03_tertullian.xml lines 22609-22612"
+    },
+    {
+     "when": "date unknown",
+     "text": "He names Justin first among the earlier writers who had refuted the heretics.",
+     "reference": "Tertullian, Against the Valentinians 5, cic/texts/anf03_tertullian.xml lines 43158-43163"
+    },
+    {
+     "when": "in middle life",
+     "text": "Jerome says the envy and abuse of the clergy of the Roman church drove Tertullian to the teaching of Montanus, the New Prophecy, which he mentions in many of his books.",
+     "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40506-40509",
+     "note": "The motive is Jerome's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "In On Monogamy, Tertullian writes that opponents reject the Paraclete, the Holy Spirit, because they hold him the giver of a new and harsh discipline.",
+     "reference": "Tertullian, On Monogamy 2, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 5769-5773"
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "Minucius Felix writes the Octavius, a day of argument on the shore at Ostia",
+   "witness": "Minucius Felix, in his own dialogue",
+   "lines": [
+    {
+     "when": "after his friend Octavius had died",
+     "text": "Minucius looks back on his friend Octavius, and on the argument by which Octavius won Caecilius to the faith.",
+     "reference": "Minucius Felix, Octavius 1, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17195-17221"
+    },
+    {
+     "when": "at the vintage, on a court holiday",
+     "text": "Minucius, Octavius and Caecilius go to Ostia, near Rome, and walk along the shore early in the morning.",
+     "reference": "Octavius 2, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17245-17255"
+    },
+    {
+     "when": "date unknown",
+     "text": "Caecilius sees an image of the god Serapis, raises his hand to his mouth and kisses it. Octavius rebukes Minucius for letting his friend give himself up to stones anointed and crowned.",
+     "reference": "Octavius 2-3, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17256-17273; Latin, cic/texts/minucius-felix_octavius-lat_halm1867-csel2-tei.txt lines 220-224"
+    },
+    {
+     "when": "date unknown",
+     "text": "The three sit down on the rocks of the breakwater to argue it out.",
+     "reference": "Octavius 4, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17321-17331"
+    },
+    {
+     "when": "date unknown",
+     "text": "Caecilius holds that the old religion is ancient and useful, and calls the Christians a people that lurks and shuns the light, silent in public and talkative in corners.",
+     "reference": "Octavius 8, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17558-17563, 17582-17589; Latin, cic/texts/minucius-felix_octavius-lat_halm1867-csel2-tei.txt lines 826-827",
+     "note": "Minucius gives the pagan's case."
+    },
+    {
+     "when": "date unknown",
+     "text": "By common report, Caecilius says, a newcomer is made to kill an infant hidden in flour, and their feasts end in incest when a dog tied to the lamp puts out the light. He cites a speech of the orator Fronto for the feast.",
+     "reference": "Octavius 9, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17640-17666"
+    },
+    {
+     "when": "date unknown",
+     "text": "Octavius answers that he and his friends once believed these fables, never looked into. As lawyers they defended the worst criminals, but sometimes tortured Christians who confessed, to make them deny it.",
+     "reference": "Octavius 28, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 18824-18845"
+    },
+    {
+     "when": "date unknown",
+     "text": "Christians, Octavius says, keep to one marriage, share sober meals, and love one another because they do not know how to hate.",
+     "reference": "Octavius 31, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 19018-19044"
+    },
+    {
+     "when": "date unknown",
+     "text": "No temple can hold God, he says, and the offering God wants is a good and pure mind.",
+     "reference": "Octavius 32, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 19058-19076"
+    },
+    {
+     "when": "as the sun is setting",
+     "text": "Beaten with the philosophers' own weapons, Caecilius yields. He puts off what remains until the next day, and the three part glad.",
+     "reference": "Octavius 39-41, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 19475-19526"
+    }
+   ]
+  },
+  {
+   "when": "In Diocletian's reign",
+   "headline": "Arnobius, a teacher of rhetoric at Sicca, becomes a Christian and writes seven books against the gods",
+   "lines": [
+    {
+     "when": "in the reign of Diocletian",
+     "text": "Jerome writes that Arnobius taught rhetoric, the art of public speaking, at Sicca in Africa, and wrote books against the pagans.",
+     "reference": "Jerome, Lives of Illustrious Men 79, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41022-41025"
+    },
+    {
+     "when": "in the twenty-first year of Constantine, by the Chronicle",
+     "text": "Jerome's Chronicle says dreams drove Arnobius, still a pagan, toward belief, and the bishop would not take him in. So he wrote brilliant books against his old religion, and at last, as if with hostages for his devotion, he was let in.",
+     "reference": "Jerome, Chronicle, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 45066-45076; cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt lines 21713-21718",
+     "note": "Jerome's two books set Arnobius in different reigns. The story rests on Jerome alone."
+    },
+    {
+     "when": "date unknown",
+     "text": "Arnobius answers the charge that since the Christians came the world has gone to ruin, and the gods have left the earth.",
+     "reference": "Arnobius, Against the Nations I.1, cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml lines 39480-39515"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes that Christians have been in the world almost three hundred years, something less or more.",
+     "reference": "Arnobius, Against the Nations I.13, cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml lines 39891-39895"
+    },
+    {
+     "when": "date unknown",
+     "text": "He owns his past: whenever he saw a stone smeared with olive oil, he fawned on it as if a power were in it, and begged favors from it.",
+     "reference": "Arnobius, Against the Nations I.39, cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml lines 40657-40670; Latin, cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt lines 1132-1135"
+    },
+    {
+     "when": "date unknown",
+     "text": "He asks why the Christians' writings are given to the flames and their meetings broken up, where prayer is made for all in authority, for soldiers, kings, friends and enemies, the living and the dead.",
+     "reference": "Arnobius, Against the Nations IV.36, cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml lines 48676-48684"
+    }
+   ]
+  },
+  {
+   "when": "303, in the eighth consulship of Diocletian",
+   "headline": "At Nicomedia, Lactantius sees the church leveled and writes the Divine Institutes",
+   "witness": "Lactantius, in his own books",
+   "lines": [
+    {
+     "when": "in the reign of Diocletian",
+     "text": "Jerome writes that Lactantius, a pupil of Arnobius, was called to Nicomedia to teach rhetoric. Few pupils came, since it was a Greek city, and he turned to writing.",
+     "reference": "Jerome, Lives of Illustrious Men 80, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41033-41038",
+     "note": "That he was Arnobius's pupil rests on Jerome."
+    },
+    {
+     "when": "the feast of Terminus, in the eighth consulship of Diocletian and the seventh of Maximian",
+     "text": "At dawn the prefect and his officers force the church at Nicomedia, burn the Scriptures, and the Praetorian Guards level the building, on a day chosen to end the Christian religion.",
+     "reference": "Lactantius, On the Deaths of the Persecutors 12, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 10152-10161; the year worked out from the consuls Lactantius names",
+     "note": "Lactantius's own account."
+    },
+    {
+     "when": "the next day",
+     "text": "An edict strips Christians of all honors, and lays them open to torture whatever their rank.",
+     "reference": "Lactantius, On the Deaths of the Persecutors 13, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 10174"
+    },
+    {
+     "when": "date unknown",
+     "text": "Lactantius writes that he was teaching rhetoric in Bithynia when the temple of God was overthrown, and that two men there insulted the truth as it lay overthrown.",
+     "reference": "Lactantius, Divine Institutes V.2, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 4487"
+    },
+    {
+     "when": "date unknown",
+     "text": "The learned, he writes, give the Scriptures no credit, because the prophets spoke in common and simple language.",
+     "reference": "Lactantius, Divine Institutes V.1, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 4456-4468"
+    },
+    {
+     "when": "date unknown",
+     "text": "Of the writers known to him, he says, Minucius Felix stood well among the pleaders, and his Octavius shows how fit a champion of truth he might have been. Tertullian was skilled in every kind of literature, but lacked readiness and polish in speech.",
+     "reference": "Lactantius, Divine Institutes V.1, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 4470-4472; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 22701-22705"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian's Apology, Lactantius grants, pleaded the same cause in full. But answering accusers is one thing, and teaching the whole faith another, and he takes on the second.",
+     "reference": "Lactantius, Divine Institutes V.4, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 4565-4571"
+    },
+    {
+     "when": "date unknown",
+     "text": "Lactantius cites the Octavius of Minucius Felix by name.",
+     "reference": "Lactantius, Divine Institutes I.11, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 890"
+    }
+   ]
+  },
+  {
+   "when": "Early 4th century and after",
+   "headline": "Later writers name, judge and list the Latin defenders",
+   "lines": [
+    {
+     "when": "in the early 300s",
+     "text": "Eusebius, writing in Greek, quotes Tertullian's Apology from a Greek translation, and calls him well versed in the laws of the Romans and one of the most distinguished men in Rome.",
+     "reference": "Eusebius, Church History II.2.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 10241-10242, 10272-10273, 10279-10280, 10292, 10303-10304"
+    },
+    {
+     "when": "in his extreme old age",
+     "text": "Jerome writes that Lactantius became tutor in Gaul to Crispus Caesar, a son of Constantine.",
+     "reference": "Jerome, Lives of Illustrious Men 80, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41051-41054"
+    },
+    {
+     "when": "date unknown",
+     "text": "Gennadius writes that Commodian, a man of secular learning, read the Christians' writings, accepted the faith, and wrote Against the Pagans in barely tolerable language, half in verse. He says Commodian followed Tertullian, Lactantius and Papias as authorities.",
+     "reference": "Gennadius, Lives of Illustrious Men 15, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 42424-42437",
+     "note": "His date is not known."
+    },
+    {
+     "when": "date unknown",
+     "text": "Asked why he quotes pagan books, Jerome names Tertullian, Minucius Felix, Arnobius and Lactantius together, and says their books are full of the pagans' own learning.",
+     "reference": "Jerome, Letter 70, to Magnus, cic/texts/npnf206_jerome-principal-works.xml lines 16477-16480, 16704-16721"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome judges their style: Tertullian packed with meaning but rugged and uncouth, Lactantius with a flow of eloquence worthy of Cicero, Arnobius lengthy and unequal.",
+     "reference": "Jerome, Letter 58, cic/texts/npnf206_jerome-principal-works.xml lines 14107-14116"
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine writes that many Latin writers of authority said three persons, since they could find no fitter way to put in words what they understood without words. He names none of them.",
+     "reference": "Augustine, On the Trinity V.9, cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml lines 8211-8227"
+    },
+    {
+     "when": "date unknown",
+     "text": "A Latin list of books not to be received, carried under the name of Gelasius, sets the works of Tertullian, Lactantius, Commodian and Arnobius among the apocrypha.",
+     "reference": "The list under Gelasius's name, in Mansi, volume 8, cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt lines 17220-17233, 17301",
+     "note": "Who made the list, and when, is disputed."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Octavius, in Latin",
+   "author": "Minucius Felix",
+   "file": "cic/texts/minucius-felix_octavius-lat_halm1867-csel2-tei.txt"
+  },
+  {
+   "title": "The Octavius, and Tertullian's On Monogamy, in English",
+   "author": "Minucius Felix and Tertullian",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+  },
+  {
+   "title": "The Apology and Against the Valentinians, in English",
+   "author": "Tertullian",
+   "file": "cic/texts/anf03_tertullian.xml"
+  },
+  {
+   "title": "Against the Nations, in Latin",
+   "author": "Arnobius of Sicca",
+   "file": "cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt"
+  },
+  {
+   "title": "Against the Heathen, in English",
+   "author": "Arnobius of Sicca",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+  },
+  {
+   "title": "Divine Institutes, in Latin",
+   "author": "Lactantius",
+   "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt"
+  },
+  {
+   "title": "The Divine Institutes and On the Deaths of the Persecutors, in English",
+   "author": "Lactantius",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men",
+   "author": "Jerome",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Chronicle, in Latin",
+   "author": "Jerome",
+   "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+  },
+  {
+   "title": "Jerome's Chronicle on Arnobius, as printed by Paul Monceaux",
+   "author": "Jerome",
+   "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt"
+  },
+  {
+   "title": "Letter 70, to Magnus",
+   "author": "Jerome",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml"
+  }
+ ],
+ "uncertain": [
+  "When Minucius wrote. No old source fixes the date of the Octavius. Lactantius names Minucius before Tertullian, and Jerome names him after.",
+  "When Arnobius taught. Jerome's Lives of Illustrious Men puts him at Sicca in the reign of Diocletian; Jerome's Chronicle files the same entry among the years of Constantine. Arnobius himself writes that Christians had been in the world almost three hundred years, something less or more.",
+  "How Arnobius became a Christian. The dreams, the bishop's refusal and the books written as hostages rest on Jerome's Chronicle alone, written about eighty years later.",
+  "Arnobius's pupil. That Lactantius was Arnobius's pupil rests on Jerome alone, in his Lives and in his letter to Magnus.",
+  "The charges in full. Caecilius says the Christians gather the dregs of the people, the unlearned and credulous women; that they meet at night; that they worship the head of an ass, and a man punished for his crime, with the wood of his cross; and that they have no altars, temples or images. For the feast he cites a speech of the orator Fronto. Tertullian says Cornelius Tacitus first suggested the ass's head.",
+  "Caecilius's own words. He says that as Octavius is his conqueror, so he triumphs over error, and puts off what remains until the next day, since the sun is setting.",
+  "The monthly gift. Tertullian says it also kept old people confined to the house, the shipwrecked, and any in the mines, banished to the islands or shut up in prison for their faith.",
+  "Tertullian's other quarrels. He names Justin, philosopher and martyr, among the earlier writers against the heretics, and he wrote against Marcion, a teacher who brought in two Gods, the Creator and a god of his own.",
+  "What Arnobius answered. His books answer the charge that since the Christians came the world has gone to ruin and the gods have left the earth. He asks why the Christians' writings are given to the flames and their meetings broken up, where prayer is made for all in authority, for soldiers, kings, friends and enemies, the living and the dead.",
+  "Lactantius on the learned. He says the wise and the learned give the Scriptures no credit, because the prophets spoke in common and simple language, so that wisdom and truth need fit heralds; the learned who came over had not been enough to defend it.",
+  "Lactantius at Nicomedia. Jerome says he had few pupils there, since it was a Greek city, and so turned to writing.",
+  "Commodian. Only Gennadius tells of him: a man of secular learning who read the Christians' writings, accepted the faith, and wrote against the pagans in barely tolerable semi-versified language. His date is not known.",
+  "Three persons. Augustine later wrote that many Latin writers of authority said three persons, because they could find no fitter way to put in words what they understood without words. He names none of them.",
+  "The list of books not to be received. It is carried under the name of Gelasius, and in a second form under Hormisdas; who made it, and when, is disputed."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "A people that lurks and shuns the light, silent in public, chattering in corners.",
+   "printed": "latebrosa et lucifuga natio, in publicum muta, in angulis garrula",
+   "work": "Minucius Felix, Octavius 8.4, ed. Halm",
+   "file": "cic/texts/minucius-felix_octavius-lat_halm1867-csel2-tei.txt",
+   "lines": "826-827",
+   "uncertain": "Halm prints lucifuga; his note at lines 862-863 gives the manuscript's lucifugax, with the same sense.",
+   "englishPrinted": "a people skulking and shunning the light, silent in public, but garrulous in corners",
+   "englishFile": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "englishLines": "17588-17589",
+   "secondReading": "same"
+  },
+  {
+   "modern": "He could not win from the bishop the faith he had always attacked. So he labored by lamplight over most brilliant books against his old religion. At last, as if with hostages for his devotion, he won the treaty.",
+   "printed": "neque ah episcopo impetraret fidem quam semper impugnaverat , elucubravit adversum pristinam religionein luculentissimos libros, et tandem veluti quibusdam obsidibus pietatis fœdus impetravit",
+   "work": "Jerome, Chronicle, on Arnobius, as printed by Paul Monceaux",
+   "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt",
+   "lines": "21713-21718",
+   "uncertain": "Spelled as the scan of Monceaux's print reads: ah and religionein stand for ab and religionem. Fotheringham's edition of the Chronicle, lines 45070-45076, gives the same words, with its own scan slips (ncque for neque, ptetatts for pietatis).",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "Whenever I had seen a stone made slick and smeared with olive oil, I fawned on it as if a power were present in it. I spoke to it, and begged favors from a block that felt nothing.",
+   "printed": "si quando conspexeram lubricatum lapidem et ex oliui unguine sordidatum, tamquam inesset uis praesens, adulabar, adfabar et beneficia poscebam nihil sentiente de trunco",
+   "work": "Arnobius, Against the Nations I.39, ed. Reifferscheid",
+   "file": "cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt",
+   "lines": "1132-1135",
+   "englishPrinted": "whenever I espied an anointed stone and one bedaubed with olive oil, as if some power resided in it I worshipped it, I addressed myself to it and begged blessings from a senseless stock.",
+   "englishFile": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "englishLines": "40667-40670",
+   "secondReading": "minor"
+  }
+ ]
+}
