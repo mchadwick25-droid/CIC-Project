@@ -6164,3 +6164,11 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 ## 2026-11-26 — A new brief removes its old recording (Mark)
 
 **Decided (Mark, 2026-11-26).** "We are removing all old recordings when we put in a new brief." When a new brief replaces a text, its old recording, its manifest entry and its paragraph times are removed from `cft-website/audio/tree/`, not kept hidden; git history keeps them. Done now for the eleven new briefs whose recordings no longer matched: batch 11's `greek-apologists-second-century`, `latin-apologists`, `apocryphal-and-pseudepigraphal-literature`, `marcion-marcionism`, `manichaeism`, `ebionite-nazoraean-current`, `antiochene-church-third-century`, `roman-church-third-century`, and the person references `john-chrysostom`, `basil-of-caesarea`, `epiphanius-of-salamis`. Each shows its text until it is recorded again. The rule goes into the Stage Two Kit's recording section.
+
+## 2026-11-26 — Change order: a brief's recording stays until its new one replaces it (Mark)
+
+**Why.** "A new brief removes its old recording" (2026-11-26) was carried out too early: eleven brief recordings were removed (pull request #1820) before any new recording existed to replace them.
+
+**Decided (Mark, 2026-11-26).** "wait, we don't remove any brief recordings until we replace them, we remove the ones that don't fit the structure on the built worlds." This replaces the earlier entry.
+1. A brief's old recording, its manifest entry and its paragraph times stay until its new recording is made; the new recording replaces them. The eleven removed by #1820 are restored as they were.
+2. On the built worlds, recordings that do not fit the new card structure ("The card design: one layout, and a timeline in periods", 2026-11-25) are removed. Which ones those are comes to Mark before anything is removed.
