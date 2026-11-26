@@ -45,3 +45,26 @@ Short descriptions also drafted, unchecked: post-apostolic-house-church and syri
 ## Mark's rulings in this batch
 
 All are quoted verbatim in `Header.md`: the short-description rulings, and the widened scope of 2026-11-26.
+
+## Library gaps (for the era 1 Library thread)
+
+**Sections with nothing held**
+- The Sister Who Saw Visions (Tertullian, On the Soul 9), Legacy and today: no later old writer found who keeps or quotes the passage.
+- Era 1, Legacy and today: waits for the era brief.
+- Polycarp: no documented story of his own; no `modernWorks`.
+- Councils of 251: no documented story told under them; no `modernWorks`.
+- Africa river: no river leaves it in era 1.
+
+**Claims flagged as unsourced or modern**
+- Story text ("The Sister Who Saw Visions"): "the charge of disorder", "She does not interrupt", "elders", "valued", "one of the very few descriptions… not the frenzy"; the rendering "tender and lucid…" (not the held English); census date "c. 207–212".
+- Connection note (House Church → Montanism): "about 192" (translator's footnote); "the faithful" (the hostile writer's word, in the narrator's voice).
+- Africa river origin record: "first seen clearly".
+- Councils of 251: three council fields with Hefele's dates or views; the African bishops' letter granting peace has no old year (Hefele gives 252).
+- Polycarp: `teaser` and `sourcing` carry modern years (c. 110-155).
+
+**Years no old source gives**
+- Alexandria: 150 and 400 (shown "c. 180 to 4th c.").
+- Syriac: 410 for the synod of Seleucia-Ctesiphon (the acts give Yazdegerd's 11th year; 410 is Chabot's reckoning).
+- Latin Pastoral: the 240s (Cyprian's election rests on modern reckoning; shown "250 to 430").
+- Open-Gaps 429's list: Latin Apologists `end` 320 and the years 205 and 250; Apocryphal c. 100-900; Marcionism `start` 140; Ebionites dates, start, end and region; Greek Apologists 124.
+- Montanism: the start (Gratus's proconsulship has no held year; Epiphanius gives about the 19th year of Antoninus Pius).
