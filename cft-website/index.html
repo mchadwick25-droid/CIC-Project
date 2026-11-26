@@ -135820,16 +135820,16 @@ async function loadBuiltWorldOrientation(censusId){
     join('fold-legacy','Legacy and today','legacy',[['Legacy',wrap(o.legacy&&o.legacy.length?R.legacy(compiled,nopts):'')]]);
     const notes=[
       ['Doctrinal floor note',wrap(o.floor_note&&o.floor_note.text?R.floor_note(compiled):'')],
-      ['This world’s sources',wrap((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length)?R.sourcing(compiled):'')]
+      ['This tradition’s sources',wrap((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length)?R.sourcing(compiled):'')]
     ].filter(([,html])=>html), sourcesFold=panelBody.querySelector('#sources-fold .fold-b');
     if(sourcesFold&&notes.length)sourcesFold.insertAdjacentHTML('afterbegin',notes.map(([t,html])=>`<h3>${esc(t)}</h3>${html}`).join(''));
     else if(notes.length)put('sources',foldHTML('Sources',0,notes,'sources-fold'));
     panelBody.querySelectorAll('.orient-slot').forEach(el=>el.remove());
     if(panelBody.querySelector('.fold'))slot.remove();
-    else{slot.innerHTML='<p class="meta">No further orientation content recorded for this world yet.</p>';slot.classList.remove('orient-loading');}
+    else{slot.innerHTML='<p class="meta">No further orientation content recorded for this tradition yet.</p>';slot.classList.remove('orient-loading');}
     panelBody.querySelectorAll('audio').forEach(narrApplyRate);
   }catch(err){
-    slot.innerHTML='<p class="meta">This world’s fuller record could not be loaded right now. Try reopening this panel.</p>';
+    slot.innerHTML='<p class="meta">This tradition’s fuller record could not be loaded right now. Try reopening this panel.</p>';
     slot.classList.remove('orient-loading');
     console.error('orientation fetch failed for',censusId,err);
   }
@@ -136010,7 +136010,7 @@ function openPanelNow(m){
   }
   const orient=k=>isBuiltWorld?`<div class="orient-slot" data-orient="${k}"></div>`:'';
   h+=[
-    isBuiltWorld?'<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>':'',
+    isBuiltWorld?'<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this tradition’s fuller record…</p></div>':'',
     foldHTML('Timeline',timelineCount(m.timeline),[['',timelineHTML(m.timeline)]],'fold-timeline'),
     isAcross(m)?'':foldHTML('People and stories',peopleList(m).length+(m.documentedStories||[]).length,[
       ['People',peopleHTML(m)],
