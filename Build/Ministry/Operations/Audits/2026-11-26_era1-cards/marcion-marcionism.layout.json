@@ -1,0 +1,423 @@
+{
+ "shortDescription": "From Rome to Persia, churches followed the teacher Marcion of Pontus. They held that Jesus came from a good Father, above the God who made the world, and they read one Gospel, from Luke, with ten letters of Paul.",
+ "dates": "mid-2nd to 5th c.",
+ "timeline": [
+  {
+   "when": "Middle of the 2nd century, under Antoninus Pius",
+   "headline": "Marcion of Pontus teaches at Rome, and the church there casts him out",
+   "lines": [
+    {
+     "when": "about 140, the third year of Antoninus",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, says that while Hyginus was bishop of Rome, Valentinus and Cerdo, Marcion's teacher, came to Rome.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42747-42750; the year is a conversion, worked out from the Chronicle's own date, the third year of Antoninus, counting his reign from 138",
+     "note": "Written more than two centuries later. It names Cerdo here, not Marcion."
+    },
+    {
+     "when": "in the time of Hyginus, bishop of Rome",
+     "text": "Irenaeus writes that Cerdo came to live at Rome in Hyginus's time, teaching that the God of the law and the prophets was not the Father of Jesus Christ. Marcion of Pontus, he says, succeeded Cerdo and developed his teaching.",
+     "reference": "Irenaeus, Against Heresies I.27.1-2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 33564-33573",
+     "note": "Irenaeus, a bishop and an opponent, wrote within a generation of Marcion."
+    },
+    {
+     "when": "while Anicetus was bishop of Rome",
+     "text": "Irenaeus writes that Marcion flourished while Anicetus was bishop of Rome.",
+     "reference": "Irenaeus, Against Heresies III.4.3, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 39983-39984"
+    },
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that Marcion taught that Jesus came from a Father above the God who made the world, and that Jesus abolished the prophets and the law.",
+     "reference": "Irenaeus, Against Heresies I.27.2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 33576-33582"
+    },
+    {
+     "when": "date unknown",
+     "text": "Irenaeus says Marcion cut the Lord's birth and much of his teaching from the Gospel of Luke, and cut from Paul's letters every passage that calls the maker of the world the Father of Jesus Christ.",
+     "reference": "Irenaeus, Against Heresies I.27.2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 33582-33591",
+     "note": "An opponent's account."
+    },
+    {
+     "when": "in the reign of Antoninus Pius",
+     "text": "Justin, in a defense of the Christians addressed to the emperor Antoninus Pius, says Marcion of Pontus is still alive and teaching, and has led many of every nation to believe in another god greater than the Creator.",
+     "reference": "Justin, First Apology 1 and 26, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 13961-13963, 14943-14948"
+    },
+    {
+     "when": "in the reign of Antoninus Pius",
+     "text": "Justin writes that Marcion's followers are also called Christians, and that they are not persecuted or put to death for their opinions.",
+     "reference": "Justin, First Apology 26, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 14948-14961"
+    },
+    {
+     "when": "in the reign of Antoninus, for the most part",
+     "text": "Tertullian writes that Marcion and Valentinus were at first believers in the church of Rome. For their restless curiosity, which spread to the brethren, they were expelled more than once, and Marcion left with the two hundred sesterces he had brought into the church.",
+     "reference": "Tertullian, Prescription Against Heretics 30, cic/texts/anf03_tertullian.xml lines 21331-21342; Latin, cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt lines 1775-1777",
+     "note": "Tertullian names the bishop of Rome then as Eleutherus."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Marcion later professed repentance, and was promised peace with the church if he brought back all those he had trained, but died before he could.",
+     "reference": "Tertullian, Prescription Against Heretics 30, cic/texts/anf03_tertullian.xml lines 21344-21348"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Marcion's followers place about 115 years and six and a half months between Christ and Marcion, who first made his god known in the time of Antoninus.",
+     "reference": "Tertullian, Against Marcion I.19, cic/texts/anf03_tertullian.xml lines 23718-23729",
+     "note": "The span is the Marcionites' own reckoning, as Tertullian reports it."
+    }
+   ]
+  },
+  {
+   "when": "Late 2nd century",
+   "headline": "Marcion's followers divide over how many first sources of all things there are",
+   "lines": [
+    {
+     "when": "late in the 2nd century",
+     "text": "Rhodon, a writer from Asia taught by Tatian, writes a book against Marcion's teaching, and says that in his time Marcion's followers are divided into various opinions.",
+     "reference": "Rhodon, in Eusebius, Church History V.13.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28896-28897, 28922-28928",
+     "note": "Eusebius sets Rhodon in this time and copies his words."
+    },
+    {
+     "when": "date unknown",
+     "text": "Rhodon writes that Apelles holds one first principle, or source of all things. Potitus and Basilicus hold two, as Marcion himself does, and Syneros holds three.",
+     "reference": "Rhodon, in Eusebius, Church History V.13.2-4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28966-28967, 29002, 29070-29074, 29093-29105"
+    },
+    {
+     "when": "date unknown",
+     "text": "Apelles, an old man when Rhodon speaks with him, says a person's teaching need not be examined. Those who trust in the Crucified will be saved, he says, if they are found doing good works.",
+     "reference": "Rhodon, in Eusebius, Church History V.13.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29111-29123",
+     "note": "Rhodon's report of their talk."
+    },
+    {
+     "when": "date unknown",
+     "text": "Asked how he knows there is one first source, Apelles says the prophecies refute themselves. He swears that he does not know how there is one unbegotten God, but believes it, and Rhodon laughs at him.",
+     "reference": "Rhodon, in Eusebius, Church History V.13.6-7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29160-29163, 29190-29199"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Apelles left Marcion's self-denial for the company of a woman, withdrew to Alexandria, and came back no longer a Marcionite.",
+     "reference": "Tertullian, Prescription Against Heretics 30, cic/texts/anf03_tertullian.xml lines 21358-21366",
+     "note": "An opponent's charge. Rhodon counts Apelles among Marcion's followers."
+    },
+    {
+     "when": "date unknown",
+     "text": "An anonymous writer against the Montanists says the Marcionites claim a multitude of martyrs for Christ, and denies that this proves they hold the truth.",
+     "reference": "The anonymous writer, in Eusebius, Church History V.16.21, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29925-29930"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Bardaisan, in Mesopotamia, a skilled debater in the Syriac tongue, wrote dialogues against Marcion's followers in his own language.",
+     "reference": "Eusebius, Church History IV.30.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26525-26527, 26633-26637"
+    }
+   ]
+  },
+  {
+   "when": "About 207, in the fifteenth year of Severus",
+   "headline": "At Carthage, Tertullian writes five books against Marcion",
+   "witness": "Tertullian of Carthage, an opponent, in his own Against Marcion",
+   "lines": [
+    {
+     "when": "the fifteenth year of the emperor Severus, so about 207",
+     "text": "Tertullian writes Against Marcion in five books. In the first he says he is writing in the fifteenth year of the emperor Severus.",
+     "reference": "Tertullian, Against Marcion I.15, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 15391-15394; the title, cic/texts/anf03_tertullian.xml line 22291; the year is a conversion, worked out from Tertullian's own date, counting Severus's reign from 193"
+    },
+    {
+     "when": "date unknown",
+     "text": "In their churches, Tertullian writes, the body is baptized only in virginity, widowhood or the single life, or after divorce. He says the rule condemns marriage.",
+     "reference": "Tertullian, Against Marcion I.29, cic/texts/anf03_tertullian.xml lines 24533-24542; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 16348-16352"
+    },
+    {
+     "when": "date unknown",
+     "text": "Their god, Tertullian writes, still uses the Creator's water to wash his people, oil to anoint them, honey and milk to feed them as children, and bread to represent his own body.",
+     "reference": "Tertullian, Against Marcion I.14, cic/texts/anf03_tertullian.xml lines 23412-23418; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 15351-15355"
+    },
+    {
+     "when": "date unknown",
+     "text": "Their good god, Tertullian writes, does not punish. Asked what becomes of a sinner on the last day, they answer that he is cast away out of sight.",
+     "reference": "Tertullian, Against Marcion I.27, cic/texts/anf03_tertullian.xml lines 24444-24446, 24462-24464"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian asks why, in persecution, they do not save their lives by denying their faith when the incense box is held out to them. God forbid, they answer.",
+     "reference": "Tertullian, Against Marcion I.27, cic/texts/anf03_tertullian.xml lines 24452-24457; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 16287-16289",
+     "note": "Tertullian's argument with his reader, not a recorded trial."
+    }
+   ]
+  },
+  {
+   "when": "Early 3rd century",
+   "headline": "Clement and Hippolytus write of their rule against marriage, and of a new teacher",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Clement of Alexandria writes that the Marcionites hold nature to be evil, made by a just maker from evil matter. So they abstain from marriage, not wishing to fill the world the Creator made.",
+     "reference": "Clement of Alexandria, Stromata III.3, in Latin, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 35337-35343",
+     "note": "Clement's Greek is not held."
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that Marcion called marriage destruction, thinking to annoy the Creator by abstaining from what he made.",
+     "reference": "Hippolytus, Refutation of All Heresies X, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 15388-15392"
+    },
+    {
+     "when": "in Hippolytus's own times",
+     "text": "Hippolytus writes that a follower of Marcion, Prepon, an Assyrian, set out his teaching in a work addressed to Bardaisan.",
+     "reference": "Hippolytus, Refutation of All Heresies VII, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 12054-12060"
+    }
+   ]
+  },
+  {
+   "when": "250 and after, under Decius and Valerian",
+   "headline": "Marcionites die in the persecutions, and Cyprian answers a letter on their baptism",
+   "lines": [
+    {
+     "when": "250, in the second consulship of the emperor Decius",
+     "text": "At Smyrna, Pionius, a presbyter, or church elder, is told to sacrifice to the gods. He answers that he fears the living God.",
+     "reference": "Martyrdom of Pionius 20 and 23, cic/texts/acta-martyrum-selecta_gebhardt1902.txt lines 5561-5562, 5655-5658; the year from the consuls the Acts name",
+     "note": "Written by those who were present (line 5646). The Greek print is damaged."
+    },
+    {
+     "when": "250, in the second consulship of the emperor Decius",
+     "text": "In the stadium Pionius stretches himself on the wood for the nails. After him they raise Metrodorus, a presbyter of the sect of the Marcionites, Pionius on the right and Metrodorus on the left, both facing east, and heap the wood around them.",
+     "reference": "Martyrdom of Pionius 21, cic/texts/acta-martyrum-selecta_gebhardt1902.txt lines 5584-5614"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Metrodorus, who appears to have been a proselyte of the Marcionite sect, suffered death by fire at Smyrna. He sets these deaths about the time of Polycarp's.",
+     "reference": "Eusebius, Church History IV.15.46, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 23677-23681",
+     "note": "Eusebius wrote in the early 300s. The Acts date the deaths under Decius."
+    },
+    {
+     "when": "in the persecution under Valerian",
+     "text": "At Caesarea in Palestine, Priscus, Malchus and Alexander are given to wild beasts. Eusebius adds that a woman went through the same ordeal in the same city, and that she was reported to belong to the sect of Marcion.",
+     "reference": "Eusebius, Church History VII.12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 40459-40474; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 9661-9664"
+    },
+    {
+     "when": "in Cyprian's time",
+     "text": "A letter sent to Cyprian of Carthage holds that those who come from Marcion need not be baptized, since they seem already baptized in the name of Jesus Christ. Cyprian answers that Marcion does not hold the same Father, the Creator, so baptism among them cannot give forgiveness of sins.",
+     "reference": "Cyprian, Letter to Jubaianus 4-5, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 38505-38513, 38529-38551; Latin, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 14582-14586"
+    }
+   ]
+  },
+  {
+   "when": "In the persecution that began under Diocletian",
+   "headline": "Asclepius, said to be a Marcionite bishop, burns at Caesarea",
+   "witness": "Eusebius of Caesarea, in his Martyrs of Palestine",
+   "lines": [
+    {
+     "when": "on the eleventh day of the month Audynaeus",
+     "text": "At Caesarea, Peter, an ascetic also called Apselamus, refuses the judge's many pleas to spare himself, and is burned.",
+     "reference": "Eusebius, Martyrs of Palestine 10.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47043-47053; the persecution begins in the nineteenth year of Diocletian, line 45893"
+    },
+    {
+     "when": "on the same day",
+     "text": "Asclepius, supposed to be a bishop of the sect of Marcion, ends his life on the same pyre. Eusebius says he had zeal for religion, as he thought, but not according to knowledge.",
+     "reference": "Eusebius, Martyrs of Palestine 10.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47053-47058; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 24595-24598",
+     "note": "Both hedges are Eusebius's own."
+    }
+   ]
+  },
+  {
+   "when": "Under Constantine",
+   "headline": "Constantine's edict takes their meeting houses",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The emperor Constantine issues an edict to the heretics, those who, their enemies said, chose error. It names the Novatians, Valentinians, Marcionites, Paulians and Cataphrygians, and says that through their teaching the healthy soul is stricken with disease.",
+     "reference": "Constantine, edict to the heretics, in Eusebius, Life of Constantine III.64, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66068-66084; Greek, cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt lines 13035-13040; heretics, from the Greek for a choice, Tertullian, Prescription Against Heretics 6, cic/texts/anf03_tertullian.xml lines 20274-20279"
+    },
+    {
+     "when": "date unknown",
+     "text": "The edict forbids them to meet, takes the houses where they hold their meetings, in public or in any private house, and gives their houses of prayer to the catholic Church.",
+     "reference": "Constantine, edict to the heretics, in Eusebius, Life of Constantine III.65, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66112-66128, 66141-66149"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that some of those the heretics had led, frightened by the emperor's threats, hid their real views and crept secretly into the Church.",
+     "reference": "Eusebius, Life of Constantine III.66, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66159-66164"
+    }
+   ]
+  },
+  {
+   "when": "4th century",
+   "headline": "Church writers warn against their meetings, still found from Rome to Persia",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Cyril of Jerusalem tells those about to be baptized to shun the Marcionists, who tear the sayings of the Old Testament away from the New.",
+     "reference": "Cyril of Jerusalem, Catechetical Lecture 16.7, cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml lines 17970-17971"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyril says the meetings of the heretics, the Marcionists and Manichees first, are also called churches. In a strange city, he says, ask for the Catholic Church, so called because it extends over all the world.",
+     "reference": "Cyril of Jerusalem, Catechetical Lectures 18.23 and 18.26, cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml lines 20271-20273, 20349-20362"
+    },
+    {
+     "when": "date unknown",
+     "text": "Ephrem reports the Marcionites' claim that they pray more than Daniel, and pray the whole day.",
+     "reference": "Ephrem, Against Marcion I, cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt line 1585",
+     "note": "An opponent's report of their claim."
+    },
+    {
+     "when": "in Epiphanius's own day",
+     "text": "Epiphanius writes that the sect is still found in Rome and Italy, Egypt and Palestine, Arabia and Syria, Cyprus and the Thebaid, and in Persia too.",
+     "reference": "Epiphanius, Panarion 42.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 7464-7473"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius writes that they hold their rites with learners not yet baptized looking on, and use water in them. They fast on the Sabbath, he says, so as not to do what is due to the God of the Jews, who rested on the seventh day.",
+     "reference": "Epiphanius, Panarion 42.3, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 7742-7748"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius adds that Marcion gave women leave to baptize, and that, as he has heard from many, they allow up to three washings or more.",
+     "reference": "Epiphanius, Panarion 42.3-4, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 7750-7752, 7895-7896",
+     "note": "An opponent. The washings are hearsay by his own word."
+    },
+    {
+     "when": "date unknown",
+     "text": "John Chrysostom tells, expecting laughter, that when a learner dies among them, a living man hidden under the dead man's couch answers that he wishes to be baptized, and they baptize him in the dead man's place.",
+     "reference": "John Chrysostom, Homily 40 on First Corinthians, cic/texts/npnf112_chrysostom-homilies-corinthians.xml lines 24419-24429",
+     "note": "An enemy's mockery."
+    }
+   ]
+  },
+  {
+   "when": "5th century",
+   "headline": "Theodoret brings their villages near Cyrrhus into his church",
+   "witness": "Theodoret, bishop of Cyrrhus, in his own Church History and letters",
+   "lines": [
+    {
+     "when": "in Chrysostom's time, under an earlier bishop",
+     "text": "John Chrysostom, hearing that some in the district of Cyrrhus held to Marcion's teaching, writes to the bishop to drive it out, and offers him the aid of the imperial edicts.",
+     "reference": "Theodoret, Church History V.31, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 17542-17545"
+    },
+    {
+     "when": "after twenty-five years as bishop",
+     "text": "Theodoret writes that he led eight villages of Marcionists, with the country around them, into the way of truth, and that he was stoned many times by the heretics he fought.",
+     "reference": "Theodoret, Letter 81, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 31501, 31511-31516",
+     "note": "The stonings follow his whole list of Marcionists, Eunomians and Arians."
+    },
+    {
+     "when": "after twenty-six years as bishop",
+     "text": "He writes that he rescued more than a thousand souls from Marcion's teaching, and served eight hundred churches, as many parishes as the district of Cyrrhus holds.",
+     "reference": "Theodoret, Letter 113, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 33158-33166"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes that he taught Marcion's followers that Christ is not only good but just, and Saviour of his own works, and that he converted more than ten thousand of them and brought them to baptism.",
+     "reference": "Theodoret, Letter 146, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 35004-35010, 35164-35166",
+     "note": "His three counts differ."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Martyrdom of Pionius, in Greek",
+   "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt"
+  },
+  {
+   "title": "Against Heresies I.27 and III.4, and Justin's First Apology, in English",
+   "author": "Irenaeus of Lyon and Justin",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+  },
+  {
+   "title": "Prescription Against Heretics and the Five Books Against Marcion, in English",
+   "author": "Tertullian of Carthage",
+   "file": "cic/texts/anf03_tertullian.xml"
+  },
+  {
+   "title": "Against Marcion, in Latin",
+   "author": "Tertullian of Carthage",
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt"
+  },
+  {
+   "title": "Prescription Against Heretics, in Latin",
+   "author": "Tertullian of Carthage",
+   "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt"
+  },
+  {
+   "title": "Church History, Martyrs of Palestine and Life of Constantine, with Rhodon's words and Constantine's edict, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Church History VI-X and Martyrs of Palestine, in Greek",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "title": "Life of Constantine, with the edict to the heretics, in Greek",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt"
+  },
+  {
+   "title": "Panarion 42, in Greek",
+   "author": "Epiphanius of Salamis",
+   "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+  },
+  {
+   "title": "Catechetical Lectures 18, in English",
+   "author": "Cyril of Jerusalem",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+  },
+  {
+   "title": "Church History V.31 and Letter 81, in English",
+   "author": "Theodoret of Cyrrhus",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  }
+ ],
+ "uncertain": [
+  "The year of the break with Rome. No old source used here gives one. Tertullian says Marcion was expelled more than once, and that he went with the two hundred sesterces he had brought into the church.",
+  "Apelles. Rhodon, who spoke with him when Apelles was an old man, counts him among Marcion's divided followers. Tertullian says Apelles left Marcion's continence for a woman, withdrew to Alexandria, and came back no longer a Marcionite. Both tie him to a maiden, Philumene: Rhodon says she was possessed by a demon, and Tertullian calls her a prostitute. These are enemies' charges.",
+  "How many first sources. Rhodon says Apelles held one, Potitus and Basilicus two, as Marcion did, and Syneros three. Asked how he knew there was one, Apelles answered that the prophecies refuted themselves. Pressed, he swore that he did not know how there is one unbegotten God, but believed it, and Rhodon says he laughed at him.",
+  "Their rites. Tertullian says their God still used the Creator's water to wash his people, oil to anoint them, honey and milk to feed them as children, and bread to represent his own body. Epiphanius, writing late in the fourth century, says they held their rites with learners not yet baptized looking on, used water in them, fasted on the Sabbath so as not to keep the rest of the God of the Jews, and let women baptize. He adds that, as he had heard from many, they allowed up to three washings or more.",
+  "The marriage rule. Tertullian reads it as a condemnation of marriage. Clement of Alexandria, another opponent, says the Marcionites would not marry because they did not wish to fill the world the Creator made. Hippolytus says Marcion called marriage destruction, thinking to grieve the maker by abstaining.",
+  "Their prayer. Ephrem, at Edessa, reports their claim to pray more than Daniel, and to pray the whole day.",
+  "Martyrs. An anonymous writer against the Montanists, of the late second century, says the Marcionites claimed a \"multitude of martyrs for Christ\", and denies that this proves them right. Eusebius tells of a woman at Caesarea, under Valerian, who died after three men were given to wild beasts, and says it was reported that she belonged to the sect of Marcion.",
+  "Metrodorus. The Acts of Pionius, written by those who were present, call him a presbyter of the sect of the Marcionites, and set Pionius on the right and Metrodorus on the left, both facing east. They date the deaths to a day in March, under the governor of Asia, Julius Proculus Quintilianus. Eusebius says only that Metrodorus appears to have been a proselyte of the Marcionite sect, and sets the deaths in Polycarp's time.",
+  "Asclepius. Eusebius says he died on the same pyre as Peter, an ascetic also called Apselamus, from the village of Anea, whom the judge and those around him begged many times to spare himself.",
+  "After the edict. Eusebius says that some of those the heretics had deceived, frightened by the emperor's threats, \"disguising their real sentiments, crept secretly into the Church.\"",
+  "A charge about the dead. John Chrysostom tells, expecting laughter, that when a learner died among them, a living man hidden under the dead man's couch answered for him that he wished to be baptized, and they baptized him in the dead man's place. It is an enemy's mockery.",
+  "Theodoret's counts. In one letter he says he led eight villages of Marcionists into the truth; in another, that he rescued more than a thousand souls from the plague of Marcion; in a third, that he converted more than ten thousand of them and brought them to baptism. He also says his district held eight hundred parish churches.",
+  "A teacher of the early third century. Hippolytus says that in his own day a follower of Marcion, Prepon, an Assyrian, set out his teaching in a work addressed to Bardesanes."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "He said there was no need at all to examine a person's teaching, and that each should keep to what he believed. For those who trusted in the one who was crucified would be saved, he said, if only they were found doing good works.",
+   "printed": "he said that it was not at all necessary to examine one’s doctrine, but that each one should continue to hold what he believed. For he asserted that those who trusted in the Crucified would be saved, if only they were found doing good works.",
+   "work": "Rhodon, in Eusebius, Church History V.13.5, tr. McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "29119-29123",
+   "uncertain": "Eusebius's Greek for this book is not held. The translator's note gives the Greek behind doctrine as λόγον.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Why, in times of persecution, do you not save your life at once by denying, when the incense box is held out? 'Never,' you say, 'never!'",
+   "printed": "quid non et in persecutionibus statira oblata acerra animam negatione lucraris? absit, inquis, absit!",
+   "work": "Tertullian, Against Marcion I.27, ed. Kroymann",
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "16287-16289",
+   "englishPrinted": "Why in persecutions also do you not, when the censer is presented, at once redeem your life by the denial of your faith? God forbid, you say with redoubled emphasis",
+   "englishFile": "cic/texts/anf03_tertullian.xml",
+   "englishLines": "24452-24457",
+   "uncertain": "Spelled as the scan of Kroymann's print reads: statira stands for statim. Oehler's print, lines 4956-4958, reads statim, with the same words.",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "one Holy Catholic Church",
+   "printed": "And in one Holy Catholic Church",
+   "work": "Cyril of Jerusalem, Catechetical Lecture 18.26, tr. Gifford",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "20356-20357",
+   "secondReading": "checked at card",
+   "uncertain": "Cyril's Greek is not held. The words are the article of the creed he is explaining."
+  },
+  {
+   "modern": "I led eight villages of Marcion's followers, and the country around them, into the way of truth.",
+   "printed": "I led eight villages of Marcionists with their neighbourhood into the way of truth",
+   "work": "Theodoret, Letter 81, to the consul Nomus, tr. Jackson",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "31511-31512",
+   "uncertain": "Theodoret's Greek is not held.",
+   "secondReading": "same"
+  }
+ ]
+}
