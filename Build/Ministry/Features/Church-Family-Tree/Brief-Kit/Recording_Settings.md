@@ -4,6 +4,8 @@ Every paid run passes these on the command, one story per command, and its print
 
 ## A person
 
+Held: no person brief or documented story is recorded until Mark names a new voice (Decision-Log, "No person or story recordings until a new voice", 2026-11-26).
+
 `node Build/tools/generate_tree_narration.mjs --people --only <slug> --person-voice-id onegjDE2z0mQtp1g0HK7 --model eleven_v4 --output-format mp3_44100_64 --voice-settings '{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}' --approved-run "<the run, with Mark's words>" --char-cap <cap>`
 
 ## A council or a tradition
