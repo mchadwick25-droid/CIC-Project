@@ -76,3 +76,33 @@ Card: `antiochene-church-third-century.card.json`. A tradition has no `card` fie
 - `voices[4]`: "in 272". Jerome's Chronicle sets Zenobia's defeat near Antioch in Aurelian's second year (JerChr 44052-44054), but no number is held.
 - `legacy`: "Eastern bishops who were not Arians".
 - `relationsSummary`: "Aetius, the first Anomoean teacher".
+
+## Changes after the grade fixes
+
+The brief changed after this card was written (`Grade_Fixes_Applied.md`, `Grade2_Fixes_Applied.md`; no third grade fix in this folder). This section also applies every change `Card_Check.md` gives. The three quoted spans are unchanged in the final brief, so `quotationOriginals` stays as it is: one entry for each span, each `modern` exact, none dropped.
+
+### From Card_Check.md (card fields)
+
+15. `legacy` (Card_Check 6). Old: "Two things went out of this council into the fourth century." New: "Three things went out of this council into the fourth century." Evidence: edit 5 adds a third thing.
+16. `floorNote` (Card_Check 7). Old: "But Paul of Samosata's own teaching is a live, unresolved question about where the doctrinal line falls, distinct from the other monarchian currents of the period, such as Sabellius's modalism." New: "But Paul of Samosata's own teaching is a live, unresolved question about where the doctrinal line falls." Evidence: only a modern work sets Paul among "monarchian currents", and "modalism" is named without explanation (Part 1).
+
+### From Card_Check.md (Entry fields, for release)
+
+17. `teaser` (Card_Check 1; with edit 11). Old: "A council removed the bishop of the greatest city in the East for what he taught and how he behaved, and could not make it stick until an emperor decided who owned the building." New: "A council removed the bishop of Antioch for what he taught, and could not make it stick until an emperor decided who owned the building." Evidence: the bishops will not judge his practices, since he is outside the faith (E-Eng 42079-42084, 42262-42269).
+18. `relationsSummary` (Card_Check 2). **This replaces edit 12, which is withdrawn.** Old: the whole field. New: "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher." Evidence: "ordinary man" is Eusebius's word, not the bishops' (Do not say, T1); the modalism "mirror" is a modern classification with no census edge behind it, and "modalism" and "monarchianism" go unexplained. The Aetius sentence rests on Philost 178 (see 9j below).
+19. `documentedStories[0].text` (Card_Check 3). Old: "preaching on his feast at Antioch three generations later". New: "preaching on his feast at Antioch two generations later". Evidence: the brief, "Two generations later". This takes the "three generations" item out of Flagged, not changed; the rest of that item ("7 January 312", "nine years", "used across the Greek East for centuries") stays flagged.
+20. `documentedStories[0].sources[1].note` (Card_Check 4). Old: "The tradition of his one answer; PG 50:519–526, English in Wendy Mayer, The Cult of the Saints (SVS, 2006)." New: "The tradition of his one answer; PG 50:519–526." Add to `documentedStories[0].modernWorks`, after the Williams entry (edit 14): `{"title": "The Cult of the Saints", "author": "Wendy Mayer", "year": "2006", "publisher": "SVS", "note": "An English translation of Chrysostom's Homily on the Martyr Lucian."}`.
+21. `documentedStories[0].caveat` (Card_Check 5). Old: "is asserted by Arius’ own party and disputed by modern scholars." New: "is asserted by Arius’ own party." Evidence: a modern opinion stated as content.
+
+### Evidence corrections (Card_Check; no card change)
+
+- 9d: Basil's reason stands at Bas 27403-27407, as well as 27366-27368.
+- 9j: Philost 178 holds the Aetius passage. It supports `relationsSummary`, not `uncertain` j, which rests on Philost 138 alone.
+
+### What the final brief brings or drops (card fields)
+
+22. `uncertain`, new item after "Who wrote the bishops' letter": "Malchion's questioning. Eusebius judges that Malchion alone was able to detect Paul, who hid his mind and deceived the others." Evidence: the brief's sentence "and Eusebius says he alone could catch out a man who hid his mind" was cut to the card (`Fixes_Grade2.md` fix 3, held by `Recheck_Grade2.md`; outline beat 4, "[cut: card, Grade 2]"). E-Eng 41977-41984: "was alone able to detect the man who dissembled and deceived the others." It is told as Eusebius's judgment, without quotation marks.
+23. `briefReferences[7]` (the ruling). Old: "...Paul would not give up the church's house; ... worldly power." New: "...Paul refused to give up the church's house; ... worldly power. The bishops' letter (lines 42003-42005, 42296-42305): addressed to Dionysius and Maximus and to fellow ministers throughout the world, asking them to write to the new bishop and receive letters of communion from him, and to leave Paul to write to Artemas." Evidence: the brief's new sentences "Paul refused to give up the church's house..." and "Paul's judges had asked them to write to a new bishop, not Paul" (M5, M6; Recheck_Grade2, Blocking 2). Re-read: E-Eng 42003-42005 (the address), 42296-42305 ("that you may write to him, and may receive letters of communion from him. But let this man write to Artemas"), 42324-42330 ("as Paul refused to surrender the church building").
+24. `briefReferences[11]` (Eusebius of Nicomedia). Old: "Arius's letter (Jackson's English, ...)". New: "Arius's letter to Eusebius, bishop of Nicomedia (Theodoret, heading at line 6002), written when he was driven out of the city (lines 6025-6026), and its close (Jackson's English, ...)". Evidence: the brief's new sentences "One was Eusebius, bishop of Nicomedia, not Eusebius of Caesarea. Arius had written to him about being driven out" (`Fixes_Grade.md` fix 2, `Recheck_Grade.md`). Re-read: Thdt 6002, "The Letter of Arius to Eusebius, Bishop of Nicomedia"; 6025-6026, "He has driven us out of the city as atheists".
+
+Checked and left: the brief's move of "around 260" to its first sentence needs nothing new, since `briefReferences[2]` already cites E-Eng 41784-41785 and Jerome's Chronicle. "Though they listened with reverence" is in the brief the card was written against. Every other `briefReferences` entry still matches what the brief tells; the debate before stenographers stays in the brief, so `briefReferences[6]` keeps lines 41977-41984. No new quotation, no dropped one. A scratch census copy outside the repository, with the card fields and the final brief as `longDescription`, gives 0 errors with `node tools/validate-census.mjs <copy> --skip-quotes`.

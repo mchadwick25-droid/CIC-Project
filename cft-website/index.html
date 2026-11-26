@@ -583,7 +583,7 @@ svg.strip-on #era-labels{display:none}
 }
 #panel .summary{font-size:1rem;line-height:1.6;margin:.4rem 0 .8rem}
 #panel .brief{display:grid;gap:.5rem;margin:.6rem 0 .8rem;padding:.6rem .7rem;border:1px solid var(--gold-leaf);border-radius:8px}
-#panel .brief-row{display:flex;align-items:center;gap:.7rem;min-width:0}
+#panel .brief-row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .7rem;min-width:0}
 #panel .brief-play{flex:none;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 1rem;border:0;border-radius:999px;background:var(--gold-leaf);color:var(--parchment);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer}
 #panel .brief-play svg{width:14px;height:14px;fill:currentColor}
 #panel .brief-play:hover{background:var(--iron-gall)}
@@ -597,6 +597,10 @@ svg.strip-on #era-labels{display:none}
 #panel .brief-fill{position:absolute;left:0;top:12px;height:4px;width:0;background:var(--gold-leaf);border-radius:2px}
 #panel .brief-opts{display:flex;flex-wrap:wrap;gap:.3rem 1rem;font:.8125rem "Alegreya Sans",sans-serif;color:var(--ink-faded)}
 #panel .brief-opts label{display:inline-flex;align-items:center;gap:.35rem;min-height:32px}
+#panel .brief-read-btn{flex:none;margin-left:auto;min-height:44px;padding:0 .9rem;border:1px solid var(--gold-leaf);border-radius:999px;background:none;color:var(--iron-gall);font:600 .9375rem "Alegreya Sans",sans-serif;cursor:pointer}
+#panel .brief-read-btn:hover{background:color-mix(in srgb,var(--gold-leaf) 15%,transparent)}
+#panel .brief-read-btn:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+#panel .brief-read{border-top:1px solid var(--rule);padding-top:.5rem}
 #panel .brief-opts select{min-height:32px;font:inherit;color:var(--iron-gall);background:var(--vellum);border:1px solid var(--rule);border-radius:4px;padding:.15rem .3rem}
 #panel .story-teaser{display:flex;gap:.5rem;align-items:baseline;width:100%;margin:.2rem 0 .7rem;padding:.55rem .7rem;min-height:44px;text-align:left;background:none;border:1px solid var(--rule);border-radius:6px;color:var(--iron-gall);font:1rem "Alegreya",serif;cursor:pointer}
 #panel .story-teaser:hover{border-color:var(--tyrian)}
@@ -610,7 +614,7 @@ svg.strip-on #era-labels{display:none}
 #panel details.fold>summary::-webkit-details-marker{display:none}
 #panel details.fold>summary::after{content:"+";flex:none;width:1.2rem;text-align:center;color:var(--gold-leaf);font-size:1.2rem}
 #panel details.fold[open]>summary::after{content:"\2212"}
-#panel .fold-t{flex:1}
+#panel h3.fold-t{flex:1;margin:0;font:inherit;letter-spacing:0;text-transform:none;color:inherit}
 #panel .fold-n{font-weight:600;font-size:.875rem;color:var(--ink-faded);font-variant-numeric:tabular-nums}
 #panel .fold-b{padding:0 0 1rem}
 #panel .fold-b>h3:first-child{margin-top:.2rem}
@@ -33122,7 +33126,7 @@ const DATA = {
     "worldName": "The Scattered Households",
     "subtitle": "Post-Apostolic Household-Church Christianity",
     "color": "#955FF0",
-    "tile": "In Antioch, Asia Minor, and Rome, between about 70 and 200 CE, house churches grew up on their own. No single power ruled over them — letters carried by couriers held the network together instead. Once the apostles died, how to lead a church was never settled. Some followed a single bishop with elders beside him, others a council of elders alone. In Corinth, some elders were removed from office — an account that survives only in Rome's own letter asking for them back. That letter used real command language — “submit,” “receive correction” — but Rome claimed no formal power to force it. Corinth's own side is not preserved. They marked the Lord's Supper in different ways, too. One early manual gives thanks over the cup before the bread. Neither blessing tells the story of the Last Supper. Following Jesus could mean real danger: in one province, a governor had members questioned under torture, and in another, a bishop was marched under armed guard toward Rome. But this danger came and went — never constant, never empire-wide.",
+    "tile": "Early in the second century, Pliny, a Roman governor, questioned people who said they had stopped being Christians. They told him they used to meet before dawn and sing a hymn to Christ as to a god. In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together. Their letters greet one another household by household. A short manual taught newcomers the Two Ways, of life and of death, before baptism. Only the baptized shared the thanksgiving over bread and a cup on the Lord's day. Elders, bishops and deacons led them. When the church at Corinth removed some of its elders, the church of Rome wrote, at Corinth's request. Men who had served blamelessly, it said, could not justly be removed. Ignatius, bishop of Antioch, wrote as a prisoner that each church should act as one around its bishop. Near the end of the century, Rome's bishop tried to cut off the churches of Asia, which kept Easter on the Passover date. Irenaeus of Lyon reminded him that Rome's earlier elders had lived at peace with visitors who kept Asia's day.",
     "icon": "assets/world-icons/house-churches.svg",
     "portrait": "assets/portraits/house-churches.png",
     "topics": [
@@ -33280,10 +33284,14 @@ const DATA = {
        "work": "The Martyrdom of the Holy Martyrs Justin, Chariton, Charites, Paeon, and Liberianus (Acts of Justin)",
        "type": "primary",
        "note": "ANF 1 translation of the Acts."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Herbert Musurillo, The Acts of the Christian Martyrs (Oxford, 1972)",
-       "type": "reference",
+       "title": "The Acts of the Christian Martyrs",
+       "author": "Herbert Musurillo",
+       "year": "1972",
+       "publisher": "Oxford",
        "note": "Greek text of all three recensions with translation and dating discussion."
       }
      ]
@@ -33306,10 +33314,14 @@ const DATA = {
        "work": "Eusebius, Church History IV.17",
        "type": "primary",
        "note": "Eusebius quotes the passage."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Peter Lampe, From Paul to Valentinus: Christians at Rome in the First Two Centuries (Fortress, 2003)",
-       "type": "reference",
+       "title": "From Paul to Valentinus: Christians at Rome in the First Two Centuries",
+       "author": "Peter Lampe",
+       "year": "2003",
+       "publisher": "Fortress",
        "note": "Situates the case in Roman social history."
       }
      ]
@@ -33343,19 +33355,19 @@ const DATA = {
    ],
    "sourcing": "Unusually good. Justin Martyr's two Apologies and the Dialogue, Athenagoras' Plea, Theophilus of Antioch to Autolycus, Tatian's Address and the Epistle to Diognetus all survive whole; Quadratus and Melito survive in fragments, and Aristides was recovered only in 1889. Roughly a dozen works in hand, which is more than several other traditions here have.",
    "relationsSummary": "It overlaps the household churches of the same years, in time and in people. Justin Martyr taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
-   "why": "For eighty years, Christian writers handed Roman emperors formal defenses of their faith, answering charges of atheism and cannibalism by arguing that Greek philosophy itself had been reaching toward Christ. Justin Martyr ran a school at Rome and was executed for his teaching around 165. A generation later, Theophilus of Antioch, writing to a pagan friend, became the first Christian author on record to call God by the word 'Trinity.'",
-   "longDescription": "Around 124 a Christian named Quadratus handed the emperor Hadrian a written defense of his religion. For the next eighty years, others kept doing the same. Aristides did it at Athens. Justin did it twice, and was put to death for it about 165. He was a philosopher who kept wearing the philosopher's cloak after his conversion, and he ran a school at Rome. He also attacked Marcion and the Valentinians, whom he called Christians in name only. Athenagoras addressed Marcus Aurelius, and so did Melito of Sardis. Theophilus wrote three books to a pagan friend named Autolycus. An unknown writer produced the letter to Diognetus, still the most quoted thing any of them wrote. The charges were always roughly the same, and so were the answers. Christians were called atheists because they had no images. They were called cannibals because of what they said about eating a body. And they were called disloyal because they would not sacrifice. What made the effort interesting was the second move. Several of them, Justin above all, did more than deny the charges. They argued that the best of Greek philosophy had been reaching toward what the church now held. Christians were therefore the true heirs of reason, not its enemies.",
-   "teaser": "Eighty years of Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that Plato had been half right.",
+   "why": "In the second century, Christian writers handed Roman emperors formal defenses of their faith, answering charges of atheism and cannibalism by asking to be judged by how they lived. Justin Martyr ran a school at Rome and was executed under Marcus Aurelius for refusing to sacrifice to the gods and obey the emperor's command. Theophilus of Antioch, writing to a pagan friend, counted back the years to show that the books of Moses were older than the Greeks' own.",
+   "longDescription": "An Athenian Christian, Athenagoras, addressed his plea to the emperors Marcus Aurelius and his son Commodus, and hailed them, above all, as philosophers. Only Christians, he told them, were hunted for their name alone, and slaughtered on the word of false accusers.\n\nIn the second century, from Athens and Rome to Sardis and Antioch, Christians who wrote in Greek put written defenses of their faith into the hands of emperors, and of pagans who asked them about it. Accused of being godless, of eating human flesh and of incest, they answered that they worshipped the one God who made all things and prayed for the emperors, and they asked to be judged by how they lived. Such a defense was called an apology, the kind of speech made in court.\n\nLong before, under Hadrian, certain wicked men were trying to trouble the Christians. So Quadratus addressed a defense to the emperor, arguing that Christ's works were real: some people Christ healed lived to Quadratus's day. Eusebius, a church historian, still had the book in the early 300s.\n\nUnder the next emperor, Antoninus Pius, Christians were called atheists, because they refused the gods of the cities and would not sacrifice to them. Justin, a Christian teacher of philosophy at Rome, wrote to the emperor. He granted that they were atheists of such gods, and said they worshipped the most true God. Everywhere, he wrote, they took care to pay their taxes, as Christ had taught them. They worshipped God alone, and gladly served the emperors in all else.\n\nUnder Marcus Aurelius, Justin was condemned and put to death for refusing to sacrifice to the gods and obey the emperor's command.\n\nIn the Roman province of Asia, in today's western Turkey, Christians were hounded by new decrees, new written orders, as Melito, bishop of Sardis, wrote to Marcus Aurelius. In the passages Eusebius copied, Melito wrote that informers, people who laid charges against others and took their goods, used the decrees to rob the innocent night and day. \"If this is done at your command, well and good. For a just ruler will never take unjust measures, and we gladly accept the honor of such a death.\" But if the decree was not the emperor's, he begged not to be left to the plundering of the crowd.\n\nIf the charges were true, Athenagoras said, let the emperors destroy the Christians root and branch. If not, let them look into Christian lives, teaching and loyalty. Poets and philosophers, he said, wrote freely about God, and almost all spoke of one God. No law stood against them. Yet a law stood against Christians, who said the same. As for eating human flesh, he turned to the emperors' own games, the gladiator shows, fights to the death between armed men, or with wild beasts, staged for crowds. \"But we hold that to watch a man being killed is close to killing him, so we have given up such shows. We do not even watch, so that we bring no guilt or stain on ourselves. How then could we commit murder?\"\n\nAt Antioch, in Syria, a bishop, Theophilus, talked about God with a pagan friend, and they parted friends. But the friend believed the rumors, and thought Christian books were new and their teaching nonsense. Theophilus wrote to him, counting back the years to show that the books of Moses, the first in the Bible, were older than the Greeks' own, and so Christian teaching true.\n\nAt Carthage, Tertullian took up the same task in Latin. He also wrote against the followers of a teacher, Valentinus. They stacked heaven on heaven for their many gods, he scoffed, and he drew on earlier writers against them, Justin first.\n\nOne defense, a letter to a man named Diognetus, has no known writer or date. Of the Christians it says: \"They live in their own homelands, but as resident foreigners. They share in everything as citizens, and endure everything as strangers. Every foreign land is a homeland to them, and every homeland is foreign.\"",
+   "teaser": "Second-century Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that most Greek poets and philosophers had spoken of one God too.",
    "voices": [
-    "Quadratus - the earliest, who gave Hadrian a defense around 124 and survives in a single paragraph",
+    "Quadratus - the earliest, who gave Hadrian a defense and survives in a single paragraph",
     "Aristides of Athens - whose apology was lost for seventeen centuries and recovered in 1889",
-    "Justin Martyr - philosopher, schoolmaster at Rome, author of two Apologies and the Dialogue with Trypho, beheaded about 165",
-    "Athenagoras of Athens - who addressed Marcus Aurelius and Commodus with the most philosophically careful of the defenses",
-    "Theophilus of Antioch - who wrote three books to a pagan friend and was the first to use the word Trinity of God",
+    "Justin Martyr - philosopher, schoolmaster at Rome, author of two Apologies and the Dialogue with Trypho, beheaded under Marcus Aurelius",
+    "Athenagoras of Athens - who addressed Marcus Aurelius and Commodus and hailed them, above all, as philosophers",
+    "Theophilus of Antioch - who wrote three books to a pagan friend and used the word Trinity of God, his Word and his Wisdom",
     "Melito of Sardis - bishop, apologist to Marcus Aurelius, and author of a Paschal homily recovered in the twentieth century",
-    "The writer to Diognetus - anonymous, undated, and the most quoted of all of them"
+    "The writer to Diognetus - anonymous and undated"
    ],
-   "legacy": "Justin Martyr argued that, before the incarnation, the Word was already sowing seeds of truth in the philosophers. That gave the church a way to deal with the learning it had inherited, and it has never fully put that down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth'. He and Origen took the idea much further. The apologists also settled some of the church's words. Theophilus of Antioch is the first writer whose work survives to use the word Trinity of God. And one line from the Epistle to Diognetus has outlived all the others the movement wrote. It calls Christians resident aliens, at home everywhere and strangers everywhere.",
+   "legacy": "At Alexandria, Clement praised Tatian, a hearer of Justin's, for his careful account of the age of Moses, the argument Theophilus also made. Theophilus of Antioch called the three days before the lights in the sky were made types of the Trinity, of God, his Word and his Wisdom. And the Epistle to Diognetus calls Christians resident aliens, at home everywhere and strangers everywhere.",
    "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
    "placeLabel": "Athens · Rome and beyond",
    "modernCountries": [
@@ -33423,7 +33435,7 @@ const DATA = {
      "tier": "1",
      "verification": "checked directly against the primary text",
      "teaser": "A professor of rhetoric in Diocletian’s capital watches the Great Persecution begin from across the street.",
-     "text": "Lactantius was teaching Latin rhetoric at Nicomedia when, at first light on the feast of the Terminalia, the prefect arrived at the city’s church with officers and soldiers. It stood on rising ground in full view of the palace, and Lactantius says Diocletian and Galerius watched from a height, arguing about whether to burn it. Fire might spread to the houses; so the Praetorians came with axes and leveled it ‘in a few hours’. The doors were forced, the Scriptures found and burned, the building plundered. The next day the edict was posted: Christians stripped of legal standing, their books surrendered, their assemblies forbidden. A man — Lactantius gives no name, only that he was of high rank — tore the edict down, mocking it aloud as a proclamation of victories over Goths and Sarmatians; he was arrested, ‘not merely tortured but roasted’, and, the text says, bore it with patience. Lactantius lost his post. He wrote the Divine Institutes over the following years to make the Christian case to exactly the educated class that had watched the church come down, and in old age wrote On the Deaths of the Persecutors to record how each emperor who signed the edict died. It is a partisan book, unsparing about its enemies’ agonies; but for the first day of the persecution it is the only eyewitness.",
+     "text": "Lactantius was teaching Latin rhetoric at Nicomedia when, at first light on the feast of the Terminalia, the prefect arrived at the city’s church with officers and soldiers. It stood on rising ground in full view of the palace, and Lactantius says Diocletian and Galerius watched from a height, arguing about whether to burn it. Fire might spread to the houses; so the Praetorians came with axes and leveled it ‘in a few hours’. The doors were forced, the Scriptures found and burned, the building plundered. The next day the edict was posted: Christians stripped of legal standing, their books surrendered, their assemblies forbidden. A man — Lactantius gives no name; Eusebius says he was of high rank — tore the edict down, mocking it aloud as a proclamation of victories over Goths and Sarmatians; he was arrested, ‘not only tortured, but burnt alive’, and, the text says, bore it with patience. Lactantius lost his post. He wrote the Divine Institutes over the following years to make the Christian case to exactly the educated class that had watched the church come down, and in old age wrote On the Deaths of the Persecutors to record how each emperor who signed the edict died. It is a partisan book, unsparing about its enemies’ agonies; but for the first day of the persecution it is the only eyewitness.",
      "caveat": "Lactantius was in the city and is the primary witness, but wrote On the Deaths of the Persecutors more than a decade later with an openly providential thesis; the man who tore down the edict is named only in later tradition.",
      "sources": [
       {
@@ -33440,10 +33452,14 @@ const DATA = {
        "work": "Eusebius, Church History VIII.5",
        "type": "primary",
        "note": "Independent notice of the man who tore down the edict."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "T. D. Barnes, Constantine and Eusebius (Harvard, 1981)",
-       "type": "reference",
+       "title": "Constantine and Eusebius",
+       "author": "T. D. Barnes",
+       "year": "1981",
+       "publisher": "Harvard",
        "note": "Chronology of the edicts."
       }
      ]
@@ -33457,7 +33473,7 @@ const DATA = {
    "dates": "c. 197-320",
    "start": 197,
    "end": 320,
-   "region": "Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
+   "region": "Carthage; Rome and Ostia; Sicca in Africa; Nicomedia",
    "regions": [
     "Mediterranean",
     "Africa",
@@ -33474,21 +33490,21 @@ const DATA = {
    "living": false,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Substantial evidence survives for this tradition. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand), and Arnobius' seven books Against the Heathen (a hundred and forty thousand) survive whole. Lactantius' writings survive at even greater length: the Divine Institutes alone runs to two hundred and forty thousand words, and with the Anger of God, the Workmanship of God, and other fragments, his surviving work totals just under half a million words. Tertullian's own corpus of thirty-two works also survives complete — the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words), Against Praxeas, the Prescription Against Heretics, and the rest — along with the Passion of Perpetua and Felicitas, transmitted alongside his writings. In all, well over a million words survive from these five authors together. Three of the five are barely datable: Minucius Felix within a century, Commodian within three centuries; Tertullian's own dates, roughly 197 to 220, are the best anchored of the set.",
-   "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states plainly that the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
-   "relationsSummary": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body. It includes Tertullian, whose Latin apologetic writing opened the tradition and gave it its vocabulary before the other authors continued it. Its clearest link to the later imperial church runs through Lactantius, who wrote his own defense during persecution and then tutored the son of the emperor who ended it.",
-   "why": "A Carthaginian convert named Tertullian had to invent Latin words for the Trinity and the sacraments just to defend his faith, coining terms like trinitas, persona, and substantia. The argument he opened ran a further century, through Minucius Felix's dialogue giving pagan objections their fullest voice, to Lactantius, who wrote his own defense in the middle of persecution and later tutored the emperor's son.",
+   "sourcing": "Substantial evidence survives for this tradition. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand), and Arnobius' seven books Against the Heathen (a hundred and forty thousand) survive whole. Lactantius' writings survive at even greater length: the Divine Institutes alone runs to two hundred and forty thousand words, and with the Anger of God, the Workmanship of God, and other fragments, his surviving work totals just under half a million words. Tertullian's own corpus of thirty-two works also survives — the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words), Against Praxeas, the Prescription Against Heretics, and the rest — along with the Passion of Perpetua and Felicitas, transmitted alongside his writings. In all, well over a million words survive from these five authors together. Three of the five are barely datable: Minucius Felix within a century, Commodian within three centuries; Tertullian's own time, the reigns of Severus and Caracalla by Jerome's account, is the best anchored of the set.",
+   "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states that, by Tertullian's account and Hippolytus's for most of them, the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
+   "relationsSummary": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body. It includes Tertullian, whose defense of the Christians, the Apology, Lactantius later said had pleaded their cause in full.",
+   "why": "A Carthaginian convert named Tertullian defended his faith in Latin, answering the charges against Christians in his Apology to the governors who judged them. Others made the same case: Minucius Felix, in a dialogue in which a pagan friend states the case against them, and, a century after Tertullian, Lactantius, who wrote his own defense in the middle of persecution.",
    "entry": null,
-   "longDescription": "Carthage, 197 CE. A convert trained in rhetoric sat down to answer the slanders against his new faith. He found that Latin had no words yet for most of what he needed to say. So he made them. Trinitas, persona, substantia, sacramentum: Western Christians still use these technical words for the Trinity and the sacraments. In large part they came off Tertullian's own pen. They appear in the Apology and in the string of treatises that followed it. Against Praxeas argues that Father and Son are truly distinct. The Prescription Against Heretics holds that Scripture belongs to the churches that received it. Five long books Against Marcion answer the one rival he judged most dangerous. In his later years he grew steadily stricter, and he sided with the New Prophecy out of Phrygia. That is one reason the Latin church quoted him endlessly and never made him a saint. Roughly a generation on, and in a very different key, came a Roman lawyer named Minucius Felix. He wrote a dialogue set on the beach at Ostia. In it a pagan friend states the case against Christianity. It is a religion of the ignorant, he says. Its god was a criminal. Rome's greatness is proof enough that Rome's gods work. Then he is answered and won over. What makes the Octavius unusual is that its author gives the other side the better speech. Caecilius' half is the fullest surviving statement of the educated pagan case against Christianity. A century later, in a different register again, came Arnobius, an African rhetorician at Sicca. He wrote seven furious books Against the Heathen. If Jerome is to be believed, he wrote them to persuade his own bishop that his conversion was real. Along the way he left the most detailed account of Roman religious practice that any Christian left. He had to describe what he was attacking. Between them sits Commodian, whom no one can date to within three centuries. He wrote eighty short poems in acrostic verse that does not scan by the old rules. They speak to ordinary people, half lesson in the faith and half warning. And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil. He was a professor of Latin rhetoric, called to Diocletian's new capital at Nicomedia. He was still teaching there when the persecution broke out. He wrote the Divine Institutes in the middle of it. He was old by the time it was over, when Constantine brought him to Trier to teach his son. What these five share is not a place or a generation. Each had to make the argument in Latin, in words that had not been built to carry it. Tertullian came first and left the deepest mark; the others came after him.",
-   "teaser": "A Carthaginian lawyer invented the Latin words for the Trinity while defending Christians against Roman slander - and the argument he opened ran a further century, through Rome, Numidia, and the emperor's own new capitals.",
+   "longDescription": "After his friend Octavius died, Minucius Felix, a pleader, or court lawyer, wrote down a day from their friendship in his dialogue the Octavius. On a court holiday at the grape harvest, the two of them and Caecilius walked the shore at Ostia, near Rome. Caecilius saw an image of the god Serapis and raised a hand to his mouth, kissing it toward the god. Octavius, a Christian, scolded Minucius for letting Caecilius bow to stones smeared with oil, and the three sat on the breakwater to argue it out.\n\nMinucius was one of the Latin Apologists, Christians of Rome and Roman Africa. From around 200 to the emperor Diocletian's reign, they defended their faith in Latin to the educated who despised it. An apology was a defense speech for the accused, and theirs answered the charges out of the pagans' own books.\n\nThe old religion is ancient and useful, Caecilius holds, and the Christians are \"A people that lurks and shuns the light, silent in public, chattering in corners.\" By common report, he says, newcomers kill an infant hidden in flour, and their feasts end in incest when a dog tied to the lamp puts out the light.\n\nOctavius calls them fables no one looked into. He and others like him, Octavius says, once believed them too. As lawyers they had defended the worst criminals. But sometimes they tortured Christians who confessed, to make them deny it. Christians, he says, keep one marriage, eat sober meals, and love one another as brothers, because they do not know how to hate. No temple holds God, who is unseen and everywhere, and the offering he wants is a good mind. Beaten with the philosophers' own weapons, Caecilius yields.\n\nAt Carthage around 200, Tertullian met the same charges in his Apology to the governors who judged Christians. He said torture, used on others to make them confess, was turned around on Christians, to make them deny what they were. Christians prayed for the emperors, he wrote, and gave each month to bury the poor and keep orphans, a love that branded them in the eyes of people who hated one another. Jerome, a Christian scholar writing later, says the Roman clergy's envy and insults drove Tertullian to the New Prophecy. It held that the Holy Spirit now gave a stricter rule.\n\nIn Diocletian's reign Arnobius taught rhetoric, the art of public speaking, at Sicca in Africa. The story of how he became a Christian rests on Jerome alone, who wrote about eighty years later that dreams drove him toward belief, and the bishop would not take him in. \"He could not win from the bishop the faith he had always attacked. So he labored by lamplight over most brilliant books against his old religion. At last, as if with hostages for his devotion, he won the treaty.\" His seven books were his pledge, and he was let in. In them he owns his past: \"Whenever I had seen a stone made slick and smeared with olive oil, I fawned on it as if a power were present in it. I spoke to it, and begged favors from a block that felt nothing.\"\n\nArnobius's pupil, Jerome says, was Lactantius, called to teach rhetoric at Nicomedia, a Greek city in Bithynia. He was teaching there when, Lactantius says, the emperor's officers burned the Christians' Scriptures and leveled their church, on a day picked to end Christianity. Next day an order laid every Christian, whatever his rank, open to torture. Tertullian's Apology, Lactantius granted, had pleaded the cause in full, but answering accusers was one thing and teaching the whole faith another, and he took on the second.\n\nLater, asked why he quoted pagan books, Jerome named all four together. Their books, he said, were full of the pagans' own learning.\n\nOf the writers known to him, Lactantius wrote, Minucius Felix had stood well among the pleaders, and his Octavius showed how fit a champion of truth he might have been, had he given himself wholly to it.",
+   "teaser": "A Carthaginian convert defended Christians against Roman slander in Latin, and others made the same case at Rome, at Sicca, and at Nicomedia.",
    "voices": [
-    "Tertullian of Carthage - a convert and trained rhetorician who opened the whole enterprise in 197, forged most of the Latin vocabulary of Christian argument, and grew more rigorist and Montanist-aligned in his later years",
-    "Minucius Felix - a Roman advocate whose dialogue gives the pagan side the better speech, and whose own date nobody can fix within a century",
+    "Tertullian of Carthage - a convert and trained rhetorician who wrote his Apology at Carthage around 200 and grew more rigorist and Montanist-aligned in his later years",
+    "Minucius Felix - a Roman advocate whose dialogue gives the pagan side its full case, and whose own date nobody can fix within a century",
     "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
-    "Commodianus - who wrote catechism in acrostic verse that does not scan, and whom scholars have placed anywhere between the third century and the fifth",
+    "Commodianus - who wrote catechism in acrostic verse that does not scan, and whose date is not known",
     "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defenses while the persecution was still running and afterwards tutored the son of the emperor who ended it"
    ],
-   "legacy": "The Latin vocabulary of Christian argument was made here. Tertullian coined most of the technical words Western Christians still use for the Trinity and the sacraments, and left lines that entered common Christian speech, most famously that the blood of Christians is seed; the Western habit of thinking about God, the church, and the sacraments in legal and forensic categories owes a great deal to a man trained as an advocate. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
+   "legacy": "Lactantius named the Latin defenders before him and judged them. Minucius Felix, he wrote, might have been a fit champion of truth had he given himself wholly to it; Tertullian was skilled in literature of every kind but had little readiness in eloquence; and Tertullian's Apology had pleaded the cause in full, but only by answering accusers, where Lactantius set out to teach the whole faith. Eusebius, writing in Greek, quoted Tertullian's Apology from a Greek translation and called him well versed in the laws of the Romans. Jerome named Tertullian, Minucius, Arnobius and Lactantius together to defend a Christian's use of pagan books, and judged their style: Tertullian rugged and uncouth, Lactantius with a flow of eloquence worthy of Cicero, Arnobius lengthy and unequal. A later Latin list of books the church was not to receive, carried under the name of Gelasius, set the works of Tertullian, Lactantius, Commodian and Arnobius among the apocrypha. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
    "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
    "placeLabel": "Carthage · Rome and beyond",
    "modernCountries": [
@@ -33547,22 +33563,26 @@ const DATA = {
      "tier": "1",
      "verification": "checked directly against the primary text",
      "teaser": "A bishop lets a congregation read an unfamiliar gospel, then borrows a copy and changes his mind.",
-     "text": "Serapion, bishop of Antioch, visited the small church at Rhossus on the coast and found a dispute over a book called the Gospel of Peter. His first ruling, by his own account, was relaxed: ‘If this is the only thing that seems to make bad blood among you, let it be read.’ He assumed the congregation was orthodox and had not read the book himself. Once he learned that the people pressing for it were inclined to docetism — the teaching that Christ’s body was not real — he obtained a copy from the group that used it, read it through, and wrote back to Rhossus withdrawing his permission. His letter, which Eusebius quotes, is measured: ‘the most part indeed was in accordance with the true teaching of the Saviour, but some things were added’, and he listed them. He also explained his method: ‘we receive both Peter and the other apostles as Christ, but the writings that falsely bear their names we reject.’ The episode shows the process by which the second-century church actually sorted its books — not by decree, but by a bishop reading a text against what he already knew of the apostolic teaching and telling a congregation why. The Gospel of Peter was then lost until a fragment turned up in a monk’s grave at Akhmim in 1886.",
-     "caveat": "Known only through Eusebius of Caesarea’s quotation of Serapion’s letter, a century later; the letter reads as genuine and is generally accepted.",
+     "text": "Serapion, bishop of Antioch, visited the small church at Rhossus on the coast and found a dispute over a book called the Gospel of Peter. His first ruling, by his own account, was relaxed: ‘If this is the only thing that seems to be causing bad feeling among you, let it be read.’ He assumed the congregation was orthodox and had not read the book himself. Once he learned that the people pressing for it were caught up in some heresy, he obtained a copy from the group that used it, read it through, and wrote back to Rhossus withdrawing his permission. His writing, which Eusebius quotes, is measured: he found ‘many things in accordance with the true doctrine of the Saviour, but some things added to that doctrine’, and he listed them. He also explained his method: ‘we receive Peter and the other apostles as we receive Christ. But the writings falsely put under their names we refuse.’ A gospel fragment in Peter’s voice turned up in a grave at Akhmim in 1886.",
+     "caveat": "Known only through Eusebius of Caesarea’s quotation of Serapion’s writing, a century later.",
      "sources": [
       {
        "work": "Eusebius, Church History VI.12",
        "type": "primary",
-       "note": "Quotes Serapion’s letter On the So-called Gospel of Peter."
+       "note": "Quotes Serapion’s writing On the So-called Gospel of Peter."
       },
       {
        "work": "The Gospel of Peter (Akhmim fragment)",
        "type": "primary",
-       "note": "The surviving text Serapion was ruling on."
-      },
+       "note": "A fragment found at Akhmim in 1886."
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Paul Foster, The Gospel of Peter: Introduction, Critical Edition and Commentary (Brill, 2010)",
-       "type": "reference",
+       "title": "The Gospel of Peter: Introduction, Critical Edition and Commentary",
+       "author": "Paul Foster",
+       "year": "2010",
+       "publisher": "Brill",
        "note": "On the Rhossus episode and the fragment’s relation to Serapion’s book."
       }
      ]
@@ -33573,8 +33593,8 @@ const DATA = {
      "tier": "1",
      "verification": "checked directly against the primary text",
      "teaser": "A churchman in Asia confesses to composing a popular apostolic romance, and loses his office for it.",
-     "text": "Tertullian, arguing around 200 that women should not baptize, had to deal with an authority his opponents were citing: the Acts of Paul, in which Thecla, a young woman of Iconium, baptizes herself in a pool of seals and is commissioned by the apostle to teach. He dismissed it in one sentence that has become the best-documented case of Christian pseudepigraphy in the ancient church. The book, he said, was written by a presbyter in Asia who, when convicted of it, ‘confessed that he had done it for love of Paul’ and was removed from his office. Tertullian’s point was that a text composed by a known man in the recent past could not be used to overturn Paul’s own instruction. What the notice records, almost by accident, is a whole culture: a presbyter who admired Paul enough to write a novel about him; congregations that read it eagerly and treated Thecla as a real saint; and a church that, when it found out, disciplined the author but could not recall the book. The Acts of Paul went on circulating for centuries, Thecla became one of the most venerated women in the Eastern church, and the presbyter’s name was never recorded.",
-     "caveat": "A contemporary notice by a hostile witness; Tertullian is polemical but had no reason to invent the confession. Scholars accept the outline; the presbyter’s identity and motives beyond ‘love of Paul’ are unknown.",
+     "text": "Tertullian, arguing around 200 that women should not baptize, had to deal with an authority his opponents were citing: the Acts of Paul, in which Thecla, a young woman of Iconium, baptizes herself in a pool of seals and is commissioned by the apostle to teach. He dismissed it in one sentence. The book, he said, was written by a presbyter in Asia who, when convicted of it, ‘confessed that he had done it for love of Paul’ and left his office. Tertullian’s point was that a text composed by a known man in the recent past could not be used to overturn Paul’s own instruction. What the notice records, almost by accident, is a whole culture: a presbyter who admired Paul enough to write a novel about him; congregations that read it eagerly and treated Thecla as a real saint; and a church that, when it found out, disciplined the author but could not recall the book. The Acts of Paul went on circulating for centuries, and the presbyter’s name was never recorded.",
+     "caveat": "A contemporary notice by a hostile witness; Tertullian is polemical. The presbyter’s identity and motives beyond ‘love of Paul’ are unknown.",
      "sources": [
       {
        "work": "Tertullian, On Baptism, ch. 17",
@@ -33590,10 +33610,14 @@ const DATA = {
        "work": "Jerome, Lives of Illustrious Men, ch. 7",
        "type": "primary",
        "note": "Repeats the story with the added claim that the presbyter was tried before John."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Bart D. Ehrman, Forgery and Counterforgery (Oxford, 2013)",
-       "type": "reference",
+       "title": "Forgery and Counterforgery",
+       "author": "Bart D. Ehrman",
+       "year": "2013",
+       "publisher": "Oxford",
        "note": "On the episode as evidence of ancient attitudes to pseudepigraphy."
       }
      ]
@@ -33627,18 +33651,18 @@ const DATA = {
     "Asia Minor"
    ],
    "sourcing": "Large and uneven. Around a dozen works survive - the apocryphal Acts of Andrew, John, Philip, Peter and Paul, the Protevangelium of James, the Infancy Gospel of Thomas, the Gospel and Apocalypse of Peter, the Testaments of the Twelve Patriarchs, the Revelation of Moses, the Narrative of Zosimus. Dates and provenance are disputed for nearly all of them, and the received text is often centuries later than the tradition behind it.",
-   "relationsSummary": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
-   "why": "For centuries Christians copied and read stories that never entered the Bible. One was the Protevangelium of James. It is the source of nearly everything later believers came to know about Mary's parents and childhood. Some of these works, like the Life of Adam and Eve, began as Jewish texts. They survive today only because Christian scribes kept copying them, long after Judaism itself had let them go.",
-   "longDescription": "From about the second century on, Christians wrote, read and copied a great deal that never went into the New Testament. It was never quite meant to. Some of it fills gaps the gospels leave. The Protevangelium of James supplies Mary's parents, her childhood in the Temple and the birth in a cave. Almost everything later Christians believed about her early life comes from it, not from scripture. Some of it carries the apostles into adventures: Andrew among cannibals, Philip at Hierapolis, Thomas in India. These tales read like Greek romances, and they often carry a strong push toward self-denial. And a third body is not Christian in origin at all. The Life of Adam and Eve and the Testament of Abraham are Jewish works. They survive because Christian scribes kept copying them after Judaism itself had let them go. Sometimes the scribes worked Christian passages in. The Testaments of the Twelve Patriarchs may belong here too. But scholars still argue whether it began as a Jewish book or a Christian one. And this writing kept coming. The Dormition stories of Mary's death gave the church the Assumption. The tour-of-hell apocalypses shaped medieval visions of the afterlife. Pseudo-Matthew and its later, shorter Latin version carried Mary's childhood into the Latin West. These run to the ninth century and beyond. What holds all of it together is not a community or a doctrine. It is a fact about how texts were handed down. This is the literature the church read for centuries and never made part of its Bible.",
-   "teaser": "The books the church read for centuries and never put in the Bible - including the Jewish ones that survive only because Christian scribes kept copying them.",
+   "relationsSummary": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, reports what some drew from a Book of James.",
+   "why": "For centuries Christians copied and read stories that never entered the Bible. One was a book under James's name, which tells of Mary's parents and childhood. Bishops and teachers judged such books by what the apostles had handed down, and still the books were read.",
+   "longDescription": "About the year 200, on a visit to Rhossus, a town on the coast of Syria near Antioch, Bishop Serapion of Antioch found the church quarreling over a gospel that carried Peter's name. He had not read it, and he thought them all sound in faith. So he gave a short answer: \"If this is the only thing that seems to be causing bad feeling among you, let it be read.\"\n\nIn the second to fourth centuries, Christians wrote and read gospels about Jesus and tales of his first followers, the apostles, under the apostles' own names. These books never entered the New Testament: they are the Christian Apocrypha. Congregations read them aloud and argued over them, and bishops and teachers had to judge them against what had been handed down, received in the churches from the apostles.\n\nAfter he left Rhossus, Serapion was told that the book's backers had minds caught up in a teaching he held false. He borrowed the book from the group that had used it from the first, and he read it through. Most of it, he found, agreed with the Savior's true teaching, but some things had been added, and he set those out for them. What he wrote to them, which Eusebius of Caesarea kept in his Church History a century later, lays down his rule: \"Brothers, we receive Peter and the other apostles as we receive Christ. But the writings falsely put under their names we refuse, as people with experience. We know that such things were not handed down to us.\"\n\nIn the same years, a book of Paul's travels and deeds told of a girl named Thecla. In its later copies she hears Paul at Iconium, refuses the man she was promised to, and is condemned to the fire for it. The book says a storm of rain and hail puts the fire out, and she is saved. Later a governor sends her to the beasts for shaming a powerful man who had seized her in the street. In the arena she throws herself into a pit of water and baptizes herself in the name of Jesus Christ, on what she calls her last day. Afterward Paul sends her to teach the word of God.\n\nSome Christians cited her example as permission for women to teach and baptize. Tertullian, writing in Carthage in Roman Africa, answered them that Paul did not even let a woman learn too boldly. He also told of the book's writer, a presbyter, an elder of the church: \"Let them know that the presbyter in Asia who put that writing together, as if adding to Paul's fame from his own store, was found out. He confessed that he had done it for love of Paul, and he left his office.\"\n\nOther books told what the Gospels leave untold. One under James's name, kept in many later copies, tells of Mary's childhood. She is born to a childless couple, and from the age of three she lives in the temple, fed, it says, by an angel's hand, until she is betrothed to Joseph.\n\nEarly in the fourth century, Eusebius, writing his Church History, set such books in order. The Acts of Paul, Paul's travels and deeds, he counted among books known to most church writers but not genuine. He set lower still the gospel of Peter and other books like it. In his judgment they carried the apostles' names but had not been handed down, and they should be cast aside entirely as absurd and godless.\n\nLate in the fourth century, a pilgrim named Egeria came to Seleucia, on the south coast of today's Turkey. In one form of Thecla's book, this was where she taught many and fell asleep in death. On a low hill outside the city stood her church, with the small houses of men and women around it. There, Egeria writes, prayer was made at the memorial, and then the whole of the Acts of Thecla was read.",
+   "teaser": "The books the church read for centuries and never put in the Bible, and the people who wrote, read and judged them.",
    "voices": [
-    "The Protevangelium of James - anonymous, mid-second century, and the source of nearly everything later Christians believed about Mary's childhood",
+    "The Protevangelium of James - a book under James's name that tells of Mary's childhood",
     "The apocryphal Acts of Andrew, John, Philip and Thomas - apostolic adventure written in the register of Greek romance, often with an ascetic edge",
     "The Testaments of the Twelve Patriarchs - a Jewish work with Christian passages worked in, or a Christian work on Jewish sources; the argument is unresolved",
-    "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch, and recovered from an Egyptian grave in 1886",
+    "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch; a gospel fragment in Peter's voice was found in an Egyptian grave in 1886",
     "The Apocalypse of Peter - which stood near the canon's edge in the Muratorian fragment, and did not make it"
    ],
-   "legacy": "Marian devotion in both East and West rests in large part on the Protevangelium of James. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. And the Jewish books in this collection, written under the names of ancient figures, survive only because Christians copied them. Ironically, they were kept by the tradition that had parted from the one that produced them.",
+   "legacy": "A book under James's name, the Protevangelium of James, tells of Mary's parents and her childhood in the Temple. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. The verdicts went on as well. In 367 Athanasius of Alexandria called such books \"an invention of heretics\". Jerome still knew the Acts of Paul and Thecla, and counted them \"among the apocryphal writings\". Later, writing to a mother about her daughter's reading, he said: \"Let her avoid all apocryphal writings\". If she read them, she should understand \"that it requires infinite discretion to look for gold in the midst of dirt.\"",
    "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
    "placeLabel": "Asia Minor · Syria and beyond",
    "modernCountries": [
@@ -34238,7 +34262,7 @@ const DATA = {
     "worldName": "Alexandrian Christianity",
     "subtitle": "Alexandrian Catechetical Tradition",
     "color": "#3B83BF",
-    "tile": "In Alexandria, from about 150 to 400 CE, teachers led seekers through a shared reading of Scripture. They read for a deeper meaning beneath the surface, one that opened onto the Logos himself. This teaching reached the literate few. Ordinary believers met the same faith another way — through baptism, the shared meal, and the yearly round of fasts and feasts. Some call this one continuous school, led by one teacher after another. Others say it was simply a series of private teachers, grouped together only in hindsight. When plague struck the city, Bishop Dionysius of Alexandria wrote to his own church, praising his people for nursing the sick and burying the dead. Others, he wrote, fled the city instead. Persecution could reach the school's own teachers, not only the wider community. Origen himself was imprisoned and tortured under the emperor Decius, and he died a few years later. It had already touched his boyhood, too. His father was martyred in an earlier persecution, when Origen was still just a boy.",
+    "tile": "In Alexandria, in Egypt, from about 180 to the middle of the next century, Christians learned their faith from teachers, in what Eusebius of Caesarea calls a school. Teachers took pagans and catechumens, learners not yet baptized, through Scripture, read for a deeper sense beneath the plain story. Around 200, the threat of persecution drove every teacher of the faith out of the city. Pagans came instead to Origen, then in his eighteenth year, to hear the word of God, and some of his pupils were put to death. Clement taught that the Word, his name for Jesus, first urges people on, then trains them, and last of all teaches them. Origen wrote that Scripture has a body, a soul and a spirit, as a person does. Its plain story feeds the simple, and its deeper senses feed those who have gone further. Two of his pupils, Heraclas and then Dionysius, took over the instruction and became the city's bishops. Dionysius also sat for three days with the villages around Arsinoe. There he answered a bishop's book against reading Scripture for hidden meanings, and at the end the leader of its teaching said he was convinced.",
     "icon": "assets/world-icons/alexandria.svg",
     "portrait": "assets/portraits/alexandria.png",
     "topics": [
@@ -34848,7 +34872,7 @@ const DATA = {
     "worldName": "Syriac Christianity",
     "subtitle": "Syriac Christianity of Edessa and Nisibis",
     "color": "#CC5E0A",
-    "tile": "In Edessa and Nisibis, from 200 to 410 CE, Christians taught their faith in hymn. They read Scripture as a world of types, each one answering another. They also read the four Gospels as one continuous story, not four separate books. A harmony woven a generation earlier combined the four accounts. Preachers used it for as long as this Christian tradition lasted. At the heart of this community's ascetic life stood the covenant. Men and women vowed themselves to celibacy for life, serving their own congregation instead of leaving for the desert. Whether authority rested more in that vow or in a bishop's office was never settled in their own record. On the Persian side of the frontier, the king's persecution killed the bishop Simeon bar Sabbae and his clergy, and bishops after him were killed in turn. After the last of them, the bishopric of Seleucia-Ctesiphon stood empty for twenty years. Taking the post meant near-certain death.",
+    "tile": "In Edessa and Nisibis, two frontier cities between the Roman and Persian empires, Syriac-speaking Christians lived from the flood of 201 to the year 410. In Nisibis, Ephrem taught in hymns, each with a refrain that came back after every verse. In his hymn for a Persian siege, he sets the river that threatens the city beside Noah's flood. Some men and women vowed, before baptism, to live unmarried and holy for God: the sons and daughters of the covenant. In Persia, the teacher Aphrahat wrote letters, one of them to these vowed men and women. There, a later Greek church historian says, the king believed a charge that their bishop was a friend of the Roman emperor, taxed the Christians heavily and had their priests killed. In 363, to save its starving army inside Persia, Rome handed Nisibis to Persia, and Ephrem moved to Edessa. In prose, he answered three rival teachers by name, whose followers, he wrote, fasted as his people did but did not share their faith. In 410, forty bishops of the Persian church met to set its rules, the bishop of Nisibis among them.",
     "icon": "assets/world-icons/syriac.svg",
     "portrait": "assets/portraits/syriac.png",
     "topics": [
@@ -34980,13 +35004,13 @@ const DATA = {
    "id": "latin-pastoral-congregational-christianity",
    "documentedStories": [
     {
-     "title": "Cyprian’s Flight and the Sneer from Rome",
+     "title": "Cyprian’s Flight and the Letter from Rome",
      "when": "250",
      "tier": "1",
      "verification": "checked directly against the primary text",
-     "teaser": "When the persecution comes, the bishop of Carthage withdraws. The clergy of Rome, whose own bishop has just been killed, write to ask why.",
-     "text": "Decius’ order that everyone sacrifice reached Carthage early in 250, and the crowd in the amphitheater was already shouting for Cyprian by name. He left the city. The Roman clergy, whose bishop Fabian had just been executed, wrote to the Carthaginian clergy a letter that Cyprian later had to answer. It opened by noting that they had heard ‘the blessed father Cyprian has withdrawn’, and went on to quote the Gospel: the good shepherd lays down his life for the sheep, but ‘the hireling, who is not the shepherd, seeth the wolf coming, and leaveth the sheep, and fleeth.’ It was not subtle. Cyprian’s reply, and the stream of letters he sent from hiding, make his case: his presence would provoke worse violence against the congregation; he had continued to govern the church by correspondence; he had ordered the clergy to keep visiting the imprisoned confessors, and to do it in shifts and in ordinary dress so as not to draw attention. ‘Nothing on my own private opinion,’ he wrote of the readmission of the lapsed, promising to decide with the clergy and people when he could return. He did return, faced down a schism over exactly this question, and eight years later stood trial without flinching. But the charge of cowardice followed him, and his own biographer Pontius spends paragraphs answering it. The record keeps both the flight and the reasons.",
-     "caveat": "All the letters are contemporary and Cyprian preserved even the hostile one; but the collection was assembled by his own church, and his side of the argument is far better represented than the Roman clergy’s.",
+     "teaser": "When the persecution comes, the bishop of Carthage withdraws. The clergy of Rome, whose own bishop has just been killed, write to his clergy about their duty while he is gone.",
+     "text": "Decius’ order that everyone sacrifice reached Carthage early in 250, and the crowd in the amphitheater was already shouting for Cyprian by name. He left the city. The Roman clergy, whose bishop Fabian had just been executed, wrote to the Carthaginian clergy a letter that Cyprian later had to answer. It opened by noting that they had heard ‘the blessed father Cyprian has for a certain reason withdrawn’, said he had ‘acted quite rightly, because he is a person of eminence’, and went on to quote the Gospel: the good shepherd lays down his life for the sheep, but ‘the hireling, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth.’ Cyprian’s reply, and the stream of letters he sent from hiding, make his case: his presence would provoke worse violence against the congregation; he had continued to govern the church by correspondence; he had ordered the clergy to keep visiting the imprisoned confessors, and to do it in shifts so as not to draw attention. ‘Nothing on my own private opinion,’ he wrote of the readmission of the lapsed, promising to decide with the clergy and people when he could return. He did return, faced down a schism over exactly this question, and eight years later stood trial without flinching. But the charge of cowardice followed him, and his own biographer Pontius spends paragraphs answering it. The record keeps both the flight and the reasons.",
+     "caveat": "All the letters are contemporary and Cyprian preserved even the letter from Rome; but the collection was assembled by his own church, and his side of the argument is far better represented than the Roman clergy’s.",
      "sources": [
       {
        "work": "Cyprian, Epistles (ANF numbering) II: From the Roman Clergy to the Carthaginian Clergy, About the Retirement of the Blessed Cyprian",
@@ -35002,10 +35026,14 @@ const DATA = {
        "work": "Pontius the Deacon, Life and Passion of Cyprian, ch. 7–8",
        "type": "primary",
        "note": "The biographer’s defense of the withdrawal."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "J. Patout Burns, Cyprian the Bishop (Routledge, 2002)",
-       "type": "reference",
+       "title": "Cyprian the Bishop",
+       "author": "J. Patout Burns",
+       "year": "2002",
+       "publisher": "Routledge",
        "note": "On the flight, the Roman letter and the lapsed controversy."
       }
      ]
@@ -35017,7 +35045,7 @@ const DATA = {
      "verification": "checked directly against the primary text",
      "teaser": "Carthage learns that its bishop has been brought in, and the congregation spends the night in the street.",
      "text": "Under Valerian’s second edict, bishops were to be executed. Cyprian was arrested at his garden estate and taken to the proconsul’s residence, then, because the hearing was put off to the next day, held overnight at the house of an officer of the guard. Pontius, his deacon, was there. He says a rumor ran through the city ‘that now Thascius was brought forward’, and that everyone came — ‘to us glorious from the devotion of faith, and to be mourned over even by the Gentiles.’ The custody was gentle; the friends were allowed in. And ‘the whole people, in anxiety that nothing should be done throughout the night without their knowledge, kept watch before the officer’s door.’ Pontius’ comment is that God granted that ‘God’s people should watch on the passion of the priest’. The next morning the proconsul Galerius Maximus asked Cyprian to confirm his name and to perform the rites; the official record of the exchange, the Acta, gives his refusal in a handful of words and the sentence: to be executed by the sword. Cyprian said ‘Thanks be to God’, and the crowd, by Pontius’ account, cried out to be killed with him. He was beheaded in a field outside the city, having ordered that the executioner be paid twenty-five gold pieces. The vigil is the detail to keep: a congregation that had watched him flee eight years earlier now stood all night outside a door.",
-     "caveat": "Pontius was an eyewitness writing within a year or two, but as a devoted biographer; the trial dialogue rests on the Acta Proconsularia, a separate court-style record whose text has been lightly edited in transmission.",
+     "caveat": "Pontius was an eyewitness writing within a year or two, but as a devoted biographer; the trial dialogue rests on the Acta Proconsularia, a separate court-style record.",
      "sources": [
       {
        "work": "Pontius the Deacon, Life and Passion of Cyprian, ch. 15–18",
@@ -35027,12 +35055,21 @@ const DATA = {
       {
        "work": "Acta Proconsularia Sancti Cypriani",
        "type": "primary",
-       "note": "The court-style record of the two hearings; English in Musurillo, The Acts of the Christian Martyrs (Oxford, 1972)."
+       "note": "The court-style record of the two hearings."
       },
       {
        "work": "Cyprian, Epistles (ANF) LXXXI, To Successus",
        "type": "primary",
        "note": "Cyprian reports Valerian’s rescript and the death of Xistus of Rome weeks before his own."
+      }
+     ],
+     "modernWorks": [
+      {
+       "title": "The Acts of the Christian Martyrs",
+       "author": "Herbert Musurillo",
+       "year": "1972",
+       "publisher": "Oxford",
+       "note": "English translation of the Acta Proconsularia of Cyprian, among other acts of the martyrs."
       }
      ]
     },
@@ -35040,10 +35077,10 @@ const DATA = {
      "title": "The Psalms on the Wall of Augustine’s Room",
      "when": "August 430",
      "tier": "1",
-     "verification": "from reference summaries; primary text not yet read",
+     "verification": "checked directly against the primary text",
      "teaser": "With the Vandals outside Hippo, an old bishop asks for the penitential psalms to be written out and hung where he can see them.",
-     "text": "Possidius, bishop of Calama, had known Augustine for nearly forty years and was in Hippo Regius when the Vandal army closed round it in the summer of 430. His Life of Augustine, written within a few years, describes the end. Refugee bishops and clergy had crowded into the city; Augustine, seventy-five, watched churches burn across the province and quoted to his companions a saying he had made his own: ‘He is no great man who thinks it a great matter that trees and stones fall and mortals die.’ In the third month of the siege he fell ill with fever. He asked that the four penitential psalms — the ‘Psalms of David that deal with repentance’ — be copied out in large letters and fixed to the wall opposite his bed, and he lay reading them and weeping. He asked that no one come in except the physicians and those bringing food, so that he could pray. He had always said, Possidius notes, that even a good Christian and bishop should not leave this life without repentance. He died on 28 August. He made no will, Possidius adds, ‘because as a poor man of God he had nothing to leave’ — the library he asked to be kept for the church. The city fell the following year. It is the last documented scene of the most documented pastor of antiquity, and it is a scene of penitence rather than triumph.",
-     "caveat": "Possidius was an eyewitness and friend writing a memorial; the account is sober by the standards of the genre but is an admirer’s. The exact psalms are not specified beyond ‘the penitential ones’.",
+     "text": "Possidius, bishop of Calama, had known Augustine for nearly forty years and was in Hippo Regius when the Vandal army closed round it in the summer of 430. His Life of Augustine, written within a few years, describes the end. Refugee bishops and clergy had crowded into the city; Augustine watched churches burn across the province and took comfort in a wise man’s saying: ‘He is not to be thought great who thinks it strange that wood and stones should fall and mortals die.’ In the third month of the siege he fell ill with fever. He asked that ‘the shortest penitential Psalms of David’ be copied out and fixed to the wall opposite his bed, and he lay reading them and weeping. He asked that no one come in except the physicians and those bringing food, so that he could pray. He had always said, Possidius notes, that even a good Christian and bishop should not leave this life without repentance. He died on 28 August. He made no will, Possidius adds, ‘because as a poor man of God he had nothing from which to make it’ — the library he asked to be kept for the church. The city fell the following year.",
+     "caveat": "Possidius was an eyewitness and friend writing a memorial; the account is sober by the standards of the genre but is an admirer’s. The exact psalms are not specified beyond ‘the shortest penitential Psalms of David’.",
      "sources": [
       {
        "work": "Possidius of Calama, Life of Augustine, ch. 28–31",
@@ -35054,10 +35091,14 @@ const DATA = {
        "work": "Augustine, Letter 228 (to Honoratus)",
        "type": "primary",
        "note": "Augustine’s own letter, quoted by Possidius, on whether clergy should flee before the Vandals."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Peter Brown, Augustine of Hippo: A Biography, new ed. (California, 2000)",
-       "type": "reference",
+       "title": "Augustine of Hippo: A Biography",
+       "author": "Peter Brown",
+       "year": "2000",
+       "publisher": "California",
        "note": "On the last years and Possidius’ account."
       }
      ]
@@ -35090,17 +35131,17 @@ const DATA = {
    "sourcing": "Rich (Cyprian's letters, Augustine's sermons to his own flock)",
    "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed states.",
    "relationsSummary": "The churches led by Cyprian at Carthage and Augustine at Hippo. From the 310s a rival Donatist church stood in the same towns.",
-   "why": "Cyprian, bishop of Carthage in the mid-200s, told his congregation to nurse their pagan neighbors through the plague that now bears his name, before he was beheaded outside the city in 258. A century and a half later, Augustine preached to the same Hippo congregation several times a week for thirty-five years, and stenographers took down much of what he said.",
+   "why": "Cyprian, bishop of Carthage in the mid-200s, told his congregation, when plague struck, that caring only for their own was nothing great, before he was beheaded outside the city in 258. A century and a half later, at Hippo, Augustine preached in church and in homes, and listeners, the rival church's people too, brought shorthand writers to take down what he said.",
    "entry": null,
-   "teaser": "Roman North Africa, c. 240s to 430 CE — the parish before the word existed: bishops burying plague victims, preaching to the same faces every week, and deciding what to do about the people who had failed.",
-   "longDescription": "This is the congregational life of Latin-speaking North Africa. It is the week in, week out work of a bishop with a flock, and the hard disputes that pressed on that work. Cyprian became bishop of Carthage around 248. When the emperor Decius ordered everyone to sacrifice, he went into hiding. He came back to the hardest pastoral problem of the age. Thousands of his own people had complied, and now they wanted back in.\n\nHe organized relief through the plague that still bears his name. He told his congregation to nurse pagan neighbors as well as their own. He refused communion to the envoys of Novatian, a rival bishop at Rome. He argued with Stephen of Rome over baptism given outside the church. He was beheaded outside Carthage in 258.\n\nA century and a half later, Augustine was bishop of Hippo Regius from 395 until his death in 430. He preached to the same congregation several times a week for thirty-five years, and stenographers took much of it down. Hundreds of those sermons survive. They argue, joke, scold and console actual people whose lives he knew.\n\nHis pastoral work ran through the great disputes of his day. A rival Donatist church stood in the same towns, and he argued with it for decades. He answered the Manichaeans, whom he had followed for nine years in his youth. In his last years he wrote against Pelagius and his followers on grace and human nature.\n\nBetween the two bishops lay the ordinary round. Catechumens were taught, and new believers were baptized at Easter. Penitents did public penance. The church cared for widows and the poor. And the bishop sat as judge in his own people's disputes.",
+   "teaser": "Roman North Africa, the 250s to 430 CE: bishops gathering their people through plague, judging their quarrels, and deciding what to do about the people who had failed.",
+   "longDescription": "In the 390s, at Hippo, in today's Algeria, on a feast day, the people wanted their old feast in the church, with eating and drinking, which they called the Gladness. Their priest Augustine read them Scripture against drunken feasts and pleaded with them. He wrote: \"I did not move their tears with my own. But as these things were said, I confess, their weeping came first, and I could not hold back mine. When we had wept together, my sermon ended in the fullest hope that they would mend their ways.\" On the feast day itself, from the rival church, whose people he called heretics, came the sound of their feasting.\n\nFrom the 250s to 430, the Latin-speaking Christians of Roman Africa lived as congregations around one bishop, at Carthage under Cyprian and later at Hippo under Augustine. Their bishop taught them, fed their poor, bought back their captives, judged their quarrels and decided with them whom to take back after sin. Persecution, plague and a rival church in the same towns pressed on them, and the record keeps asking what a bishop and his people owed each other in danger.\n\nIn 250 the emperor Decius began a persecution, and his order called for sacrifice to the gods. At Carthage, in today's Tunisia, the crowd kept shouting violently for Cyprian, and he withdrew, as he wrote, to keep his people in peace. From hiding he led his church by letter, and told his clergy: \"I could not write back alone. From my first days as bishop I resolved to do nothing on my own private judgment, without your counsel and the people's consent.\"\n\nMany had given way and sacrificed, and now these fallen Christians asked to come back. Cyprian held that no one should be barred from penance, a time of public repentance, or from the hope of peace. Peace was the church's word for taking someone back, reconciling them, to share the bread and cup. At Rome a stricter party held that sharing communion with the fallen stained the rest. They set up Novatian as a second bishop of Rome, against the one already chosen. When his envoys came to Carthage, Cyprian and the bishops with him kept them from communion at once, since Novatian had been made bishop against the Catholic Church.\n\nA few years later plague struck. Pontius, Cyprian's deacon and admirer, says the bishop gathered the people and told them that caring only for their own was nothing great. The tasks were shared out, and the poor, who had no money to give, gave their work.\n\nThen the emperors ordered all who did not keep the Roman religion to take part in the Roman rites. Cyprian was arrested, and all his people gathered in the street outside where he was held. He refused, and the sentence called him an enemy of the Roman gods and their rites, and the leader of men gathered in a wicked conspiracy. He was led out and beheaded on 14 September 258.\n\nSoon after the great persecution of the early 300s, the people of Carthage chose a new bishop. A party said the bishop who had made him bishop had handed over the Scriptures to be burned, so they made a rival bishop and set up altar against altar. The rival side, the Donatists, held that one who was himself stained could not wash away sins, and they baptized again those who came over. A Catholic writer some sixty years later said the Donatists had split away, yet shared his church's true sacraments, such as baptism. So he did not call them heretics: to him, heretics taught falsely about God.\n\nLater, as bishop of Hippo, Augustine judged the disputes that Christians brought him, because Paul had told believers not to go to law before unbelievers. Against the rival church he had first wanted argument only. Then, he wrote, his fellow bishops pointed to his own town. Fear of the emperors' laws of exile and fines had brought it over to the Catholics, and he came to back those laws.\n\nIn his last years the Vandals, enemies who came by sea, overran Africa. Of countless churches, only three still stood: Carthage, Hippo and Cirta. A fellow bishop wrote to ask whether bishops and clergy should leave their churches. Augustine answered: \"But if the clergy are there, everyone is helped, as far as the Lord gives them strength. Some are baptized, others are reconciled. No one is cheated of communion in the Lord's body. All are comforted, built up and urged to ask God, who has the power to turn away all that is feared.\"",
    "voices": [
-    "Cyprian of Carthage — bishop through persecution and plague, whose letters are the fullest surviving picture of how a third-century congregation actually ran",
+    "Cyprian of Carthage — bishop through persecution and plague, who led his church by letter from hiding",
     "Pontius the Deacon — Cyprian's deacon, who wrote an account of his bishop's life and death",
-    "Augustine of Hippo — bishop of Hippo Regius for thirty-five years, and the most extensively documented working pastor of the ancient world",
+    "Augustine of Hippo — bishop of Hippo Regius until his death in 430",
     "Possidius of Calama — Augustine's friend and fellow bishop, who wrote his biography and cataloged his works"
    ],
-   "legacy": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. What it left behind is the working vocabulary of Western church life. Cyprian's letters laid the ground for how the West thinks about the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense. Augustine's sermons shaped Christian preaching for well over a thousand years. These congregations also worked out the catechumenate, the training of new believers before baptism. They worked out the practice of penance too. Both became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Latin Christianity's basic ideas about what a local church is took shape largely in these two African towns.",
+   "legacy": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Both churches claimed Cyprian: when the Donatists brought his authority forward for baptizing again, Augustine answered that they should keep Cyprian's example of unity instead. On Cyprian's feast Augustine preached that where a savage crowd had once gathered to shed his blood, a crowd now gathered to honor him, at an altar called Cyprian's table because he was offered there. Possidius copied Augustine's letter on clergy staying with their people into his Life, as very useful, even necessary, for priests. After Augustine's death, Hippo, abandoned by its people, was burned by the enemy. A century later, Procopius says, the people of Carthage revered Cyprian above all saints and kept a festival called the Cypriana at his church by the sea, which the Vandals had taken from the Christians. More than a century after Augustine, Facundus, a bishop of Byzantine Africa, still called Cyprian bishop of Carthage and martyr, and Augustine the most wise and most famous teacher of the churches of Christ.",
    "experienceToday": [
     {
      "text": "Hippo Regius and the Basilica of Saint Augustine, Annaba, Algeria — the excavated ruins of Augustine's city lie below a nineteenth-century basilica overlooking the site, both open to visitors",
@@ -35568,13 +35609,18 @@ const DATA = {
      "tier": "1",
      "verification": "from reference summaries; primary text not yet read",
      "teaser": "The church that anathematized Marcion’s followers also recorded, more than once, that they died for the name of Christ.",
-     "text": "Almost everything about the Marcionite congregations comes from writers who wanted them gone. But Eusebius, working from earlier documents, twice notes something his sources could have left out. In the account of the martyrs of Smyrna he appends to Polycarp’s story, he records that a presbyter named Metrodorus, ‘who appeared to be a member of the sect of Marcion’, was burned alive in the same city with the presbyter Pionius, in the Decian persecution. And describing the persecution under Valerian in Palestine, he names three men executed at Caesarea for provoking the judge by their confession, and adds: ‘a woman also, who is said to have belonged to the sect of Marcion, is reported to have suffered the same contest.’ The anonymous writer against the Montanists whom Eusebius quotes elsewhere was aware that the Marcionites had ‘a great many martyrs of Christ’, and had to argue that this did not prove them right. What the notices show is a movement that lived the same life as the churches it had left — assemblies, presbyters, women who confessed before a governor — and paid the same price, while the two sides refused each other communion to the end. Marcion had taught that the God of the Old Testament was not the Father of Jesus; his followers died confessing Jesus all the same. The catholic historians recorded it in a subordinate clause, and it is to their credit that they recorded it at all.",
-     "caveat": "Brief notices in Eusebius of Caesarea drawn from lost martyr acts; the qualifier ‘who appeared to be’ and ‘is said to have belonged’ is Eusebius’ own hedge. Nothing further is known of Metrodorus or the woman at Caesarea.",
+     "text": "Almost everything about the Marcionite congregations comes from writers who wanted them gone. But Eusebius, working from earlier documents, twice notes something his sources could have left out. In the account of the martyrs of Smyrna he appends to Polycarp’s story, he records that Metrodorus, ‘who appears to have been a proselyte of the Marcionitic sect’, was burned alive in the same city with the presbyter Pionius. Eusebius sets this in Polycarp’s time; the Acts of Pionius date it under Decius and call Metrodorus a presbyter of the Marcionites. And describing the persecution under Valerian in Palestine, he names three men executed at Caesarea for provoking the judge by their confession, and adds: ‘They relate that besides these, in the same persecution and the same city, a certain woman endured a similar conflict. But it is reported that she belonged to the sect of Marcion.’ The anonymous writer against the Montanists whom Eusebius quotes elsewhere was aware that the Marcionites claimed ‘a multitude of martyrs for Christ’, and had to argue that this did not prove them right. What the notices show is a movement that lived the same life as the churches it had left — assemblies, presbyters, women who confessed before a governor — and paid the same price, while the two sides refused each other communion to the end. Marcion had taught that the God of the Old Testament was not the Father of Jesus; his followers died confessing Jesus all the same. The catholic historians recorded it in a subordinate clause, and it is to their credit that they recorded it at all.",
+     "caveat": "Brief notices in Eusebius of Caesarea drawn from martyr acts, of which the Acts of Pionius survive; the qualifiers ‘appears to have been’ and ‘it is reported’ are Eusebius’ own hedge. The Acts add that Metrodorus was set on the left of Pionius, and that both faced east; nothing further is known of the woman at Caesarea.",
      "sources": [
       {
        "work": "Eusebius, Church History IV.15.46",
        "type": "primary",
-       "note": "Metrodorus the Marcionite presbyter burned with Pionius."
+       "note": "Metrodorus, who appears to have been a Marcionite, burned with Pionius."
+      },
+      {
+       "work": "Martyrdom of Pionius 21",
+       "type": "primary",
+       "note": "Metrodorus, a presbyter of the sect of the Marcionites, on the stake beside Pionius."
       },
       {
        "work": "Eusebius, Church History VII.12",
@@ -35585,11 +35631,15 @@ const DATA = {
        "work": "Eusebius, Church History V.16.21",
        "type": "primary",
        "note": "The anti-Montanist writer conceding the Marcionites’ ‘great many martyrs’."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Judith Lieu, Marcion and the Making of a Heretic (Cambridge, 2015)",
-       "type": "reference",
-       "note": "The standard modern study; on Marcionite communities and martyrs."
+       "title": "Marcion and the Making of a Heretic",
+       "author": "Judith Lieu",
+       "year": "2015",
+       "publisher": "Cambridge",
+       "note": "On Marcionite communities and martyrs."
       }
      ]
     }
@@ -35599,9 +35649,9 @@ const DATA = {
    "name": "Marcion / Marcionism",
    "shortName": "Marcion",
    "informalName": "Marcion and the Marcionites",
-   "dates": "c. 140-300s",
+   "dates": "2nd-5th c.",
    "start": 140,
-   "end": 300,
+   "end": 450,
    "region": "Rome, widespread",
    "regions": [
     "Mediterranean"
@@ -35619,18 +35669,18 @@ const DATA = {
    "c2": null,
    "sourcing": "Substantial, almost entirely via opponents",
    "floorNote": "Marcion taught two distinct gods — the creator of the Hebrew Scriptures and a higher Father revealed by Jesus — and a Christ who only appeared to have a body. Both directly contradict the creed's confession of one God, maker of all things, and a Son truly made flesh.",
-   "relationsSummary": "Second-century rival the proto-orthodox defined themselves against",
-   "why": "Marcion was a wealthy shipowner from Sinope. He concluded that the strict God of the Hebrew Scriptures, who gave the law, could not be the same being as the merciful Father whom Jesus revealed. The Roman church expelled him and gave back his money, by tradition in 144. He then built a rival network of churches with its own edited Scripture: a version of Luke and ten letters of Paul, which he had stripped of what he judged to be Jewish corruption.",
+   "relationsSummary": "Rival church, from the second century to the fifth, that the mainstream church drew its line against",
+   "why": "Marcion was a wealthy shipowner from Sinope. He concluded that the strict God of the Hebrew Scriptures, who gave the law, could not be the same being as the merciful Father whom Jesus revealed. The Roman church expelled him and gave back his money. He then built a rival network of churches with its own edited Scripture: a version of Luke and ten letters of Paul, which he had stripped of what he judged to be Jewish corruption.",
    "entry": null,
-   "teaser": "Rome and across the empire, c. 140 into the 300s CE — a shipowner who concluded the God of the Hebrew Scriptures could not possibly be the Father of Jesus, and built a rival church on that conviction.",
-   "longDescription": "Marcion came from Sinope on the Black Sea, made a considerable fortune in shipping, and arrived in Rome around 140 where he gave the church there a very large donation. Reading Paul on law and grace, he concluded that the just, law-giving creator of the Hebrew Scriptures and the merciful Father whom Jesus revealed were simply two different beings. And that Christ, sent by the higher God into a world he had not made, could not have taken real flesh from it. The Roman church expelled him and returned his money. The break is usually dated to 144. One recent study argues that date marks his arrival instead. He replied by organizing congregations of his own, which spread fast along the trade routes he knew and endured for centuries in the East. He gave them their own Scripture: a single gospel based on Luke and ten letters of Paul, edited to remove what he judged to be Jewish corruption, together with a book called the Antitheses setting the two Gods against one another point by point. Not one line of his own writing survives. Everything we have comes through the men who wrote to refute him, above all Tertullian, whose Against Marcion runs to five books.",
+   "teaser": "Rome and across the empire, the mid-second century into the fifth — a shipowner who concluded the God of the Hebrew Scriptures could not possibly be the Father of Jesus, and built a rival church on that conviction.",
+   "longDescription": "In 250, in the stadium at Smyrna, a presbyter, or church elder, named Pionius stretched himself on a stake and let the soldier drive in the nails. He had refused to sacrifice to the gods, saying he feared the living God. Beside him they raised Metrodorus, a presbyter of the rival Marcionites. Both faced east, and the wood was heaped around them.\n\nThe Marcionites were the churches that followed Marcion after Rome's church cast him out, in the middle of the second century. For about three hundred years, from Rome to Persia and down to the villages of Syria, they gathered with their own presbyters, teachers and martyrs. Their Scripture was two books, a Gospel cut down from Luke's and ten letters of Paul. They held one belief above all: Jesus came from a good Father, above the God who made the world, and Jesus abolished that God's law and prophets, the Jewish Scriptures. Everything this story tells of them comes from their enemies. Tertullian, a writer at Carthage, in North Africa, says Marcion was cast out for his restless curiosity, which spread to others. Irenaeus, a bishop writing within a generation, says Marcion cut from both books every passage that called the maker of the world the Father of Jesus.\n\nLate in the second century, a writer from the Roman province of Asia named Rhodon found Marcion's followers divided over how many first sources, or beginnings of all things, there are. Apelles, one of their teachers, held there was only one, one God, where Marcion held two. Rhodon, who argued with him, set down his words: \"He said there was no need at all to examine a person's teaching, and that each should keep to what he believed. For those who trusted in the one who was crucified would be saved, he said, if only they were found doing good works.\"\n\nAbout 207, Tertullian reported that their churches baptized only virgins, widows, the unmarried and the divorced, a rule he said condemned marriage. Their good God, he said, punished no one, and only cast the sinner away out of sight. An accused Christian was told to sprinkle incense from a box to the gods, and whoever did it denied Christ and went free. So he asked his Marcionite reader, who feared no punishment: \"Why, in times of persecution, do you not save your life at once by denying, when the incense box is held out? 'Never,' you say, 'never!'\"\n\nIn the persecution that began under the emperor Diocletian, Asclepius was burned at Caesarea in Palestine, the historian Eusebius's own city. He was said to be, Eusebius writes, a bishop of the Marcionites, eager for religion as he understood it, but without true knowledge.\n\nWhen the persecutions ended, the emperor Constantine issued an edict, a law addressed by name to the Marcionites and other heretics, those who, their enemies said, chose error. Their teaching, it said, made the healthy soul sick. It forbade their meetings, even in private houses, and gave their houses of prayer to the catholic Church.\n\nYet their meetings went on. At Jerusalem in the fourth century, explaining the creed's \"one Holy Catholic Church\" to those about to be baptized, Cyril named the Marcionites first among the heretics whose meetings were also called churches. He told them to ask in an unfamiliar city for the Catholic Church, the church over all the world.\n\nIn the fifth century Theodoret was bishop of Cyrrhus, in northern Syria. There John Chrysostom had once charged an earlier bishop to drive Marcion's teaching out of the district, offering the aid of the imperial edicts. Theodoret worked to bring them to his own faith, that Christ was, as he wrote, not only good but just. He was stoned many times by the heretics he fought. After twenty-five years as bishop, he wrote: \"I led eight villages of Marcion's followers, and the country around them, into the way of truth.\"",
    "voices": [
     "Marcion of Sinope — shipowner and organizer, who founded an alternative church with its own bishops and its own edited Scripture",
     "Tertullian of Carthage — wrote five books Against Marcion, the fullest surviving account of what Marcion actually taught",
     "Irenaeus of Lyons — one of the earliest to answer him, and the source for the story that Polycarp, meeting Marcion in the street, called him 'the firstborn of Satan'",
     "Justin Martyr — wrote against him within Marcion's own lifetime, in a work now lost"
    ],
-   "legacy": "Marcionite churches faded in the West by roughly the fourth century and lingered considerably longer in Syria and the East, but nothing descends from them. What Marcion left behind is what he provoked. Congregations that had never needed to specify which books counted as Scripture discovered that they now had to, and the confession of one God, maker of heaven and earth, whose Son truly took flesh, was hammered into its sharpest early form in argument against him. How far he actually caused the New Testament canon rather than accelerated a process already under way is still debated by historians.",
+   "legacy": "Epiphanius still found Marcionite churches in Rome and Italy late in the fourth century, and they lingered considerably longer in Syria and the East, but nothing descends from them. What Marcion left behind is what he provoked. The confession of one God, maker of heaven and earth, whose Son truly took flesh, was hammered into its sharpest early form in argument against him.\n\nTheir baptism became a question for other churches. A letter Cyprian of Carthage answered held that those who came from Marcion did not need to be baptized, since they seemed already baptized in the name of Jesus Christ. Cyprian answered that Marcion did not hold the same Father, the Creator, and so his baptism could not give remission of sins.",
    "statusDescription": "Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.",
    "placeLabel": "Rome and beyond",
    "modernCountries": [
@@ -35793,11 +35843,15 @@ const DATA = {
        "work": "Augustine, Against Faustus the Manichaean (Contra Faustum)",
        "type": "primary",
        "note": "Preserves Faustus’ Capitula in quotation."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Jason BeDuhn, Augustine’s Manichaean Dilemma, vol. 1 (Penn, 2010)",
-       "type": "reference",
-       "note": "The fullest modern study of Augustine’s years as a Hearer."
+       "title": "Augustine's Manichaean Dilemma, vol. 1",
+       "author": "Jason BeDuhn",
+       "year": "2010",
+       "publisher": "Penn",
+       "note": "Augustine's years as a Hearer."
       }
      ]
     }
@@ -35826,18 +35880,18 @@ const DATA = {
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Rich own corpus survives",
-   "floorNote": "Co-original dualism denies 'maker of all things'; most scholars: a distinct universal religion",
+   "floorNote": "Its teaching of Light and Darkness as two powers without beginning denies the creed's 'maker of all things'",
    "relationsSummary": "Augustine's own former allegiance",
-   "why": "Mani was born in Mesopotamia in 216 and raised by a sect of baptizers. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness, where sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+   "why": "Mani was born in Mesopotamia in 216 and raised by a sect of baptizers. He broke from them after what he described as revelations from an angel he called the Companion. He went on to teach that the world is a battleground between eternal Light and Darkness, where sparks of light lie trapped in matter. He wrote his own scriptures, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
    "entry": null,
-   "teaser": "From Persia to the Mediterranean and on to China, from 216 CE into the centuries beyond — a prophet who set out to found the one universal religion, and whose one intact surviving temple still stands on a hillside in Fujian.",
-   "longDescription": "Mani was born in Mesopotamia in 216 and raised in a sect of baptizers. He broke with it after what he described as revelations from his heavenly twin. He taught that reality is the battleground of two principles, Light and Darkness, which have both always existed. Particles of light are trapped in the material world, and a strict discipline of self-denial sets them free. Almost alone among the founders of his era, he wrote his own scriptures and had them translated on purpose. He meant his faith to absorb and replace Christianity, Zoroastrianism and Buddhism at once. For a time, it worked. The faith spread from Persia across the Roman Empire, and east along the Silk Road into Central Asia and China. His followers fell into two groups: the Elect, who kept the full discipline, and the Hearers, who supported them and lived ordinary lives. Augustine of Hippo was a Hearer for roughly nine years before his conversion. He spent much of his later career arguing against the teachers he had once sat under. Mani himself died in custody under the Persian king Bahram I in the 270s.",
+   "teaser": "From Persia to the Mediterranean and on to China, from 216 CE into the centuries beyond — a prophet who called himself the last of God's messengers, and whose lay followers' prayer of confession was kept in a cave library near Dunhuang.",
+   "longDescription": "On 28 August 392, at Hippo in Roman Africa, a Manichaean priest named Fortunatus debated Augustine, then a priest of the city's church. Augustine had once been one of them, and Fortunatus called on him as witness to how they lived: \"You were at our prayer.\" Augustine answered that he had been only a Hearer, never one of the Elect. At their prayer he had seen nothing shameful, only that they prayed facing the sun, which went against the faith he later learned.\n\nThey were the followers of Mani, a prophet of Babylonia. From the 200s they held that Light and Darkness were two powers without beginning, now mixed in the world, and that in the end the two would be parted again. The Elect lived in strict purity and poverty, while the Hearers lived in the world and fed and served them. Hunted by Persian kings and Roman emperors, they spread from Mesopotamia west to Roman Africa and east to the Turks and China.\n\nMani was born in 216 in Babylonia, in Mesopotamia. He wrote a book for King Shapur of Persia, and Biruni, a Muslim scholar of about 1000, quotes how it begins. Mani says God's messengers brought wisdom and deeds to people from age to age: the Buddha to India, Zoroaster to Persia, Jesus to the West. Now, in this last age, the revelation had come down through Mani himself, God's messenger to Babylonia. He said he was the Paraclete, the Helper Jesus had promised, and he wrote his own scriptures.\n\nHis followers held that they must harm no animal, fire, water or plant. The Elect kept from marriage, owned only a day's food and a year's clothing, and went about preaching. The Hearers gave a tenth of what they had, fasted and married one wife. The Hearers' own confession, a prayer for forgiveness, says the Light was in the food they ate, and that their sins sent it \"to the Bad Place.\" Augustine mocks this. Eating the Hearers' food, he says, the Elect freed bits of God inside it. Their stomachs made it into \"angels and gods\", who would free the Hearers.\n\nBiruni says King Bahram had Mani hunted down, and gives the king's reason: \"This man has come forward calling people to destroy the world.\" Bahram had him killed, but the accounts differ on how. Some say he was flayed and his skin hung at the gate of the city of Gundeshapur. A book by one of his pupils, which Biruni reports, says he failed to cure a relative of the king and was chained in prison until he died.\n\nHis followers kept the day he died as their great feast, the Bema. Augustine says he asked why they honored it far above Easter. They told him the day to keep was the death of one who had truly suffered, since Christ, they held, was never born in real flesh and only seemed to suffer. After Mani's death, a Baghdad scholar of the 900s says, the king killed his followers wherever he found them, and they fled east into the lands of the Turks.\n\nIn 372 the Roman emperors ordered that wherever their meetings were found, the teachers be heavily fined, the members shut out of society and the houses seized, for teaching what the law called a profane doctrine. Faustus of Milevis, a bishop of theirs, wrote a book answering their opponents' questions on the gospel, and Augustine, a Hearer for nine years, kept his words, quoting each part before answering. Faustus wrote: \"If you press me whether I accept the gospel, I may answer: I have left all that was mine. Father, mother, wife, children, gold, silver, eating, drinking, comforts, pleasures. Take this as answer enough to your questions. And believe that you will be blessed, if you do not stumble because of me.\"\n\nChristians brought Faustus before the governor's court, and, found to be a Manichaean, he was exiled to an island. Augustine calls this the lightest of penalties, since those same Christians pleaded for him.\n\nIn 732 a Chinese emperor's order called Mani's teaching a perverse belief that falsely took the name of Buddhism and deceived the people, and forbade it, though the foreigners from the West, whose own religion it was, might keep it themselves. A later emperor's letter says China let the faith grow because the Uyghurs, a Turkish people, revered it. In 843, with the Uyghurs defeated, an edict closed the faith's temples. A Chinese chronicle written four centuries later says some seventy of their women religious at the capital all died.\n\nNear the oasis of Dunhuang, a cave library kept a scroll written in Mani's script, in a Turkish tongue. It is the Hearers' confession, and one of its articles begins: \"Every day, how many evil thoughts we think! How many wretched words we speak that should not be spoken! How many deeds we do that should not be done!\" Each article ends the same way: my God, cleansing ourselves of sin, we pray, forgive my sin.",
    "voices": [
-    "Mani — the founder, who wrote his own scriptures rather than leaving the task to disciples, and died in a Persian prison",
+    "Mani — the founder, who wrote his own scriptures rather than leaving the task to disciples, and died at a Persian king's hands",
     "Faustus of Milevis — the Manichaean bishop whose teaching Augustine sought out as a young man and later refuted at length",
-    "Augustine of Hippo — a Hearer for about nine years, then the movement's most effective Latin opponent, and an unintended preserver of its arguments"
+    "Augustine of Hippo — a Hearer for about nine years, then the movement's Latin opponent, and an unintended preserver of its arguments"
    ],
-   "legacy": "In the West, emperors and the church hunted it down. It had largely vanished by the sixth century. Yet the word 'Manichaean' survived for centuries afterwards. It became an insult aimed at anyone thought too fond of dualism, the belief that two opposed powers divide the world. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it held on in southern China for many centuries. Mani wrote his own books. Over the last century, manuscripts have also been recovered from Turfan in western China and from Medinet Madi in Egypt. There is also the tiny Cologne Mani Codex. Because of all this, it is one of the few extinct ancient religions that can now be read largely in its own words. It is no longer known only through its enemies.",
+   "legacy": "In the West, emperors and the church hunted it down. It had largely vanished by the sixth century. Yet the word 'Manichaean' survived for centuries afterwards. It became an insult aimed at anyone thought too fond of dualism, the belief that two opposed powers divide the world. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it held on in southern China for many centuries. Mani wrote his own books. Over the last century, manuscripts have also been recovered from Turfan in western China and from Medinet Madi in Egypt. There is also the tiny Cologne Mani Codex. Because of all this, it can now be read largely in its own words. It is no longer known only through its enemies.\n\nThe old record also shows how long they lasted in the East. In the 900s, the Fihrist says, some five hundred of them gathered at Samarkand. When the ruler of Khorasan wished to kill them, the ruler of China, as the Fihrist calls him, swore that he would kill all the Muslims in his own lands if one of them were killed, and they were left alone and taxed. The Fihrist's author had known about three hundred of them in Baghdad, but in his own day barely five were left there. About the year 1000 Biruni wrote that most of the eastern Turks, and many of the people of China and Tibet, still held Mani's law. In the West their opponents went on answering and hunting them: Ephrem the Syrian wrote against Mani in Syriac, and at Rome in 443 Bishop Leo had many of them found where they hid in the city, exposed before the whole church, and their books burned.",
    "experienceToday": [
     {
      "text": "Cao'an, Jinjiang, Fujian, China — long regarded as the only intact surviving Manichaean temple, with its carved image of Mani, inscribed as part of the Quanzhou UNESCO World Heritage site in 2021",
@@ -35905,16 +35959,16 @@ const DATA = {
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Almost wholly hostile heresiological description",
-   "floorNote": "Some outside writers report that they denied Jesus's virgin birth and divinity; others report the opposite of the group they call Nazoraeans. Because nothing survives from these communities themselves, what they actually confessed cannot be established either way — an open question about the evidence, not a settled answer about their doctrine.",
-   "relationsSummary": "These communities are the clearest evidence that Christianity began inside Judaism. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects the two.",
-   "why": "Some Jewish communities of believers in Jesus kept observing Torah, circumcision, and the Sabbath long after most of the church had moved on, honoring James, the brother of Jesus, and regarding Paul as someone who had abandoned the Law. Not one word survives from these communities in their own voice - everything known of them comes through later writers who disagreed with each other and wrote from the outside, so even what they actually believed remains genuinely uncertain.",
+   "floorNote": "Some outside writers report that they denied Jesus's virgin birth and divinity; others report the opposite of the group they call Nazoraeans. Because nothing written by these communities survives whole, what they actually confessed cannot be established either way — an open question about the evidence, not a settled answer about their doctrine.",
+   "relationsSummary": "Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects the two.",
+   "why": "Some Jewish communities of believers in Jesus kept observing Torah, circumcision, and the Sabbath, regarding Paul as someone who had abandoned the Law. Nothing written by these communities survives whole - everything known of them comes through other writers who disagreed with each other and wrote from the outside, so even what they actually believed remains genuinely uncertain.",
    "entry": null,
-   "teaser": "Palestine and Syria, roughly the first through fourth centuries — Jewish followers of Jesus who never stopped keeping the Law, and whose own words have not survived to tell us what they actually believed.",
-   "longDescription": "The first Christians were Jews, and in Palestine and Syria some communities of Jewish believers in Jesus went on keeping Torah, circumcision and the Sabbath long after the wider church had moved away from them. Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law. But those writers disagree with one another, wrote from outside and often centuries later, and had every reason to sharpen the picture. The fullest account of all, Epiphanius's Panarion, is now widely judged unreliable in its details. Not one text these communities wrote about themselves survives intact — only fragments quoted by the people refuting them. And modern scholars genuinely disagree about whether 'Ebionite' and 'Nazoraean' name two distinct groups, one group under two labels, or largely a category the heresy-hunters assembled.",
+   "teaser": "Known to church writers from the second century to about 400, and placed by the later ones in Syria and beyond the Jordan — Jewish followers of Jesus who never stopped keeping the Law, and whose own books have not survived to tell us what they actually believed.",
+   "longDescription": "In the middle of the second century, at Ephesus, as Eusebius later recorded, a Jew named Trypho questioned the Christian teacher Justin. Suppose a man believes that Jesus is the Christ, the Messiah God had promised, and obeys him, but still wants to keep the Law of Moses: will he be saved? In my view he will, Justin answered, if he does not press the Law on non-Jewish believers. Trypho asked whether some said no. \"There are some, Trypho, I answered, who do not dare to share even company or a home with such people. I do not agree with them.\"\n\nSuch people were Jews who believed that Jesus was the Christ and went on keeping that Law: circumcision, the Sabbath, the food laws. Their own books are lost, so we meet them only through other church writers, nearly all of whom argued against them, and those writers do not agree on what they believed about Jesus. Church writers wrote of them from Justin's day to about 400, and the later ones place them in Syria and beyond the Jordan.\n\nBy about 180 they were called Ebionites, and Irenaeus, bishop of Lyon in Gaul, counted them among the heresies, the teachings he held false. They were circumcised, he writes, and lived so much as Jews that they revered Jerusalem \"as if it were the house of God\". They rejected Paul as \"an apostate from the Law\", one who had abandoned it. They held, he writes, that Jesus was the son of Joseph.\n\nOne of them, Symmachus, put the Hebrew Scriptures into Greek, and writers who called them heretics used his version. In his last years Origen, the teacher from Alexandria, said that their name came from the Hebrew word for \"poor\". In another book he scorned them as poor in understanding, named from the poverty of their minds. He knew two kinds of them: some confessed with the church that Jesus was born of a virgin, and some denied it and said he was born like other men.\n\nThe Nazoraeans named themselves after Nazareth, says Epiphanius, a bishop on Cyprus, who about 375 wrote of them and the Ebionites as two heresies, side by side. They were Jews in everything: they read the Law and the prophets in Hebrew, and believed in one God and in his child Jesus Christ. What they held about Christ himself, he says, he cannot tell, whether a mere man, or born of Mary by the Holy Spirit. In the synagogues, he says, the Jews prayed three times a day that God would curse the Nazoraeans, because they were Jews who preached that Jesus is the Christ.\n\nIn Beroea, a city of Syria, the Nazoraeans used a gospel written in Hebrew letters, and they let Jerome copy it, as he wrote in 392. Elsewhere he calls it the Gospel according to the Hebrews, and says he put it into Greek and Latin. In it, after the resurrection, the Lord appears to James, his brother. James had sworn not to eat bread from the hour he drank the Lord's cup until he saw him risen. Jerome quotes what follows, where the dead are those who sleep: \"He took bread and blessed it and broke it, and gave it to James the Just. He said to him, 'My brother, eat your bread, for the Son of Man has risen from among those who sleep.'\"\n\nIn 404 the Nazoraeans were still a sect among the Jews in all the synagogues of the East, Jerome wrote to Augustine, and the Pharisees, the Jewish teachers, still condemned them. What they believed about Jesus he set down as the church's own faith, and in the same breath gave his verdict. \"They believe in Christ, the Son of God, born of the Virgin Mary. They say he is the one who suffered under Pontius Pilate and rose again. We too believe in him. But while they want to be both Jews and Christians, they are neither Jews nor Christians.\"",
    "voices": [
-    "No leader of these communities is named in any source they produced themselves. The heresy-hunters offer only 'Ebion', a supposed founder most scholars now think never existed — invented to explain a group name that in fact meant simply 'the poor'."
+    "No leader of these communities is named in any source they produced themselves. The heresy-hunters offer only 'Ebion', a founder Tertullian, Hippolytus and Epiphanius name, while Origen says the group's name meant 'poor' in Hebrew."
    ],
-   "legacy": "No community descends from them. They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them. What they left behind is a question rather than an institution. They are the standing reminder that Christianity began inside Judaism, and that the separation of the two was slower, later and far more contested than a tidy account allows. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them.",
+   "legacy": "No community descends from them. Jerome wrote in 404 that the Nazoraeans were still a sect among the Jews in all the synagogues of the East, and Augustine, about 400, that their number was very small but the sect still continued; the gospel material attributed to them survives only as quotations in the writers who opposed them. What they left behind is a question rather than an institution. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them.\n\nTheir books passed through the hands of the writers who opposed them. Origen set Symmachus's Greek version beside the other Greek versions of the Hebrew Scriptures in his book of columns, and Jerome used his renderings. Jerome copied the gospel the Nazoraeans used, and says he put it into Greek and Latin. Later writers made Ebion a byword for those who held Christ only a man: Damasus's creed condemns Photinus \"renewing the heresy of Ebion\", and Hilary calls Photinus \"the Ebion of our day.\"",
    "statusDescription": "The record is genuinely disputed. This entry carries the question, not a verdict.",
    "placeLabel": "Palestine · Syria",
    "modernCountries": [
@@ -35929,7 +35983,7 @@ const DATA = {
     "Palestine": " (the historical region)"
    },
    "people": [],
-   "peopleNote": "No one is shown. No leader of these groups is named in a source of their own. Their founder, Ebion, is most likely a name later writers made up."
+   "peopleNote": "No one is shown. No leader of these groups is named in a source of their own. Tertullian, Hippolytus and Epiphanius name a founder, Ebion."
   },
   {
    "id": "montanism-the-new-prophecy",
@@ -36304,8 +36358,8 @@ const DATA = {
      "tier": "2",
      "verification": "from reference summaries; primary text not yet read",
      "teaser": "The scholar whose students would later start the Arian controversy is remembered for how he answered the emperor.",
-     "text": "Lucian was a presbyter of Antioch who spent his life on the text of the Greek Bible, producing a revision of the Septuagint and Gospels used across the Greek East for centuries. He was also, on the later testimony of his pupils, a teacher whose circle — Arius and Eusebius of Nicomedia among them — called themselves ‘fellow-Lucianists’ long after he was dead. What the record preserves about the man himself is the manner of his death. Eusebius, writing within a few years, says Lucian was brought before the emperor Maximinus at Nicomedia, delivered a defense of the faith, and was put in prison and killed; a later notice puts it on 7 January 312 and adds that he had been held for nine years. Chrysostom, preaching on his feast at Antioch three generations later, gave the tradition his congregation knew. Under questioning, Lucian gave every question the same answer: he was a Christian. Later still comes the story that, chained on his back in the cell and forbidden the sacrament, he celebrated the Eucharist on his own chest for the Christians imprisoned with him. The scholar is documented; the confessor is attested; the prisoner-priest is devotion. All three belong to how Antioch remembered him, and the awkward fact that the most notorious heresy of the next century traced itself to his classroom did not stop the church from keeping his feast.",
-     "caveat": "Eusebius of Caesarea is near-contemporary but brief; Chrysostom’s account of his one answer is a homiletic tradition; the Eucharist on the chest is late hagiography. The link between Lucian’s teaching and Arius’ is asserted by Arius’ own party and disputed by modern scholars.",
+     "text": "Lucian was a presbyter of Antioch who spent his life on the text of the Greek Bible, producing a revision of the Septuagint and Gospels used across the Greek East for centuries. He was also, on the later testimony of his pupils, a teacher whose circle — Arius and Eusebius of Nicomedia among them — called themselves ‘fellow-Lucianists’ long after he was dead. What the record preserves about the man himself is the manner of his death. Eusebius, writing within a few years, says Lucian was brought before the emperor Maximinus at Nicomedia, delivered a defense of the faith, and was put in prison and killed; a later notice puts it on 7 January 312 and adds that he had been held for nine years. Chrysostom, preaching on his feast at Antioch two generations later, gave the tradition his congregation knew. Under questioning, Lucian gave every question the same answer: he was a Christian. Later still comes the story that, chained on his back in the cell and forbidden the sacrament, he celebrated the Eucharist on his own chest for the Christians imprisoned with him. The scholar is documented; the confessor is attested; the prisoner-priest is devotion. All three belong to how Antioch remembered him, and the awkward fact that the most notorious heresy of the next century traced itself to his classroom did not stop the church from keeping his feast.",
+     "caveat": "Eusebius of Caesarea is near-contemporary but brief; Chrysostom’s account of his one answer is a homiletic tradition; the Eucharist on the chest is late hagiography. The link between Lucian’s teaching and Arius’ is asserted by Arius’ own party.",
      "sources": [
       {
        "work": "Eusebius, Church History VIII.13.2 and IX.6.3",
@@ -36315,17 +36369,28 @@ const DATA = {
       {
        "work": "John Chrysostom, Homily on the Martyr Lucian",
        "type": "primary",
-       "note": "The tradition of his one answer; PG 50:519–526, English in Wendy Mayer, The Cult of the Saints (SVS, 2006)."
+       "note": "The tradition of his one answer; PG 50:519–526."
       },
       {
        "work": "Jerome, Lives of Illustrious Men, ch. 77",
        "type": "primary",
        "note": "Lucian’s scholarly work and death at Nicomedia."
+      }
+     ],
+     "modernWorks": [
+      {
+       "title": "Arius: Heresy and Tradition, rev. ed.",
+       "author": "Rowan Williams",
+       "year": "2002",
+       "publisher": "Eerdmans",
+       "note": "On the ‘Lucianist’ connection and its limits."
       },
       {
-       "work": "Rowan Williams, Arius: Heresy and Tradition, rev. ed. (Eerdmans, 2002)",
-       "type": "reference",
-       "note": "On the ‘Lucianist’ connection and its limits."
+       "title": "The Cult of the Saints",
+       "author": "Wendy Mayer",
+       "year": "2006",
+       "publisher": "SVS",
+       "note": "An English translation of Chrysostom's Homily on the Martyr Lucian."
       }
      ]
     }
@@ -36354,21 +36419,21 @@ const DATA = {
    "living": true,
    "overlayCurrent": false,
    "c2": null,
-   "sourcing": "Only one document survives directly from this period: Malchion's synodal letter deposing Paul of Samosata, about three thousand words, the collective act of a council rather than an individual's book. Serapion's fragments fall just before this window. Everything else about these hundred years arrives through Eusebius of Caesarea, quoting archives at second hand, and through what the fourth century said about Lucian once his pupils had become notorious.",
-   "floorNote": "The city's church itself is not in question. But Paul of Samosata's own teaching is a live, unresolved question about where the doctrinal line falls, distinct from the other monarchian currents of the period, such as Sabellius's modalism.",
-   "relationsSummary": "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher. Its tie to modalist monarchianism is a mirror, not a line of descent. Paul of Samosata taught adoptionism and Sabellius taught modalism. These were opposite ways of refusing the account of the Son that the century was working out.",
-   "why": "In 268, a council of bishops at Antioch deposed Paul of Samosata. He taught that Christ was a man the Word had come to dwell in, rather than the Word made flesh. The bishops found his conduct just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272. Aurelian settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius of Alexandria had to explain why.",
+   "sourcing": "Only one document survives directly from this period: the synodal letter deposing Paul of Samosata, about three thousand words, the collective act of a council rather than an individual's book. Serapion's fragments fall just before this window. Everything else about these hundred years arrives through Eusebius of Caesarea, quoting archives at second hand, and through what the fourth century said about Lucian once his pupils had become notorious.",
+   "floorNote": "The city's church itself is not in question. But Paul of Samosata's own teaching is a live, unresolved question about where the doctrinal line falls.",
+   "relationsSummary": "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher, whose opponents said he called the Son unlike the Father in substance.",
+   "why": "A council of bishops at Antioch deposed Paul of Samosata. The bishops wrote that he said Jesus Christ was from below, and Eusebius says he held that Christ was by nature an ordinary man. The bishops also wrote against his conduct, including a raised throne in church and hymns sung to himself. He would not leave the church's house until the emperor Aurelian was petitioned. Aurelian settled the matter by ordering the house given to the side the bishops of Italy and Rome wrote to. In the 350s, bishops wary of Nicaea's word 'homoousios', which says the Son is of one being with the Father, pointed back to this council. They said it had turned the word down, and Athanasius of Alexandria had to explain why.",
    "entry": null,
-   "longDescription": "In 268 or thereabouts, the bishops of Syria and Asia Minor met at Antioch to deal with their own metropolitan, for the third time in a few years. Paul of Samosata was bishop of the greatest city in the Roman East. The council that removed him says he liked to be called ducenarius, a salaried official's title, probably held under the Palmyrene rulers of the city. The charges mix doctrine with deportment. He had a raised throne built for himself in church, he stopped the old hymns and had new ones sung to himself, and women in his household gave scandal. The teaching at issue was that Christ was a man in whom the Word had come to dwell, not the Word made flesh. The reading was later called adoptionist. The council could not make its removal of him stick, because the civil power was Palmyrene and Paul had its favor. He went only when Aurelian retook the city in 272. The emperor settled who owned the church building by asking which claimant was in communion with the bishops of Italy and Rome. It was the first time a Roman emperor ruled on a Christian dispute. The letter announcing the deposition was drafted by Malchion, who ran a school of rhetoric in the city and had cross-examined Paul in front of shorthand writers. A generation later, in the same city, a presbyter named Lucian worked over the text of the Greek Bible. He taught a circle of students, Arius among them, who afterwards used his name as a badge.",
-   "teaser": "A council removed the bishop of the greatest city in the East for what he taught and how he behaved, and could not make it stick until an emperor decided who owned the building.",
+   "longDescription": "Paul of Samosata became bishop of Antioch around 260. The bishops who judged him wrote that he had changed the psalms, the sacred songs, sung in his own church. \"He stopped the psalms to our Lord Jesus Christ, as if they were too new, the work of newer men. But on the great day of Easter he trains women to sing psalms to himself, in the middle of the church. Anyone who heard them would shudder.\"\n\nIn the later third century the Christians of Antioch, in Roman Syria, were one church under a bishop, with presbyters, its priests, and deacons, its helpers, bound by letters to churches across the empire. When their own bishop was charged with refusing to confess that the Son of God came down from heaven, the bishops of the East met again and again over him, until at last they put him out.\n\nAlmost all we know of him comes from the letter his judges sent out, which Eusebius of Caesarea copied into his history of the church. They wrote that Paul said Jesus Christ was from below, and Eusebius says he held that Christ was by nature an ordinary man.\n\nBishops hurried to Antioch from every side, Eusebius says, as against a man ravaging Christ's flock, and they met there often while Paul's side hid what he taught. Firmilian, bishop of Caesarea in Cappadocia, came twice and condemned his new teaching, but when Paul promised to change, Firmilian believed him and put the matter off. On his third journey he died at Tarsus, while the bishops waited for him.\n\nThe bishops also wrote that Paul built himself a high throne and a curtained private room, like a magistrate. He scolded those who would not cheer and wave handkerchiefs as in the theater, though they listened with reverence, as in the house of God. A bishop, they held, must be an example to the people.\n\nAt last Malchion, a presbyter who ran the city's school of Greek learning, questioned Paul while shorthand writers took the debate down. A final meeting of many bishops cut Paul off from the whole church, because, they wrote, he set himself against God and refused to obey. No church was to send him letters of communion, the letters bishops exchanged to show they shared one church.\n\nPaul refused to give up the church's house, so the case went to the emperor Aurelian. He gave the house to whichever side the bishops of Italy and Rome wrote to. Paul's judges had asked them to write to a new bishop, not Paul, so he was driven out of the church by the worldly power.\n\nIn the persecution under the emperor Maximinus, Lucian, a presbyter of the same church, defended his faith before the emperor at Nicomedia and was imprisoned and killed. Two generations later, John Chrysostom told in a sermon how he answered under torture. \"To each question he answered only, I am a Christian. When the torturer asked, What is your homeland? I am a Christian, he said. What is your trade? I am a Christian. Who are your parents? To all of it he said, I am a Christian.\"\n\nLater, in Alexandria, a presbyter named Arius said that the Son of God had a beginning, and God had none. His bishop, Arius wrote, preached that the Son always was, and drove him out of the city because he would not agree. That bishop set Lucian in a line from Paul to Arius: Lucian, he wrote, kept out of communion with the bishops for many years, and Arius and his party were shoots of the same root.\n\nA church historian of the next century, on Arius's side, says that some of Lucian's pupils became bishops. One was Eusebius, bishop of Nicomedia, not Eusebius of Caesarea. Arius had written to him about being driven out, and ended that letter with the name Lucian's pupils gave themselves. \"I pray you fare well in the Lord, remembering our troubles, fellow-Lucianist.\"",
+   "teaser": "A council removed the bishop of Antioch for what he taught, and could not make it stick until an emperor decided who owned the building.",
    "voices": [
-    "Paul of Samosata - bishop of Antioch and Palmyrene official, deposed for teaching that Christ was a man indwelt by the Word, surviving only in his enemies' minutes",
-    "Malchion - head of the city's rhetorical school, who cross-examined Paul of Samosata before stenographers and drafted the letter that deposed him",
+    "Paul of Samosata - bishop of Antioch, deposed on the charge of refusing to confess that the Son of God came down from heaven, surviving only in his enemies' minutes",
+    "Malchion - head of the city's rhetorical school, who cross-examined Paul of Samosata before stenographers and, by Jerome's account, drafted the letter that deposed him",
     "Lucian of Antioch - biblical text-critic and martyr in 312, whose pupils, Arius among them, called themselves Lucianists",
     "Serapion - bishop about 191 to 211, who let the Gospel of Peter be read at Rhossus, read it properly, and withdrew the permission",
-    "Aurelian - who took the city back from Palmyra in 272 and settled the dispute by asking which claimant Italy recognized"
+    "Aurelian - who took the city back from Palmyra in 272 and settled the dispute by ordering the church's house given to those to whom the bishops of Italy and Rome wrote"
    ],
-   "legacy": "Two things went out of this council into the fourth century. The word homoousios - one substance - seems to have been rejected here as something Paul of Samosata had misused. A generation after Nicaea adopted it in 325, Eastern bishops who were not Arians still cited this council when they balked at it. And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another. The Antiochene way of reading Scripture, carried by Diodore, Theodore of Mopsuestia and Chrysostom, may also go back to Lucian's work on the text. No ancient source draws that line. If it does, this century began two things the next four centuries spent arguing about.",
+   "legacy": "Three things went out of this council into the fourth century. The word homoousios - one substance - seems to have been rejected here as something Paul of Samosata had misused. A generation after Nicaea adopted it in 325, Eastern bishops who were not Arians still cited this council when they balked at it. And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another. Paul's own followers kept a church of their own: the council of Nicaea ruled that the \"Paulianists\" who came over to the Catholic Church must be rebaptized, and that their clergy found blameless be rebaptized and ordained again.",
    "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
    "placeLabel": "Antioch on the Orontes · Syrian hinterland",
    "modernCountries": [
@@ -36573,8 +36638,8 @@ const DATA = {
      "tier": "2",
      "verification": "checked directly against the primary text",
      "teaser": "The only life of a third-century bishop of Rome was written by the man who set himself up against him.",
-     "text": "Everything known about Callistus’ early life comes from Hippolytus, who wanted him disgraced, and it has to be read that way. On Hippolytus’ telling, Callistus was the slave of a Christian in the imperial household named Carpophorus, who set him up in a bank; Christians and widows deposited money with him; the money vanished; he fled, was caught on a ship at Portus after jumping into the sea, was sentenced to the treadmill, and then — having brawled in a synagogue on the Sabbath — was sent to the mines of Sardinia. He came back when Marcia, the emperor Commodus’ Christian concubine, obtained a release list of Christian convicts, and got himself included though Bishop Victor had left him off it. Victor pensioned him off to Antium; Zephyrinus, the next bishop, brought him back to manage the church’s cemetery on the Appian Way, and on Zephyrinus’ death the church elected him. Hippolytus then lists his sins as bishop: he readmitted Christians who had committed adultery after baptism; he recognized as marriages the unions of senatorial women with slaves and freedmen; he kept bishops who had married twice. What Hippolytus records as scandal, a later church would recognize as pastoral policy — the first known bishop to say that the church could forgive the gravest sins, and to treat a noblewoman’s union with a poor Christian as a marriage. Hippolytus was eventually exiled to the same Sardinian mines under Maximinus and died there; Rome venerates both as saints.",
-     "caveat": "Hippolytus is a contemporary and a hostile rival with an interest in every detail; the criminal narrative is unverifiable and the reforms are described as heresy by a man who lost. That Callistus was a former slave and administered the catacomb that bears his name is generally accepted.",
+     "text": "Everything known about Callistus’ early life comes from Hippolytus, who wanted him disgraced, and it has to be read that way. On Hippolytus’ telling, Callistus was the slave of a Christian in the imperial household named Carpophorus, who set him up in a bank; Christians and widows deposited money with him; the money vanished; he fled, was caught on a ship at Portus after jumping into the sea, was sentenced to the treadmill, and then — having brawled in a synagogue on the Sabbath — was sent to the mines of Sardinia. He came back when Marcia, the emperor Commodus’ Christian concubine, obtained a release list of Christian convicts, and got himself included though Bishop Victor had left him off it. Victor pensioned him off to Antium; Zephyrinus, the next bishop, brought him back to manage the church’s cemetery, and on Zephyrinus’ death he became bishop. Hippolytus then lists his sins as bishop: he said he forgave all their sins, sins of sensual pleasure among them; he let women of rank count a companion, slave or free, as a husband; he kept bishops who had married twice. Hippolytus was eventually exiled to Sardinia, in 235; Rome venerates both as saints.",
+     "caveat": "Hippolytus is a contemporary and a hostile rival with an interest in every detail; the criminal narrative is unverifiable and the reforms are described as heresy by a man who lost.",
      "sources": [
       {
        "work": "Hippolytus, Refutation of All Heresies IX.6–7 (IX.12 in some editions)",
@@ -36584,11 +36649,15 @@ const DATA = {
       {
        "work": "Tertullian, On Modesty (De Pudicitia), ch. 1",
        "type": "primary",
-       "note": "A second hostile witness to the edict on readmitting adulterers, usually taken to be Callistus’."
-      },
+       "note": "A hostile witness to an edict on readmitting adulterers, by a bishop it does not name."
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Allen Brent, Hippolytus and the Roman Church in the Third Century (Brill, 1995)",
-       "type": "reference",
+       "title": "Hippolytus and the Roman Church in the Third Century",
+       "author": "Allen Brent",
+       "year": "1995",
+       "publisher": "Brill",
        "note": "On the rivalry and the reliability of the Refutation."
       }
      ]
@@ -36599,7 +36668,7 @@ const DATA = {
      "tier": "1",
      "verification": "checked directly against the primary text",
      "teaser": "A bishop of Rome is caught holding a service underground and executed on the spot, and the news reaches Carthage in a letter.",
-     "text": "Valerian’s second edict against the Christians ordered bishops, presbyters and deacons to be executed at once, and senators and knights who were Christians to lose their rank and property. Cyprian of Carthage learned of it from messengers he had sent to Rome to find out what was coming, and wrote to a fellow bishop, Successus, to pass it on. The letter reports the edict’s terms and then the first thing done under it: ‘Xistus was martyred in the cemetery on the eighth day of the Ides of August, and with him four deacons.’ That is all Cyprian says, and it is the whole contemporary record. Xistus — Sixtus II — had been bishop for less than a year, and had spent it repairing the breach with Carthage over the rebaptism of heretics that his predecessor Stephen had opened. He was seized while presiding in one of the underground burial galleries on the Appian Way where the Roman church met when it could not meet openly, and killed there with the deacons attending him; a fourth-century inscription by Pope Damasus marks the place. The deacon Lawrence, executed four days later, would gather the legend — the gridiron, the poor presented as the church’s treasure — but no contemporary describes his death, and the earliest sources are a century later. Cyprian closed his letter by asking Successus to spread the news so that everyone could ‘be found ready’. He was himself arrested within the month.",
+     "text": "Valerian’s second edict against the Christians ordered bishops, presbyters and deacons to be executed at once, and senators and knights who were Christians to lose their rank and property. Cyprian of Carthage learned of it from messengers he had sent to Rome to find out what was coming, and wrote to a fellow bishop, Successus, to pass it on. The letter reports the edict’s terms and then the first thing done under it: ‘Xistus was martyred in the cemetery on the eighth day of the Ides of August, and with him four deacons.’ That is all Cyprian says, and it is the whole contemporary record. Xistus — Sixtus II — had spent his time as bishop repairing the breach with Carthage over the rebaptism of heretics that his predecessor Stephen had opened. He was seized while presiding in one of the underground burial galleries where the Roman church met when it could not meet openly, and killed there with the deacons attending him; a fourth-century inscription by Pope Damasus marks the place. The deacon Lawrence, executed four days later, would gather the legend — the gridiron, the poor presented as the church’s treasure — but no contemporary describes his death, and the earliest sources are a century later. Cyprian closed his letter by asking Successus to spread the news so that the brotherhood might be ‘strengthened and prepared for the spiritual conflict’.",
      "caveat": "Cyprian’s letter is contemporary and precise; the Lawrence traditions are fourth-century and later. The exact spot and the identity of the four deacons rest on Damasus’ epigram and the martyrological tradition.",
      "sources": [
       {
@@ -36616,10 +36685,14 @@ const DATA = {
        "work": "Ambrose, On the Duties of the Clergy I.41",
        "type": "primary",
        "note": "The earliest literary form of the Lawrence legend."
-      },
+      }
+     ],
+     "modernWorks": [
       {
-       "work": "Candida Moss, The Myth of Persecution (HarperOne, 2013)",
-       "type": "reference",
+       "title": "The Myth of Persecution",
+       "author": "Candida Moss",
+       "year": "2013",
+       "publisher": "HarperOne",
        "note": "On the growth of the Lawrence legend from the bare record of Sixtus."
       }
      ]
@@ -36649,21 +36722,21 @@ const DATA = {
    "overlayCurrent": false,
    "c2": null,
    "entry": null,
-   "sourcing": "Substantial but one-sided. Hippolytus' Refutation is the fullest account of the Roman church in these decades and is written by a man who claimed the see against its bishop; Cyprian's correspondence with Rome gives an outside view. Callistus has no surviving voice of his own.",
+   "sourcing": "Substantial but one-sided. Hippolytus' Refutation is the fullest account of the Roman church in these decades and is written by a man who withstood its bishops; Cyprian's correspondence with Rome gives an outside view. Callistus has no surviving voice of his own.",
    "floorNote": "Not in question",
    "relationsSummary": "The church of Rome after its house-church years, from about 200. The Novatian schism of 251 began inside it.",
-   "why": "Callistus, a former slave once sent to the Sardinian mines, became bishop of Rome. He led his congregation through open arguments over two questions. One was grave sin after baptism. The other was how to speak of Father and Son without naming two Gods. Hippolytus was a learned presbyter who thought him wrong on every count. He set himself up as a rival bishop. He also wrote a Refutation. Almost by accident, it preserves more about second- and third-century religious movements than any other surviving book. Callistus himself left not one word in his own voice.",
-   "longDescription": "Between the house-church world that ends around 200 and the Novatian schism of 251, the Roman church did most of its early growing up - and it did so in public argument with itself. Zephyrinus and then Callistus led a large and socially mixed congregation through questions that had no settled answers: whether a Christian who had committed grave sin after baptism could ever be restored, whether a noblewoman could contract a union the state would not recognize rather than lose her status, how to speak about Father and Son without saying two Gods. Hippolytus, a learned presbyter of the same city, thought Callistus wrong on all three and said so at length, eventually functioning as a rival bishop. Nearly everything known about the period comes from him, which is a problem: he is the losing party and a hostile witness. Callistus, a former slave who had been sent to the Sardinian mines, left nothing in his own voice.",
-   "teaser": "Rome between 200 and 260 - a former slave leading the city's church, a learned rival who called himself bishop instead, and the arguments about forgiveness and marriage that neither of them could avoid.",
+   "why": "Callistus, a former slave, became bishop of Rome. He led his congregation through open arguments over two questions. One was grave sin after baptism. The other was how to speak of Father and Son without naming two Gods. Hippolytus was a presbyter who thought him wrong on every count. He also wrote a Refutation. Callistus himself left not one word in his own voice.",
+   "longDescription": "Natalius was a confessor, one who had stood trial for the faith and not given way. Yet, early in the 200s, he let a group teaching that Christ was only a man make him their paid bishop. A writer of his day says he ignored warning visions, so holy angels whipped him all night. He put on sackcloth and ashes and threw himself down before Zephyrinus, bishop of Rome, rolling at the feet of clergy and people. He was barely taken back into communion, the church's shared bread and cup.\n\nIn the first half of the 200s, the Christians of Rome were a large, mixed church. It held slaves and women of rank, and fed more than fifteen hundred widows and poor, under a bishop the people chose. They argued in public over how to speak of Father and Son, whether the church could take back grave sinners, and whom a woman of rank might marry, until a stricter party broke away in 251. Almost all that is told of its first decades comes from Hippolytus, a writer of that time. He withstood two of Rome's bishops, but the church sided with them.\n\nZephyrinus's right hand was Callistus, who had been a slave. When Zephyrinus died, Callistus became bishop and put Sabellius, who taught that Father and Son were one and the same, out of the church. Hippolytus says Callistus did it because he feared Hippolytus, and to clear himself of the charge that he shared Sabellius's view. In his words, as his enemy reports them: \"I will not profess belief in two Gods, Father and Son, but in one.\" Hippolytus spoke of one God but two persons, and Callistus, he says, called that two Gods.\n\nHippolytus says Callistus let people off for sins of the body, saying he forgave them all. People troubled in conscience came to his church, along with people other groups had refused, and some Hippolytus's side had thrown out. Callistus pointed, his enemy says, to the weeds in Christ's parable, left to grow with the wheat.\n\nHe let a woman of rank, who would lose that rank by a lawful marriage, take a companion, slave or free, and count him her husband. Hippolytus charged that such women took drugs to avoid or end a pregnancy, not wanting a child by a slave, and he called the rule a teaching of adultery and murder.\n\nSome years after Callistus, as a later historian tells it, all the brothers and sisters met to choose a bishop by vote, and set Fabian on the bishop's seat. In 250 the emperor Decius forced Christians to sacrifice to the gods. The same historian traces it to Decius's hatred of Philip, the emperor before him, who was reported to be a Christian. Fabian died a martyr, leaving Rome without a bishop. Some gave way from terror or fear of men, and became known as the fallen. Rome's clergy wrote of them to Carthage's clergy: \"They are separated from us, but we have not abandoned them. We urged them, and urge them still, to repent, if by some means they can receive pardon from the One who is able to grant it. If we abandoned them, they would grow worse.\"\n\nCornelius, made bishop in 251, counted his church: forty-six elders, seven deacons, and more than a hundred lesser clergy. Novatian, an elder, held that the fallen had no more hope, and with a stricter party and confessors at his side he was made a second bishop, set up against the first. That year sixty bishops met at Rome, declared Novatian's party outsiders, and resolved to heal the fallen through repentance.\n\nThat year, the confessors who had sided with Novatian came back, saying they had been deceived. Cornelius wrote how the people met them: \"A great crowd of the brothers and sisters came running together. All of them had one voice, giving thanks to God. They showed the joy of their hearts in tears. They embraced them as if they had been set free from prison that very day.\"",
+   "teaser": "Rome between 200 and 260 - a former slave leading the city's church, a rival who withstood him, and the arguments about forgiveness and marriage that neither of them could avoid.",
    "voices": [
     "Callistus - a former slave and convict who became bishop of Rome, and left not one word of his own",
-    "Hippolytus - the learned presbyter who opposed him, set himself up as rival bishop, and wrote nearly everything we know about it",
+    "Hippolytus - the presbyter who opposed him and wrote nearly everything we know about it",
     "Zephyrinus - Callistus' predecessor, whom Hippolytus judged out of his depth",
     "Caius - the Roman presbyter whose disputation with a Montanist survives in fragments",
     "Cornelius - bishop from 251, whose correspondence with Cyprian opens the Novatian crisis",
-    "Dionysius of Rome - bishop 259-268, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, is the clearest doctrinal statement the Roman see made in this century"
+    "Dionysius of Rome - bishop from 259, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, Athanasius later quoted"
    ],
-   "legacy": "The questions argued here did not go away. After the persecution of 250, Rome had to decide a hard case. Could Christians who had sacrificed be restored? The quarrel split the city in the Novatian schism of 251. Rome's answer was that they could. That is the answer the Western church kept. Hippolytus wrote his Refutation to discredit Callistus. In passing, it also keeps more about second- and third-century religious movements than any other surviving book.",
+   "legacy": "The questions argued here did not go away. After the persecution of 250, Rome had to decide a hard case. Could Christians who had sacrificed be restored? The quarrel split the city in the Novatian schism of 251. Rome's answer was that they could. That is the answer the Western church kept. Hippolytus wrote his Refutation to discredit Callistus. In the 260s, after believers from Alexandria accused their own bishop before him, Dionysius of Rome wrote against both Sabellius, who said that the Son is the Father, and those who preached three Gods. Athanasius later quoted the letter against the Arians, who held that the Son of God was a creature. Eusebius says the Roman custom of sending gifts to churches in every city lasted down to the persecution of his own day, and Basil says Dionysius of Rome sent men to ransom captive believers of the church of Caesarea in Cappadocia.",
    "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
    "placeLabel": "Rome",
    "modernCountries": [
@@ -134507,10 +134580,10 @@ function openPersonCardNow(P){
   if(p&&p.longDescription){
     const recorded=treeAudioCurrent.has(p.id)&&treeAudioMeta[p.id];
     readLen=recorded&&treeAudioMeta[p.id].bytes?clipLength(treeAudioMeta[p.id]):briefLength(p.longDescription.split(/\s+/).length/150*60);
-    if(recorded)h+=briefPlayerHTML('audio/tree/'+p.id+'.mp3',readLen);
     read=briefTextHTML(p.longDescription);
     if(card.quotationOriginals&&card.quotationOriginals.length)read+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
     read+=quotesPanel(card);
+    if(recorded){h+=briefPlayerHTML('audio/tree/'+p.id+'.mp3',readLen,read);read='';}
   }
   h+=`<dl class="person-facts">${facts}</dl>`;
   if(p)h+=storyTeaserHTML(p);
@@ -135195,13 +135268,22 @@ function chainSet(on){try{localStorage.setItem(CHAIN_KEY,on?'1':'0');}catch(e){}
 const PLAY_SVG='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z"/></svg>';
 const PAUSE_SVG='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
 function clock(s){s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');}
-function briefPlayerHTML(src,len){
+// The brief's text sits in the player: "Read along" opens it under the controls, so a visitor can
+// read with the voice or on their own.
+function briefPlayerHTML(src,len,text){
   return `<div class="brief" data-brief-src="${esc(src)}" data-brief-len="${esc(len||'')}">`
     +`<div class="brief-row"><button type="button" class="brief-play"></button>`
-    +`<p class="brief-head"><span class="brief-label">Audio Brief · Narrated Edition</span><span class="brief-time"></span></p></div>`
+    +`<p class="brief-head"><span class="brief-label">Audio Brief · Narrated Edition</span><span class="brief-time"></span></p>`
+    +`<button type="button" class="brief-read-btn" aria-expanded="false" aria-controls="brief-read"${text?'':' hidden'}>Read along</button></div>`
     +`<div class="brief-rail" role="slider" tabindex="0" aria-label="Position in the audio brief" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="brief-fill"></span></div>`
     +`<div class="brief-opts"><label>Speed <select class="brief-rate">${NARR_RATES.map(r=>`<option value="${r}">${r}×</option>`).join('')}</select></label>`
-    +`<label><input type="checkbox" class="brief-auto"> Play briefs when a card opens</label></div></div>`;
+    +`<label><input type="checkbox" class="brief-auto"> Play briefs when a card opens</label></div>`
+    +`<div class="brief-read" id="brief-read" hidden>${text||''}</div></div>`;
+}
+function setBriefText(el,html){
+  if(!el||!html)return;
+  el.querySelector('.brief-read').innerHTML=html;
+  el.querySelector('.brief-read-btn').hidden=false;
 }
 function briefSrcOf(id){
   if(BUILT_WORLD_IDS.has(id)){const tw=treeWorldOf(id);return tw&&tw.story&&tw.story.file?'audio/worlds-tree/'+tw.story.file:null;}
@@ -135296,6 +135378,12 @@ function wireBrief(){
     document.querySelectorAll('audio').forEach(narrApplyRate);
   });
   auto.addEventListener('change',()=>narrSetAuto(auto.checked));
+  const readBtn=el.querySelector('.brief-read-btn'), readBox=el.querySelector('.brief-read');
+  readBtn.addEventListener('click',()=>{
+    const open=readBox.hidden;
+    readBox.hidden=!open; readBtn.setAttribute('aria-expanded',String(open));
+    readBtn.textContent=open?'Hide the text':'Read along';
+  });
   el.querySelector('.brief-play').addEventListener('click',()=>{
     if(briefIsOpenCard()&&briefAudio.getAttribute('src')===el.dataset.briefSrc){
       if(briefAudio.paused||briefAudio.ended)playBrief();else briefAudio.pause();
@@ -135488,7 +135576,9 @@ async function loadBuiltWorldOrientation(censusId){
     const o=compiled.orientation||{};
     const put=(k,html)=>{const el=panelBody.querySelector(`.orient-slot[data-orient="${k}"]`);if(el)el.outerHTML=html;};
     const wrap=html=>html?`<div class="orient">${html}</div>`:'';
-    put('a',foldHTML('Read the brief','',[['',wrap(o.story&&o.story.length?R.story(compiled,storyOpts):'')]])
+    const storyHTML=wrap(o.story&&o.story.length?R.story(compiled,storyOpts):'');
+    if(player)setBriefText(player,storyHTML);
+    put('a',(player?'':foldHTML('Read the brief','',[['',storyHTML]]))
       +foldHTML('Documented stories',(o.documented_stories||[]).length,[['',wrap(o.documented_stories&&o.documented_stories.length?R.documented_stories(compiled,{idPrefix:censusId,...nopts}):'')]]));
     put('b',foldHTML('In their own words',(o.voices||[]).length,[
       ['Voices',wrap(o.voices&&o.voices.length?R.voices(compiled):'')],
@@ -135527,7 +135617,7 @@ function foldHTML(title,count,parts,id){
   const kept=parts.filter(([,html])=>html);
   if(!kept.length)return '';
   const body=kept.length===1&&kept[0][0]!==''?kept[0][1]:kept.map(([t,html])=>(t?`<h3>${esc(t)}</h3>`:'')+html).join('');
-  return `<details class="fold"${id?` id="${id}"`:''}><summary><span class="fold-t">${esc(title)}</span>${count?`<span class="fold-n">${esc(String(count))}</span>`:''}</summary><div class="fold-b">${body}</div></details>`;
+  return `<details class="fold"${id?` id="${id}"`:''}><summary><h3 class="fold-t">${esc(title)}</h3>${count?`<span class="fold-n">${esc(String(count))}</span>`:''}</summary><div class="fold-b">${body}</div></details>`;
 }
 function pageLinkHTML(m){return `<p class="tree-link">This card as a page: <a href="tree/${esc(m.id)}.html">${esc(m.name)}</a></p>`;}
 function storyTeaserHTML(m){
@@ -135587,10 +135677,10 @@ function openCouncilCard(c){
   let read='', readLen='';
   if(c.longDescription){
     readLen=briefLenOf(c.id)||briefLength(c.longDescription.split(/\s+/).length/150*60);
-    if(treeAudioCurrent.has(c.id))h+=briefPlayerHTML('audio/tree/'+c.id+'.mp3',briefLenOf(c.id));
     read=briefTextHTML(c.longDescription);
     if(co.quotationOriginals&&co.quotationOriginals.length)read+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
     read+=quotesPanel(co);
+    if(treeAudioCurrent.has(c.id)){h+=briefPlayerHTML('audio/tree/'+c.id+'.mp3',briefLenOf(c.id),read);read='';}
   }
   h+=`<dl class="person-facts">${facts}</dl>`;
   h+=storyTeaserHTML(c);
@@ -135655,8 +135745,8 @@ function openPanelNow(m){
     if(wa)h+=briefPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,'');
   }else if(m.longDescription){
     readLen=briefLenOf(m.id)||briefLength(m.longDescription.split(/\s+/).length/150*60);
-    if(treeAudioCurrent.has(m.id))h+=briefPlayerHTML('audio/tree/'+m.id+'.mp3',briefLenOf(m.id));
     read=briefTextHTML(m.longDescription)+sectionSources(m.storySources);
+    if(treeAudioCurrent.has(m.id)){h+=briefPlayerHTML('audio/tree/'+m.id+'.mp3',briefLenOf(m.id),read);read='';}
   }
   if(m.why)h+=`<p class="summary">${esc(m.why)}</p>`;
   h+=storyTeaserHTML(m);
@@ -135741,14 +135831,13 @@ function openPanelStory(s){
     ${s.placeLabel?`<p class="meta">${esc(CFTPlace.formatPlace(s,{today:true}))}</p>`:''}
     <span class="statuspill">${esc(s.confidence)} · a story</span>`;
   if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
-  if(s.text)h+=briefPlayerHTML(`audio/stories/${s.id}.mp3`,'');
+  if(s.text)h+=briefPlayerHTML(`audio/stories/${s.id}.mp3`,'',briefTextHTML(s.text));
   if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
   if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
   const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
   if(related.length)h+=`<h3>Nearby on the map</h3><ul class="voices">${related.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(plainDates(m.dates))}</li>`
   ).join('')}</ul>`;
-  h+=foldHTML('Read the story','',[['',s.text?briefTextHTML(s.text):'']]);
   h+=foldHTML('Sources and notes',(s.sources||[]).length,[['',(s.sources||[]).map(src=>{
     const work=src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.work)}</a>`:esc(src.work);
     return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;

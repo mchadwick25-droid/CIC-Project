@@ -1,0 +1,52 @@
+# Batch header
+
+- **Story:** Manichaeism (census id `manichaeism`). **Kind:** tradition (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/tradition.md`). **Folder:** `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/`. **Card file:** `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Card.existing.json` (the census entry's card fields; a tradition has no `card` field).
+- **Job on the slate (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** The followers of Mani, a church with its own scriptures and its Elect and Hearers. It follows them from Mesopotamia across the Roman Empire and east along the Silk Road, hunted by Persian king and Roman emperor alike, and told as they held their faith. Half B.
+- **Census home and direct line:** Its own entry. No direct line: only argued against by the Syriac and Latin Pastoral traditions.
+- **Descent or break:** None the census lacks. Mani's break with the baptizers he grew up among is told, but they have no entry on the tree, so no link is needed.
+- **Siblings in the batch:** Latin Pastoral (Augustine: read its outline first). Syriac (Ephrem's answers: a clause; read its outline).
+- **Live beside it:** augustine-of-hippo.
+- **Heart and length:** approved (Mark, 2026-11-25, "Batch 11: hearts and lengths approved": "Approve as recommended"): the heart as `Outline.md` holds it under "The heart", and **675 words**, as its "Approved heart and length" section records. Every Cut first item goes to the card or Leave out as it is marked. The independent count runs past 675 after Cut first, so the outline must add to its Cut first list. Also kept by that ruling: nothing further. **Length now governs as ruled:** Mark, 2026-11-25 ("Batch 11: the two long stories", "approve the two long ones", option A): about 725 words. The nine cuts in `Fixes_Length.md` that cost no heart apply (Mani's break with the baptizers among them), and Mani's line about the messengers (Q1) is told in the narrator's words, not quoted. The heart as `Outline.md` now holds it governs, with any wording the outline check corrected.
+- **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Barred: both quotes in augustine-of-hippo.
+- **Also:** Held for research, among others: the Acts of Archelaus, Augustine's anti-Manichaean works (npnf104), the Fihrist, the Khuastuanift, the Chinese treatise (French), Alexander of Lycopolis.
+
+- **Approved before the kit (Kit Part 3, step 0):** this tradition's live text, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/manichaeism.brief.approved.txt`, was approved before the kit and goes through every step here. Read it too. Keep its wording wherever it passes the standard and the outline; change what does not, and use nothing in it the outline does not hold.
+
+
+---
+
+# Card writer
+
+You update the card for **Manichaeism** to go with its finished brief. The existing card, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Card.existing.json`, comes from earlier Library builds that were checked more than once. Keep it word for word, and make only two kinds of edit.
+
+1. **New.** Add what the new brief brings: its quotations, each with the modern rendering exactly as the brief has it, the printed or original wording verbatim from its file and lines, and the work. Add the references the brief draws on. For the format, see the `card` of `cyril-and-methodius` in `cic-website/data/world-census.json`. Re-read each cited line in its file.
+2. **Clearly wrong.** Correct a statement only when a held source contradicts it, or when it contradicts the finished brief. Change the fewest words that put it right. A claim you cannot find support for is not wrong: leave it in place and list it as not found.
+
+Do not reword, reorder, expand or shorten anything else. Leave connections to other entries out for now.
+
+The card goes into the census, so it must pass `tools/validate-census.mjs`. Use only the keys it allows, and no `briefLength`. Give `quotationOriginals` one entry for each quoted span in the brief, and none for a span the brief no longer quotes. Leave out `secondReading` for a quotation of six words or more: release sets it from the second readings, never inventing one. A quotation under six words is not read blind: give it `"checked at card"`, and the card checker checks its rendering against its original and print. In card prose, put quotation marks only around a source's own words, as a cited file or the brief's quotations give them, since the census validator looks for every quoted span there. Give the brief's narration without them. The card is a live surface: name no audit file, review or ruling in it. Use American spelling, except in printed wording quoted verbatim.
+
+Part 1 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md` governs the card too, its short texts included: the card's `legacy` and `uncertain`, and the census entry's `why`, `relationsSummary` and `teaser`. None may repeat a claim the brief no longer makes, or name a thing without the explanation Part 1 requires. You do not edit the entry: list each change an entry field needs under **Entry fields** in `Card_Edits.md`, and release applies the ones the checker passes. Each story carries two reference lists: the old sources in the card's `sources`, and modern works in the entry's `modernWorks` (or a documented story's), `title` and `author` required, `year`, `publisher`, `url` and `note` as held, within the project's rights rules (`Build/worlds/_cross-world/CORPUS-USE.md`). Each modern work the outline used to clarify an old text or find one goes there, and a modern work now listed under the card's `sources` moves there word for word; list both under **Entry fields**. Whatever else the outline, review or fresh read sends to the card goes under `uncertain` or the field it belongs to. A quote whose original is held only in a damaged scan prints its English alone unless another held print confirms the reading. Check Greek by hand.
+
+Read Part 1 of the kit and the kind kit, then the brief `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/manichaeism.brief.txt`, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Outline.md`, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Source_Sheet.md`, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Review.md` and `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Fresh_Read.md`. Write the card to `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/manichaeism.card.json`, and list every edit in `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Card_Edits.md`: the old words, the new words, and the evidence (file and lines, or the brief's sentence). Do not edit the census, the existing card or the brief, and do not commit. Keep any scratch script or census copy outside the repository, in a folder for this story alone, and never run another hand's script. Reply in under 120 words: each edit in one line, and any claim not found.
+
+## A new card
+
+Where there is no existing card, build one with every field the other cards carry that the sources hold, in the format above. Every claim comes from the source sheet or outline at a cited line, or from the finished brief. Where the census entry already has other fields (`voices`, `legacy`, `why`, `sourcing` and the like), the card must not contradict them: list each conflict. In `Card_Edits.md`, list each field with its evidence.
+
+## A new person's census entry
+
+Where the person has no census entry, also write `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/manichaeism.entry.json`, `major: true`, told within the tradition the slate names. Follow `cyril-and-methodius` in `cic-website/data/world-census.json`: the same keys, in the same order, and no others, filled as the other person entries of that era fill them. `atlasId` is the next free one in that era's series. Dates, places and regions come only from the card and the outline's Setting. The `teaser` is one sentence in the model's form, saying no more than the card's `knownFor` and the brief. `longDescription` is the brief, final newline removed; `reviewStatus` is "AI-checked"; `card` is the card. List each field and its source in `Card_Edits.md`.
+
+## The check pass
+
+The card checker did not write the card. Read `CLAUDE.md` ("Trust and source fidelity"), Part 1 of the kit, the kind kit and this role, then the brief, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Outline.md`, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Review.md`, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/Fresh_Read.md`, the card, `Card_Edits.md`, the starting card if there is one, and the entry if there is one. Check:
+1. Each edit or field is justified by its evidence, and each item the outline, review or fresh read sends to the card is on it. No modern opinion, date or identification is stated as content anywhere on the card; a modern work appears only in `modernWorks`, its `note` saying what it covers, never what it argues.
+2. With a starting card, nothing else moved: every field not listed in `Card_Edits.md` is word for word.
+3. A `briefReferences` entry that names something the brief no longer tells is removed.
+4. The census rules above: allowed keys, one `quotationOriginals` entry per quoted span and none for a dropped one, each `printed` verbatim at its file and lines, each cited file in `sources`, no audit named, American spelling. Where the outline renders from a held original, the card carries it.
+5. Each quotation marked "checked at card": its rendering against its original and print.
+6. Each claim listed as not found, and anything clearly wrong left in.
+7. A census entry: each field against its source, no `atlasId` already in use.
+
+Write `Card_Check.md`: PASS, or FIX with each change exact (the field, the old text, the new text). Edit nothing. Reply in under 120 words.

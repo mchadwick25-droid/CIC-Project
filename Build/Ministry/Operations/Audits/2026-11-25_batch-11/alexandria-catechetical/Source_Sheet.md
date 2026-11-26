@@ -69,7 +69,7 @@ Note: "lecturing in the school" here is his grammar school (see C3); the Greek �
 Greek of the Herais line, E-gr 1613-1614 (OCR as printed; "Hoais" is Ἡραΐς, "χατηχουμένη" is κατηχουμένη):
 > "xci γυναικῶν δὲ “Hoais ἔτι χατηχουμένη τὸ βάπτισμα, ὥς / πού φησιν αὐτός. τὸ διὰ πυρὸς λαβοῦσα, τὸν βίον ἐξελήλυϑεν."
 
-Whether Herais died by burning: the phrase "the baptism through fire" points that way, and Serenus before her died "through fire"; Eusebius does not state her manner of death separately. Inferential-Thin. Tell only Origen's phrase.
+Whether Herais died by burning: the phrase "the baptism through fire" points that way. Eusebius uses "through fire" (διὰ πυρὸς) for Serenus before her (E-gr 1490, 1607; E-en 32905-32906), and in the next chapter for Potamiaena and her mother, "put to death by fire" (E-gr 1621; E-en 32959-32961). Rufinus has "ignis baptisma" (E-gr 1698-1700). Eusebius does not state her manner of death separately. Inferential-Thin: stays out of the story and the card. Tell Origen's phrase, then its plain sense: "Origen counted her death as her baptism" (Widely Accepted).
 
 **C6. Men and women together at his lessons.** E-en 33140-33144, 33196-33203. Later. Widely Accepted (the act itself, the "daring deed," is the Origen story's and the built world's; Contested; leave out here).
 > "for, although young, he met for the study of divine things with women as well as men,"
