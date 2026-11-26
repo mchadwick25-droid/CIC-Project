@@ -1,5 +1,5 @@
 {
- "shortDescription": "At Carthage, Rome and Nicomedia, Christian writers defended their faith in Latin to the educated people who despised it. They answered the charges against Christians out of the pagans' own books.",
+ "shortDescription": "At Carthage, Rome and Nicomedia, Christian writers defended their faith in Latin to educated people who looked down on it. They answered the charges against Christians from the pagans' own books.",
  "dates": "c. 200 to early 4th c.",
  "timeline": [
   {
@@ -12,6 +12,12 @@
      "text": "Jerome writes that Tertullian, a presbyter from Carthage in the province of Africa, flourished in these reigns.",
      "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40494-40499",
      "note": "Jerome wrote much later."
+    },
+    {
+     "when": "the sixteenth year of Severus, about 208",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, says that Tertullian of Africa, son of a proconsular centurion, is spoken of in all the churches.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43480-43483; the year is a conversion, worked out from the Chronicle's own date, the sixteenth year of Severus, counting his reign from 193",
+     "note": "Written more than a century later."
     },
     {
      "when": "date unknown",
@@ -35,7 +41,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Each month, he says, those who wish give a small gift, to support and bury the poor and to keep orphans, old people, the shipwrecked, and those in the mines, on the islands or in prison for their faith.",
+     "text": "Each month, he says, those who wish give a small gift. It supports and buries the poor, and keeps orphans, old people, the shipwrecked, and those in the mines, on the islands or in prison for their faith.",
      "reference": "Tertullian, Apology 39, cic/texts/anf03_tertullian.xml lines 3895-3907"
     },
     {
@@ -104,7 +110,7 @@
     },
     {
      "when": "date unknown",
-     "text": "By common report, Caecilius says, a newcomer is made to kill an infant hidden in flour, and their feasts end in incest when a dog tied to the lamp puts out the light. He cites a speech of the orator Fronto for the feast.",
+     "text": "By common report, Caecilius says, a newcomer is made to kill an infant hidden in flour. Their feasts, he says, end in incest when a dog tied to the lamp puts out the light. He cites a speech of the orator Fronto for the feast.",
      "reference": "Octavius 9, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 17640-17666"
     },
     {
@@ -161,7 +167,7 @@
     },
     {
      "when": "date unknown",
-     "text": "He asks why the Christians' writings are given to the flames and their meetings broken up, where prayer is made for all in authority, for soldiers, kings, friends and enemies, the living and the dead.",
+     "text": "He asks why the Christians' writings are given to the flames and their meetings broken up. At those meetings, he says, prayer is made for all in authority, for soldiers, kings, friends and enemies, the living and the dead.",
      "reference": "Arnobius, Against the Nations IV.36, cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml lines 48676-48684"
     }
    ]
@@ -180,7 +186,7 @@
     {
      "when": "the feast of Terminus, in the eighth consulship of Diocletian and the seventh of Maximian",
      "text": "At dawn the prefect and his officers force the church at Nicomedia, burn the Scriptures, and the Praetorian Guards level the building, on a day chosen to end the Christian religion.",
-     "reference": "Lactantius, On the Deaths of the Persecutors 12, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 10152-10161; the year worked out from the consuls Lactantius names",
+     "reference": "Lactantius, On the Deaths of the Persecutors 12, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 10152-10161; the year is a conversion, worked out from the consuls Lactantius names",
      "note": "Lactantius's own account."
     },
     {

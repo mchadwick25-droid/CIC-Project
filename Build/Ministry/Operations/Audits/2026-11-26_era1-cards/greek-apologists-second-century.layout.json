@@ -1,5 +1,5 @@
 {
- "shortDescription": "From Athens and Rome to Sardis and Antioch, Christians who wrote in Greek defended their faith to emperors, and to pagans who asked about it. Accused of being godless, of incest and of eating human flesh, they asked to be judged by how they lived.",
+ "shortDescription": "From Athens and Rome to Sardis and Antioch, Christians who wrote in Greek defended their faith to emperors, and one to a pagan friend. Accused of being godless, of incest and of eating human flesh, they asked to be judged by how they lived.",
  "dates": "c. 125 to c. 180",
  "timeline": [
   {
@@ -39,7 +39,7 @@
     {
      "when": "about 125, in the 226th Olympiad",
      "text": "Eusebius's Chronicle, in Jerome's Latin, sets the books of Quadratus and Aristides early in Hadrian's reign. It then says Hadrian, moved by a letter from the legate Serenus Granius, wrote to Minucius Fundanus, governor of Asia, that Christians were not to be condemned without a charge of crime.",
-     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42526-42547; the year worked out from the Chronicle's own date, the 226th Olympiad, about the ninth year of Hadrian, counting his reign from 117",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42526-42547; the year is a conversion, worked out from the Chronicle's own date, the 226th Olympiad, in the ninth and tenth years of Hadrian, counting his reign from 117",
      "note": "Written about two centuries later. It ties Hadrian's letter to the legate's letter, not to the defenses."
     }
    ]
@@ -54,6 +54,12 @@
      "text": "Justin, from Flavia Neapolis in Syria Palestine, addresses a petition to the emperor Antoninus Pius and his sons, on behalf of people of every nation who are unjustly hated.",
      "reference": "Justin, First Apology 1, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 68-75; cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 13966-13969",
      "note": "Justin writes as one who says Christ was born one hundred and fifty years before (First Apology 46, lines 15679-15681)."
+    },
+    {
+     "when": "the fourth year of Antoninus, about 141",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, says that in this year Justin the philosopher handed Antoninus a book written for the Christians' faith.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42752-42757; the year is a conversion, worked out from the Chronicle's own date, the fourth year of Antoninus, counting his reign from 138",
+     "note": "Written about two centuries later."
     },
     {
      "when": "date unknown",
@@ -263,7 +269,7 @@
     {
      "when": "about 392, by Jerome's own date",
      "text": "Jerome writes that Quadratus said he had seen many whom the Lord healed in Judea, and some raised from the dead.",
-     "reference": "Jerome, Lives of Illustrious Men 19, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39904-39906; the year worked out from Jerome's preface, which takes the work down to the fourteenth year of the emperor Theodosius, line 38785",
+     "reference": "Jerome, Lives of Illustrious Men 19, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39904-39906; the year is a conversion, worked out from Jerome's preface, which takes the work down to the fourteenth year of the emperor Theodosius, line 38785",
      "note": "Quadratus's own words say only that some of them lived to his day."
     },
     {
