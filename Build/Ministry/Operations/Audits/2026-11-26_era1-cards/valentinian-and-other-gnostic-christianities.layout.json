@@ -4,7 +4,7 @@
  "timeline": [
   {
    "when": "Under Hadrian and Antoninus Pius",
-   "headline": "The first teachers arise, and Valentinus comes to Rome",
+   "headline": "Basilides writes, and Valentinus comes to Rome",
    "lines": [
     {
      "when": "in the times of Hadrian",
@@ -49,7 +49,7 @@
    ]
   },
   {
-   "when": "Middle of the 2nd century, at Rome",
+   "when": "Middle of the 2nd century",
    "headline": "Valentinus breaks with the church, and his followers are named after him",
    "lines": [
     {
@@ -88,18 +88,18 @@
     },
     {
      "when": "date unknown",
-     "text": "One of these powers, Irenaeus writes, fell from its place and brought forth the rest of the universe. A mother shut out of the fullness, the realm of these powers, bore Christ, and then another son, the Demiurge, or craftsman, ruler of all below him.",
+     "text": "One of the twelve powers that came from Man and Church, Irenaeus writes, fell from its place and brought forth the rest of the universe. A mother shut out of the fullness, the realm of these powers, bore Christ, and then another son, the Demiurge, or craftsman, ruler of all below him.",
      "reference": "Irenaeus, Against Heresies I.11.1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 31529-31543"
     },
     {
      "when": "date unknown",
-     "text": "In a letter, Valentinus writes that the heart is like an inn, full of holes and dung from the many spirits that live in it. When the only good Father visits it, it is made holy and gleams with light.",
+     "text": "In a letter, Valentinus writes that the heart, home to many spirits, is like an inn full of holes and filled with dung. When the only good Father visits it, it is made holy and gleams with light.",
      "reference": "Valentinus, in Clement of Alexandria, Stromata II.20, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 34289-34303",
      "note": "His own words, kept by Clement."
     },
     {
      "when": "date unknown",
-     "text": "In a homily he writes: you are immortal from the beginning, children of eternal life, and you wished death to be given to you, so that death might die in you and through you.",
+     "text": "In a homily, Valentinus writes: you are immortal from the beginning, children of eternal life, and you wished death to be given to you, so that death might die in you and through you.",
      "reference": "Valentinus, in Clement of Alexandria, Stromata IV.13, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 39090-39095",
      "note": "The English print names the author Valentinian."
     },
@@ -170,7 +170,7 @@
      "reference": "Tertullian, Against the Valentinians 2, cic/texts/anf03_tertullian.xml line 42981"
     },
     {
-     "when": "at the present time, Tertullian says",
+     "when": "by Tertullian's own day",
      "text": "Tertullian writes that Heracleon, Secundus and Marcus the magician each struck out paths of their own, and Theotimus worked on the images of the law. Only Axionicus, at Antioch, keeps Valentinus' rules in full.",
      "reference": "Tertullian, Against the Valentinians 4, cic/texts/anf03_tertullian.xml lines 43121-43128; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9660-9666"
     },
@@ -181,7 +181,7 @@
     },
     {
      "when": "date unknown",
-     "text": "So Valentinus is now nowhere, Tertullian writes, yet there are Valentinians, named through Valentinus.",
+     "text": "After his pupils' new paths, Tertullian writes, Valentinus is now nowhere, yet there are still Valentinians, named through Valentinus.",
      "reference": "Tertullian, Against the Valentinians 4, Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9663-9664",
      "note": "Rendered from the Latin, which the English print misreads (line 43124)."
     },
@@ -255,7 +255,7 @@
  "uncertain": [
   "When Valentinus was at Rome. Irenaeus says he came in the time of Bishop Hyginus, flourished under Pius and stayed until Anicetus. Tertullian says he and Marcion were believers in the church of Rome under Bishop Eleutherus before they were expelled.",
   "Why he broke with the church. Only Tertullian, an opponent, gives a reason: Valentinus had hoped to become a bishop, and another man won the place by the claim his suffering for the faith had given him. Tertullian names no city, and says such men are often roused by ambition to revenge.",
-  "Where he came from. Epiphanius, late in the 4th century, heard that some said he was born on the coast of Egypt and taught at Alexandria, and he calls the report uncertain. He also says Valentinus left the faith in Cyprus, while Irenaeus says he stayed at Rome until Anicetus.",
+  "Where he came from. Epiphanius, late in the 4th century, heard that some said he was born on the coast of Egypt and schooled in Greek learning at Alexandria, and he calls the report uncertain. He also says Valentinus left the faith in Cyprus, while Irenaeus says he stayed at Rome until Anicetus.",
   "His teacher. Clement says the followers of Valentinus claimed he had heard Theudas, a pupil of Paul, and that the followers of Basilides claimed Glaucias, the interpreter of Peter.",
   "What is his and what is his school's. Irenaeus gives a short account of Valentinus' own teaching and a much longer one of Ptolemy's school. Tertullian says Valentinus kept the powers within God, and Ptolemy made them persons outside God.",
   "The Gospel of Truth. Irenaeus says those from Valentinus called a recent writing of theirs the Gospel of Truth. The old sources held here do not say who wrote it.",

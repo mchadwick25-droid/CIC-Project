@@ -1,6 +1,6 @@
 {
  "shortDescription": "From Babylonia to Roman Africa and China, the followers of the prophet Mani held that Light and Darkness were mixed in the world. Their Elect lived in strict purity and poverty, and their Hearers fed and served them.",
- "dates": "216 to c. 1000",
+ "dates": "216 to after 1000",
  "timeline": [
   {
    "when": "From 216, in Babylonia",
@@ -61,7 +61,7 @@
     },
     {
      "when": "date unknown",
-     "text": "For the Elect, the saints and ascetics, his laws allow no property but food for one day and clothing for one year, forbid marriage, and send them wandering through the world to preach.",
+     "text": "For the Elect, the saints and ascetics, his laws allow no property but food for one day and clothing for one year, forbid them sexual intercourse, and send them wandering through the world to preach.",
      "reference": "al-Biruni, Chronology of Ancient Nations, cic/texts/biruni_chronology-of-ancient-nations_sachau1879.txt lines 29072-29079"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Christians bring Faustus and some others before the proconsul. Found to be a Manichaean, Faustus is exiled to an island, at the pleading of those same Christians, and not long after all are released together.",
+     "text": "Christians bring Faustus and some others before the proconsul. Found to be a Manichaean, Faustus is only exiled to an island, because those same Christians plead for him, and not long after all are released together.",
      "reference": "Augustine, Reply to Faustus V.8, cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml lines 4615-4616; Latin, cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt lines 16830-16840",
      "note": "Augustine calls the exile the lightest of penalties."
     },

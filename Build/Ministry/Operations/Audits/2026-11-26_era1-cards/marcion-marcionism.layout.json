@@ -69,7 +69,7 @@
    "lines": [
     {
      "when": "late in the 2nd century",
-     "text": "Rhodon, a writer from Asia taught by Tatian, writes a book against Marcion's teaching, and says that in his time Marcion's followers are divided into various opinions.",
+     "text": "Rhodon, a writer from the Roman province of Asia taught by Tatian, writes a book against Marcion's teaching, and says that in his time Marcion's followers are divided into various opinions.",
      "reference": "Rhodon, in Eusebius, Church History V.13.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28896-28897, 28922-28928",
      "note": "Eusebius sets Rhodon in this time and copies his words."
     },
@@ -157,7 +157,7 @@
     },
     {
      "when": "in Hippolytus's own times",
-     "text": "Hippolytus writes that a follower of Marcion, Prepon, an Assyrian, set out his teaching in a work addressed to Bardaisan.",
+     "text": "Hippolytus writes that a follower of Marcion, Prepon, an Assyrian, set out his teaching in a work addressed to Bardesanes, an Armenian.",
      "reference": "Hippolytus, Refutation of All Heresies VII, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 12054-12060"
     }
    ]
@@ -201,9 +201,9 @@
    "witness": "Eusebius of Caesarea, in his Martyrs of Palestine",
    "lines": [
     {
-     "when": "on the eleventh day of the month Audynaeus",
+     "when": "on the eleventh day of the month Audynaeus, in January, so 309 or 310",
      "text": "At Caesarea, Peter, an ascetic also called Apselamus, refuses the judge's many pleas to spare himself, and is burned.",
-     "reference": "Eusebius, Martyrs of Palestine 10.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47043-47053; the persecution begins in the nineteenth year of Diocletian, line 45893"
+     "reference": "Eusebius, Martyrs of Palestine 10.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47043-47053; the persecution begins in the nineteenth year of Diocletian, line 45893; the day is the third before the Ides of January, lines 47042-47043; the year is worked out from Eusebius's sixth year of the persecution, line 46751, and its seventh year complete, line 47406, counting Diocletian's reign from 284"
     },
     {
      "when": "on the same day",
@@ -224,7 +224,7 @@
     },
     {
      "when": "date unknown",
-     "text": "The edict forbids them to meet, takes the houses where they hold their meetings, in public or in any private house, and gives their houses of prayer to the catholic Church.",
+     "text": "The edict forbids them to meet, in public or in any private house, takes the houses where they hold their meetings, and gives their houses of prayer to the catholic Church.",
      "reference": "Constantine, edict to the heretics, in Eusebius, Life of Constantine III.65, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66112-66128, 66141-66149"
     },
     {
