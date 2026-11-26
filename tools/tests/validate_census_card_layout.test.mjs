@@ -35,7 +35,9 @@ const layout = () => ({
   timeline: timeline(),
   uncertain: ["What Callistus meant."]
 });
-const traditions = census.movements.filter(m => !m.kind);
+// Faults are planted only on traditions that carry no layout field yet, so a real card on the entry adds no errors of its own.
+const LAYOUT_FIELDS = ["shortDescription", "briefSources", "timeline", "uncertain", "quotationOriginals"];
+const traditions = census.movements.filter(m => !m.kind && LAYOUT_FIELDS.every(k => m[k] === undefined));
 
 test("the census as it stands passes, and every kind takes the layout fields in its own place", () => {
   const c = structuredClone(census);
