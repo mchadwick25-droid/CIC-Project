@@ -6492,6 +6492,14 @@
           "rights": "Public Domain (pre-1930 publication; the archive.org record tags it NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Acta Sanctorum, June V: De S. Niceta seu Nicea, episcopo Romatianae in Dacia, with the passages of Paulinus of Nola's poems on Niceta's visits to Nola in the dossier of S. Paulinus",
+          "author": "acta-sanctorum",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "acta-sanctorum_junii-tomus-5-lat_palme1867.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1867); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Acta Sanctorum, March III: S. Irenaeus, bishop of Sirmium (25 March), and SS. Montanus the presbyter, Maxima his wife and forty others, martyrs at Sirmium in Pannonia",
           "author": "acta-sanctorum",
           "role": "tradition",
@@ -6518,7 +6526,7 @@
         {
           "work": "Scolia Arriana: Palladius of Ratiaria and Secundianus at Aquileia (381), with Auxentius of Durostorum",
           "author": "auxentius-durostorum",
-          "role": "context",
+          "role": "tradition",
           "confidence": "assigned",
           "source_file": "auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
           "rights": "Public Domain"
@@ -6532,9 +6540,17 @@
           "rights": "Public Domain (pre-1930 publication)"
         },
         {
+          "work": "Gennadius, Lives of Illustrious Men 22: Niceas (Niceta), bishop of Romatia",
+          "author": "gennadius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Collectanea antiariana: the letters of Germinius of Sirmium and of Valens and Ursacius, and the Sirmium documents",
           "author": "hilary_poit",
-          "role": "context",
+          "role": "tradition",
           "confidence": "assigned",
           "source_file": "hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt",
           "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
@@ -6562,6 +6578,14 @@
           "confidence": "assigned",
           "source_file": "niceta-remesiana_life-and-works-lat_burn1905.txt",
           "rights": "Public Domain (pd-us-by-date: published 1905); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Paulinus of Nola, Carmen 17 (farewell to Niceta) and Carmen 27 (the ninth poem for Felix, welcoming Niceta again)",
+          "author": "paulinus-nola",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "paulinus-nola_carmina-lat_hartel-csel30-1894.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1894); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
         },
         {
           "work": "Ruinart, Acta sincera: the Passio of Irenaeus of Sirmium, of Pollio of Cibalae, of Serenus of Sirmium, and of Quirinus of Siscia with Prudentius's hymn",
