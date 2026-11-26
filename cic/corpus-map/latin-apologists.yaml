@@ -616,6 +616,19 @@ works:
     and the Cyprianic writings of this shelf (Tertullian chronology table at printed pp. 295-296).
     Consultation only: no world''s own voice.'
   source_file: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-tertullian-latin
+  work: Chronici canones, the entry for Tertullian, Latin
+  author: jerome
+  locus: '''Tertullianus Afer centurionis proconsularis filius omnium ecclesiarum sermone
+    celebratur'' (the OCR reads ''fllius'' and ''ecdesiarum''), Severus''s year 16, file lines
+    43480-43482'
+  role: context
+  confidence: provisional
+  note: 'An old dated witness for Tertullian''s fame, by regnal year. The AD year is a conversion.
+    It gives no year for Minucius Felix or Commodian, who are not in the Chronicle. Context.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-liii
   work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the
     presbyter' (file line 40489)

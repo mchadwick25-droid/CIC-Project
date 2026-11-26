@@ -4689,6 +4689,21 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-pantaenus-clement-origen-heraclas-latin
+  work: Chronici canones, the entries for Pantaenus and Clement, Leonides and Origen, Demetrius
+    and Heraclas, Latin
+  author: jerome
+  locus: Demetrius made bishop, file line 43267; Clement and Pantaenus, 43374-43377; Leonides's
+    martyrdom and Origen's schooling, 43456 and 43485; Origen famous at Alexandria and Heraclas
+    ordained, 43699-43702; Origen goes to Caesarea, 43741
+  role: context
+  confidence: provisional
+  note: 'Old dated witnesses for Alexandria''s teachers by regnal year (Severus to Alexander
+    Severus), a source for the tradition''s timeline years where the History gives none. The
+    AD year is a conversion. Context.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus-2
   work: Jerome's Apology for Himself Against the Books of Rufinus
   author: jerome

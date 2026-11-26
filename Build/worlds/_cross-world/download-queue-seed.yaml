@@ -32671,3 +32671,25 @@ queue:
       read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
     status: downloaded
     vendored_as: paulinus-nola_carmina-lat_hartel-csel30-1894.txt
+  - title: 'Sancti patris nostri Joannis Chrysostomi Homiliae in Matthaeum, tomus II (homilies 45-90)'
+    author: John Chrysostom
+    translator: Field (ed.)
+    year: '1839'
+    world: antiochene-exegetical-christianity-chrysostom-ce
+    why: 'Open-Gaps 415: the Greek of Homily 50 on Matthew, for the John Chrysostom person reference, whose quote was checked only against Prevost''s English.'
+    url: https://archive.org/details/chrysostom_matthew_homilies_field_vol_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1839); the archive.org record carries the Public Domain Mark 1.0'
+    verified_by: 'Era 1 Library session, 2026-11-26: archive.org metadata read, title page read in the OCR, the wanted passage located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: john-chrysostom_homiliae-in-matthaeum-t2-hom-45-90-grc_field1839.txt
+  - title: Sancti Eusebii Hieronymi Epistulae, pars I, Epistulae I-LXX (CSEL 54)
+    author: Jerome
+    translator: Hilberg (ed.)
+    year: '1910'
+    world: hieronymian-ascetic-literary
+    why: 'Open-Gaps 415: Letter 51, Epiphanius to John of Jerusalem in Jerome''s Latin, for the Epiphanius of Salamis person reference, whose quotes were checked only against Fremantle''s English.'
+    url: https://archive.org/details/corpusscriptorum54stuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT'
+    verified_by: 'Era 1 Library session, 2026-11-26: archive.org metadata read, title page read in the OCR, the wanted passage located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt
