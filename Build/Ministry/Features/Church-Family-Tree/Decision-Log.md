@@ -6210,3 +6210,18 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Found and fixed.** The pull request of 2026-11-23 that made cards orient first ("Church Family Tree: cards orient first, briefs keep playing, paragraph jumps") deleted the functions behind the era card and behind going into an era, so tapping an era's title or its (i) mark, and choosing an era in search, threw an error and did nothing. Both are restored: the era card in the new layout, `goIntoEra` as it was.
 
 **Not done.** Open-Gaps, "The card site build: what is left open" (2026-11-26).
+
+## 2026-11-26 — The order of work, era 1 first, and built-world cards play their brief (Mark)
+
+**Why.** The coordinator put a checklist to Mark (coordinator session, 2026-11-26) and relayed his answers to the card site build to record here, word for word.
+
+**Decided (Mark, 2026-11-26).**
+1. Card content, era by era: "3. i want to fully finish all content for era one before moving on".
+2. Built-world cards. Asked whether Alexandria, Syriac Edessa–Nisibis, the post-apostolic house church and Latin pastoral should play their new brief instead of their world narration: "4. yes the new brief we can retire the world narration".
+3. Finishing era 1, its 20 people below C and its era brief: "5. yes this is the next step before 3 and 4."
+4. Batch 12, the era 2 traditions: "6. hold until era 1 is complete".
+5. Recording new council and tradition briefs as they are written, each run with his approval and a cap: "7. yes wen we move forward".
+6. The three thin era 1 traditions (Open-Gaps 417): "a". This lifts the source-research hold for those three only.
+7. The order of work before batch 12, "yes": the card site build finishes; one session moves batch 11's held tradition card fields into the census and fixes the tools (Open-Gaps 425 to 428), with the kit wording change (430) if he approves it; the built-world briefs are recorded under a cap he sets; the source research runs alongside; his three batch 11 rulings (429, 431, 432) come to him one at a time; then batch 12 restarts. In his words: "i want everything else done with batch 11 and other system work before starting batch 12".
+
+**Done in the card site build (ruling 2).** The four worlds' cards on the map show their brief, the census `longDescription`, as any tradition's card does. Under "Change order: a brief's recording stays until its new one replaces it" (2026-11-26), each keeps playing its world narration until its brief is recorded; meanwhile its brief shows open below the player. Once the brief's recording is current, the card plays the brief and the world narration leaves the card. `Build/tools/generate_tree_narration.mjs` narrates these four from their brief and no longer skips them, and their tree pages give them a player once that recording exists. The recordings themselves wait for Mark's capped approval. The world narration files are not moved or deleted here; they go to `Archive/` when each brief recording replaces them.

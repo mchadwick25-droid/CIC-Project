@@ -135353,7 +135353,7 @@ function setBriefText(el,html){
   el.querySelector('.brief-read-btn').hidden=false;
 }
 function briefSrcOf(id){
-  if(BUILT_WORLD_IDS.has(id)){const tw=treeWorldOf(id);return tw&&tw.story&&tw.story.file?'audio/worlds-tree/'+tw.story.file:null;}
+  if(playsWorldNarration(id)){const tw=treeWorldOf(id);return tw&&tw.story&&tw.story.file?'audio/worlds-tree/'+tw.story.file:null;}
   return treeAudioCurrent.has(id)?'audio/tree/'+id+'.mp3':null;
 }
 function briefLenOf(id){
@@ -135616,6 +135616,10 @@ function sectionSources(list){
   return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
 }
 const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity","the-reformed-cities-zurich-and-geneva","donatism","lutheran-wittenberg-and-its-congregations"]);
+// Built worlds whose card plays its brief in place of the world narration (Mark, 2026-11-26: "4. yes the new brief we
+// can retire the world narration"). Until a brief's recording exists, the world narration keeps playing and the brief shows open.
+const BRIEF_WORLD_IDS=new Set(["alexandria-catechetical","syriac-edessa-nisibis","post-apostolic-house-church","latin-pastoral-congregational-christianity"]);
+const playsWorldNarration=id=>BUILT_WORLD_IDS.has(id)&&!(BRIEF_WORLD_IDS.has(id)&&treeAudioCurrent.has(id));
 window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=resolve;});
 const __builtWorldCache={};
 async function fetchBuiltWorldData(censusId){
@@ -135636,7 +135640,7 @@ async function loadBuiltWorldOrientation(censusId){
     const tw=treeWorldOf(censusId), compiled=tw?narratorWorld(source,tw):source;
     const wm=tw?null:await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
     const narr=window.OrientationNarrationUrls?(tw?window.OrientationNarrationUrls(tw,'audio/worlds-tree/'):window.OrientationNarrationUrls(wm[censusId],'audio/worlds/')):null;
-    const player=panelBody.querySelector('.brief');
+    const player=panelBody.querySelector('.brief[data-world-narration]'), briefCard=BRIEF_WORLD_IDS.has(censusId);
     if(player&&narr&&narr.story&&player.dataset.briefSrc!==narr.story&&!player.classList.contains('is-live'))player.dataset.briefSrc=narr.story;
     const nopts={disclosure:false,...(narr?{narration:narr}:{})};
     const storyOpts=player&&narr?{disclosure:false,narration:{...narr,story:null}}:nopts;
@@ -135653,7 +135657,7 @@ async function loadBuiltWorldOrientation(censusId){
     };
     const storyHTML=wrap(o.story&&o.story.length?R.story(compiled,storyOpts):'');
     if(player)setBriefText(player,storyHTML);
-    else put('brief',foldHTML('Read the brief','',[['',storyHTML]],'brief-fold',true));
+    else if(!briefCard)put('brief',foldHTML('Read the brief','',[['',storyHTML]],'brief-fold',true));
     join('people-section','People and stories','people',[
       ['Voices in the record',wrap(o.voices&&o.voices.length?R.voices(compiled):'')],
       ['Documented stories',wrap(o.documented_stories&&o.documented_stories.length?R.documented_stories(compiled,{idPrefix:censusId,...nopts}):'')]
@@ -135811,12 +135815,16 @@ function openPanelNow(m){
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
   h+=shortDescHTML(m.shortDescription||(entry?entry.tile:m.teaser));
   if(isTraditionCard(m))h+=lineageLineHTML(m,lineageParts(m,inbound,outbound),'Show the whole family line on the map');
-  if(isBuiltWorld){
+  const worldPlayer=()=>{
     const tw=treeWorldOf(m.id), wa=tw?tw.story:worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
-    h+=wa?briefPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,''):'<div class="orient-slot" data-orient="brief"></div>';
-  }else if(m.longDescription){
+    return wa?briefPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,'').replace('<div class="brief"','<div class="brief" data-world-narration'):'';
+  };
+  if(isBuiltWorld&&!BRIEF_WORLD_IDS.has(m.id))h+=worldPlayer()||'<div class="orient-slot" data-orient="brief"></div>';
+  else if(m.longDescription){
     const readLen=briefLenOf(m.id)||briefLength(m.longDescription.split(/\s+/).length/150*60);
-    h+=briefBlockHTML(treeAudioCurrent.has(m.id)?'audio/tree/'+m.id+'.mp3':null,readLen,briefReadHTML(m.longDescription,m,m.briefSources));
+    const recorded=treeAudioCurrent.has(m.id);
+    if(!recorded&&isBuiltWorld)h+=worldPlayer();
+    h+=briefBlockHTML(recorded?'audio/tree/'+m.id+'.mp3':null,readLen,briefReadHTML(m.longDescription,m,m.briefSources));
   }
   const nLinks=inbound.length+outbound.length+(!isTraditionCard(m)&&m.continuesAs&&byId[m.continuesAs]?1:0);
   let conns=connButtonHTML(m)?`<div class="card-acts">${connButtonHTML(m)}</div>`:'';

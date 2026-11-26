@@ -19,7 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
-import { narrationTextFor, recordingMatchesText } from './generate_tree_narration.mjs';
+import { narrationTextFor, recordingMatchesText, BRIEF_WORLD_IDS } from './generate_tree_narration.mjs';
 import { fingerprint as docStoryFingerprint } from './generate_docstory_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -442,6 +442,7 @@ const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
 // (see tools/generate_world_narration.mjs). The tree page therefore carries no
 // description recording for it.
 function hasOwnWorldStory(movementId) {
+  if (BRIEF_WORLD_IDS.has(movementId)) return false;
   const dataPath = path.join(worldsDataDir, `${movementId}.json`);
   if (!fs.existsSync(dataPath)) return false;
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
