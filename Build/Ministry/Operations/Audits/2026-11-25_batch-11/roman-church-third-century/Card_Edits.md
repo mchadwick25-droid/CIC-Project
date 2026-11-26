@@ -160,3 +160,7 @@ No other field changes:
 - **legacy, voices, documentedStories:** Card_Check FIX 1 to 12, as above.
 - **sources:** edit 14.
 - **longDescription:** release sets it from the final brief.
+
+### Validator after the grade fixes
+
+A scratch census copy outside the repository, with this card merged into the entry and the final brief as `longDescription`, through `node tools/validate-census.mjs`: 629 movements, 736 edges, 10 eras, 0 errors, 4 warnings, all on other entries (short names).
