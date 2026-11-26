@@ -151,7 +151,7 @@ test('the about page counts traditions, rivers, eras and links from the census',
   assert.match(page, new RegExp(`<meta name="description" content="[^"]*with ${traditions.length} church traditions`));
 });
 
-test('a person page says which tradition tells it, and carries that world door while it is open', () => {
+test('a person page says which tradition tells it, and opens no door to Church in Conversation', () => {
   const c = structuredClone(census);
   const person = c.movements.find(m => m.kind === 'person');
   const read = generate(c);
@@ -165,10 +165,8 @@ test('a person page says which tradition tells it, and carries that world door w
   home.people = [];
   world.people = [{ person: person.id }];
   const opened = generate(c);
-  assert.match(opened(`tree/${person.id}.html`), new RegExp(`href="https://churchinconversation.com/traditions/${world.id}.html">Meet `));
+  assert.doesNotMatch(opened(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
   assert.match(opened(`tree/${world.id}.html`), new RegExp(`<a href="${person.id}.html">`));
-  world.publicOpen = false;
-  assert.doesNotMatch(generate(c)(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
   person.toldWithin = null;
   world.people = [];
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
