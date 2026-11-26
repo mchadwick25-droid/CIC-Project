@@ -3,6 +3,131 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: danubian-latin-christianity
 works:
+- row_id: acta-martyrum-selecta_gebhardt1902--passio-irenaei-sirmiensis
+  work: Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)
+  author: acta-martyrum-selecta
+  locus: file line 7593
+  role: tradition
+  confidence: assigned
+  note: The second copy of Gebhardt's volume; the same act as in gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.
+  source_file: acta-martyrum-selecta_gebhardt1902.txt
+- row_id: acta-sanctorum_martii-tomus-3-lat-grc_palme1865--sirmium-martyrs-irenaeus-montanus
+  work: 'Acta Sanctorum, March III: S. Irenaeus, bishop of Sirmium (25 March), and SS. Montanus
+    the presbyter, Maxima his wife and forty others, martyrs at Sirmium in Pannonia'
+  author: acta-sanctorum
+  locus: Irenaeus about OCR lines 143100-143700; Montanus and Maxima from about 157598 (add
+    12)
+  role: tradition
+  confidence: assigned
+  note: The Bollandists' dossiers on two Sirmium martyrdoms under Diocletian, with the Latin
+    acts and the martyrology notices. Latin fair, Greek poor.
+  source_file: acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt
+- row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--de-s-pollione-cibalis
+  work: De S. Pollione lectore, martyre Cibalis in Pannonia (28 April), with his Passio
+  author: acta-sanctorum
+  locus: from about OCR line 131708 (add 12)
+  role: tradition
+  confidence: assigned
+  note: The reader of Cibalae burned under Diocletian, with the Bollandists' commentary. The
+    Passio is also in Ruinart.
+  source_file: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
+- row_id: npnf204_athanasius-select-works-letters--de-synodis-sirmium
+  work: 'On the Councils of Ariminum and Seleucia (De Synodis): the creeds of Sirmium'
+  author: athanasius
+  locus: div1 'On the Councils of Ariminum and Seleucia. (De Synodis.)', about raw line 55952;
+    the creeds made at Sirmium
+  role: context
+  confidence: assigned
+  note: Athanasius gives the creeds made at Sirmium, the Danube city's part in the Homoian
+    controversy.
+  source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899--scolia-arriana-palladius
+  work: 'Scolia Arriana: Palladius of Ratiaria and Secundianus at Aquileia (381), with Auxentius
+    of Durostorum'
+  author: auxentius-durostorum
+  locus: Kauffmann's edition; Palladius and Secundianus at about file lines 448-464 and 707
+  role: context
+  confidence: assigned
+  note: The Homoian bishops of Ratiaria and Durostorum on the lower Danube in their own words,
+    from the margins of a manuscript. Placement as this entry's voice is a question; context
+    only.
+  source_file: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
+- row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-irenaei-sirmiensis
+  work: Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)
+  author: gebhardt
+  locus: file line 8221 ('Passio S. Irenaei episcopi Sirmiensis.')
+  role: tradition
+  confidence: assigned
+  note: The act of the bishop of Sirmium executed under Diocletian. Also in acta-martyrum-selecta_gebhardt1902
+    and in Ruinart.
+  source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
+- row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--danube-homoian-bishops
+  work: 'Collectanea antiariana: the letters of Germinius of Sirmium and of Valens and Ursacius,
+    and the Sirmium documents'
+  author: hilary_poit
+  locus: the Series tables at file lines 1159-1208 (Germinius's letter listed at 1166); the
+    documents in the body
+  role: context
+  confidence: assigned
+  note: The surviving Latin letters of the Danube bishops of the Homoian controversy. Whether
+    their own letters count as this entry's voice or belong to homoian-arian-christianity
+    is a placement question; this row is context only.
+  source_file: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt
+- row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--de-synodis-sirmium
+  work: 'Hilary, De Synodis: the creeds of Sirmium and their anathemas'
+  author: hilary_poit
+  locus: De Synodis from file line 38488
+  role: context
+  confidence: assigned
+  note: Hilary gives the creeds made at Sirmium in Latin with his comment.
+  source_file: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--de-viris-74-victorinus
+  work: 'Jerome, Lives of Illustrious Men 74: Victorinus, bishop of Pettau'
+  author: jerome
+  locus: div2 4.3, chapter 74 (about raw line 39050)
+  role: context
+  confidence: assigned
+  note: Jerome's notice of Victorinus's works and martyrdom, and his judgement that Victorinus
+    knew Greek better than Latin.
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: niceta-remesiana_life-and-works-lat_burn1905--works-lat
+  work: 'Niceta of Remesiana, works (Burn 1905): the instructions for those coming to baptism,
+    De ratione fidei, De symbolo, De Spiritus sancti potentia, De vigiliis, De psalmodiae
+    bono, the Te Deum'
+  author: niceta-remesiana
+  locus: the Latin texts after Burn's introduction (De ratione fidei about host OCR line 8785;
+    De symbolo about 10227; this file's line = host line - 47 + 12)
+  role: tradition
+  confidence: assigned
+  note: A bishop of Remesiana in Dacia, a Latin-speaking see of the central Balkans, whom
+    Paulinus of Nola knew around the turn of the fifth century, so his works sit at the window's
+    end (c. 250-400). The one Danubian Latin writer after Victorinus whose works survive in
+    quantity. Primary, ready to quote once each quote is verified.
+  source_file: niceta-remesiana_life-and-works-lat_burn1905.txt
+- row_id: ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859--danube-martyr-acts
+  work: 'Ruinart, Acta sincera: the Passio of Irenaeus of Sirmium, of Pollio of Cibalae, of
+    Serenus of Sirmium, and of Quirinus of Siscia with Prudentius''s hymn'
+  author: ruinart
+  locus: Irenaeus from OCR line 44260; Pollio 44451; Serenus 52662; Quirinus 53051 (add 12)
+  role: tradition
+  confidence: assigned
+  note: 'The martyr acts of the Pannonian churches under Diocletian, each with Ruinart''s
+    introduction: the region''s own memory of its bishops and readers. Latin good to fair.
+    Prudentius''s hymn on Quirinus is a later Spanish witness.'
+  source_file: ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--photinus-sirmium
+  work: 'Socrates II.29-30: Photinus of Sirmium and the council at Sirmium'
+  author: socrates
+  locus: div ii.v.xxix ('Of the Heresiarch Photinus', about raw line 7838) and ii.v.xxx; the
+    heresy at Sirmium also at about raw line 6569
+  role: context
+  confidence: assigned
+  note: 'The bishop of Sirmium and his deposition by a council in the city, and the creed
+    made there. Whether the Homoian bishops of the Danube (Valens, Ursacius, Germinius) belong
+    to this entry as its own voice or to homoian-arian-christianity is a placement question;
+    this row is context only. Context: it describes the movement from outside, so a built
+    world draws on it only as register: etic.'
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john
   work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
@@ -29,3 +154,24 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: victorinus_opera-lat_haussleiter-csel49-1916--commentarius-in-apocalypsin-lat
+  work: 'Victorinus of Pettau, Commentary on the Apocalypse: Victorinus''s own text and Jerome''s
+    revision, Latin (Haussleiter, CSEL 49)'
+  author: victorinus
+  locus: from OCR line 4069 (add 12)
+  role: tradition
+  confidence: assigned
+  note: Haussleiter prints Victorinus's text and Jerome's revision on facing pages, so the
+    millenarian ending Jerome cut can be read in the original. Primary, ready to quote once
+    each quote is verified.
+  source_file: victorinus_opera-lat_haussleiter-csel49-1916.txt
+- row_id: victorinus_opera-lat_haussleiter-csel49-1916--de-fabrica-mundi-lat
+  work: Victorinus of Pettau, De fabrica mundi, Latin (Haussleiter, CSEL 49)
+  author: victorinus
+  locus: after the prolegomena, before the Commentary (which begins at OCR line 4069; add
+    12)
+  role: tradition
+  confidence: assigned
+  note: The Latin original of On the Creation of the World, held in English in anf07; primary,
+    ready to quote once each quote is verified.
+  source_file: victorinus_opera-lat_haussleiter-csel49-1916.txt

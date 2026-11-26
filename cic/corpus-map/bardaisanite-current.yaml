@@ -59,6 +59,16 @@ works:
     bardaisanite-current is added alongside, since the party this work argues with now has
     an entry of its own.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: chronicle-of-edessa_cowper--bardaisan-birth
+  work: 'The Chronicle of Edessa: the birth of Bardaisan'
+  author: chronicle-of-edessa
+  locus: the entry for the year 465 of the Greeks
+  role: context
+  confidence: assigned
+  note: 'The sixth-century Edessene chronicle''s dated notice of Bardaisan''s birth. Context:
+    it describes the movement from outside, so a built world draws on it only as register:
+    etic.'
+  source_file: chronicle-of-edessa_cowper.txt
 - row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2
   work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
@@ -82,3 +92,162 @@ works:
     Bardaisan entry of its own, or the Syriac world alone, would fit better remains an open
     question. This entry points to the census entry added on record for this movement.
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
+- row_id: ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740--sermones-adversus-haereses
+  work: Ephrem, Hymns (Sermones) against Heresies 1-56, Syriac with Benedictus's Latin
+  author: ephraim
+  locus: from OCR line 87512 ('Sermo primus') to about 111800 (add 12)
+  role: context
+  confidence: assigned
+  note: 'Ephrem''s hymns against Bardaisan, Marcion and Mani: the chief hostile witness to
+    Bardaisan''s teaching and to the Bardaisanites'' own hymns. SECOND WITNESS ONLY: the Syriac
+    OCR is garbage and the 1740 Latin is read with the long s as f, so this file finds and
+    cross-checks passages and is never quoted. Context: it describes the movement from outside,
+    so a built world draws on it only as register: etic.'
+  source_file: ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740.txt
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--dissertation-ephrem-on-bardaisan
+  work: 'Introductory Dissertation, Part I (Ephraim the Syrian): Ephrem''s verses on a book
+    of Bardaisan, and Harmonius''s hymns'
+  author: ephraim
+  locus: div3 iii.iii.ii, about raw lines 11186-11234
+  role: context
+  confidence: assigned
+  note: 'The editor''s dissertation quotes Ephrem''s verses beginning ''I have chanced upon
+    a book of Bardaisan'' and tells of Harmonius''s hymns; the editor''s own remarks there
+    are a modern guide, not a witness. Context: it describes the movement from outside, so
+    a built world draws on it only as register: etic.'
+  source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-56-bardesianistae
+  work: 'Panarion 56: against the Bardesianites'
+  author: epiphanius
+  locus: 'heresy 56: the summary at about file line 16595; the chapter from about 26322'
+  role: context
+  confidence: assigned
+  note: 'Epiphanius on Bardaisan''s life at Edessa, his learning and his fall. Context: it
+    describes the movement from outside, so a built world draws on it only as register: etic.'
+  source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
+- row_id: npnf201_eusebius-church-history-life-of-constantine--he-iv-30-bardesanes
+  work: 'Church History IV.30: Bardesanes the Syrian and his extant works'
+  author: eusebius
+  locus: div3 'Bardesanes the Syrian and his Extant Works' (Book IV, Chapter XXX), about raw
+    line 26519
+  role: context
+  confidence: assigned
+  note: 'Eusebius on Bardesanes'' dialogues against Marcion and ''On Fate'', and on his turn
+    from Valentinus. Context: it describes the movement from outside, so a built world draws
+    on it only as register: etic.'
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- row_id: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903--praeparatio-vi-10-bardesanes-grc
+  work: 'Praeparatio evangelica VI.10: the Greek extract from Bardesanes'' dialogue on fate'
+  author: eusebius
+  locus: Book VI, chapter 10, from OCR line 28434 to about 28997 (add 12)
+  role: tradition
+  confidence: assigned
+  note: 'Eusebius quotes at length, in Greek, the dialogue the Syriac Book of the Laws of
+    Countries preserves. The quoted words are the movement''s own; Eusebius is their keeper
+    (the same footing as the anf08 row for the Syriac). Greek OCR fair: check each quote against
+    the page image.'
+  source_file: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt
+- row_id: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903--preparation-vi-10-bardesanes
+  work: 'Preparation for the Gospel VI.10 (Gifford''s English): the extract from Bardesanes'
+  author: eusebius
+  locus: Book VI, chapter 10, from OCR line 17920 (add 11)
+  role: tradition
+  confidence: assigned
+  note: Gifford's English of the Greek extract, a cross-check on our rendering from the Greek
+    in gifford1903 tomus I.
+  source_file: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt
+- row_id: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916--refutatio-bardesanes-grc
+  work: Refutation of All Heresies VI.35 and VII.31 (Bardesanes), Greek (Wendland 1916)
+  author: hippolytus
+  locus: Books VI and VII; Bardesanes in the apparatus at about OCR line 12595 (add 12)
+  role: context
+  confidence: assigned
+  note: 'The Greek of Hippolytus''s two notices of Bardesanes. Context: it describes the movement
+    from outside, so a built world draws on it only as register: etic.'
+  source_file: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt
+- row_id: anf05_hippolytus-cyprian-caius-novatian--refutation-bardesanes
+  work: The Refutation of All Heresies, on Bardesanes (VI.35, VII.31)
+  author: hippolytus
+  locus: div2 3.3; Book VI, Chapter XXX (div4 iii.iii.iv.xxxi, about raw line 9602) and Book
+    VII
+  role: context
+  confidence: assigned
+  note: 'Hippolytus names ''Bardesanes the Armenian'' with the Valentinians of the Italian
+    school. Context: it describes the movement from outside, so a built world draws on it
+    only as register: etic.'
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--de-viris-33-bardesanes
+  work: 'Jerome, Lives of Illustrious Men 33: Bardesanes'
+  author: jerome
+  locus: div2 4.3, chapter 33 (about raw line 38939)
+  role: context
+  confidence: assigned
+  note: 'Jerome on Bardesanes'' dialogue against Marcion and his reputation in Greek. Context:
+    it describes the movement from outside, so a built world draws on it only as register:
+    etic.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--bardaisan
+  work: 'Chronique, Book VI, chapter 6 and Chabot''s notes: Bardaisan'
+  author: michael-the-syrian
+  locus: Book VI, chapter VI from about file line 14401; the notes on Bardesanes about 14585-14770
+  role: context
+  confidence: assigned
+  note: 'A late Syriac chronicle''s account of Bardaisan (in Chabot''s French), a witness
+    to how the Syriac church remembered him; Chabot''s notes are a modern guide, not a witness.
+    Context: it describes the movement from outside, so a built world draws on it only as
+    register: etic.'
+  source_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
+- row_id: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907--testimonia-de-bardesane-nau
+  work: Nau, Scriptorum testimonia de Bardesanis vita, scriptis, doctrina (ancient witnesses
+    on Bardaisan)
+  author: patrologia-syriaca
+  locus: Praefatio, Caput I, from OCR line 46586 (add 12)
+  role: context
+  confidence: assigned
+  note: 'Nau''s gathering of the ancient witnesses on Bardaisan (Julius Africanus, Porphyry,
+    Eusebius, Epiphanius, Ephrem, Theodoret, Moses of Khoren, later Syriac writers), quoted
+    in Latin or their own Greek. A finding aid to the old sources; each witness is quoted
+    from its own held edition where the Library has one. Context: it describes the movement
+    from outside, so a built world draws on it only as register: etic.'
+  source_file: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt
+- row_id: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907--liber-legum-regionum-nau
+  work: The Book of the Laws of Countries (Liber legum regionum), Syriac with Nau's Latin
+  author: patrologia-syriaca
+  locus: from OCR line 49589 (add 12); the dialogue with Avida from about 49660
+  role: tradition
+  confidence: assigned
+  note: 'The dialogue on fate and freedom written down by Bardaisan''s pupil Philip: the movement''s
+    one surviving work, here in the Syriac with Nau''s Latin translation (1907). The Syriac
+    OCR is garbage; Nau''s Latin is a modern translation, quotable as that, beside Cureton''s
+    English already held in anf08.'
+  source_file: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--sozomen-iii-16-harmonius
+  work: 'Sozomen III.16: Ephrem, Bardesanes and Harmonius''s hymns'
+  author: sozomen
+  locus: div iii.viii.xvi, about raw line 32085
+  role: context
+  confidence: assigned
+  note: 'Sozomen says the Syrians sang Harmonius''s melodies and that Ephrem set orthodox
+    words to them. Context: it describes the movement from outside, so a built world draws
+    on it only as register: etic.'
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--theodoret-he-iv-29-harmonius
+  work: 'Theodoret, Church History IV.26 (NPNF numbering): Ephrem and Harmonius son of Bardesanes'
+  author: theodoret
+  locus: div iv.viii.iv.xxvi (Book IV, Chapter XXVI in this translation), about raw line 15057
+  role: context
+  confidence: assigned
+  note: 'Theodoret on Harmonius''s songs and Ephrem''s answer to them. Context: it describes
+    the movement from outside, so a built world draws on it only as register: etic.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864--haer-fab-i-22-bardesanes
+  work: 'Theodoret, Compendium of Heretical Fables I.22: On Bardesanes and Harmonius'
+  author: theodoret
+  locus: Greek from OCR line 29805, Latin about 29752 (add 12)
+  role: context
+  confidence: assigned
+  note: 'Theodoret says he read Bardesanes'' works against fate and against Marcion, that
+    some were put into Greek, and that Harmonius his son wrote in Syriac, and that Ephrem
+    answered both. Context: it describes the movement from outside, so a built world draws
+    on it only as register: etic.'
+  source_file: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt

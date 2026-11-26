@@ -176,3 +176,26 @@ assignments:
     note: >
       Roman-side witnesses to Persian Christians in 410-422, the decade before the synod of
       424.
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--sozomen-iii-16-harmonius
+    work: 'Sozomen III.16: Ephrem, Bardesanes and Harmonius''s hymns'
+    author: sozomen
+    locus: div iii.viii.xvi, about raw line 32085
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'Sozomen says the Syrians sang Harmonius''s melodies and that Ephrem set orthodox words to them.
+      Context: it describes the movement from outside, so a built world draws on it only as register: etic.'
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--photinus-sirmium
+    work: 'Socrates II.29-30: Photinus of Sirmium and the council at Sirmium'
+    author: socrates
+    locus: div ii.v.xxix ('Of the Heresiarch Photinus', about raw line 7838) and ii.v.xxx; the heresy at
+      Sirmium also at about raw line 6569
+    atlas_ids:
+    - danubian-latin-christianity
+    role: context
+    confidence: assigned
+    note: 'The bishop of Sirmium and his deposition by a council in the city, and the creed made there.
+      Whether the Homoian bishops of the Danube (Valens, Ursacius, Germinius) belong to this entry as its
+      own voice or to homoian-arian-christianity is a placement question; this row is context only. Context:
+      it describes the movement from outside, so a built world draws on it only as register: etic.'
