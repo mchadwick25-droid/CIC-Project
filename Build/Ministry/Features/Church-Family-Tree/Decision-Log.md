@@ -6152,3 +6152,7 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 1. "No c or better": a text passes at C or better.
 2. Era 1 is complete when its traditions and its people and council pass, with "the era description and all the cards": the era 1 brief (`Brief-Kit/kinds/era.md`), and every era 1 card in the new layout ("The card design: one layout, and a timeline in periods", 2026-11-25), timeline included. This lifts the hold on era cards (Open-Gaps 412) for era 1.
 3. Found (2026-11-26): 17 of era 1's 20 traditions pass (Ebionites by Mark's ruling "Batch 11: the two rebuilt stories ship", 2026-11-25); the three below are the thin ones (Open-Gaps 417). Nine of its 29 people and council pass; the 20 below are people from batches 3 to 7, graded as they stand live, which is their text from before what-and-why fix batch 1 (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`).
+
+## 2026-11-26 — No person or story recordings until a new voice (Mark)
+
+**Decided (Mark, 2026-11-26).** "Don't record people or stories until I find a new voice." No person brief and no documented story is recorded until Mark names a new voice for them; the person settings in `Brief-Kit/Recording_Settings.md` are not used meanwhile. Tradition, council and era briefs keep Daniel's settings ("Recording settings for tradition briefs", 2026-11-25). The three person references wait with the rest (Open-Gaps 413).
