@@ -6083,3 +6083,19 @@ This batch only.
 4. Search is switched on (`SEARCH_ON` in `cft-website/index.html`). Mark saw the screenshots with the real names first. The real-phone and screen-reader check (Open-Gaps 371) stays open.
 
 **Not done.** Twenty-six of the notes name a modern editor or translator as the source of a spelling (for example "Langlois's French"). Search does not show them; the card does. Whether a card note may name a modern work is a question for Mark under the modern-sources rule (Open-Gaps 423).
+
+## 2026-11-26 — Read along: the text sits in the player (Mark)
+
+**Why.** Mark opened the Post-Apostolic house churches card and found no text to read with the audio: "also there is not text if they want to read with the audio as an option" (Open-Gaps, "What-and-why batch 1 undone; the fixes are to be redone", 2026-11-23). The text was on the card, but in "Read the brief", a fold that starts closed and sits below the map buttons, so it did not read as part of the player. Three options went to Mark: a "Read along" button in the player (recommended), the text opening on Play, or the text always open. The governing thread then paused site work ("a, pause and consolidate first", 2026-11-24).
+
+**Decided (Mark, 2026-11-26: "Finish and go live").** He did not pick between the options. This thread took his words as the go-ahead for its recommended option and as lifting the pause for this change only. This updates the T2 transcript in "Cards and listening redesigned for a visitor getting oriented" (2026-11-23). The text stays hidden until asked for, but the way to ask for it now sits in the player.
+
+**Built.**
+- A recorded card's player has a "Read along" button. It opens the full text of the brief under the controls, and "Hide the text" closes it. The paragraph jumps and the mark on the spoken paragraph work there as before.
+- A built world's player fills that text from its own recording's text once the world's data loads.
+- Tradition, person, council, built-world and story cards all work this way. A brief with no recording keeps its "Read the brief" fold, since there is no player to hold it.
+- Each fold's title is now a level-3 heading. Screen readers can move between the sections, and a built world's documented stories no longer skip a heading level.
+
+**Result.** Checked in a browser on the deploy build, desktop and an emulated iPhone 13, with no page errors. Read along opens the full text on the Post-Apostolic, Church of Alexandria, Polycarp and Nicaea cards, with jumps where the brief has times. The listening steps of 2026-11-23 still pass (play, close, other card, reopen, jump, end, teaser, Who, Stop). An axe scan (WCAG 2.0 to 2.2 A and AA plus best practice) of three cards with Read along open and every fold open finds no failing rule at either width.
+
+**Not done.** No real-phone or screen-reader check (Open-Gaps 379).
