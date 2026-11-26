@@ -347,7 +347,9 @@ svg.ico-on .trad-ico{display:inline}
 svg.ico-on #nodes .node>circle:not(.halo):not(.focus-ring){display:none}
 svg.ico-on #nodes .node.no-name .trad-ico{display:none}
 svg.ico-on #nodes .node.no-name>circle:not(.halo):not(.focus-ring){display:inline}
-svg.simple #nodes .node:not(.far){display:none}
+svg.simple #nodes .node:not(.far) .lbl,svg.simple #nodes .node:not(.far) .trad-ico,svg.simple #nodes .node:not(.far) .pl{display:none!important}
+svg.simple #nodes .node:not(.far)>circle:not(.halo):not(.focus-ring){display:inline;r:calc(3 / var(--zoom-scale,1));fill:var(--iron-gall);opacity:.7;stroke:none}
+svg.simple #nodes .node.dot-cull:not(.far){display:none}
 .node .pl,.story-title{font-size:var(--pl-fs,10px)!important}
 svg:not(.z-story) #stories,svg:not(.z-story) #across{display:none}
 svg:not(.z-story-title) .story-title{display:none}
@@ -135068,11 +135070,11 @@ function render(){
       document.querySelectorAll(`.edge-line[data-from="${m.id}"],.edge-line[data-to="${m.id}"]`)
         .forEach(p=>p.style.opacity=p.dataset.baseline);
     });
-    g.addEventListener('click',(ev)=>{ev.stopPropagation();openPanel(m);});
+    g.addEventListener('click',(ev)=>{ev.stopPropagation();if(isRiverDot(g))zoomToDot(m);else openPanel(m);});
     g.addEventListener('focus',()=>focusRing.setAttribute('opacity','1'));
     g.addEventListener('blur',()=>focusRing.setAttribute('opacity','0'));
     g.addEventListener('keydown',(ev)=>{
-      if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanel(m);}
+      if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();if(isRiverDot(g))zoomToDot(m);else openPanel(m);}
     });
     gNodes.appendChild(g);
 
@@ -136853,8 +136855,35 @@ function labelFitRun(){
   placeEndMarks();
   placeWhoMarks();
   placeMidExtras();
+  placeRiverDots();
   placeCompactPeople();
   keepMapFocus(held);
+}
+// Zoomed out, a tradition whose house and name are not drawn yet shows as a dot on its river. A dot that would
+// sit on a name or on another dot is left out. Tapping one zooms in on it until its house and name appear.
+const isRiverDot=g=>svg.classList.contains('simple')&&!g.classList.contains('far');
+function placeRiverDots(){
+  const simple=labelFit.simple, grid=labelFit.grid, r=4/scale;
+  gNodes.querySelectorAll('.node:not(.far)').forEach(g=>{
+    const m=byId[g.dataset.id];
+    if(g.dataset.label===undefined)g.dataset.label=g.getAttribute('aria-label')||'';
+    if(!simple||!m||m._x==null){g.classList.remove('dot-cull');g.setAttribute('aria-label',g.dataset.label);return;}
+    const box={id:'dot'+m.id,x0:m._x-r,x1:m._x+r,y0:m._y-r,y1:m._y+r};
+    const hidden=!lastOrganic||!grid||grid.hits(box);
+    g.classList.toggle('dot-cull',hidden);
+    if(!hidden)grid.add(box);
+    g.setAttribute('aria-label',`${m.shortName||m.name}. Zooms in to show it on the map.`);
+  });
+}
+function zoomToDot(m){
+  stopGlide();
+  scale=clampScale(Math.max(scale,isMajorTradition(m)?Z_MAJOR*1.06:Z_ALL*1.04));
+  const bd=edgeChipBounds(), cx=(bd.L+bd.R)/2, cy=(bd.T+56+bd.B)/2;
+  tx=cx-m._x*scale; ty=cy-m._y*scale;
+  applyTransform(); applyDetail(); labelFitRun();
+  const nd=gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`);
+  try{if(nd)nd.focus({preventScroll:true});}catch(e){}
+  announce(`${m.shortName||m.name} is showing on the map.`);
 }
 function placeMidExtras(){
   const grid=labelFit.grid;
