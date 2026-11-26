@@ -1,0 +1,277 @@
+{
+ "id": "river-africa",
+ "kind": "river",
+ "lane": 4,
+ "title": "Africa",
+ "dates": "Late in the second century to 312",
+ "datesNote": "The map places the river's first tradition from 150, a placing year only. Eusebius lists bishops of Alexandria from Annianus, Mark's successor, in the eighth year of Nero, and gives Mark's founding as report. The era's end in 312 is the map's.",
+ "shortDescription": "In this era the Africa river carries the church of Alexandria in Egypt. It holds the city's teachers, from Pantaenus and Clement to Origen, and its bishops through persecution and plague, down to Peter, beheaded in the Great Persecution.",
+ "directLine": {
+  "parent": {
+   "lane": 0,
+   "name": "The First Churches",
+   "basis": "declared",
+   "confidence": "Widely Accepted",
+   "basisInWords": "declared: the tree sets it as growing from the first churches; its founding is obscure"
+  },
+  "children": [],
+  "childrenNote": "No river leaves it in the origin records."
+ },
+ "text": null,
+ "textNote": "A river has no brief.",
+ "timeline": [
+  {
+   "when": "Before the record is clear",
+   "headline": "What was said of the church's founding",
+   "witness": "Eusebius of Caesarea, Church History",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "They say, Eusebius writes, that Mark was the first sent to Egypt, preached the Gospel he had written, and first set up churches in Alexandria.",
+     "reference": "Eusebius, Church History II.16.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 11851-11853",
+     "note": "Given as report."
+    },
+    {
+     "when": "in the eighth year of Nero",
+     "text": "Annianus succeeds Mark the evangelist in charge of the church of Alexandria, Eusebius writes.",
+     "reference": "Eusebius, Church History II.24, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 13780-13795"
+    }
+   ]
+  },
+  {
+   "when": "From the reign of Commodus",
+   "headline": "Bishops and a school of teachers come into view",
+   "witness": "Eusebius of Caesarea, Church History",
+   "lines": [
+    {
+     "when": "in the first year of Commodus",
+     "text": "Julian becomes bishop of the churches of Alexandria.",
+     "reference": "Eusebius, Church History V.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28467-28479"
+    },
+    {
+     "when": "about that time",
+     "text": "Pantaenus, a man of great learning trained among the Stoics, has charge of the school of the faithful in Alexandria. Eusebius says such a school had stood there from ancient times.",
+     "reference": "Eusebius, Church History V.10.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28488, 28537-28576"
+    },
+    {
+     "when": "date unknown",
+     "text": "Clement succeeds Pantaenus in charge of the instruction in Alexandria, and the boy Origen is one of his pupils.",
+     "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33015-33044, 33079-33080"
+    }
+   ]
+  },
+  {
+   "when": "Under Severus to the 230s",
+   "headline": "Origen, from a martyr's son to the head of the school",
+   "witness": "Eusebius of Caesarea, Church History",
+   "lines": [
+    {
+     "when": "in the reign of Severus",
+     "text": "A persecution reaches Alexandria. Leonides, father of Origen, is beheaded while his son is still young.",
+     "reference": "Eusebius, Church History VI.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397, 32428-32433, 32459-32460"
+    },
+    {
+     "when": "in his eighteenth year",
+     "text": "Origen takes charge of the school of instruction in the faith.",
+     "reference": "Eusebius, Church History VI.3.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32732-32733"
+    },
+    {
+     "when": "in the tenth year of Alexander",
+     "text": "Origen moves from Alexandria to Caesarea, leaving the school to Heraclas.",
+     "reference": "Eusebius, Church History VI.25-26, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36115, 36330-36334",
+     "note": "Eusebius says \"the tenth year of the above-mentioned reign\"; the reign last named is Alexander's."
+    }
+   ]
+  },
+  {
+   "when": "About 247 to the 260s",
+   "headline": "Dionysius leads the church through persecution and plague",
+   "witness": "Eusebius of Caesarea, Church History, quoting Dionysius's letters for the persecution and the plague",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Dionysius, one of Origen's pupils, follows Heraclas in charge of the school.",
+     "reference": "Eusebius, Church History VI.29.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36552-36559"
+    },
+    {
+     "when": "in the third year of Philip",
+     "text": "Heraclas dies, and Dionysius becomes bishop of the churches of Alexandria.",
+     "reference": "Eusebius, Church History VI.35, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37071-37080"
+    },
+    {
+     "when": "under Decius",
+     "text": "Dionysius writes that at Alexandria the persecution began a whole year before the emperor's decree.",
+     "reference": "Eusebius, Church History VI.41.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37764-37809"
+    },
+    {
+     "when": "date unknown",
+     "text": "After war and famine, a plague follows. Dionysius writes that most of the Christians nursed the sick without fear, and many died with them.",
+     "reference": "Eusebius, Church History VII.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41026-41028, 41065-41091"
+    }
+   ]
+  },
+  {
+   "when": "The later third century",
+   "headline": "The siege of the Pyrucheium, and Pamphilus at Caesarea",
+   "witness": "Eusebius of Caesarea, Church History",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "In the siege of the Pyrucheium quarter of Alexandria, Anatolius gets the besieged out, those of the church first. Later he becomes a pastor at Laodicea in Syria.",
+     "reference": "Eusebius, Church History VII.32.7-12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42696-42767"
+    },
+    {
+     "when": "date unknown",
+     "text": "At Caesarea in Palestine, in the time of Bishop Agapius, Eusebius comes to know Pamphilus.",
+     "reference": "Eusebius, Church History VII.32.24-25, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42996-43010"
+    }
+   ]
+  },
+  {
+   "when": "The Great Persecution, to 311",
+   "headline": "Bishop Peter beheaded",
+   "witness": "Eusebius of Caesarea, Church History",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Peter becomes bishop of Alexandria after Theonas had held the office for nineteen years.",
+     "reference": "Eusebius, Church History VII.32.31, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 43214-43215"
+    },
+    {
+     "when": "in the persecution",
+     "text": "Pamphilus, a presbyter of Caesarea, is put to death.",
+     "reference": "Eusebius, Church History VIII.13.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 44790-44792"
+    },
+    {
+     "when": "date unknown",
+     "text": "Peter, bishop of Alexandria, is seized without warning and beheaded, as if by order of Maximinus, and many bishops of Egypt die with him.",
+     "reference": "Eusebius, Church History IX.6.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47990-47999; VIII.13.7, lines 44798-44802",
+     "note": "The census card of Peter gives 311."
+    }
+   ]
+  }
+ ],
+ "peopleAndStories": {
+  "traditions": [
+   {
+    "id": "alexandria-catechetical",
+    "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
+    "dates": "c. 150–400 CE"
+   }
+  ],
+  "people": [
+   {
+    "id": "clement-of-alexandria",
+    "name": "Clement of Alexandria",
+    "dates": "c. 190-212"
+   },
+   {
+    "id": "origen",
+    "name": "Origen",
+    "dates": "c. 203-253"
+   },
+   {
+    "id": "dionysius-of-alexandria",
+    "name": "Dionysius of Alexandria",
+    "dates": "bishop from c. 247; died c. 264-265"
+   },
+   {
+    "id": "anatolius-of-alexandria-and-laodicea",
+    "name": "Anatolius of Alexandria and Laodicea",
+    "dates": "flourished under Probus and Carus"
+   },
+   {
+    "id": "peter-of-alexandria",
+    "name": "Peter of Alexandria",
+    "dates": "bishop from c. 300; died 311"
+   },
+   {
+    "id": "pamphilus-of-caesarea",
+    "name": "Pamphilus of Caesarea",
+    "dates": "307-310"
+   }
+  ],
+  "note": "Ordered by the census start years. In this era the Latin churches of Africa, at Carthage and Hippo, sit on the Latin West river, not this one."
+ },
+ "howItBegan": {
+  "basis": "declared",
+  "confidence": "Widely Accepted",
+  "reason": "The church at Alexandria grew from the first churches; it is first seen clearly late in the second century. Its founding is obscure. The tradition that Mark founded it is reported by Eusebius as something people say.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Eusebius, Church History 2.16 (NPNF 2.1)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "11851-11853",
+    "locus": "Historia ecclesiastica 2.16.1",
+    "quote": "they say that this Mark was the first that was sent to Egypt, and that he proclaimed the Gospel which he had written, and first established churches in Alexandria.",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "connections": [
+  {
+   "edge": "greek-apologists-second-century--alexandria-catechetical",
+   "type": "influenced",
+   "in": "in from the first river"
+  },
+  {
+   "edge": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+   "type": "influenced",
+   "in": "in from the first river"
+  },
+  {
+   "edge": "alexandria-catechetical--ebionite-nazoraean-current",
+   "type": "argued against",
+   "in": "out to the first river"
+  },
+  {
+   "edge": "alexandria-catechetical--anatolian-church-third-century",
+   "type": "influenced",
+   "in": "out to the Greek East"
+  },
+  {
+   "edge": "anatolian-church-third-century--alexandria-catechetical",
+   "type": "argued against",
+   "in": "in from the Greek East"
+  },
+  {
+   "edge": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "type": "influenced",
+   "in": "out to the Greek East"
+  },
+  {
+   "note": "Later links run out from Alexandria to the Latin West, the Greek East and the Non-Nicene traditions in era 2; each carries its own sources on its edge."
+  }
+ ],
+ "legacyAndToday": {
+  "text": "An episode of the church of Alexandria, which lives on today. The world built from this entry names the Coptic Orthodox Church as its main living heir.",
+  "carrier": [
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
+  "from": "census, alexandria-catechetical livingEvidence"
+ },
+ "uncertain": [
+  "How it began. Its founding is obscure. Eusebius gives Mark's founding as something people say, and names Annianus as Mark's successor in the eighth year of Nero.",
+  "Whether there was one school. Eusebius, who says a school of sacred learning had stood there from ancient times and continued to his own day, calls the instruction a school and names the teacher in charge of it in each generation.",
+  "Where the river begins on the map. The year 150 only places the Alexandrian tradition; no old source gives it."
+ ],
+ "sources": [
+  {
+   "kind": "primary",
+   "work": "Eusebius, Church History 2.16 (NPNF 2.1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "11851-11853",
+   "locus": "Historia ecclesiastica 2.16.1",
+   "quote": "they say that this Mark was the first that was sent to Egypt, and that he proclaimed the Gospel which he had written, and first established churches in Alexandria.",
+   "license": "public-domain"
+  },
+  {
+   "kind": "primary",
+   "work": "Eusebius, Church History II.24, V.9-10, VI.1-6, VI.26-41, VII.22, VII.32, VIII.13, IX.6 (NPNF 2.1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "as each timeline line gives"
+  }
+ ],
+ "modernWorks": []
+}
