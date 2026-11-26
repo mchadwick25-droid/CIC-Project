@@ -81,3 +81,47 @@ Source: `Card_Check_A.md`, `Card_Check_B.md`. Each change was applied word for w
 - polycarp-of-smyrna, P3 (every other timeline reference): the checker says to append ", cic/texts/<file> lines <n>" from "that row's file and lines" in Card_Edits. Most lines have several rows, so the choice of file and lines is not given. Only the one example worded in full (Martyrdom 9) was applied.
 - polycarp-of-smyrna, P3 (line 2, Ignatius from Smyrna): the extra reference "; Eusebius, Church History III.36.4-5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19945-19962" is to be added after the line's own appended reference, which is not given. Not applied.
 - Card_Check_A, note "not a card change" (Card_Edits shows ANF03 47250-47251 as "On Monogamy"; it is On the Resurrection of the Flesh): the error is in Card_Edits prose, not in any layout.json. Not applied.
+
+## Check C
+
+Source: `Card_Check_C.md`. Each change was applied word for word to the card's `<id>.layout.json` (and L10 to `tools/quote_scan_readings.json`). The three layouts and the tools file still load as JSON. A scratch census copy with the three layouts merged in (`/tmp/claude-0/apply-c/census-copy.json`; the real census was not edited), run with `node tools/validate-census.mjs`: 0 errors, 4 warnings (the four standing shortName warnings). Nothing committed. Line numbers are the checker's (before S3 and L11 changed the counts).
+
+### Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| post-apostolic-house-church | PA1 | shortDescription |
+| post-apostolic-house-church | PA2 | timeline, line 40 (Hegesippus): when, text, reference |
+| post-apostolic-house-church | PA3 | timeline, period 7 when; line 38 note and reference |
+| post-apostolic-house-church | PA4 | timeline, period 7 headline; line 32 text |
+| post-apostolic-house-church | PA5 | timeline, line 41, when |
+| post-apostolic-house-church | PA6 | timeline, line 24, text |
+| post-apostolic-house-church | PA7 | timeline, period 10 headline |
+| syriac-edessa-nisibis | S1 | timeline, line 4, note |
+| syriac-edessa-nisibis | S2 | timeline, line 6, text |
+| syriac-edessa-nisibis | S3 | timeline, line 7 removed |
+| syriac-edessa-nisibis | S4 | shortDescription |
+| syriac-edessa-nisibis | S5 | timeline, period 1, witness |
+| syriac-edessa-nisibis | S6 | timeline, lines 18 and 19, text |
+| syriac-edessa-nisibis | S7 | timeline, line 32: text, reference |
+| syriac-edessa-nisibis | S8 | timeline, line 35, text |
+| syriac-edessa-nisibis | S9 | dates; period 8 when; line 30 when and reference |
+| latin-pastoral-congregational-christianity | L1 | shortDescription |
+| latin-pastoral-congregational-christianity | L2 | timeline, line 2: text, note added, reference |
+| latin-pastoral-congregational-christianity | L3 | timeline, line 9, text |
+| latin-pastoral-congregational-christianity | L4 | timeline, period 3, when |
+| latin-pastoral-congregational-christianity | L5 | timeline, line 22, when |
+| latin-pastoral-congregational-christianity | L6 | timeline, line 30, text |
+| latin-pastoral-congregational-christianity | L7 | timeline, line 39, text |
+| latin-pastoral-congregational-christianity | L8 | timeline, line 52, reference |
+| latin-pastoral-congregational-christianity | L9 | timeline, period 10 headline |
+| latin-pastoral-congregational-christianity | L10 | `tools/quote_scan_readings.json`: two entries added as in Card_Edits, `kind` "OCR misread margin line number run into the line" |
+| latin-pastoral-congregational-christianity | L11 | dates; period 1 when and headline; new first line of period 1 |
+
+### For existing census texts, not applied here
+
+None. Card_Check_C gives no change to a census text. The census `dates` of the three entries ("70–200 CE", "200–410 CE", "c. 240s-430") were not touched; the layouts carry the card's own `dates`.
+
+### Could not place
+
+None.
