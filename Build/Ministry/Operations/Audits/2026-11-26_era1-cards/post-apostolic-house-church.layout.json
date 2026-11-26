@@ -14,17 +14,17 @@
     },
     {
      "when": "date unknown",
-     "text": "Corinth has removed some of its elders, men who served blamelessly. The letter blames envy, and one or two persons who stirred the church against them.",
+     "text": "Corinth has removed some of its elders, the senior men who led the church together. Rome's letter says they served blamelessly, and blames envy and one or two persons who stirred the church against them.",
      "reference": "1 Clement 3, 44 and 47, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 605-615, 1932-1943, 2053-2055"
     },
     {
      "when": "date unknown",
-     "text": "The letter argues that God sent Christ, and Christ sent the apostles, who appointed bishops and deacons for those who would believe.",
+     "text": "Rome's letter argues that God sent Christ, and Christ sent the apostles. The apostles appointed bishops and deacons, the bishops' assistants, for those who would believe.",
      "reference": "1 Clement 42, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 1849-1860"
     },
     {
      "when": "date unknown",
-     "text": "The apostles, it says, foresaw strife over the bishop's office and ordered that approved men succeed them. Men appointed with the whole church's consent, who served blamelessly, cannot justly be removed.",
+     "text": "The apostles, Rome's letter says, foresaw strife over the bishop's office and ordered that approved men succeed them. Men appointed with the whole church's consent, who served blamelessly, cannot justly be removed.",
      "reference": "1 Clement 44, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 1916-1943"
     },
     {
@@ -47,32 +47,32 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "It opens on the Two Ways, one of life and one of death. The way of life is first to love God, who made you, and second your neighbor as yourself.",
+     "text": "The manual opens on the Two Ways, one of life and one of death. The way of life is first to love God, who made you, and second your neighbor as yourself.",
      "reference": "Didache 1, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 12700-12708"
     },
     {
      "when": "date unknown",
-     "text": "It tells its readers to share all things with a brother, and not to call them their own.",
+     "text": "The manual tells its readers to share all things with a brother, and not to call them their own.",
      "reference": "Didache 4, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 12827"
     },
     {
      "when": "date unknown",
-     "text": "After this teaching, newcomers fast for a day or two, and are baptized in the name of the Father, the Son and the Holy Spirit, in living water, or in other water if there is none.",
+     "text": "In the manual, newcomers are taught the Two Ways first. Then they fast for a day or two, and are baptized in the name of the Father, the Son and the Holy Spirit, in living water, or in other water if there is none.",
      "reference": "Didache 7, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 12910-12926"
     },
     {
      "when": "date unknown",
-     "text": "Its prayers of thanksgiving come first over the cup, then over the broken bread: as the bread was scattered over the hills and gathered into one, so may the church be gathered into God's kingdom. Only the baptized may eat or drink of it.",
+     "text": "The manual's prayers of thanksgiving, the eucharist, come first over the cup, then over the broken bread. As the bread was scattered over the hills and gathered into one, they pray, so may the church be gathered into God's kingdom. Only the baptized may eat or drink of it.",
      "reference": "Didache 9, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 12960-12970"
     },
     {
      "when": "date unknown",
-     "text": "Every Lord's day they gather, confess their sins, break bread and give thanks. No one at odds with a neighbor joins them until the two are reconciled.",
+     "text": "Every Lord's day, the manual says, its readers gather, confess their sins, break bread and give thanks. No one at odds with a neighbor joins them until the two are reconciled.",
      "reference": "Didache 14, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 13087-13095"
     },
     {
      "when": "date unknown",
-     "text": "They are to appoint their own bishops and deacons, and to test the traveling apostles who come to them. An apostle who stays three days, or asks for money, is a false prophet.",
+     "text": "The manual's readers are to appoint their own bishops and deacons, and to test the traveling apostles who come to them. An apostle who stays three days, or asks for money, is a false prophet.",
      "reference": "Didache 11 and 15, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 13018-13022, 13112-13116"
     }
    ]
@@ -89,22 +89,22 @@
     },
     {
      "when": "date unknown",
-     "text": "He does not know whether to punish the name Christian itself, or crimes that go with it. Those who confess it and hold firm, he has led away to punishment.",
+     "text": "Pliny does not know whether to punish the name Christian itself, or crimes that go with it. Those who confess it and hold firm, he has led away to punishment.",
      "reference": "Pliny, Letters 10.96.2-3, cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt lines 2772-2778; English, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19463-19475"
     },
     {
      "when": "date unknown",
-     "text": "Others, named by an informer, say they stopped being Christians, some as long as twenty years before, and curse Christ before him.",
+     "text": "Some, named to Pliny by an informer, say they stopped being Christians, some as long as twenty years before, and curse Christ before him.",
      "reference": "Pliny, Letters 10.96.6, cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt lines 2786-2788; English, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19487-19491"
     },
     {
      "when": "date unknown",
-     "text": "They tell him they used to meet before dawn on a fixed day, sing a hymn to Christ as to a god, and bind themselves by oath against theft, robbery and adultery. Later they met again for an ordinary, harmless meal, and stopped after his order banning clubs.",
+     "text": "Those who have left tell Pliny they used to meet before dawn on a fixed day, sing a hymn to Christ as to a god, and bind themselves by oath against theft, robbery and adultery. Later they met again for an ordinary, harmless meal, and stopped after his order banning clubs.",
      "reference": "Pliny, Letters 10.96.7, cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt lines 2789-2795; English, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19492-19502"
     },
     {
      "when": "date unknown",
-     "text": "To find the truth, he has two slave women, called ministrae, servers, tortured. He says he found only a depraved superstition.",
+     "text": "To find the truth, Pliny has two slave women, called ministrae, servers, tortured. He says he found only a depraved superstition.",
      "reference": "Pliny, Letters 10.96.8, cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt lines 2795-2797; English, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19502-19506"
     },
     {
@@ -127,28 +127,28 @@
     },
     {
      "when": "date unknown",
-     "text": "Eusebius says he travels through Asia under the strictest military guard, encouraging the churches of each city where he stops.",
+     "text": "Eusebius says Ignatius travels through Asia under the strictest military guard, encouraging the churches of each city where he stops.",
      "reference": "Eusebius, Church History III.36.4-5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19945-19962",
      "note": "Eusebius's later account."
     },
     {
      "when": "date unknown",
-     "text": "Writing from Smyrna, and later from Troas, he urges each church to act as one, its bishop presiding in the place of God and its elders in the place of the apostles' council, with its deacons.",
+     "text": "Ignatius writes from Smyrna, and later from Troas. He urges each church to act as one: its bishop presiding in the place of God, its elders in the place of the apostles' council, with its deacons.",
      "reference": "Ignatius, To the Magnesians 15 and 6, To Polycarp 8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 6219-6223, 5851-5856, 8854-8855"
     },
     {
      "when": "date unknown",
-     "text": "A proper thanksgiving, he writes, is one the bishop leads, or one he entrusts to another. Where the bishop is, there let the people be.",
+     "text": "A proper thanksgiving, Ignatius writes, is one the bishop leads, or one he entrusts to another. Where the bishop is, there let the people be.",
      "reference": "Ignatius, To the Smyrnaeans 8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8274-8289"
     },
     {
      "when": "date unknown",
-     "text": "He greets households: the families of his brothers with their wives and children, the house of Tavias, and the wife of Epitropus with all her house and children.",
+     "text": "Ignatius greets households: the families of his brothers with their wives and children, the house of Tavias, and the wife of Epitropus with all her house and children.",
      "reference": "Ignatius, To the Smyrnaeans 13, To Polycarp 8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8503-8508, 8868-8869"
     },
     {
      "when": "date unknown",
-     "text": "Hearing that the church at Antioch in Syria is at peace, he asks Polycarp, bishop of Smyrna, to choose a messenger to go to Syria, and to have the churches nearby send messengers or letters.",
+     "text": "Ignatius hears that the church at Antioch in Syria is at peace. He asks Polycarp, bishop of Smyrna, to choose a messenger to go to Syria, and to have the churches nearby send messengers or letters.",
      "reference": "Ignatius, To Polycarp 7-8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8534-8536, 8810-8863"
     }
    ]
@@ -160,12 +160,12 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "The letter opens in the name of Polycarp and the elders with him.",
+     "text": "Polycarp's letter to the church at Philippi opens in his name and that of the elders with him.",
      "reference": "Polycarp, To the Philippians, opening, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3232-3235"
     },
     {
      "when": "date unknown",
-     "text": "The elders are to be compassionate and merciful, bring back those who wander, visit all the sick, and not neglect the widow, the orphan or the poor.",
+     "text": "Polycarp writes that elders are to be compassionate and merciful, bring back those who wander, visit all the sick, and not neglect the widow, the orphan or the poor.",
      "reference": "Polycarp, To the Philippians 6, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3403-3405"
     },
     {
@@ -175,7 +175,7 @@
     },
     {
      "when": "date unknown",
-     "text": "As they asked, he sends them the letters of Ignatius his church holds, and offers to have their own letter carried to Syria. Crescens carries his.",
+     "text": "As the Philippians asked, Polycarp sends them the letters of Ignatius his church holds, and offers to have their own letter carried to Syria. Crescens carries Polycarp's letter.",
      "reference": "Polycarp, To the Philippians 13-14, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3608-3618, 3638"
     }
    ]
@@ -187,13 +187,13 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "In a vision, Hermas writes, the Church, seen as an old woman, tells him to make two copies of her words: one for Clement, who will send it to foreign countries, and one for Grapte, who will teach the widows and orphans. He is to read them in his own city, Rome, with the elders who preside over the church.",
+     "text": "In a vision, Hermas writes, the Church appears to him as an old woman. She tells him to make two copies of her words: one for Clement to send to foreign countries, and one for Grapte to teach the widows and orphans. Hermas is to read them in his own city, Rome, with the elders who preside over the church.",
      "reference": "Hermas, Shepherd, Vision 1.1 and 2.4, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 649, 995-1026",
      "note": "A vision, in Hermas's own voice."
     },
     {
      "when": "date unknown",
-     "text": "Elsewhere in his book, bishops gladly take God's servants into their houses, and care for the widows and those in need.",
+     "text": "In Hermas's book, bishops gladly take God's servants into their houses, and care for the widows and those in need.",
      "reference": "Hermas, Shepherd, Similitude 9.27, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 4946-4952"
     }
    ]
@@ -210,37 +210,37 @@
     },
     {
      "when": "date unknown",
-     "text": "Those who believe what is taught pray and fast, and the community fasts with them. Then they are washed with water in the name of the Father, of Jesus Christ and of the Holy Spirit. The washing is called illumination.",
+     "text": "At Rome, Justin writes, those who come to believe pray and fast, and the community fasts with them. Then they are washed with water in the name of the Father, of Jesus Christ and of the Holy Spirit. The washing is called illumination.",
      "reference": "Justin, First Apology 61, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16232-16240, 16265-16266"
     },
     {
      "when": "date unknown",
-     "text": "The newly washed are brought to the gathering for prayer, and the believers greet one another with a kiss. Bread and a cup of wine mixed with water are brought to the one who presides. He gives thanks at length, the people say Amen, and deacons give to each and carry a share to those absent.",
+     "text": "After baptism, Justin writes, the newly washed are brought to the gathering for prayer, and the believers greet one another with a kiss. Bread and a cup of wine mixed with water are brought to the one who presides. He gives thanks at length, the people say Amen, and deacons give to each and carry a share to those absent.",
      "reference": "Justin, First Apology 65, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16406-16436; Greek, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 1707-1727"
     },
     {
      "when": "date unknown",
-     "text": "This food is called eucharist, thanksgiving, and only the baptized who live as Christ taught may share it. They receive it, Justin writes, not as common bread and common drink.",
+     "text": "Justin writes that this food is called eucharist, thanksgiving, and that only the baptized who live as Christ taught may share it. They receive it, he says, not as common bread and common drink.",
      "reference": "Justin, First Apology 66, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16444-16456"
     },
     {
      "when": "date unknown",
-     "text": "On Sunday all who live in town or country gather in one place. The memoirs of the apostles, which are called Gospels, or the writings of the prophets are read, the one who presides teaches, and all stand to pray.",
+     "text": "On Sunday, Justin writes, all who live in town or country gather in one place. The memoirs of the apostles, which are called Gospels, or the writings of the prophets are read, the one who presides teaches, and all stand to pray.",
      "reference": "Justin, First Apology 66-67, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16477-16478, 16502-16509; Greek, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt lines 1759-1767"
     },
     {
      "when": "date unknown",
-     "text": "Those who are well off give what each chooses, and the one who presides uses it for orphans and widows, the sick, prisoners and strangers.",
+     "text": "At the Sunday gathering, those who are well off give what each chooses, and the one who presides uses it for orphans and widows, the sick, prisoners and strangers.",
      "reference": "Justin, First Apology 67, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16518-16526"
     },
     {
      "when": "date unknown",
-     "text": "They meet on Sunday because on that first day God began his work of creation, and on the same day Jesus Christ rose from the dead.",
+     "text": "Justin says Christians meet on Sunday because on that first day God began his work of creation, and on the same day Jesus Christ rose from the dead.",
      "reference": "Justin, First Apology 67, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16526-16533"
     },
     {
      "when": "date unknown",
-     "text": "At his trial, the prefect Rusticus asks where the Christians gather. Justin answers that each meets where he chooses and can, and that he himself lives above one Martinus, at the Timiotinian Bath, and knows of no other meeting.",
+     "text": "At Justin's trial, the prefect Rusticus asks where the Christians gather. Justin answers that each meets where he chooses and can, and that he himself lives above one Martinus, at the Timiotinian Bath, and knows of no other meeting.",
      "reference": "Martyrdom of Justin 2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 29295-29312",
      "note": "From an anonymous account of the trial, of unknown date."
     },
@@ -270,7 +270,7 @@
     },
     {
      "when": "date unknown",
-     "text": "He writes that Corinth read Rome's new letter on the Lord's holy day, and will always draw counsel from it, as from the earlier letter written through Clement.",
+     "text": "Dionysius writes that Corinth read Rome's new letter on the Lord's holy day, and will always draw counsel from it, as from the earlier letter written through Clement.",
      "reference": "Eusebius, Church History IV.23.11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25109-25117",
      "note": "Dionysius's own words, as Eusebius keeps them."
     }
@@ -304,7 +304,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Not all the bishops are pleased. They urge Victor to consider the things of peace, and some rebuke him sharply.",
+     "text": "Not all the bishops are pleased with Victor. They urge him to consider the things of peace, and some rebuke him sharply.",
      "reference": "Eusebius, Church History V.24.10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 31431-31434"
     },
     {

@@ -49,12 +49,12 @@
     },
     {
      "when": "date unknown",
-     "text": "The church's preachers warn the whole covenant before baptism. Some young men and women choose for themselves a life unmarried and holy, and those who mean to marry are to marry before baptism.",
+     "text": "The church's preachers, Aphrahat writes, warn the whole covenant, those vowed to God, before baptism. Some young men and women choose for themselves a life unmarried and holy, and those who mean to marry are to marry before baptism.",
      "reference": "Aphrahat, Demonstration VII.20-21, cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt line 57; Latin, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 21939-21942"
     },
     {
      "when": "date unknown",
-     "text": "Their Syriac name means sons of the covenant: those who vowed themselves to God to keep from marriage.",
+     "text": "The Syriac name for the vowed means sons of the covenant: those who vowed themselves to God to keep from marriage.",
      "reference": "Parisot's introduction to Aphrahat, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 3291-3293",
      "note": "The editor's explanation of the word."
     },
@@ -65,7 +65,7 @@
     },
     {
      "when": "date unknown",
-     "text": "He gives a daughter of the covenant the words to answer a vowed man who asks her to live with him and serve him: she is promised to a royal husband, and serves him.",
+     "text": "Aphrahat gives a daughter of the covenant, a vowed woman, the words to answer a vowed man who asks her to live with him and serve him. She is to say she is promised to a royal husband, and serves him.",
      "reference": "Aphrahat, Demonstration VI.7, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 25948-25953; Latin, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 18126-18134"
     }
    ]
@@ -100,13 +100,13 @@
     },
     {
      "when": "\"our third peril\"",
-     "text": "He asks Christ, who rose on the third day, not to give the city over to death in its third peril.",
+     "text": "In the same hymn, Ephrem asks Christ, who rose on the third day, not to give the city over to death in its third peril.",
      "reference": "Ephrem, Nisibene Hymn I, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 13839-13840",
      "note": "Ephrem's own words."
     },
     {
      "when": "date unknown",
-     "text": "Theodoret says the Persians dammed the river and broke the walls with its water, that Jacob prayed inside the church while the walls were built up again, and that at Ephrem's request he called down clouds of mosquitoes and gnats on the army.",
+     "text": "Theodoret says the Persians dammed the river and broke the walls with its water. He says Jacob prayed inside the church while the walls were built up again, and at Ephrem's request called down clouds of mosquitoes and gnats on the army.",
      "reference": "Theodoret, Church History II.26, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 11124-11177",
      "note": "Theodoret's account, written about a century later. The wonders are his."
     },
@@ -158,12 +158,12 @@
     },
     {
      "when": "date unknown",
-     "text": "He is vexed by a reproach: if they have a God, why does he not avenge his people?",
+     "text": "Aphrahat is vexed by a reproach: if they have a God, why does he not avenge his people?",
      "reference": "Aphrahat, Demonstration XXI.1, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 27416-27419"
     },
     {
      "when": "date unknown",
-     "text": "In his own day, he writes, many declare their faith and are killed.",
+     "text": "In his own day, Aphrahat writes, many declare their faith and are killed.",
      "reference": "Aphrahat, Demonstration XXI.23, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 27988-27991"
     }
    ]
@@ -192,7 +192,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Sozomen says Ephrem, afraid the Syrians would take up the opinions in the songs of Bardaisan's son Harmonius, wrote hymns to the same tunes by the church's teaching, and from then on the Syrians sang his hymns.",
+     "text": "Sozomen says Bardaisan's son Harmonius put opinions of the Greek philosophers into songs. Ephrem, afraid the Syrians would take them up, wrote hymns to the same tunes by the church's teaching. From then on, Sozomen says, the Syrians sang Ephrem's hymns.",
      "reference": "Sozomen, Church History III.16, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 32085-32103",
      "note": "Sozomen wrote in the next century."
     },
@@ -205,7 +205,7 @@
   },
   {
    "when": "In the 11th year of King Yazdegerd's reign",
-   "headline": "A later Persian king lets the churches rebuild, and forty bishops meet in synod",
+   "headline": "A later Persian king lets the churches rebuild, and forty bishops meet in a synod, a council of bishops",
    "witness": "The acts of the synod of Mar Isaac, in Chabot's French",
    "lines": [
     {
@@ -216,17 +216,17 @@
     },
     {
      "when": "in the 11th year of King Yazdegerd's reign",
-     "text": "The king has ordered the churches his fathers destroyed to be rebuilt, the prisoners freed, and \"the priests, the leaders and all the holy covenant\" to go about freely and without fear.",
+     "text": "King Yazdegerd has ordered the churches his fathers destroyed to be rebuilt, the prisoners freed, and \"the priests, the leaders and all the holy covenant\" to go about freely and without fear.",
      "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16155-16166"
     },
     {
      "when": "date unknown",
-     "text": "This came about, the acts say, in the time of Mar Isaac, through the work of the bishop Marutha, the go-between of peace and concord between East and West, and of the bishops of the Romans.",
+     "text": "The acts say the king's grant came about in the time of Mar Isaac, bishop of Seleucia, through the work of the bishop Marutha and of the bishops of the Romans. They call Marutha the go-between of peace and concord between East and West.",
      "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16168-16169, 16226-16237"
     },
     {
      "when": "at the feast of the Epiphany",
-     "text": "The king orders Isaac and Marutha to gather the bishops in the great church of the capital. The day they meet is for them like the dead rising.",
+     "text": "King Yazdegerd orders Isaac and Marutha to gather the bishops in the great church of the capital. The bishops write that the day they met was for them like the dead rising.",
      "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16410-16422, 16499-16500"
     },
     {
@@ -236,7 +236,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Hosea, bishop of Nisibis, Ephrem's old city, is named second metropolitan, and signs third, after Isaac and Marutha.",
+     "text": "Hosea, bishop of Nisibis, Ephrem's old city, is named second metropolitan, a bishop over the bishops of a region, and signs third, after Isaac and Marutha.",
      "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 17724-17726, 17746, 17861"
     }
    ]
