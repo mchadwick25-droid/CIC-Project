@@ -231,7 +231,7 @@
       "lines": "34354",
       "original": "τὸν ἱερὸν Κλήμεντα",
       "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
-      "originalLines": "3048",
+      "originalLines": "3050",
       "secondReading": "checked at card"
     },
     {
@@ -282,7 +282,7 @@
         {
           "when": "In the time of Commodus, as Eusebius places it",
           "text": "Clement is trained in the Scriptures at Alexandria with Pantaenus, and becomes well known there.",
-          "reference": "Eusebius, Church History V.9 and V.11.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28467-28468, 28653-28656, 28689-28694"
+          "reference": "Eusebius, Church History V.9 and V.11.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28467-28469, 28653-28656, 28689-28694"
         },
         {
           "when": "Date unknown",
@@ -294,7 +294,7 @@
           "when": "Date unknown",
           "text": "Origen is among his pupils.",
           "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33043-33044, 33079-33080",
-          "note": "The manuscripts of Eusebius's Greek differ on whether Origen was then still a boy (Schwartz's edition, lines 1840-1841, 1883-1885)."
+          "note": "The manuscripts of Eusebius's Greek differ on whether Origen was then still a boy (Schwartz's edition, lines 1839-1843, 1883-1885)."
         },
         {
           "when": "Date unknown",
@@ -318,7 +318,7 @@
         {
           "when": "Date unknown",
           "text": "He calls his Miscellanies notes patched together, passing from one thing to another.",
-          "reference": "Clement, Stromata IV.2, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 37559-37563"
+          "reference": "Clement, Stromata IV.2, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 37560-37563"
         },
         {
           "when": "Date unknown",
@@ -354,7 +354,7 @@
         {
           "when": "Date unknown",
           "text": "He writes that the founders of these teachings arose in the time of the emperor Hadrian, and names Valentinus among them.",
-          "reference": "Clement, Stromata VII.17, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 52955-52962"
+          "reference": "Clement, Stromata VII.17, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 52956-52962"
         },
         {
           "when": "Date unknown",
