@@ -11,11 +11,11 @@ import vm from 'node:vm';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
 
-function generate(c, audio = null, live = true) {
+function generate(c, audio = null) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-pages-'));
   const file = path.join(dir, 'census.json');
   fs.writeFileSync(file, JSON.stringify(c));
-  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : []), ...(live ? ['--conversations-live'] : [])], { stdio: 'ignore' });
+  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : [])], { stdio: 'ignore' });
   return name => fs.readFileSync(path.join(dir, 'cft-website', name), 'utf8');
 }
 
@@ -26,33 +26,18 @@ const withLinks = (c, n) => {
   c.edges = [example, ...c.edges.filter(e => e !== example).slice(0, n - 1)];
 };
 
-test('an open world gets a door to Church in Conversation', () => {
-  const read = generate(census);
-  const page = read(`tree/${open.id}.html`);
-  assert.match(page, new RegExp(`href="https://churchinconversation.com/traditions/${open.id}.html">Meet `));
-  assert.doesNotMatch(page, /class="door-quiet"/);
-});
-
-test('while conversations are not live, an open world names its Representative with no link to Church in Conversation', () => {
-  const page = generate(census, null, false)(`tree/${open.id}.html`);
-  assert.doesNotMatch(page, /churchinconversation.com\/traditions\//);
-  assert.match(page, new RegExp(`<p class="door-quiet">Conversations with ${open.entry.representativeName} are coming soon to Church in Conversation.</p>`));
-});
-
-test('the map and the tree pages agree on whether conversations are live', () => {
-  const site = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8'));
+test('a built world names no Representative and opens no door to Church in Conversation, on its page or its map card', () => {
+  const page = generate(census)(`tree/${open.id}.html`);
+  assert.doesNotMatch(page, /class="door-quiet"|churchinconversation\.com\/traditions\//);
+  assert.ok(!page.includes(open.entry.representativeName), 'the page does not name the Representative');
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
-  assert.match(map, new RegExp(`const CONVERSATIONS_LIVE=${site.conversationsLive === true};`));
-  const page = fs.readFileSync(path.join(root, `cft-website/tree/${open.id}.html`), 'utf8');
-  assert.equal(/churchinconversation.com\/traditions\//.test(page), site.conversationsLive === true);
+  assert.doesNotMatch(map, /class="repline"|function worldDoor|CONVERSATIONS_LIVE/);
 });
 
-test('with every world closed, built worlds show only the quiet line', () => {
-  const closed = structuredClone(census);
-  closed.movements.forEach(m => { m.publicOpen = false; });
-  const page = generate(closed)(`tree/${open.id}.html`);
-  assert.doesNotMatch(page, /churchinconversation.com\/traditions\//);
-  assert.match(page, /<p class="door-quiet"><a href="https:\/\/churchinconversation.com\/">Church in Conversation<\/a>, from the same team.<\/p>/);
+test('a built world without a short description stands in its teaser, like every other card', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.ok(map.includes('h+=shortDescHTML(m.shortDescription||m.teaser);'), 'the tradition card uses the same stand-in for every tradition');
+  assert.doesNotMatch(map, /entry\.tile/);
 });
 
 test('the support page says who publishes it and that payments are not tax-deductible', () => {
@@ -101,7 +86,7 @@ test('the Listen block is labeled as the audio brief, with its length from the r
   const sha = crypto.createHash('sha256').update(m.longDescription, 'utf8').digest('hex');
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-audio-'));
   fs.writeFileSync(path.join(dir, 'manifest.json'), JSON.stringify({ [m.id]: { file: `${m.id}.mp3`, bytes: 1200000, outputFormat: 'mp3_44100_64', text_sha256: sha } }));
-  assert.match(generate(census, dir)(`tree/${m.id}.html`), /<p class="narration-label">Audio Brief · Narrated Edition <span>2:30<\/span><\/p>/);
+  assert.match(generate(census, dir)(`tree/${m.id}.html`), /<p class="narration-label">Audio Brief <span>2:30<\/span><\/p>/);
 });
 
 test('the data page reads its release number, date and counts from the census', () => {
@@ -158,21 +143,18 @@ test('the method and data pages are linked from the about page, the map, every p
   assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/data</loc>'));
 });
 
-test('the about page counts traditions, rivers, eras and links from the census', () => {
+test('the about page counts traditions, rivers and eras from the census', () => {
   const c = structuredClone(census);
-  withLinks(c, 12);
   const traditions = c.movements.filter(m => !m.kind);
   const rivers = new Set(traditions.map(m => m.laneOrder)).size;
-  const inFull = traditions.filter(m => m.status === 'Built & Live').length;
   const page = generate(c)('about.html');
-  assert.match(page, /The tree shows 12 links of seven kinds\./);
   assert.match(page, new RegExp(`The tree maps ${traditions.length} church traditions, and the councils, people and stories that shaped them\\.`));
-  assert.match(page, new RegExp(`The traditions flow in ${rivers} rivers, across ${c.eras.length} eras\\.`));
-  assert.match(page, new RegExp(`The tree tells ${inFull} traditions in full`));
+  assert.match(page, new RegExp(`The traditions flow in ${rivers} rivers across ${c.eras.length} eras\\.`));
+  assert.doesNotMatch(page, /in full/);
   assert.match(page, new RegExp(`<meta name="description" content="[^"]*with ${traditions.length} church traditions`));
 });
 
-test('a person page says which tradition tells it, and carries that world door while it is open', () => {
+test('a person page says which tradition tells it, and opens no door to Church in Conversation', () => {
   const c = structuredClone(census);
   const person = c.movements.find(m => m.kind === 'person');
   const read = generate(c);
@@ -186,10 +168,8 @@ test('a person page says which tradition tells it, and carries that world door w
   home.people = [];
   world.people = [{ person: person.id }];
   const opened = generate(c);
-  assert.match(opened(`tree/${person.id}.html`), new RegExp(`href="https://churchinconversation.com/traditions/${world.id}.html">Meet `));
+  assert.doesNotMatch(opened(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
   assert.match(opened(`tree/${world.id}.html`), new RegExp(`<a href="${person.id}.html">`));
-  world.publicOpen = false;
-  assert.doesNotMatch(generate(c)(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
   person.toldWithin = null;
   world.people = [];
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
@@ -210,7 +190,7 @@ test('Who and the connection lines are never shown together', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /svg\.who-on \.edge-line,svg\.who-on \.edge-hit,svg\.who-on \.continues\{display:none!important\}/);
   assert.match(map, /function setWho\(scope,opts\)\{\n  clearConnections\(\);/);
-  assert.match(map, /function showConnections\(m,line\)\{\n  clearConnections\(\); if\(whoScope\)clearWho\(\);/);
+  assert.match(map, /function showConnections\(m,line,back\)\{\n  clearConnections\(\); if\(whoScope\)clearWho\(\);/);
 });
 
 test('the map holds every tradition\'s people, every person\'s home tradition and card', () => {
@@ -233,9 +213,9 @@ test('a movement that names no one says why, in its own People section', () => {
   const m = c.movements.find(x => x.kind !== 'person');
   m.people = [];
   m.peopleNote = 'The Library holds no words of its own leaders.';
-  assert.match(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>\s*<p class="people-note">The Library holds no words of its own leaders\.<\/p>/);
+  assert.match(generate(c)(`tree/${m.id}.html`), /<h2>People and Stories<\/h2>\s*<h3>People<\/h3>\s*<p class="people-note">The Library holds no words of its own leaders\.<\/p>/);
   delete m.peopleNote;
-  assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>/);
+  assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /<h3>People<\/h3>/);
 });
 
 test('Who shows person entries only: named voices are not listed as people', () => {
@@ -255,7 +235,7 @@ test('every page states its review status in plain words', () => {
   const [a, b] = c.movements;
   b.reviewStatus = 'scholar-reviewed';
   const read = generate(c);
-  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked with AI tools\. No scholar or church partner has reviewed it yet\./);
+  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked with AI tools\. Review by church history experts is planned as funding and partnerships allow\./);
   assert.match(read(`tree/${b.id}.html`), /<b>Review:<\/b> reviewed by a scholar\./);
 });
 
@@ -291,7 +271,7 @@ test('a retired movement with no redirect gets a retired page with only its cens
   const page = read('tree/gone-movement.html');
   assert.match(page, /<main class="page" id="content" data-retired="true">/);
   assert.match(page, /<h1>Gone &amp; Movement<\/h1>/);
-  assert.match(page, /<p>This entry was retired from the tree on November 8, 2026\.<\/p>/);
+  assert.match(page, /<p>This entry was removed from the tree on November 8, 2026\.<\/p>/);
   assert.match(page, /<p>Its story falls after the tree ends\.<\/p>/);
   assert.match(page, /<header class="site-header">/);
   assert.match(page, /<meta name="robots" content="noindex">/);
@@ -385,13 +365,19 @@ test('a major council page shows its kind, its record, its traditions and its Wh
   const page = generate(census)(`tree/${council.id}.html`);
   assert.match(page, /<p class="kind-label">Major council<\/p>/);
   assert.match(page, /<h2>About This Council<\/h2>/);
-  for (const h of ['Why They Met', 'Who Came', 'What They Decided', 'What Came of It', 'Traditions It Touched', 'Who', 'Whose Account We Have', 'What Is Uncertain', 'Sources']) {
+  for (const h of ['Timeline', 'People and Stories', 'What Happened', 'Connections', 'Legacy and Today', 'Open Questions', 'Sources']) {
     assert.match(page, new RegExp(`<h2>${h}</h2>`), h);
   }
+  for (const h of ['Why They Met', 'Who Came', 'What They Decided', 'What Came of It', 'Traditions It Touched', 'Who', 'Whose Account We Have', 'What Is Uncertain']) {
+    assert.match(page, new RegExp(`<h3>${h}</h3>`), h);
+  }
+  const order = ['Timeline', 'People and Stories', 'What Happened', 'Connections', 'Legacy and Today', 'Open Questions', 'Sources'].map(h => page.indexOf(`<h2>${h}</h2>`));
+  assert.deepEqual(order, [...order].sort((a, b) => a - b), 'the menu runs in the kit\'s order');
+  assert.match(page, /<nav class="lineage-strip" aria-label="Major councils before and after"><span><a href="council-of-arles-314\.html">/);
   assert.match(page, /class="part-group">Gathered</);
   assert.match(page, /class="part-group">Condemned</);
   assert.match(page, /<a href="arius\.html">Arius<\/a> · /);
-  assert.match(page, /class="verdict">Not yet assessed<\/span>/);
+  assert.doesNotMatch(page, /Not yet assessed|Profile to come/);
   assert.match(page, /<p class="source-group">From the council<\/p>/);
   assert.doesNotMatch(page, /No sources recorded/);
   assert.doesNotMatch(page, /<h2>In Its Own Record<\/h2>/);
@@ -401,11 +387,13 @@ test('a major council page shows its kind, its record, its traditions and its Wh
 test('a person page shows the card: facts, key works, legacy, councils, what is uncertain and sources in two groups', () => {
   const read = generate(census);
   const page = read('tree/arius.html');
-  assert.match(page, /<dt>Known for<\/dt>/);
+  const arius = census.movements.find(m => m.id === 'arius');
+  assert.ok(page.includes(`<p class="short-desc">${arius.card.knownFor.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;')}</p>`));
+  assert.match(page, /<h2>Timeline<\/h2>\s*<dl class="facts"><dt>Dates<\/dt>/);
   assert.match(page, /<h2>Key Works<\/h2>/);
-  assert.match(page, /<h2>Legacy<\/h2>/);
-  assert.match(page, /<h2>At Major Councils<\/h2>[\s\S]*council-of-nicaea-325\.html/);
-  assert.match(page, /<h2>What Is Uncertain<\/h2>/);
+  assert.match(page, /<h2>Legacy and Today<\/h2>/);
+  assert.match(page, /<h3>At Major Councils<\/h3>[\s\S]*council-of-nicaea-325\.html/);
+  assert.match(page, /<h2>Open Questions<\/h2>/);
   assert.match(page, /<p class="source-group">Their own words<\/p>/);
   assert.match(page, /<p class="source-group">Written about them<\/p>/);
   assert.doesNotMatch(page, /No sources recorded/);
@@ -417,7 +405,7 @@ test('a person page shows each other name with its note beside it', () => {
   const c = structuredClone(census);
   c.movements.find(m => m.id === 'frumentius').card.otherNames = [{ name: 'Abba Salama of Axum', note: 'a note' }, 'Frumentios'];
   const page = generate(c)('tree/frumentius.html');
-  assert.match(page, /<dt>Also called<\/dt><dd>Abba Salama of Axum \(a note\), Frumentios<\/dd>/);
+  assert.match(page, /<p class="ident">Also called Abba Salama of Axum \(a note\), Frumentios<\/p>/);
 });
 
 test('the map card shows each other name with its note beside it, and drops one that is the entry\'s own name', () => {
@@ -481,8 +469,9 @@ test('the map card shows the printed originals and references below the brief, c
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /function quotesPanel\(card\)\{/);
   assert.match(map, /<details class="sources-panel quotes-panel"><summary>Quotations and references<\/summary>/);
-  assert.match(map, /read=briefTextHTML\(p\.longDescription\);\n    if\(card\.quotationOriginals&&card\.quotationOriginals\.length\)read\+='<p class="quotes-note">Quotations are given in our modern English\. The printed wording of each is below\.<\/p>';\n    read\+=quotesPanel\(card\);/);
-  assert.match(map, /folds\.push\(foldHTML\('Read the brief',readLen,\[\['',read\]\]\)\);/);
+  assert.match(map, /function briefReadHTML\(text,quotesFrom,sources\)\{\n  let read=briefTextHTML\(text\);\n  if\(quotesFrom&&quotesFrom\.quotationOriginals&&quotesFrom\.quotationOriginals\.length\)read\+=QUOTES_NOTE;\n  if\(quotesFrom\)read\+=quotesPanel\(quotesFrom\);\n  return read\+briefSourcesHTML\(sources\);/);
+  assert.match(map, /return src\?briefPlayerHTML\(src,len,read\):foldHTML\('Read the brief',len,\[\['',read\]\],'brief-fold',true\);/);
+  assert.match(map, /briefReadHTML\(p\.longDescription,card,card\.briefSources\)/);
 });
 
 test('a council page shows how it worked, the printed wording behind its quotations, and its story with recording', () => {
@@ -494,10 +483,10 @@ test('a council page shows how it worked, the printed wording behind its quotati
   const hash = crypto.createHash('sha256').update(nicaea.documentedStories[0].text).digest('hex').slice(0, 16);
   fs.writeFileSync(path.join(path.dirname(audio), 'docstories', 'manifest.json'), JSON.stringify({ 'council-of-nicaea-325-0': { hash } }));
   const page = generate(census, audio)('tree/council-of-nicaea-325.html');
-  assert.match(page, /<h2>How the Council Worked<\/h2>/);
+  assert.match(page, /<h3>How the Council Worked<\/h3>/);
   assert.match(page, /<details class="quotes-panel"><summary>Quotations and references<\/summary>/);
   assert.ok(page.indexOf('class="reading"') < page.indexOf('class="quotes-panel"'));
-  assert.match(page, /<h2>How Nicaea decided<\/h2><div class="narration"><audio controls preload="none" src="\.\.\/audio\/docstories\/council-of-nicaea-325-0\.mp3">/);
+  assert.match(page, /<h3>How Nicaea decided<\/h3><div class="narration"><audio controls preload="none" src="\.\.\/audio\/docstories\/council-of-nicaea-325-0\.mp3">/);
   const c = structuredClone(census);
   c.movements.find(m => m.id === 'council-of-nicaea-325').documentedStories[0].text += ' Changed.';
   assert.doesNotMatch(generate(c, audio)('tree/council-of-nicaea-325.html'), /audio\/docstories\/council-of-nicaea-325-0\.mp3/);
@@ -535,7 +524,7 @@ const between = (page, from, to) => { const a = page.indexOf(from); const b = pa
 test('a tradition page shows a lineage line, then its direct line, then everything else', () => {
   const page = generate(census)(`tree/${withLine.id}.html`);
   assert.match(page, /<nav class="lineage-strip" aria-label="Direct line of descent">/);
-  assert.ok(page.indexOf('class="lineage-strip"') < page.indexOf('<h2>About This Movement</h2>'));
+  assert.ok(page.indexOf('class="lineage-strip"') < page.indexOf('<h2>About This Tradition</h2>'));
   assert.match(page, /<h2>Connections<\/h2>/);
   const at = (h) => page.indexOf(`<h3>${h}</h3>`);
   assert.ok(at('Descended from') > 0 && at('Descended from') < at('Direct descendants'));
@@ -558,8 +547,10 @@ test('people, councils and movements across churches keep the plain list of link
   const across = census.movements.find(m => m.kind === 'cross-church movement' && census.edges.some(e => e.from === m.id || e.to === m.id));
   for (const id of ['arius', 'council-of-nicaea-325', across.id]) {
     const page = read(`tree/${id}.html`);
-    assert.doesNotMatch(page, /Descended from|Direct descendants|class="lineage-strip"/, id);
+    assert.doesNotMatch(page, /Descended from|Direct descendants/, id);
   }
+  assert.doesNotMatch(read(`tree/${across.id}.html`), /class="lineage-strip"/);
+  assert.match(read('tree/arius.html'), /<nav class="lineage-strip" aria-label="Their tradition&#039;s direct line">/);
 });
 
 test('a descent link to a person or a movement is not listed as a direct descendant', () => {
@@ -589,4 +580,70 @@ test('the map card and the tradition pages sort links the same way', () => {
   assert.ok(map.includes('Broke with') && gen.includes('Broke With'));
   const method = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8')).method.sections;
   assert.ok(method.some(s => s.heading === 'Direct descendants and influence'));
+});
+
+// The card layout (Stage Two Kit, sections 1 and 2; Decision-Log "The card site build", 2026-11-26).
+const sampleTimeline = () => [
+  { when: 'Around 200 to 217', headline: 'Zephyrinus, and the quarrel', witness: 'Most of this comes from Hippolytus.', lines: [
+    { when: 'Around 200', text: 'Zephyrinus followed Victor.', reference: 'Eusebius, Church History 5.28' },
+    { when: 'date unknown', text: 'Natalius came back.', reference: 'Eusebius, Church History 5.28', note: 'A wonder, in its witness\'s voice' }] },
+  { when: '251', headline: 'Cornelius, and the split', lines: [{ when: '251', text: 'Cornelius was made bishop.', reference: 'Cyprian, Letter 55' }] }
+];
+
+test('a tradition page runs in the card\'s order: short description, line, brief with its old sources, then the menu', () => {
+  const c = structuredClone(census);
+  const m = c.movements.find(x => x.id === 'roman-church-third-century');
+  Object.assign(m, { shortDescription: 'A short description.', timeline: sampleTimeline(), uncertain: ['What Callistus meant.'], briefSources: [{ title: 'Refutation of All Heresies, Book IX', author: 'Hippolytus' }] });
+  const page = generate(c)(`tree/${m.id}.html`);
+  const at = s => page.indexOf(s);
+  assert.ok(at('<p class="short-desc">A short description.</p>') > 0);
+  assert.ok(at('class="short-desc"') < at('class="lineage-strip"') && at('class="lineage-strip"') < at('<h2>About This Tradition</h2>'));
+  assert.match(page, /<p class="source-group">Sources for this brief<\/p><ul class="sources-list"><li>Hippolytus, Refutation of All Heresies, Book IX<\/li>/);
+  const order = ['About This Tradition', 'Timeline', 'People and Stories', 'Connections', 'Legacy and Today', 'Open Questions', 'Sources'].map(h => at(`<h2>${h}</h2>`));
+  assert.ok(order.every(i => i > 0), 'every section shows');
+  assert.deepEqual(order, [...order].sort((a, b) => a - b));
+  assert.match(page, /<button type="button" class="tl-all" hidden>Open every period<\/button><details class="tl-period"><summary><span class="tl-pw">Around 200 to 217<\/span> <span class="tl-ph">Zephyrinus, and the quarrel<\/span><\/summary><p class="tl-wit">Most of this comes from Hippolytus\.<\/p>/);
+  assert.match(page, /<li class="undated"><span class="tl-when">date unknown<\/span> Natalius came back\. <span class="source-note">\(Eusebius, Church History 5\.28\)<\/span><span class="tl-note">A wonder, in its witness&#039;s voice<\/span><\/li>/);
+  assert.match(page, /<script>document\.querySelectorAll\('\.tl-all'\)/);
+  assert.match(page, /<h2>Open Questions<\/h2>\s*<ul><li>What Callistus meant\.<\/li><\/ul>/);
+  assert.match(page, /<h3>Why It Is on the Tree<\/h3>/);
+});
+
+test('a page with none of the new fields shows its other sections, and no timeline control', () => {
+  const page = generate(census)('tree/roman-church-third-century.html');
+  assert.doesNotMatch(page, /<h2>Timeline<\/h2>|<h2>Open Questions<\/h2>|class="tl-all"|Sources for this brief/);
+  for (const h of ['People and Stories', 'Connections', 'Legacy and Today', 'Sources']) assert.match(page, new RegExp(`<h2>${h}</h2>`), h);
+});
+
+test('a recorded brief keeps its text behind Read along; an unrecorded one shows it open', () => {
+  const audio = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'tree-audio-')), 'tree');
+  fs.mkdirSync(audio); fs.writeFileSync(path.join(audio, 'manifest.json'), '{}');
+  const open = generate(census, audio)('tree/polycarp-of-smyrna.html');
+  assert.doesNotMatch(open, /class="read-along"/);
+  assert.match(open, /<h2>About This Person<\/h2>[\s\S]*?<div class="reading">/);
+  const recorded = generate(census)('tree/polycarp-of-smyrna.html');
+  assert.match(recorded, /<audio controls preload="none" src="\.\.\/audio\/tree\/polycarp-of-smyrna\.mp3"><\/audio>\s*<\/div>\s*<details class="read-along"><summary>Read along<\/summary><div class="reading">/);
+});
+
+test('modern works sit apart from the old sources', () => {
+  const page = generate(census)('tree/john-chrysostom.html');
+  assert.match(page, /<h2>Sources<\/h2>[\s\S]*<h3>Modern Works<\/h3><ul class="sources-list"><li>Socrates and Sozomenus/);
+});
+
+test('the map card: one layout for every kind, the line opens the Family line view, and era cards open again', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /--link-line:#7fd3ff;/);
+  assert.doesNotMatch(map, /#2e9e4f/);
+  assert.match(map, /const MENU_ORDER=\['timeline','people','own','connections','legacy','questions','sources'\];/);
+  assert.match(map, /const lb=panelBody\.querySelector\('\.line-btn'\); if\(lb\)lb\.addEventListener\('click',\(\)=>showConnections\(m,true\)\);/);
+  assert.match(map, /if\(home\)\{const lb=panelBody\.querySelector\('\.line-btn'\); if\(lb\)lb\.addEventListener\('click',\(\)=>showConnections\(home,true,\{name:p\.shortName\|\|p\.name,open:\(\)=>openPersonCard\(P\)\}\)\);\}/);
+  assert.match(map, /function openEraCard\(i\)\{/);
+  assert.match(map, /function goIntoEra\(i\)\{/);
+  assert.match(map, /peekStrip\.querySelector\('\.pk-open'\)\.addEventListener\('click',\(\)=>\{if\(connBack\)connBack\.open\(\);/);
+  for (const fn of ['openPanelNow', 'openPersonCardNow', 'openCouncilCard', 'openEraCard']) {
+    const body = map.slice(map.indexOf(`function ${fn}(`), map.indexOf('\n}\n', map.indexOf(`function ${fn}(`)));
+    const order = ["'Timeline'", "'People and stories'", "'Connections'", "'Open questions'", "'Sources'"].map(t => body.indexOf(`foldHTML(${t}`)).filter(i => i >= 0);
+    assert.deepEqual(order, [...order].sort((a, b) => a - b), `${fn}: the menu runs in the kit's order`);
+    assert.ok(body.indexOf('shortDescHTML(') < body.indexOf("foldHTML('Timeline'"), `${fn}: the short description comes first`);
+  }
 });

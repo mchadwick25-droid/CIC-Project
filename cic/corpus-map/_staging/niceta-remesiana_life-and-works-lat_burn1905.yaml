@@ -1,0 +1,17 @@
+source_file: niceta-remesiana_life-and-works-lat_burn1905.txt
+assignments:
+  - row_id: niceta-remesiana_life-and-works-lat_burn1905--works-lat
+    work: 'Niceta of Remesiana, works (Burn 1905): the instructions for those coming to baptism, De ratione
+      fidei, De symbolo, De Spiritus sancti potentia, De vigiliis, De psalmodiae bono, the Te Deum'
+    author: niceta-remesiana
+    locus: the Latin texts after Burn's introduction (De ratione fidei about host OCR line 8785; De symbolo
+      about 10227; this file's line = host line - 47 + 12)
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: Bishop of Romatia (Gennadius, Lives of Illustrious Men 22), whom Paulinus of Nola's poems send
+      home 'usque Dacos' (Carmen 17), the one Latin writer of the Danube lands after Victorinus whose works
+      survive in quantity. Paulinus's poems place him at the turn of the fifth century, after this entry's
+      map years, so a brief tells him as what came of the tradition, not inside its window. Primary, ready
+      to quote once each quote is verified.

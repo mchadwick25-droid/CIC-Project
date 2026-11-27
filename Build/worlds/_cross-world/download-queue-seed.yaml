@@ -32444,3 +32444,252 @@ queue:
     verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,554,569 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: international-review-of-missions_v19_1930.txt
+  - title: Patrologia Syriaca, Pars I, Tomus II (Aphrahat Dem. 23; Bardesanes, Liber legum regionum; Simeon
+      bar Sabba'e; Testament of Adam)
+    author: Graffin (ed.); Parisot, Nau, Kmosko
+    year: '1907'
+    world: bardaisanite-current
+    why: 'Open-Gaps 417: the Book of the Laws of Countries in Syriac with Nau''s Latin, and Nau''s chapter
+      of ancient testimonia on Bardaisan.'
+    url: https://archive.org/details/gtu_32400002832867_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt
+  - title: Evangelicae praeparationis libri XV, tomus I (Greek, Books I-IX)
+    author: Eusebius of Caesarea
+    translator: Gifford (ed.)
+    year: '1903'
+    world: bardaisanite-current
+    why: 'Open-Gaps 417: Praeparatio VI.10, the Greek extract from Bardesanes'' dialogue on fate.'
+    url: https://archive.org/details/evangelicaepraep01euse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt
+  - title: Preparation for the Gospel, tomus III pars I (English, Books I-IX)
+    author: Eusebius of Caesarea
+    translator: E. H. Gifford
+    year: '1903'
+    world: bardaisanite-current
+    why: 'Open-Gaps 417: the English of Praeparatio VI.10, a cross-check on the Greek.'
+    url: https://archive.org/details/p1evangelicaepra03euse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt
+  - title: Ephraem Syri Opera omnia Syriace et Latine, tomus II (Sermones adversus haereses)
+    author: Ephrem the Syrian
+    translator: Petrus Benedictus
+    year: '1740'
+    world: bardaisanite-current
+    why: 'Open-Gaps 417: Ephrem''s 56 hymns against heresies, the chief hostile witness to Bardaisan. Second
+      witness only (OCR).'
+    url: https://archive.org/details/assemani-et-alii-1732-1746-ephraem-syri-opera-omnia-syr-2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1740); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740.txt
+  - title: 'Patrologia Graeca 83: Theodoret, Opera omnia tomus IV (Haereticarum fabularum compendium)'
+    author: Theodoret of Cyrrhus
+    translator: Migne (ed.)
+    year: '1864'
+    world: bardaisanite-current; modalist-monarchianism
+    why: 'Open-Gaps 417: Compendium I.22 (Bardesanes and Harmonius), II.9 (Sabellius), III.3 (Noetus).'
+    url: https://archive.org/details/PatrologiaeCursusCompletus83
+    rights_basis: 'Public Domain (pd-us-by-date: printed in the 1860s); the archive.org record carries a
+      Public Domain Mark'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt
+  - title: Hippolyti Romani quae feruntur omnia Graece
+    author: Hippolytus of Rome
+    translator: Lagarde (ed.)
+    year: '1858'
+    world: modalist-monarchianism
+    why: 'Open-Gaps 417: the Greek of Against Noetus (second witness to the English in anf05).'
+    url: https://archive.org/details/hippolytiromani00lagagoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1858); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: hippolytus_quae-feruntur-omnia-contra-noetum-grc_lagarde1858.txt
+  - title: 'Hippolytus Werke III: Refutatio omnium haeresium (GCS 26)'
+    author: Hippolytus of Rome
+    translator: Wendland (ed.)
+    year: '1916'
+    world: modalist-monarchianism; bardaisanite-current
+    why: 'Open-Gaps 417: the Greek of the Refutation, Book IX on Noetus and Callistus, and the notices of
+      Bardesanes.'
+    url: https://archive.org/details/hippolytuswerke03hipp
+    rights_basis: 'Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt
+  - title: Novatiani Romanae urbis presbyteri De Trinitate liber
+    author: Novatian
+    translator: Fausset (ed.)
+    year: '1909'
+    world: modalist-monarchianism
+    why: 'Open-Gaps 417: the Latin of Novatian''s answer to those who make Christ the Father.'
+    url: https://archive.org/details/novatianiromanae00novauoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: novatian_de-trinitate-lat_fausset1909.txt
+  - title: The Treatise of Novatian, On the Trinity
+    author: Novatian
+    translator: Herbert Moore
+    year: '1919'
+    world: modalist-monarchianism
+    why: 'Open-Gaps 417: an English cross-check for Fausset''s Latin.'
+    url: https://archive.org/details/treatiseofnovati00mooruoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: novatian_treatise-on-the-trinity_moore1919.txt
+  - title: The Letters and Other Remains of Dionysius of Alexandria
+    author: Dionysius of Alexandria
+    translator: Feltoe (ed.)
+    year: '1904'
+    world: modalist-monarchianism
+    why: 'Open-Gaps 417: Dionysius''s letters on the Sabellians of the Pentapolis and the Refutation and
+      Defence, in Greek.'
+    url: https://archive.org/details/LettersDionysiusOfAlexandria
+    rights_basis: 'Public Domain (pd-us-by-date: published 1904); the archive.org record carries a Public
+      Domain Mark'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: dionysius-alexandria_letters-and-other-remains-grc_feltoe1904.txt
+  - title: 'St. Dionysius of Alexandria: Letters and Treatises'
+    author: Dionysius of Alexandria
+    translator: C. L. Feltoe
+    year: '1918'
+    world: modalist-monarchianism
+    why: 'Open-Gaps 417: the English of the same.'
+    url: https://archive.org/details/stdionysiusofale00dion
+    rights_basis: 'Public Domain (pd-us-by-date: 1918, by the preface signed March 1918 with the catalogue''s
+      agreement; the title page prints no year)'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: dionysius-alexandria_letters-and-treatises_feltoe1918.txt
+  - title: Sancti Filastrii episcopi Brixiensis Diversarum hereseon liber (CSEL 38)
+    author: Filastrius of Brescia
+    translator: Marx (ed.)
+    year: '1898'
+    world: modalist-monarchianism
+    why: 'Open-Gaps 417: the Noetiani and the Sabelliani or Patripassiani (chapters 53-54).'
+    url: https://archive.org/details/sanctifilastriie38phil
+    rights_basis: 'Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: filastrius_diversarum-hereseon-liber-lat_marx-csel38-1898.txt
+  - title: Victorini episcopi Petavionensis Opera (CSEL 49)
+    author: Victorinus of Pettau
+    translator: Haussleiter (ed.)
+    year: '1916'
+    world: danubian-latin-christianity
+    why: 'Open-Gaps 417: the Latin of both Victorinus works, with Jerome''s revision of the Apocalypse commentary
+      on facing pages.'
+    url: https://archive.org/details/victoriniepiscop49victuoft
+    rights_basis: 'Public Domain (pd-us-by-date: the edition of 1916; this scan is a Johnson Reprint photomechanical
+      facsimile, no new claim over the text)'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: victorinus_opera-lat_haussleiter-csel49-1916.txt
+  - title: 'Niceta of Remesiana: His Life and Works'
+    author: Niceta of Remesiana
+    translator: A. E. Burn (ed.)
+    year: '1905'
+    world: danubian-latin-christianity
+    why: 'Open-Gaps 417: the Latin works of the bishop of Remesiana in Dacia.'
+    url: https://archive.org/details/nicetaremesiana00burngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: niceta-remesiana_life-and-works-lat_burn1905.txt
+  - title: Acta martyrum P. Theodorici Ruinart (Acta sincera), Ratisbon printing
+    author: Thierry Ruinart (ed.)
+    year: '1859'
+    world: danubian-latin-christianity
+    why: 'Open-Gaps 417: the acts of Irenaeus of Sirmium, Pollio of Cibalae, Serenus of Sirmium and Quirinus
+      of Siscia.'
+    url: https://archive.org/details/actamartyrum0000pthe
+    rights_basis: 'Public Domain (pd-us-by-date: published 1859); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt
+  - title: 'Spicilegium Syriacum: containing remains of Bardesan, Meliton, Ambrose and Mara Bar Serapion'
+    author: William Cureton (ed. and trans.)
+    year: '1855'
+    world: bardaisanite-current
+    why: 'Open-Gaps 417, found and not taken: Cureton''s Syriac and English of the Book of the Laws of Countries.
+      Its English is already held through anf08 and Nau 1907 now gives the Syriac with Latin, so it is optional;
+      take it if a build needs Cureton''s own notes.'
+    url: https://archive.org/details/spicilegiumsyria00cureuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read (London:
+      Rivington, 1855; Robarts, University of Toronto copy); not fetched'
+    status: not-yet-downloaded
+  - title: Sancti Pontii Meropii Paulini Nolani Carmina (CSEL 30)
+    author: Paulinus of Nola
+    translator: Hartel (ed.)
+    year: '1894'
+    world: danubian-latin-christianity
+    why: 'Open-Gaps 417, Mark''s direction to follow the sources on Niceta of Remesiana: Carmina 17 and
+      27, the primary old witness to him.'
+    url: https://archive.org/details/sanctipontiimer00paulgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: paulinus-nola_carmina-lat_hartel-csel30-1894.txt
+  - title: 'Sancti patris nostri Joannis Chrysostomi Homiliae in Matthaeum, tomus II (homilies 45-90)'
+    author: John Chrysostom
+    translator: Field (ed.)
+    year: '1839'
+    world: antiochene-exegetical-christianity-chrysostom-ce
+    why: 'Open-Gaps 415: the Greek of Homily 50 on Matthew, for the John Chrysostom person reference, whose quote was checked only against Prevost''s English.'
+    url: https://archive.org/details/chrysostom_matthew_homilies_field_vol_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1839); the archive.org record carries the Public Domain Mark 1.0'
+    verified_by: 'Era 1 Library session, 2026-11-26: archive.org metadata read, title page read in the OCR, the wanted passage located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: john-chrysostom_homiliae-in-matthaeum-t2-hom-45-90-grc_field1839.txt
+  - title: Sancti Eusebii Hieronymi Epistulae, pars I, Epistulae I-LXX (CSEL 54)
+    author: Jerome
+    translator: Hilberg (ed.)
+    year: '1910'
+    world: hieronymian-ascetic-literary
+    why: 'Open-Gaps 415: Letter 51, Epiphanius to John of Jerusalem in Jerome''s Latin, for the Epiphanius of Salamis person reference, whose quotes were checked only against Fremantle''s English.'
+    url: https://archive.org/details/corpusscriptorum54stuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT'
+    verified_by: 'Era 1 Library session, 2026-11-26: archive.org metadata read, title page read in the OCR, the wanted passage located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt

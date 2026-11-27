@@ -207,3 +207,23 @@ def test_council_is_a_people_field():
     census = {"movements": [{"id": "c", "status": "Major council", "council": {"knownFor": "A meeting."}}]}
     new_movements, changes = sync_atlas(census, [{"id": "c", "status": "Major council"}])
     assert new_movements[0]["council"] == {"knownFor": "A meeting."}
+
+
+def test_a_built_world_carries_its_brief():
+    census = {"movements": [{"id": "b", "status": LIVE_STATUS, "longDescription": "The brief.", "why": "Not carried."}]}
+    new_movements, _ = sync_atlas(census, [{"id": "b", "status": LIVE_STATUS}])
+    assert new_movements[0]["longDescription"] == "The brief."
+    assert "why" not in new_movements[0]
+
+
+def test_card_layout_fields_sync_for_every_movement_and_leave_when_gone():
+    layout = {"shortDescription": "Short.", "timeline": [{"when": "251", "headline": "H", "lines": [{"when": "251", "text": "T", "reference": "R"}]}],
+              "uncertain": ["Q"], "briefSources": [{"title": "S"}], "quotationOriginals": [{"modern": "m"}], "modernWorks": [{"title": "W", "author": "A"}]}
+    census = {"movements": [{"id": "t", "status": "Pre-Survey Candidate", **layout}, {"id": "b", "status": LIVE_STATUS, **layout}]}
+    new_movements, _ = sync_atlas(census, [{"id": "t"}, {"id": "b", "status": LIVE_STATUS}])
+    for m in new_movements:
+        for k, v in layout.items():
+            assert m[k] == v, (m["id"], k)
+    emptied, changes = sync_atlas({"movements": [{"id": "t", "status": "Pre-Survey Candidate"}]}, new_movements[:1])
+    assert not any(k in emptied[0] for k in layout)
+    assert all(c.get("removed") for c in changes)

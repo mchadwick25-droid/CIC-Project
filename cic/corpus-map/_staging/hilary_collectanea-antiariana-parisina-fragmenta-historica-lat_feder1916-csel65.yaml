@@ -42,3 +42,18 @@ assignments:
       Ariminum, Constantinople 360) and of a Roman bishop's capitulation and recovery, told
       from inside the losing Nicene party: the imperial-juridical world's own question seen
       by its sharpest Western opponent. Context, not the ijc world's voice.
+  - row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--danube-homoian-bishops
+    work: 'Collectanea antiariana: the letters of Germinius of Sirmium and of Valens and Ursacius, and the
+      Sirmium documents'
+    author: hilary_poit
+    locus: the Series tables at file lines 1159-1208 (Germinius's letter listed at 1166); the documents
+      in the body
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: 'The surviving Latin letters of bishops of the Danube sees in the Homoian controversy: Germinius
+      of Sirmium, Valens of Mursa, Ursacius of Singidunum. They are this region''s bishops writing in their
+      own words, so they count as this entry''s own voice, and they also stand in homoian-arian-christianity
+      (assignment is not exclusive). Hilary kept them to answer them: a brief gives both their words and
+      their opponents'' charge, and carries neither side forward.'

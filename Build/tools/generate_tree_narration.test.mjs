@@ -515,3 +515,13 @@ test('requirePaidSettings: a person run refuses open or closing tags on a model 
   assert.throws(() => requirePaidSettings({ ...base, openTag: '[calmly]' }), /would speak them/);
   assert.doesNotThrow(() => requirePaidSettings(base));
 });
+
+test('the built worlds that play their brief narrate their census brief and are not skipped', () => {
+  const m = { id: 'alexandria-catechetical', longDescription: 'The brief.' };
+  const story = () => JSON.stringify({ orientation: { story: [{ text: 'The world narration.' }] } });
+  assert.equal(narrationTextFor(m, { existsFn: () => true, readFn: story }), 'The brief.');
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => true, readFn: story }), false);
+  const other = { id: 'desert-monasticism', longDescription: 'Old text.' };
+  assert.equal(narrationTextFor(other, { existsFn: () => true, readFn: story }), 'The world narration.');
+  assert.equal(hasOwnWorldStory(other, { existsFn: () => true, readFn: story }), true);
+});

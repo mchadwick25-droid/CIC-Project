@@ -1656,6 +1656,20 @@ works:
 
     '
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-polycarp-papias-and-the-asian-persecution-latin
+  work: Chronici canones, the entries for Papias, Polycarp and Ignatius, and for the martyrdom
+    of Polycarp and Pionius, Latin
+  author: jerome
+  locus: Papias, Polycarp and Ignatius as hearers of John, file lines 42163-42166; 'Persecutione
+    orta in Asia Polycarpus et Pionius fecere martyrium', Marcus's year 6-7, 42977-42979
+  role: context
+  confidence: provisional
+  note: 'The old dated witness for Polycarp''s martyrdom by regnal year, placed with Pionius
+    under Marcus; Eusebius''s History (IV.15) also puts it under Marcus. The AD year is a
+    conversion, and the date is not the one the Martyrdom of Polycarp itself gives. Context.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: josephus_works-antiquities-wars-life_whiston1859--antiquities-testimonium-and-james-whiston
   work: Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James,
     the brother of Jesus called Christ)

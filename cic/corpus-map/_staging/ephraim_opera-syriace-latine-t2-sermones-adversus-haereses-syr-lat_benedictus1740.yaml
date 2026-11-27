@@ -1,0 +1,15 @@
+source_file: ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740.txt
+assignments:
+  - row_id: ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740--sermones-adversus-haereses
+    work: Ephrem, Hymns (Sermones) against Heresies 1-56, Syriac with Benedictus's Latin
+    author: ephraim
+    locus: from OCR line 87512 ('Sermo primus') to about 111800 (add 12)
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'Ephrem''s hymns against Bardaisan, Marcion and Mani: the chief hostile witness to Bardaisan''s
+      teaching and to the Bardaisanites'' own hymns. SECOND WITNESS ONLY: the Syriac OCR is garbage and
+      the 1740 Latin is read with the long s as f, so this file finds and cross-checks passages and is never
+      quoted. Context: it describes the movement from outside, so a built world draws on it only as register:
+      etic.'

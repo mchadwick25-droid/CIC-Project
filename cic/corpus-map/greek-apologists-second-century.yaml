@@ -230,6 +230,24 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-quadratus-aristides-justin-melito-apollinaris-latin
+  work: 'Chronici canones, the entries for the Greek apologists: Quadratus and Aristides (Hadrian),
+    Justin (Antoninus), Melito and Apollinaris (Marcus), Latin'
+  author: jerome
+  locus: Quadratus and Aristides give their books to Hadrian, Hadrian's year 9-10, file lines
+    42531-42534; Justin's book to Antoninus, Antoninus's year 4, 42752-42754; Melito's apology
+    to Antoninus (Marcus), Marcus's year 10, 43036-43038; Apollinaris of Hierapolis, 43041-43042;
+    Tatian, 43059
+  role: context
+  confidence: provisional
+  note: 'A dated old witness for the apologists'' years, set by regnal year in Eusebius''s
+    Chronicle as Jerome put it into Latin and continued it (380-381). The AD year is a conversion
+    of the regnal year, and the manuscripts place some entries a year apart (Fotheringham''s
+    apparatus gives the variants under each page). Context: a later chronicler''s dating,
+    not the apologists'' own voice.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho
   work: Dialogue with Trypho
   author: justin_martyr

@@ -1,0 +1,363 @@
+{
+ "shortDescription": "The Ebionites and Nazoraeans were Jews who believed that Jesus was the Christ and went on keeping the Law of Moses: circumcision, the Sabbath and the food laws. Later church writers placed them in Syria and beyond the Jordan.",
+ "dates": "mid-2nd c. to after 404",
+ "timeline": [
+  {
+   "when": "Before and after the fall of Jerusalem, as later writers tell it",
+   "headline": "Later writers tell of beginnings at Pella, of a teacher, Ebion, and of John writing against the Ebionites",
+   "lines": [
+    {
+     "when": "before the war, as Eusebius tells it",
+     "text": "Eusebius writes that before the war, the church in Jerusalem was commanded by a revelation to leave the city and live at Pella, a town of Peraea, the land beyond the Jordan.",
+     "reference": "Eusebius, Church History III.5.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 15291-15296",
+     "note": "Written more than two centuries later. Eusebius does not name the Ebionites here."
+    },
+    {
+     "when": "after the capture of Jerusalem, as Epiphanius tells it",
+     "text": "Epiphanius writes that the Nazoraeans began at Pella, after the disciples moved there from Jerusalem before its siege, and that the Ebionites began after Jerusalem was taken, among the believers then living at Pella.",
+     "reference": "Epiphanius, Panarion 29.7 and 30.2, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 25029-25034, 25335-25345",
+     "note": "Written late in the 4th century. He is the only witness to either beginning."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian and Hippolytus name a teacher, Ebion, and Epiphanius says the Ebionites were named after him.",
+     "reference": "Tertullian, Prescription Against Heretics 33, cic/texts/anf03_tertullian.xml lines 21552-21554; Hippolytus, Refutation of All Heresies VII.23, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 12273-12274; Epiphanius, Panarion 30.1, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt line 25230",
+     "note": "Each an opponent. Origen says the name means poor, in Hebrew."
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that John wrote his Gospel against Cerinthus and other heretics, and especially against the then growing teaching of the Ebionites, who said Christ did not exist before Mary.",
+     "reference": "Jerome, Lives of Illustrious Men 9, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39566-39572; written in 392, lines 38784-38785, a conversion from the fourteenth year of Theodosius, counting his reign from 379"
+    }
+   ]
+  },
+  {
+   "when": "Middle of the 2nd century",
+   "headline": "Justin tells Trypho he would live with believing Jews who keep the Law",
+   "lines": [
+    {
+     "when": "in Justin's own time",
+     "text": "Justin tells Trypho, a Jew, that in his opinion a man who knows Jesus is the Christ and still keeps the Law of Moses will be saved, if he does not press it on non-Jewish believers.",
+     "reference": "Justin, Dialogue with Trypho 47, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 19893-19905; Greek, cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt lines 2152-2160"
+    },
+    {
+     "when": "in Justin's own time",
+     "text": "Justin says some Christians do not dare to share company or a home with Jewish believers who keep the Law, and that he does not agree with them. If they keep the Law themselves and do not press circumcision or the Sabbath on others, he would live with them as kinsmen and brothers.",
+     "reference": "Justin, Dialogue with Trypho 47, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 19913-19925; Greek, cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt lines 2166-2173"
+    },
+    {
+     "when": "in Justin's own time",
+     "text": "Justin says he does not approve those of Trypho's people who say they believe in Christ but compel non-Jewish believers to live by the Law of Moses.",
+     "reference": "Justin, Dialogue with Trypho 47, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 19925-19930"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Justin held his dialogue with Trypho at Ephesus.",
+     "reference": "Eusebius, Church History IV.18, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 24310-24312",
+     "note": "Eusebius wrote under Constantine."
+    }
+   ]
+  },
+  {
+   "when": "Late 2nd century",
+   "headline": "Irenaeus names the Ebionites among the heresies",
+   "witness": "Irenaeus, an opponent",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that those called Ebionites practice circumcision, keep the customs the Law commands, and live so much as Jews that they revere Jerusalem as if it were the house of God.",
+     "reference": "Irenaeus, Against Heresies I.26.2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 33534-33543"
+    },
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that the Ebionites use only Matthew's Gospel, and reject the apostle Paul as an apostate from the Law, one who had abandoned it.",
+     "reference": "Irenaeus, Against Heresies I.26.2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 33537-33539"
+    },
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that the Ebionites hold Jesus was begotten by Joseph.",
+     "reference": "Irenaeus, Against Heresies III.21.1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 43299-43300"
+    }
+   ]
+  },
+  {
+   "when": "3rd century",
+   "headline": "Hippolytus and Origen describe them, and Symmachus's Greek Scriptures reach Origen",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that the Ebionites live by the customs of the Jews, saying they are justified by the Law, and that Jesus was named the Christ because he alone kept it fully. By keeping it in the same way, they say, they too can become Christs.",
+     "reference": "Hippolytus, Refutation of All Heresies VII.22, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 12245-12256",
+     "note": "An opponent's report."
+    },
+    {
+     "when": "when Origen was, as some said, over sixty",
+     "text": "Origen writes that Jewish believers have not left the law of their fathers, and live by it. They take their name, he says, from the poverty of the law, since Ebion means poor in Hebrew.",
+     "reference": "Origen, Against Celsus II.1, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 39113-39121; his age, Eusebius, Church History VI.36, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37093-37105",
+     "note": "An opponent's account."
+    },
+    {
+     "when": "when Origen was, as some said, over sixty",
+     "text": "Origen writes that those who keep the Jewish Law while accepting Jesus are of two kinds: some confess, as the church does, that Jesus was born of a virgin, and some deny it and say he was born like other men.",
+     "reference": "Origen, Against Celsus V.61, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 53648-53653; his age, Eusebius, Church History VI.36, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37093-37105"
+    },
+    {
+     "when": "date unknown",
+     "text": "Origen writes in On First Principles that the Ebionites are poor in understanding, and are named from the poverty of their minds.",
+     "reference": "Origen, On First Principles IV.1.22, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 34023-34026",
+     "note": "An opponent's charge."
+    },
+    {
+     "when": "date unknown",
+     "text": "Origen writes that the Ebionites, who, he says, differ little from the Jews, accuse other Christians of breaking the Law's rules on clean and unclean meat.",
+     "reference": "Origen, Commentary on Matthew XI.12, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 31918-31922"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Origen set the Greek version of the Hebrew Scriptures made by Symmachus beside those of Aquila and the Seventy.",
+     "reference": "Eusebius, Church History VI.16, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34446-34464, 34715-34719"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Symmachus was an Ebionite, and that his commentaries attack Matthew's Gospel. Origen, he says, had them from a woman, Juliana, who received the books from Symmachus himself.",
+     "reference": "Eusebius, Church History VI.17, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34736-34771",
+     "note": "Eusebius keeps Origen's own note."
+    }
+   ]
+  },
+  {
+   "when": "Under Constantine",
+   "headline": "Eusebius gives two kinds of Ebionites",
+   "witness": "Eusebius, an opponent",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes of two kinds of Ebionites. The first held Jesus a plain man, the son of a man and Mary. The second kind granted that he was born of a virgin and the Holy Spirit, but would not grant that he existed before, being God.",
+     "reference": "Eusebius, Church History III.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 18561-18564, 18581-18601"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that the Ebionites rejected all the letters of Paul, whom they called an apostate from the Law, and used only the Gospel according to the Hebrews.",
+     "reference": "Eusebius, Church History III.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 18606-18608, 18627"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that the Ebionites kept the Sabbath and the rest of the Jewish way as Jews did, and also kept the Lord's day in memory of the resurrection.",
+     "reference": "Eusebius, Church History III.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 18726-18729"
+    }
+   ]
+  },
+  {
+   "when": "Late 4th century",
+   "headline": "Epiphanius writes of the Nazoraeans and the Ebionites as two heresies",
+   "witness": "Epiphanius, an opponent",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Epiphanius writes that the Nazoraeans named themselves after the town of Nazareth. They are Jews in everything, he says, and read the Law, the prophets and the other writings in Hebrew. They differ from the Jews in believing in Christ, and from Christians in keeping the Law.",
+     "reference": "Epiphanius, Panarion 29.1, 29.7, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 24398-24399, 24952-24971"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius places the Nazoraeans at Beroea in Coele Syria, in the Decapolis near Pella, and at Kokaba in Bashan.",
+     "reference": "Epiphanius, Panarion 29.7, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 25026-25029"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius places the Ebionites in Nabataea, at Paneas, in Moab, at Kokaba beyond Adraa, and on Cyprus.",
+     "reference": "Epiphanius, Panarion 30.18, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 26876-26879"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius says he cannot tell whether the Nazoraeans hold Christ a mere man, or born of Mary by the Holy Spirit.",
+     "reference": "Epiphanius, Panarion 29.7, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 25023-25026",
+     "note": "The Greek print is damaged."
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius writes that three times a day, in their synagogues, the Jews curse the Nazoraeans, because, being Jews, they preach that Jesus is the Christ.",
+     "reference": "Epiphanius, Panarion 29.9, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 25162-25168"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius writes that the Ebionites have elders and synagogue rulers, and call their church a synagogue.",
+     "reference": "Epiphanius, Panarion 30.18, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 26879-26882"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius reports the Ebionites' charge against Paul: that he was a Greek who became a convert to Judaism and was circumcised in the hope of marrying a priest's daughter. When he did not win her, they said, he wrote against circumcision, the Sabbath and the Law.",
+     "reference": "Epiphanius, Panarion 30.16, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 26737-26745",
+     "note": "Their charge, as an opponent reports it."
+    }
+   ]
+  },
+  {
+   "when": "392 to the early 5th century",
+   "headline": "Jerome copies the gospel the Nazoraeans used, and Augustine says the sect still continues",
+   "lines": [
+    {
+     "when": "392, the fourteenth year of Theodosius",
+     "text": "Jerome writes that Matthew wrote his Gospel in Hebrew for the believers of the circumcision, that a copy is kept in the library at Caesarea, and that the Nazoraeans of Beroea, a city of Syria, who use it, let him copy it.",
+     "reference": "Jerome, Lives of Illustrious Men 3, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39353-39364; Latin, cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 48155-48163; the year, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 38784-38785, is a conversion from the fourteenth year of Theodosius, counting his reign from 379"
+    },
+    {
+     "when": "392",
+     "text": "Jerome writes of the Gospel according to the Hebrews, which he says he recently put into Greek and Latin. In it, after the resurrection, the Lord appears to James, who had sworn not to eat bread from the hour he drank the Lord's cup until he saw him risen.",
+     "reference": "Jerome, Lives of Illustrious Men 2, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39327-39340; Latin, cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 48081-48084, 48126-48136; the year, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 38784-38785, is a conversion from the fourteenth year of Theodosius, counting his reign from 379"
+    },
+    {
+     "when": "404, in a letter to Augustine",
+     "text": "Jerome writes that to this day, in all the synagogues of the East, there is a sect among the Jews called the Minaeans, commonly called Nazoraeans, whom the Pharisees still condemn.",
+     "reference": "Jerome, Letter 112.13 (Augustine, Letter 75), cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 23235-23237; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 33602-33605"
+    },
+    {
+     "when": "404, in a letter to Augustine",
+     "text": "Jerome writes that the Nazoraeans believe in Christ the Son of God, born of the Virgin Mary, who suffered under Pontius Pilate and rose again. Wanting to be both Jews and Christians, he says, they are neither.",
+     "reference": "Jerome, Letter 112.13 (Augustine, Letter 75), cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 23272-23275; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 33605-33609",
+     "note": "Jerome's judgment."
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine writes that the people Faustus calls Symmachians or Nazoraeans are now very few in number, but that the sect still continues.",
+     "reference": "Augustine, Against Faustus XIX.17, cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml line 6787"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Dialogue with Trypho, in Greek",
+   "author": "Justin Martyr",
+   "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt"
+  },
+  {
+   "title": "Dialogue with Trypho and Against Heresies, in English",
+   "author": "Justin Martyr and Irenaeus of Lyon",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+  },
+  {
+   "title": "Against Celsus and On First Principles, in English",
+   "author": "Origen",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+  },
+  {
+   "title": "Church History, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Panarion 29-30, in Greek",
+   "author": "Epiphanius of Salamis",
+   "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt"
+  },
+  {
+   "title": "Lives of Illustrious Men, in English",
+   "author": "Jerome",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men, in Latin",
+   "author": "Jerome",
+   "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+  },
+  {
+   "title": "Letter 112 to Augustine, in Latin",
+   "author": "Jerome",
+   "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt"
+  },
+  {
+   "title": "Letter 112 to Augustine, in English",
+   "author": "Jerome",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+  }
+ ],
+ "uncertain": [
+  "What they believed about Jesus. Irenaeus says they held that he was begotten by Joseph, and would not accept that the Holy Spirit came upon Mary. Origen knew two kinds, one confessing that Jesus was born of a virgin and one denying it. Eusebius gives two kinds as well: the first held him a plain man, the son of a man and Mary; the second did not deny that he was born of a virgin and the Holy Spirit, but would not grant that he existed before, being God, Word and Wisdom. Hippolytus says they held that Jesus was called the Christ because he alone kept the Law fully, and that they too, by keeping it, could become Christs. Epiphanius says the Ebionites held Jesus born of a man's seed, and of the Nazoraeans he cannot say. Jerome, in 404, says the Nazoraeans believed in Christ as the church did. Augustine, writing later and naming Epiphanius, says the Nazoraeans confess Christ the Son of God, and the Ebionites call him only a man.",
+  "One people or two. Origen and Eusebius give one name, Ebionites, to two kinds. Epiphanius writes of the Nazoraeans and the Ebionites as two heresies, side by side, the ninth and tenth in his list. Jerome, in one letter, speaks of the heresy of Cerinthus and Ebion, and of a sect among the Jews called the sect of the Minaeans and commonly called Nazoraeans. Augustine says Faustus spoke of them as Symmachians or Nazoraeans.",
+  "Their names. Origen says in Against Celsus that they received their very name \"from the poverty of the law, according to the literal acceptation of the word\", since Ebion means poor; in On First Principles he calls them poor in understanding. Eusebius says the ancients called them Ebionites because they held poor and mean opinions concerning Christ. Tertullian, Hippolytus and Epiphanius name a founder, Ebion. Epiphanius says the Nazoraeans named themselves after the place Nazareth.",
+  "Their gospel. Irenaeus says the Ebionites used only Matthew's Gospel. Eusebius counts the Gospel according to the Hebrews among the disputed books, one \"with which those of the Hebrews that have accepted Christ are especially delighted\", and says the Ebionites used only it. Epiphanius says the Nazoraeans had Matthew's gospel complete in Hebrew, still in Hebrew letters, though he does not know whether they took out the genealogies; he quotes the Ebionites' gospel as one they altered, giving John the Baptist wild honey that tasted of manna, like a cake in oil, so that, he says, they put cakes in place of locusts, and having Jesus say he came to abolish the sacrifices. In 392 Jerome calls the book the Nazoraeans of Beroea used Matthew's Hebrew gospel, and says a copy was in the library at Caesarea. Later he says the Gospel according to the Hebrews was written in the Chaldee and Syrian language in Hebrew letters, and that it is the Gospel according to the Apostles, or, as most maintain, according to Matthew.",
+  "The baptism scene. Jerome also quotes this gospel's account of the Lord's mother and brothers urging him to go and be baptized by John. He answers by asking what sin he has committed that he should go, unless what he has just said is ignorance.",
+  "Justin's terms. Justin says such people keep the Law \"through weak-mindedness\". If they chose to live with the Christians and did not press circumcision, the Sabbath or the like on them, he would join them and \"associate with them in all things as kinsmen and brethren.\" He did not approve of those of Trypho's people who compel non-Jewish believers to keep the Law, or will not live with them.",
+  "Their charge against Paul. Epiphanius reports that the Ebionites said Paul was a Greek, the son of Greek parents, who went up to Jerusalem, wanted to marry the priest's daughter, and so became a proselyte and was circumcised. When he did not win her, they said, he grew angry and wrote against circumcision, the Sabbath and the Law. Eusebius and Origen also say they rejected Paul's letters.",
+  "Neither side. Epiphanius says the Nazoraeans differed from the Jews in one thing, believing in Christ, and from the Christians in one thing, being still bound by the Law, circumcision, the Sabbath and the rest.",
+  "The Sabbath and the Lord's day. Eusebius says they kept the Sabbath and the rest of the Jewish way just as Jews did, and also, like other Christians, kept the Lord's day in memory of the Savior's resurrection.",
+  "Food. Origen says the Ebionites, who differ little from the \"material Jews\", accused other Christians of breaking the Law's rules on clean and unclean meat.",
+  "The prophets. Irenaeus says the Ebionites expound the prophets in a way of their own. Epiphanius says the Nazoraeans read the Law, the prophets and the other writings in Hebrew, and that the Ebionites accept Abraham, Isaac, Jacob, Moses, Aaron and Joshua, but no prophet after them, and scorn David and Solomon.",
+  "Where they lived. Justin, Irenaeus and Origen give no place for them. Epiphanius places the Nazoraeans at Beroea in Coele Syria, in the Decapolis near Pella, and at Kokaba in Bashan. He places the Ebionites in Nabataea, at Paneas, in Moab, at Kokaba in Bashan beyond Adraa, and on Cyprus. Jerome places the Nazoraeans at Beroea, a city of Syria.",
+  "A beginning at Pella. Eusebius says that before the war the church in Jerusalem was commanded by a revelation to leave the city and live at Pella, a town of Peraea, beyond the Jordan. Epiphanius says the Nazoraeans began there, after all the disciples had moved from Jerusalem to Pella, since Christ had told them to leave the city before its siege, and that the Ebionites began after Jerusalem was taken, among the believers then living at Pella. He is the only witness to either beginning.",
+  "Symmachus and Juliana. Origen set Symmachus's Greek version beside those of Aquila, Theodotion and the Seventy. Eusebius, keeping Origen's own note, says Symmachus wrote commentaries, still read in his day, in which he seems to support the heresy by attacking Matthew's Gospel, and that Origen had these and other writings of Symmachus on the Scriptures from a woman, Juliana, who had the books from Symmachus himself. Jerome calls Symmachus \"an adherent of the same sect\".",
+  "Epiphanius on the Ebionites' life. He says they have elders and synagogue rulers, and call their church a synagogue, and that their teachers press the young to marry early. Besides baptism, he says, they wash every day, and once a year they keep a rite with unleavened bread and with water only. They once prized virginity for the sake of James, the Lord's brother. They use the Circuits of Peter, written through Clement, which he says they altered, and Ascents of James that speak against the Temple, the sacrifices and the fire of the altar. They hold that God appointed two, Christ over the world to come and the devil over this one.",
+  "Jerome on John's Gospel. Jerome writes that John wrote his Gospel against Cerinthus and other heretics, and especially against \"the then growing dogma of the Ebionites, who assert that Christ did not exist before Mary.\""
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "There are some, Trypho, I answered, who do not dare to share even company or a home with such people. I do not agree with them.",
+   "printed": "Εἰσίν, ἀπεκρινάμην, ὦ Τρύφων, καὶ μηδὲ κοινωνεῖν ὁμιλίας ἢ ἑστίας τοῖς τοιούτοις τολμῶντες· οἷς ἐγὼ οὐ σύναινός εἰμι.",
+   "work": "Justin Martyr, Dialogue with Trypho 47.2, ed. Archambault",
+   "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+   "lines": "2166-2167",
+   "uncertain": "The Greek is the Perseus digital edition of Archambault's 1909 print, used under a Creative Commons Attribution-ShareAlike 4.0 license. Such people are the believers who keep the Law in Trypho's question; a home renders the Greek word for a hearth.",
+   "englishPrinted": "There are such people, Trypho,” I answered; “and these do not venture to have any intercourse with or to extend hospitality to such persons; but I do not agree with them.",
+   "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "englishLines": "19913-19915",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "as if it were the house of God",
+   "printed": "they even adore Jerusalem as if it were the house of God",
+   "work": "Irenaeus, Against Heresies 1.26.2 (Ante-Nicene Fathers 1)",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "33542-33543",
+   "uncertain": "The Latin of Irenaeus is held only as Holl quotes it in the notes to his edition of Epiphanius.",
+   "original": "uti et Hierosolymam adorent quasi sit domus dei",
+   "originalFile": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+   "originalLines": "24980-24981",
+   "secondReading": "same"
+  },
+  {
+   "modern": "an apostate from the Law",
+   "printed": "repudiate the Apostle Paul, maintaining that he was an apostate from the law",
+   "work": "Irenaeus, Against Heresies 1.26.2 (Ante-Nicene Fathers 1)",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "33537-33538",
+   "uncertain": "The Latin of Irenaeus is held only as Holl quotes it in the notes to his edition of Epiphanius.",
+   "original": "apostolum Paulum recusant, apostatam eum legis",
+   "originalFile": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+   "originalLines": "24117",
+   "secondReading": "checked at card"
+  },
+  {
+   "modern": "poor",
+   "printed": "for Ebion signifies “poor” among the Jews",
+   "work": "Origen, Against Celsus 2.1 (Ante-Nicene Fathers 4)",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": "39118-39119",
+   "uncertain": "No Greek of Against Celsus is held.",
+   "secondReading": "checked at card"
+  },
+  {
+   "modern": "He took bread and blessed it and broke it, and gave it to James the Just. He said to him, 'My brother, eat your bread, for the Son of Man has risen from among those who sleep.'",
+   "printed": "Tulit panem et benedixit, ac fregit, et dedit Jacobo Justo, et dixit ei: Frater mi, comede panem tuum, quia resurrexit Filius hominis ἃ dormientibus.",
+   "work": "The Gospel according to the Hebrews, in Jerome, Lives of Illustrious Men 2 (Patrologia Latina 23)",
+   "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+   "lines": "48133-48136",
+   "uncertain": "Migne's print is held only as a damaged scan, which reads ἃ for a in a dormientibus. Richardson's English gives the same passage, with brought bread for tulit panem. Those who sleep are the dead.",
+   "englishPrinted": "He brought bread and blessed and brake and gave to James the Just and said to him, ‘my brother eat thy bread, for the son of man is risen from among those that sleep.’",
+   "englishFile": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "englishLines": "39337-39340",
+   "secondReading": "same"
+  },
+  {
+   "modern": "They believe in Christ, the Son of God, born of the Virgin Mary. They say he is the one who suffered under Pontius Pilate and rose again. We too believe in him. But while they want to be both Jews and Christians, they are neither Jews nor Christians.",
+   "printed": "qui credunt in Christum filium dei natum de Maria uirgine et eum dicunt esse, qui sub Pontio Pilato et passus est et resurrexit, in quem et nos credimus, sed dum uolunt et Iudaei esse et Christiani, nec Iudaei sunt nec Christiani",
+   "work": "Jerome, Letter 112.13 to Augustine (Augustine, Letter 75), ed. Goldbacher",
+   "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
+   "lines": "23237-23275",
+   "uncertain": "The subject is the sect Jerome names at line 23237, the Nazaraei. The edition's notes, page number and running head between lines 23237 and 23272 are left out.",
+   "englishPrinted": "they believe in Christ the Son of God, born of the Virgin Mary; and they say that He who suffered under Pontius Pilate and rose again, is the same as the one in whom we believe. But while they desire to be both Jews and Christians, they are neither the one nor the other.",
+   "englishFile": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "englishLines": "33605-33609",
+   "secondReading": "minor"
+  }
+ ]
+}

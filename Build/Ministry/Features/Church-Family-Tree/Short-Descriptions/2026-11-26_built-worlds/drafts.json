@@ -1,0 +1,50 @@
+{
+  "post-apostolic-house-church": {
+    "shortDescription": "Christians met in households and gave thanks over bread and a cup on the Lord's day. Letters and messengers carried between their churches held them together.",
+    "dates": "Late 1st-2nd c."
+  },
+  "alexandria-catechetical": {
+    "shortDescription": "Teachers led learners through Scripture, reading for a deeper sense beneath the plain story. Origen wrote that Scripture, like a person, has a body, a soul and a spirit.",
+    "dates": "Late 2nd-4th c."
+  },
+  "syriac-edessa-nisibis": {
+    "shortDescription": "These Christians sang their teaching in hymns, each with a refrain that came back after every verse. Some men and women vowed before baptism to live unmarried and holy for God.",
+    "dates": "201-410 CE"
+  },
+  "desert-monasticism": {
+    "shortDescription": "These Christians left their villages for the desert, to fight demons and the tempting thoughts they whispered. A younger monk asked an elder for a word, and the elder answered in one sentence.",
+    "dates": "4th-early 5th c."
+  },
+  "cappadocian-nicene-pastoral-monastic-tradition": {
+    "shortDescription": "One family and its friends argued whether the Son and the Spirit are fully God, as the Father is. Basil preached against grain hoarders in a famine, then built a poorhouse that nursed the sick.",
+    "dates": "4th c."
+  },
+  "imperial-juridical-christianity": {
+    "shortDescription": "Bishops of a church once outlawed now judged lawsuits and went to councils the emperor paid for. One bishop would not give an emperor the sacrament until he repented of a massacre.",
+    "dates": "c. 312-451"
+  },
+  "hieronymian-ascetic-literary": {
+    "shortDescription": "A circle of women gave up wealth and rank to fast and study Scripture, with Jerome as their teacher. Paula's fortune paid his Hebrew teachers as he turned the Bible into Latin.",
+    "dates": "c. 382–420 CE"
+  },
+  "gallic-monastic-ascetic-christianity": {
+    "shortDescription": "A soldier named Martin asked to leave the army to serve Christ. Seized and made a bishop, he kept living as a monk, and monks after him did the same.",
+    "dates": "Mid-4th-mid-5th c."
+  },
+  "the-reformed-cities-zurich-and-geneva": {
+    "shortDescription": "Two cities rebuilt their churches from Scripture, and kept nothing it did not support. In one, pastors and lay elders met each week over neighbors' quarrels, absent husbands and missed church.",
+    "dates": "From 1519"
+  },
+  "donatism": {
+    "shortDescription": "These Christians held that a bishop who handed the Scriptures to persecutors could give nothing by his hand. Anyone who joined them from the rival church was washed again in baptism.",
+    "dates": "c. 311-439 CE"
+  },
+  "lutheran-wittenberg-and-its-congregations": {
+    "shortDescription": "These Christians held that God's promise, taken in faith, comforts a conscience the commandments have frightened. Each week a father was to question his children and servants on the catechism.",
+    "dates": "1517-1580"
+  },
+  "latin-pastoral-congregational-christianity": {
+    "shortDescription": "Each congregation gathered around one bishop, who taught them, fed their poor and judged their quarrels. With his people, he decided whom to take back after they gave way in persecution.",
+    "dates": "Mid-3rd c.-430"
+  }
+}

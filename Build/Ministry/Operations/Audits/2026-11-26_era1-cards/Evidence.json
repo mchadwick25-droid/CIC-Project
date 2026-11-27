@@ -1,0 +1,1666 @@
+{
+  "montanism-the-new-prophecy": {
+    "shortDescription": [
+      {
+        "claim": "In Phrygia",
+        "work": "Eusebius, Church History V.18 (Apollonius)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "30275",
+        "quote": "small towns in Phrygia"
+      },
+      {
+        "claim": "in what is now western Turkey",
+        "work": "The final brief, paragraph 1",
+        "file": "Build/Ministry/Operations/Audits/2026-11-25_batch-11/montanism-the-new-prophecy/montanism-the-new-prophecy.brief.txt",
+        "lines": "1",
+        "quote": "Ardabau was a village in the uplands of what is now western Turkey"
+      },
+      {
+        "claim": "Christians followed the prophets Montanus, Priscilla and Maximilla",
+        "work": "Hippolytus, Refutation of All Heresies VIII.12",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+        "lines": "13113-13117",
+        "quote": "Priscilla and Maximilla, whom they supposed (to be) prophetesses"
+      },
+      {
+        "claim": "They held that the Holy Spirit spoke through them",
+        "work": "Hippolytus, Refutation of All Heresies VIII.12",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+        "lines": "13115-13116",
+        "quote": "into these the Paraclete Spirit had departed"
+      },
+      {
+        "claim": "and called their words the New Prophecy",
+        "work": "Tertullian, Against Marcion III.24",
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "28749",
+        "quote": "the word of the new prophecy which is a part of our belief"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Eusebius, Church History V.16.7",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29577-29629",
+          "quote": "a certain village called Ardabau in that part of Mysia, which borders upon Phrygia"
+        },
+        {
+          "work": "Eusebius, Church History V.16.8",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29673-29686",
+          "quote": "they rebuked him as one that was possessed"
+        },
+        {
+          "work": "Eusebius, Church History V.16.9 and V.14",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29692-29714,29266-29269",
+          "quote": "he stirred up besides two women"
+        },
+        {
+          "work": "Eusebius, Church History V.14",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29266-29269",
+          "quote": "crawled over Asia and Phrygia, boasting that Montanus was the Paraclete, and that the women that followed him, Priscilla and Maximilla, were prophetesses of Montanus"
+        },
+        {
+          "work": "Epiphanius, Panarion 48.1",
+          "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "lines": "17018-17019",
+          "quote": "περὶ τὸ ἐννεακαιδέκατον ἔτος ᾿Αντωνίνου τοῦ εὐσεβοῦς"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History V.16.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29519-29541",
+          "quote": "we disputed in the church many days"
+        },
+        {
+          "work": "Eusebius, Church History V.16.10",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29716-29738",
+          "quote": "the faithful in Asia met often in many places"
+        },
+        {
+          "work": "Eusebius, Church History V.16.12",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29745-29754",
+          "quote": "because we did not receive their loquacious prophets, who, they say, are those that the Lord promised to send"
+        },
+        {
+          "work": "Eusebius, Church History V.16.16-17",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29823-29878",
+          "quote": "the holy bishops of that time attempted to refute the spirit in Maximilla"
+        },
+        {
+          "work": "Eusebius, Church History V.18.13",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "30461-30464",
+          "quote": "when Maximilla was pretending to prophesy in Pepuza, resisted her"
+        },
+        {
+          "work": "Eusebius, Church History V.19.3, Serapion's letter",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "30595-30601",
+          "quote": "the blessed Sotas in Anchialus desired to cast the demon out of Priscilla, but the hypocrites did not permit him"
+        },
+        {
+          "work": "Eusebius, Church History V.16.20-22",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29911-29967",
+          "quote": "alleging that they have many martyrs"
+        },
+        {
+          "work": "Eusebius, Church History V.3.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "27655-27690",
+          "quote": "as dissension arose concerning them, the brethren in Gaul set forth their own prudent and most orthodox judgment"
+        },
+        {
+          "work": "Tertullian, Against Praxeas 1",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "51038-51054",
+          "quote": "compelled him to recall the pacific letter"
+        }
+      ],
+      [
+        {
+          "work": "Epiphanius, Panarion 48.2.4",
+          "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "lines": "17218-17219",
+          "quote": "μετ᾽ ἐμὲ προφήτης οὐχέτι ἔσται, ἀλλὰ συντέλειας"
+        },
+        {
+          "work": "Eusebius, Church History V.16.13-15",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29775-29821",
+          "quote": "they both hung themselves"
+        },
+        {
+          "work": "Eusebius, Church History V.16.18-19",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29880-29890",
+          "quote": "her predictions in which she prophesied wars and anarchy"
+        },
+        {
+          "work": "Eusebius, Church History V.18.2 and V.18.12",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "30225-30289,30456-30458",
+          "quote": "who provided salaries for those who preached his doctrine"
+        },
+        {
+          "work": "Eusebius, Church History V.19.1-2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "30520-30562",
+          "quote": "the doings of this lying band of the new prophecy, so called, are an abomination to all the brotherhood throughout the world"
+        }
+      ],
+      [
+        {
+          "work": "Jerome, Lives of Illustrious Men 53",
+          "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "lines": "40492-40530",
+          "quote": "he flourished chiefly in the reign of the emperor Severus and Antoninus Caracalla"
+        },
+        {
+          "work": "Tertullian, On Fasting 1",
+          "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+          "lines": "15493-15520",
+          "quote": "nouae prophetiae recusantur; non quod alium deum praedicent"
+        },
+        {
+          "work": "Tertullian, On the Veiling of Virgins 1",
+          "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+          "lines": "2701-2741",
+          "quote": "The rule of faith, indeed, is altogether one, alone immoveable and irreformable"
+        },
+        {
+          "work": "Tertullian, Against Marcion IV.22",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "32338-32351",
+          "quote": "he necessarily loses his sensation"
+        },
+        {
+          "work": "Tertullian, Against Marcion III.24",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "28749-28762",
+          "quote": "in Judæa there was suspended in the sky a city early every morning for forty days"
+        },
+        {
+          "work": "Tertullian, On the Soul 9",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15802-15820",
+          "quote": "a sister whose lot it has been to be favoured with sundry gifts of revelation"
+        },
+        {
+          "work": "Tertullian, Exhortation to Chastity 10",
+          "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+          "lines": "5504-5511",
+          "quote": "through the holy prophetess Prisca"
+        },
+        {
+          "work": "Tertullian, On Monogamy 13 and On Modesty 1",
+          "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+          "lines": "6790-6801,7265-7269",
+          "quote": "you are not to marry when you have lost your husband"
+        },
+        {
+          "work": "Tertullian, On Flight in Persecution 1 and 9",
+          "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+          "lines": "10994-11001,11451-11466",
+          "quote": "whether or not we ought to flee in persecution"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men 40 and 53",
+          "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "lines": "40315-40318,40492-40530",
+          "quote": "Tertullian added to the six volumes which he wrote On ecstasy against the church a seventh, directed especially against Apollonius"
+        }
+      ],
+      [
+        {
+          "work": "Hippolytus, Refutation of All Heresies VIII.12",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "13115-13138",
+          "quote": "These acknowledge God to be the Father of the universe, and Creator of all things, similarly with the Church"
+        },
+        {
+          "work": "Firmilian, Letter to Cyprian",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "39619-39640",
+          "quote": "they who are called Cataphrygians"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Life of Constantine III.64-65",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "66068-66131",
+          "quote": "ye who are called Cataphrygians"
+        },
+        {
+          "work": "Cyril of Jerusalem, Catechetical Lecture 16.8",
+          "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+          "lines": "17999-18008",
+          "quote": "having taken possession of Pepuza"
+        },
+        {
+          "work": "Basil, Letter 188",
+          "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+          "lines": "34871-34881",
+          "quote": "by unlawfully and shamefully applying to Montanus and Priscilla the title of the Paraclete"
+        },
+        {
+          "work": "Epiphanius, Panarion 48.2 and 48.14",
+          "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "lines": "17224-17228,18466,18512-18517",
+          "quote": "τόπον τινὰ ἔρημον ἐν τῇ Φρυγίᾳ"
+        },
+        {
+          "work": "Epiphanius, Panarion 49.1",
+          "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "lines": "18755-18764",
+          "quote": "ἢ Κυΐντιλλαν ἢ Πρίσκιλλαν (οὐχ ἔχω (γὰρ) ἀχριβῶς λέγειν)"
+        },
+        {
+          "work": "Epiphanius, Panarion 49.1-2",
+          "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "lines": "18703-18705,18826-18837",
+          "quote": "Κυϊντιλλιανοὶ δὲ πάλιν, οἱ καὶ Πεπουξιανοὶ καλούμενοι"
+        },
+        {
+          "work": "Jerome, Letter 41",
+          "file": "cic/texts/npnf206_jerome-principal-works.xml",
+          "lines": "8318-8345",
+          "quote": "force the Trinity into the narrow limits of a single personality"
+        }
+      ],
+      [
+        {
+          "work": "Sozomen, Church History II.32",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "30574-30577",
+          "quote": "The Phrygians suffered the same treatment as the other heretics in all the Roman provinces except Phrygia and the neighboring regions"
+        },
+        {
+          "work": "Sozomen, Church History VII.18",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "41731-41736",
+          "quote": "affirm that it is right to attend exclusively to the cycles of the sun"
+        },
+        {
+          "work": "Sozomen, Church History VII.19",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "41786-41790",
+          "quote": "a bishop serves as priest even over a village, as I have myself observed"
+        }
+      ],
+      [
+        {
+          "work": "Procopius, Secret History XI",
+          "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+          "lines": "2164-2173",
+          "quote": "heresies, such as those of the Montanists"
+        },
+        {
+          "work": "Justinian, Novel 45, preface",
+          "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+          "lines": "59020-59039",
+          "quote": "NE IUDAEI ET SAMARITAE VEL HAERETICI"
+        },
+        {
+          "work": "Procopius, Secret History XI",
+          "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+          "lines": "2195-2198",
+          "quote": "The Montanists, who were settled in Phrygia, shut themselves up in their churches, set them on fire, and perished in the flames"
+        },
+        {
+          "work": "Michael the Syrian, Chronicle, French translation",
+          "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+          "lines": "20584-20653",
+          "quote": "« De Montanus et de ses femmes »"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "2nd-6th c.",
+      "census": "2nd-6th c.",
+      "reason": "unchanged"
+    },
+    "place": "Phrygia and beyond",
+    "existingTextFixes": [],
+    "openPoints": [
+      "Card_Edits gives ANF03 lines 47250-47251 as On Monogamy; the passage is On the Resurrection of the Flesh. The checker says this is not a card change, and Applied.md did not place it."
+    ]
+  },
+  "alexandria-catechetical": {
+    "shortDescription": [
+      {
+        "claim": "In Alexandria, teachers led newcomers to the faith",
+        "work": "Eusebius, Church History VI.3.1",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "32670-32674",
+        "quote": "some of the heathen came to him to hear the word of God"
+      },
+      {
+        "claim": "through Scripture",
+        "work": "Eusebius, Church History VI.18.4",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "34838-34843",
+        "quote": "help to them in the study and understanding of the Divine Scriptures"
+      },
+      {
+        "claim": "and philosophers came to study with Origen",
+        "work": "Eusebius, Church History VI.18.2",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "34818-34823",
+        "quote": "not a few of the most distinguished philosophers, studied under him diligently"
+      },
+      {
+        "claim": "He taught that Scripture has a plain story and deeper meanings beneath it",
+        "work": "Origen, On First Principles IV.1.11",
+        "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+        "lines": "33474-33486",
+        "quote": "for so we name the obvious sense"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Eusebius, Church History V.9-10.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "28467-28476,28486-28576",
+          "quote": "had charge of the school of the faithful in Alexandria"
+        },
+        {
+          "work": "Eusebius, Church History V.10.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "28578-28600",
+          "quote": "he was appointed as a herald of the Gospel of Christ to the nations in the East"
+        },
+        {
+          "work": "Eusebius, Church History V.10.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "28637-28645",
+          "quote": "and expounded the treasures of divine doctrine both orally and in writing"
+        },
+        {
+          "work": "Eusebius, Church History VI.14.8-9",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "34330-34356",
+          "quote": "Pantænus, the truly blessed man and master, and the holy Clement, my master and benefactor"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VI.6",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "33015-33044,33079-33081",
+          "quote": "had charge at that time of the catechetical instruction in Alexandria"
+        },
+        {
+          "work": "Eusebius, Church History VI.6",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "33079-33086",
+          "quote": "bringing events down to the death of Commodus. So it is evident that that work was written during the reign of Severus"
+        },
+        {
+          "work": "Clement, The Instructor I.1 and I.7",
+          "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+          "lines": "18716-18729,19998-20000",
+          "quote": "the all-benignant Word, who first exhorts, then trains, and finally teaches"
+        },
+        {
+          "work": "Clement, The Instructor III.11",
+          "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+          "lines": "26363-26372",
+          "quote": "it is taught without letters; and its handbook, at once rude and divine, is called love"
+        },
+        {
+          "work": "Clement, Stromata IV.8",
+          "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+          "lines": "38643-38645",
+          "quote": "Women are therefore to philosophize equally with men, though the males are preferable at everything"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VI.1-2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32397-32433,32511-32533",
+          "quote": "When Severus began to persecute the churches"
+        },
+        {
+          "work": "Eusebius, Church History VI.3.1-3",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32670-32733",
+          "quote": "there was no one at Alexandria to give instruction in the faith, as all were driven away by the threat of persecution"
+        },
+        {
+          "work": "Eusebius, Church History VI.3.4-6",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32758-32784",
+          "quote": "he was very bold and went with them into danger"
+        },
+        {
+          "work": "Eusebius, Church History VI.3.8",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32796-32813",
+          "quote": "the catechetical school had been entrusted to him alone by Demetrius"
+        },
+        {
+          "work": "Eusebius, Church History VI.3.13-VI.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32877-32925",
+          "quote": "died while yet a catechumen, receiving baptism by fire"
+        },
+        {
+          "work": "Eusebius, Church History VI.5",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32950-32961",
+          "quote": "the celebrated Potamiæna, who is still famous among the people of the country"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VI.8.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "33196-33203",
+          "quote": "he met for the study of divine things with women as well as men"
+        },
+        {
+          "work": "Eusebius, Church History VI.15",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "34407-34418",
+          "quote": "coming, one after another, from morning till evening"
+        },
+        {
+          "work": "Eusebius, Church History VI.18.2-4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "34818-34843",
+          "quote": "he instructed them also in philosophic branches—in geometry, arithmetic"
+        },
+        {
+          "work": "Eusebius, Church History VI.19.12-14",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "35259-35280",
+          "quote": "when heretics and persons conversant with Grecian learning, and particularly with philosophy, came to me, it seemed necessary that I should examine"
+        },
+        {
+          "work": "Eusebius, Church History VI.24.3",
+          "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+          "lines": "33470-33486",
+          "quote": "For as man consists of body, and soul, and spirit, so in the same way does"
+        },
+        {
+          "work": "Eusebius, Church History VI.19.4-10",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "34974-34982,35122-35124,35189-35198",
+          "quote": "they boast that the plain words of Moses are enigmas"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VI.26",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "36330-36339",
+          "quote": "Origen removed from Alexandria to Cæsarea"
+        },
+        {
+          "work": "Eusebius, Church History VI.29.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "36552-36559",
+          "quote": "was succeeded in the charge of the catechetical school by Dionysius"
+        },
+        {
+          "work": "Eusebius, Church History VI.35",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "37071-37080",
+          "quote": "died, having held his office for sixteen years, and Dionysius"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VII.7.1-3",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "39558-39577",
+          "quote": "I examined the works and traditions of the heretics"
+        },
+        {
+          "work": "Eusebius, Church History VII.24.1-2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "41287-41295",
+          "quote": "Nepos, a bishop in Egypt"
+        },
+        {
+          "work": "Eusebius, Church History VII.24.6-8",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "41343-41372",
+          "quote": "I called together the presbyters and teachers of the brethren in the villages"
+        },
+        {
+          "work": "Eusebius, Church History VII.24.9",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "41374-41381",
+          "quote": "acknowledged and testified to us that he would no longer hold this opinion"
+        },
+        {
+          "work": "Eusebius, Church History VII.22",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "41010-41095",
+          "quote": "After these events a pestilential disease followed the war, and at the approach of the feast he wrote again"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VII.32.30",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "43150-43212",
+          "quote": "He was placed over the school of the sacred faith"
+        }
+      ],
+      [
+        {
+          "work": "Rufinus, Church History XI.7",
+          "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+          "lines": "29895-29905",
+          "quote": "ut scholae ecclesiasticae doctor exsisteret, Athanasio episcopo ceterisque sapientibus in ecclesia dei viris admodum probatus"
+        },
+        {
+          "work": "Sozomen, Church History III.15",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "31948-31962",
+          "quote": "an ecclesiastical writer and president of the school of sacred learning in Alexandria"
+        },
+        {
+          "work": "Socrates, Church History IV.26",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "13895-13915",
+          "quote": "they procured Origen’s works, and drew from them the right interpretation of the sacred Scriptures"
+        },
+        {
+          "work": "Gregory of Nazianzus, Letter 115",
+          "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+          "lines": "47445-47451",
+          "quote": "we send you the volume of the Philocalia of Origen, containing a selection of passages useful to students of literature"
+        }
+      ],
+      [
+        {
+          "work": "History of the Patriarchs of the Coptic Church of Alexandria, part 1",
+          "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+          "lines": "10942-10943,11706-11720,11884-11892",
+          "quote": "Heraclas gave the direction of the studies at Alexandria to Dionysius"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "c. 180 to 4th c.",
+      "census": "c. 150–400 CE",
+      "reason": "No held old line gives 150 or 400. The start is Pantaenus in the first year of Commodus, about 180, and the end is Didymus teaching under Athanasius, in the fourth century (Card_Check_A, A4)."
+    },
+    "place": "Alexandria · Egypt",
+    "existingTextFixes": [],
+    "openPoints": [
+      "A4 could not be placed: the layout has no dates field. The change is to the census dates, and Drafts_A.md card 2 still reads \"late 2nd – 4th c.\" and must be changed to match."
+    ]
+  },
+  "polycarp-of-smyrna": {
+    "shortDescription": [
+      {
+        "claim": "Polycarp was bishop of the church in Smyrna",
+        "work": "Martyrdom of Polycarp 16",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "lines": "4167-4169",
+        "quote": "bishop of the Catholic Church which is in Smyrna"
+      },
+      {
+        "claim": "and wrote a letter to the church at Philippi",
+        "work": "Polycarp, Epistle to the Philippians, opening",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "lines": "3233-3234",
+        "quote": "to the Church of God sojourning at Philippi"
+      },
+      {
+        "claim": "As an old man",
+        "work": "Martyrdom of Polycarp 7",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "lines": "3925-3926",
+        "quote": "so godly and venerable an old man"
+      },
+      {
+        "claim": "he was put to death at Smyrna",
+        "work": "Martyrdom of Polycarp 19",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "lines": "4238-4239",
+        "quote": "the twelfth that was martyred in Smyrna"
+      },
+      {
+        "claim": "after telling the governor he had served Christ for eighty-six years",
+        "work": "Martyrdom of Polycarp 9",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "lines": "3990",
+        "quote": "Eighty and six years have I served Him"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Irenaeus, Against Heresies III.3.4",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "39859-39860",
+          "quote": "by apostles in Asia, appointed bishop of the Church in Smyrna"
+        },
+        {
+          "work": "Ignatius, Ephesians 21",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "5581-5583",
+          "quote": "whence also I write to you, giving thanks unto the Lord, and loving Polycarp even as I do you"
+        },
+        {
+          "work": "Ignatius to Polycarp 1",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "8551-8552",
+          "quote": "thy blameless face"
+        },
+        {
+          "work": "Philippians, opening",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3232-3233",
+          "quote": "Polycarp, and the presbyters"
+        },
+        {
+          "work": "Philippians 7",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3438-3439",
+          "quote": "says that there is neither a resurrection nor a judgment"
+        },
+        {
+          "work": "Philippians 11",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3531-3532",
+          "quote": "I am greatly grieved for Valens, who was once a presbyter among you"
+        },
+        {
+          "work": "Philippians 13",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3614-3618",
+          "quote": "and all the rest [of his Epistles] which we have by us, we have sent to you"
+        }
+      ],
+      [
+        {
+          "work": "Irenaeus, letter to Florinus",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "54568-54569",
+          "quote": "while I was yet a boy, I saw thee in Lower Asia with Polycarp"
+        },
+        {
+          "work": "Irenaeus to Victor, Eusebius V.24.16",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "31591-31612",
+          "quote": "neither could Polycarp persuade Anicetus to observe it"
+        },
+        {
+          "work": "Irenaeus, Against Heresies III.3.4",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "39872-39874",
+          "quote": "caused many to turn away from the aforesaid heretics to the Church of God"
+        },
+        {
+          "work": "Irenaeus, Against Heresies III.3.4",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "39882-39884",
+          "quote": "I do know thee, the first-born of Satan"
+        }
+      ],
+      [
+        {
+          "work": "Martyrdom 3",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3819-3835",
+          "quote": "Away with the Atheists; let Polycarp be sought out!"
+        },
+        {
+          "work": "Martyrdom 4",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3843-3849",
+          "quote": "we do not commend those who give themselves up"
+        },
+        {
+          "work": "Martyrdom 5",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3860-3865",
+          "quote": "in deference to the wish of many"
+        },
+        {
+          "work": "Martyrdom 6",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3878-3881",
+          "quote": "they seized upon two youths [that were there], one of whom, being subjected to torture, confessed"
+        },
+        {
+          "work": "Martyrdom 7",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3905-3909",
+          "quote": "from which he might have escaped into another place"
+        },
+        {
+          "work": "Martyrdom 8",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3938-3940",
+          "quote": "they set him upon an ass"
+        },
+        {
+          "work": "Martyrdom 9",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "3988-3990",
+          "quote": "Swear, and I will set thee at liberty, reproach Christ"
+        },
+        {
+          "work": "Martyrdom 11",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4035-4036",
+          "quote": "Thou threatenest me with fire which burneth for an hour"
+        },
+        {
+          "work": "Martyrdom 12",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4055-4058",
+          "quote": "the overthrower of our gods"
+        },
+        {
+          "work": "Martyrdom 15",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4142-4144",
+          "quote": "like the sail of a ship when filled with the wind"
+        },
+        {
+          "work": "Martyrdom 16",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4158-4160",
+          "quote": "pierce him through with a dagger"
+        },
+        {
+          "work": "Martyrdom 17",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4190-4191",
+          "quote": "entreat the governor not to give up his body"
+        },
+        {
+          "work": "Martyrdom 19",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4239-4240",
+          "quote": "reckoning those also of Philadelphia"
+        },
+        {
+          "work": "Martyrdom 20",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4266-4268",
+          "quote": "send it to the brethren at a greater distance"
+        },
+        {
+          "work": "Martyrdom 21",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4284-4290",
+          "quote": "on the great Sabbath, at the eighth hour"
+        }
+      ],
+      [
+        {
+          "work": "Irenaeus, Against Heresies III.3.4",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "39870-39871",
+          "quote": "a more stedfast witness of truth, than Valentinus, and Marcion"
+        },
+        {
+          "work": "Eusebius V.24.9",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "31415-31417",
+          "quote": "attempted to cut off from the common unity the parishes of all Asia"
+        },
+        {
+          "work": "Eusebius V.24.18",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "31662-31663",
+          "quote": "became a peacemaker in this matter"
+        },
+        {
+          "work": "Tertullian, Prescription 32",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "21462-21463",
+          "quote": "records that Polycarp was placed therein by John"
+        },
+        {
+          "work": "Martyrdom, closing note",
+          "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+          "lines": "4315-4321",
+          "quote": "I Socrates transcribed them at Corinth from the copy of Caius"
+        },
+        {
+          "work": "Eusebius IV.15.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "23078-23079",
+          "quote": "There is a letter, written in the name of the church over which he himself presided"
+        },
+        {
+          "work": "Jerome, Lives 17",
+          "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "lines": "39853-39855",
+          "quote": "read to the present day in the meetings in"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "2nd c.",
+      "census": "c. 110-155",
+      "datesNote": "No ancient source gives a year for his birth or his death. His church's account dates his death to a great Sabbath, the second day of the month Xanthicus, and gives no year. Irenaeus says he was at Rome when Anicetus was bishop there, and Eusebius and Jerome put his death in the reign of Marcus Aurelius. The second century comes from the modern dating of those reigns.",
+      "reason": "No old source gives a year for his birth or death; 110 and 155 are modern reckonings, and the second century comes from the reigns the old sources name."
+    },
+    "place": "Smyrna",
+    "existingTextFixes": [
+      "Replace the census card.datesNote with the P4 text: the existing sentences word for word, the McGiffert sentence dropped, and a full stop added."
+    ],
+    "openPoints": [
+      "P3 could not be placed for most timeline lines: the checker asks for file and lines on every reference, but most lines have several rows in Card_Edits, so the choice is not given. Only the Martyrdom 9 line was changed.",
+      "P3 could not be placed for period 1, line 2: the extra Eusebius III.36.4-5 reference follows a reference of its own that the checker does not give.",
+      "The writer flagged the census teaser (it shows the years 110 to 155), the census sourcing (modern dates and a \"most scholars\" view) and a modern work in card.sources.about. The checks did not rule on these."
+    ]
+  },
+  "councils-of-rome-and-carthage-251": {
+    "shortDescription": [
+      {
+        "claim": "Bishops at Carthage and then at Rome agreed",
+        "work": "Cyprian, Letter to Antonianus 6",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+        "lines": "33524-33529",
+        "quote": "concurred in the same opinion as we had held"
+      },
+      {
+        "claim": "that Christians who had given way under the emperor Decius",
+        "work": "Socrates, Church History IV.28",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "lines": "14069-14082",
+        "quote": "during the persecution which the Emperor Decius"
+      },
+      {
+        "claim": "could come back to the church after long penance",
+        "work": "Cyprian, Letter to Antonianus 6",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+        "lines": "33519-33521",
+        "quote": "repentance should be long protracted"
+      },
+      {
+        "claim": "The bishops at Rome put Novatian, a rival bishop,",
+        "work": "Cyprian, Letter to Cornelius (Letter 40 in the English) 1",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+        "lines": "32594-32596",
+        "quote": "in opposition to the Catholic Church"
+      },
+      {
+        "claim": "and his followers outside the church",
+        "work": "Eusebius, Church History VI.43.2",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "38291-38294",
+        "quote": "considered by the church as strangers"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Cyprian, On the Lapsed 7",
+          "file": "cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt",
+          "lines": "303-304",
+          "quote": "maximus fratrum numerus fidem suam prodidit"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 14",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33705-33708",
+          "quote": "that I pay a price for this purpose, that I may not do what is not lawful for me to do"
+        },
+        {
+          "work": "Cyprian, Letter to the clergy at Rome 2",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "30201-30205",
+          "quote": "thousands of certificates were daily given"
+        },
+        {
+          "work": "Letter of the confessors",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "30385-30391",
+          "quote": "we have granted peace"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 4",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33476-33477",
+          "quote": "But I put off deciding what was to be arranged about the case of the lapsed"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 5",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33498-33502",
+          "quote": "that peace ought to be granted to the lapsed who were sick and at the point of departure"
+        }
+      ],
+      [
+        {
+          "work": "Cyprian, Letter to the people of Carthage 2",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "32383-32384",
+          "quote": "the faction of Felicissimus"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 24",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33981-33983",
+          "quote": "when a bishop has been made in the Church by sixteen"
+        },
+        {
+          "work": "Socrates IV.28",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "14084-14090",
+          "quote": "leave the pardoning of their offense to God"
+        },
+        {
+          "work": "Cyprian, Letter to Cornelius (Ep. 40 ANF / 44 Hartel) 1",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "32596-32597",
+          "quote": "we considered at once that they must be restrained from communion with us"
+        }
+      ],
+      [
+        {
+          "work": "Cyprian, Letter to Antonianus 6",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33510-33516",
+          "quote": "neither should hope of communion and peace be wholly denied to the lapsed"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 17",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33780-33783",
+          "quote": "that the receivers of certificates should in the meantime be admitted, that those who had sacrificed should be assisted at death"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 23",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33964-33968",
+          "quote": "if they begin to beg for them in the midst of sickness and peril"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 6",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33522-33524",
+          "quote": "according to what is contained in a little book"
+        },
+        {
+          "work": "Cyprian, Letter to Cornelius on Fortunatus 9",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "34758-34759",
+          "quote": "were lately excommunicated by the judgment of our fellow-bishops"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 6",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33524-33526",
+          "quote": "lest perchance the number of bishops in Africa should seem unsatisfactory"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius VI.43.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "38288-38291",
+          "quote": "number sixty, and a great many more presbyters and deacons"
+        },
+        {
+          "work": "Eusebius VI.43.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "38292-38294",
+          "quote": "his brother-hating and inhuman opinion"
+        },
+        {
+          "work": "Cyprian, Letter to Antonianus 6",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33526-33529",
+          "quote": "concurred in the same opinion as we had held"
+        }
+      ],
+      [
+        {
+          "work": "Cyprian, Letter to Antonianus 2",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "33428",
+          "quote": "influenced by the letters of Novatian, had begun to waver"
+        },
+        {
+          "work": "Dionysius, in Eusebius VI.44",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "38857",
+          "quote": "persons at the point of death"
+        },
+        {
+          "work": "Cyprian, Letter to Cornelius on Fortunatus 9",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "34776-34780",
+          "quote": "Novatian’s party is also said to have now made Maximus the presbyter"
+        },
+        {
+          "work": "Synodal letter to Cornelius 1",
+          "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+          "lines": "34295-34297",
+          "quote": "have not ceased from the first day of their lapse to repent"
+        }
+      ],
+      [
+        {
+          "work": "Nicaea, canon 8",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "3769-3770",
+          "quote": "Concerning those who call themselves Cathari, if they come over"
+        },
+        {
+          "work": "Nicaea, canon 13",
+          "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+          "lines": "4503-4506",
+          "quote": "the ancient canonical law is still to be maintained"
+        },
+        {
+          "work": "Socrates IV.28",
+          "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "lines": "14059-14061",
+          "quote": "even to the present day, in the provinces of Phrygia and Paphlagonia"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "251",
+      "census": "251",
+      "datesNote": "251. The council at Carthage met first, and Cornelius's council at Rome then agreed with it; no held source of the time gives either month",
+      "reason": "unchanged. The proposed datesNote drops the months, which rest on Hefele alone; the checker passed it."
+    },
+    "place": "Carthage · Rome",
+    "existingTextFixes": [
+      "Move the two Hefele items from council.sources.writtenLater to modernWorks word for word, each with a note on what it covers.",
+      "council.issue item 3: replace Hefele's view with Cyprian's own charge, that the party offered the lapsed a false peace and he called it another persecution.",
+      "council.outcome item 1: replace \"The next year, by Hefele's dating\" with \"In a letter that gives no year\", and cite the synodal letter to Cornelius.",
+      "council.outcome item 5: retell it from Cyprian, with Fortunatus as the lax party's bishop and Maximus \"said to have\" been made bishop by Novatian's party.",
+      "council.attended item 1: drop \"Hefele adds some presbyters and deacons\".",
+      "council.record item 1 note: drop the Leclercq sentence.",
+      "council.record item 4 note: drop the Zenos sentence.",
+      "briefReferences item 11: replace the Hefele item with Cyprian's Letter to Cornelius (Letter 52 in Hartel's Latin; Letter 48 in the English) for Felicissimus made a deacon."
+    ],
+    "openPoints": [
+      "The proposed council.datesNote is passed by the checker but is not in the layout and is not listed in Applied.md."
+    ]
+  },
+  "era-1": {
+    "shortDescription": [
+      {
+        "claim": "Churches grew up in cities from Lyons in Gaul",
+        "work": "Eusebius, Church History V.1.1-2",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "26795-26804",
+        "quote": "the principal and most celebrated cities"
+      },
+      {
+        "claim": "to Edessa in the east",
+        "work": "Chronicle of Edessa 8 (Cowper)",
+        "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+        "lines": "53",
+        "quote": "they destroyed the temple of the church of the Christians"
+      },
+      {
+        "claim": "At times emperors ordered Christians punished",
+        "work": "Eusebius, Church History III.33.2",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "19541-19543",
+        "quote": "when found should be punished"
+      },
+      {
+        "claim": "and their churches torn down",
+        "work": "Eusebius, Church History VIII.2.4",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "43487-43488",
+        "quote": "commanding that the churches be leveled to the ground"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) III.5.3",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "15291-15294",
+          "quote": "commanded by a revelation, vouchsafed to approved men there before the war, to leave the city"
+        },
+        {
+          "work": "Josephus, Jewish War VI.4.7",
+          "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+          "lines": "126019-126020",
+          "quote": "thus was the holy house burnt"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) III.33.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "19541-19543",
+          "quote": "the race of Christians should not be sought after, but when found should be punished"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) III.33.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "19548-19549",
+          "quote": "no great persecutions took place, local persecutions were nevertheless going on in particular provinces"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) V.16.10",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29721-29736",
+          "quote": "examined the novel utterances and pronounced them profane"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) V, Introduction 1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "26706-26707",
+          "quote": "In the seventeenth year of the Emperor Antoninus Verus"
+        }
+      ],
+      [
+        {
+          "work": "Chronicle of Edessa 8",
+          "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+          "lines": "53",
+          "quote": "the waters broke down the western wall of the city"
+        },
+        {
+          "work": "Jerome, Lives 53",
+          "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "lines": "40498-40499",
+          "quote": "he flourished chiefly in the reign of the emperor Severus and Antoninus Caracalla and wrote many volumes"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VI.41.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "37808-37809",
+          "quote": "did not begin with the royal decree, but preceded it an entire year"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VI.39.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "37413-37415",
+          "quote": "he commenced a persecution of the churches, in which Fabianus"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VII.3",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "39310-39311",
+          "quote": "should not be received except they had been purified from their error by baptism"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VII.10.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "39957-39959",
+          "quote": "persuaded him to change his course, urging him to slay and persecute pure and holy men"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VII.13.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "40494-40495",
+          "quote": "He immediately restrained the persecution against us by public proclamations"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VII.22.7",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "41084-41087",
+          "quote": "visited the sick fearlessly"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VIII.2.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "43487-43489",
+          "quote": "commanding that the churches be leveled to the ground and the Scriptures be destroyed by fire"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VIII.2.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "43432-43433",
+          "quote": "when we saw with our own eyes the houses of prayer thrown down to the very foundations"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) VIII.17.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "45446-45450",
+          "quote": "stop the persecution of the Christians, and should by law and royal decree, urge them forward to build their churches"
+        },
+        {
+          "work": "Eusebius, Church History (McGiffert, NPNF 2.1) IX.9.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "48390-48392",
+          "quote": "was defeated at Rome by Constantine"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "70-312 CE",
+      "census": "70-312 CE",
+      "reason": "unchanged"
+    },
+    "place": null,
+    "existingTextFixes": [],
+    "openPoints": [
+      "Legacy and today and Modern works have no era field; the site must show \"nothing held yet\" for both (Card_Check_B, era-1, a minor note with no data change)."
+    ]
+  },
+  "the-sister-who-saw-visions-during-the-service": {
+    "shortDescription": [
+      {
+        "claim": "Tertullian, a Christian writer,",
+        "work": "Jerome, Lives of Illustrious Men 53",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+        "lines": "40495",
+        "quote": "chief of the Latin writers"
+      },
+      {
+        "claim": "tells of a woman in his church who sees visions during the Sunday service",
+        "work": "Tertullian, On the Soul 9",
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "15806-15808",
+        "quote": "which she experiences in the Spirit by ecstatic vision amidst the sacred rites of the Lord’s day in the church"
+      },
+      {
+        "claim": "and speaks with angels, and at times with the Lord",
+        "work": "Tertullian, On the Soul 9",
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "15808-15809",
+        "quote": "she converses with angels, and sometimes even with the Lord"
+      },
+      {
+        "claim": "After the people leave, she reports what she saw",
+        "work": "Tertullian, On the Soul 9",
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "15816-15818",
+        "quote": "After the people are dismissed at the conclusion of the sacred services, she is in the regular habit of reporting to us"
+      },
+      {
+        "claim": "and every word is carefully tested",
+        "work": "Tertullian, On the Soul 9",
+        "file": "cic/texts/anf03_tertullian.xml",
+        "lines": "15818-15820",
+        "quote": "all her communications are examined with the most scrupulous care"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15805-15808",
+          "quote": "favoured with sundry gifts of revelation"
+        },
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15808-15810",
+          "quote": "she both sees and hears mysterious communications"
+        },
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15810-15814",
+          "quote": "Whether it be in the reading of Scriptures, or in the chanting of psalms"
+        },
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15814-15816",
+          "quote": "whilst this sister of ours was rapt in the Spirit, that we had discoursed in some ineffable way about the soul"
+        },
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15816-15820",
+          "quote": "in order that their truth may be probed"
+        },
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15820-15822",
+          "quote": "there has been shown to me a soul in bodily shape"
+        }
+      ],
+      [
+        {
+          "work": "Tertullian, On the Soul 9 (ANF 3)",
+          "file": "cic/texts/anf03_tertullian.xml",
+          "lines": "15798-15802",
+          "quote": "we inscribe on the soul the lineaments of corporeity"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men 53 (NPNF 2.3)",
+          "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "lines": "40498-40499",
+          "quote": "he flourished chiefly in the reign of the emperor Severus and Antoninus Caracalla"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "In Tertullian's day",
+      "census": "c. 207–212",
+      "reason": "The census year is a modern dating of On the Soul. Jerome's reigns are kept in datesNote, since Jerome dates Tertullian, not this event (S2)."
+    },
+    "place": "Tertullian's church, at Carthage",
+    "existingTextFixes": [
+      "Story text: change \"she reads hearts\" to \"she reads some people's hearts\".",
+      "Story teaser: change to \"In Carthage a woman receives revelations in church, reports them after the people have gone, and then submits them to be examined.\"",
+      "Story text items 1 to 9 in Card_Edits were confirmed at their lines, with no new wording given."
+    ],
+    "openPoints": [
+      "Story text items 1 to 9 (the charge of disorder, his stated purpose, \"she does not interrupt\", the last sentence, the fresh rendering in quotation marks, the dropped parentheses, the census when, the teaser city, sources[0]) are confirmed but have no exact new wording."
+    ]
+  },
+  "post-apostolic-house-church--montanism-the-new-prophecy": {
+    "shortDescription": [
+      {
+        "claim": "Christians in the Roman province of Asia met often, in many places,",
+        "work": "The anonymous writer, in Eusebius, Church History V.16.10",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "29721-29722",
+        "quote": "met often in many places throughout Asia"
+      },
+      {
+        "claim": "to test the sayings",
+        "work": "The anonymous writer, in Eusebius, Church History V.16.10",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "29735-29736",
+        "quote": "examined the novel utterances"
+      },
+      {
+        "claim": "of the New Prophecy",
+        "work": "Serapion, in Eusebius, Church History V.19.2",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "30558",
+        "quote": "the new prophecy, so called"
+      },
+      {
+        "claim": "a movement of prophets from Phrygia",
+        "work": "The anonymous writer, in Eusebius, Church History V.16.7",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "29577-29579",
+        "quote": "in that part of Mysia, which borders upon Phrygia"
+      },
+      {
+        "claim": "They judged the sayings profane",
+        "work": "The anonymous writer, in Eusebius, Church History V.16.10",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "29735-29736",
+        "quote": "pronounced them profane"
+      },
+      {
+        "claim": "and put its followers out of the church",
+        "work": "The anonymous writer, in Eusebius, Church History V.16.10",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "29736-29738",
+        "quote": "these persons were expelled from the Church"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.7",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29577-29579",
+          "quote": "a certain village called Ardabau in that part of Mysia, which borders upon Phrygia"
+        },
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.9",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29692",
+          "quote": "he stirred up besides two women"
+        }
+      ],
+      [
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.10",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29736-29738",
+          "quote": "rejected the heresy, and thus these persons were expelled from the Church"
+        },
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.16",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29823-29826",
+          "quote": "the holy bishops of that time attempted to refute the spirit in Maximilla, but were prevented"
+        },
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.12",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29745-29754",
+          "quote": "they called us slayers of the prophets"
+        },
+        {
+          "work": "Eusebius, Church History IV.27",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "26111-26112",
+          "quote": "which he subsequently wrote against the heresy of the Phrygians"
+        }
+      ],
+      [
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29519-29538",
+          "quote": "we disputed in the church many days"
+        },
+        {
+          "work": "The anonymous writer, in Eusebius, Church History V.16.3",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29455-29456",
+          "quote": "O beloved Avircius Marcellus"
+        },
+        {
+          "work": "Serapion, in Eusebius, Church History V.19.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "30557-30562",
+          "quote": "of the most blessed Claudius Apolinarius"
+        },
+        {
+          "work": "Eusebius, Church History V.16.1-2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "29432-29448",
+          "quote": "raised up a strong and invincible weapon, Apolinarius of Hierapolis"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "The second century, while the New Prophecy was new",
+      "census": null,
+      "reason": "The census edge has no dates field. No old source gives a year for the meetings, so the card gives the record's own frame; the note's \"about 192\" is the translator's reckoning and is not used."
+    },
+    "place": "The Roman province of Asia, in what is now western Turkey",
+    "existingTextFixes": [
+      "Edge note: change \"the faithful of Asia\" to \"Christians of Asia\".",
+      "Edge outcome: change \"Meetings of the faithful across Asia\" to \"Meetings of Christians across Asia\"."
+    ],
+    "openPoints": [
+      "Note items 1 to 4 in Card_Edits are confirmed but not worded as exact changes: \"about 192\" (Card_Edits suggests \"a writer of the time, whose name is lost\"), \"met many times to test\", Apolinarius as bishop with no source on the edge, and the McGiffert lines to add as a source."
+    ]
+  },
+  "river-africa": {
+    "shortDescription": [
+      {
+        "claim": "In this era the Africa river carries the church of Alexandria in Egypt.",
+        "work": "Eusebius, Church History II.16.1 (the origin record's source)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "11851-11853",
+        "quote": "first established churches in Alexandria"
+      },
+      {
+        "claim": "It follows the city's school of Christian teachers,",
+        "work": "Eusebius, Church History V.10.1",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "28561-28563",
+        "quote": "A school of sacred learning, which continues to our day, was established there in ancient times"
+      },
+      {
+        "claim": "among them Clement and Origen,",
+        "work": "Eusebius, Church History VI.6",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "33040-33044",
+        "quote": "so that Origen also, while still a boy"
+      },
+      {
+        "claim": "and its bishops through years of persecution",
+        "work": "Dionysius, in Eusebius, Church History VI.41.1",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "37808-37809",
+        "quote": "The persecution among us did not begin with the royal decree"
+      },
+      {
+        "claim": "and plague",
+        "work": "Dionysius, in Eusebius, Church History VII.22.1",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "41026-41027",
+        "quote": "a pestilential disease followed the war"
+      }
+    ],
+    "timeline": [
+      [
+        {
+          "work": "Eusebius, Church History II.16.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "11851-11853",
+          "quote": "they say that this Mark was the first that was sent to Egypt"
+        },
+        {
+          "work": "Eusebius, Church History II.24",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "13794-13795",
+          "quote": "succeeded Mark the evangelist"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History V.9",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "28470-28476",
+          "quote": "became bishop of the Alexandrian churches"
+        },
+        {
+          "work": "Eusebius, Church History V.10.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "28537-28539",
+          "quote": "a man highly distinguished for his learning, had charge of the school of the faithful in Alexandria"
+        },
+        {
+          "work": "Eusebius, Church History VI.6",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "33079-33080",
+          "quote": "was one of his pupils"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VI.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32433-32460",
+          "quote": "who was beheaded while his son was still young"
+        },
+        {
+          "work": "Eusebius, Church History VI.3.3",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "32732-32733",
+          "quote": "He was in his eighteenth year when he took charge of the catechetical school"
+        },
+        {
+          "work": "Eusebius, Church History VI.26",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "36330-36334",
+          "quote": "Origen removed from Alexandria to Cæsarea"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VI.29.4",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "36556-36559",
+          "quote": "was succeeded in the charge of the catechetical school by Dionysius"
+        },
+        {
+          "work": "Eusebius, Church History VI.35",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "37078-37080",
+          "quote": "received the episcopate of the churches of Alexandria"
+        },
+        {
+          "work": "Eusebius, Church History VI.41.1",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "37808-37809",
+          "quote": "preceded it an entire year"
+        },
+        {
+          "work": "Eusebius, Church History VII.22.7",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "41084-41087",
+          "quote": "visited the sick fearlessly"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VII.32.11",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "42753-42755",
+          "quote": "he saved almost all the besieged. He provided that first, those belonging to the church"
+        },
+        {
+          "work": "Eusebius, Church History VII.32.24-25",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "42996-43010",
+          "quote": "In his time we became acquainted with Pamphilus"
+        }
+      ],
+      [
+        {
+          "work": "Eusebius, Church History VII.32.31",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "43214-43215",
+          "quote": "After Theonas had held the office for nineteen years, Peter"
+        },
+        {
+          "work": "Eusebius, Church History VIII.13.6",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "44790-44792",
+          "quote": "Pamphilus, a presbyter, who was the great glory of the parish of Cæsarea"
+        },
+        {
+          "work": "Eusebius, Church History IX.6.2",
+          "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "lines": "47996-47998",
+          "quote": "as if by command of Maximinus, immediately and without explanation, beheaded"
+        }
+      ]
+    ],
+    "dates": {
+      "shown": "From the first bishops Eusebius names to 312",
+      "census": null,
+      "reason": "The origin record has no dates field. \"Late in the second century\" was the record's judgment, which no line gives; the timeline opens with Annianus in the eighth year of Nero (R2)."
+    },
+    "place": null,
+    "existingTextFixes": [
+      "No change to the origin record; it is the census record, and the checker proposes none."
+    ],
+    "openPoints": [
+      "Origin record reason, \"first seen clearly late in the second century\": confirmed as a judgment, with no exact new wording given.",
+      "The common label \"Coptic, Ethiopian and other African churches\" speaks for later eras; noted, not a fault."
+    ]
+  }
+}

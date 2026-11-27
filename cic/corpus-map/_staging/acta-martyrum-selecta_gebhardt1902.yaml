@@ -51,3 +51,12 @@ assignments:
     date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 259 as the date of the Passio SS. Montani et Lucii, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       Latin martyr acts of the Cyprianic period. Registry row 222.
+  - row_id: acta-martyrum-selecta_gebhardt1902--passio-irenaei-sirmiensis
+    work: Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)
+    author: acta-martyrum-selecta
+    locus: file line 7593
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: The second copy of Gebhardt's volume; the same act as in gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.

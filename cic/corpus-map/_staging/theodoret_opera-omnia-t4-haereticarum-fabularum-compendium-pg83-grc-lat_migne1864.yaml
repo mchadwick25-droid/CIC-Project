@@ -1,0 +1,23 @@
+source_file: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt
+assignments:
+  - row_id: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864--haer-fab-i-22-bardesanes
+    work: 'Theodoret, Compendium of Heretical Fables I.22: On Bardesanes and Harmonius'
+    author: theodoret
+    locus: Greek from OCR line 29805, Latin about 29752 (add 12)
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'Theodoret says he read Bardesanes'' works against fate and against Marcion, that some were put
+      into Greek, and that Harmonius his son wrote in Syriac, and that Ephrem answered both. Context: it
+      describes the movement from outside, so a built world draws on it only as register: etic.'
+  - row_id: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864--haer-fab-ii-9-iii-3-sabellius-noetus
+    work: Theodoret, Compendium of Heretical Fables II.9 (Sabellius) and III.3 (Noetus of Smyrna)
+    author: theodoret
+    locus: II.9 about OCR line 31618; III.3 Greek 31896, Latin about 32202 (add 12)
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'A fifth-century catalogue entry on each, drawing on Hippolytus and Epiphanius. Context: it describes
+      the movement from outside, so a built world draws on it only as register: etic.'

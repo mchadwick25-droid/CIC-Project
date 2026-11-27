@@ -3,6 +3,23 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: palestinian-ascetic-monasticism-early
 works:
+- row_id: jerome_epistulae-1-70-lat_hilberg-csel54-1910--letter-51-epiphanius-to-john-of-jerusalem-latin
+  work: 'Letter 51: Epiphanius of Salamis to John of Jerusalem, in Jerome''s Latin'
+  author: epiphanius
+  locus: host OCR line 19861 on (file line 19873); the ordination of Paulinianus at host lines
+    19958-19970; 'Arrii patrem et aliarum hereseon radicem et parentem' at host line 20102
+  role: tradition
+  confidence: provisional
+  language: lat
+  note: 'Epiphanius''s own letter, of about 394, from the monastery near Bethlehem quarrel:
+    his account of ordaining Jerome''s brother and his charges against Origen. Epiphanius
+    wrote in Greek, which does not survive; this is Jerome''s Latin, the oldest form held,
+    and the original behind Fremantle''s English in npnf206. Assigned here as the Epiphanius
+    Panarion volumes are; whether Epiphanius is this entry''s own voice is a build-thread
+    call, named here and not decided.
+
+    '
+  source_file: jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt
 - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--panarion-heresies-34-64-gcs-31-greek-2
   work: Panarion, heresies 34-64 (GCS 31, Holl 1922), Greek
   author: epiphanius

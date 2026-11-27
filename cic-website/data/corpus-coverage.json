@@ -329,6 +329,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Chronici canones, the entries for Papias, Polycarp and Ignatius, and for the martyrdom of Polycarp and Pionius, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
           "author": "josephus",
           "role": "context",
@@ -935,6 +943,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Chronici canones, the entries for the Greek apologists: Quadratus and Aristides (Hadrian), Justin (Antoninus), Melito and Apollinaris (Marcus), Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Dialogue with Trypho",
           "author": "justin_martyr",
           "role": "tradition",
@@ -1323,6 +1339,14 @@
           "confidence": "assigned",
           "source_file": "harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt",
           "rights": "Public Domain (pre-1930 publication; the host's item record carries possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Chronici canones, the entry for Tertullian, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the presbyter' (file line 40489)",
@@ -2809,6 +2833,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Chronici canones, the entries for Pantaenus and Clement, Leonides and Origen, Demetrius and Heraclas, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Jerome's Apology for Himself Against the Books of Rufinus",
           "author": "jerome",
           "role": "context",
@@ -3287,6 +3319,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Chronicon Edessenum, Guidi's Latin (Chronica minora I, CSCO 1903)",
+          "author": "chronicle-of-edessa",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Chronicle of Edessa",
           "author": "chronicle-of-edessa",
           "role": "context",
@@ -3557,6 +3597,14 @@
           "confidence": "assigned",
           "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Synodicon Orientale, the synod of Mar Isaac at Seleucia-Ctesiphon, French (Chabot 1902)",
+          "author": "synodicon-orientale",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1902); the item record carries no rights field"
         },
         {
           "work": "Address to the Greeks",
@@ -5077,6 +5125,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1908)"
         },
         {
+          "work": "Chronici canones, the entries for Cyprian: the plague and On Mortality, Novatus at Rome, the Letters, Cyprian's martyrdom, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Cathedra Petri (Koch, 1930)",
           "author": "koch",
           "role": "context",
@@ -5384,6 +5440,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Panarion 41 (Cerdonians) and 42 (Marcionites), Greek",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the item record carries no rights field"
+        },
+        {
           "work": "The Refutation of All Heresies (Philosophumena)",
           "author": "hippolytus",
           "role": "context",
@@ -5398,6 +5462,14 @@
           "confidence": "assigned",
           "source_file": "anf01_apostolic-fathers-justin-irenaeus.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Chronici canones, the entry 'Valentinus heresiarches et Cerdo magister Marcionis Romam uenerunt', Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Against All Heresies (spurious appendix)",
@@ -5794,6 +5866,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Panarion 29 (Nazoraeans) and 30 (Ebionites), Greek",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1915); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "The Refutation of All Heresies (Philosophumena)",
           "author": "hippolytus",
           "role": "context",
@@ -5888,6 +5968,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Panarion 48: against the Phrygians, also called Montanists, Greek",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the item record carries no rights field"
+        },
+        {
           "work": "The Church History of Eusebius (Historia Ecclesiastica)",
           "author": "eusebius",
           "role": "context",
@@ -5902,6 +5990,14 @@
           "confidence": "assigned",
           "source_file": "anf05_hippolytus-cyprian-caius-novatian.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Chronici canones, the entry 'Pseudoprofetia quae Cata Frygas nominatur accepit exordium auctore Montano et Priscilla Maximillaque', Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Against Praxeas",
@@ -6026,7 +6122,7 @@
       ]
     },
     "novatianism": {
-      "name": "Novatianism",
+      "name": "Novatianism (the Katharoi)",
       "status": "Contested - Evidentiary",
       "works": [
         {
@@ -6484,6 +6580,126 @@
       "status": "Possible Future World (on record)",
       "works": [
         {
+          "work": "Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)",
+          "author": "acta-martyrum-selecta",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "acta-martyrum-selecta_gebhardt1902.txt",
+          "rights": "Public Domain (pre-1930 publication; the archive.org record tags it NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Acta Sanctorum, June V: De S. Niceta seu Nicea, episcopo Romatianae in Dacia, with the passages of Paulinus of Nola's poems on Niceta's visits to Nola in the dossier of S. Paulinus",
+          "author": "acta-sanctorum",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "acta-sanctorum_junii-tomus-5-lat_palme1867.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1867); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Acta Sanctorum, March III: S. Irenaeus, bishop of Sirmium (25 March), and SS. Montanus the presbyter, Maxima his wife and forty others, martyrs at Sirmium in Pannonia",
+          "author": "acta-sanctorum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1865); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "De S. Pollione lectore, martyre Cibalis in Pannonia (28 April), with his Passio",
+          "author": "acta-sanctorum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "On the Councils of Ariminum and Seleucia (De Synodis): the creeds of Sirmium",
+          "author": "athanasius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf204_athanasius-select-works-letters.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Scolia Arriana: Palladius of Ratiaria and Secundianus at Aquileia (381), with Auxentius of Durostorum",
+          "author": "auxentius-durostorum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)",
+          "author": "gebhardt",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt",
+          "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Gennadius, Lives of Illustrious Men 22: Niceas (Niceta), bishop of Romatia",
+          "author": "gennadius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Collectanea antiariana: the letters of Germinius of Sirmium and of Valens and Ursacius, and the Sirmium documents",
+          "author": "hilary_poit",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
+          "work": "Hilary, De Synodis: the creeds of Sirmium and their anathemas",
+          "author": "hilary_poit",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing, catalogued 1844); the archive.org record tags it NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men 74: Victorinus, bishop of Pettau",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Niceta of Remesiana, works (Burn 1905): the instructions for those coming to baptism, De ratione fidei, De symbolo, De Spiritus sancti potentia, De vigiliis, De psalmodiae bono, the Te Deum",
+          "author": "niceta-remesiana",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "niceta-remesiana_life-and-works-lat_burn1905.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1905); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Paulinus of Nola, Carmen 17 (farewell to Niceta) and Carmen 27 (the ninth poem for Felix, welcoming Niceta again)",
+          "author": "paulinus-nola",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "paulinus-nola_carmina-lat_hartel-csel30-1894.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1894); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Ruinart, Acta sincera: the Passio of Irenaeus of Sirmium, of Pollio of Cibalae, of Serenus of Sirmium, and of Quirinus of Siscia with Prudentius's hymn",
+          "author": "ruinart",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1859); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Socrates II.29-30: Photinus of Sirmium and the council at Sirmium",
+          "author": "socrates",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Commentary on the Apocalypse of the Blessed John",
           "author": "victorinus",
           "role": "tradition",
@@ -6498,6 +6714,22 @@
           "confidence": "assigned",
           "source_file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Victorinus of Pettau, Commentary on the Apocalypse: Victorinus's own text and Jerome's revision, Latin (Haussleiter, CSEL 49)",
+          "author": "victorinus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "victorinus_opera-lat_haussleiter-csel49-1916.txt",
+          "rights": "Public Domain (pd-us-by-date: the edition was published 1916); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan is of a Johnson Reprint photomechanical facsimile, which makes no new claim over the 1916 text (the same basis as the Library's Cyprian CSEL 3 and Wyclif De ecclesia files); its reprint line asks no restriction on reproduction. No scan of an original 1916 copy was found on archive.org (the other copy, corpusscriptorum0049unse, is the same Johnson facsimile)."
+        },
+        {
+          "work": "Victorinus of Pettau, De fabrica mundi, Latin (Haussleiter, CSEL 49)",
+          "author": "victorinus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "victorinus_opera-lat_haussleiter-csel49-1916.txt",
+          "rights": "Public Domain (pd-us-by-date: the edition was published 1916); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan is of a Johnson Reprint photomechanical facsimile, which makes no new claim over the 1916 text (the same basis as the Library's Cyprian CSEL 3 and Wyclif De ecclesia files); its reprint line asks no restriction on reproduction. No scan of an original 1916 copy was found on archive.org (the other copy, corpusscriptorum0049unse, is the same Johnson facsimile)."
         }
       ]
     },
@@ -6839,6 +7071,14 @@
       "name": "Early Palestinian Ascetic Monasticism",
       "status": "Possible Future World (on record)",
       "works": [
+        {
+          "work": "Letter 51: Epiphanius of Salamis to John of Jerusalem, in Jerome's Latin",
+          "author": "epiphanius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
         {
           "work": "Panarion, heresies 34-64 (GCS 31, Holl 1922), Greek",
           "author": "epiphanius",
@@ -8672,6 +8912,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Jerome, Letters 1-70 (Hilberg, CSEL 54), Latin",
+          "author": "jerome",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
           "work": "Letter CVIII (To Eustochium - Epitaph of Paula)",
           "author": "jerome",
           "role": "tradition",
@@ -9277,6 +9525,14 @@
           "confidence": "assigned",
           "source_file": "npnf111_chrysostom-homilies-acts-romans.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on the Gospel of Matthew, 45-90 (Field 1839), Greek",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-chrysostom_homiliae-in-matthaeum-t2-hom-45-90-grc_field1839.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1839); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL. The scan carries no notice against reproduction."
         },
         {
           "work": "Homilies on the Gospel of St. John",
@@ -10695,6 +10951,134 @@
       "status": "Floor Question (register)",
       "works": [
         {
+          "work": "Defence of Dionysius (De Sententia Dionysii)",
+          "author": "athanasius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf204_athanasius-select-works-letters.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Defence of the Nicene Definition (De Decretis) 26: Dionysius of Rome against the Sabellians",
+          "author": "athanasius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf204_athanasius-select-works-letters.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Augustine, De haeresibus 36 (Noetiani) and 41 (Sabelliani sive Patripassiani)",
+          "author": "augustine",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Basil, Letters: the passages on Sabellius and the Sabellians",
+          "author": "basil",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf208_basil-letters-select-works.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Dionysius of Alexandria, Letters and Treatises (Feltoe's English, 1918): the Sabellian letters and the Refutation and Defence",
+          "author": "dionysius-alexandria",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "dionysius-alexandria_letters-and-treatises_feltoe1918.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1918, by the dated preface with the catalogue's agreement); the archive.org record carries no rights field. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Dionysius of Alexandria, letters on the Sabellians in the Pentapolis and the Refutation and Defence, Greek (Feltoe 1904)",
+          "author": "dionysius-alexandria",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "dionysius-alexandria_letters-and-other-remains-grc_feltoe1904.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1904); the archive.org record carries a Public Domain Mark. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Panarion 57 (Noetians) and 62 (Sabellians)",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the item record carries no rights field"
+        },
+        {
+          "work": "Church History VII.6: the heresy of Sabellius",
+          "author": "eusebius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Filastrius, Book of Heresies 53-54: the Noetiani and the Sabelliani or Patripassiani",
+          "author": "filastrius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "filastrius_diversarum-hereseon-liber-lat_marx-csel38-1898.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Against the Heresy of One Noetus",
+          "author": "hippolytus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Against the Heresy of One Noetus, Greek (Lagarde 1858)",
+          "author": "hippolytus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "hippolytus_quae-feruntur-omnia-contra-noetum-grc_lagarde1858.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1858); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Refutation of All Heresies, Book IX (Noetus, Zephyrinus, Callistus), Greek (Wendland 1916)",
+          "author": "hippolytus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "The Refutation of All Heresies, Book IX (Noetus, Callistus, Sabellius) and X",
+          "author": "hippolytus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "A Treatise of Novatian Concerning the Trinity: the chapters against the Sabellians",
+          "author": "novatian",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Novatian, De Trinitate, Latin (Fausset 1909): the chapters against those who make Christ the Father",
+          "author": "novatian",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "novatian_de-trinitate-lat_fausset1909.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1909); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Novatian, On the Trinity (Moore's English, 1919)",
+          "author": "novatian",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "novatian_treatise-on-the-trinity_moore1919.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1919); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
           "work": "Against Praxeas",
           "author": "tertullian",
           "role": "context",
@@ -10717,6 +11101,14 @@
           "confidence": "assigned",
           "source_file": "tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
           "rights": "Public Domain (pre-1930 publication); the item record's possible-copyright-status is NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Theodoret, Compendium of Heretical Fables II.9 (Sabellius) and III.3 (Noetus of Smyrna)",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt",
+          "rights": "Public Domain (pd-us-by-date: printed in the 1860s; the title page reads 186-, the archive.org record says 1864, and either year is far past the line); the archive.org record carries a Public Domain Mark. The scan carries no notice against reproduction."
         }
       ]
     },
@@ -10730,6 +11122,14 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Chronicle of Edessa: the birth of Bardaisan",
+          "author": "chronicle-of-edessa",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "chronicle-of-edessa_cowper.txt",
           "rights": "Public Domain"
         },
         {
@@ -10747,6 +11147,126 @@
           "confidence": "assigned",
           "source_file": "ephraim_prose-refutations_mitchell1912-1921.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Ephrem, Hymns (Sermones) against Heresies 1-56, Syriac with Benedictus's Latin",
+          "author": "ephraim",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1740); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Introductory Dissertation, Part I (Ephraim the Syrian): Ephrem's verses on a book of Bardaisan, and Harmonius's hymns",
+          "author": "ephraim",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Panarion 56: against the Bardesianites",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the item record carries no rights field"
+        },
+        {
+          "work": "Church History IV.30: Bardesanes the Syrian and his extant works",
+          "author": "eusebius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Praeparatio evangelica VI.10: the Greek extract from Bardesanes' dialogue on fate",
+          "author": "eusebius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Preparation for the Gospel VI.10 (Gifford's English): the extract from Bardesanes",
+          "author": "eusebius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Refutation of All Heresies VI.35 and VII.31 (Bardesanes), Greek (Wendland 1916)",
+          "author": "hippolytus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "The Refutation of All Heresies, on Bardesanes (VI.35, VII.31)",
+          "author": "hippolytus",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Jerome, Lives of Illustrious Men 33: Bardesanes",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Chronique, Book VI, chapter 6 and Chabot's notes: Bardaisan",
+          "author": "michael-the-syrian",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899); the item record carries no rights field (a sibling upload of tome II by the same contributor carries a Creative Commons public-domain licence URL)"
+        },
+        {
+          "work": "Nau, Scriptorum testimonia de Bardesanis vita, scriptis, doctrina (ancient witnesses on Bardaisan)",
+          "author": "patrologia-syriaca",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "The Book of the Laws of Countries (Liber legum regionum), Syriac with Nau's Latin",
+          "author": "patrologia-syriaca",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "Sozomen III.16: Ephrem, Bardesanes and Harmonius's hymns",
+          "author": "sozomen",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Theodoret, Church History IV.26 (NPNF numbering): Ephrem and Harmonius son of Bardesanes",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Theodoret, Compendium of Heretical Fables I.22: On Bardesanes and Harmonius",
+          "author": "theodoret",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt",
+          "rights": "Public Domain (pd-us-by-date: printed in the 1860s; the title page reads 186-, the archive.org record says 1864, and either year is far past the line); the archive.org record carries a Public Domain Mark. The scan carries no notice against reproduction."
         }
       ]
     },

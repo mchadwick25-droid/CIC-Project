@@ -1,0 +1,231 @@
+{
+ "shortDescription": "At Rome, the presbyter Novatian led a church that called itself the Katharoi, the pure. It shut out from communion those who had sacrificed to the gods, left their pardon to God, and spread east to Constantinople and Phrygia.",
+ "dates": "c. 251 to after 438",
+ "timeline": [
+  {
+   "when": "Decius's persecution and after, about 250 to 251",
+   "headline": "Decius persecutes the Christians, and Rome divides over those who sacrificed",
+   "lines": [
+    {
+     "when": "about 250, the first year of Decius",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, says that Decius killed the two Philips, father and son, and, out of hatred for them, began a persecution of the Christians.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43895-43899; the year is a conversion from the Chronicle's first year of Decius, counting his reign from 249",
+     "note": "Written more than a century later."
+    },
+    {
+     "when": "after Fabian's death",
+     "text": "The Chronicle says that after the death of Fabian, bishop of Rome, which it calls glorious, Cornelius took up the office of bishop there.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43918-43921"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian of Carthage writes that Cornelius was made bishop by the judgment of God and of Christ, by the witness of nearly all the clergy, by the vote of the people then present, and by the gathering of the senior bishops.",
+     "reference": "Cyprian, Letter 51, to Antonianus, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33577-33580",
+     "note": "Cyprian sided with Cornelius."
+    },
+    {
+     "when": "date unknown",
+     "text": "Socrates writes that Novatus, a presbyter of the church of Rome, broke from it because Cornelius the bishop took back into communion believers who had sacrificed to the gods in the persecution Decius raised.",
+     "reference": "Socrates, Church History IV.28, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 14061-14082",
+     "note": "Socrates writes the name Novatus; Cyprian and Jerome give Novatian. He wrote in the 5th century."
+    }
+   ]
+  },
+  {
+   "when": "About 251",
+   "headline": "Novatian is made a rival bishop, and a synod at Rome casts his party out",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Cornelius, writing to Fabius, bishop of Antioch, says that Novatian sent two companions to a small corner of Italy to bring three country bishops to Rome. There, he says, Novatian shut them in and, by the tenth hour of the day, forced them to lay hands on him as bishop.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38518-38534; Fabius of Antioch, lines 38819-38820",
+     "note": "An opponent's account. Eusebius's copy gives the name as Novatus."
+    },
+    {
+     "when": "date unknown",
+     "text": "Cornelius writes that one of the three bishops who made Novatian a bishop soon came back to the church, confessing his wrong, and was received as a layman, and that successors were ordained for the other two.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38536-38540"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cornelius writes that when Novatian gives the bread of communion, he holds the receiver's hands and will not let go until he swears by the body and blood of Christ never to turn to Cornelius.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38761-38774",
+     "note": "An opponent's charge. Eusebius's copy gives the name as Novatus."
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Novatus, as he gives the name, a presbyter of the church at Rome, held that the fallen had no more hope of salvation, even if they did all a true change of heart asks. He became leader, Eusebius says, of those who call themselves Cathari, the pure.",
+     "reference": "Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38265-38270; the Greek word kathari, pure, the editor's note at line 38270",
+     "note": "Eusebius, an opponent, says they call themselves so in the pride of their imagination."
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that a synod of sixty bishops and many more presbyters and deacons met at Rome. It ruled that Novatus and those who held his opinion were strangers to the church, and that the fallen should be healed with the medicines of repentance.",
+     "reference": "Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38272-38299"
+    },
+    {
+     "when": "in the first year of Gallus and Volusianus, so about 251",
+     "text": "The Chronicle says that Novatus, a presbyter of Cyprian, came to Rome and joined Novatian and the other confessors to himself, because Cornelius had taken back apostates who repented.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43960-43973; the year is a conversion from the Chronicle's first year of Gallus and Volusianus, counting their reign from 251",
+     "note": "Jerome's Chronicle gives two men, Novatus of Carthage and Novatian of Rome."
+    }
+   ]
+  },
+  {
+   "when": "251 and the years after",
+   "headline": "Bishops write against the division, and the confessors go back to Cornelius",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Dionysius of Alexandria writes to Novatus that it would be better to suffer anything than to divide the church of God. To die as a martyr to keep it whole, he says, would be no less glorious than to die for refusing to worship idols.",
+     "reference": "Dionysius of Alexandria, Letter to Novatus, in Eusebius, Church History VI.45, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38922-38928"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian writes to the Roman confessors, Maximus, Nicostratus and the others, who had confessed the faith under persecution, that it grieves him that they agreed to the making of another bishop. He begs them to come back to the church they came from.",
+     "reference": "Cyprian, Letter 43, to the Roman confessors, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 32833-32857"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cornelius writes to Cyprian that the confessors Maximus, Urbanus and Sidonius came before the presbyters and said they had been deceived. Before a great gathering of believers, who wept for joy, they confessed Cornelius as bishop.",
+     "reference": "Cornelius to Cyprian, in Cyprian, Letter 45, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 32952-33019"
+    },
+    {
+     "when": "date unknown",
+     "text": "Maximus, Urbanus, Sidonius and Macharius write to Cyprian that they have made peace with Cornelius their bishop and all the clergy, with the joy of the whole church.",
+     "reference": "The confessors to Cyprian, in Cyprian, Letter 49, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33288-33301"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian writes to Antonianus that whoever is not in the church of Christ is not a Christian. After a bishop had been made by sixteen fellow bishops, he says, Novatian strove by bribery to be made a bishop by the hands of deserters.",
+     "reference": "Cyprian, Letter 51, to Antonianus, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33971-33985"
+    }
+   ]
+  },
+  {
+   "when": "Mid-3rd century",
+   "headline": "Novatian writes to the churches, and later writers remember his death and his books",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Socrates writes that Novatus, made bishop by those who held his views, wrote to all the churches about those who had sacrificed. The churches should keep them from the mysteries, the sacraments, he wrote, and urge them to repent, leaving their pardon to God, who has power to forgive all sin.",
+     "reference": "Socrates, Church History IV.28, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 14082-14090"
+    },
+    {
+     "when": "in the reign of Valerian",
+     "text": "Socrates writes that Novatus suffered martyrdom in the reign of Valerian.",
+     "reference": "Socrates, Church History IV.28, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 14132-14133",
+     "note": "Socrates alone, of the held witnesses, says so."
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that Novatian, a presbyter of Rome, tried to seize the chair of Cornelius and set up the teaching of the Novatians, called in Greek the Cathari, by refusing to take back apostates who repented. Among his books he names a great volume On the Trinity.",
+     "reference": "Jerome, Lives of Illustrious Men 70, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40887-40897; written in 392, lines 38784-38785, a conversion from the fourteenth year of Theodosius, counting his reign from 379",
+     "note": "Jerome says many wrongly give the book to Cyprian."
+    },
+    {
+     "when": "date unknown",
+     "text": "Novatian's On the Trinity opens on the rule of truth: first of all, to believe in God the Father and Lord almighty, the founder of all things.",
+     "reference": "Novatian, On the Trinity 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 60470-60472; Latin, cic/texts/novatian_de-trinitate-lat_fausset1909.txt lines 2553-2554",
+     "note": "His own words."
+    }
+   ]
+  },
+  {
+   "when": "4th century",
+   "headline": "Constantine and Theodosius rule on the Novatians, Nicaea receives their clergy, and soldiers come to Mantinium",
+   "lines": [
+    {
+     "when": "under Constantine, date unknown",
+     "text": "Constantine's edict to the heretics names the Novatians first, with the Valentinians, Marcionites, Paulians and Cataphrygians, and their private gatherings.",
+     "reference": "Constantine, edict to the heretics, in Eusebius, Life of Constantine III.64, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66068-66080"
+    },
+    {
+     "when": "at the council of Nicaea, under Constantine",
+     "text": "Socrates writes that Constantine called Acesius, the Novatian bishop, to the council. Acesius said the council had set down nothing new on the faith or on the date of Easter. Asked why he then stayed apart, he told what had happened in the persecution under Decius. He spoke of the strict rule that those who commit a deadly sin after baptism may be urged to repent, but must look for forgiveness from God, not from the priest.",
+     "reference": "Socrates, Church History I.10, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 3690-3716",
+     "note": "Socrates says he heard it from a very old man, and that no other writer tells it."
+    },
+    {
+     "when": "at the council of Nicaea, under Constantine",
+     "text": "Socrates writes that Constantine answered Acesius: Place a ladder, Acesius, and climb alone into heaven.",
+     "reference": "Socrates, Church History I.10, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 3720-3721"
+    },
+    {
+     "when": "at the council of Nicaea",
+     "text": "The council's eighth canon rules that clergy of those who call themselves Cathari may stay in the clergy if they come over to the church. First they must promise in writing to share communion with the twice married, and with those who fell in persecution and have done penance.",
+     "reference": "Council of Nicaea, canon 8, cic/texts/npnf214_seven-ecumenical-councils.xml lines 3768-3779"
+    },
+    {
+     "when": "under Constantius, when Macedonius was bishop of Constantinople",
+     "text": "Socrates writes that in Macedonius's time the Novatians had three churches in Constantinople. Macedonius forced those who would not share communion with him to take it. When he had four companies of soldiers sent against the many Novatians of Mantinium in Paphlagonia, the people armed themselves with long reaping hooks and hatchets and met them. Many of the people died, and nearly all the soldiers.",
+     "reference": "Socrates, Church History II.38, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 9001-9010, 9089-9113",
+     "note": "Socrates says he had it from a peasant of Paphlagonia who was present."
+    },
+    {
+     "when": "under Theodosius",
+     "text": "Socrates writes that when Theodosius approved the creed that Nectarius and Agelius, the Novatian bishop, defended, he gave the Novatians a law securing their own church buildings and equal privileges, and they held their meetings in the city again.",
+     "reference": "Socrates, Church History V.10, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 15291, 15349-15366"
+    }
+   ]
+  },
+  {
+   "when": "5th century",
+   "headline": "Socrates writes of Novatian churches in his own day",
+   "witness": "Socrates of Constantinople",
+   "lines": [
+    {
+     "when": "in Socrates's own day",
+     "text": "Socrates writes that the strict discipline of the Novatian church is kept to his own day in Phrygia and Paphlagonia, where, he says, people seem more temperate than others and care little for the circus or the theater.",
+     "reference": "Socrates, Church History IV.28, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 14060-14061, 14109-14115"
+    },
+    {
+     "when": "21 July, in the sixteenth consulate of Theodosius, so 438",
+     "text": "Socrates writes that Paul, bishop of the Novatians, died, and that all the sects followed his body to the grave, singing psalms. Before he died, he named Marcian, a presbyter he had trained, to follow him.",
+     "reference": "Socrates, Church History VII.46, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 21490-21535; the consulate, lines 21469-21471, 21491-21492; the year is a conversion from the consulate"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Church History, with Cornelius's letter to Fabius, and Life of Constantine, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Letters, with those of Cornelius and the Roman confessors, and Novatian, On the Trinity, in English",
+   "author": "Cyprian of Carthage",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+  },
+  {
+   "title": "Church History, in English",
+   "author": "Socrates of Constantinople",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+  },
+  {
+   "title": "The canons of the Council of Nicaea, in English",
+   "author": "Council of Nicaea",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men, in English",
+   "author": "Jerome",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Chronicle, in Jerome's Latin",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+  }
+ ],
+ "uncertain": [
+  "Novatus or Novatian. Eusebius and Socrates call the leader at Rome Novatus. Cyprian and Jerome call him Novatian. Jerome's Chronicle gives two men: Novatus, a presbyter of Cyprian, who came to Rome and joined Novatian and the confessors to himself.",
+  "How he was made bishop. Only Cornelius, his rival, tells of three country bishops brought to Rome and forced, at the tenth hour, to lay hands on him. Cyprian says he was made bishop by bribery, by the hands of deserters. Socrates says bishops who shared his views raised him to the office. Novatian's own account of it is not held.",
+  "What he taught about the fallen. Eusebius, an opponent, says he held that they had no hope of salvation. Socrates says he wrote that they should be urged to repent, with their pardon left to God. Acesius, as Socrates tells it, said the same of every deadly sin after baptism.",
+  "The name. Eusebius and the council of Nicaea say they called themselves Cathari, the pure. Eusebius says they did so in the pride of their imagination.",
+  "Their own words. Of Novatian's party, only his On the Trinity and the confessors' short letter are held whole in their own words. Socrates quotes a few lines of Novatian's letter to the churches. The confessors' letter was written after they had left him.",
+  "Novatian's death. Socrates says he suffered martyrdom under Valerian. No other held witness tells of his death.",
+  "Their faith. Acesius, in Socrates, said the council of Nicaea set down nothing new on the faith. Socrates says Theodosius approved the creed of Agelius, the Novatian bishop, with that of Nectarius."
+ ]
+}

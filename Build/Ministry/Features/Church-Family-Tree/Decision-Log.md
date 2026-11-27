@@ -6192,3 +6192,223 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 - Eight briefs were recorded in Daniel's tradition settings (`Brief-Kit/Recording_Settings.md`), one brief per command, each command with `--char-cap 23000`. The sample counts as the first of three runs. In all, 30,885 characters were sent for 14,974 credits, and the balance moved by exactly that (`Build/Ministry/Operations/Audits/2026-11-26_batch-11-recording/Balance.md`).
 - The eight briefs: `apocryphal-and-pseudepigraphal-literature`, `greek-apologists-second-century`, `latin-apologists`, `marcion-marcionism`, `ebionite-nazoraean-current`, `manichaeism`, `antiochene-church-third-century`, `roman-church-third-century`. Each replaces that brief's old recording. Their paragraph times were remade by `align_tree_narration.py`.
 - The three built worlds in the proposal were not recorded: `alexandria-catechetical`, `syriac-edessa-nisibis` and `post-apostolic-house-church`. Their cards play the world's own narration and do not show the census brief, and the recording tool skips any world with its own `orientation.story`. `latin-pastoral-congregational-christianity` is the same. The built-world recordings that do not fit the card went to Mark as a list, and none is removed (Open-Gaps 435).
+
+## 2026-11-26 — The card site build: one layout for every card (Mark)
+
+**Why.** The Stage Two Kit, section 1, sets one card layout for a tradition, a person, a council and an era, and the census had no place for a tradition's or council's card sources, open questions, quotation originals and timeline, or for the short description ("The card design: one layout, and a timeline in periods", 2026-11-25; "The Family line view stays, joined to the new card", 2026-11-26). The mock, with Third-Century Rome and Polycarp at phone and desktop width: https://claude.ai/artifact/Ude7ZA3Bzjvegoj63YRvDi (version 1).
+
+**Decided (Mark, 2026-11-26): "yes for card site build".** The question put to him was "Is this the card to build?", with three settings at the recommendation: the Family line is drawn in sky blue (#7fd3ff) in place of forest green; tapping a card's direct line opens the Family line view; and a person's line is their home tradition's line.
+
+**Built.**
+- **The map's card panel** (`cft-website/index.html`), for all four kinds: the short description, the direct line and the player first; the brief's text below, behind Read along where its recording is current and open where it is not, with "Old sources for this brief" under it; then the menu in the kit's order: Timeline, People and stories, the kind's own sections (Key works for a person, What happened for a council, Traditions in this era for an era), Connections, Legacy and today, Open questions, Sources with Modern works apart. An empty section is left off, so a card with no timeline yet shows its other sections. Until a short description is written, the card shows the teaser (a tradition), `knownFor` (a person or council) or the tag line (an era).
+- **The direct line.** A tradition shows its own line, one step each way, up to three names then "and more"; a person shows their home tradition's line. Either is one button that opens the Family line view. On a phone the strip left above the map reopens the card the line was opened from. A council shows the major council before and after it, and an era the era before and after; each name opens its card.
+- **Every section kept a home.** A tradition's `why` is under Legacy and today ("Why it is on the tree"), its voices under People and stories ("Voices in the record"), its `relationsSummary` at the head of Connections; a person's and a council's dates and place head Timeline. The Who, Connections and Family line chips and the story teaser left the first screen; the Connections map view is in the Connections section.
+- **A built world's card** keeps its Representative line, its door and its world narration in the player; its fuller record joins the matching sections. Its playback is unchanged, which is Mark's call, still open.
+- **The tree pages** (`Build/tools/generate_tree_pages.mjs`) follow the same order, with the periods closed and a control to open them all.
+- **The census** (`meta.notes`) and **the validator** (`tools/validate-census.mjs`) take `shortDescription`, `briefSources`, `uncertain`, `quotationOriginals` and `timeline`: in `card` for a person, in `council` for a council, and on the entry for a tradition, a movement across churches and an era, which may also carry `longDescription` and `modernWorks`. No content was written: no entry carries the new fields yet.
+
+**Found and fixed.** The pull request of 2026-11-23 that made cards orient first ("Church Family Tree: cards orient first, briefs keep playing, paragraph jumps") deleted the functions behind the era card and behind going into an era, so tapping an era's title or its (i) mark, and choosing an era in search, threw an error and did nothing. Both are restored: the era card in the new layout, `goIntoEra` as it was.
+
+**Not done.** Open-Gaps, "The card site build: what is left open" (2026-11-26).
+
+## 2026-11-26 — The order of work, era 1 first, and built-world cards play their brief (Mark)
+
+**Why.** The coordinator put a checklist to Mark (coordinator session, 2026-11-26) and relayed his answers to the card site build to record here, word for word.
+
+**Decided (Mark, 2026-11-26).**
+1. Card content, era by era: "3. i want to fully finish all content for era one before moving on".
+2. Built-world cards. Asked whether Alexandria, Syriac Edessa–Nisibis, the post-apostolic house church and Latin pastoral should play their new brief instead of their world narration: "4. yes the new brief we can retire the world narration".
+3. Finishing era 1, its 20 people below C and its era brief: "5. yes this is the next step before 3 and 4."
+4. Batch 12, the era 2 traditions: "6. hold until era 1 is complete".
+5. Recording new council and tradition briefs as they are written, each run with his approval and a cap: "7. yes wen we move forward".
+6. The three thin era 1 traditions (Open-Gaps 417): "a". This lifts the source-research hold for those three only.
+7. The order of work before batch 12, "yes": the card site build finishes; one session moves batch 11's held tradition card fields into the census and fixes the tools (Open-Gaps 425 to 428), with the kit wording change (430) if he approves it; the built-world briefs are recorded under a cap he sets; the source research runs alongside; his three batch 11 rulings (429, 431, 432) come to him one at a time; then batch 12 restarts. In his words: "i want everything else done with batch 11 and other system work before starting batch 12".
+
+**Done in the card site build (ruling 2).** The four worlds' cards on the map show their brief, the census `longDescription`, as any tradition's card does. Under "Change order: a brief's recording stays until its new one replaces it" (2026-11-26), each keeps playing its world narration until its brief is recorded; meanwhile its brief shows open below the player. Once the brief's recording is current, the card plays the brief and the world narration leaves the card. `Build/tools/generate_tree_narration.mjs` narrates these four from their brief and no longer skips them, and their tree pages give them a player once that recording exists. The recordings themselves wait for Mark's capped approval. The world narration files are not moved or deleted here; they go to `Archive/` when each brief recording replaces them.
+
+## 2026-11-26 — The map now carries built worlds' briefs and the card layout fields
+
+**Why.** On the live check of the card site build, Alexandria's card showed neither its world narration nor its brief. The map's copy of the census (`engine/m6/census_atlas_sync.py`, run as `atlas-sync`) carried only a built world's `sources`, so the four built worlds that now show their brief ("The order of work, era 1 first, and built-world cards play their brief", 2026-11-26) had no brief to show. Its field lists also held none of the card layout fields, so a tradition's `shortDescription`, `briefSources`, `timeline`, `uncertain`, `quotationOriginals` and `modernWorks` would never have reached the map once written.
+
+**Done.** `atlas-sync` carries a built world's `longDescription` with its `sources`, and the card layout fields for every movement, built or not, removing them when the census drops them. The map now holds the brief of ten built worlds (the map uses it only for the four Mark named) and the modern works of three people. Tests in `engine/m6/tests/test_census_atlas_sync.py`. Checked in a browser on desktop and an emulated iPhone 13: Alexandria plays its world narration with its brief open below; Desert Monasticism is as before; John Chrysostom's card lists his modern works.
+
+## 2026-11-26 — Built-world cards: no Representative line at the top (Mark)
+
+**Decided (Mark, 2026-11-26).** "for the church family tree, we can remove the representitive at the top for built worlds, further dow we can have a link when we open it".
+
+**Done.** The Representative's name line and the Church in Conversation door ("coming soon" while conversations are not live) are removed from the top of every built world's map card and tree page, with the code and setting that drove them (`CONVERSATIONS_LIVE` in the map, `conversationsLive` in `Build/tools/tree_site_pages.json`). The Representative data stays in the census and `records/`. The link further down waits for Church in Conversation to reopen (Open-Gaps, "A link to meet the Representative, further down a built world's card", 2026-11-26).
+
+## 2026-11-26 — Novatianism shows the Katharoi (Mark)
+
+**Why.** Mark: "why is Novaitism not call The Catharoi, that seems to be the name of the movement in the audio".
+
+**Decided (Mark, 2026-11-26), from options: "a"**, "keep 'Novatianism' as the title and make the second line 'the Katharoi (the pure)', the way Montanism shows 'the New Prophecy'. Searching 'Katharoi' or 'Cathari' would also find it, and the brief and card match."
+
+**Done.** `novatianism`'s `name` is "Novatianism (the Katharoi)", its `shortName` still "Novatianism", as Montanism shows "Montanism (the New Prophecy)". Search finds it under "Katharoi" (its brief: "His congregations called themselves the Katharoi, the pure") and "Cathari" (Eusebius, Church History VI.43, NPNF 2/1: "call themselves Cathari", `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` lines 38268-38270). A search for "Cathari" shows Novatianism (the Katharoi) and the medieval Cathars / Albigensians as two results, each under its own name.
+## 2026-11-26 — Danubian Latin: the two open questions settled by the sources (Mark)
+
+**Why.** The Open-Gaps 417 source research left two questions for the `danubian-latin-christianity` rebuild (Open-Gaps 437): whether the Homoian bishops of the Danube are this entry's own voice, and whether Niceta of Remesiana enters its story.
+
+**Decided (Mark, 2026-11-26): "i am not an expert and cant answer these knowledbly, follow the sources".**
+1. The Homoian bishops. Their surviving letters and notes are written in Latin by bishops of Sirmium, Mursa, Singidunum and Ratiaria, the region's own sees, inside its years (Hilary's Collectanea; the Scolia Arriana). So they are this entry's own voice, and they also stay in `homoian-arian-christianity`. Hilary, Athanasius and Ambrose kept their words to answer them, so a brief gives both sides and carries neither forward. The corpus-map rows for the letters and the Scolia are now `tradition`.
+2. Niceta. Gennadius (Lives 22) names him bishop of Romatia; Paulinus of Nola's poems send him home "usque Dacos" and welcome him back (Carmina 17, 27). Those poems place him after this entry's map years. Under the kit, what came of a tradition may rest on a reliable later witness, so the brief may tell him at its end, as what came of the Danube church, not inside its window. Paulinus's Carmina (Hartel, CSEL 30, 1894) were vendored for this.
+## 2026-11-26 — River dots for traditions not yet drawn (Mark)
+
+**Decided (Mark, 2026-11-26).** "on the map when its scrolled out i think there should be dots on the river where traditions are not yet visable until scrolled in. no name just a dot that as you scroll it it changes to a house and name at the current levels". On what a tap does, from options: "a", "zoom the map in toward it until its house and name appear."
+
+**Built.** In the zoomed-out view, where only the leading traditions are drawn, every other tradition shows as a dot on its river, with no name, in the map's ink color at a fixed size on screen. At the zoom where its house and name appear today, the dot becomes them; the reveal levels are unchanged. A dot that would sit on a name or on another dot is left out, by the same collision grid the names use. Tapping or clicking a dot, or Enter on it, zooms in, centered on it, to where its house and name show, and moves the keyboard focus to it. Each dot is a button labelled with the tradition's name and "Zooms in to show it on the map", with the map's focus ring.
+
+**Result.** Measured in a browser at the zoom steps of the zoomed-out view (0.30, 0.42, 0.49), desktop and an emulated iPhone 13: no dot sits on a name or on another dot, and no dot carries a name. A tap and Enter each zoomed in and showed the house and name. Two browser tests in `Build/tools/tree_map_view.test.mjs`.
+
+## 2026-11-26 — Era 1 first cards approved; "Church in Conversation Tradition", and no public "world" (Mark)
+
+**Why.** The era 1 cards thread showed Mark one real card of each kind (tradition, Church in Conversation tradition, person, council, era, story, connection, river), each at phone width with its evidence beside it (`Build/Ministry/Operations/Audits/2026-11-26_era1-cards/`, page https://claude.ai/artifact/CVzArtefSKCkoRRyC23ZfB), and asked "Are these the first cards to build the rest of era 1 on?" The page labeled the second card "built world".
+
+**Decided (Mark, 2026-11-26, through the coordinator), his words verbatim, in order:** "yes, but let say church in conversation world instead of built world"; then "Church in Conversation Tradition"; then "we have replaced all "world" references with "Christian Tradition" as world is an internal term, not a public facing term". The rest of era 1 is built on these cards by the same process (one write, one independent check, only the checker's fixes applied), including the proposed layout for story, connection and river cards, and the flagged unsourced or modern claims in the existing story, connection, council and river texts are fixed the same way. "World" never appears in anything a visitor reads (card text, labels, headings, tree pages, search, audio labels such as "world narration"): it says "Christian Tradition", and "Church in Conversation Tradition" for the eleven built traditions. Internal names (file paths, code ids, `Build/worlds/`, `BRIEF_WORLD_IDS`) stay.
+
+**What the approval covers (Mark, 2026-11-26, verbatim):** "for content yes, this is the cards approved. for look it will be what is now in place the dark screen etc." The first set's sections and content are approved. Every card, the new story, connection and river cards included, is built in the live site's existing visual design in `cft-website/` (its dark screen, fonts, colors and card styling); nothing is taken from the review page's styling.
+
+**The card standard (Mark, 2026-11-26, verbatim):** "we want the same craft, rigor and accessability we had for the briefs, but in a card form not narritive for audio." Every card text meets Brief Kit Part 1 (Craft, Rigor, Accessibility, the four faults) and the bar in Part 3, written to be read and scanned rather than heard: each line clear on its own, with no narrative moves (opening scene, hook, arc, closing image). The full wording is in `Build/Ministry/Operations/Audits/2026-11-26_era1-cards/Header.md`, "The card standard"; it is to be folded into the kit (`roles/card.md`) when the kit is next updated ("The kit is left as it is; rulings are logged and folded in later", 2026-11-26).
+
+**Card grades (Mark, 2026-11-26, verbatim):** "10.1 is ok for the card as there are a lot of names and references". The Africa river and the sister story short descriptions score 10.1 on the full text (7.5 and 9.9 with names out) and keep their approved wording. On a card, a full-text grade a little over 10 that comes from names and references passes when the names-out grade is within the limits.
+
+**Dates from the sources' clues (era 1 cards).** Mark, 2026-11-26, verbatim: "we can use some logic to get the dates, if there are sources that give us clues we can also say around 410 to 430 if there is truelly no way to figure it out". So a shown date may be worked out from the old sources' own clues (a regnal year, a consul, a named bishop or ruler, an event the source ties it to), with the working shown in `datesNote` or the timeline line's reference ("the eleventh year of Yazdegerd, so about 410"). Where the clues give no single year, give the range they allow ("around 410 to 430"). Only where nothing in the sources narrows it does the line say "date unknown" or the record's own phrase. This reads Part 1's date rule ("told only as roughly as the old sources allow") for the cards; it is to be folded into the kit when the kit is next updated.
+
+**Modern works on the cards.** Mark, 2026-11-26, verbatim: "the modern sources can be included in the cards as places for further research or checking credibility if they are historical and not speculitive". A modern work of historical scholarship (an edition, a translation, a reference history, a chronology) may be listed in a card's Modern works, as a place for further reading or for checking the card's credibility, with one line on what it covers, never what it argues. It is never the source of a claim, date or identification in the card's own text or timeline, and a year that only modern reckoning gives is not stated on the card; the work that reckons it may be listed. Speculative or argued work (reconstructions, contested identifications, hypotheses) is left out. This sits inside "The brief kit consolidated: one standard, six kind kits" (2026-11-24), decision 6 ("modern works are a reading list only ... No modern opinion, date or identification appears anywhere on the tree"; Open-Gaps 409), and does not change it.
+
+**Rests on.** Messaging and Branding Kit Decision Log, "2026-07-17 (later) — DECIDED: the three-word system — tradition / Christian movement / world" (`Build/Ministry/Communication/CiC_Messaging_Branding_Kit_Decision_Log.md`): "World — the inward build vocabulary (formation worlds) ... never as the outward category term", after Mark's "i through we were moving to christian tradition as the outward facing term, and world is an inward definition."
+
+## 2026-11-26 — Era 1 cards released in part (Mark)
+
+**Why.** Fourteen era 1 traditions, Polycarp, the councils of 251 and the era 1 card had passed their write, independent check and verbatim fixes (`Build/Ministry/Operations/Audits/2026-11-26_era1-cards/`). Story, connection and river cards need site code first, and the allowance was nearly spent. One pull request for all of era 1 had been agreed. Mark was offered: release these 17 cards now, or wait for the rest after Friday's reset.
+
+**Decided (Mark, 2026-11-26): "1"** (release now). Their `shortDescription`, `timeline`, `briefSources`, `uncertain` and `quotationOriginals` go into the census, with their shown `dates` by the date rule. The rest of era 1 follows in a later pull request.
+
+## 2026-11-27 — The kit's wording: "brief" for the opening audio text (Mark)
+
+**Why.** The audio introduction is a brief, not a story (Decision-Log, 2026-11-25). The kit and role files still said "story" for it in places (Open-Gaps 430). The coordinator asked Mark: "A: bring the kit's wording into line. You ruled that the opening audio text is a 'brief', but the kit still calls it a 'story' in about 26 places, some of which really do mean stories (Open-Gaps 430). It's one mechanical pass with a check, and the kit is locked, so it only needs your words to approve it."
+
+**Decided (Mark, 2026-11-27): "a"**. One checked pass over `Brief-Kit/Kit.md` and `Brief-Kit/roles/`: "story" becomes "brief" where it means the opening audio text, and stays where it means a real story. Nothing else in the kit changes.
+
+**Done.** Five uses changed, all the reference briefs (`reference/*.brief.txt`): Kit.md Part 3 steps 3 and 5 (three uses), `roles/reviewer.md` and `roles/writer.md`. Sixty-five kept: real stories, file and outline-field names, and the batch item, and every use in a rule that covers all kinds, documented and map stories included. A list of every use, with its reason, was checked by an independent reader.
+
+## 2026-11-27 — The kit's general word for a piece of text is "text" (Mark)
+
+**Why.** Eighteen uses of "story" in the kit and role files sit in rules that cover briefs, documented stories and map stories alike (Open-Gaps 441). The coordinator asked Mark: "what should the kit call a piece of text in the 18 rules that cover briefs, documented stories and map stories alike? A (recommended): 'text', as in 'every text is checked against a held line'. B: 'piece'. C: name the kinds each time."
+
+**Decided (Mark, 2026-11-27): "A"**. In those eighteen uses the word is "text" (or "text's"). Nothing else in the kit changes. Kit.md line 36 ("The audio tells the story") was a separate question.
+
+**Decided (Mark, 2026-11-27): "C"**. The coordinator asked: "Kit line 36 currently reads 'The audio tells the story'. What should it say? A: 'The audio reads the brief.' B: 'The audio tells it.' C: Leave it as it is. The line is about how the audio should sound, not what it's called, so 'story' can stand there as ordinary English." Line 36 stays as it is.
+
+**Done.** Eighteen uses changed: eleven in Kit.md, one in `roles/checker.md`, one in `roles/release.md`, three in `roles/researcher.md` and two in `roles/reviewer.md`. An independent reader confirmed the count and that nothing else changed.
+
+## 2026-11-27 — The kit is put back as it was: the "brief" naming applies to cards only (Mark)
+
+**Why.** The two kit wording changes of 2026-11-27 (Decision-Log, "The kit's wording: "brief" for the opening audio text", and "The kit's general word for a piece of text is "text"") moved the kit's wording. The coordinator then relayed a further ruling from Mark and asked him: "Should I undo those two kit changes? A (recommended): yes, put the kit back exactly as it was before today".
+
+**Decided (Mark, 2026-11-27): "This is naming and should only impact cards"**. To the question above he answered: "A". `Brief-Kit/Kit.md` and `Brief-Kit/roles/` are restored to their state before the first change; the kit is unchanged by the naming ruling. The two earlier entries stay in this log as the record.
+
+## 2026-11-27 — The House Church brief's household slip is fixed (Mark)
+
+**Why.** The card checks on `claude/built-world-short-descriptions` (`Short-Descriptions/2026-11-26_built-worlds/Check.md` and `Check_v2.md`) found that the `post-apostolic-house-church` brief, paragraph 2, said the churches' letters "greet one another household by household". In the held letters only Ignatius greets a church's households, and only Smyrna's (Smyrnaeans 13, anf01 8503–8508; To Polycarp 8, anf01 8868–8869). The coordinator asked Mark: "fix the House Church brief's wording slip. The brief says the churches greeted one another household by household. In the sources, only Ignatius greets one church's households. That's an accuracy fix in live text, and it's needed before that brief is recorded."
+
+**Decided (Mark, 2026-11-27): "a"**.
+
+**Done.** The erroneous clause is cut. The household greeting is told once, in the brief's Ignatius paragraph (see Mark's note below).
+
+- Before: "In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together, and their letters greet one another household by household."
+- After: "In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together."
+
+The census `longDescription`, the live brief (backup `brief.v7.txt`) and the outline's essence, "Who they were" and Do not say lines changed with it (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/`). An independent checker confirmed the new sentence against the held lines and that nothing else changed. Readability: 668 words, grade 7.3, reading ease 75.3, pass.
+
+**Mark's note (2026-11-27), relayed by the coordinator: "i liked it, but if its not credible, i guess its not right".** He liked the picture of churches known household by household. The coordinator asked that as much of it be kept as the held lines support, told as Ignatius's own. So the Ignatius paragraph now carries it:
+
+- Before: "He greeted households, and asked Polycarp, bishop of Smyrna, to have churches send messengers or letters to Antioch."
+- After: "He greeted the church at Smyrna household by household, and asked Polycarp, its bishop, to have churches send messengers or letters to Antioch."
+
+A second independent checker confirmed it against Smyrnaeans 13, To Polycarp 8 and the inscription of To Polycarp ("Bishop of the Church of the Smyrnæans", anf01 8535), and that it repeats nothing else in the brief. No recording exists, so no audio work. The entry's `entry.tile` carries the same phrase ("Their letters greet one another household by household."); it was outside this ruling and is left for Mark (Open-Gaps, "The House Church brief's household slip", 2026-11-27).
+
+## 2026-11-27 — The House Church tile's household slip is fixed (Mark)
+
+**Why.** The `entry.tile` of `post-apostolic-house-church` in `cic-website/data/world-census.json` carried the same slip as the brief (Decision-Log, "The House Church brief's household slip is fixed", 2026-11-27). The coordinator asked Mark: "The House Church's short tile line still says 'Their letters greet one another household by household.' Should the same fix go there? A (recommended): yes, reword it the same way, telling the picture as Ignatius's greeting to Smyrna."
+
+**Decided (Mark, 2026-11-27): "a"**.
+
+**Done.** The false sentence is cut. The picture now follows the tile's Ignatius sentence, as his.
+
+- Before: "…met together. Their letters greet one another household by household. A short manual…" and "…should act as one around its bishop. Near the end…"
+- After: "…met together. A short manual…" and "…should act as one around its bishop. He greeted the church at Smyrna household by household. Near the end…"
+
+An independent checker confirmed it against Smyrnaeans 13 and To Polycarp 8 (anf01 8503–8508, 8868–8869), and that nothing else changed. Neither `records/worlds/` nor `Build/Ministry/Features/Conversation-Chooser/Card-Words/Approved-Card-Words.yaml` holds the sentence; they were left alone.
+
+## 2026-11-27 — Owner opt-out from the tree's own counts (Mark)
+
+Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon does not stop the tree's own counts, because they go to the tree's own worker.
+
+**Decided.** Opening the map with `?count=off` sets a flag in that browser's localStorage (`cft-count-off`), and the map then sends no events. `?count=on` clears it. A short note says so once. The Privacy page says any visitor can do this. The test is `Build/tools/cft_count_optout.test.mjs`.
+
+**Past data.** The counts carry nothing that identifies a device, so Mark's visits before this change cannot be separated and are not filtered.
+
+**Added the same day (Mark, 2026-11-27, relayed by the coordinator).** "you have the ability to know if this is and internal thing, my computer etc." The event worker (`/e`) also drops any event whose request address is in the comma-separated `OWNER_IPS` binding. The addresses live only in the worker's secret, never in the repository, logs or reports. The `?count=off` flag stays for other networks. Test: `cic-worker/worker.test.mjs`.
+## 2026-11-27 — The House Church brief names the Didache (Mark)
+
+**Why.** On the tile's "A short manual taught newcomers the Two Ways…", Mark wrote: "what do you mean a short manual thats crap". Offered options, he wrote "it doesnt read a", which the coordinator took as A: name the text. The coordinator then narrowed the job: the tree no longer reads `entry.tile`, and Mark said "we dont need the longer version do we?". So the tile is left alone, and only the brief (`longDescription`), which had the same vague wording, is fixed.
+
+**Done.** Brief paragraph 3:
+
+- Before: "A short manual, whose writer, date and place no one knows, opens on the Two Ways."
+- After: "A church handbook called the Didache, a Greek word for teaching, opens on the Two Ways. No one knows who wrote it, or when or where."
+
+The held text's title is "The Teaching of the Twelve Apostles", and the editors give the Greek word (anf07 12477–12499, 12621). Its Two Ways open at anf07 12698 and its baptism follows at 12910–12918. The gloss only explains a word. An independent checker confirmed the new wording and that nothing else changed. The outline's Do not say line is updated to match. Readability: 678 words, grade 7.2, reading ease 75.7, pass.
+
+## 2026-11-27 — Standard visitor analytics replace the cookie-free counts (Mark)
+
+Mark, relayed by the coordinator: "yes track as other sights do, this hyper privacy is not working." Mark then asked what else makes the program harder to run, said he is learning and wants it simpler, closer to industry practice and more valuable, and said the aim is "to build a better program that i can show value and industry alignment". Then: "cinverged, auto mode".
+
+**Supersedes** "Analytics and privacy (Q7, option B). Cookie-free counts only" (item 11 above) and the 2026-11-21 line "nothing that stands for a person is made or sent" (Measuring visits).
+
+**Decided.**
+1. Each browser gets a random visitor number, kept in a first-party cookie and in localStorage for one year, and sent with every event.
+2. The worker stores country, region and browser family from Cloudflare's request data, beside the device type the map already sends. No raw IP address is stored.
+3. Owner traffic is left out three ways: the `OWNER_IPS` binding drops events at the worker; `?count=off` stops a device sending; and `?count=off` also sends one `owner` event carrying that device's visitor number, and `tools/cft_usage_report.py` leaves out every event from such a number, past and future.
+4. The report gives unique visitors, returning visitors, visits per visitor, a country and region split and a browser split.
+5. The Privacy page is rewritten to say what is collected, why, for how long and how to opt out.
+
+**Open.** Cloudflare Web Analytics has no site token on any page, so the Privacy page no longer mentions it. The numbers by visitor start on 2026-11-27, because earlier events carry no visitor number.
+## 2026-11-27 — Public wording of About, Privacy and system messages (Mark)
+
+**Why.** Mark, relayed by the coordinator: "clean up our about and system wording. we don't need to tell them everything, follow the pattern of others, only say what is required and what is positive, no saying things that are system insider stuff". The review page showed every string, before and after.
+
+**Mark's words on the review, verbatim.**
+- "the 11 are for church in conversation, for this we only say you can access church in conversation from a growin gnumber of christian traditions (worlds is an internal term)"
+- "yes, recommentations, also how are we funded, by contricutions"
+- "not gifts, that sounds non-profit, use wording that is more appropriate for pbc"
+- "reveiw by church history experts coming soon" and "2. Niceene Creed not later ones"
+- "maybe not comming sood, as funding or partnerships are dependents, maybe review by experts depending on funding and partnerships (make it sound right dont use my wording)"
+
+**Done.**
+- About and Privacy are rewritten in `Build/tools/tree_site_pages.json`. About drops the "told in full" count, the confidence-grade names, the gazetteer note, permanent IDs and the data-file address. It says the tree is free and that contributions from its users support it. It says Church in Conversation can be reached from a growing number of Christian traditions on the tree. Privacy keeps every fact it stated before. It adds that `?count=off` stops the map's own counting and leaves Cloudflare's visit totals as they are. Gifts are called contributions.
+- The review line, on the map and on every tree page, now reads "Checked with AI tools. Review by church history experts is planned as funding and partnerships allow." About says the same.
+- "Doctrinal floor note" becomes "On the Nicene Creed" on the map and on the tree pages. The text under it is unchanged.
+- Council name tags "Profile to come", "Not yet assessed" and "Listed" are no longer shown. "Told in a story" stays.
+- On the map: the source-library sentence, "Full source registry", "not yet graded", the unchecked-pair note, "next window", the Representative key entry, "Narrated Edition", "Old sources", the counting note and the footer are reworded. The empty orientation note is now hidden.
+- On the tree pages: "No sources recorded" and the empty description are hidden. "About This Movement" becomes "About This Tradition", the retired page says "No longer on the tree", and the footer matches the map's.
+
+**Change order.** The review page also showed tree-page headings in sentence case. The tree pages set every heading in Title Case, so changing only the listed ones would have mixed the two styles on one page. The casing is left as it was, and only the word changes are made.
+
+**Readability.** About scores grade 5.5, reading ease 71.4. Privacy scores grade 5.5, reading ease 76.9. Both are within the hard limits. Both are below the grade-8 floor, which is a warning only; no text was padded to move it.
+
+**Not touched.** The feedback bar and the audio player scripts are shared with churchinconversation.com. The Help us grow page still says "Give once" and "Give monthly", which may want the same PBC wording.
+
+## 2026-11-27 — Visitor tracking widened: city, tagged links, visit length, and a consent notice for Europe (Mark)
+
+Mark: "Yes. Build industry-standard visitor tracking: a first-party visitor ID cookie (1 year), unique and returning visitors, visit length and pages, sources including tagged links for my posts, country/region/city, device and browser, plus the engagement counts we already have. Don't store IP addresses. Exclude my devices and home address. Add a consent notice for European visitors only. Update the Privacy page plainly and replace the cookie-free rule."
+
+This builds on "Standard visitor analytics replace the cookie-free counts" above, which already superseded the cookie-free rule.
+
+**Decided.**
+1. The worker also stores the city (Cloudflare's request data) and the tagged-link fields (`utm_source`, `utm_medium`, `utm_campaign`, kept as one short field read when the page opens).
+2. A visit is one visitor on one day. The report gives minutes in use and cards opened per visit, plus a city split and a tagged-link split. No IP address is stored.
+3. Consent: the worker answers `/region` with whether the request comes from Europe (EU, EEA, UK, Switzerland), and nothing about the visitor is kept. In Europe the map asks first; until "Yes" it sets no cookie and sends nothing, and "No thanks" removes the cookie and is remembered. Outside Europe it counts as before. If the lookup fails, nothing is counted.
+4. Owner exclusion: the home address goes in the `OWNER_IPS` binding on the worker `church-family-tree`, never in the repository. Mark's devices are excluded by `?count=off`, which also marks an existing visitor number as the owner's.
+5. The Privacy page says all of this in plain words.

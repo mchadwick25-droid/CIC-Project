@@ -76,12 +76,14 @@ const MOVEMENT_KINDS = new Set(["cross-church movement", "person", "major-counci
 // --- eras ---
 if (!Array.isArray(d.eras) || d.eras.length === 0) errs.push("eras: missing/empty");
 const eraNums = new Set();
+const eraCards = [];
 (d.eras ?? []).forEach(e => {
   eraNums.add(e.num);
   for (const k of ["no", "num", "title", "dates", "ground", "groundDark"])
     if (e[k] == null) errs.push(`era ${e.num ?? "?"}: missing ${k}`);
   if (e.ground && !HEX.test(e.ground)) errs.push(`era ${e.num}: bad ground hex`);
   if (e.groundDark && !HEX.test(e.groundDark)) errs.push(`era ${e.num}: bad groundDark hex`);
+  eraCards.push(e);
 });
 
 // --- movements ---
@@ -202,7 +204,7 @@ function shelfAuthor(movementId, rowId) {
   return shelfCache.get(movementId).get(rowId);
 }
 // A person card: one-line summary, role, up to three key works, legacy, open questions and the sources behind it.
-const CARD_KEYS = ["otherNames", "label", "knownFor", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources", "briefReferences", "quotationOriginals"];
+const CARD_KEYS = ["otherNames", "label", "knownFor", "shortDescription", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources", "briefReferences", "quotationOriginals", "briefSources", "timeline"];
 // The printed wording behind each quotation a brief or story gives in our modern English: the modern words as it
 // quotes them, the printed words, the work they come from, the file the entry cites and the lines that hold them, and the verdict of the second
 // reading, with a note where the two readings differ. Where the printed wording is a translation, the original may be
@@ -284,6 +286,54 @@ function checkOtherNames(list, at) {
 }
 const plain = x => typeof x === "string" && x.trim() !== "";
 const isObj = x => x !== null && typeof x === "object" && !Array.isArray(x);
+// The card layout's own fields (Stage Two Kit, sections 1 and 2): a short description of one or two sentences; the short
+// list of old sources the brief draws on, each {title, author?, file?}, a file being one under cic/texts/; the open
+// questions, as plain strings; and the timeline, in periods, each {when, headline, witness?, lines}, every line
+// {when, text, reference, note?}. A person keeps them in card, a council in council, a tradition and an era on the entry.
+const BRIEF_SOURCE_KEYS = ["title", "author", "file"];
+const PERIOD_KEYS = ["when", "headline", "witness", "lines"];
+const TIMELINE_LINE_KEYS = ["when", "text", "reference", "note"];
+function checkCardLayout(obj, at) {
+  if (obj.shortDescription !== undefined && !plain(obj.shortDescription)) errs.push(`${at("shortDescription")} must be a non-empty string`);
+  if (obj.briefSources !== undefined) {
+    if (!Array.isArray(obj.briefSources) || !obj.briefSources.length) errs.push(`${at("briefSources")} must be a non-empty list`);
+    else obj.briefSources.forEach((s, i) => {
+      const p = `briefSources[${i}]`;
+      if (!isObj(s)) { errs.push(`${at(p)} must be an object with title`); return; }
+      Object.keys(s).filter(k => !BRIEF_SOURCE_KEYS.includes(k)).forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: ${BRIEF_SOURCE_KEYS.join(", ")})`));
+      if (!plain(s.title)) errs.push(`${at(`${p}.title`)} must be a non-empty string`);
+      if (s.author !== undefined && !plain(s.author)) errs.push(`${at(`${p}.author`)} must be a non-empty string`);
+      if (s.file !== undefined && !(plain(s.file) && s.file.startsWith("cic/texts/") && existsSync(s.file))) errs.push(`${at(`${p}.file`)} ${s.file} must be an existing file under cic/texts/`);
+    });
+  }
+  if (obj.uncertain !== undefined && (!Array.isArray(obj.uncertain) || obj.uncertain.some(x => !plain(x)))) errs.push(`${at("uncertain")} must be a list of non-empty strings`);
+  if (obj.timeline === undefined) return;
+  if (!Array.isArray(obj.timeline) || !obj.timeline.length) { errs.push(`${at("timeline")} must be a non-empty list of periods`); return; }
+  obj.timeline.forEach((per, i) => {
+    const p = `timeline[${i}]`;
+    if (!isObj(per)) { errs.push(`${at(p)} must be a period object`); return; }
+    Object.keys(per).filter(k => !PERIOD_KEYS.includes(k)).forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: ${PERIOD_KEYS.join(", ")})`));
+    ["when", "headline"].forEach(k => { if (!plain(per[k])) errs.push(`${at(`${p}.${k}`)} must be a non-empty string`); });
+    if (per.witness !== undefined && !plain(per.witness)) errs.push(`${at(`${p}.witness`)} must be a non-empty string`);
+    if (!Array.isArray(per.lines) || !per.lines.length) { errs.push(`${at(`${p}.lines`)} must be a non-empty list`); return; }
+    per.lines.forEach((l, j) => {
+      const q = `${p}.lines[${j}]`;
+      if (!isObj(l)) { errs.push(`${at(q)} must be an object`); return; }
+      Object.keys(l).filter(k => !TIMELINE_LINE_KEYS.includes(k)).forEach(k => errs.push(`${at(`${q}.${k}`)} is not allowed (allowed: ${TIMELINE_LINE_KEYS.join(", ")})`));
+      ["when", "text", "reference"].forEach(k => { if (!plain(l[k])) errs.push(`${at(`${q}.${k}`)} must be a non-empty string`); });
+      if (l.note !== undefined && !plain(l.note)) errs.push(`${at(`${q}.note`)} must be a non-empty string`);
+    });
+  });
+}
+const ENTRY_LAYOUT_KEYS = ["shortDescription", "briefSources", "timeline", "uncertain", "quotationOriginals"];
+function checkEntryLayout(m) {
+  const present = ENTRY_LAYOUT_KEYS.filter(k => m[k] !== undefined);
+  if (!present.length) return;
+  if (isPerson(m) || isCouncil(m)) { present.forEach(k => errs.push(`${m.id}: ${k} is kept in ${isPerson(m) ? "card" : "council"} for a ${isPerson(m) ? "person" : "major council"}`)); return; }
+  const at = p => `${m.id}: ${p}`;
+  checkCardLayout(m, at);
+  if (m.quotationOriginals !== undefined) checkQuotationOriginals(m, m.quotationOriginals, m.longDescription, { sources: m.sources ?? [], briefSources: m.briefSources ?? [] }, at);
+}
 function checkCard(m) {
   const at = p => `${m.id}: card.${p}`;
   const card = m.card;
@@ -321,6 +371,7 @@ function checkCard(m) {
     }
   }
   if (card.uncertain !== undefined) strings(card.uncertain, "uncertain");
+  checkCardLayout(card, at);
   if (card.briefReferences !== undefined) strings(card.briefReferences, "briefReferences");
   if (card.quotationOriginals !== undefined) checkQuotationOriginals(m, card.quotationOriginals, m.longDescription, card.sources, at);
   if (card.sources !== undefined) {
@@ -356,7 +407,7 @@ function checkCouncil(m) {
   const c = m.council;
   if (!isCouncil(m)) { errs.push(`${m.id}: council is only for a major council`); return; }
   if (!isObj(c)) { errs.push(`${m.id}: council must be an object`); return; }
-  const allowed = ["rivers", "knownFor", "datesNote", "issue", "calledBy", "attended", "decided", "outcome", "record", "traditions", "uncertain", "sources", "howItWorked", "briefReferences", "quotationOriginals"];
+  const allowed = ["rivers", "knownFor", "shortDescription", "datesNote", "issue", "calledBy", "attended", "decided", "outcome", "record", "traditions", "uncertain", "sources", "howItWorked", "briefReferences", "quotationOriginals", "briefSources", "timeline"];
   Object.keys(c).filter(k => !allowed.includes(k)).forEach(k => errs.push(`${at(k)} is not allowed (allowed: ${allowed.join(", ")})`));
   const text = (key, required) => { if (c[key] === undefined) { if (required) errs.push(`${at(key)} is required`); } else if (!plain(c[key])) errs.push(`${at(key)} must be a non-empty string`); };
   const list = (key, required) => {
@@ -366,6 +417,7 @@ function checkCouncil(m) {
   };
   text("knownFor", true); text("datesNote", false); text("calledBy", false);
   list("issue", true); list("decided", true); list("outcome", true); list("attended", false); list("uncertain", false); list("howItWorked", false); list("briefReferences", false);
+  checkCardLayout(c, at);
   if (c.quotationOriginals !== undefined) checkQuotationOriginals(m, c.quotationOriginals, m.longDescription, c.sources, at);
   (m.documentedStories ?? []).forEach((s, i) => {
     if (s?.quotationOriginals !== undefined) checkQuotationOriginals(m, s.quotationOriginals, s.text, c.sources, p => `${m.id}: documentedStories[${i}].${p}`);
@@ -568,6 +620,7 @@ function finishQuotes() {
   }
   if (isPerson(m) && m.peopleNote !== undefined) errs.push(`${m.id}: a person entry has no peopleNote`);
   if (m.card !== undefined) checkCard(m);
+  checkEntryLayout(m);
   checkModernWorks(m);
   if (isCouncil(m) || m.council !== undefined) checkCouncil(m);
   if (isPerson(m) || isCouncil(m)) checkQuotes(m);
@@ -666,6 +719,17 @@ finishQuotes();
   const names = [who.shortName, who.name].filter(Boolean);
   const texts = [e.note ?? "", ...(e.sources ?? []).map(s => s.quote ?? "")];
   if (!names.some(n => texts.some(t => t.includes(n)))) errs.push(`${tag}: concerns ${e.concerns}, but neither its note nor a source quote names ${names.join(" or ")}`);
+});
+
+// --- era cards (Stage Two Kit, section 1; Brief-Kit/kinds/era.md): the card's own fields, on the era ---
+const ERA_KEYS = ["no", "num", "title", "academicName", "dates", "keyEvents", "tag", "stepStatus", "ground", "groundDark", "rec", "chooserTint", "shortDescription", "longDescription", "briefSources", "timeline", "uncertain", "modernWorks", "quotationOriginals"];
+eraCards.forEach(e => {
+  const at = p => `era ${e.num}: ${p}`;
+  Object.keys(e).filter(k => !ERA_KEYS.includes(k)).forEach(k => errs.push(`${at(k)} is not allowed (allowed: ${ERA_KEYS.join(", ")})`));
+  if (e.longDescription !== undefined && !plain(e.longDescription)) errs.push(`${at("longDescription")} must be a non-empty string`);
+  checkCardLayout(e, at);
+  checkModernWorks({ id: `era ${e.num}`, modernWorks: e.modernWorks });
+  if (e.quotationOriginals !== undefined) checkQuotationOriginals(e, e.quotationOriginals, e.longDescription, { briefSources: e.briefSources ?? [] }, at);
 });
 
 // --- retired links and movements: never reused, replacements resolve ---

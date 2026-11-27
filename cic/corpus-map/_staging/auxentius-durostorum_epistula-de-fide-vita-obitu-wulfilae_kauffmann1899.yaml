@@ -15,3 +15,14 @@ assignments:
       statement in the corpus. Confirmed genuinely legible despite the
       supplying report's own (incorrect) flag that no plain-text
       derivative existed.
+  - row_id: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899--scolia-arriana-palladius
+    work: 'Scolia Arriana: Palladius of Ratiaria and Secundianus at Aquileia (381), with Auxentius of Durostorum'
+    author: auxentius-durostorum
+    locus: Kauffmann's edition; Palladius and Secundianus at about file lines 448-464 and 707
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: 'The Homoian bishops of Ratiaria and Durostorum on the lower Danube in their own words, written
+      in the margins of a manuscript: this region''s bishops, so this entry''s own voice, as they are also
+      homoian-arian-christianity''s.'

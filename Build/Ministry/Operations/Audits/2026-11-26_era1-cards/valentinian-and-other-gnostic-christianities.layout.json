@@ -1,0 +1,265 @@
+{
+ "shortDescription": "At Rome and in Egypt, the teacher Valentinus and his students told of a highest God, the Father of all, above a lesser maker of this world. They taught that the Savior came to make that Father known.",
+ "dates": "2nd to 4th c.",
+ "timeline": [
+  {
+   "when": "Under Hadrian and Antoninus Pius",
+   "headline": "Basilides writes, and Valentinus comes to Rome",
+   "lines": [
+    {
+     "when": "in the times of Hadrian",
+     "text": "Clement of Alexandria writes that the founders of the heresies arose in the times of the emperor Hadrian and lasted into the age of Antoninus, among them Basilides. Basilides' followers boast that his teacher was Glaucias, the interpreter of Peter.",
+     "reference": "Clement of Alexandria, Stromata VII.17, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 52955-52960",
+     "note": "Clement was an opponent."
+    },
+    {
+     "when": "date unknown",
+     "text": "Clement writes that Valentinus' followers claim he was a hearer of Theudas, a pupil of Paul.",
+     "reference": "Clement of Alexandria, Stromata VII.17, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 52962-52967",
+     "note": "His followers' claim, as Clement reports it."
+    },
+    {
+     "when": "date unknown",
+     "text": "Clement quotes Basilides, in the twenty-third book of his Exegetics, on why martyrs suffer: those who sinned unawares in other things, he says, are brought to this good end by the kindness of the one who leads them.",
+     "reference": "Clement of Alexandria, Stromata IV.12, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 38952-38957"
+    },
+    {
+     "when": "in the time of Hyginus, bishop of Rome",
+     "text": "Irenaeus writes that Valentinus came to Rome in the time of Hyginus, flourished under Pius, and stayed until Anicetus.",
+     "reference": "Irenaeus, Against Heresies III.4.3, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 39969-39970",
+     "note": "Irenaeus, a bishop and an opponent, wrote later in the same century."
+    },
+    {
+     "when": "about 140, the third year of Antoninus",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, says that while Hyginus was bishop of Rome, Valentinus the heretic and Cerdo, Marcion's teacher, came to Rome.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42747-42750; the year is a conversion, worked out from the Chronicle's own date, the third year of Antoninus, counting his reign from 138",
+     "note": "Written more than two centuries later."
+    },
+    {
+     "when": "about 143, the sixth year of Antoninus",
+     "text": "The Chronicle says Valentinus the heretic becomes known, and remains until Anicetus.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42765-42769; the year is a conversion, counting Antoninus's reign from 138"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius heard that some said Valentinus was born on the coast of Egypt and was taught Greek learning at Alexandria. He calls the report uncertain.",
+     "reference": "Epiphanius, Panarion 31.2, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 28941-28948",
+     "note": "Written late in the 4th century."
+    }
+   ]
+  },
+  {
+   "when": "Middle of the 2nd century",
+   "headline": "Valentinus breaks with the church, and his followers are named after him",
+   "lines": [
+    {
+     "when": "in Justin's own time",
+     "text": "Justin writes that his own people name some who call themselves Christians after the men their teaching came from: Marcians, Valentinians, Basilidians and Saturnilians.",
+     "reference": "Justin, Dialogue with Trypho 35, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 19244-19256"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Valentinus had hoped to become a bishop, being able in mind and speech. When another man won the place by a claim his suffering for the faith had given him, Valentinus broke with the church.",
+     "reference": "Tertullian, Against the Valentinians 4, cic/texts/anf03_tertullian.xml lines 43109-43113; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9633-9634, 9652-9653",
+     "note": "Tertullian's account, an opponent's. He names no city."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Marcion and Valentinus were at first believers in the church of Rome, and were expelled more than once for their restless curiosity, which spread to the brethren.",
+     "reference": "Tertullian, Prescription Against Heretics 30, cic/texts/anf03_tertullian.xml lines 21331-21339",
+     "note": "Tertullian names the bishop of Rome then as Eleutherus."
+    },
+    {
+     "when": "in the time of Anicetus",
+     "text": "Irenaeus writes that Polycarp, coming to Rome in the time of Anicetus, turned many away from Valentinus and Marcion to the church.",
+     "reference": "Irenaeus, Against Heresies III.3.4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 39869-39873"
+    }
+   ]
+  },
+  {
+   "when": "Middle of the 2nd century",
+   "headline": "Valentinus teaches of paired powers above the world, and of a heart made pure",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that Valentinus taught of a first pair beyond naming, the Unspeakable and Silence. From them came Father and Truth, then Word and Life, Man and Church, and more powers after them.",
+     "reference": "Irenaeus, Against Heresies I.11.1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 31520-31530",
+     "note": "An opponent's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "One of the twelve powers that came from Man and Church, Irenaeus writes, fell from its place and brought forth the rest of the universe. A mother shut out of the fullness, the realm of these powers, bore Christ, and then another son, the Demiurge, or craftsman, ruler of all below him.",
+     "reference": "Irenaeus, Against Heresies I.11.1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 31529-31543"
+    },
+    {
+     "when": "date unknown",
+     "text": "In a letter, Valentinus writes that the heart, home to many spirits, is like an inn full of holes and filled with dung. When the only good Father visits it, it is made holy and gleams with light.",
+     "reference": "Valentinus, in Clement of Alexandria, Stromata II.20, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 34289-34303",
+     "note": "His own words, kept by Clement."
+    },
+    {
+     "when": "date unknown",
+     "text": "In a homily, Valentinus writes: you are immortal from the beginning, children of eternal life, and you wished death to be given to you, so that death might die in you and through you.",
+     "reference": "Valentinus, in Clement of Alexandria, Stromata IV.13, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 39090-39095",
+     "note": "The English print names the author Valentinian."
+    },
+    {
+     "when": "date unknown",
+     "text": "Clement writes that the followers of Valentinus leave faith to the simple, and say knowledge springs up in themselves, who are saved by nature.",
+     "reference": "Clement of Alexandria, Stromata II.3, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 32105-32109",
+     "note": "An opponent's report."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Valentinus kept the powers within God himself, as his thoughts, feelings and motions, and that Ptolemy later made them persons outside God.",
+     "reference": "Tertullian, Against the Valentinians 4, cic/texts/anf03_tertullian.xml lines 43117-43121; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9656-9660"
+    }
+   ]
+  },
+  {
+   "when": "Late 2nd century",
+   "headline": "His students spread the teaching, and Irenaeus writes against them",
+   "lines": [
+    {
+     "when": "while Eleutherius is bishop of Rome, the twelfth from the apostles",
+     "text": "Irenaeus writes Against Heresies, especially against the disciples of Ptolemy, whose school he calls a bud from that of Valentinus.",
+     "reference": "Irenaeus, Against Heresies I, preface 2, and III.3.3, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 29871-29873, 39849-39851"
+    },
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that those from Valentinus speak to church members, whom they call common and churchly, and ask why they are called heretics when they hold the same teaching. To those they win, they then tell in private the mystery of their fullness.",
+     "reference": "Irenaeus, Against Heresies III.15.2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 42121-42141",
+     "note": "An opponent's charge."
+    },
+    {
+     "when": "date unknown",
+     "text": "Irenaeus writes that those from Valentinus call a recent writing of theirs the Gospel of Truth, which, he says, agrees in nothing with the apostles' Gospels.",
+     "reference": "Irenaeus, Against Heresies III.11.9, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 41173-41178"
+    },
+    {
+     "when": "date unknown",
+     "text": "Ptolemy writes to a woman named Flora that the law of Moses was given neither by the perfect God nor by the devil. Its giver, he says, is the maker of this world, who stands between them, less than the perfect God, and is rightly called just.",
+     "reference": "Ptolemy, Letter to Flora, in Epiphanius, Panarion 33.3 and 33.7, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 34016-34017, 34658-34672",
+     "note": "Ptolemy's own words. Epiphanius, an opponent, copied the letter whole. The Greek print is damaged."
+    },
+    {
+     "when": "date unknown",
+     "text": "Ptolemy tells Flora that the Father of all was made known only by the one who came, and that she will learn more if found worthy of the apostolic tradition, which, he says, they too received by succession.",
+     "reference": "Ptolemy, Letter to Flora, in Epiphanius, Panarion 33.3 and 33.7, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 34162-34163, 34729-34732"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Bardaisan was at first a follower of Valentinus, but later rejected his teaching.",
+     "reference": "Eusebius, Church History IV.30.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26652-26655"
+    }
+   ]
+  },
+  {
+   "when": "3rd century",
+   "headline": "The schools divide, and Tertullian, Hippolytus and Origen answer them",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that the Valentinians guard their teaching in silence, like the Eleusinian mysteries, the secret rites of Athens, and commit no secret even to their own disciples until they are sure of them. Asked a plain question, he says, they answer that the subject is profound.",
+     "reference": "Tertullian, Against the Valentinians 1, cic/texts/anf03_tertullian.xml lines 42928-42930, 42950-42974",
+     "note": "An opponent's charge."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that they brand the Christians of the church as simple.",
+     "reference": "Tertullian, Against the Valentinians 2, cic/texts/anf03_tertullian.xml line 42981"
+    },
+    {
+     "when": "by Tertullian's own day",
+     "text": "Tertullian writes that Heracleon, Secundus and Marcus the magician each struck out paths of their own, and Theotimus worked on the images of the law. Only Axionicus, at Antioch, keeps Valentinus' rules in full.",
+     "reference": "Tertullian, Against the Valentinians 4, cic/texts/anf03_tertullian.xml lines 43121-43128; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9660-9666"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that his side calls them Valentinians, though they disavow the name, and that they have departed from their founder while keeping their origin.",
+     "reference": "Tertullian, Against the Valentinians 4, cic/texts/anf03_tertullian.xml lines 43104-43108; Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9630-9633"
+    },
+    {
+     "when": "date unknown",
+     "text": "After his pupils' new paths, Tertullian writes, Valentinus is now nowhere, yet there are still Valentinians, named through Valentinus.",
+     "reference": "Tertullian, Against the Valentinians 4, Latin, cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt lines 9663-9664",
+     "note": "Rendered from the Latin, which the English print misreads (line 43124)."
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that the school divided into an Italian branch, of Heracleon and Ptolemy, who said the body of Jesus was of soul, and an Eastern branch, of Axionicus and Bardesianes, who said it was spiritual.",
+     "reference": "Hippolytus, Refutation of All Heresies VI.35, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 9641-9663"
+    },
+    {
+     "when": "date unknown",
+     "text": "Origen answers Heracleon, said to be a friend of Valentinus, on the Gospel of John. Heracleon reads Capernaum, where Jesus went down, as the farthest parts of the world, the regions of matter into which he came down.",
+     "reference": "Origen, Commentary on John II.8 and X.11, cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml lines 23164-23170, 27710-27715"
+    }
+   ]
+  },
+  {
+   "when": "Mid-3rd to 4th century",
+   "headline": "Bishops and an emperor name the Valentinians among the heretics",
+   "lines": [
+    {
+     "when": "in Cyprian's time",
+     "text": "Cyprian of Carthage names the Valentinians among the heretics, those who, their enemies said, chose error, and says they could share one baptism with his church only if they confessed the same Father, Son and Holy Spirit and the same church.",
+     "reference": "Cyprian, Letter to Jubaianus 4-5, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 38515-38524, 38546-38548; heretics, from the Greek for a choice, Tertullian, Prescription Against Heretics 6, cic/texts/anf03_tertullian.xml lines 20274-20279"
+    },
+    {
+     "when": "under Constantine, date unknown",
+     "text": "Constantine's edict to the heretics names the Novatians, Valentinians, Marcionites, Paulians and Cataphrygians, and takes the houses where they meet.",
+     "reference": "Constantine, edict to the heretics, in Eusebius, Life of Constantine III.64-65, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66068-66080, 66124-66128; Greek, cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt lines 13035-13039"
+    },
+    {
+     "when": "in Epiphanius's own day",
+     "text": "Epiphanius writes that Valentinus preached in Egypt, where his seed, like a viper's bones, still remains in several districts. He preached at Rome too, and in Cyprus, Epiphanius says, he left the faith.",
+     "reference": "Epiphanius, Panarion 31.7, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 29762-29768, 29802-29806",
+     "note": "Written late in the 4th century. The Greek print is damaged."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Against Heresies, in English",
+   "author": "Irenaeus of Lyon",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+  },
+  {
+   "title": "Against the Valentinians and Prescription Against Heretics, in English",
+   "author": "Tertullian of Carthage",
+   "file": "cic/texts/anf03_tertullian.xml"
+  },
+  {
+   "title": "Against the Valentinians, in Latin",
+   "author": "Tertullian of Carthage",
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt"
+  },
+  {
+   "title": "Stromata, in English, with the words of Valentinus and Basilides",
+   "author": "Clement of Alexandria",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+  },
+  {
+   "title": "Refutation of All Heresies VI, in English",
+   "author": "Hippolytus",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+  },
+  {
+   "title": "Commentary on John, with the words of Heracleon, in English",
+   "author": "Origen",
+   "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+  }
+ ],
+ "uncertain": [
+  "When Valentinus was at Rome. Irenaeus says he came in the time of Bishop Hyginus, flourished under Pius and stayed until Anicetus. Tertullian says he and Marcion were believers in the church of Rome under Bishop Eleutherus before they were expelled.",
+  "Why he broke with the church. Only Tertullian, an opponent, gives a reason: Valentinus had hoped to become a bishop, and another man won the place by the claim his suffering for the faith had given him. Tertullian names no city, and says such men are often roused by ambition to revenge.",
+  "Where he came from. Epiphanius, late in the 4th century, heard that some said he was born on the coast of Egypt and schooled in Greek learning at Alexandria, and he calls the report uncertain. He also says Valentinus left the faith in Cyprus, while Irenaeus says he stayed at Rome until Anicetus.",
+  "His teacher. Clement says the followers of Valentinus claimed he had heard Theudas, a pupil of Paul, and that the followers of Basilides claimed Glaucias, the interpreter of Peter.",
+  "What is his and what is his school's. Irenaeus gives a short account of Valentinus' own teaching and a much longer one of Ptolemy's school. Tertullian says Valentinus kept the powers within God, and Ptolemy made them persons outside God.",
+  "The Gospel of Truth. Irenaeus says those from Valentinus called a recent writing of theirs the Gospel of Truth. The old sources held here do not say who wrote it.",
+  "Teaching in private. Irenaeus and Tertullian, both opponents, say the Valentinians first won hearers in the churches and told them their deeper teaching only later, in private.",
+  "Their own words. The words of Valentinus, Ptolemy and Heracleon held here survive only as their opponents copied them: Clement, Epiphanius and Origen."
+ ]
+}

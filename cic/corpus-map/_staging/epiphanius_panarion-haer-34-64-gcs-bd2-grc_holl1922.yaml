@@ -36,3 +36,44 @@ assignments:
       episcopate, and his campaign against Origen ran through the Palestinian monasteries of
       Jerome and Rufinus. Placed as context for that world; whether it is better read as the
       world's own voice is a build-thread call, named here and not decided.
+  - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-56-bardesianistae
+    work: 'Panarion 56: against the Bardesianites'
+    author: epiphanius
+    locus: 'heresy 56: the summary at about file line 16595; the chapter from about 26322'
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'Epiphanius on Bardaisan''s life at Edessa, his learning and his fall. Context: it describes the
+      movement from outside, so a built world draws on it only as register: etic.'
+  - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-57-62-noetians-sabellians
+    work: Panarion 57 (Noetians) and 62 (Sabellians)
+    author: epiphanius
+    locus: heresy 57 at about file line 27368; heresy 62 at about 30233
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'Epiphanius on Noetus of Smyrna, drawing on Hippolytus, and on the Sabellians still found in Mesopotamia
+      and around Rome in his day. Context: it describes the movement from outside, so a built world draws
+      on it only as register: etic.'
+  - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-41-42-cerdonians-marcionites
+    work: 'Panarion 41 (Cerdonians) and 42 (Marcionites), Greek'
+    author: epiphanius
+    locus: 'heresy 41 from about file line 7149; heresy 42 from about 7418, its opening at 7423 (Marcion of Pontus, a bishop''s son, his fall and his coming to Rome)'
+    atlas_ids:
+    - marcion-marcionism
+    role: context
+    confidence: assigned
+    language: grc
+    note: 'Epiphanius on Cerdo and on Marcion: his origin in Pontus, his expulsion, his coming to Rome after Hyginus''s death, his teaching, and the long refutation from Marcion''s own Gospel and Apostle. The Greek original; no English of the Panarion is held. Context: a hostile outside view, about two centuries later. Holl''s Greek is fair; check every quotation against the page images.'
+  - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-48-phrygians-montanists
+    work: 'Panarion 48: against the Phrygians, also called Montanists, Greek'
+    author: epiphanius
+    locus: 'the summary at about file line 16486; heresy 48 from about 17007; ''περὶ τὸ ἐννεακαιδέκατον ἔτος Ἀντωνίνου τοῦ εὐσεβοῦς'' at 17019'
+    atlas_ids:
+    - montanism-the-new-prophecy
+    role: context
+    confidence: assigned
+    language: grc
+    note: 'Epiphanius on the New Prophecy, with sayings of Montanus and Maximilla quoted as he knew them (48.4, 48.10-13). He dates its rise to about the nineteenth year of Antoninus Pius (48.1.2), which disagrees with the Chronicle''s eleventh year of Marcus; the start is told as two old datings. The Greek original; no English of the Panarion is held. Context: hostile. Check every quotation against the page images.'
