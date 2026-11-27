@@ -7,7 +7,7 @@ Kind: person (`kinds/person.md`). Census id `tatian`, told within `syriac-edessa
   - **Also told:** the question he was answering, where truth is found, and his answer in the barbarian writings (E1, E2); what the *Address* says, in its own claims (E5); whom he taught (E6); the three charges Irenaeus brings, each in its content, and the Encratites (E7, E8); Epiphanius's East (E9); what the *Diatessaron* was and its name (E10).
   - **What came of him:** the *Diatessaron* read in the Syriac-speaking churches and commented on (I1); its removal in the 400s (I2); the *Address* kept and read for its proof that Moses was older (I4); remembered as a teacher the church judged a heretic (I5). *Defended: the one God against the gods, and the old barbarian writings against Greek learning (E2, E5c, E5g).*
 
-- **Length:** about 4 and a half minutes, about 670 words at 150 a minute: the kind kit's upper limit, which a record this full calls for (his own book, a hostile contemporary, a pupil, and a Gospel book with a long and contested life). The count the story must carry first: two quotes, 139 words; plain senses (barbarian, the mysteries, aeons, Adam not saved, Encratites, heretic, *Diatessaron*), about 70; credited witnesses (his own book, Irenaeus as opponent, Hippolytus on Adam, Rhodo through Eusebius, the *Chronicle*, Eusebius on the founder and the book, Epiphanius two centuries on, Edessa's later story, later Syriac writers on Ephrem, Theodoret), about 100. That is about 310 words before the events are told. Budget by part: opening 45, essence 55, beat 1 125 (with Quote 1), beat 2 45, beat 3 70, beat 4 35, beat 5 120 (with Quote 2), beat 6 35, beat 7 55, What came of him 60, ending 25: about 670. Mark approved 650 (`Length_Count.md`: 630 with every Cut first item out); every Cut first item applies.
+- **Length:** about 4 and a half minutes, about 670 words at 150 a minute: the kind kit's upper limit, which a record this full calls for (his own book, a hostile contemporary, a pupil, and a Gospel book with a long and contested life). The count the story must carry first: two quotes, 139 words; plain senses (barbarian, the mysteries, aeons, Adam not saved, Encratites, heretic, *Diatessaron*), about 70; credited witnesses (his own book, Irenaeus as opponent, Hippolytus on Adam, Rhodo through Eusebius, the *Chronicle*, Eusebius on the founder and the book, Epiphanius two centuries on, Edessa's later story, later writers of the Church of the East on Ephrem, Theodoret), about 100. That is about 310 words before the events are told. Budget by part: opening 45, essence 55, beat 1 125 (with Quote 1), beat 2 45, beat 3 70, beat 4 35, beat 5 120 (with Quote 2), beat 6 35, beat 7 55, What came of him 60, ending 25: about 670. Mark approved 650 (`Length_Count.md`: 630 with every Cut first item out); every Cut first item applies. With the heart that B2 put back, the recount less Cut first is about 665; items 14 and 15 bring it to about 645.
 
 - **Setting:**
   - Time: "the middle of the second century": Justin's hearer (IR 33664), the break after Justin's death (IR 33665-33666), in the twelfth year of Marcus Aurelius by the *Chronicle* (JC 42910-42912, 43059-43060), about 172 (Widely Accepted, S4); Jerome: he flourished in the reign of 'Marcus Antoninus Verus and Lucius Aurelius Commodus' (JE 40098-40099), Jerome's names for the emperors; not for the story. No birth or death date. Spoken: "in the middle of the second century"; the break "about 172, in the reign of Marcus Aurelius".
@@ -71,7 +71,7 @@ Kind: person (`kinds/person.md`). Census id `tatian`, told within `syriac-edessa
 
 - **Ending:**
   1. (Recommended.) Centuries later a priest translated it from Syriac into Arabic, and that copy still opens "In the beginning was the Word" and ends: here ends the Gospel which Tatian compiled and named Diatessaron, the Fourfold (DI 2195-2196, 10422-10429; narrated, not a third quote). Ends on his book, with his name in it.
-  2. Theodoret's two hundred books gathered and put away, and the four Gospels brought in (TH 29735-29741), told as the last scene of What came of him, if the Arabic copy goes to the card.
+  2. Theodoret's more than two hundred books gathered and put away, and the four Gospels brought in (TH 29735-29741). With the Arabic copy on the card, What came of him 3 (Eusebius's "most in use", one clause, early 300s) is told before What came of him 2 (the 400s), so Theodoret's act closes the story and is told once. The ranking stands as weight, not as telling order.
 
 - **Links:**
   - Justin Martyr: heard him (IR 33664; HI 13005); praised him (AG 6526).
@@ -79,7 +79,7 @@ Kind: person (`kinds/person.md`). Census id `tatian`, told within `syriac-edessa
   - Valentinus: likened to his followers (IR 33668-33669).
   - Marcion of Pontus: likened to him on marriage (IR 33669-33671).
   - Hippolytus of Rome: repeated Irenaeus, gave his reason on Adam (HI 13005-13012).
-  - Clement of Alexandria: praised and used the *Address* (CL 29726-29727).
+  - Clement of Alexandria: said the *Address* treated the age of Moses with accuracy (CL 29726-29727).
   - Eusebius of Caesarea: told of his book, his pupil and his writings (EU 26424-26505, 29214-29223).
   - Jerome: wrote his life (JE 40088-40099).
   - Epiphanius of Salamis: told of his journey east (EP 15995-16007).
@@ -115,7 +115,7 @@ Kind: person (`kinds/person.md`). Census id `tatian`, told within `syriac-edessa
   - "Theodoret proved it was cut" / "it cut out Jesus's birth" as fact. Say "Theodoret says it cut out the genealogies and the passages that show the Lord born of David's line".
   - "Rabbula banned it" / "the church condemned it." Rabbula's canon names no harmony; card only.
   - "The first gospel harmony" / "the earliest harmony." No old held source says so.
-  - "Ephrem's commentary" as a book we read here, or quoted. Later Syriac writers say he commented on it; it is not held.
+  - "Ephrem's commentary" as a book we read here, or quoted. Later writers of the Church of the East say he commented on it; it is not held.
   - "The barbarian writings were the Bible" / "the New Testament." Say "old writings"; he names Moses as the founder of barbarian wisdom.
   - "Barbarian" without its plain sense the first time; never "savage" or "primitive".
   - "Heretic" without its plain sense; never in the narrator's own judgment.
@@ -157,6 +157,8 @@ Kind: person (`kinds/person.md`). Census id `tatian`, told within `syriac-edessa
   11. The free teaching of rich and poor, old women and boys, in beat 3, keeping the arts from barbarians and Moses older than Homer (about 20). Card.
   12. "Heretic" and its gloss in the *Chronicle* line, beat 5: the *Chronicle* sets the year, about 172, and names him as the source of the Encratites (about 15). Card; *Heretic* comes off Words to explain and Do not say.
   13. The Arabic ending, closing instead on Ending 2 (about 10 net). Card.
+  14. Tatian's "the most admirable Justin", in beat 2, keeping Irenaeus's "hearer of Justin's" and the Crescens charge (about 11). Card; the link to Justin keeps it.
+  15. Artemis near the city, in Opening 1, keeping Jupiter honored with human blood (about 8). Card.
   Never cut: the two quotes, the gloss of barbarian, the Crescens charge from Tatian's own book, Irenaeus's three charges in their content with the Encratites' plain sense, Eusebius on the *Diatessaron* with its name, Theodoret's act with his reason and the users' side; and, as parts of the approved heart, Rhodo the pupil at Rome (beat 4), Epiphanius's East in Mesopotamia (beat 6), the arts the Greeks owe to barbarians (beat 3), and Eusebius's "most in use" (What came of him 3).
 
 ## Approved heart and length

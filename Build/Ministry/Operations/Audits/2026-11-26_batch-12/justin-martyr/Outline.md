@@ -7,7 +7,7 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - **Also told:** what he was looking for (God, which he held to be philosophy's work, AR 92-94), how he says he found it (AR 139-180, 399-435; R2 368-370), what he taught at Rome and to whom (GEB 1346-1353, 1386-1388), what the petition asked (R1 93-101, 124-126, 141-145), the one idea, the Word, and the question it answered (R1 1226-1233; R2 332-339), and the stand before the prefect (GEB 1309-1442). Documented as his own account; the trial in the account's own words.
   - **What came of him:** his books were kept and used against rival teachers, from Irenaeus and Tertullian to Eusebius and Theodoret (I1); *defended: the one God who made the world, against Marcion; the church's teaching against the heresies.* His name, philosopher and martyr, and the account of his trial were kept (I2). A hearer, Tatian (I3). Documented.
 
-- **Length:** Recounted at the outline check: about 745 words with every Cut first item 1-9 applied, against the approved 675; items 10-13 below bring it to about 660. The count the story must carry: three quotes, 128 words; plain senses (the Word as word and reason, the cloak, the petition, godless, prefect, Cynic, the schools), about 60; credited witnesses (Justin's own telling, Trypho's laugh, the trial account by an unknown writer, Tatian and Eusebius on Crescens, Irenaeus, Tertullian, Theodoret), about 75. That is about 265 words before the events are told. Budget by part: opening 45, essence 45, beat 1 135 (with Quote 1), beat 2 25, beat 3 60, beat 4 70 (with Quote 2), beat 5 45, beat 6 85, beat 7 100 (with Quote 3), What came of him 60: about 670. The Cut first list brings it to about 570, 530 or 440, as Mark rules.
+- **Length:** about 670 words, about 4 and a half minutes at 150 a minute, within the approved 675 with almost no room. Cut first items 1-12 are all applied. Recounted at the check and again at the recheck, after the fixes: the arrest's reason added to beat 7, the Dialogue's clause moved into beat 1, What came of it 2 cut to one clause. `Length_Count.md` gave 741 before those fixes and items 10-12. The count the story must carry: three quotes, 133 words; plain senses (the Word as word and reason, the cloak, the petition, godless, prefect, Cynic, the schools, sacrifice), about 60; credited witnesses (Justin's own telling, the trial account by an unknown writer, Tatian and Eusebius on Crescens, Irenaeus, Tertullian), about 40. Before any cut it would run to about 960.
 
 - **Setting:**
   - Time: the reign of Antoninus Pius, to whom the petition is addressed (R1 68-71), "a hundred and fifty years" after Christ's birth by his own count (R1 1227); Jerome's Chronicle puts the book in Antoninus's fourth year (JCH 42754-42757). The old sources differ, so no year. His death: under Rusticus, prefect of Rome (GEB 1304-1306); the old sources differ on the emperor (D2) and the year rests on modern reckoning. Spoken: "in the middle of the second century", "under the emperor Antoninus Pius", "later".
@@ -94,7 +94,7 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - **The trial account** (old, later; author and date unknown). Credited once, at beat 7: "the account of his trial, by a writer we do not know". Credited beside: the Rome lodging, the trial's words, the sentence and the burial. Modern marks, card only: Dods, translator (ANF1 29217-29220), nothing known of date or author; McGiffert, editor (EUS 23769-23770), probably third century; Delehaye, modern (5009-5010), its writer had a witness's record. Each clarifies the witness; none is told.
   - **Tatian** (old, contemporary; Crescens's enemy and Justin's hearer): credited beside Crescens's attempt on both their lives.
   - **Eusebius** (old, about 150 years later): credited beside the cloak line, the works still read, and the claim that Crescens's plot brought the death.
-  - **Irenaeus, Tertullian, Hippolytus, Theodoret** (old, later): each credited beside his own line in What came of him.
+  - **Irenaeus, Tertullian, Theodoret** (old, later): each credited beside his own line in What came of him; Theodoret only at Ending 2, since Cut first 2 applies. **Hippolytus** (old, later): card only (HIP 17423).
   - **Jerome** (old, 392): credited beside his discussions at Rome (JVI 52490-52491); card if Cut first 10 applies.
   - **McGiffert** (modern editor): clarifies the town's place and the Rusticus dating; makes claims of his own on the year and on one apology or two. Card only, never told.
   - The doubt is not the story.
@@ -140,27 +140,26 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - The baptism rite and the Sunday gathering (First Apology 61-67): the sibling `post-apostolic-house-church` holds and quotes them.
   - The wife's divorce in Second Apology 2, beyond the one clause that explains why the teacher was accused.
   - Tatian's later teaching and his break: the sibling's.
-  - Methodius's line, Photius's reading, Jerome's Chronicle and Lives, the 1922 missionary: card.
+  - Methodius's line, Photius's reading, Jerome's Chronicle and Lives, Hippolytus's "Justin the martyr" (HIP 17423), the 1922 missionary: card.
   - Any claim about versions of the trial account.
 
-- **Cut first** (in order, from about 670 words; each cut is a whole item):
+- **Cut first** (in order, from about 960 words before any cut; each item is applied as written, and all of items 1-12 are applied):
   1. Trypho's laugh and his advice to stay with Plato, in beat 1 (about 25). Card.
   2. Theodoret in What came of him (about 20). Card; if Ending 2 is chosen he stays there only.
   3. "You can kill us, but you cannot harm us", in beat 3 (about 12). Leave out.
   4. Socrates' death in beat 4, and the craftsmen who despised death in beat 6, keeping the examples after Quote 2 (about 45). Card.
-  About 570 words, near 3 minutes 50 seconds.
+  About 860 words.
   5. Euelpistus in beat 7, keeping "six others" (about 25). Card.
   6. Rusticus's mockery of the man said to be learned, in beat 7 (about 15). Card.
-  About 530 words, 3 and a half minutes.
-  7. Beat 5, the argument with Trypho, except one clause kept in beat 1 where the Dialogue is first named: 'his written argument with Trypho, a Jew, that Jesus is the Christ of God whom the prophets foretold' (AR 6603-6607; EUS 24330-24332) (cut about 33 of 45). Card. If any more of it is told, its hard edge and the friendship are told together.
+  About 820 words.
+  7. Beat 5, the argument with Trypho, except one clause, which moves into beat 1 where the Dialogue is first named, so that beat 1 opens: 'He tells it himself, in his Dialogue, his written argument with Trypho, a Jew, that Jesus is the Christ of God whom the prophets foretold' (AR 6603-6607; EUS 24330-24332; E5, Documented as his account) (cut about 33 of 45). Card. If any more of it is told, its hard edge and the friendship are told together.
   8. The second reason for his turn, Christians unafraid of death, in beat 1 (about 20). Card.
   9. The Stoic, the Peripatetic and the Pythagorean by name in beat 1, keeping "teachers of several schools" and the follower of Plato (about 25). Leave out.
-  About 440 words, 3 minutes.
+  About 740 words, still over the approved 675.
   10. Beat 2 as a beat: Eusebius's 'in a philosopher's guise he preached the divine word' and Jerome's discussions at Rome (about 34). Card. Rome stays in the essence and beat 7; the cloak stays in the opening.
   11. Eusebius's 'many of his works still in the hands of many' in What came of it 1 (about 17). Card.
-  12. Hippolytus's 'Justin the martyr' in What came of it 2 (about 17). Card.
-  13. In beat 6, 'and a third after them' and 'Socrates had been charged with the same things as the Christians' (about 22). Card.
-  About 660 words, about 4 and a half minutes. Items 1-13 are all applied for the approved length of 675.
+  12. In beat 6, 'and a third after them' and 'Socrates had been charged with the same things as the Christians' (about 22). Card.
+  About 670 words, about 4 and a half minutes. Items 1-12 are all applied for the approved length of 675.
   Never cut: the three quotes, the gloss of logos, the name punished in beat 3, the teacher led away for the name, the reason for the trial and the sentence, the reason for the arrest (GEB 1300-1306), Justin's and Tatian's sides of the Crescens quarrel.
 
 ## Approved heart and length

@@ -11,7 +11,7 @@ Kind: person. Items S, E, I, D are in `Source_Sheet.md`, which gives each file a
   - **Bishop on the road.** The bishop of Caesarea in Palestine made him a second bishop to succeed him. Called to the synod at Antioch, he passed through Laodicea, whose bishop, the same deacon, had died, and the believers kept him (E5).
   - **The Easter rule.** The first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox; those who do so, he wrote, make no small mistake. He claimed the Jews kept that rule before Christ, and he set his count on a nineteen-year cycle (E6; his own words).
   - **What came of him:** see below. Defended: the equinox rule (E6).
-- **Length:** 675 words, as approved (Mark, 2026-11-27). Planned at about 670 once Cut first items 1–7 and 8–12 below are applied.
+- **Length:** 675 words, as approved (Mark, 2026-11-27). Planned at about 665 once Cut first items 1–14 below are applied (recount in `Recheck.md`).
 - **Setting:**
   - Time: the later 200s; Jerome says he flourished under the emperors Probus and Carus (S2). No year for birth, death, siege or ordination (S2, D2).
   - Place: Alexandria, in Egypt; Caesarea in Palestine; Laodicea in Syria (S3, Jerome's words; "on the coast" rests only on Loofs, so leave it out); Antioch, for the synod (E5).
@@ -95,9 +95,9 @@ Short phrases that may stand in the narrator's sentence: "one good man, as they 
 
 ## Connection, ending, links
 
-- **Connection to carry into the story:** what passed from him is a rule and a name. The rule, in his own Greek words kept by Eusebius: no Passover month before the spring equinox, on a nineteen-year cycle (E6). The name: by about 600 a Latin Easter book went under it, and Columbanus used it against the Gaulish and Roman Easter (I1a); at Whitby Colman cited that book's range, and Wilfrid answered with the Greek rule and its cycle, which he said the whole church kept (I1d). The listener must understand that both sides called him holy and claimed his authority: Colman for keeping Easter from the moon's fourteenth day to its twentieth, Wilfrid for the nineteen-year cycle and for counting his days the Egyptian way, which he said the Irish did not keep. Bede doubted the Irish claim (I1c). Tell it through what Columbanus, Colman and Wilfrid said; no "this matters because".
+- **Connection to carry into the story:** what passed from him is a rule and a name. The rule, in his own Greek words kept by Eusebius: no Passover month before the spring equinox, on a nineteen-year cycle (E6). The name: by about 600 a Latin Easter book went under it, and Columbanus used it against the Gaulish and Roman Easter (I1a); at Whitby Colman claimed him for keeping Easter from the moon's fourteenth day to its twentieth, and Wilfrid answered that he had set out the nineteen-year cycle, which the whole church kept (I1d; BEDE 8117–8121, 8134–8141). The listener must understand that both sides called him holy and claimed his authority, each for a different rule; which text either man drew on, no old source says. Bede doubted the Irish claim (I1c). Tell it through what Columbanus, Colman and Wilfrid said; no "this matters because".
 - **Ending:**
-  1. Wilfrid's words (Quote 2), then the king's ruling for Rome in one clause, then back to the subject: whatever they made of his rule, both men had called him holy (BEDE 8117–8118, 8134–8135; narrator's close on the subject, no moral).
+  1. The close of What came 2: Quote 2 and the king's ruling for Peter, and so for Rome's Easter, each told once there. Then back to the subject: whatever they made of his rule, both men had called him holy (BEDE 8117–8118, 8134–8135; narrator's close on the subject, no moral). With Cut first 6 applied, only Ending 2 follows.
   2. Bede's judgment, written in 731, on the Irish practice of Aidan's time, before Whitby: the Irish believed they followed "the holy and praiseworthy Father Anatolius", and any skilled reader could tell whether that was true (I1c, BEDE 5754–5757). Ends on words about him, in Bede's voice.
 - **Links:** Eusebius of Caesarea (wrote of; kept his book's words). Jerome (wrote of). Rufinus of Aquileia (retold the siege). Columbanus (quoted a book under his name). Gregory the Great (was written to about him). Hild of Whitby (the synod in her house named him). Bede (wrote of; doubted the Irish claim on him). Wilfrid of Ripon (cited him). Polycrates of Ephesus (the Latin book under his name tells Polycrates's quarrel). Elias of Nisibis (used his words). Socrates of Constantinople (used the writers his extract names, through Eusebius; Inferential-Thin).
 
@@ -145,7 +145,7 @@ Short phrases that may stand in the narrator's sentence: "one good man, as they 
 
 ## Cut first
 
-In order; each brings the count down toward 600 if a draft runs over, and further toward 3 minutes 30 (about 525) if Mark sets the shorter length.
+In order. All fourteen apply at the approved 675 words (Mark, 2026-11-27); each goes to the card or Leave out as it is marked. If Mark sets a shorter length (3 minutes 30, about 525), the cut is made at the outline and checked.
 
 1. Rufinus's variant (beat 3): card.
 2. Columbanus's letter to the Gallic bishops (What came 1, last sentence): card.
@@ -159,6 +159,8 @@ In order; each brings the count down toward 600 if a draft runs over, and furthe
 10. Quote 2 ends at 'He set out a cycle of nineteen years', then the narrator: 'which, he said, the whole church of Christ keeps.' The rest of the sentence ('You either do not know it, or you know it and scorn it as nothing'): card.
 11. Words to explain: drop the glosses for 'the Scots' and 'the church history'. Say 'the Irish' and 'Eusebius's history' in the narrator's words, and do not use 'the Scots'.
 12. What came 1: the praise by Eusebius and Jerome that Columbanus cites: card. Keep 'a man of wonderful learning'.
+13. Beat 1: that Eusebius knew 'many other' deeds of his in the siege: card. Keep one sentence: Eusebius tells one of his deeds in the siege, as others told it to him.
+14. Beat 5: 'He did not write many works, Eusebius says': card. Begin the rule with: 'In his writings on the Passover'.
 
 ## Approved heart and length
 
