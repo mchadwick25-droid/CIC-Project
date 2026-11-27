@@ -130,6 +130,8 @@ export async function countEvents(request, env) {
   const done = new Response(null, { status: 204, headers: BASELINE_HEADERS });
   if (request.method !== 'POST') return new Response(null, { status: 405, headers: { ...BASELINE_HEADERS, Allow: 'POST' } });
   if (!env.EVENTS || BOT_AGENT.test(request.headers.get('User-Agent') || '')) return done;
+  const owner = String(env.OWNER_IPS || '').split(',').map((v) => v.trim()).filter(Boolean);
+  if (owner.includes(request.headers.get('CF-Connecting-IP') || '')) return done;
   if (Number(request.headers.get('Content-Length') || 0) > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
   const text = await request.text();
   if (text.length > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });

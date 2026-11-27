@@ -294,6 +294,19 @@ test('events: a step onward from a brief is counted with its kind and the card i
   assert.deepEqual(points.map((p) => p.blobs.slice(0, 3)), [['next', 'after', 'coptic-orthodox-church'], ['next', 'teaser', 'donatism']]);
 });
 
+test('events: a request from an address in OWNER_IPS writes nothing; others still count; unset counts all', async () => {
+  const one = JSON.stringify([{ t: 'open', a: 'tradition', b: 'x' }]);
+  const { points, env } = eventsEnv();
+  env.OWNER_IPS = 'addr-one, addr-two';
+  assert.equal((await worker.fetch(post(one, { 'CF-Connecting-IP': 'addr-two' }), env)).status, 204);
+  assert.equal(points.length, 0);
+  await worker.fetch(post(one, { 'CF-Connecting-IP': 'addr-three' }), env);
+  assert.equal(points.length, 1);
+  delete env.OWNER_IPS;
+  await worker.fetch(post(one, { 'CF-Connecting-IP': 'addr-two' }), env);
+  assert.equal(points.length, 2);
+});
+
 test('events: bots, wrong methods, oversized bodies and a site without the binding write nothing', async () => {
   const { points, env } = eventsEnv();
   const one = JSON.stringify([{ t: 'open', a: 'tradition', b: 'x' }]);

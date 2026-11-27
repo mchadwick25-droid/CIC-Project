@@ -6348,3 +6348,5 @@ Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon
 **Decided.** Opening the map with `?count=off` sets a flag in that browser's localStorage (`cft-count-off`), and the map then sends no events. `?count=on` clears it. A short note says so once. The Privacy page says any visitor can do this. The test is `Build/tools/cft_count_optout.test.mjs`.
 
 **Past data.** The counts carry nothing that identifies a device, so Mark's visits before this change cannot be separated and are not filtered.
+
+**Added the same day (Mark, 2026-11-27, relayed by the coordinator).** "you have the ability to know if this is and internal thing, my computer etc." The event worker (`/e`) also drops any event whose request address is in the comma-separated `OWNER_IPS` binding. The addresses live only in the worker's secret, never in the repository, logs or reports. The `?count=off` flag stays for other networks. Test: `cic-worker/worker.test.mjs`.
