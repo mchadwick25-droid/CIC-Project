@@ -45,7 +45,7 @@ About **four minutes, about 600 words**. What it must carry: three quotes (about
 
 ## Openings
 
-1. **Recommended. His own words at the fourth Easter.** At the fourth Easter of the persecution, the bishop of Alexandria, Peter, wrote about Christians who had been jailed and tortured until they gave way and offered sacrifice to the gods. Some of them had been mourning their fall for three years. Q1. (E1 ANF6 26607–26608; E3 ANF6 26608–26621; PED 49718–49723.) Leads straight into the essence: what he would do with them.
+1. **Recommended. His own words at the fourth Easter.** At the fourth Easter of the persecution, the bishop of Alexandria, Peter, wrote about Christians who had been jailed and tortured until they gave way and offered sacrifice to the gods. Some were already in a third year of mourning their fall. Q1. (E1 ANF6 26607–26608; E3 ANF6 26608–26621; PED 49718–49723.) Leads straight into the essence: what he would do with them.
 2. **The choice in the prisons.** A bishop of Egypt held at Alexandria wrote that the prisoners were told to choose: touch the sacrifice and go free, or refuse and be condemned to death (S4, EUS 44468–44472). Many chose death. Some did not, and their bishop had to decide how to take them back. (Weaker: it opens on another man's words, and the essence comes later.)
 
 ## Story beats
@@ -77,10 +77,10 @@ Who keeps him today: no held source states it in a form the story can use. Leave
   Rendering: **"They did not come to this by their own choice. The weakness of the flesh betrayed them. For they show the marks of Jesus on their bodies."**
   Behind it: an original in a damaged held print (OCR "σίγματα"), confirmed by a second held print, the 1886 English, whose note prints στίγματα (ANF6 26618–26619). Job: the opening; shows in his own words how he weighed a fall by what was suffered. Plain sense beside it: the marks are the scars of their torture. On the tree: used by no other story; it stood in this entry's own live text, which this story replaces.
 - **Q2. Peter, Letter to the Church at Alexandria.** Rendered from Hawkins's English, ANF6 27801–27804 ("take ye heed to this, and hold no communion with him, until I meet him in company with some wise and discreet men, and see what the designs are which he has thought upon"). The Latin original is not held.
-  Rendering: **"Take heed. Do not share communion with him until I meet him with some wise and sensible men, and see what plans he has made."**
+  Rendering: **"Take heed of this. Do not share communion with him until I meet him with some wise and sensible men, and see what plans he has made."**
   Behind it: English printed before 1931 (ANF 1886). Job: Peter's own voice on the break, an order to keep apart that waits on a meeting; it does what narration cannot, by showing he did not pronounce a final sentence in this letter. On the tree: not quoted elsewhere; `melitian-schism` narrates "hold no communion" in its own sentence. The barred clause "ordained in the prison several unto himself" is not used.
 - **Q3. Eusebius of Caesarea, Church History IX.6.2.** Rendered from the Greek, EUS-G 17558–17560 ("ἐξ οὐδεμιᾶς ἀνάρπαστος γεγονὼς αἰτίας, μηδεμιᾶς προλαβούσης προσδοκίας, ἀθρόως οὕτως καὶ ἀλόγως, ὡς ἂν Μαξιμίνου προστάξαντος, τὴν κεφαλὴν ἀποτέμνεται"), checked clause by clause against McGiffert's English, EUS 47995–47998.
-  Rendering: **"He was seized for no cause, and nothing had warned of it. All at once and without reason, as though Maximinus had ordered it, his head was cut off."**
+  Rendering: **"He was seized for no cause, when no one expected it. All at once and without reason, as though Maximinus had ordered it, his head was cut off."**
   Behind it: an original in a damaged held print (OCR "διαξιμίνου"), confirmed by the 1890 English. Job: the death, in the contemporary witness's words, keeping his "as though" and his "for no cause". On the tree: not used elsewhere. In this batch, `eusebius-of-caesarea` must not use this passage.
 
 ## Names
