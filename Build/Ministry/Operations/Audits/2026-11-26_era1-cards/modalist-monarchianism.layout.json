@@ -1,0 +1,225 @@
+{
+ "shortDescription": "Noetus of Smyrna taught that Christ is the Father himself, who was born, suffered and died, and his pupils carried the teaching to Rome. Hippolytus and Tertullian wrote against it, and what it taught comes to us in their books.",
+ "dates": "c. 200 to 4th c.",
+ "timeline": [
+  {
+   "when": "At Smyrna, date unknown",
+   "headline": "Noetus teaches that Christ is the Father, and the presbyters of Smyrna put him out of the church",
+   "witness": "Hippolytus, Against Noetus, by an opponent",
+   "lines": [
+    {
+     "when": "date unknown, not very long before Hippolytus wrote",
+     "text": "Hippolytus writes that Noetus, a native of Smyrna, lived not very long before his own time. He says Noetus taught that Christ was the Father himself, and that the Father himself was born, suffered and died.",
+     "reference": "Hippolytus, Against Noetus 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 23116-23118, 23125-23126, 23142-23144"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus charges that Noetus said he was Moses himself, and that Aaron was his brother.",
+     "reference": "Hippolytus, Against Noetus 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 23148-23149"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that the presbyters of Smyrna, the church's elders, called Noetus before the church and questioned him, and that at first he denied holding such views.",
+     "reference": "Hippolytus, Against Noetus 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 23152-23154"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that Noetus later gathered others who shared his view and taught it openly. Called before the presbyters a second time, Noetus asked what evil he was doing in glorifying Christ.",
+     "reference": "Hippolytus, Against Noetus 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 23154-23161"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that the presbyters answered that they too knew one God, and knew that the Son suffered, died and rose on the third day. They put Noetus out of the church, and he set up a school of his own.",
+     "reference": "Hippolytus, Against Noetus 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 23161-23175"
+    }
+   ]
+  },
+  {
+   "when": "At Rome, under Zephyrinus and Callistus, early in the 3rd century",
+   "headline": "Noetus's pupils bring the teaching to Rome, and Hippolytus charges two bishops of Rome with backing it",
+   "witness": "Hippolytus, Refutation of All Heresies IX, by an opponent",
+   "lines": [
+    {
+     "when": "about 201, the ninth year of Severus",
+     "text": "Eusebius writes that Zephyrinus became bishop of Rome in about the ninth year of the emperor Severus.",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32209-32211; the year is a conversion from Eusebius's ninth year of Severus, counting his reign from 193",
+     "note": "Eusebius, not Hippolytus."
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus writes that Epigonus, a pupil of Noetus, spread the teaching while he lived at Rome, and that Cleomenes took it up there and upheld it.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13272-13285; Book X, the same file, lines 15528-15532"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus calls Zephyrinus an uninformed and corrupt man. He charges that Zephyrinus, for gain, let people join the followers of Cleomenes, then came over to the teaching himself, with Callistus as his adviser.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13285-13300"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus writes that Zephyrinus said in public that he knew one God, Jesus Christ, and no other who was born and could suffer. At another time, Hippolytus says, Zephyrinus said that the Father did not die, but the Son.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13619-13626"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus writes that Sabellius, who had followers of his own, did not hold out against Hippolytus's warnings. He says Sabellius was drawn back to the teaching of Cleomenes while he was alone with Callistus.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13607-13618"
+    },
+    {
+     "when": "after the death of Zephyrinus",
+     "text": "Hippolytus writes that Callistus, once he was bishop, put Sabellius out of the church for his teaching. He says Callistus did it out of fear of Hippolytus, and to clear himself among the churches of the charge that he shared it.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13816-13822"
+    },
+    {
+     "when": "in Callistus's time",
+     "text": "Hippolytus gives Callistus's own words: he would not profess belief in two Gods, Father and Son, but in one. Hippolytus charges that Callistus taught that the Father suffered along with the Son, and that Callistus called Hippolytus's side worshippers of two gods.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13837-13841, 13855-13864"
+    }
+   ]
+  },
+  {
+   "when": "At Rome and where Tertullian wrote, date unknown",
+   "headline": "Praxeas brings the teaching from Asia to Rome, and Tertullian writes Against Praxeas",
+   "witness": "Tertullian, Against Praxeas, by an opponent",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Praxeas was the first to bring this teaching from Asia to Rome. He calls Praxeas a restless man, proud of having suffered for the faith after a short time in prison.",
+     "reference": "Tertullian, Against Praxeas 1, cic/texts/anf03_tertullian.xml lines 51037-51041"
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that the bishop of Rome had recognized the prophecies of Montanus, Prisca and Maximilla, and that Praxeas, with false charges against them, made him take back his letter of peace to the churches of Asia and Phrygia. So, Tertullian says, Praxeas drove away prophecy and brought in heresy: he put the Holy Spirit to flight and crucified the Father.",
+     "reference": "Tertullian, Against Praxeas 1, cic/texts/anf03_tertullian.xml lines 51044-51057",
+     "note": "Tertullian writes that his own side later withdrew from the others, for holding to the Paraclete, lines 51074-51076."
+    },
+    {
+     "when": "date unknown",
+     "text": "Tertullian writes that Praxeas's teaching had also taken root where Tertullian was, and that Praxeas later taught his old faith again and left a statement in his own hand. After that, Tertullian says, nothing more was heard of him.",
+     "reference": "Tertullian, Against Praxeas 1, cic/texts/anf03_tertullian.xml lines 51057-51074"
+    },
+    {
+     "when": "as Tertullian wrote",
+     "text": "Tertullian writes that the teaching has now broken out again with fresh life. Its preachers, he says, hold that the Father was born and the Father suffered, and that he is Jesus Christ.",
+     "reference": "Tertullian, Against Praxeas 1-2, cic/texts/anf03_tertullian.xml lines 51081-51084, 51095-51097"
+    },
+    {
+     "when": "as Tertullian wrote",
+     "text": "Tertullian writes that the simple, who are always the larger part of believers, are startled at his teaching on Father, Son and Holy Spirit. They accuse his side of preaching two or three gods, and say that they themselves hold to the Monarchy, the rule of one God.",
+     "reference": "Tertullian, Against Praxeas 3, cic/texts/anf03_tertullian.xml lines 51162-51178"
+    },
+    {
+     "when": "as Tertullian wrote",
+     "text": "Tertullian answers that the one God has a Son, his Word, sent into the Virgin and born of her. Father, Son and Holy Spirit, he writes, are three in degree, form and aspect, and of one substance and one power.",
+     "reference": "Tertullian, Against Praxeas 2, cic/texts/anf03_tertullian.xml lines 51100-51111, 51144-51150"
+    }
+   ]
+  },
+  {
+   "when": "Rome and Alexandria, in the middle of the 3rd century",
+   "headline": "Novatian at Rome and the bishops of Alexandria and Rome write against Sabellius's teaching",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Novatian, in his book On the Trinity, writes against those who come near the boldness of Sabellius, who says that Christ is the Father.",
+     "reference": "Novatian, On the Trinity 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 61486-61489"
+    },
+    {
+     "when": "while Xystus was bishop of Rome",
+     "text": "Dionysius, bishop of Alexandria, writes to Xystus, bishop of Rome, of a teaching stirring in Ptolemais of the Pentapolis. He calls it a great blasphemy against the Father and the Son, and says that, when letters came to him from both sides, he wrote letters on it as best he could.",
+     "reference": "Eusebius, Church History VII.5-6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39406-39407, 39435-39436, 39512-39520",
+     "note": "Eusebius, who quotes the letter, names the teaching as that of Sabellius, lines 39476-39477, 39509."
+    },
+    {
+     "when": "date unknown",
+     "text": "Athanasius writes that Dionysius of Alexandria, writing against Sabellius, showed that the Word became flesh, not the Father. Dionysius was then suspected of calling the Son a thing made, and wrote to Dionysius, bishop of Rome, that this was a slander.",
+     "reference": "Athanasius, On the Decrees of the Synod of Nicaea 25, cic/texts/npnf204_athanasius-select-works-letters.xml lines 28435-28444"
+    },
+    {
+     "when": "date unknown",
+     "text": "Dionysius of Rome, as Athanasius quotes him, writes that Sabellius says the Son is the Father and the Father the Son. He also writes against teachers who preach three Gods.",
+     "reference": "Athanasius, On the Decrees of the Synod of Nicaea 26, cic/texts/npnf204_athanasius-select-works-letters.xml lines 28469-28473, 28529-28535"
+    }
+   ]
+  },
+  {
+   "when": "In the 4th century",
+   "headline": "Epiphanius finds Sabellians in Mesopotamia and around Rome, and Basil warns Neocaesarea against Sabellius's teaching",
+   "lines": [
+    {
+     "when": "in Epiphanius's day",
+     "text": "Epiphanius writes that the Sabellians are named after Sabellius, who taught much as the Noetians did, and that many in Mesopotamia and around Rome hold his teaching.",
+     "reference": "Epiphanius, Panarion 62.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 30236-30241",
+     "note": "Epiphanius wrote in the 4th century."
+    },
+    {
+     "when": "in Epiphanius's day",
+     "text": "Epiphanius writes that the Sabellians teach that Father, Son and Holy Spirit are the same, three names in one being, as body, soul and spirit are in one man.",
+     "reference": "Epiphanius, Panarion 62.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 30243-30246, 30249-30252"
+    },
+    {
+     "when": "in Epiphanius's day",
+     "text": "Epiphanius writes that the Sabellians also compare God to the sun, which is one, with its light, its warmth and its round shape. The Son, they say, was sent once like a ray, did his work in the world, and was taken back up into heaven.",
+     "reference": "Epiphanius, Panarion 62.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 30252, 30299-30307"
+    },
+    {
+     "when": "in Epiphanius's day",
+     "text": "Epiphanius writes that the Sabellians draw on words of Scripture they choose, first of all God's words to Moses: Hear, O Israel, the Lord your God is one Lord.",
+     "reference": "Epiphanius, Panarion 62.2, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 30313-30317"
+    },
+    {
+     "when": "in Basil's time as bishop",
+     "text": "Basil, bishop of Caesarea, writes to the clergy of Neocaesarea that none but Sabellius the Libyan and Marcellus the Galatian dared to teach what their leaders now put forward as a discovery of their own.",
+     "reference": "Basil, Letter 207, cic/texts/npnf208_basil-letters-select-works.xml lines 37206-37212, 37231-37238"
+    },
+    {
+     "when": "in Basil's time as bishop",
+     "text": "Basil writes to the notables of Neocaesarea that some there are trying to renew the old mischief of Sabellius, begun long ago and put out by the tradition of the great Gregory, an earlier leader of their church. He calls Sabellius's teaching Judaism brought into the preaching of the gospel under the guise of Christianity.",
+     "reference": "Basil, Letter 210, cic/texts/npnf208_basil-letters-select-works.xml lines 37424-37427, 37522-37542"
+    }
+   ]
+  },
+  {
+   "when": "In the 5th century",
+   "headline": "Augustine counts the Noetians and Sabellians as one sect with many names",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Augustine writes that the Sabellians are said to have come from Noetus, and that some say Sabellius was his pupil. The Noetians are hard to find, he says, but the Sabellians are on many people's lips.",
+     "reference": "Augustine, On Heresies 41, cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt lines 1745-1752",
+     "note": "Augustine wrote in the 5th century."
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine writes that some call them Praxeans, after Praxeas, who is said to have been in Africa, and that these are many names for one sect.",
+     "reference": "Augustine, On Heresies 41, cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt lines 1752-1758"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Against Noetus, and Refutation of All Heresies IX, in English",
+   "author": "Hippolytus",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+  },
+  {
+   "title": "Against Praxeas, in English",
+   "author": "Tertullian",
+   "file": "cic/texts/anf03_tertullian.xml"
+  },
+  {
+   "title": "On Heresies 36 and 41, in Latin",
+   "author": "Augustine",
+   "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+  }
+ ],
+ "uncertain": [
+  "Their own words. No writing of Noetus, Praxeas or Sabellius is among the texts this card draws on. What they taught comes through those who wrote against them: Hippolytus, Tertullian, Novatian, the two bishops named Dionysius, Epiphanius and Basil.",
+  "Who began it. In Book IX of his Refutation, Hippolytus calls Epigonus a pupil of Noetus. In Book X he writes that Noetus brought in a heresy that began with Epigonus.",
+  "Callistus. Hippolytus, his rival at Rome, charges that Callistus backed the teaching and then put Sabellius out to clear himself. Among the texts this card draws on, the charge stands on Hippolytus alone.",
+  "Praxeas. Tertullian says he came from Asia to Rome. Augustine reports that he is said to have been in Africa.",
+  "Sabellius's homeland. Basil calls him Sabellius the Libyan. Hippolytus, who warned him in person, tells of him only at Rome.",
+  "One teaching or two. Epiphanius counts the Noetians and the Sabellians as two heresies. Augustine writes that he cannot find out why, and takes them as one sect with many names."
+ ]
+}

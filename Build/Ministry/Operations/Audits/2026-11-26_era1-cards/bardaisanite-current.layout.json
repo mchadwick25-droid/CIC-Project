@@ -1,0 +1,197 @@
+{
+ "shortDescription": "In Edessa, Bardaisan taught in Syriac that people are free to choose what they do, and a friend wrote his words down as a dialogue. He and his son Harmonius made songs in Syriac, and Ephrem the Syrian later answered them with hymns in the same meters.",
+ "dates": "Late 2nd to 4th c.",
+ "timeline": [
+  {
+   "when": "In Bardaisan's lifetime, late in the 2nd century",
+   "headline": "Bardaisan is born at Edessa, writes in Syriac against Marcion's followers and on fate, and is named among the schools of Valentinus",
+   "lines": [
+    {
+     "when": "154, the year 465 of the Greeks",
+     "text": "The Chronicle of Edessa, a Syriac chronicle of that city, records that Bardaisan was born on the eleventh day of the month Tammuz, in the year 465.",
+     "reference": "Chronicle of Edessa 6, tr. Cowper, cic/texts/chronicle-of-edessa_cowper.txt line 49; the year is a conversion from the chronicle's era of the Greeks, counted from 312 BC, in which Tammuz of 465 falls in 154",
+     "note": "A later chronicle: its entries run into the 6th century, line 235."
+    },
+    {
+     "when": "in the reign of Marcus Aurelius, Eusebius says",
+     "text": "Eusebius writes that in the reign of Marcus Aurelius, when heresies were many in Mesopotamia, Bardesanes, a most able man and a skilled debater in Syriac, wrote dialogues in his own language against Marcion's followers and others, with many other works.",
+     "reference": "Eusebius, Church History IV.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26525-26529, 26633-26637; the reign, IV.14, lines 23032-23036"
+    },
+    {
+     "when": "in the reign of Marcus Aurelius, Eusebius says",
+     "text": "Eusebius writes that Bardesanes's pupils, who were very many, put his works from Syriac into Greek, and calls him a powerful defender of the faith. Among the works was his dialogue On Fate, addressed to Antoninus.",
+     "reference": "Eusebius, Church History IV.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26637-26644"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Bardesanes was at first a follower of Valentinus, then rejected and refuted most of that teaching, yet never wholly washed off the filth of the old heresy.",
+     "reference": "Eusebius, Church History IV.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26652-26657"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius writes that Bardesanes, of Mesopotamia and of those who lived in Edessa, was at first an excellent man, learned in Greek and in Syriac. He says Bardesanes came from the holy church of God and was close to the ruler of Edessa.",
+     "reference": "Epiphanius, Panarion 56.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 26325-26334",
+     "note": "Epiphanius wrote in the 4th century."
+    },
+    {
+     "when": "in the times of the emperor Antoninus, Epiphanius says",
+     "text": "Epiphanius writes that Bardesanes argued at length against Abidas the astronomer about fate. He says that when Apollonius, a companion of the emperor Antoninus, urged him to deny he was a Christian, Bardesanes refused, saying he did not fear death.",
+     "reference": "Epiphanius, Panarion 56.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 26407-26417, 26486-26491"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius writes that Bardesanes later joined the followers of Valentinus, brought in many first principles and beings sent forth from them, and denied the resurrection of the dead. He was like a fine ship, Epiphanius says, wrecked at the harbor's edge.",
+     "reference": "Epiphanius, Panarion 56.1-2, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 26491-26501"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus names Bardesanes, with Axionicus, among the eastern followers of Valentinus, who say that the body of the Savior was spiritual.",
+     "reference": "Hippolytus, Refutation of All Heresies VI, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 9656-9663"
+    },
+    {
+     "when": "in Hippolytus's own times",
+     "text": "Hippolytus writes that in his own times Prepon, a follower of Marcion, set out his teaching in a work addressed to Bardesanes, an Armenian.",
+     "reference": "Hippolytus, Refutation of All Heresies VII, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 12054-12060"
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "Philip, one of Bardaisan's circle, writes down his answer to Avida on fate and freedom, and Eusebius later quotes it in Greek",
+   "witness": "The Book of the Laws of Countries, written by one of Bardaisan's circle",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The writer says that he and others were visiting their brother Shemashgram when Bardaisan came in, and asked, as was his habit, what they had been talking about.",
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 67908-67920"
+    },
+    {
+     "when": "date unknown",
+     "text": "The friends tell Bardaisan that Avida had asked why God, if he is one and made humans, did not make them unable to do wrong.",
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 67921-67926"
+    },
+    {
+     "when": "date unknown",
+     "text": "Bardaisan tells Avida that if he wishes to learn, he should ask someone older than his friends, since teachers are asked questions, and that it is good to know how to ask.",
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 67934-67943"
+    },
+    {
+     "when": "date unknown",
+     "text": "Bardaisan says that people are governed by nature all alike, by fate in different ways, and by their freedom, each as he chooses.",
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 68441-68443"
+    },
+    {
+     "when": "date unknown",
+     "text": "Bardaisan says that Christ planted Christians in every country, and that wherever they are, they are called by the one name of Christ. On the first day of the week, he says, they meet together, and on the days of the readings they go without food.",
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 68966-68976"
+    },
+    {
+     "when": "date unknown",
+     "text": "Bardaisan addresses the writer as his son Philip, and speaks to him with another friend, Baryama.",
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 68337-68338, 68878-68879"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius, in his Preparation for the Gospel, quotes in Greek from Bardesanes's dialogues with his companions a long passage against the astrologers. He calls him a Syrian by birth who had pursued the science of the Chaldeans, the readers of the stars, to its height.",
+     "reference": "Eusebius, Preparation for the Gospel VI.10, tr. Gifford, cic/texts/eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt lines 17926-17942",
+     "note": "Eusebius wrote in the 4th century."
+    }
+   ]
+  },
+  {
+   "when": "At Edessa, in the 4th century",
+   "headline": "Ephrem the Syrian attacks Bardaisan's teaching and songs in hymns and in prose",
+   "witness": "Ephrem the Syrian, an opponent",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Ephrem writes in a hymn that he chanced upon a book of Bardaisan and was troubled. He charges that Bardaisan cut the body off from its resurrection, and counted as gain the loss the serpent brought.",
+     "reference": "Ephrem, Nisibene Hymns 51, in Gwynn's English, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 11188-11223"
+    },
+    {
+     "when": "date unknown",
+     "text": "Ephrem writes that Bardaisan made hymns and joined them to tunes, and composed a hundred and fifty psalms to match David. He charges that Bardaisan blended poison with sweetness for the simple.",
+     "reference": "Ephrem, Hymns against Heresies 53, in Gwynn's English, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 11238-11247"
+    },
+    {
+     "when": "date unknown",
+     "text": "Ephrem curses anyone who says, as Bardaisan did, that rain, dew, snow and the farmers' seeds come from the Seven, powers Ephrem says Bardaisan confessed.",
+     "reference": "Ephrem, in Gwynn's English, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 11261-11272"
+    },
+    {
+     "when": "date unknown",
+     "text": "In a prose work, Ephrem asks Bardaisan's party what holds up the Entities, the first beings Bardaisan places in empty space, some light and some heavy.",
+     "reference": "Ephrem, Prose Refutations, Discourses to Hypatius, tr. Mitchell, cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt lines 606-608"
+    },
+    {
+     "when": "date unknown",
+     "text": "Ephrem writes that what Bardaisan makes five Entities, Mani makes from a single essence, and that Mani came in by the door Bardaisan opened.",
+     "reference": "Ephrem, Prose Refutations, Discourses to Hypatius, tr. Mitchell, cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt line 917"
+    },
+    {
+     "when": "373, the year 684 of the Greeks",
+     "text": "The Chronicle of Edessa records that Mar Ephraim, the wise, died on the ninth day of Haziran, the month of June, in the year 684.",
+     "reference": "Chronicle of Edessa 30, tr. Cowper, cic/texts/chronicle-of-edessa_cowper.txt line 103; the year is a conversion from the era of the Greeks, counted from 312 BC, in which June of 684 falls in 373",
+     "note": "The Chronicle of Edessa, not Ephrem."
+    }
+   ]
+  },
+  {
+   "when": "Late in the 4th century and in the 5th",
+   "headline": "Jerome, Sozomen and Theodoret tell of Bardaisan's books, of Harmonius's songs, and of Ephrem's answer",
+   "lines": [
+    {
+     "when": "written in 392",
+     "text": "Jerome writes that Bardesanes of Mesopotamia first followed Valentinus, then opposed him and founded a new heresy. He says the Syrians held him a brilliant mind, and that his followers put his book On Fate, addressed to Marcus Antoninus, into Greek.",
+     "reference": "Jerome, Lives of Illustrious Men 33, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40139-40148; written in 392, lines 38784-38785, a conversion from the fourteenth year of Theodosius, counting his reign from 379"
+    },
+    {
+     "when": "date unknown",
+     "text": "Sozomen writes that Harmonius, son of Bardasanes, is said to have been the first to set Syriac to meters and musical rules, and that the Syrians still often sang his melodies in Sozomen's day. He says Harmonius put his father's errors, and Greek ideas about the soul and the body, into his songs.",
+     "reference": "Sozomen, Church History III.16, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 32079-32094",
+     "note": "Sozomen wrote in the 5th century."
+    },
+    {
+     "when": "date unknown",
+     "text": "Sozomen writes that Ephrem, fearing the Syrians would take in these ideas with the songs, learned Harmonius's meters and wrote poems of the same kind on the church's teaching. From then on, he says, the Syrians sang Ephrem's odes to the rule Harmonius had set.",
+     "reference": "Sozomen, Church History III.16, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 32094-32103"
+    },
+    {
+     "when": "date unknown",
+     "text": "Theodoret writes that Harmonius, son of Bardesanes, made songs that mixed sweet melody with his impiety, and that Ephrem kept the music and set it to faith. He says these songs still brighten the feasts of the martyrs.",
+     "reference": "Theodoret, Church History IV.26, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 15057-15066",
+     "note": "Theodoret wrote in the 5th century."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "The Book of the Laws of Countries, in English",
+   "author": "Philip, one of Bardaisan's circle",
+   "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+  },
+  {
+   "title": "Church History IV.30, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Prose Refutations of Mani, Marcion and Bardaisan, in English",
+   "author": "Ephrem the Syrian",
+   "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+  },
+  {
+   "title": "Lines of Ephrem's hymns against Bardaisan, in English",
+   "author": "Ephrem the Syrian",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+  }
+ ],
+ "uncertain": [
+  "Which came first. Eusebius and Jerome say Bardaisan began among the followers of Valentinus and left them. Epiphanius says he began as an excellent Christian and joined them later.",
+  "Two portraits. In the dialogue Bardaisan argues that people are free in what they do, whatever the stars may hold. Ephrem charges him with Entities in empty space, and with the Seven, from which he says rain and dew come. The old sources held here do not settle how the two fit together.",
+  "His dates. The Chronicle of Edessa gives his birth in the year 465 of the Greeks. Eusebius places him in the reign of Marcus Aurelius, and Epiphanius in the times of an emperor Antoninus.",
+  "Who made the songs. Ephrem names Bardaisan as the maker of the hymns and the hundred and fifty psalms. Sozomen and Theodoret give the songs to his son Harmonius.",
+  "Bardaisan's people. Hippolytus calls him an Armenian. Eusebius and Jerome call him a Syrian and a man of Mesopotamia, and Epiphanius places him among those who lived in Edessa."
+ ]
+}

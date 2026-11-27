@@ -1,0 +1,218 @@
+{
+ "shortDescription": "Victorinus, bishop of Pettau, wrote Latin books on Scripture and died a martyr. Later, Valens and Ursacius, bishops from Pannonia, pushed for a creed that called the Son like the Father.",
+ "dates": "4th c.",
+ "timeline": [
+  {
+   "when": "Victorinus's lifetime, date unknown",
+   "headline": "Victorinus, bishop of Pettau, writes Latin commentaries, among them one on the Apocalypse, and dies a martyr",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that Victorinus, bishop of Pettau, knew Latin less well than Greek, so that his works, great in thought, seem weaker in style. He lists commentaries on Genesis, Exodus, Leviticus, Isaiah, Ezekiel, Habakkuk, Ecclesiastes, the Song of Songs and the Apocalypse of John, and a work against all heresies.",
+     "reference": "Jerome, Lives of Illustrious Men 74, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40945-40950; Latin, cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 58328-58331, and the whole chapter in Latin as Haussleiter quotes it, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 176-182; written in 392, lines 38784-38785 of the English, a conversion from the fourteenth year of Theodosius, counting his reign from 379"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that Papias, bishop of Hierapolis, is said to have taught that after the resurrection the Lord will reign in the flesh with the saints, and that Tertullian, Victorinus of Pettau and Lactantius follow this view.",
+     "reference": "Jerome, Lives of Illustrious Men 18, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39862-39864, 39880-39885"
+    },
+    {
+     "when": "date unknown",
+     "text": "In his commentary on the Apocalypse, Victorinus writes that the bowls repeat what the trumpets told, and that what the trumpets said too briefly the bowls say more fully. The order of what is said should not be followed, he writes, because the Holy Spirit runs on to the end of time and then comes back to the same times to fill in what he said too briefly.",
+     "reference": "Victorinus, Commentary on the Apocalypse 8, Latin, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 7332-7333, 7365-7371; English, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 11845"
+    },
+    {
+     "when": "date unknown",
+     "text": "In his own text of the commentary, Victorinus writes that at the Lord's coming the devil and his angels are shut away, and let loose after a thousand years against the nations that served the Antichrist, before the judgment of all. The nobler nations, he writes, will be kept to serve the saints, and will be killed at the end of the saints' reign, before the judgment.",
+     "reference": "Victorinus, Commentary on the Apocalypse 19-20, Latin, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 9530-9547"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that at the last Victorinus received the crown of martyrdom.",
+     "reference": "Jerome, Lives of Illustrious Men 74, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40950-40951"
+    }
+   ]
+  },
+  {
+   "when": "Under Diocletian and Maximian, early in the 4th century",
+   "headline": "The governor Probus puts Montanus, Irenaeus and Pollio to death, and Quirinus of Siscia is drowned",
+   "witness": "The acts of the martyrs Irenaeus, Pollio and Quirinus",
+   "lines": [
+    {
+     "when": "under Diocletian and Maximian",
+     "text": "The act of Pollio says that when the emperors' order to destroy the Christians reached Sirmium, the governor Probus began with the clergy, and had Montanus, a presbyter of the church of Singidunum, killed.",
+     "reference": "The Passion of Pollio 1, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44493-44498"
+    },
+    {
+     "when": "under Diocletian and Maximian",
+     "text": "The act of Irenaeus says that Irenaeus, bishop of Sirmium, was brought before Probus, governor of Pannonia, and told to sacrifice to the gods. He answered that whoever sacrifices to gods, and not to God, will be rooted out.",
+     "reference": "The Passion of Irenaeus 1-2, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44304, 44309-44315"
+    },
+    {
+     "when": "under Diocletian and Maximian",
+     "text": "The act of Irenaeus says that while Irenaeus was tortured, his relatives came to him: his children clasped his feet, and the women of his house wept and begged him to pity his youth. He answered none of them.",
+     "reference": "The Passion of Irenaeus 3, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44332-44340"
+    },
+    {
+     "when": "under Diocletian and Maximian",
+     "text": "The act of Irenaeus says that Probus later asked Irenaeus whether he had a wife, children or parents, and Irenaeus said he had none. He told Probus that his children had the same God he had, who was able to save them.",
+     "reference": "The Passion of Irenaeus 4, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44356-44366"
+    },
+    {
+     "when": "the eighth day before the Ides of April, under Diocletian, the act says",
+     "text": "The act of Irenaeus says that Probus sentenced Irenaeus to be thrown into the river, then had him struck with the sword at the bridge called Basentis. Irenaeus prayed for the people of the church of Sirmium, and his body was thrown into the river Sava.",
+     "reference": "The Passion of Irenaeus 4-6, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44369-44371, 44431-44446"
+    },
+    {
+     "when": "the fifth day before the Kalends of May, under Diocletian and Maximian, the act says",
+     "text": "The act of Pollio says that Probus went on to Cibalae, where Eusebius, its bishop, had died for Christ in an earlier persecution. There Probus questioned Pollio, the chief of the readers, who read the word of God aloud to the people.",
+     "reference": "The Passion of Pollio 1-2, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44502-44518, 44576-44577"
+    },
+    {
+     "when": "the fifth day before the Kalends of May, the act says",
+     "text": "The act of Pollio says that Probus charged the readers with leading foolish women astray by forbidding them to marry. Pollio answered with what Christ's commands teach, among them one God in heaven, mercy to the poor and pardon for enemies, and Probus had him burned alive a mile from the city.",
+     "reference": "The Passion of Pollio 2-3, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44518-44538, 44564-44571"
+    },
+    {
+     "when": "under Diocletian",
+     "text": "The act of Quirinus says that Quirinus, bishop of Siscia, fled the city when the governor Maximus sought him, and was caught. He was then led in chains from city to city along the bank of the Danube, to the governor Amantius.",
+     "reference": "The Passion of Quirinus 1-4, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 53121, 53132-53136, 53212-53216"
+    },
+    {
+     "when": "under Diocletian",
+     "text": "The act of Quirinus says that as Quirinus blessed the food Christian women brought him, the chains on his hands and feet fell off.",
+     "reference": "The Passion of Quirinus 4, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 53217-53220",
+     "note": "A wonder, in the act's voice."
+    },
+    {
+     "when": "under Diocletian",
+     "text": "The act of Quirinus says that Amantius had a millstone tied to Quirinus's neck and had him thrown from a bridge into the river Sibaris. He stayed afloat a long time, it says, told the onlookers not to fear his example, and only by prayer won the death he asked for.",
+     "reference": "The Passion of Quirinus 4-5, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 53221, 53287-53297",
+     "note": "A wonder, in the act's voice."
+    }
+   ]
+  },
+  {
+   "when": "In the reign of Constantius",
+   "headline": "Bishops from Pannonia take a lead in the quarrel over the Son, and councils meet at Sirmium",
+   "lines": [
+    {
+     "when": "date unknown, while Julius was bishop of Rome",
+     "text": "Ursacius and Valens, in a letter Athanasius keeps, tell Julius, bishop of Rome, that their charges against Athanasius were false, and ask for communion with him. They condemn Arius, who said the Son once was not.",
+     "reference": "Athanasius, Defense against the Arians 58, cic/texts/npnf204_athanasius-select-works-letters.xml lines 24714-24738",
+     "note": "In their own words."
+    },
+    {
+     "when": "351, the year after the consulship of Sergius and Nigrinianus",
+     "text": "Socrates writes that Photinus, who led the churches around Sirmium, taught that the Son of God was a mere man. A council of bishops met at Sirmium, Valens of Mursa among them, and deposed him.",
+     "reference": "Socrates, Church History II.18, II.29, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 6568-6572, 7842-7849, 7859-7863, 7879-7881; the year is a conversion from the consuls Socrates names",
+     "note": "Socrates wrote in the 5th century."
+    },
+    {
+     "when": "359, in the consulship of Eusebius and Hypatius",
+     "text": "Athanasius gives a creed written at Sirmium before the emperor Constantius and dated by its consuls, on the eleventh day before the Kalends of June. It calls the Son like the Father in all things, and sets aside the word essence, since Scripture does not use it of Father and Son.",
+     "reference": "Athanasius, On the Councils of Ariminum and Seleucia 8, cic/texts/npnf204_athanasius-select-works-letters.xml lines 56617-56624, 56655-56660"
+    },
+    {
+     "when": "359",
+     "text": "Athanasius writes that Ursacius, Valens and Germinius, from Pannonia, were among those who moved the emperor Constantius to call the councils at Ariminum and Seleucia. At Ariminum, he says, they read out the dated creed and asked that it stand above every council.",
+     "reference": "Athanasius, On the Councils of Ariminum and Seleucia 1, 8, cic/texts/npnf204_athanasius-select-works-letters.xml lines 56365-56387, 56602-56615"
+    },
+    {
+     "when": "359",
+     "text": "Athanasius mocks Ursacius, Valens and Germinius for putting the consuls, the month and the day before their statement of faith, as if their faith dated from that year.",
+     "reference": "Athanasius, On the Councils of Ariminum and Seleucia 3, cic/texts/npnf204_athanasius-select-works-letters.xml lines 56427-56435"
+    }
+   ]
+  },
+  {
+   "when": "In the reign of Gratian",
+   "headline": "At the council of Aquileia, Palladius asks for the eastern bishops, and Anemius of Sirmium condemns any who deny the Son is eternal",
+   "witness": "The council's minutes, as Maximinus quotes them in his work against Ambrose",
+   "lines": [
+    {
+     "when": "in the reign of Gratian",
+     "text": "The minutes of Aquileia record Palladius telling Ambrose and his side that it was their doing that the council was not a general and full one, and that with their fellow bishops absent they could not judge on the faith. Asked who those bishops were, Palladius answered the eastern bishops.",
+     "reference": "The minutes of the council of Aquileia, in Maximinus, Against Ambrose, ed. Kauffmann, cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt lines 14724-14729",
+     "note": "Maximinus calls him Palladius, bishop of Ratiaria, line 14692."
+    },
+    {
+     "when": "in the reign of Gratian",
+     "text": "The minutes of Aquileia record Ambrose answering that eastern bishops hold councils in the east and western bishops in the west, and that they had met at Aquileia by the emperor's order. Palladius replied that the emperor Gratian had ordered the eastern bishops to come.",
+     "reference": "The minutes of the council of Aquileia, in Maximinus, Against Ambrose, ed. Kauffmann, cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt lines 14731-14738, 14744"
+    },
+    {
+     "when": "in the reign of Gratian",
+     "text": "The minutes of Aquileia record Anemius, bishop of Sirmium, saying that Sirmium is the head of Illyricum, the region it lies in, and that he, its bishop, condemned anyone who did not confess the Son of God eternal with the Father.",
+     "reference": "The minutes of the council of Aquileia 32, in Maximinus, Against Ambrose, ed. Kauffmann, cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt lines 15029-15032; Sirmium in Illyricum, Socrates, Church History II.18, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 6568-6569"
+    }
+   ]
+  },
+  {
+   "when": "What came of them, late in the 4th century and after",
+   "headline": "Jerome revises Victorinus's commentary, Gennadius lists the books of Niceas of Romatia, and Paulinus of Nola sends Niceta home to the Dacians",
+   "lines": [
+    {
+     "when": "date unknown, in Jerome's time",
+     "text": "Jerome writes to a friend, Anatolius, who had sent him Victorinus's commentary on the Apocalypse, that Papias, bishop of Hierapolis, and Nepos, a bishop in Egypt, had held the thousand-year reign as Victorinus did. He says he joined to Victorinus's work what he found on it in older commentaries, and took out what Victorinus had meant literally.",
+     "reference": "Jerome, Letter to Anatolius, the preface to his revision, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 4178-4193"
+    },
+    {
+     "when": "date unknown, in Jerome's time",
+     "text": "Jerome writes that from the beginning of the book to a mark of the cross he corrected what careless copyists had spoiled, and that from there to the end of the book the text is added.",
+     "reference": "Jerome, Letter to Anatolius, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 4195, 4223-4224"
+    },
+    {
+     "when": "date unknown, in Jerome's time",
+     "text": "Jerome's revision keeps Victorinus's lines on the trumpets and the bowls, and on the order of what is said in the Apocalypse, almost word for word.",
+     "reference": "Jerome's revision of the Commentary on the Apocalypse 8, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 7400-7406, beside Victorinus's text at lines 7365-7371"
+    },
+    {
+     "when": "date unknown",
+     "text": "Gennadius writes that Niceas, bishop of the city of Romatia, wrote six books of instruction in plain language for those preparing for baptism, among them books on faith in one sovereign, on the creed and on the Passover lamb.",
+     "reference": "Gennadius, Lives of Illustrious Men 22, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 42593-42607",
+     "note": "Gennadius wrote in the 5th century."
+    },
+    {
+     "when": "date unknown",
+     "text": "Paulinus of Nola, in a poem of farewell, writes that Niceta will go far to the Dacians of the north, by way of Epirus and Thessalonica, to the shores he was given to as their priest. On the voyage, he writes, the sailors will turn their chant into hymns, with Niceta's voice leading them in praise of Christ.",
+     "reference": "Paulinus of Nola, Poem 17, cic/texts/paulinus-nola_carmina-lat_hartel-csel30-1894.txt lines 6651-6669, 6886-6892, 7110-7115"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Lives of Illustrious Men 74, in English",
+   "author": "Jerome",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Commentary on the Apocalypse, with Jerome's revision and his letter on it, in Latin",
+   "author": "Victorinus of Pettau",
+   "file": "cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt"
+  },
+  {
+   "title": "Commentary on the Apocalypse, in English",
+   "author": "Victorinus of Pettau",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+  },
+  {
+   "title": "On the Councils of Ariminum and Seleucia, in English",
+   "author": "Athanasius",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+  },
+  {
+   "title": "The minutes of the council of Aquileia, in Maximinus, Against Ambrose, in Latin",
+   "author": "Maximinus",
+   "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+  }
+ ],
+ "uncertain": [
+  "Victorinus's dates. Jerome says he died a martyr at the last, and gives no year, place or emperor.",
+  "What Jerome changed. Jerome says he took out what Victorinus meant literally about the thousand years, and that the end of the book is added. The held Latin prints Victorinus's own text beside Jerome's revision, so the two can be read side by side.",
+  "Irenaeus's family. In the act, his children and the women of his house plead with him, yet later he tells Probus he has no wife, children or parents.",
+  "Who led the quarrel. Athanasius, an opponent, gives the creeds and letters of Valens, Ursacius and Germinius, and judges them as foes of Christ. Their own letter to Julius is the one text of theirs this card draws on.",
+  "Niceas and Niceta. Gennadius writes of Niceas, bishop of Romatia, and his books. Paulinus writes of Niceta going home to the Dacians, to the shores where he serves as priest. The lines opened for this card do not say they are the same man."
+ ]
+}
