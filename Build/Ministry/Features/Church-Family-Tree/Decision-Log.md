@@ -6327,3 +6327,16 @@ The census `longDescription`, the live brief (backup `brief.v7.txt`) and the out
 - After: "He greeted the church at Smyrna household by household, and asked Polycarp, its bishop, to have churches send messengers or letters to Antioch."
 
 A second independent checker confirmed it against Smyrnaeans 13, To Polycarp 8 and the inscription of To Polycarp ("Bishop of the Church of the Smyrnæans", anf01 8535), and that it repeats nothing else in the brief. No recording exists, so no audio work. The entry's `entry.tile` carries the same phrase ("Their letters greet one another household by household."); it was outside this ruling and is left for Mark (Open-Gaps, "The House Church brief's household slip", 2026-11-27).
+
+## 2026-11-27 — The House Church tile's household slip is fixed (Mark)
+
+**Why.** The `entry.tile` of `post-apostolic-house-church` in `cic-website/data/world-census.json` carried the same slip as the brief (Decision-Log, "The House Church brief's household slip is fixed", 2026-11-27). The coordinator asked Mark: "The House Church's short tile line still says 'Their letters greet one another household by household.' Should the same fix go there? A (recommended): yes, reword it the same way, telling the picture as Ignatius's greeting to Smyrna."
+
+**Decided (Mark, 2026-11-27): "a"**.
+
+**Done.** The false sentence is cut. The picture now follows the tile's Ignatius sentence, as his.
+
+- Before: "…met together. Their letters greet one another household by household. A short manual…" and "…should act as one around its bishop. Near the end…"
+- After: "…met together. A short manual…" and "…should act as one around its bishop. He greeted the church at Smyrna household by household. Near the end…"
+
+An independent checker confirmed it against Smyrnaeans 13 and To Polycarp 8 (anf01 8503–8508, 8868–8869), and that nothing else changed. Neither `records/worlds/` nor `Build/Ministry/Features/Conversation-Chooser/Card-Words/Approved-Card-Words.yaml` holds the sentence; they were left alone.
