@@ -13,7 +13,7 @@ From the census entry (`justin-martyr`, told within `greek-apologists-second-cen
 
 ## Verdict: FIX
 
-The heart matches mine in substance: the essence, the Also told and the ranking of what came of him (books kept and used against rival teachers, with what he defended marked; the name and the trial account kept; Tatian in one clause) agree with the sheet and the census. The shape fits. All three quotes are verbatim to the Greek and stand on it (my renderings below), none is used elsewhere on the tree, and neither barred span appears. The setting, the petition, the Word, the Urbicus case, Crescens and Tatian's side, the trial and death all check at their cited lines with the right confidence. Three BLOCKING findings: the length, one arrest given without the reason its source gives, and an ending spent early. There is also one Cut first item that drops what a named book was about.
+The heart matches mine in substance: the essence, the Also told and the ranking of what came of him (books kept and used against rival teachers, with what he defended marked; the name and the trial account kept; Tatian in one clause) agree with the sheet and the census. The shape fits. All three quotes are verbatim to the Greek and stand on it (my renderings below), none is used elsewhere on the tree, and neither barred span appears. The setting, the petition, the Word, the Urbicus case, Crescens and Tatian's side, the trial and death all check at their cited lines with the right confidence. Four BLOCKING findings: the length, one arrest given without the reason its source gives, an ending spent early, and one Cut first item that drops what a named book was about.
 
 ### My renderings of the quotes, made before comparing
 

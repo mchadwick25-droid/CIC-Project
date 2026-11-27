@@ -11,7 +11,7 @@ Kind: person (`Brief-Kit/kinds/person.md`). Census id `peter-of-alexandria`, tol
 
 ## Length
 
-About **four minutes, about 600 words**. What it must carry: three quotes (about 75 words); the plain sense of the words to explain below (about 70); the witnesses credited where the old sources differ or one source wrote late (Eusebius once, the account kept with the bishops' letter, Athanasius, Epiphanius: about 80). That is about 225 words before any event is told. The canons are the life's substance and need room (Martyr trap: the death must not swallow the story); the break must be told from the letters and still credit the two later accounts. The rest of the record goes to the card or Leave out. Budget: opening 55, essence 60, B1 65, B2 135, B3 50, B4 65, B5 55, B6 55, What came of it 60.
+About **four minutes, about 640 words** (approved length 650). What it must carry: three quotes (about 75 words); the plain sense of the words to explain below (about 70); the witnesses credited where the old sources differ or one source wrote late (Eusebius once, the account kept with the bishops' letter, Athanasius, Epiphanius: about 80). That is about 225 words before any event is told. The canons are the life's substance and need room (Martyr trap: the death must not swallow the story); the break must be told from the letters and still credit the two later accounts. The rest of the record goes to the card or Leave out. Budget: opening 55, essence 60, B1 65, B2 135, B3 50, B4 65, B5 55, B6 55, What came of it 60.
 
 ## Setting
 
@@ -25,11 +25,12 @@ About **four minutes, about 600 words**. What it must carry: three quotes (about
 - **communion** → "sharing in the prayers and in the body and blood of Christ" (E9, ANF6 26972–26975, Peter's own words).
 - **Easter (Passover)** → "Easter" (E1; Πάσχα, PED 49718). Not "Passover" on its own.
 - **the marks of Jesus** → "the scars of their torture" (E3, Zonaras, ANF6 26661–26663; Paul's phrase, ANF6 26618–26620).
-- **penance** → "a time of fasting and prayer" (E3, ANF6 26623–26626).
+- **penance** → "a time of fasting and prayer" (E3, ANF6 26623–26628).
 - **sacrifice** (what was asked) → "to burn incense at the altar of the gods" (S4, ANF6 26817–26818).
 - **confessors** → "those who held to the faith under trial and lived" (E13; Epiphanius's "confessors and martyrs", EPI 43724).
 - **ordain** → "make priests and deacons" (M1, M2).
 - **parish-visitors** → "the priests he had appointed to visit the churches" (M2, ANF6 16836–16838; M3 "visiting the needy", ANF6 27799).
+- **edict of toleration** → 'an order from the emperors letting Christians worship again' (EUS 45641–45643).
 - **schism** → do not use; say "broke away", "a rival church" (Athanasius's word, M5).
 
 ## Shape
@@ -54,19 +55,19 @@ About **four minutes, about 600 words**. What it must carry: three quotes (about
 
 **B2. The rules for taking them back.** Reason: those who had given way were asking to share communion again (E3 "from the time of their submissive approach", ANF6 26622–26623; E9). Peter set each a time of fasting and prayer by what they had suffered and chosen (E2). The tortured: forty more days, the days Christ fasted (E3, ANF6 26623–26626). Prison without torture: a year more (E4, ANF6 26683). Fear alone: the parable of the fig tree spared one more year to bear fruit, with no number given (E5, ANF6 26724–26738; Contested length, X6). Those who walked past the altar, handed in a written statement, or sent a pagan in their place: six months, since they had kept their own hands from the fire and the incense yet hidden their faith (E7, ANF6 26812–26820). Slaves forced by their masters: a year; the masters three, for forcing others who could have escaped (E8, ANF6 26893–26943). Those who paid to be left alone, or left everything and fled: not to be blamed (E12, ANF6 27484–27603). Clergy who fell: communion, but not their office again (E11, ANF6 27162–27193). Those whose hands were burned when forced to the sacrifice against their will: counted among the confessors, as martyrs in prison had written to him about Christians in Libya (E13, ANF6 27634–27641). All **own words; Documented.** Explain it: "the canons" = these rules, set out in a sermon on repentance (E2, ANF6 26599–26601).
 
-**B3. Four bishops write to Melitius.** Four bishops of Egypt, writing from prison, rebuked Melitius, a bishop of Upper Egypt, for making priests in churches that were not his (M1, ANF6 16710–16725). Reason given in the letter: by the law of their fathers no bishop may ordain outside his own church, and he should have waited for the judgment of "our great bishop and father, Peter" (ANF6 16727–16736, 16750–16756, 16786–16787). **Documented** as a document of the time (Latin not held; English ANF6). Explain it: the rule kept each bishop to his own church so that those ordained were known and confusion avoided (ANF6 16738–16742).
+**B3. Four bishops write to Melitius.** Four bishops of Egypt, writing from prison, rebuked Melitius, a bishop of Upper Egypt (Epiphanius, 'a bishop in the Thebaid', EPI 43599–43601; Athanasius, 'held the title of bishop in Egypt', ATH 24777–24778), for ordaining clergy in churches that were not his (M1, ANF6 16710–16725). Reason given in the letter: by the law of their fathers no bishop may ordain outside his own church, and he should have waited for the judgment of "our great bishop and father, Peter" (ANF6 16727–16736, 16750–16756, 16786–16787). **Documented** as a document of the time (Latin not held; English ANF6). Explain it: the rule kept each bishop to his own church so that those ordained were known and confusion avoided (ANF6 16738–16742).
 
 **B4. Melitius in Alexandria, and Peter's letter.** An account kept with that letter says Melitius did not answer; after the four bishops were martyred he went to Alexandria, set aside the priests Peter had appointed to visit the churches, who were then in hiding, and ordained men of his own in their place (M2, ANF6 16822–16844; Documented as this account's claim). Peter wrote to his people. Q2 (M3, ANF6 27789–27804). Explain it: "share communion" = as in B2. Reason for the order, in Peter's words: Melitius was "invading my parish" and trying to separate the priests from his authority (ANF6 27793–27797). The order is to wait, not a final sentence: until they meet.
 
-**B5. The later witnesses tell it otherwise.** Athanasius, a later bishop of Alexandria and an enemy of the Melitians, says a council of bishops under Peter deposed Melitius for many crimes, among them sacrifice to idols (M5, ATH 24776–24783; enemy's charge, credited, told in its content, not quoted). Epiphanius of Salamis, writing in the 370s, says the two were in prison together and split over taking back the fallen: Peter pleaded to receive them as they repented, and Melitius would wait until the persecution ended and not restore fallen clergy to their rank (M7, EPI 43724–43750; later, about sixty years). **Contested** (X1). Explain it: what the quarrel was about differs by witness; each is credited.
+**B5. The later witnesses tell it otherwise.** Athanasius, a later bishop of Alexandria and an enemy of the Melitians, says a council of bishops under Peter deposed Melitius for many crimes, among them sacrificing to the gods (M5, ATH 24776–24783; enemy's charge, credited, told in its content, not quoted). Epiphanius of Salamis, writing in the 370s, says the two were in prison together and split over taking back the fallen: Peter pleaded to receive them as they repented, and Melitius would wait until the persecution ended and not restore fallen clergy to their rank (M7, EPI 43724–43750; later, about sixty years). **Contested** (X1). Explain it: what the quarrel was about differs by witness; each is credited.
 
-**B6. Death.** Eusebius sets it after an edict of toleration had been posted, which the eastern emperor Maximinus would not accept (D2, EUS 47567–47572). Q3 (D2, EUS 47990–47998; EUS-G 17556–17560). Many other bishops of Egypt died with him (EUS 47998). The ninth year of the persecution, 311 (D1, EUS 43266–43268; D4, Widely Accepted). Explain it: Eusebius gives no reason and says so ("for no cause"); tell it as given.
+**B6. Death.** Eusebius sets it after an edict of toleration had been posted, which the eastern emperor Maximinus would not accept (D2, EUS 47567–47572). Explain it: the edict = an imperial order that Christians 'may again be Christians, and may rebuild' their meeting places (EUS 45641–45643, Book VIII.17). Q3 (D2, EUS 47990–47998; EUS-G 17556–17560). Many other bishops of Egypt died with him (EUS 47998). The ninth year of the persecution, 311 (D1, EUS 43266–43268; D4, Widely Accepted). Explain it: Eusebius gives no reason and says so ("for no cause"); tell it as given.
 
 ## What came of it
 
-1. **His rules became church law** (heaviest; **defended: the measured return of the fallen**). In 692 a council set its seal on the canons of the fathers, among them those "of Peter, Archbishop of Alexandria and Martyr" (I1, NPNF14 26730–26744, 26383–26385). They stand in the collections of canons, with the 12th-century commentaries of Balsamon and Zonaras (I1, ANF6 25779–25784, 26634–26673). Nikodemos's Greek book of church law prints them and says that seal gives them, in a way, the force of a council of the whole church (I1, PED 49705–49706). Documented.
+1. **His rules became church law** (heaviest; **defended: the measured return of the fallen**). In 692 a council set its seal on the canons of the fathers, among them those "of Peter, Archbishop of Alexandria and Martyr" (I1, NPNF14 26730–26744, 26383–26385). They stand in the collections of canons, with the 12th-century commentaries of Balsamon and Zonaras (I1, ANF6 25779–25784, 26634–26673). Nikodemos's Greek book of church law (1800) prints them with the commentaries (PED 49710–49723); his judgment of their force is card only.
 2. **The break outlived him** (**defended: each bishop ordaining only in his own church; Alexandria's place over Egypt**). At Nicaea in 325 the bishops let Melitius keep his own city and title but no power to ordain, and took in his clergy below Alexander's (I2, SOC 3206–3214); canon 6 confirmed the bishop of Alexandria's authority over Egypt, Libya and the Pentapolis (S2, NPNF14 3405–3407). Documented. One clause in the story; the sibling stories carry the rest.
-3. **Remembered as bishop and martyr.** Eusebius (D2, D3); Athanasius, "the blessed Peter, Bishop and Martyr" (I3, ATH 22465); Alexandria kept "the memory of the martyr and bishop Peter" on his day (I3, SOC 4007–4008, Socrates retelling Rufinus). Documented.
+3. **Remembered as bishop and martyr.** Eusebius (D2, D3); Athanasius, "the blessed Peter, Bishop and Martyr" (I3, ATH 22465); Alexandria kept "the memory of the martyr and bishop Peter" on his day (I3, SOC 4007–4008, Socrates retelling Rufinus; Rufinus's own Latin, "Petri martyris diem Alexander episcopus agebat", EUS-G 27822–27824, and "Petro martyri", EUS-G 26513–26514; card, Cut first item 5). Documented.
 4. Card only: his writing on Christ read at the Council of Ephesus, by Vincent of Lérins's report, and cited by Cyril of Alexandria (I4).
 
 Who keeps him today: no held source states it in a form the story can use. Leave out.
@@ -74,13 +75,13 @@ Who keeps him today: no held source states it in a form the story can use. Leave
 ## Quotes
 
 - **Q1. Peter, Canonical Epistle, canon 1.** Rendered from the Greek, PED 49722–49723 ("οὐ γὰρ κατὰ προαίρεσιν ἐν τούτῳ ἐληλύθασιν, ἀλλὰ καταπροδοθέντες ὑπὸ τῆς ἀσθενείας τῆς σαρκὸς, ἐπειδὴ καὶ τὰ στίγματα τοῦ Ἰησοῦ ἐνδείκνυνται ἐν τοῖς σώμασιν αὐτῶν"), checked clause by clause against Hawkins's English, ANF6 26617–26618.
-  Rendering: **"They did not come to this by their own choice. The weakness of the flesh betrayed them. For they show the marks of Jesus on their bodies."**
+  Rendering: **"They did not come to this by deliberate choice. They were betrayed by the weakness of the flesh, since they show the marks of Jesus in their bodies."**
   Behind it: an original in a damaged held print (OCR "σίγματα"), confirmed by a second held print, the 1886 English, whose note prints στίγματα (ANF6 26618–26619). Job: the opening; shows in his own words how he weighed a fall by what was suffered. Plain sense beside it: the marks are the scars of their torture. On the tree: used by no other story; it stood in this entry's own live text, which this story replaces.
 - **Q2. Peter, Letter to the Church at Alexandria.** Rendered from Hawkins's English, ANF6 27801–27804 ("take ye heed to this, and hold no communion with him, until I meet him in company with some wise and discreet men, and see what the designs are which he has thought upon"). The Latin original is not held.
-  Rendering: **"Take heed of this. Do not share communion with him until I meet him with some wise and sensible men, and see what plans he has made."**
+  Rendering: **"Take heed of this. Do not share communion with him until I meet him with some wise and sensible men, and see what he has in mind."**
   Behind it: English printed before 1931 (ANF 1886). Job: Peter's own voice on the break, an order to keep apart that waits on a meeting; it does what narration cannot, by showing he did not pronounce a final sentence in this letter. On the tree: not quoted elsewhere; `melitian-schism` narrates "hold no communion" in its own sentence. The barred clause "ordained in the prison several unto himself" is not used.
 - **Q3. Eusebius of Caesarea, Church History IX.6.2.** Rendered from the Greek, EUS-G 17558–17560 ("ἐξ οὐδεμιᾶς ἀνάρπαστος γεγονὼς αἰτίας, μηδεμιᾶς προλαβούσης προσδοκίας, ἀθρόως οὕτως καὶ ἀλόγως, ὡς ἂν Μαξιμίνου προστάξαντος, τὴν κεφαλὴν ἀποτέμνεται"), checked clause by clause against McGiffert's English, EUS 47995–47998.
-  Rendering: **"He was seized for no cause, when no one expected it. All at once and without reason, as though Maximinus had ordered it, his head was cut off."**
+  Rendering: **"He was seized for no cause at all, without warning, and suddenly and without reason, as if Maximinus had ordered it, he was beheaded."**
   Behind it: an original in a damaged held print (OCR "διαξιμίνου"), confirmed by the 1890 English. Job: the death, in the contemporary witness's words, keeping his "as though" and his "for no cause". On the tree: not used elsewhere. In this batch, `eusebius-of-caesarea` must not use this passage.
 
 ## Names
@@ -136,12 +137,12 @@ Who keeps him today: no held source states it in a form the story can use. Leave
 
 ## Do not say
 
-- "Peter deposed Melitius for sacrificing to idols" as fact → "Athanasius, an enemy of the Melitians, says a council under Peter deposed him for many crimes, among them sacrifice to idols."
+- "Peter deposed Melitius for sacrificing to idols" as fact → "Athanasius, an enemy of the Melitians, says a council under Peter deposed him for many crimes, among them sacrificing to the gods."
 - "Peter and Melitius were in prison together" or "Peter wrote from prison/hiding" → Epiphanius says they were in prison together; the letters say only that the four bishops were in prison and that the priests Peter had appointed were in hiding.
 - "Peter was merciful, Melitius was strict" in the narrator's voice → Epiphanius's account only.
 - "In 306 Peter wrote his rules" → "at the fourth Easter of the persecution".
 - "beheaded on 25 November 311" → "in 311" (the day is a later Egyptian reckoning).
-- "Maximinus ordered his death" → "as though Maximinus had ordered it" (Eusebius's "as if").
+- "Maximinus ordered his death" → "as if Maximinus had ordered it" (Eusebius's "as if").
 - "He was killed because he cared for the churches" → no cause is given; Eusebius says "for no cause".
 - A number of years for those who fell from fear → the fig tree's "one more year to bear fruit", with no total.
 - "Every Christian in Egypt was ordered to sacrifice" → the order told by the bishop in the Alexandria prisons (S4); the general edict of sacrifice in *Martyrs of Palestine* 3 is Palestine's.
@@ -149,6 +150,9 @@ Who keeps him today: no held source states it in a form the story can use. Leave
 - "excommunicated", "anathematized" for the letter → "told his people not to share communion with him until they met".
 - "ordained in the prison several unto himself", "offering sacrifice to idols" (as a quote), "a nominal dignity", "Church of the Martyrs" → barred; not used.
 - "Meletius" → "Melitius".
+- "Trullo made his canons ecumenical / binding on the whole church" → "a council in 692 set its seal on them".
+- "Melitius ordained men in the prison" → "ordained men of his own in their place" (keeps clear of the barred quote; the account says one in prison and one in the mines, ANF6 16840–16844).
+- An ending line saying the council's phrase "holds his rules and his death together" → tell the council's act only, with no summing-up line (Part 1: no moral or summing-up close).
 - "Great Persecution" as if a source's phrase → "the persecution" or "the persecution that began in 303".
 - "the four bishops died the same day as Peter" → Eusebius lists them among the martyrs of Egypt; the account says they were martyred before Melitius went to Alexandria (M2).
 
@@ -166,15 +170,15 @@ Who keeps him today: no held source states it in a form the story can use. Leave
 
 ## Cut first
 
-From about 600 words to about 450, in order:
+From about 780 words (all items kept) to about 640, under the approved 650.
 
 1. Canons 6–7, slaves and masters (B2), about 30 words → card.
 2. Canon 14, the burned hands and the martyrs' letters from prison about Libya (B2), about 30 words → card.
 3. Phileas's choice in the prisons (B1), about 25 words → Leave out.
 4. Eusebius's line on his stricter discipline and care for the churches (B1), about 20 words → card.
 5. Alexandria's memory day (What came of it 3), about 15 words → card.
-6. The tricksters' three ways, cut to "those who tricked the officials" (B2), about 15 words → card.
-7. Nicaea's terms, cut to "the split outlived him and came before the Council of Nicaea" (What came of it 2), about 15 words → card.
+6. Canon 5, those who tricked the officials, whole (B2), about 35 words → card.
+7. Nicaea cut to one clause: 'the split outlived him, and in 325 the Council of Nicaea let Melitius keep his city but took away his power to ordain' (What came of it 2); canon 6 on Alexandria's authority → card, about 20 words.
 
 ## Approved heart and length
 
