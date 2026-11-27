@@ -104,10 +104,10 @@ The ceiling is 675, and the draft is at 675. The fixes, measured on a scratch co
 
 | Finding | Words |
 |---|---|
-| 1, 2: taunt moved and recast, accession split out, answer moved to paragraph 4 | +10 |
+| 1, 2: taunt moved and recast, accession split out, answer moved to paragraph 4 | +11 |
 | 3: "a later bishop" | +1 |
-| 4: gloss at first use (+4), later gloss cut (−11) | −7 |
-| 5: "many other books" cut | −13 |
+| 4: gloss at first use (+3), later gloss cut (−11) | −8 |
+| 5: "many other books" cut | −12 |
 | 6: "Novatus is his name for" (+3), "sixteen years after the exile" (+5) | +8 |
 | MINOR: "Hippolytus and his side"; essence order | 0 |
 | **Net** | **0** |
