@@ -33,7 +33,11 @@ The outline fits the approved 675 with almost no room. Nothing more needs to go 
 
 ### R1. The Length line, the Cut first header and its subtotals still state the old 670 plan
 
-- Replace the whole **Length** line (line 10, from "- **Length:** Recounted at the outline check:" to "as Mark rules.") with:
+- Replace the whole **Length** line (line 10), which reads:
+
+  "- **Length:** Recounted at the outline check: about 745 words with every Cut first item 1-9 applied, against the approved 675; items 10-13 below bring it to about 660. The count the story must carry: three quotes, 128 words; plain senses (the Word as word and reason, the cloak, the petition, godless, prefect, Cynic, the schools), about 60; credited witnesses (Justin's own telling, Trypho's laugh, the trial account by an unknown writer, Tatian and Eusebius on Crescens, Irenaeus, Tertullian, Theodoret), about 75. That is about 265 words before the events are told. Budget by part: opening 45, essence 45, beat 1 135 (with Quote 1), beat 2 25, beat 3 60, beat 4 70 (with Quote 2), beat 5 45, beat 6 85, beat 7 100 (with Quote 3), What came of him 60: about 670. The Cut first list brings it to about 570, 530 or 440, as Mark rules."
+
+  with:
 
   "- **Length:** about 670 words, about 4 and a half minutes at 150 a minute, within the approved 675 with almost no room. Cut first items 1-12 are all applied. Recounted at the check and again at the recheck, after the fixes: the arrest's reason added to beat 7, the Dialogue's clause moved into beat 1, What came of it 2 cut to one clause. `Length_Count.md` gave 741 before those fixes and items 10-12. The count the story must carry: three quotes, 133 words; plain senses (the Word as word and reason, the cloak, the petition, godless, prefect, Cynic, the schools, sacrifice), about 60; credited witnesses (Justin's own telling, the trial account by an unknown writer, Tatian and Eusebius on Crescens, Irenaeus, Tertullian), about 40. Before any cut it would run to about 960."
 
@@ -53,7 +57,11 @@ B3 replaced What came of it 2 whole, so Hippolytus's "Justin the martyr" is no l
 
 ### R3. Item 7's clause is said to be "kept in beat 1", but beat 1 lacks it
 
-Replace the whole of item 7 ("  7. Beat 5, the argument with Trypho, except one clause kept in beat 1 where the Dialogue is first named: … are told together.") with:
+Replace the whole of item 7 (line 155), which reads:
+
+"  7. Beat 5, the argument with Trypho, except one clause kept in beat 1 where the Dialogue is first named: 'his written argument with Trypho, a Jew, that Jesus is the Christ of God whom the prophets foretold' (AR 6603-6607; EUS 24330-24332) (cut about 33 of 45). Card. If any more of it is told, its hard edge and the friendship are told together."
+
+with:
 
 "  7. Beat 5, the argument with Trypho, except one clause, which moves into beat 1 where the Dialogue is first named, so that beat 1 opens: 'He tells it himself, in his Dialogue, his written argument with Trypho, a Jew, that Jesus is the Christ of God whom the prophets foretold' (AR 6603-6607; EUS 24330-24332; E5, Documented as his account) (cut about 33 of 45). Card. If any more of it is told, its hard edge and the friendship are told together."
 
