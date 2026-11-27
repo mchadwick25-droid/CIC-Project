@@ -4,14 +4,14 @@
     "Anatolius of Laodicea"
   ],
   "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
-  "shortDescription": "Anatolius, a learned Christian of Alexandria, used a vote of the city council to get almost all the besieged out of the palace quarter of the city. He later became bishop of Laodicea in Syria, and wrote a rule for finding the date of Easter that churchmen on both sides of a later quarrel claimed.",
+  "shortDescription": "Anatolius, a learned Christian of Alexandria, used a vote of the city council to get almost all the besieged out of the palace quarter of the city. He later became bishop of Laodicea in Syria and wrote a rule for finding the date of Easter, and centuries later both sides of a quarrel over Easter claimed him.",
   "datesNote": "No old source gives a year for his birth, for the siege, for his becoming bishop or for his death. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus. The later 200s comes from the modern dating of those reigns.",
   "placeNote": "Alexandria, in Egypt, where he was born and lived through the siege of the palace quarter; Caesarea in Palestine, where he was made a second bishop; Laodicea in Syria, where he was bishop",
   "role": "Scholar of Alexandria, then bishop at Caesarea in Palestine and at Laodicea in Syria",
   "keyWorks": [
     {
       "title": "Paschal Canons",
-      "about": "his writings on the Passover, which Eusebius says were his chief subject. Eusebius quotes a long extract: the first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox, and the count runs on a cycle of nineteen years. He says the rule was known to the Jews before Christ"
+      "about": "his writings on finding Easter. Eusebius says that in his works he gave his views on the Passover in particular, and quotes a long extract: the first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox, and the count runs on a cycle of nineteen years. He says the rule was known to the Jews before Christ"
     },
     {
       "title": "Institutes of Arithmetic",
@@ -19,7 +19,7 @@
     },
     {
       "title": "The Paschal Canon, in Latin",
-      "about": "a longer Latin book on Easter under his name, which allows the feast to be kept up to the moon's twentieth day. Columbanus quoted it to Pope Gregory the Great. Whether Anatolius wrote it is disputed"
+      "about": "a longer Latin book on Easter under his name, which allows the feast to be kept up to the moon's twentieth day. Columbanus, writing to Pope Gregory the Great, quoted words that stand in it as the words of Anatolius. Whether Anatolius wrote it is disputed"
     }
   ],
   "legacy": {
@@ -362,7 +362,7 @@
       "lines": [
         {
           "when": "After the war",
-          "text": "Anatolius and the deacon Eusebius both come from Alexandria to Laodicea after the war.",
+          "text": "Eusebius says the church of Laodicea had two such pastors in turn, the deacon Eusebius and Anatolius, who came there from Alexandria after the war.",
           "reference": "Eusebius, Church History VII.32.12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42764-42767"
         },
         {
@@ -418,7 +418,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He writes that those who put the first month, and the Passover's fourteenth day, in the last twelfth of the sun's yearly path, before the spring equinox, make no small mistake.",
+          "text": "He writes that those who put the first month, and the Passover's fourteenth day, in the twelfth and last segment of the sun's yearly path, the one before the equinox, make no small mistake.",
           "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.15, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42805-42817"
         },
         {
@@ -460,7 +460,7 @@
         },
         {
           "when": "664",
-          "text": "King Oswy rules for Peter, who holds the keys of heaven, and all present agree. Colman goes back to Ireland with those who will not follow.",
+          "text": "The king rules for Peter, who holds the keys of heaven, and all present agree. Colman leaves, taking with him those who will not accept the Catholic Easter.",
           "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8195-8237"
         },
         {

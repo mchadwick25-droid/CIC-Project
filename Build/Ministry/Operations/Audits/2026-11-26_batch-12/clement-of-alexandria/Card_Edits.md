@@ -90,3 +90,12 @@ None. Every kept or new claim stands on a line cited above. "In Syria" for Antio
 
 - The three quotations under six words carry `"checked at card"`; their renderings are verbatim English spans of the printed lines.
 - The three long quotations carry no `secondReading`, as the role says; the validator needs one before release.
+
+## Entry fields (card check)
+
+- **`modernWorks`**: add these five items to the list above (card check F14):
+  - {"title": "Patrologia Graeca, vol. 83", "author": "J.-P. Migne (ed.)", "year": "1864", "note": "Greek and Latin edition of works of Theodoret of Cyrrhus, among them the Compendium of Heretical Fables."}
+  - {"title": "Patrologia Latina, vol. 23", "author": "J.-P. Migne (ed.)", "year": "1883", "note": "Latin edition of works of Jerome, among them the Lives of Illustrious Men."}
+  - {"title": "Epiphanius, erster Band: Ancoratus und Panarion haer. 1-33 (Die griechischen christlichen Schriftsteller 25)", "author": "Karl Holl (ed.)", "year": "1915", "publisher": "J. C. Hinrichs, Leipzig", "note": "The Greek text of the Ancoratus and of Panarion 1 to 33, with notes on the text, the biblical allusions and the date of the Panarion."}
+  - {"title": "Eusebii Pamphili Chronici canones, Latine vertit, adauxit, ad sua tempora produxit S. Eusebius Hieronymus", "author": "John Knight Fotheringham (ed.)", "year": "1923", "note": "The Latin text of Jerome's version of Eusebius's Chronicle."}
+  - {"title": "The Apostolic Fathers, Justin Martyr, Irenaeus (Ante-Nicene Fathers, volume 1)", "author": "Alexander Roberts and James Donaldson (eds.), with notes by A. Cleveland Coxe", "year": "1885", "note": "English translation of Irenaeus's Against Heresies, among other works."}

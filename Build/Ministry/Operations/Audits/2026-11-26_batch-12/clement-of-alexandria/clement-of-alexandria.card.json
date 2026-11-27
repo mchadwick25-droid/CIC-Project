@@ -26,7 +26,7 @@
       "Eusebius of Caesarea says Origen was among his pupils, and Jerome that Origen is known to have been his disciple.",
       "Jerome says Origen, imitating his example, wrote ten books of Miscellanies that compare the views of Christians and of philosophers.",
       "His Stromata keep words from the letters of Valentinus.",
-      "Eusebius copied passages of his Exhortation to the Greeks on the pagan mysteries into his Preparation for the Gospel, calling him \"the admirable Clement\".",
+      "Eusebius copied passages of his Exhortation to the Greeks on the pagan mysteries and on human sacrifice into his Preparation for the Gospel, calling him \"the admirable Clement\".",
       "About two centuries after him, Jerome answered a critic who charged him with defiling the church by quoting pagan books. He named Christian writers who had done the same, Clement among them."
     ],
     "remembered": [
@@ -61,7 +61,7 @@
     ],
     "about": [
       {
-        "title": "Church History, Book 5 chapters 10 and 11; Book 6 chapters 1, 3, 6, 11, 13 and 14",
+        "title": "Church History, Book 5 chapters 9, 10 and 11; Book 6 chapters 1, 3, 6, 11, 13 and 14",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
@@ -148,7 +148,7 @@
   },
   "briefSources": [
     {
-      "title": "The Stromata (Miscellanies), in Ante-Nicene Fathers vol. 2",
+      "title": "The Stromata (Miscellanies) and The Instructor, in Ante-Nicene Fathers vol. 2",
       "author": "Clement of Alexandria",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
     },
@@ -161,6 +161,11 @@
       "title": "Church History VI.6, in Greek (ed. Eduard Schwartz)",
       "author": "Eusebius of Caesarea",
       "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men, chapter 38",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
     },
     {
       "title": "Letter 70, to Magnus, in Latin (ed. Isidor Hilberg)",
@@ -181,7 +186,7 @@
     "Eusebius, Church History VI.6: Origen among his pupils; Eusebius's Greek, ed. Schwartz, for the reading.",
     "Jerome, Letter 70.2 and 70.4: the critic's charge, Clement in his judgment the most learned of men, his question about Clement's books, and Origen's ten books of Miscellanies.",
     "Eusebius, Church History V.11 and VI.6: most of what is told of his life, written about a century later; trained in the Scriptures at Alexandria under his teacher, and took over from him the teaching of the faith to learners.",
-    "Stromata II.3: the followers of Valentinus leave faith to us, the simple, and claim knowledge as men saved by nature. Stromata VII.17: the founders of these teachings arose under Hadrian. Stromata II.20: words from Valentinus's letter, quoted to answer them.",
+    "Stromata II.3: the followers of Valentinus leave faith to us, the simple, and claim knowledge as men saved by nature. Stromata VII.17: the founders of the teachings he opposed arose under Hadrian. Stromata II.20: words from Valentinus's letter, quoted to answer them.",
     "Stromata I.7: whatever each Greek school had said well; what men had cut away and falsified he would never call divine.",
     "Stromata IV.2: the Miscellanies, notes patched together, passing from one thing to another.",
     "Eusebius, Church History VI.1: the churches persecuted under Severus.",
@@ -258,7 +263,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He names teachers in Greece, in southern Italy and in the East, among them one born in Assyria and a Hebrew in Palestine.",
+          "text": "He tells of teachers in Greece, in southern Italy and in the East, among them one born in Assyria and a Hebrew in Palestine.",
           "reference": "Clement, Stromata I.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27483-27487"
         },
         {
@@ -305,7 +310,7 @@
       ]
     },
     {
-      "when": "In the reign of Severus, by Eusebius's dating of the first book",
+      "when": "Date unknown; Eusebius dates the first book of the Miscellanies to the reign of Severus",
       "headline": "The Miscellanies and his other books",
       "witness": "Clement, in his own words",
       "lines": [
@@ -332,7 +337,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He answers that God is the cause of all good things, and that philosophy was perhaps given to the Greeks to bring them to Christ, as the Law of Moses brought the Hebrews.",
+          "text": "He writes that God is the cause of all good things, and that philosophy was perhaps given to the Greeks to bring them to Christ, as the Law of Moses brought the Hebrews.",
           "reference": "Clement, Stromata I.5, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27885-27893; Stromata I.26, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 31207-31208"
         },
         {
@@ -353,7 +358,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He writes that the founders of these teachings arose in the time of the emperor Hadrian, and names Valentinus among them.",
+          "text": "He writes that the founders of the teachings he opposed arose in the time of the emperor Hadrian, and names Valentinus among them.",
           "reference": "Clement, Stromata VII.17, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 52956-52962"
         },
         {
@@ -368,12 +373,17 @@
         },
         {
           "when": "Date unknown",
-          "text": "Eusebius lists his other books, among them What Rich Man is Saved?, works on the Passover, on fasting and on evil speaking, and one against the Judaizers dedicated to the bishop Alexander.",
+          "text": "Eusebius lists his other books, among them What Rich Man is Saved?, works on the Passover, on fasting and on evil speaking, and one dedicated to the bishop Alexander.",
           "reference": "Eusebius, Church History VI.13.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33985-34112"
         },
         {
           "when": "Date unknown",
-          "text": "In the Outlines, Eusebius says, he gives short accounts of all of Scripture, the disputed books too.",
+          "text": "Eusebius says that in these books he also cites books whose place in Scripture was disputed, names Tatian's Discourse to the Greeks, and refers to Jewish writers, among them Philo and Josephus.",
+          "reference": "Eusebius, Church History VI.13.6-7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34128-34199"
+        },
+        {
+          "when": "Date unknown",
+          "text": "In the Outlines, Eusebius says, he gives short accounts of all of Scripture, even the books whose place in it was disputed.",
           "reference": "Eusebius, Church History VI.14.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34275-34278"
         }
       ]
@@ -384,7 +394,7 @@
       "lines": [
         {
           "when": "Under Severus",
-          "text": "Severus persecutes the churches, and believers from Egypt and all the Thebaid are brought to Alexandria and put to death, Eusebius says.",
+          "text": "Severus persecutes the churches, and believers from all over Egypt are brought to Alexandria and put to death, Eusebius says.",
           "reference": "Eusebius, Church History VI.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397, 32428-32433",
           "note": "Eusebius gives no reason for the persecution."
         },
@@ -442,13 +452,13 @@
       "lines": [
         {
           "when": "About a century later",
-          "text": "Eusebius copies passages of the Exhortation on the pagan mysteries into his Preparation for the Gospel, calling him the admirable Clement.",
+          "text": "Eusebius copies passages of the Exhortation on the pagan mysteries and on human sacrifice into his Preparation for the Gospel, calling him the admirable Clement.",
           "reference": "Eusebius, Preparation for the Gospel II.2-3 and IV.16, cic/texts/eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt lines 4946-4951, 10834-10837, 10919"
         },
         {
           "when": "About 175 years later",
           "text": "Epiphanius counts him with Irenaeus and Hippolytus among those who wonderfully refuted the followers of Valentinus, and says some called him an Alexandrian, others an Athenian.",
-          "reference": "Epiphanius, Panarion 31 and 32, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 32964-32966, 33697-33699"
+          "reference": "Epiphanius, Panarion 31 and 32, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 32964-32966, 33699-33700"
         },
         {
           "when": "About two centuries later",
