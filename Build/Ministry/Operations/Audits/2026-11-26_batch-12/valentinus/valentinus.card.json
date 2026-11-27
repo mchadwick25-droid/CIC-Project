@@ -7,7 +7,7 @@
   "keyWorks": [
     {
       "title": "Letters",
-      "about": "known only from passages Clement of Alexandria quotes in his Stromata. One compares the heart to an inn crowded with evil spirits until the one good Father visits it. One tells of the angels' terror at the first man they had made. One, to Agathopus, says Jesus ate and drank in his own way, so great was his self-control"
+      "about": "known only from passages Clement of Alexandria quotes in his Stromata. One compares the heart to an inn crowded with evil spirits until the one good Father visits it. One tells of the angels' terror at Adam, the man they had formed. One, to Agathopus, says Jesus ate and drank in his own way, so great was his self-control"
     },
     {
       "title": "A sermon",
@@ -44,7 +44,7 @@
     "Almost everything known of him comes from his opponents: Irenaeus of Lyon, Tertullian of Carthage, Clement of Alexandria and Hippolytus of Rome. His own words survive in their quotations, chiefly Clement's.",
     "What is his and what is his school's. Irenaeus gives a short account of Valentinus himself; his long account of the powers is of Ptolemy's school. Tertullian sets the teacher against his pupil. Hippolytus speaks of Valentinus, Heracleon, Ptolemy and the whole school together, so the teacher and his students cannot always be told apart.",
     "Why the powers came in pairs. Hippolytus gives the school's answer: the Father was alone and was all love, and \"love is not love except there may be some object of affection\", so he brought forth the first pair. Hippolytus does not name the man who says it.",
-    "The fall. Irenaeus says one of the last powers broke away and fell, and from its fall came everything outside. From that line came a lesser maker who ruled what lay below. Irenaeus gives no reason for the fall here, and names neither the power nor the maker as evil.",
+    "The fall. Irenaeus says one of the last powers broke away and fell, and from its fall came everything outside. From that line came a lesser maker who ruled what lay below. Irenaeus gives no reason for the fall here.",
     "Tertullian places him at Rome under Bishop Eleutherus. Irenaeus places him from Hyginus to Anicetus, earlier.",
     "The break. Of the writers near his time, only Tertullian says he broke with the church, and he gives two reasons. In one book it is anger at losing a bishopric, with ambition and a wish for revenge. In another it is a restless curiosity that spread to other believers, for which he was put out of the church at Rome more than once. Tertullian names no city for the bishopric, no year and no rival. Irenaeus tells no break.",
     "Epiphanius of Salamis, writing long after and from hearsay, says he preached at Rome, then went to Cyprus and there left the faith. No held source gives his death. Irenaeus says only that he stayed at Rome until Anicetus.",
@@ -281,7 +281,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "In a letter, he tells how terror fell on the angels at the first man they had made, and how they marred their work.",
+          "text": "In a letter, he tells how terror fell on the angels at Adam, the man they had formed, and how they quickly marred their work.",
           "reference": "Clement, Stromata II.8, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 32722-32735"
         },
         {
