@@ -4,7 +4,7 @@ Kind: person (`kinds/person.md`). Items S, E, I, D are in `Source_Sheet.md`, whi
 
 ## The heart
 
-- **The essence:** Tertullian of Carthage, around the year 200, was the foremost early writer of the faith in Latin (S1, S2, D5; Jerome ranks him "chief of the Latin writers after Victor and Apollonius", JER 40495; Vincent gives him "the first place … among the Latins", VIN 13555–13557; Documented as their judgment). Eusebius calls him well versed in Roman law (S5; Documented as Eusebius's word; Contested that he practised). He pleaded the Christians' case before Rome's judges, claimed the Scriptures for the churches the apostles founded, and wrote of God as one substance and three persons in Latin words that stand in his text (E1, E4, E10; Documented). Then he joined the strict New Prophecy (E6; Documented). Cyprian read him every day, but Jerome and Augustine counted him outside the church (I1, I4; Documented as their reports).
+- **The essence:** Tertullian of Carthage, around the year 200, was the foremost early writer of the faith in Latin (S1, S2, D5; Vincent of Lérins, about two centuries later, gives him "the first place … among the Latins", VIN 13555–13557; Documented as Vincent's judgment. Jerome's Latin, "primus post Victorem et Apollonium Latinorum ponitur", JERL 55610–55611, places him in his list after two earlier Latin writers: no ranking, card). Eusebius calls him well versed in Roman law (S5; Documented as Eusebius's word; Contested that he practised). He pleaded the Christians' case before Rome's judges and claimed the Scriptures for the churches the apostles founded (E1, E4; Documented). Then he joined the strict New Prophecy (E6; Documented), and after that turn wrote of God as one substance and three persons, in Latin words that stand in his text (E9, E10; ANF3 51098–51099; Documented). Cyprian read him every day, but Jerome and Augustine counted him outside the church (I1, I4; Documented as their reports).
 - **Also told:** what each book says, with its weight. The Apology: the Christians are condemned for a name by judges who will not learn what it means (E1, E2). The Prescription: arguments from Scripture should not be heard until it is settled whose the Scriptures are, and they belong to the churches the apostles founded (E4, E5). Against Praxeas: God is one substance, and the Son is another person, distinct but not divided (E9, E10). The turn: he came to hold that the Paraclete spoke through new prophets and set a stricter rule than the bishops, and he parted from those who refused it (E6, E7, E11).
 - **What came of him:** below, ranked. Defended: the Christians' innocence before Rome's courts; the apostles' churches' title to the Scriptures; one God in three against Praxeas; later, the New Prophecy's rule.
 
@@ -71,7 +71,7 @@ The Cut first list brings it to about 650.
 
 (The opening and the essence fill the first minute, about 145 words.)
 
-1. **The Apology.** His case: the governors hated the very name of Christian without knowing what it was, and hatred of a thing unknown is unjust (E1; ANF3 1472–1476; Documented). Those who came to know it, he said, laid down their hatred and became its followers (ANF3 1488–1490). He had once laughed at the faith himself, he told them, since no one is born a Christian (S7; ANF3 2710–2712; OEH1 18939–18940; Documented). Why the crowd cried out: they blamed the Christians for every disaster (E2; ANF3 3995–3997). Why the governors' courts were closed to a defense: recent harsh private trials, as he says (E1; ANF3 1455–1459). Confidence: Documented, his own book.
+1. **The Apology.** His case: the governors hated the very name of Christian without knowing what it was, and hatred of a thing unknown is unjust (E1; ANF3 1472–1476; Documented). Those who came to know it, he said, laid down their hatred and became its followers (ANF3 1488–1490). He too had once laughed at these teachings, he told them, since no one is born a Christian (S7; ANF3 2710–2712; OEH1 18939–18940; Documented). Why the crowd cried out: they blamed the Christians for every disaster (E2; ANF3 3995–3997). Why the governors' courts were closed to a defense: recent harsh private trials, as he says (E1; ANF3 1455–1459). Confidence: Documented, his own book.
 2. **The Prescription.** Teachers he called heretics, among them Marcion and Valentinus, argued from Scripture (E4, E5; ANF3 20755–20756, 21744–21746). He answered with a plea from the law courts that throws a case out before it is argued: first settle whose the Scriptures are (S6, E4; ANF3 20759–20768, 20860–20866). The faith passed from Christ to the apostles, and from them to the churches they founded, which anyone could visit: Corinth, Philippi, Ephesus, Rome (E4; ANF3 20938–20941, 21657–21676). A heretic, he said, teaches a faith of his own choosing, and so has no right to the Scriptures (ANF3 21730–21734, 21740–21742). Then Quote 2. Explain it: the heretics' side is known here only from his book; give it in its own content, that they argued from the Scriptures (ANF3 20755–20756). Confidence: Documented as his argument; no year.
 3. **The turn.** He came to believe that the Paraclete, the Holy Spirit, "the guide into all truth" in his phrase, was speaking anew through prophets in Phrygia (E6; KRO 11732–11733, 11770–11771; Documented). Their rule was stricter than the church's: one marriage only, harder fasts, and no flight from persecution (E7; ANF4 5731–5733, 9760–9765, 11455–11457; Documented; one clause). Later, he wrote, his side's acceptance and defense of the Paraclete parted it from the rest, whom he called the "psychics", the merely natural (E6; ANF3 51074–51076; KRO 11745–11746; Documented as his words). From whom he parted is read differently (D4): tell only his words. Why he turned, two later writers differ, and the story credits each (E8, D1; Contested): Jerome says the envy and insults of the clergy at Rome drove him to it (JER 40506–40509; JERL 55627–55629); Augustine says he went over to the Phrygians, whom he had once refuted, and began to condemn second marriage as fornication (AUG 2868–2872). No years: Monceaux's are his own.
 4. **Against Praxeas.** Praxeas had brought to Rome from Asia, by Tertullian's account, the teaching that the Father himself came down into the Virgin, was born and suffered, and was himself Jesus Christ (E9; ANF3 51010–51016, 51038–51041; KRO 11692–11693, 11727–11729). Tertullian also says Praxeas pressed the bishop of Rome to withdraw his peace from the new prophets (ANF3 51046–51053; KRO 11732–11736): so, he says, Praxeas drove out prophecy and crucified the Father (ANF3 51054–51057; told in narration, not quoted). Why Tertullian wrote: to answer that teaching (E9). His answer: the one God has a Son, his Word (ANF3 51101–51102; KRO 11772–11773). God said "Let there be light", and the Word appeared; God spoke, and through the Word the rest was made; so there is one who commands and another who makes (E10; ANF3 51876–51894; KRO 12546–12558). Then Quote 3, with the plain sense of substance and person beside it. The Latin words *trinitas*, *persona* and *substantia* stand in this book (E10; KRO 11802, 12559, 12561; Documented). He wrote it after his turn: he says the Paraclete had taught him better (ANF3 51098–51099; KRO 11770; Documented).
@@ -79,10 +79,10 @@ The Cut first list brings it to about 650.
 
 ## What came of him (heaviest first)
 
-1. **Cyprian read him as his master.** Jerome met an old man in Italy, Paul of Concordia, who as a youth had met Cyprian's aged secretary at Rome. The secretary said Cyprian, later bishop of Carthage, never let a day pass without reading Tertullian, and would say, "Give me the master" (I1; JERL 55618–55626; JER 40500–40505; Documented as Jerome's report, hearsay through two people; the English wrongly makes Paul the secretary, D2). Jerome also says Cyprian took him for his master "as his writings prove", yet did not follow him into the New Prophecy (JERW 18969–18972; Documented as Jerome's). One clause each, by the slate.
+1. **Cyprian read him as his master.** Jerome met an old man from Concordia, a town of Italy, who as a youth had met Cyprian's secretary at Rome. The secretary said Cyprian, later bishop of Carthage, never let a day pass without reading Tertullian, and would say, "Give me the master" (I1; JERL 55618–55626; JER 40500–40505; Documented as Jerome's report, hearsay through two people; the English wrongly makes Paul the secretary, D2). Jerome also says Cyprian took him for his master "as his writings prove", yet did not follow him into the New Prophecy (JERW 18969–18972; Documented as Jerome's). One clause each, by the slate. In the story, one clause: Cyprian, Jerome heard from an old man who had it from Cyprian's secretary, never let a day pass without reading him, and would say, 'Give me the master'; Jerome adds that Cyprian did not follow him to the New Prophecy (JERW 18969–18972).
 2. **Novatian kept his book on God.** Jerome calls Novatian's On the Trinity "a sort of epitome of the work of Tertullian", a kind of summary of it (I2; JER 40895–40897; Documented as Jerome's judgment). Modern doubts go to the card.
-3. **Read, and judged.** Augustine says many of his short works, "most eloquently written", were still read (I3; AUG 2827–2828). But Augustine lists his followers among the heresies and says he became a heretic by the turn (I4, E8; AUG 2827, 2868–2873), and Jerome, answering a writer who cited him, said he would say no more of Tertullian than that he was not a man of the church (I4; JERL 15618–15620; JERW 33677–33681). Documented as each one's verdict. Vincent's praise and blame: card.
-4. **His followers.** A small group at Carthage bore his name, the Tertullianists, dwindling down to Augustine's day; then the very few left joined the main church and handed over their church building, still well known (I5; AUG 2829–2835; Documented as Augustine's report).
+3. **Read, and judged.** Augustine says many of his short works, "most eloquently written", were still read (I3; AUG 2827–2828). But Augustine lists his followers among the heresies and says he became a heretic by the turn (I4, E8; AUG 2827, 2868–2873), and Jerome, answering a writer who cited him, said he would say no more of Tertullian than that he was not a man of the church (I4; JERL 15618–15620; JERW 33677–33681). Yet Optatus, a bishop in Africa a century and a half later, still named Tertullian of Carthage among the champions of the Catholic church who had overcome Marcion, Praxeas and Valentinus in their time (Optatus I.9; CSEL 26, `optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt` 492–496; English `optatus_against-the-donatists.txt` 139; Documented as Optatus's word). Documented as each one's verdict. Vincent's praise and blame: card.
+4. **His followers.** Augustine says he later broke from the New Prophecy too and gathered followers of his own (E8; AUG 2872–2873; Documented as Augustine's report). At Carthage they bore his name, the Tertullianists, and dwindled down to Augustine's day; then the very few left joined the main church and handed over their church building, still well known (I5; AUG 2829–2835; Documented as Augustine's report).
 
 Who keeps him today: no held source or census tradition entry says; leave out.
 
@@ -101,7 +101,7 @@ Each rendered by me. Only these three are spoken as quotes. Two short phrases of
    - Job: the Prescription's claim in the language of the law courts: the churches' right to the Scriptures as an inheritance from the apostles.
    - Not used in another story on the tree.
 3. **Against Praxeas 12.** Rendered from Kroymann's Latin (KRO 12558–12563): "alium autem quomodo accipere debeas, iam professus sum, personae, non substantiae nomine, ad distinctionem, non ad divisionem. ceterum, (etsi) ubique teneo unam substantiam in tribus cohaerentibus, tamen alium dicam oportet ex necessitate sensus eum, qui iubet, et eum, qui facit." Oehler agrees (OEH2 43866–43869).
-   - Rendering: **"I have already said how you should take the word 'another'. It means another person, not another substance. It marks a distinction, not a division. Everywhere I hold one substance in three who hold together. Yet the meaning forces me to call the one who commands another than the one who makes."**
+   - Rendering: **"I have already said how you should take the word 'another'. It means another person, not another substance. It marks a distinction, not a division. Everywhere I hold one substance in three that hold together. Yet the meaning forces me to call the one who commands another than the one who makes."**
    - Stands behind it: an original in a clean print (Kroymann, CSEL 47, 1906), with a second print agreeing (Oehler 1853). Holmes's English (ANF3 1885, 51894–51902) adds "inseparable (Persons)"; the Latin has only "three who hold together", and the rendering keeps it so.
    - Job: his words for God, told plainly, in his own voice: the Latin words person and substance at work, and the line between distinction and division.
    - Not used in another story on the tree. The line from Against Praxeas 1 quoted on the census edge to `modalist-monarchianism` ("crucified the Father") is not used as a quote.
@@ -116,7 +116,9 @@ Each rendered by me. Only these three are spoken as quotes. Two short phrases of
 - Jerome: link, witness (Beat 3, What came 1 to 3).
 - Augustine of Hippo: link, witness (Beat 3, What came 3 and 4). Say "Augustine".
 - Cyprian of Carthage: link (What came 1). Say "Cyprian".
-- Novatian: link (What came 2). First to go if names run long.
+- Novatian: link (What came 2), a presbyter of Rome (JER 40886); use it if he is named. First to go if names run long.
+- Vincent of Lérins: link, witness (the essence). Say "Vincent of Lérins" once.
+- Optatus: witness, by name or as "an African bishop" (What came 3).
 - By role: the governors, the bishop of Rome, a bishop, the prophets in Phrygia, an old man of Italy (Paul of Concordia), Cyprian's secretary. Montanus, Prisca and Maximilla are not named: the `montanism-the-new-prophecy` story names them.
 
 ## Connection to carry into the story
@@ -129,7 +131,7 @@ This comes through the acts above, never a sentence saying why he matters.
 ## Ending
 
 - **(a), recommended:** Jerome's last line on him. He is said to have lived to a frail old age, and to have written many short works that are lost (E12; JER 40514–40516; JERL 55634–55636 "Ferturque vixisse usque ad decrepitam aetatem"; keep "is said"). Placed after What came, it ends on the man himself.
-- **(b):** the opening seen again. The man who asked that the truth not be condemned unknown is known, in the end, mostly from his own books and from Jerome (E1; EUS-ed 10267–10268). Risk: it can sound like a moral. Use only as a scene, never as a summing up.
+- **(b):** the opening seen again. The man who asked that the truth not be condemned unknown is known, in the end, from his own books (E1). Risk: it can sound like a moral. Use only as a scene, never as a summing up.
 
 ## Links
 
@@ -148,11 +150,12 @@ This comes through the acts above, never a sentence saying why he matters.
 
 ## Who tells it
 
-- **Tertullian himself**, old, in his own time, for the four books and the turn (S7, E1–E11). On Praxeas, the heretics and the bishop he is a hostile witness: "by his account", "he says" (E9, E11). Nearly all of his life rests on his own books and on Jerome (EUS-ed 10267–10268, editor): say so once, inside the sentence that first brings in Jerome (Beat 3).
+- **Tertullian himself**, old, in his own time, for the four books and the turn (S7, E1–E11). On Praxeas, the heretics and the bishop he is a hostile witness: "by his account", "he says" (E9, E11).
 - **Eusebius**, old, about a century later, beside "well versed in Roman law" (S5).
 - **Jerome**, old, about 170 to 200 years later, beside: his rank among Latin writers, why he turned, Cyprian's daily reading (hearsay through two people: tell the chain), Novatian's summary, "not a man of the church", his old age (D5, E8, I1, I2, I4, E12).
 - **Augustine**, old, about two centuries later, beside: why he turned, that he was read as eloquent, that he became a heretic, his followers' end (E8, I3, I4, I5).
-- **Vincent of Lérins**, old, 434: card only (I3, I4).
+- **Optatus**, old, an African bishop, later fourth century, about a century and a half later: beside his place among the champions of the Catholic church (What came 3; I7).
+- **Vincent of Lérins**, old, 434: beside the first place among the Latins (the essence); his praise and blame otherwise card (I3, I4).
 - **Modern, clarifying an old text:** Holmes on "præscriptio" (S6); Coxe on "ad leonem" (E2); Richardson's misreading of Jerome's chain, corrected from the Latin (I1).
 - **Modern, claims of their own, kept out of the story:** McGiffert (that he practised law; the Apology's year as settled; his conversion date), Monceaux (dates of the later books; from whom he parted; the jurist), Coxe (perhaps only a break with Rome), Benson (Cyprian's verbal debts), Harnack and Fausset (doubt on Novatian), Moore (persona as a stage word), the census `why` ("he invented them") and `legacy` ("never made a saint").
 - **The doubt that is a scene:** why he turned, told as two witnesses side by side (Beat 3).
@@ -160,7 +163,7 @@ This comes through the acts above, never a sentence saying why he matters.
 ## Do not say
 
 - "A lawyer", "an advocate" or "trained as an advocate" as fact. Say Eusebius calls him well versed in Roman law (S5, D3).
-- "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5). It is a ranking, so credit it the first time it is heard: Jerome ranks him so, and so does Vincent (JER 40495; VIN 13555–13557).
+- "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5). It is a ranking, so credit it the first time it is heard, to Vincent of Lérins, writing about two centuries later (VIN 13555–13557). Never say Jerome ranks him first: Jerome's Latin places him in his list after Victor and Apollonius (JERL 55610–55611); Richardson's "regarded as chief" (JER 40495) is the translator's.
 - "In 197" or any year but "around the year 200"; no year for the Prescription, the turn, Against Praxeas or On Modesty (S2, D6).
 - "His last book" (E11).
 - "Then", "a few years later" or any word of time that puts the Prescription before or after another book: its place rests on Monceaux alone (E4, D6). The turn, Against Praxeas and On Modesty may be told as after the Apology and the Prescription only in the way his own words show: Against Praxeas and On Modesty speak of the Paraclete and the new prophets (E9, E11).
@@ -173,12 +176,14 @@ This comes through the acts above, never a sentence saying why he matters.
 - "He wrote Against Praxeas as a loyal son of the church": he wrote it after the turn (E9).
 - "He left the church at Carthage" or "he was expelled", "excommunicated", "condemned by a council": no held source records it (D4, I4).
 - "Never made a saint": no held source says it (I4).
+- "The Tertullianists were the New Prophecy" or "his New Prophecy followers": Augustine says he broke from the New Prophecy too, and the Tertullianists were his own gatherings (AUG 2872–2873).
 - "He founded his own church" as fact: credit Augustine, who says he split from the New Prophecy too and spread gatherings of his own (E8).
 - Why he turned, as the narrator's fact: credit Jerome and Augustine, each, side by side (D1).
 - "Montanists" or "Cataphrygians" in the narrator's voice for his side: say "the New Prophecy" (E8).
 - "Psychics" bare: give its plain sense (E6).
 - "Persona means a mask" or "a character in a play" (Leave out).
 - "Paul of Concordia was Cyprian's secretary": Paul had met the secretary (D2).
+- "Cyprian's aged secretary", or "Jerome met him in Italy": "jam grandis aetatis" may go with Cyprian or the secretary, and Jerome does not say where he met Paul (JERL 55618–55621).
 - "Novatian copied" or "summarized his book" as fact: Jerome's judgment, credited (I2).
 - "Priest" or "presbyter": his office rests on Jerome alone; leave it out (E8).
 - A feeling for him at any point: bitter, proud, lonely, angry. Jerome's "a man of keen and vigorous character" (JER 40497) is the only word on his temper; leave it out.
@@ -211,6 +216,8 @@ In order, to bring about 745 words to about 650:
 4. What came 2, Novatian, to half a clause inside What came 1, or out (about 20 words). **Card.**
 5. Beat 2's list of churches: keep Ephesus and Rome, drop Corinth and Philippi (about 5 words). **Card.**
 6. If still long: Beat 3's clause on the stricter rules (about 15 words). **Leave out** (the `montanism-the-new-prophecy` story tells it).
+7. Beat 1's sentence that those who came to know it laid down their hatred (ANF3 1488–1490, about 15 words). **Card.**
+8. What came 3's Augustine line that his short works, "most eloquently written", are still read (about 15 words). **Card.**
 
 Never cut: the crowd's cry and Quote 1 (the opening), the gloss of the Prescription, the plain sense of substance and person, the two witnesses on the turn, and Augustine's and Jerome's verdicts.
 
