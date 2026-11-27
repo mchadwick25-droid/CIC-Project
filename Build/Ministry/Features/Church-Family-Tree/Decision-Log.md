@@ -6441,3 +6441,14 @@ This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 6. The era 1 brief: about 525 words (3:30), cut back at the outline.
 
 This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`, and each outline's "Approved heart and length" section.
+
+## 2026-11-27 — Batch 12: lengths measured by the draft (Mark)
+
+**Why.** The first two drafts ran far past their outline counts: Ignatius 642 against an approved 500, Josephus 1,004 against 675, each with every Cut first item out. Four outlines could not reach their lengths without cutting the heart: Cyprian (about 760 at the floor), Eusebius (about 753), Origen (about 720) and the era 1 brief (about 610 against 525). The page: https://claude.ai/artifact/LVuVVjugx5AvTN979oSgG2 (version 2).
+
+**Decided (Mark, 2026-11-27): "approve as recommended".**
+1. The draft is the measure. The approved lengths stand as targets, and the person kit's 675 words is the ceiling. A draft at 675 or under goes on to review as written, its real count shown to Mark. A draft over 675 goes back to its researcher, who cuts the outline with the draft in hand; a targeted recheck and a redraft follow. A story that cannot get under 675 without its heart comes to Mark with its draft's count and the cuts named.
+2. Ignatius (642) goes on to review. Josephus goes back to its researcher to be cut to 675. Tacitus is written now as the second of the first two.
+3. Cyprian, Eusebius, Origen and the era are drafted now on their outlines as they stand, to measure only; these drafts are not reviewed and are not briefs written ahead of Mark's reading of the first two. Each researcher then names the cuts that would bring its draft to 675 (the era to 525) and what each would take from the heart; the real counts come to Mark on one page.
+
+This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`.
