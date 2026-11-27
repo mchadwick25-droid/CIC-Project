@@ -1,0 +1,11 @@
+# Outline check: Pamphilus of Caesarea (`pamphilus-of-caesarea`)
+
+Batch 12, Part D. Kind: person. Checker's own account of the heart, written from the census entry (read without `longDescription`), `Card.existing.json`, `Source_Sheet.md` and what the subject is known for, before `Outline.md` was opened.
+
+## My heart, before reading the outline
+
+- **The essence.** Pamphilus was a presbyter of the church at Caesarea, on the coast of Roman Palestine, who gathered a library of church books for it, above all the works of Origen, and copied much of Origen with his own hand. In the Great Persecution he was tortured and held two years in prison, where he and Eusebius together wrote a Defense of Origen; then he was put to death, about 310, the one presbyter among twelve. He is on the tree as the man who kept Origen's books and Origen's name.
+- **Also told.** The library: gathered at great cost for the church, with a catalogue (Eusebius, HE VI.32; Jerome). The giving: possessions to the needy, Scriptures given to keep, to women as well as men (MP 11; the lost Life as Jerome quotes it). The Defense: addressed to confessors condemned to the mines; it sets out Origen's own words under his name and argues that Origen searched the Scriptures and did not lay down fixed doctrine, against readers who branded anyone who read him a heretic. The arrest and stand: tested by Urbanus, ordered to sacrifice, refused, scraped, jailed; after two years Firmilian asked if they would now obey, and they would not.
+- **What came of him, heaviest first.** (1) The library outlived him and was used: Eusebius sent readers to its catalogue for Origen's works; Jerome found there the Hebrew Matthew, twenty-five volumes of Origen in Pamphilus's hand, and Eusebius's six books; later bishops tried to restore it. (2) The Defense (defended: Origen's faith and good name), put into Latin by Rufinus in 397 under the martyr's name, carried a martyr's weight into the Latin quarrel over Origen, by Jerome's own complaint, and set off the quarrel over who wrote it. (3) Eusebius took his name, "Eusebius Pamphili". Socrates and later chronicles kept him as a witness and a martyr (card).
+
+(Findings follow below, written after the outline was read.)

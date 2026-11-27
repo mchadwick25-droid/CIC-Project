@@ -1,0 +1,10 @@
+# Outline check: Bardaisan of Edessa (`bardaisan-of-edessa`)
+
+## My own account of the heart (written before reading `Outline.md`)
+
+From the census entry (teaser, card), the source sheet and what he is known for:
+
+- **The essence:** Bardaisan was a Syriac-speaking teacher at Edessa around the year 200. In a dialogue one of his pupils wrote down, he answers a newcomer's question and argues that God made people free: the stars and fate shape our birth, fortune, health and death, but not what we choose to do, and the different laws of every country, and the Christians who keep one law everywhere, prove it. Later church writers called him a heretic, and Ephrem the Syrian answered him in his own city in prose and in song.
+- **Also told:** what the book says (the harp image: a person made unable to do wrong would be an instrument, not his own; Nature, Fate and freedom, each with its own field; the laws of countries; the Christians one name, one law; he had once followed the astrologers himself); that he was learned in Greek and Syriac and close to Edessa's ruler (Epiphanius); that he wrote dialogues against Marcion's followers and had many pupils who put his works into Greek (Eusebius, who calls him a defender of the faith); Epiphanius's report of his refusal to deny he was a Christian (Contested, credited).
+- **What came of him:** (1) Ephrem's long answer in prose and hymns, at Edessa, charging him with the Seven, the Entities and mortality without Adam's sin, and by Sozomen's account taking up the meters of his son Harmonius (Ephrem says Bardaisan's own hymns); (2) the charge of heresy, told by witnesses who differ (Eusebius: Valentinian first, then left them, never wholly clean; Epiphanius: an excellent churchman who later fell to the Valentinians; Hippolytus and later writers on Christ's body); (3) the argument against fate carried into Greek and Latin (Eusebius's *Preparation*, Jerome's praise, the *Recognitions*' parallel list); (4) his name in the heresy lists, a following named after him. **Defended:** human freedom against the astrologers' fate; the faith against Marcion's followers.
+

@@ -1,0 +1,8 @@
+# Outline check: Methodius of Olympus (`methodius-of-olympus`)
+
+## My own account of the heart (written before reading `Outline.md`)
+
+- **Essence:** Methodius, a bishop in Lycia in the south of Asia Minor around 300, wrote against Origen that the very body we live in, flesh and bones, is what God raises, purified of sin, and not a new spiritual body carrying only our shape; and in his Banquet he had ten women praise a chaste life. He is on the tree as one of Origen's first and most-used critics, inside the churches of Asia Minor.
+- **Also told:** the Banquet (a told dialogue: ten virgins, the host Arete/Virtue, each speech in praise of virginity, marriage not abolished, Thekla crowned and leading the hymn to Christ the Bridegroom); On the Resurrection (Origen, as Methodius gives him: the body a fetter given after the fall, the soul alone the person, only the shape rising; Methodius's answer through images: the coats of skins as mortality, the fig tree in the temple, the recast statue); his answer to Porphyry (Jerome); a martyr's death at Chalcis, its date uncertain in Jerome himself.
+- **What came of him:** heaviest, Epiphanius copied On the Resurrection word for word against Origen (defended: the resurrection of the flesh); Jerome listed and praised him; Theodoret kept his words on martyrdom and the incarnation and counted him among the church's teachers; Socrates remembered him, hostilely, as the first to revile Origen, and says he later admired him (Xenon); Eusebius, Origen's defender, complained of him.
+- Sources: census `why`/`teaser`, Source_Sheet S1-S3, W1-W14, R1-R9, P1-P2, D1-D4, I1-I5.

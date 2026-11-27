@@ -3,11 +3,11 @@
 Every line cites `Source_Sheet.md` (S setting, C the chapter, R what came of it, D disagreement, X explain-it list in §6, N not held), which gives each file and line. MIR = the Latin of *Annals* 15.44 in Mirbt's print of Halm's text; TAC = the 1876 English.
 
 **The heart**
-- **The essence:** Tacitus, a Roman historian writing a generation or more after the great fire of Rome in 64, gives in a few sentences the fullest account from outside the church of how Nero punished the Christians, and names Christus, from whom their name came, put to death under Pontius Pilate. He despised them, and later Christians retold his scene, answered him by name, and argued over it. (C2–C7: Documented as his account; the fire's year, S1: Widely Accepted; "a generation or more", S3: Widely Accepted; R1–R3: Documented.)
-- **Also told:** What the chapter says, in its order: the rites that failed to stop the rumour that the fire was ordered; Nero's blame on people the crowd hated and called Christians; Christus under Pilate, and the "deadly superstition" breaking out again; the arrests, first of those who confessed, then of a huge number on their word; a conviction less for the fire than for "hatred of the human race"; the deaths as a show; the pity that arose because they seemed to die for one man's cruelty (C1–C7: Documented as his). What it leaves open, told inside what he does: he names no source for Christus, none of the dead, and not what they confessed (C3–C5, D6). What later readers did with it (R1–R3).
+- **The essence:** Tacitus, a Roman historian writing a generation or more after the great fire of Rome in 64, gives in a few sentences the fullest account from outside the church of how Nero punished the Christians, and names Christus, from whom their name came, put to death under Pontius Pilate. He despised them. Later Christians answered him by name, and one retold his scene in nearly his own words and called the dead innocent. (C2–C7: Documented as his account; the fire's year, S1: Widely Accepted; "a generation or more", S3: Widely Accepted; R3, Tertullian answered him by name: Documented; R1, Sulpicius retold the scene and called them innocent: Documented, that he drew on Tacitus Widely Accepted.)
+- **Also told:** What the chapter says, in its order: the rites that failed to stop the rumour that the fire was ordered; Nero's blame on people the crowd hated and called Christians; Christus under Pilate, and the "deadly superstition" breaking out again; the arrests, first of those who confessed, then of a huge number on their word; a conviction less for the fire than for "hatred of the human race"; the deaths as a show; the pity that arose because they seemed to die for one man's cruelty (C1–C7: Documented as his). What it leaves open, told inside what he does: he names no source for Christus, none of the dead, and not what they confessed (C3–C5, D6). What the old readers did with it (R1, R3).
 - **What came of him** (ranked under "What came of it" below). Nothing defended: he is an outside witness.
 
-**Length:** about 3 minutes 30 seconds, about 530 words. The story must carry: three quotes (about 75 words), the plain sense of eight words or works (about 50), and the credited witnesses, Tacitus as the one source, Tertullian, Sulpicius, and the two men of the 1876 debate (about 55): about 180 words before the narration. Beats as planned run to about 590; the Cut first list brings them to 530. Shorter would drop either the chapter in its order or the readers who used it; the record is one short chapter, so longer would stretch it (S6).
+**Length:** about 3 minutes 30 seconds, about 530 words. The story must carry: three quotes (about 75 words), the plain sense of eight words or works (about 50), and the credited witnesses, Tacitus as the one source, Tertullian and Sulpicius (about 55 as first counted, with the two men of the 1876 debate, now on the card): about 180 words before the narration. Beats as planned run to about 590; the Cut first list brings them to 530. These figures were set before the 1876 debate moved to the card; without it they fall, and the independent count already stood at 479 less Cut first (`../Length_Count.md`), under the approved 500. Shorter would drop either the chapter in its order or the readers who used it; the record is one short chapter, so longer would stretch it (S6).
 
 **Setting** (facts for the writer, a clause at a time)
 - Rome, after the great fire of 64 (S1). The year comes from the held moderns; Tacitus's chapter gives none.
@@ -44,12 +44,11 @@ Every line cites `Source_Sheet.md` (S setting, C the chapter, R what came of it,
 6. **The readers, in time order** (each credited):
    - About 200, in Carthage, Tertullian, in his defence of the Christians, answered Tacitus by name, about another of his histories, which told where the Jews came from. Tacitus had written that the Jews, dying of thirst in the desert, followed wild asses to water and honoured the animal's head; people took it that the Christians, close to the Jews, worshipped the same. Tertullian called him a liar, and a wordy one (narrator's words from "mendaciorum loquacissimus", not a quote), and caught him out: the same Tacitus tells that Pompey, who took Jerusalem, went into the temple and found no image there (R3). Narrator's words; no quote. Documented. It is about the Jews, not the fire.
    - About 400, Sulpicius Severus, a Christian writing a short history of the world, told the fire, the blame and the same deaths, in nearly Tacitus's own Latin words, though he names no source (R1: Documented; that he drew on Tacitus, Widely Accepted). But where Tacitus called them guilty, Sulpicius wrote: Q2.
-   - In 1876, at a public debate in England over whether the Bible was divine, a Christian speaker used the chapter, with a Roman governor's letter, to show that a vast multitude believed in Christ in the first century. Charles Bradlaugh, an atheist, said the passage was open to challenge: the church historian Eusebius never quotes it, and the early centuries were full of forgeries. He would not deny it outright; he put the burden of proof on his opponent (R2d). Documented as an event. This is the one doubt among held witnesses (D2).
 7. **Ending.** See Ending.
 
 **What came of it** (ranked heaviest first; weight is what later witnesses carried on and used)
 1. **A Christian history carried his scene on, in his own words, and called the dead innocent** (R1, R1a). Beat 6, second item.
-2. **Later readers used it to count and weigh the early church, and one doubted it** (R2: Hooker, Ruinart against Dodwell, Whiston, Roberts and Bradlaugh). Beat 6, third item; the rest to the card.
+2. **Later readers used it to count and weigh the early church, and one doubted it** (R2: Hooker, Ruinart against Dodwell, Whiston, Roberts and Bradlaugh). Card, all of it: the story's later readers are the old ones (Mark, 2026-11-27, hearts ruling).
 3. **A Christian answered him by name**, about his account of the Jews (R3). Beat 6, first item.
 Nothing defended. No line on who keeps him today.
 
@@ -67,23 +66,23 @@ Nothing defended. No line on who keeps him today.
 - Tertullian (link, `tertullian-s-voice`).
 - Pompey: by role, "the Roman general who took Jerusalem" (acts inside the Tertullian item; not on the tree).
 - Sulpicius Severus (link, `sulpicius-severus`).
-- Eusebius (link, `eusebius-of-caesarea`, as "the church historian Eusebius").
-- Charles Bradlaugh (acts, the doubter in the debate; not on the tree). Robert Roberts by role: "a Christian speaker".
+- Eusebius: not in the story (he came in only as Bradlaugh's reason, R2d; card).
+- Charles Bradlaugh and Robert Roberts: not in the story (R2d; card).
 - By role only: Roberts, Pompey, Gibbon, Ruinart, Dodwell, Hooker, Whiston, McGiffert, Schanz, Duchesne, Halm, Roberts the translator.
 
-**Connection to carry into the story:** A man who despised the Christians gave the church, and everyone after, the fullest outside record of how Christians died at Rome under Nero, and a Roman's line that Christus was put to death under Pilate (C3–C6). The listener must hear three things to follow it: that Tacitus was a Roman historian who was hostile throughout (C3, C4, C7); that the details of these deaths rest on his few sentences (S6, D8); and that Christians and later readers took the passage up and changed or tested it: Tertullian called him a liar on another matter (R3), Sulpicius kept the scene in Tacitus's words and called the dead innocent (R1), and in 1876 a debater used it to prove the first church was large while his opponent doubted it was genuine (R2d). Carried by these acts, never by a "this matters because" sentence.
+**Connection to carry into the story:** A man who despised the Christians gave the church, and everyone after, the fullest outside record of how Christians died at Rome under Nero, and a Roman's line that Christus was put to death under Pilate (C3–C6). The listener must hear three things to follow it: that Tacitus was a Roman historian who was hostile throughout (C3, C4, C7); that the details of these deaths rest on his few sentences (S6, D8); and that later Christians took him up and answered or changed him: Tertullian called him a liar on another matter (R3), and Sulpicius kept the scene in Tacitus's words and called the dead innocent (R1). Carried by these acts, never by a "this matters because" sentence.
 
-**Ending:** (a) Chosen: his own last sentence, Q3, after the readers: the guilty, as he calls them, pitied because they died for one man's cruelty (C7). It turns back to the gardens of the opening without retelling them. (b) Possible: Q3 in time order at the end of beat 5, and the story ending on Bradlaugh's challenge. Not chosen: it ends on a later debater, not on the subject.
+**Ending:** (a) Chosen: his own last sentence, Q3, after the readers: the guilty, as he calls them, pitied because they died for one man's cruelty (C7). It turns back to the gardens of the opening without retelling them. (b) Possible: Q3 in time order at the end of beat 5, and the story ending on the last of the old readers, Sulpicius's Q2 (R1). Not chosen: it ends on a later reader, not on the subject.
 
-**Links:** Tertullian (answered him by name, R3). Sulpicius Severus (retold his account, R1). Eusebius of Caesarea (does not quote him; Bradlaugh's reason, R2d). Suetonius (sibling; another Roman's one line on the same punishment). Pliny the Younger (paired with him by Roberts, R2d; not named here unless the debate needs it). Josephus and Ammianus Marcellinus (not in this story; §4).
+**Links:** Tertullian (answered him by name, R3). Sulpicius Severus (retold his account, R1). Eusebius of Caesarea (does not quote him; Bradlaugh's reason, R2d): card only. Suetonius (sibling; another Roman's one line on the same punishment). Pliny the Younger (paired with him by Roberts, R2d): card only. Josephus and Ammianus Marcellinus (not in this story; §4).
 
 **Who tells it**
 - Tacitus, *Annals* 15.44, old, a generation or more after the fire: the whole event (C1–C7). Hostile, and names no source. Say once, in beat 1, that the details rest on him alone.
 - Tertullian, old, about 200, a Christian: credited beside the ass's head and the insult (R3).
 - Sulpicius Severus, old, about 400, a Christian: credited beside Q2 and the retelling (R1).
-- Roberts (by role) and Bradlaugh, 1876: an event in the record, told as the debate (R2d). Their claims are theirs, credited.
+- Roberts and Bradlaugh, 1876: card only (R2d).
 - Modern (tools only, never named in the story): Mirbt, Schanz and Ruinart's prints of the Latin (find and clarify the text); Rolfe (clarifies "Christus"); Yonge, Whiston and the Library's header (dates: claims of their own, kept to "a generation or more"); McGiffert, Duchesne, Schanz, Harnack (claims of their own on the victims and the verdict: card only).
-- The doubt is a scene: the 1876 debate, beat 6.
+- No doubt is told in the story: the one held doubter, Bradlaugh in 1876, is on the card (R2d, D2).
 
 **Do not say**
 - Not "one of our governors" or "one of our procurators". The Latin says "by the governor" (Q1, C4).
@@ -105,20 +104,20 @@ Nothing defended. No line on who keeps him today.
 - Not that Tacitus mentions Antium, laws or edicts, or Peter and Paul. Those are Sulpicius's (R1).
 - Not that the victims were really Jews, or that historians agree they were Christians (D1: card).
 - Not what the verdict "really meant" (D3: moderns' reading, card).
-- Not "Bradlaugh proved it a forgery" or "historians doubt it". He thought it open to challenge and would not deny it outright; he is the one held doubter (R2d, D2).
+- Not "historians doubt it", and not Bradlaugh's doubt: the one held doubter is on the card (R2d, D2).
 - Not "historians still rely on it today". The held historians stop at 1922 (R2e).
 - Not "Chrestians", or anything on the spelling of the name (D5).
 - Not where Tacitus learned of Christus (D6).
 - Not a sentence that only says what is missing. Each gap is told inside a sentence about what he does (Kit, Craft).
 - Any word in Words to explain used without its plain sense the first time, "procurator", "circus" and "superstition" among them.
 
-**Leave out:** The gods and the Sibylline books by name (C1): a list that adds nothing. Nero at Antium (Sulpicius only, N1). Peter and Paul (Sulpicius, Duchesne). The "superstitio exitiabilis" turned on heretics (R1a): card. Hooker, Ruinart against Dodwell, and Whiston (R2a–c): card. Gibbon as Roberts read him (R2d): card. The Christians-or-Jews dispute (D1) and the moderns' reading of the verdict (D3): card. The readings "Chrestianos", "coniuncti" and "flammandi" (D5): card, and "Chrestus" is the sibling's. The Shaw–Jones debate (D7): not held. 1 Clement and Tertullian's *Apology* 5: inside witnesses that name no writer. Montaigne's and Whiston's reports of his offices (S2): late, unheld. Pliny as his friend (N2): not held. Suetonius by name: the sibling carries the link both ways (its live text already points here).
+**Leave out:** The gods and the Sibylline books by name (C1): a list that adds nothing. Nero at Antium (Sulpicius only, N1). Peter and Paul (Sulpicius, Duchesne). The "superstitio exitiabilis" turned on heretics (R1a): card. Hooker, Ruinart against Dodwell, and Whiston (R2a–c): card. Gibbon as Roberts read him (R2d): card. The 1876 debate (R2d, D2): Robert Roberts's use of the chapter with Pliny to show "a vast multitude" believing in Christ (RB 2565–2569, 2622–2633), and Charles Bradlaugh's doubt that it is genuine, that it is "liable to impeachment" because Eusebius does not quote it, without "absolute denial" (RB 3162–3164, 6671–6676): Card (Mark, 2026-11-27, hearts ruling). The Christians-or-Jews dispute (D1) and the moderns' reading of the verdict (D3): card. The readings "Chrestianos", "coniuncti" and "flammandi" (D5): card, and "Chrestus" is the sibling's. The Shaw–Jones debate (D7): not held. 1 Clement and Tertullian's *Apology* 5: inside witnesses that name no writer. Montaigne's and Whiston's reports of his offices (S2): late, unheld. Pliny as his friend (N2): not held. Suetonius by name: the sibling carries the link both ways (its live text already points here).
 
 **Cut first** (in order, until the count reaches 530)
 1. The married women's night vigils (beat 2): say only "prayers and offerings to the gods". Leave out.
 2. "Where everything horrible or shameful flows in from everywhere and finds a following" (beat 3): his contempt stays in "hated for their shameful acts" and "deadly superstition". Card.
 3. The wild asses and the desert (beat 6, Tertullian): keep only that Tacitus's account of the Jews started the tale that Christians worshipped an ass's head, and that Tertullian caught him out with Pompey's empty temple. Card.
-4. The Christian speaker's purpose in the debate (beat 6): keep only "a Christian speaker quoted it", and give Bradlaugh by role, "an atheist". Card.
+4. Withdrawn: the whole 1876 debate is now on the card (Leave out).
 5. "He does not say what the first ones confessed" (beat 4), folded into the verdict sentence or dropped. Leave out.
 
 ## Approved heart and length
