@@ -6427,3 +6427,17 @@ This builds on "Standard visitor analytics replace the cookie-free counts" above
 7. No quote reuse. The quotes the slate lists stay where they are.
 
 This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`.
+
+## 2026-11-27 — Batch 12: hearts and lengths approved (Mark)
+
+**Why.** Step 1 of batch 12. The heart of each of the twenty people and the era 1 brief, with its confidence and the length its outline plans beside an independent count, went to Mark on one page: https://claude.ai/artifact/RBTfTfBxXXpT5RD7qjZVVk (version 1).
+
+**Decided (Mark, 2026-11-27): "approve as recommended".**
+1. The twenty-one hearts as the page gives them.
+2. Hippolytus's Refutation is told as his book, as the Roman Church story tells it; the card says the attribution is the editors'. An exception to the kit's line on an identification only a modern work makes, for this story only.
+3. Bradlaugh (Tacitus) and Ruinart (Suetonius) go to the card; each story's later readers are the old ones. Each essence is revised to match before the outline check.
+4. Hippolytus's own sentence with "two Gods" is allowed; it shares two words with Callistus's barred line and does a new job.
+5. Each person's length is the independent count rounded up to the next 25 words, capped at 675: Tacitus 500, Suetonius 500, Josephus 675, Justin 675, Tatian 650, Ignatius 500, Valentinus 525, Bardaisan 675, Hippolytus 575, Clement 475, Tertullian 650, Cyprian 675, Pontius 675, Lactantius 675, Origen 675, Methodius 600, Pamphilus 650, Eusebius 675, Anatolius 675, Peter 650. An outline over its length is cut back at the outline by its researcher and checked; the heart and the record's force are not cut; a story that cannot fit without cutting its heart comes back to Mark.
+6. The era 1 brief: about 525 words (3:30), cut back at the outline.
+
+This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`, and each outline's "Approved heart and length" section.

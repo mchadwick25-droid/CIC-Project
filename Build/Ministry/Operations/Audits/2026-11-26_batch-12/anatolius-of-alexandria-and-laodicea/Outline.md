@@ -150,3 +150,7 @@ In order; each brings the count down toward 600 if a draft runs over, and furthe
 5. Quote 1 shortened to its first four sentences; the rest in paraphrase: Leave out (the paraphrase keeps "only men and youths", the force).
 6. Ending 1's last clause, that both men called him holy: Leave out.
 7. The honor from those in high office (beat 1): card.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 675, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

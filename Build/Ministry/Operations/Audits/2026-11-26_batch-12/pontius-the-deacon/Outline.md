@@ -181,3 +181,7 @@ The count as planned is about 860; these cuts, in order, bring it to about 600.
 Never cut: the willing exile and his wish to share the martyrdom (the opening, called back at the end); the book unsigned and Jerome's naming; Quote 2 with the delay; Pontius's reading of the day as a year, credited; the two accounts of the last withdrawal, side by side; the last night; Quote 1 with his reason; the start at baptism; the court record for the first hearing and the one-line trial; Quote 3.
 
 **For the card, not the story:** the cut items above; the soldier's dry clothes and "We apply medicines to annoyances which probably to-day will no longer exist" (VE 28224–28226); Bede's chronicle (BEDE 23904–23909); the Roman Martyrology (AASS 196819–196824); the manuscript count (HAR 264); Harnack, Delehaye, Monceaux, von Soden and Benson for the Modern works list, each with what it covers.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 675, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

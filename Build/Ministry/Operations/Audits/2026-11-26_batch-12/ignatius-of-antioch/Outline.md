@@ -166,3 +166,7 @@ To bring the planned ~600 words to 550, in order:
 5. Beat 2: the three bishops coming to Smyrna, reduced to "the churches of Ephesus, Magnesia and Tralles sent their bishops" (about 10 saved). → Leave out (names by role already).
 
 Not to cut: the three quotes and their plain senses, the explanation of the teaching he opposed and of why he begged Rome not to act, beat 7 (the connection), and the ending's credit to Eusebius.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **500 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 500, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

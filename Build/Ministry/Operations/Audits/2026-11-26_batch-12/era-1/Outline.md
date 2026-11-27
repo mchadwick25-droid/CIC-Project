@@ -161,3 +161,7 @@ Each era 1 tradition and the council (ground of): `post-apostolic-house-church`,
    *About 450: three minutes.*
 
 Never cut: Quote 1 and Pella; Quote 2 and its "boast" framing; Decius's order with its reason credited (E10a) and the fallen; the son's letter to the bishops; the 303 orders and the emperors' own reason; Quote 3 and the prayer; the questions.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **525 words** (the era ruling; the independent count in `Length_Count_Era.md` found about 686). If the outline, less its Cut first list, runs past 525, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

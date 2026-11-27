@@ -169,3 +169,7 @@ In order, until the count reaches about 625 words.
 7. The priestly and royal lines (beat 1), about 15 words: **Leave out**. Keep "a priest of a priestly family".
 
 Never cut: Quote 1 and the lots (the scene that carries the craft), the three passages with their reasons, the gloss of "the Christ", or the three readings side by side.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 675, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

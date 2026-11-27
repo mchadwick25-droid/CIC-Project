@@ -120,3 +120,7 @@ Nothing defended. No line on who keeps him today.
 3. The wild asses and the desert (beat 6, Tertullian): keep only that Tacitus's account of the Jews started the tale that Christians worshipped an ass's head, and that Tertullian caught him out with Pompey's empty temple. Card.
 4. The Christian speaker's purpose in the debate (beat 6): keep only "a Christian speaker quoted it", and give Bradlaugh by role, "an atheist". Card.
 5. "He does not say what the first ones confessed" (beat 4), folded into the verdict sentence or dropped. Leave out.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **500 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 500, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked. Bradlaugh (1876) goes to the card; the story's later readers are the old ones (ruling 3). The heart is revised to match before the outline check.

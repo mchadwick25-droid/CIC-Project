@@ -138,3 +138,7 @@ Item codes (S, E, I, D) are rows of `Source_Sheet.md`, each with its file and li
   6. Beat 6: "he hurried to wash his ears with the Scriptures" (EPH-G 11205–11207). Card. About 12 words.
   7. Beat 1: Epiphanius on Greek and the ruler (S3); keep Eusebius. Card. About 25 words.
   Never cut: the opening scene, Quote 1 with fate's plain sense, the laws with their force and the Christians, the pupil sentence, Eusebius's and Epiphanius's opposite orders with their force (the filth, the wreck), Quote 2 and the curse, the songs clause, the Greek and Latin readers in one clause each, or the ending.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 675, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

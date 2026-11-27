@@ -181,3 +181,7 @@ Each item is for the card or Leave out. Applied in order, they bring about 625 t
 8. Callistus's following calling themselves the Catholic Church, beat 4 (about 15). **Card.**
 9. The find of 1842 under Origen's name, beat 5 (about 25). **Card**, with D1.
 Never cut: Q1, Q2, Q3, the sentence that the quarrel survives only in his telling, his side's refusal to give way, Callistus's rule with Hippolytus's charge, the people his side had put out, the exile, the calendar, and the bishop-or-elder witnesses (Eusebius and the list), which carry the record's own disagreement.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **575 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 575, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked. The Refutation is told as his book (ruling 2 of that Decision-Log entry); the card says the attribution is the editors'. His own sentence with "two Gods" (Quote 2) is allowed (ruling 4 there).

@@ -188,3 +188,7 @@ To bring about 740 to about 600:
 7. Jerome's explanation of the Holy Spirit charge (What came 1), keeping the charge and his refusal to stop reading: card. About 25.
 8. The Chronicle's "taught him Latin letters" (Beat 6): Leave out. About 10.
 Items 1 to 8 make about 140: about 600. Never cut the opening scene, the two men and why he wrote, Quote 3 with "words, not blows", Lucifer, or the explanation of the edict.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 675, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

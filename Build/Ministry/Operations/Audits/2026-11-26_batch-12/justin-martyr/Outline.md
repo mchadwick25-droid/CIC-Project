@@ -153,3 +153,7 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   9. The Stoic, the Peripatetic and the Pythagorean by name in beat 1, keeping "teachers of several schools" and the follower of Plato (about 25). Leave out.
   About 440 words, 3 minutes.
   Never cut: the three quotes, the gloss of logos, the name punished in beat 3, the teacher led away for the name, the reason for the trial and the sentence, Justin's and Tatian's sides of the Crescens quarrel.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 675, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

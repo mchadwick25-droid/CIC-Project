@@ -156,3 +156,7 @@ Kind: person (`kinds/person.md`). Census id `tatian`, told within `syriac-edessa
   13. The Arabic ending, closing instead on Ending 2 (about 10 net). Card.
   About 450 words, 3 minutes.
   Never cut: the two quotes, the gloss of barbarian, the Crescens charge from Tatian's own book, Irenaeus's three charges in their content with the Encratites' plain sense, Eusebius on the *Diatessaron* with its name, Theodoret's act with his reason and the users' side.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **650 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 650, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

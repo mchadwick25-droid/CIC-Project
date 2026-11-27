@@ -175,3 +175,7 @@ From about 600 words to about 450, in order:
 5. Alexandria's memory day (What came of it 3), about 15 words → card.
 6. The tricksters' three ways, cut to "those who tricked the officials" (B2), about 15 words → card.
 7. Nicaea's terms, cut to "the split outlived him and came before the Council of Nicaea" (What came of it 2), about 15 words → card.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **650 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 650, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

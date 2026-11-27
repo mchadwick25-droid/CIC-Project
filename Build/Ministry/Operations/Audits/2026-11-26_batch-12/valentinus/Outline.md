@@ -116,3 +116,7 @@ Line references are to `Source_Sheet.md` rows (S, E, I, D), each of which gives 
   6. Beat 3: Hippolytus's Pythagoras-and-Plato charge (E6). Card. About 15 words.
   7. Beat 4: Clement's "it would not be Christ who abolished death" (E8); keep the commandments and the Savior. Card. About 10 words.
   Never cut: the opening and Quote 1, Quote 2 with its gloss, the pairs and the fall with their plain sense, Clement's charge, the students and the ending, or the one-witness sentence.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **525 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 525, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.

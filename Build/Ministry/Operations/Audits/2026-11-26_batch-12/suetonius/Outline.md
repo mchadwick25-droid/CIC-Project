@@ -146,3 +146,7 @@ Nothing defended. No line on who keeps him today. The modern source books (R7) g
 5. "And was also a real name of the time and after" shortened to "also a real name" (beat 3). Leave out.
 6. The public dinners cut to handouts (beat 4): keep the spending limit, the taverns and the chariot drivers. Leave out.
 Never cut: the two lists around Q1 and Q2, his "no blame, some even praise", the fire chapter naming no Christians, the plain sense of Chrestus and Chrestians, Bede, and Ruinart.
+
+## Approved heart and length
+
+Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **500 words** (the independent count in `Length_Count.md`, rounded up to the next 25, capped at 675). If the outline, less its Cut first list, runs past 500, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked. Ruinart (1689) goes to the card; the story's later readers are the old ones (ruling 3). The heart is revised to match before the outline check.
