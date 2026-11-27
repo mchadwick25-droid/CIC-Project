@@ -116,7 +116,7 @@ Earlier research, as pointers only (decision 2): batch 3 (`justin-martyr`), batc
 6. No quote reuse. The barred quotes are listed on the slate.
 
 ## Rulings
-- "Batch 12: the first two briefs approved, and the long stories' lengths" (Mark, 2026-11-27: "approve as recommended", taken as approving both pages put to him together): Ignatius and Tacitus approved with their heart-wording changes; the other fourteen written in parallel; Cyprian about 965, Origen about 950, Eusebius about 850, Josephus about 725, the era about 730. This batch only.
+- "Batch 12: the first two briefs approved, and the long stories' lengths" (Mark, 2026-11-27: "approve as recommended", then "yes, both"): Ignatius and Tacitus approved with their heart-wording changes; the other fourteen written in parallel; Cyprian about 965, Origen about 950, Eusebius about 850, Josephus about 725, the era about 730. This batch only.
 - "Batch 12: lengths measured by the draft" (Mark, 2026-11-27: "approve as recommended"): the draft is the measure, 675 the ceiling; over-675 drafts go back to the researcher with the draft in hand; the long stories drafted to measure. This batch only.
 - "Batch 12: hearts and lengths approved" (Mark, 2026-11-27: "approve as recommended"): the twenty-one hearts; the Refutation told as Hippolytus's; Bradlaugh and Ruinart to the card; Hippolytus's "two Gods" allowed; lengths by the count, capped at 675; the era about 525. This batch only.
 - "Batch 12: the slate approved" (Mark, 2026-11-27: "approve the slate as recommended"): decisions 1 to 6 above, the twenty jobs and the research order. This batch only.

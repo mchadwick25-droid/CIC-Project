@@ -6457,7 +6457,7 @@ This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 
 **Why.** Two stops were open together. The first two briefs (Kit step 5), Ignatius of Antioch (667 words) and Tacitus (584), each through review, one revision and a fresh read: https://claude.ai/artifact/RBTfTfBxXXpT5RD7qjZVVk (version 2). And the measured lengths of the five long stories, each drafted to measure with its researcher's named cuts: https://claude.ai/artifact/LVuVVjugx5AvTN979oSgG2 (version 4).
 
-**Decided (Mark, 2026-11-27): "approve as recommended".** Taken as approving both pages, which the same message put to him together.
+**Decided (Mark, 2026-11-27): "approve as recommended", then, asked whether he meant both pages: "yes, both".**
 1. Ignatius and Tacitus approved as they stand, with the heart-wording changes their reviews made (Ignatius: "seven letters, six to churches and one to a fellow bishop"; "the letters he held". Tacitus: "Christus, that is, Christ"). The other fourteen people whose outlines are through the check are written in parallel, each through review, one revision and the fresh read.
 2. Lengths: Cyprian about 965 words (the twelve free cuts and four more that take only side events, `cyprian-of-carthage/Cuts_Named.md`); Origen about 950 (the free cuts only); Eusebius about 850 (the free cuts and C1-C6: the Chronicle ending, the Defense of Origen, the Rufinus and Jerome lines to the card); Josephus about 725, as drafted; the era 1 brief about 730 (the free cuts only). These run past the person kit's 675 ceiling where the heart needs it, as Latin Pastoral and Manichaeism did in batch 11.
 

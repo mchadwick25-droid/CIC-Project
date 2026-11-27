@@ -14,7 +14,7 @@ Commit and push as you go.
 
 ## Mark's rulings at the handover
 
-Both are already written into the Decision-Log ("Batch 12: the first two briefs approved, and the long stories' lengths", 2026-11-27), the README and each long story's outline ("Length ruling" line). Mark's words: "approve as recommended", answering both pages together.
+Both are already written into the Decision-Log ("Batch 12: the first two briefs approved, and the long stories' lengths", 2026-11-27), the README and each long story's outline ("Length ruling" line). Mark's words: "approve as recommended", then, asked whether he meant both pages, "yes, both".
 - Ignatius and Tacitus are approved; their cards come next (Kit step 6), after the others reach the card step or alongside them.
 - The fourteen are approved to write in parallel; their `Writer_Prompt.filled.md` files are ready.
 - Lengths: Cyprian about 965, Origen about 950, Eusebius about 850, Josephus about 725 (review its draft as written), the era about 730.
