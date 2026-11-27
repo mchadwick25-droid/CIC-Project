@@ -40,10 +40,10 @@
   "uncertain": [
     "The witnesses. Nearly all that is known of him comes from his own seven letters, written on the road. Polycarp, who met him, and Irenaeus, who does not name him, add a little. Eusebius, about two centuries later, adds that he was the second bishop of Antioch, and that report said he died by the beasts at Rome.",
     "The year. His letters give none. Eusebius's Chronicle sets his death among the events of Trajan's persecution of the Christians. Jerome gives the eleventh year of Trajan, and the later Martyrdom of Ignatius the ninth, though its editors call that numeral uncertain. Modern editors do not agree on the year.",
-    "His place among the bishops. Eusebius calls him the second bishop of Antioch, after Evodius. Jerome calls him the third after the apostle Peter, counting Peter as the first. Theodoret, writing more than three centuries later, says Peter himself made him bishop.",
+    "His place among the bishops. Eusebius calls him the second bishop of Antioch, after Evodius. Jerome calls him the third after the apostle Peter, counting Peter as the first. Theodoret, writing much later, says Peter himself made him bishop.",
     "John's disciple. Eusebius's Chronicle, in Jerome's Latin, names him among those who heard the apostle John, and the Great Horologion calls him John's disciple. His own letters do not say so.",
     "The name Theophorus. Each letter opens with Ignatius, who is also called Theophorus, a Greek name meaning God-bearer. The Great Horologion explains it as one who carried God living in his soul. The later Martyrdom of Ignatius has him tell Trajan that it means one who has Christ within his breast.",
-    "Which letters are his. Fifteen letters carry his name. Polycarp, Irenaeus and Eusebius treat the seven as his, and Eusebius names those seven. The seven survive in a shorter and a longer Greek form, and three of them also in a shorter Syriac version. Which form is his, and whether the seven are his at all, was argued among modern editors for centuries; the editors of the Ante-Nicene Fathers and Arthur McGiffert, who translated Eusebius, set out that dispute.",
+    "Which letters are his. Fifteen letters carry his name. Polycarp, Irenaeus and Eusebius treat the seven as his, and Eusebius names those seven. The seven survive in a shorter and a longer Greek form, and three of them also in a shorter Syriac version. Which form is his, and whether the seven are his at all, was argued among modern editors for centuries.",
     "The peace at Antioch. He writes that the church at Antioch was at peace and restored to its proper greatness, but not what trouble it had passed through. A chapter heading in the English, on the close of the persecution, is the editors' own.",
     "The sailing from Troas. He writes that he must suddenly sail from Troas to Neapolis, as the will enjoins. The words of the emperor that follow in the English are the translators' own, in brackets.",
     "His end. No writer of his own century tells how he died. Polycarp counts him among those now with the Lord, yet later in the same letter asks the Philippians for surer news of him and those with him; that later part survives only in Latin, and some modern scholars have questioned whether it is Polycarp's. Eusebius gives only what report said. Chrysostom and Jerome, writing later still, set his words on the beasts at the moment of his death.",
@@ -172,7 +172,7 @@
       "work": "Ignatius, Letter to the Trallians 10, shorter form, Ante-Nicene Fathers vol. 1",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
       "lines": "6671-6676",
-      "uncertain": "The modern English has fight, where the English prints be exposed to, from the translators' note at that word: \"Literally, “to fight with.”\" (line 6675). The translators also note that some read the last two clauses as statements rather than questions (lines 6677-6678)."
+      "uncertain": "The modern English has fight, where the English prints be exposed to, from the translators' note at that word: \"Literally, “to fight with.”\" (line 6675). The translators also note that some read the last question, and the clause after it, as statements rather than questions (lines 6677-6678)."
     },
     {
       "modern": "I am God's wheat. I am ground by the teeth of wild beasts, so that I may be found pure bread.",
@@ -274,7 +274,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "Onesimus, bishop of Ephesus, Damas, bishop of Magnesia, and Polybius, bishop of Tralles, come to him at Smyrna with others of their churches.",
+          "text": "Onesimus, bishop of Ephesus, Damas, bishop of Magnesia, and Polybius, bishop of Tralles, come to him at Smyrna, the first two with others of their churches.",
           "reference": "Ignatius, Letters to the Ephesians 1, the Magnesians 2 and the Trallians 1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 4707-4711, 5674-5677, 6279-6282"
         }
       ]
@@ -286,7 +286,7 @@
       "lines": [
         {
           "when": "At Smyrna",
-          "text": "To Ephesus he writes that its elders are fitted to the bishop as strings to a harp, and urges the church to sing with one voice.",
+          "text": "To Ephesus he writes that its elders, the council who led a church with its bishop, are fitted to him as strings to a harp, and urges the church to sing with one voice.",
           "reference": "Ignatius, Letter to the Ephesians 4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 4828-4839"
         },
         {
@@ -343,7 +343,7 @@
         },
         {
           "when": "At Troas",
-          "text": "He writes that he must suddenly sail from Troas to Neapolis, so he cannot write to every church. These are the last words of his that survive.",
+          "text": "He writes that he must suddenly sail from Troas to Neapolis, so he cannot write to every church. It is the last stage of his road that his letters tell.",
           "reference": "Ignatius, Letter to Polycarp 8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8854-8856"
         }
       ]
@@ -379,12 +379,12 @@
           "when": "In the eleventh year of Trajan, Jerome says",
           "text": "Jerome dates his death to the eleventh year of Trajan.",
           "reference": "Jerome, Lives of Illustrious Men 16, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39829-39830",
-          "note": "Written much later; Jerome also has him hear the lions roar and speak the wheat line in the arena."
+          "note": "Written much later; Jerome also has him speak the wheat line as he heard the lions roaring."
         }
       ]
     },
     {
-      "when": "After his death",
+      "when": "Later",
       "headline": "His letters gathered, quoted and kept",
       "lines": [
         {
