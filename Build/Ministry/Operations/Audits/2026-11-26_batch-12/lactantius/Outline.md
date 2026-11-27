@@ -10,7 +10,7 @@ Kind: person (`kinds/person.md`). Items S, E, I, D and Q-src are in `Source_Shee
 
 ## Length
 
-**About 4½ minutes: about 660 words**, at 150 a minute, inside the approved 675 and the kind kit's range (450 to 675). The record is rich in his own words, and the job carries a scene, a book with its method and its central claim, and a late life, each needing its explanation. Measured by the draft (Mark, 2026-11-27, "Batch 12: lengths measured by the draft"): the first draft ran 847 with items 1 to 13 out; items 14 to 24 take out 185 of its words, to about 662.
+**About 4½ minutes: about 660 words**, at 150 a minute, inside the approved 675 and the kind kit's range (450 to 675). The record is rich in his own words, and the job carries a scene, a book with its method and its central claim, and a late life, each needing its explanation. Measured by the draft (Mark, 2026-11-27, "Batch 12: lengths measured by the draft"): the first draft ran 847 with items 1 to 13 out; items 14 to 24 take out 185 of its words, to about 663.
 
 Count of what the story must carry (as planned before cuts, about 740):
 - Opening, with Quote 1 (40 words): about 70.
@@ -23,7 +23,7 @@ Count of what the story must carry (as planned before cuts, about 740):
 - Beat 6, need, the disputed book, Crispus: about 75.
 - What came 1 to 3: about 90.
 - Ending: about 30.
-The Cut first list (items 1 to 24) brings it to about 662, measured by the draft; the independent count (`Length_Count.md`) put it at 723 after items 1 to 8.
+The Cut first list (items 1 to 24) brings it to about 663, measured by the draft; the independent count (`Length_Count.md`) put it at 723 after items 1 to 8.
 
 ## Setting
 
@@ -38,7 +38,7 @@ The Cut first list (items 1 to 24) brings it to about 662, measured by the draft
 - **the Great Persecution / the edict:** an emperor's order. Eusebius: churches to be leveled, Scriptures burned, Christians of rank degraded, Christian household servants stripped of freedom (E1; EU 43487–43491). Say "an imperial order" with its content, once.
 - **governor:** for *praeses* (Q-src 1); Fletcher's "præfect" would mislead.
 - ***Divine Institutes*:** his own gloss: lawyers had written "Institutions" of the civil law to settle quarrels; he writes "divine Institutions" about hope, life, salvation, immortality and God (E7; AN 569; DI-L 262–265). Say: a title taken from the law handbooks, a full course in the things of God.
-- **Sibyls:** prophetesses whose verses the pagans kept (AN 700, as he reports the Roman scholar Varro). Only if the Sibyls stay in (Cut first 4).
+- **Sibyls:** prophetesses whose verses the pagans kept (AN 700, as he reports the Roman scholar Varro). Only if the Sibyls stay in (Cut first 1).
 - **a thousand-year reign:** after six thousand years, "righteousness reign for a thousand years" on earth (AN 6650). Say it in those plain terms.
 - Not glossed: bishop, Scripture, church, emperor, apostles.
 
@@ -72,7 +72,7 @@ The Cut first list (items 1 to 24) brings it to about 662, measured by the draft
 
 ## What came of him (heaviest first)
 
-1. **Jerome read and judged him** (I1). He wished Lactantius had been as ready to build up the faith as to tear down others' (JL 14112–14114; JLL 27050–27052; narrated, the census `legacy` quotes it). Yet he asked who could forbid him to read the Institutes, written against the pagans with much ability (JL 19203–19212). Documented as Jerome's.
+1. **Jerome read and judged him** (I1). He wished Lactantius had been as ready to build up the faith as to tear down others' (JL 14112–14114; JLL 27050–27052; narrated, the census `legacy` quotes it). Yet, he asked, who could forbid him, Jerome, to read the Institutes, written against the pagans with much ability? (JL 19209–19212). Documented as Jerome's.
 2. **DEFENDED: Lucifer of Cagliari carried his words against a Christian emperor** (I2). Exiled for refusing to condemn Athanasius (JE 41266–41271; if kept, gloss the quarrel as "the faith of the council of Nicaea, which Athanasius stood for"), Lucifer wrote to the emperor Constantius, Constantine's son (LU 15818–15820). You say the Arian teaching must be defended, he wrote; you defend it with the sword, but we know religion is defended not by killing but by dying for God (LU 16934–16942). These are Lactantius's own sentences, taken over without his name (DI-L3 35546–35550). Documented. *Why it matters to the people in it:* the words written against pagan persecutors were turned on Constantine's own son, an emperor of the church's own (the emperor's side, as Lucifer gives it: the Arian teaching "must be defended", LU 16934–16936). Arian: "the teaching of Arius, that there was a time when the Son did not exist" (Socrates, *Church History*, `npnf202_socrates-sozomen-ecclesiastical-histories.xml` 2096: "there was a time when the Son was not", Arius's words as Socrates reports them; old, a later witness; Documented as Socrates's); the live `lucifer-of-cagliari` gives the quarrel, so a short gloss only.
 3. **Augustine gathered his Sibyl testimonies** into one series in the *City of God*, where Lactantius had brought them in bit by bit (I3; AU 35552–35555; Documented). Card if cut.
 - To the card: the edicts kept in the disputed book (I4); the list later credited to Gelasius (I5); Calvin and the Reformers (I6); Augustine's gold of Egypt (I3).
@@ -90,7 +90,7 @@ Only Quotes 1 and 3 are spoken as quotes. Five short phrases of his own stand in
    - Job: the opening. What the persecution looked like to him, in his own eyes: torture as a contest the judges meant to win. It sets up the claim of Quote 3.
 2. ***Divine Institutes* I.1.8.** Latin (DI-L 207–209; DI-L3 5903–5905): "quae professio multo melior utilior gloriosior putanda est quam illa oratoria, in qua diu uersati non ad uirtutem, sed plane ad argutam malitiam iuuenes erudiebamus."
    - Rendering: **"This calling must be thought far better, more useful and more glorious than that of public speaking. We were long engaged in that, and we trained young men not in virtue, but plainly in clever wickedness."**
-   - Stands behind it: an original in a clean held print (Brandt 1890), a second scan agreeing; Fletcher's English printed 1886 (AN 556) confirms. *Oratoria* is the calling of the orator: "public speaking" keeps it plain. *Argutam malitiam* is "clever wickedness". "This calling" is the one named just before, to lead the learned to true wisdom and the unlearned to true religion; the narrator says so just before the quote (Beat 3).
+   - Stands behind it: an original in a clean held print (Brandt 1890), a second scan agreeing; Fletcher's English printed 1886 (AN 556) confirms. *Oratoria* is the calling of the orator: "public speaking" keeps it plain. *Argutam malitiam* is "clever wickedness". "This calling" is the one named just before, to lead the learned to true wisdom and the unlearned to true religion (AN 556; DI-L 191, 204–205); on the card, the aim goes with the quote.
    - Job: the teacher judging his own trade, in his own voice, at the turn from teaching speech to teaching the faith. Not spoken: card (Cut first 24).
 3. ***Divine Institutes* V.19.22** (chapter 20 in the English). Latin (DI-L 26240–26242; DI-L2 19163–19165): "defendenda enim religio est non occidendo sed moriendo, non saeuitia sed patientia, non scelere sed fide."
    - Rendering: **"For religion must be defended not by killing but by dying, not by cruelty but by endurance, not by crime but by faithfulness."**
@@ -136,7 +136,7 @@ What passed from him: a full Latin case for the faith, made to the educated from
 - **Lactantius** (old; his own time): the *Institutes* and *On the Workmanship of God*. Credited for the opening, Beats 1 to 5 and Beat 6's "greatest necessities". He is a party: his portraits of the two writers are his, told as his ("he says").
 - ***On the Deaths of the Persecutors*** (old; written after 313, as its own last events show, AN 10712; author disputed, D1). Credited only as "a book … under the name of a Lucius Caecilius" in Beat 6. The doubt is told inside that one sentence; it is not the story.
 - **Eusebius** (old; his own time): the edict (Beat 2).
-- **Jerome** (old; later in the same century, a generation or two after Lactantius): from Africa, the call, few pupils, Crispus, the poverty, the judgments. Most of the life outside his own books rests on Jerome: say so once, early, inside the sentence that brings Jerome in (Beat 1).
+- **Jerome** (old; later in the same century, a generation or two after Lactantius): from Africa, the verse journey, the book on persecution, Crispus, the poverty, the judgments. Most of the life outside his own books rests on Jerome: say so once, early, inside the sentence that brings Jerome in (Beat 1).
 - **Lucifer of Cagliari** (old; under Constantius): What came 2.
 - **Augustine** (old; later): What came 3.
 - **Brandt** (modern editor): clarifies an old text: his edition and apparatus, which found Lucifer's borrowing. Never named in the story.
@@ -155,9 +155,9 @@ What passed from him: a full Latin case for the faith, made to the educated from
 - "Hierocles" or "Porphyry" → "a judge who had pressed for the persecution", "a philosopher".
 - "Lactantius wrote On the Deaths of the Persecutors" → "a book … which survives in one copy under the name of a Lucius Caecilius; whether it is his is disputed".
 - "He dedicated the Institutes to Constantine" → leave out (card: "some copies open with an address to Constantine; whether he wrote it is disputed").
-- "the Christian Cicero" as a title → Jerome's comparison only, credited.
+- "the Christian Cicero", or Jerome's likening of him to Cicero → nothing; the comparison is on the card (Cut first 20). The ending's "the most eloquent man of his time" is Jerome's, credited.
 - "in 317", "at Trier", "he died about 325", "he died in poverty" → no year, no Trier, no death; Jerome's "in extreme old age … in Gaul".
-- "Crispus was executed for …" → no reason; Jerome gives none.
+- "Crispus was executed", or any word of his death → nothing; it is on the card (Cut first 23).
 - "the governor's victim was a Christian who gave in" → "one man … seemed at last to give way".
 - "Lucifer quoted Lactantius" → "Lucifer took over his words without naming him".
 - "the first to argue for freedom of religion", "the edict of Milan came from his idea" → nothing of the kind; no old source says it.
@@ -199,7 +199,7 @@ To bring it within the approved 675 (about 662 by the draft with items 1 to 24):
 11. What came 2: the exile clause ("Exiled for refusing to condemn Athanasius"), keeping "Lucifer, a bishop, wrote to the emperor Constantius, Constantine's son". Card. About 10. Kept, it would need the Athanasius quarrel explained, which costs more words (see m4).
 12. Beat 1: "he taught the art, but says he never pleaded a case himself" (AN 2487). Card. About 12.
 13. Beat 2: the philosopher dining better at home than at the palace (AN 4489), keeping "a philosopher who praised poverty" and his three books. Card. About 10.
-14. Beat 1: "Jerome puts it in Diocletian's reign" (JE 41035–41036), keeping "he was called there"; the essence already sets him in Diocletian's city. Leave out. 7 words by the draft.
+14. Beat 1: "Jerome puts it in Diocletian's reign" (JE 41035–41036), keeping "he was called there"; the essence already sets him in Diocletian's city. Leave out. 8 words by the draft.
 15. Beat 5: "In the book on justice he turns to the persecution itself", keeping the claim and Quote 3. Leave out. 11.
 16. Beat 5: the closing will sentence (AN 5158; DI-L 26247–26248), whose idea the essence ("it lives only in the will") and Beat 5 ("so that it is willing") already tell. Leave out. 21.
 17. Beat 6: the *Persecutors*' contents but the dream (the fall of the church at Nicomedia, the deaths of the emperors), keeping the dream clause the slate names. Card. 15.

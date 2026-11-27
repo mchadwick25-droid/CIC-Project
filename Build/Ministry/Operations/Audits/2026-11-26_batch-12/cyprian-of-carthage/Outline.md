@@ -19,11 +19,11 @@ Count of what the story must carry (as planned below, before cuts, about 990):
 - Beat 2, the charge, with the hireling glossed, both halves of Rome's letter, his answer and Pontius's defence: about 75.
 - Beat 3, the lapsed and Novatian in clauses, the confessors and the book, its images, the "mother" gloss and Quote 1 (26): about 100.
 - Beat 4, the plague, why he spoke, the disease, Quote 2 (55), Pontius credited: about 110.
-- Beat 5, the quarrel, with baptism and "outside the church" glossed, his rule, Stephen's rule as Cyprian copies it, Firmilian credited, the council, communion glossed and Quote 3 (51): about 175.
+- Beat 5, the quarrel, with baptism and "outside the church" glossed, his rule, Stephen's rule as Cyprian copies it, Firmilian credited, the council, communion glossed and Quote 3 (54): about 175.
 - Beat 6, the hearing of 257 with "I am a Christian and a bishop" (6), Curubis, the new order, the last letter, Pontius credited: about 80.
 - Beat 7, the night watch, the trial, the sentence in its own terms, "Thanks be to God" (4), the field, the cloth, the trees, the burial: about 115.
 - What came 1 (60), 2 (20) and 3 with the ending (55): about 135.
-Recount after every Cut first item (1–28), each beat drafted as lean as it can be told with its glosses, credits and quotes whole (Quote 1 is 26 words, Quote 2 55, Quote 3 51): opening 45; essence 80; Beat 1, 50; Beat 2, 95; Beat 3 with Quote 1, 100; Beat 4 with Quote 2, 85; Beat 5 with Quote 3, 180; Beat 6, 100; Beat 7, 70; What came 1, 70; What came 3 with the ending, 60. **Total about 940: about 265 past the approved 675.** The measuring draft, items 1–28 out, counts 1178; Cut first 29–44 take it to about 964, the ruled about 965. The plan is long because each part of the slate's job needs its explanation; the cuts take detail and side witnesses, never the explanations or the force.
+The measuring draft, with Cut first 1–28 out, counts 1178 words (`wc -w`). Cut first 29–44 take it to about 964, the ruled about 965. (Quote 1 is 26 words, Quote 2 is 55, Quote 3 is 54.) The plan is long because each part of the slate's job needs its explanation; the cuts take detail and side witnesses, never the explanations or the force.
 
 ## Setting
 
@@ -170,9 +170,8 @@ What passed from him: a rule and a voice. The rule, one church and one baptism, 
 - "He chose to stay in his gardens" or "by imperial order" → no reason given for his staying at the gardens (*ex sacro praecepto* is unclear; card).
 - "the first bishop of Africa to die a martyr" as fact → Pontius's claim, credited, if told (E12).
 - "Arles condemned Cyprian" → Arles ruled on the African practice; it names no one (LAUCH 2709).
-- "Augustine said Cyprian was a heretic" → Augustine said he held a different view on baptism and kept unity (AUG 11949).
+- "Augustine said Cyprian was a heretic" → Augustine told the Donatists to hold to his example of keeping unity (AUG 11416); his "different view on baptism" line is card (Cut first 38).
 - "a bishop laid hands on them" → "hands were laid on them for repentance".
-- "He was exiled for refusing to name his presbyters" → in the *Acts* he is sent to Curubis after he will not take part in the rites, and the question about his presbyters comes afterwards (KNOPF 4825–4840).
 - "beheaded" in the sentence → the sentence says "put to the sword" (*gladio*); the crowd's own word was beheaded.
 - No invented feelings: no fear, doubt or calm the record does not give.
 
@@ -192,7 +191,7 @@ What passed from him: a rule and a voice. The rule, one church and one baptism, 
 
 ## Cut first
 
-The count as planned is about 990; items 1–28, in order, bring it to about 940 (recount under Length). Items 29–44, by Mark's length ruling, bring the measuring draft (1178, items 1–28 out) to about 964.
+The count as planned is about 990. With items 1–28 out, the measuring draft runs 1178. Items 29–44, by Mark's length ruling, bring it to about 964.
 
 1. Beat 4: Pontius's line that he urged help for everyone, not only their own (about 20 words). **Card** (the `latin-pastoral` story tells Pontius's plague passage).
 2. Beat 5: Firmilian's report that Stephen would not speak with the African envoys, keeping "a false Christ" (about 15). **Card.**
@@ -219,7 +218,7 @@ The count as planned is about 990; items 1–28, in order, bring it to about 940
 23. Beat 3: the tree and branch image (about 25). The mother image before Quote 1 stays. **Card.**
 24. Beat 4: Pontius's line on people fleeing the sick (about 18). **Card.**
 25. Beat 5: "Cyprian called the letter proud", Firmilian's whole report, "each bishop then gave his view in turn", and the no-settlement line (about 45). **Card.**
-26. Beat 6: the new order of 258 and Utica, cut to "In 258, back at his gardens, he learned he was to be taken from the city" (saves about 30); the last letter's reason stays. **Card.**
+26. Beat 6: the new order of 258 and Utica, cut to "In 258, at his gardens, he learned he was to be taken from the city" (saves about 30); the last letter's reason stays. **Card.**
 27. Beat 7: the governor's first question and answer, the crowd's cry, the kneeling and the tunic, and the burial by night (about 60). The refusal ("I will not"), the sentence in its own terms, "Thanks be to God", and the cloth tied by the two Julians stay. **Card.**
 28. What came 1: cut to the Donatists' use and Augustine's answer at AUG 11416 (about 20; its clause for AUG 11949 goes to the card under item 38). **Card.**
 

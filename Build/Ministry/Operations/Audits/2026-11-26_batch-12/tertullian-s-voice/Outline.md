@@ -17,8 +17,8 @@ Count of what the story must carry (as planned before cuts, about 745):
 - Essence: about 75.
 - Beat 1, the Apology: about 45.
 - Beat 2, the Prescription, with the law-court plea glossed and Quote 2 (34): about 95.
-- Beat 3, the turn, with the Paraclete, the "psychics" and two witnesses credited: about 95.
-- Beat 4, Against Praxeas, with substance and person glossed and Quote 3 (50): about 120.
+- Beats 3 and 4, the turn and the parting, with the Paraclete, the "psychics" and two witnesses credited: about 95.
+- Beat 5, Against Praxeas, with substance and person glossed and Quote 3 (50): about 120.
 - What came 1 to 3, with Jerome's chain and "Give me the master" (3): about 130.
 - Ending: about 30.
 The Cut first list brings it to about 650.
@@ -43,7 +43,7 @@ The Cut first list brings it to about 650.
 - **person (*persona*):** how the Son is "another" than the Father: a distinction, not a division (E10; KRO 12559–12560). Its modern sense, a separate human being, would mislead: give the plain sense beside Quote 3.
 - **Trinity (*trinitas*):** a grown listener knows it; say once that the Latin word stands in his text (E10; KRO 11802).
 - **second marriage:** marrying again after a husband or wife had died (E7, E8).
-- **Catholic** (Augustine): "the main church" (I5).
+- **Catholic** (Optatus): "the main church" (I7).
 
 ## Shape
 
@@ -71,8 +71,9 @@ The Cut first list brings it to about 650.
 
 1. **The Apology.** His case: the governors hated the very name of Christian without knowing what it was, and hatred of a thing unknown is unjust (E1; ANF3 1472–1476; Documented). Those who came to know it, he said, laid down their hatred and became its followers (ANF3 1488–1490). He too had once laughed at these teachings, he told them, since no one is born a Christian (S7; ANF3 2710–2712; OEH1 18939–18940; Documented). Why the crowd cried out: they blamed the Christians for every disaster (E2; ANF3 3995–3997). Confidence: Documented, his own book.
 2. **The Prescription.** Teachers he called heretics, among them Marcion and Valentinus, argued from Scripture (E4, E5; ANF3 20755–20756, 21744–21746). He answered with a plea from the law courts that throws a case out before it is argued: first settle whose the Scriptures are (S6, E4; ANF3 20759–20768, 20860–20866). The faith passed from Christ to the apostles, and from them to the churches they founded (E4; ANF3 20938–20941). A heretic, he said, teaches a faith of his own choosing, and so has no right to the Scriptures (ANF3 21730–21734, 21740–21742). Then Quote 2. Explain it: the heretics' side is known here only from his book; give it in its own content, that they argued from the Scriptures (ANF3 20755–20756). Confidence: Documented as his argument; no year.
-3. **The turn.** He came to believe that the Paraclete, the Holy Spirit, "the guide into all truth" in his phrase, was speaking anew through prophets in Phrygia (E6; KRO 11732–11733, 11770–11771; Documented). Their rule was stricter than the church's: one marriage only, harder fasts, and no flight from persecution (E7; ANF4 5731–5733, 9760–9765, 11455–11457; Documented; one clause). Later, he wrote, his side's acceptance and defense of the Paraclete parted it from the rest, whom he called the "psychics", the merely natural (E6; ANF3 51074–51076; KRO 11745–11746; Documented as his words). From whom he parted is read differently (D4): tell only his words. Why he turned, two later writers differ, and the story credits each (E8, D1; Contested): Jerome says the envy and insults of the clergy at Rome drove him to it (JER 40506–40509; JERL 55627–55629); Augustine says he went over to the Phrygians, whom he had once refuted, and began to condemn second marriage as fornication (AUG 2868–2872). No years: Monceaux's are his own.
-4. **Against Praxeas.** Praxeas, by Tertullian's account, taught that the Father himself came down into the Virgin, was born and suffered (E9; ANF3 51010–51016; KRO 11692–11693). Tertullian also says Praxeas pressed the bishop of Rome to withdraw his peace from the new prophets (ANF3 51046–51053; KRO 11732–11736): so, he says, Praxeas drove out prophecy and crucified the Father (ANF3 51054–51057; told in narration, not quoted). Why Tertullian wrote: to answer that teaching (E9). His answer: the one God has a Son, his Word (ANF3 51101–51102; KRO 11772–11773). God said "Let there be light", and the Word appeared; God spoke, and through the Word the rest was made; so there is one who commands and another who makes (E10; ANF3 51876–51894; KRO 12546–12558). Then Quote 3, with the plain sense of substance and person beside it. The Latin words *trinitas*, *persona* and *substantia* stand in this book (E10; KRO 11802, 12559, 12561; Documented). He wrote it after his turn: he says the Paraclete had taught him better (ANF3 51098–51099; KRO 11770; Documented).
+3. **The turn.** He came to believe that the Paraclete, the Holy Spirit, "the guide into all truth" in his phrase, was speaking anew through prophets in Phrygia (E6; KRO 11732–11733, 11770–11771; Documented). Their rule was stricter than the church's: one marriage only, harder fasts, and no flight from persecution (E7; ANF4 5731–5733, 9760–9765, 11455–11457; Documented; one clause). Why he turned, two later writers differ, and the story credits each (E8, D1; Contested): Jerome says the envy and insults of the clergy at Rome drove him to it (JER 40506–40509; JERL 55627–55629); Augustine says he went over to the Phrygians, whom he had once refuted, and began to condemn second marriage as fornication (AUG 2868–2872). No years: Monceaux's are his own.
+4. **The parting.** Later, he wrote, his side's acceptance and defense of the Paraclete parted it from the rest, whom he called the "psychics", the merely natural (E6; ANF3 51074–51076; KRO 11745–11746, "postea"; Documented as his words). From whom he parted is read differently (D4): tell only his words. No year.
+5. **Against Praxeas.** Praxeas, by Tertullian's account, taught that the Father himself came down into the Virgin, was born and suffered (E9; ANF3 51010–51016; KRO 11692–11693). Tertullian also says Praxeas pressed the bishop of Rome to withdraw his peace from the new prophets (ANF3 51046–51053; KRO 11732–11736): so, he says, Praxeas drove out prophecy and crucified the Father (ANF3 51054–51057; told in narration, not quoted). Why Tertullian wrote: to answer that teaching (E9). His answer: the one God has a Son, his Word (ANF3 51101–51102; KRO 11772–11773). God said "Let there be light", and the Word appeared; God spoke, and through the Word the rest was made; so there is one who commands and another who makes (E10; ANF3 51876–51894; KRO 12546–12558). Then Quote 3, with the plain sense of substance and person beside it. The Latin words *trinitas*, *persona* and *substantia* stand in this book (E10; KRO 11802, 12559, 12561; Documented). He wrote it after his turn: he says the Paraclete had taught him better (ANF3 51098–51099; KRO 11770; Documented).
 
 ## What came of him (heaviest first)
 
@@ -105,17 +106,17 @@ Each rendered by me. Only these three are spoken as quotes. Two short phrases of
 ## Names
 
 - Tertullian: acts. Census "Tertullian"; "Tertullian of Carthage" once.
-- Praxeas: acts (Beat 4). Not a person entry; the `modalist-monarchianism` tradition names him.
+- Praxeas: acts (Beat 5). Not a person entry; the `modalist-monarchianism` tradition names him.
 - Marcion of Pontus: link (Beat 2). Say "Marcion".
 - Valentinus: link (Beat 2).
 - Eusebius of Caesarea: link, witness (the essence). Say "Eusebius".
 - Jerome: link, witness (Beat 3, What came 1 to 3).
-- Augustine of Hippo: link, witness (Beat 3, What came 3 and 4). Say "Augustine".
+- Augustine of Hippo: link, witness (Beat 3, What came 3). Say "Augustine".
 - Cyprian of Carthage: link (What came 1). Say "Cyprian".
 - Novatian: link (What came 2), a presbyter of Rome (JER 40887); use it if he is named. First to go if names run long.
 - Vincent of Lérins: link, witness (the essence). Say "Vincent of Lérins" once.
 - Optatus: witness, by name or as "an African bishop" (What came 3).
-- By role: the governors, the bishop of Rome, a bishop, the prophets in Phrygia, an old man of Italy (Paul of Concordia), Cyprian's secretary. Montanus, Prisca and Maximilla are not named: the `montanism-the-new-prophecy` story names them.
+- By role: the governors, the bishop of Rome, the prophets in Phrygia, an old man of Italy (Paul of Concordia), Cyprian's secretary. Montanus, Prisca and Maximilla are not named: the `montanism-the-new-prophecy` story names them.
 
 ## Connection to carry into the story
 
@@ -139,7 +140,7 @@ This comes through the acts above, never a sentence saying why he matters.
 - `cyprian-of-carthage`: read daily by him; called "the master".
 - `novatian`: kept in summary, by Jerome's account.
 - `jerome`: wrote his short life; judged him.
-- `augustine-of-hippo`: told of his followers' end; named him a heretic.
+- `augustine-of-hippo`: named him a heretic; his followers' end is card.
 - `eusebius-of-caesarea`: called him versed in Roman law; quoted the Apology in Greek (not told).
 - `lactantius`: judged his style (told there).
 - `hilary-of-poitiers`: judged his later error, as Vincent quotes him (card).
@@ -161,15 +162,15 @@ This comes through the acts above, never a sentence saying why he matters.
 
 - "A lawyer", "an advocate" or "trained as an advocate" as fact. Say Eusebius calls him well versed in Roman law (S5, D3).
 - "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5). It is a ranking, so credit it the first time it is heard, to Vincent of Lérins, writing about two centuries later (VIN 13555–13557). Never say Jerome ranks him first: Jerome's Latin places him in his list after Victor and Apollonius (JERL 55610–55613); Richardson's "regarded as chief" (JER 40495) is the translator's.
-- "In 197" or any year but "around the year 200"; no year for the Prescription, the turn, Against Praxeas or On Modesty (S2, D6).
+- "In 197" or any year but "around the year 200"; no year for the Prescription, the turn or Against Praxeas (S2, D6).
 - "His last book" (E11).
-- "Then", "a few years later" or any word of time that puts the Prescription before or after another book: its place rests on Monceaux alone (E4, D6). The turn, Against Praxeas and On Modesty may be told as after the Apology and the Prescription only in the way his own words show: Against Praxeas and On Modesty speak of the Paraclete and the new prophets (E9, E11).
+- "Then", "a few years later" or any word of time that puts the Prescription before or after another book: its place rests on Monceaux alone (E4, D6). The turn and Against Praxeas may be told as after the Apology and the Prescription only in the way his own words show: Against Praxeas speaks of the Paraclete and the new prophets (E9).
 - "The Christians to the lions": the Latin is singular, "the lion" (E2).
 - "The blood of the martyrs is the seed of the church" (E3).
 - "He invented the words Trinity, person and substance", "he coined them", or "the first to call God a Trinity". Say the Latin words stand in his text (E10). The Greek word for a triad is older (E10).
 - "The Latin church took its words for God from him" as the narrator's claim: no held old source says it (E10).
 - "The Council of Nicaea used his words": no held source says it.
-- "Praxeas taught that the Father died on the cross" as fact: credit Tertullian, "by his account" (E9). Do not call Praxeas a bishop, and do not name the bishop of Rome or the bishop of the edict (E9, E11).
+- "Praxeas taught that the Father died on the cross" as fact: credit Tertullian, "by his account" (E9). Do not call Praxeas a bishop, and do not name the bishop of Rome (E9).
 - "He wrote Against Praxeas as a loyal son of the church": he wrote it after the turn (E9).
 - "He left the church at Carthage" or "he was expelled", "excommunicated", "condemned by a council": no held source records it (D4, I4).
 - "Never made a saint": no held source says it (I4).
@@ -209,20 +210,20 @@ In order, to bring about 745 words to about 650:
 
 1. Beat 1's sentence that he had once laughed at the faith himself (about 20 words). **Card.**
 2. Quote 3's last sentence, "Yet the meaning forces me …" (about 17 words); keep the narrator's line before it that there is one who commands and another who makes. **Card** (with the full rendering).
-3. Beat 4's clause on Praxeas and the bishop of Rome's peace with the new prophets (about 30 words). **Card.**
+3. Beat 5's clause on Praxeas and the bishop of Rome's peace with the new prophets (about 30 words). **Card.**
 4. What came 2, Novatian, to half a clause inside What came 1, or out (about 20 words). **Card.**
-5. Beat 2's list of churches: keep Ephesus and Rome, drop Corinth and Philippi (about 5 words). **Card.**
+5. Beat 2's churches by name, Corinth and Philippi (about 5 words); with 14, none is named. **Card.**
 6. If still long: Beat 3's clause on the stricter rules (about 15 words). **Leave out** (the `montanism-the-new-prophecy` story tells it).
 7. Beat 1's sentence that those who came to know it laid down their hatred (ANF3 1488–1490, about 15 words). **Card.**
 8. What came 3's Augustine line that his short works, "most eloquently written", are still read (about 15 words). **Card.**
 
 Measured by the draft (810 words with 1 to 8 out), to bring it under 675 (moved out of the beats; saving by the draft in brackets):
 
-9. Beat 5, On Modesty, whole: the bishop's edict, the Paraclete's saying that the church could forgive but would not, and the church of the Spirit against the bishops as a body (E11; ANF4 7178–7189, 9468–9473, 9543–9545; CSEL20 12495–12499, 15213–15214, 15312–15314) [76]. **Card.**
+9. On Modesty, whole (the former Beat 5): the bishop's edict, the Paraclete's saying that the church could forgive but would not, and the church of the Spirit against the bishops as a body (E11; ANF4 7178–7189, 9468–9473, 9543–9545; CSEL20 12495–12499, 15213–15214, 15312–15314) [76]. **Card.**
 10. What came 4, whole: Augustine's report that he broke from the New Prophecy too and gathered followers of his own, and the Tertullianists' dwindling at Carthage until the few left joined the main church and handed over their building (E8, I5; AUG 2829–2835, 2872–2873) [38]. **Card.**
 11. The opening's and Beat 1's reason the courts were closed to a defense, recent harsh private trials (E1; ANF3 1455–1459) [11]. **Card.**
-12. Beat 4's "brought to Rome from Asia" for Praxeas (ANF3 51038–51041; KRO 11727–11729) [7]. **Card.**
-13. Beat 4's "and was himself Jesus Christ" (ANF3 51010–51016; KRO 11692–11693) [5]. **Card.**
+12. Beat 5's "brought to Rome from Asia" for Praxeas (ANF3 51038–51041; KRO 11727–11729) [7]. **Card.**
+13. Beat 5's "and was himself Jesus Christ" (ANF3 51010–51016; KRO 11692–11693) [5]. **Card.**
 14. Beat 2's last two churches, Ephesus and Rome, with cut 5's Corinth and Philippi: the churches the apostles founded stay unnamed (ANF3 21657–21676) [5]. **Card.**
 
 Never cut: the crowd's cry and Quote 1 (the opening), the gloss of the Prescription, the plain sense of substance and person, the two witnesses on the turn, Augustine's and Jerome's verdicts, and Optatus.
