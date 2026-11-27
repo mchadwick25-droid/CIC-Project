@@ -59,4 +59,4 @@ The second trust read's note (Tertullian and Irenaeus do not agree on the time o
 
 ## What follows
 
-Make the trust change. Make the craft pass, A and B. Apply MINORs 1, 4 and 7 word for word. Then a trust check of the five changed sentences, chiefly MINOR 4 against KR 9663–9666, and make the three source fixes in `Outline.md` named above. After that the brief goes on to the card. It is not yet one of the batch's first two to pass step 5 unless Mark's count says so.
+Make the trust change. Make the craft pass, A and B. Apply MINORs 1, 4 and 7 word for word. Then a trust check of the five changed sentences, chiefly MINOR 4 against KR 9663–9666, and make the three source fixes in `Outline.md` named above. After that the brief goes on to the card.
