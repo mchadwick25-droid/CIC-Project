@@ -7,12 +7,12 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - **Also told:** what he was looking for (God, which he held to be philosophy's work, AR 92-94), how he says he found it (AR 139-180, 399-435; R2 368-370), what he taught at Rome and to whom (GEB 1346-1353, 1386-1388), what the petition asked (R1 93-101, 124-126, 141-145), the one idea, the Word, and the question it answered (R1 1226-1233; R2 332-339), and the stand before the prefect (GEB 1309-1442). Documented as his own account; the trial in the account's own words.
   - **What came of him:** his books were kept and used against rival teachers, from Irenaeus and Tertullian to Eusebius and Theodoret (I1); *defended: the one God who made the world, against Marcion; the church's teaching against the heresies.* His name, philosopher and martyr, and the account of his trial were kept (I2). A hearer, Tatian (I3). Documented.
 
-- **Length:** about 670 words, about 4 and a half minutes at 150 a minute, within the approved 675. Cut first items 1-29 are all applied. The writer's draft with items 1-12 out ran 879 words (`justin-martyr.brief.txt`); items 13-29, cut at the outline with that draft in hand, take it to 672 (`Fixes_Length.md`; `Recheck_Length.md`). The count the story must carry: three quotes, 133 words; plain senses (the Word as word and reason, the cloak, the petition, godless, prefect, Cynic, the schools, sacrifice), about 60; credited witnesses (Justin's own telling, the trial account by an unknown writer, Tatian and Eusebius on Crescens, Irenaeus, Tertullian), about 40. Before any cut it would run to about 960.
+- **Length:** about 670 words, about 4 and a half minutes at 150 a minute, within the approved 675. Cut first items 1-41 are all applied. The writer's draft with items 1-12 out ran 879 words; items 13-29 were cut at the outline with that draft in hand (`Fixes_Length_1.md`; `Recheck_Length_1.md`). The redraft with items 1-29 out ran 746 (`justin-martyr.brief.txt`); items 30-41, cut with that draft in hand, take it to 673 (`Fixes_Length.md`). The count the story must carry: three quotes, 133 words; plain senses (the Word as word and reason, the cloak, the petition, godless, prefect, Cynic, the schools, sacrifice), about 60; credited witnesses (Justin's own telling, the trial account by an unknown writer, Tatian on Crescens, Irenaeus, Tertullian), about 30. Before any cut it would run to about 960.
 
 - **Setting:**
   - Time: the reign of Antoninus Pius, to whom the petition is addressed (R1 68-71), "a hundred and fifty years" after Christ's birth by his own count (R1 1227); Jerome's Chronicle puts the book in Antoninus's fourth year (JCH 42754-42757). The old sources differ, so no year. His death: under Rusticus, prefect of Rome (GEB 1304-1306); the old sources differ on the emperor (D2) and the year rests on modern reckoning. Spoken: "in the middle of the second century", "under the emperor Antoninus Pius", "later".
   - Place: his family were "from Flavia Neapolis in Syria Palaestina" (R1 73-74); he calls the Samaritans "my people" (AR 5691). He taught at Rome (GEB 1349-1353). Spoken: "Rome". His family's town goes to the card (Cut first 14).
-  - Tradition: the census's "The Second-Century Greek Apologists". Spoken: "the Christians who wrote defenses of their faith, in Greek, to the emperors".
+  - Tradition: the census's "The Second-Century Greek Apologists". Card only (Cut first 30): the story does not name it.
   - The danger: being a Christian was itself the charge (R1 141-145; R2 136-158; S4).
 
 - **Words to explain:**
@@ -59,15 +59,15 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   3. **The trial account II.3**, rendered from Otto's text as Gebhardt prints it (GEB 1315-1317, OCR, "x&v μ᾽" read κἂν μή), which Franchi's text confirms word for word (KK 1631-1632, damaged OCR); Dods's English, 1885, ANF1 29276-29278.
      "I tried to learn every teaching. But I gave my agreement to the true teachings, those of the Christians, even if they do not please people who hold false beliefs."
      Job: the stand, and the search of beat 1 answered in the record's words. Beat 7. (The account's other exchange, "Do you suppose…", is the old live story's quote and is not used.)
-  Every other short span in the beats ("the words of truth", "or perhaps by Crescens", "according to the laws", "you can kill us, but you cannot harm us", the greeting "Philosopher") is a sense for the narrator's words, not a further quote.
+  Every other short span in the beats ("or perhaps by Crescens", "according to the laws", "you can kill us, but you cannot harm us", the greeting "Philosopher") is a sense for the narrator's words, not a further quote.
 
 - **Names** (census spelling):
-  - Justin (acts). Antoninus Pius (acts: the petition's addressee). Trypho (acts: the opening and beat 1). Socrates, Heraclitus, Abraham and Elijah: card (Cut first 18). Crescens (acts). Rusticus (acts). Euelpistus (acts; optional, may be "an imperial slave"). Tatian (link). Irenaeus of Lyon (link). Marcion of Pontus (link, by name in one clause). Tertullian (link). Eusebius of Caesarea (link; may be "a church historian" if names run long). Theodoret of Cyrrhus (link; optional, Cut first). Jerome (link; card only if Cut first 10 applies). Socrates of Athens, the philosopher, not on the tree (not `socrates-of-constantinople`). Ptolemaeus, Lucius, Urbicus, Chariton, Charito, Hierax, Paeon, Liberianus: by role.
-  - More than six names: Antoninus Pius, Trypho, Crescens and Rusticus act in scenes; the links carry What came of him. Theodoret and Eusebius are the first to go to roles.
+  - Justin (acts). Antoninus Pius (acts: the petition's addressee). Trypho (acts: the opening and beat 1). Socrates, Heraclitus, Abraham and Elijah: card (Cut first 18). Crescens (acts). Rusticus (acts). Euelpistus (acts; optional, may be "an imperial slave"). Tatian (link). Irenaeus of Lyon (link). Marcion of Pontus (link, by name in one clause). Tertullian (link). Eusebius of Caesarea: card (Cut first 10, 11, 31). Theodoret of Cyrrhus (link; optional, Cut first). Jerome (link; card only if Cut first 10 applies). Socrates of Athens, the philosopher, not on the tree (not `socrates-of-constantinople`). Ptolemaeus, Lucius, Urbicus, Chariton, Charito, Hierax, Paeon, Liberianus: by role.
+  - More than six names: Antoninus Pius, Trypho, Crescens and Rusticus act in scenes; the links carry What came of him. Theodoret and Eusebius are on the card.
 
 - **Connection to carry into the story:** Justin's writings, above all his lost books against Marcion and against all the heresies, passed to the church's later teachers, who used them against rival teaching. What the listener must understand, in order:
-  1. What he left: books, kept and read after his death; he had also written against all the heresies and against Marcion (R1 743-745; ANF1 44907-44917).
-  2. Who took it up: Irenaeus quoted his book against Marcion to argue that the God who made the world is the Father of Jesus (ANF1 44907-44917); Tertullian named him among the writers against the heresy-founders (TERT 9705-9709); Theodoret, three centuries on, still named him among his sources against the old heresies (THD 27072-27075).
+  1. What he left: books, kept and read after his death, among them one against Marcion (ANF1 44907-44917). His book against all the heresies (R1 743-745) is on the card (Cut first 33).
+  2. Who took it up: Irenaeus quoted his book against Marcion to argue that the God who made the world is the Father of Jesus (ANF1 44907-44917). Tertullian's naming him among the writers against the heresy-founders (TERT 9705-9709) and Theodoret's (THD 27072-27075) are on the card (Cut first 2, 32).
   3. What he defended: the one God who made the world; his own words against Marcion's "other god, greater than the maker" (R1 729-731) stay narrated, since that line is quoted in `marcion-of-pontus`.
   4. And a hearer: Irenaeus says Tatian heard him (ANF1 33663-33664). One clause, no more; no place or school.
   Carry it through what each later writer did with his books, never a "this mattered because" sentence.
@@ -93,9 +93,9 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - **Justin himself** (old, own time): the First and Second Apology and the Dialogue. His search, the old man and his turn are his own telling in a written dialogue; the story says so once, early, in a clause ("he tells it himself"). Credited beside: the search, the old man, the turn, the second reason, the Crescens quarrel.
   - **Trypho**, inside Justin's Dialogue (old, own time, through Justin's pen): credited beside the laugh and the advice to stay with Plato.
   - **The trial account** (old, later; author and date unknown). Credited once, at beat 7: "the account of his trial, by a writer we do not know". Credited beside: the Rome lodging, the trial's words and the sentence. Modern marks, card only: Dods, translator (ANF1 29217-29220), nothing known of date or author; McGiffert, editor (EUS 23769-23770), probably third century; Delehaye, modern (5009-5010), its writer had a witness's record. Each clarifies the witness; none is told.
-  - **Tatian** (old, contemporary; Crescens's enemy and Justin's hearer): credited beside Crescens's attempt on both their lives.
-  - **Eusebius** (old, about 150 years later): credited beside the cloak line, the works still read, and the claim that Crescens's plot brought the death.
-  - **Irenaeus, Tertullian, Theodoret** (old, later): each credited beside his own line in What came of him; Theodoret only at Ending 2, since Cut first 2 applies. **Hippolytus** (old, later): card only (HIP 17423).
+  - **Tatian** (old, contemporary; Crescens's enemy and Justin's hearer): credited beside Crescens's attempt on both their lives, by name only (Cut first 37).
+  - **Eusebius** (old, about 150 years later): card only (Cut first 10, 11, 31): the cloak line, the works still read, and the claim that Crescens's plot brought the death.
+  - **Irenaeus, Tertullian, Theodoret** (old, later): Irenaeus credited beside his use of the book against Marcion and Tatian his hearer; Tertullian only at the ending (Cut first 32); Theodoret only at Ending 2, since Cut first 2 applies. **Hippolytus** (old, later): card only (HIP 17423).
   - **Jerome** (old, 392): credited beside his discussions at Rome (JVI 52490-52491); card if Cut first 10 applies.
   - **McGiffert** (modern editor): clarifies the town's place and the Rusticus dating; makes claims of his own on the year and on one apology or two. Card only, never told.
   - The doubt is not the story.
@@ -106,7 +106,7 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - "The baths of Martinus" / "Martinus's house." The names are corrupt (KK 1671). Say "above a bath-house".
   - Any year for his death, "about 165", or "under Marcus Aurelius" as fact. Say "later", "under Rusticus, the prefect of Rome". Never "under Hadrian".
   - Any year for the petition. Say "under Antoninus Pius".
-  - "Crescens had him killed" / "betrayed him" / "brought the charge." Say: Justin expected Crescens, or others, to plot his death; Tatian says Crescens tried to bring death on them both; Eusebius, much later, says it was Crescens's plot; the account of the trial does not name him.
+  - "Crescens had him killed" / "betrayed him" / "brought the charge." Say: Justin expected Crescens, or others, to plot his death; Tatian says Crescens tried to bring death on them both. Eusebius's later claim that it was Crescens's plot is on the card (Cut first 31); the account of the trial does not name him.
   - "Socrates was a Christian" in the narrator's voice. Socrates is on the card (Cut first 18); the story says only what Quote 2 says.
   - "Tertullian (or Theodoret) put him first" / "the foremost writer against heresies." "First" is only list order (TERT 9708; THD 27074). Say "named him among".
   - "Atheists." Say "godless".
@@ -144,7 +144,7 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   - Methodius's line, Photius's reading, Jerome's Chronicle and Lives, Hippolytus's "Justin the martyr" (HIP 17423), the 1922 missionary: card.
   - Any claim about versions of the trial account.
 
-- **Cut first** (in order, from about 960 words before any cut; each item is applied as written, and all of items 1-29 are applied):
+- **Cut first** (in order, from about 960 words before any cut; each item is applied as written, and all of items 1-41 are applied):
   1. Trypho's laugh and his advice to stay with Plato, in beat 1 (about 25). Card.
   2. Theodoret in What came of him (about 20). Card; if Ending 2 is chosen he stays there only.
   3. "You can kill us, but you cannot harm us", in beat 3 (about 12). Leave out.
@@ -160,7 +160,7 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   10. Beat 2 as a beat: Eusebius's 'in a philosopher's guise he preached the divine word' and Jerome's discussions at Rome (about 34). Card. Rome stays in the essence and beat 7; the cloak stays in the essence.
   11. Eusebius's 'many of his works still in the hands of many' in What came of it 1 (about 17). Card.
   12. In beat 6, 'and a third after them' and 'Socrates had been charged with the same things as the Christians' (about 22). Card.
-  The draft with items 1-12 out ran 879 words, over the approved 675. Items 13-26 were cut with that draft in hand (`Fixes_Length.md`); words saved are counted by the draft.
+  The draft with items 1-12 out ran 879 words, over the approved 675. Items 13-29 were cut with that draft in hand (`Fixes_Length_1.md`; `Recheck_Length_1.md`); words saved are counted by the draft.
   13. Opening 1 cut to three sentences: the man's friends, his teacher at Argos and the war Trypho fled go (saves about 22 by the draft). Leave out. The essence says "kept the cloak"; beat 1 names Trypho without "a Jew", since the opening says it.
   14. His family's town, a Roman town in the province of Palestine, in beat 3 (about 12). Card.
   15. Beat 3: on behalf of people of every nation unjustly hated, himself among them, and "his sons and the Senate"; say "to the emperor" (about 17). Card.
@@ -178,8 +178,21 @@ Kind: person (`kinds/person.md`). Census id `justin-martyr`, told within `greek-
   27. Beat 1: the Dialogue's clause in item 7 shortened to "his written argument with Trypho over the prophets" (E5; AR 6603-6607; EUS 24330-24332) (about 5). Leave out.
   28. Beat 4: that Christ was born, by his count, only a hundred and fifty years earlier (R1 1226-1227) (about 11). Card. The question stays: what of everyone who lived before Christ.
   29. Beat 3: the emperor named once, "He wrote a petition, a formal written defense, to the emperor Antoninus Pius" (R1 68-71) (about 3). Leave out.
-  About 670 words, about 4 and a half minutes. Items 1-29 are all applied for the approved length of 675.
-  Never cut: the three quotes, the gloss of logos, the name punished in beat 3, the teacher led away for the name, the reason for the trial and the sentence, the reason for the arrest (GEB 1300-1306), Justin's and Tatian's sides of the Crescens quarrel.
+  The redraft with items 1-29 out ran 746 words, over the approved 675. Items 30-41 were cut with that draft in hand (`Fixes_Length.md`); words saved are counted by that draft.
+  30. Beat 3: the tradition clause, "like other Christians who defended their faith in Greek to the emperors" (about 12). Card. Beat 3 opens "He sent a petition, a formal written defense, to the emperor Antoninus Pius".
+  31. Beat 6: Eusebius's later claim that Crescens's plot brought Justin's death (EUS 23748-23799; D1) (about 10). Card. Justin's expectation and Tatian's charge stay; the story makes no claim on what caused the death.
+  32. What came of it 1: Tertullian's naming him among those who set out the heresy-founders' teachings and refuted them (TERT 9705-9709) (about 14). Card. Tertullian stays at the ending.
+  33. What came of it 1: his book against all the heresies (R1 743-745); say "among his books was one against Marcion of Pontus" (about 7). Card.
+  34. What came of it 1: "in Justin's day" in the clause on Marcion's teaching (about 3). Leave out. The gloss of Marcion's higher god above the world's maker stays.
+  35. Beat 3: the name punished is not said again, since the essence says it; beat 3 gives it as the contrast, a man who denied the name went free while one who confessed it was punished (R1 141-145) (about 6). Leave out.
+  36. Beat 7: the trial account is credited once, where the arrest is told; Quote 3 is not credited a second time (about 3). Leave out.
+  37. Beat 6: "who lived then" beside Tatian (about 3). Leave out.
+  38. Opening 1: "the man said"; the opening is in Justin's telling ("Justin writes") (about 3). Leave out.
+  39. Beat 1: that the prophets were far older than the philosophers (AR 399-403) (about 5). Card. The old man, the prophets, and that they alone saw and spoke the truth stay.
+  40. Beat 1: "gentle, dignified" for the old man (about 2). Leave out.
+  41. Beat 7: "the words of truth"; say he lodged above a bath-house and taught anyone who came (GEB 1351-1353) (about 5). Leave out.
+  About 673 words, about 4 and a half minutes. Items 1-41 are all applied for the approved length of 675.
+  Never cut: the three quotes, the gloss of logos, the name punished (in the essence, and in beat 3 as the denier freed and the confessor punished), the teacher led away for the name, the reason for the trial and the sentence, the reason for the arrest (GEB 1300-1306), Justin's and Tatian's sides of the Crescens quarrel.
 
 ## Approved heart and length
 

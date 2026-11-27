@@ -46,4 +46,4 @@ Applied to `Outline.md` only, from the findings `Review.md` marks "needs the out
 - The pass did not ask for these, so they are not touched:
   - B3 and B7 are changes to the brief only.
   - MINOR 3 and MINOR 6 are brief or reviser items.
-- Noticed but not changed, because it is outside this pass. The outline calls Alexander Clement's "pupil" in Shape (line 27), Connection (line 56) and Who tells it (line 64). Eusebius calls Pantaenus and Clement only Alexander's "familiar acquaintances" (EUS 34328-34331). The pupil reading is McGiffert's inference (EUS note 1879, after line 34356), as B10 notes. Raised for the next check.
+- Noticed but not changed, because it is outside this pass. The outline calls Alexander Clement's "pupil" in Shape (line 28), Connection (line 56) and Who tells it (line 64). Eusebius calls Pantaenus and Clement only Alexander's "familiar acquaintances" (EUS 34328-34331). The pupil reading is McGiffert's inference (EUS note 1879, after line 34356), as B10 notes. Raised for the next check.
