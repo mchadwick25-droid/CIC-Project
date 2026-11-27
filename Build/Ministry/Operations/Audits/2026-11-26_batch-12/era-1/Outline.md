@@ -12,7 +12,7 @@ Kind: era (`kinds/era.md`). Every line points to `Source_Sheet.md` (row ids) and
 
 ## Length
 
-About **3 minutes 20 seconds, about 500 words** (proposed; Mark rules on it with the heart). The story must carry: two quotes (35 words; Quote 2 is the card's); the plain sense of the words to explain; the witnesses it credits, Josephus, Eusebius, Tertullian, the bishop of Alexandria and the historians' picture. Recounted after the outline check's fixes, at tight narration: about 690 words as the outline now stands, and about 620 after its whole Cut first list. That is past the approved 525. The rest is the heart (each item in at least a clause) and the Never cut list; under the ruling it is not cut further, and the outline goes back to Mark with this count.
+About **3 minutes 20 seconds, about 500 words** (proposed; Mark rules on it with the heart). The story must carry: two quotes (35 words; Quote 2 is the card's); the plain sense of the words to explain; the witnesses it credits, Josephus, Eusebius, Tertullian, the bishop of Alexandria and the historians' picture. Recounted after the outline check's fixes, at tight narration: about 680 words as the outline now stands, and about 620 after its whole Cut first list. That is past the approved 525. The rest is the heart (each item in at least a clause) and the Never cut list; under the ruling it is not cut further, and the outline goes back to Mark with this count.
 
 ## Setting (facts for the writer, a clause at a time)
 
@@ -151,11 +151,13 @@ Each era 1 tradition and the council (ground of): `post-apostolic-house-church`,
 - Maximinus in 235 (E9): a side fact, kept only for the Do not say line.
 - Aurelian and the church house at Antioch (E19): the sibling's scene; kept for What came of it 2 and the card.
 
-## Cut first (in order; from about 690 to about 620)
+## Cut first (in order; from about 680 to about 620)
 
+1–3. Struck: Lyon in 177 (E3), the synods (E4) and the plague (E17) are heart items, each kept in a clause.
 4. Beat 3, Alexandria's calling by name (E11): card; keep Carthage's run and the papers. (−20)
 5. Names: Trajan to "the emperor" (−2); beat 5 shortened to "in the years that followed, Eusebius writes, they built large new churches in every city" (−15). (−17)
 6. Beat 4, the adviser who led Egypt's magicians (E15a): Leave out together with Valerian's turn from friendship, so the act is told as the sources give it, "a later emperor turned on them" (−20). This is allowed only because it cuts the event's detail with its reason; if the writer keeps "friendly at first", the reason stays.
+7. Struck: the book from Edessa on Christians in Persia (E6) is a heart item, kept in a clause.
    *About 620: past the approved 525; goes back to Mark.*
 
 Never cut: Quote 1 and Pella; Tertullian's boast, credited as his, and its "boast" framing; Decius's order with its reason credited (E10a) and the fallen; the son's letter to the bishops; the 303 orders and the emperors' own reason; Quote 3 and the prayer; the questions; the heart's items, each in at least a clause.
