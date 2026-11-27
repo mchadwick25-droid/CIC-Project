@@ -156,6 +156,8 @@ Who keeps him today: no held source states it in a form the story can use. Leave
 - "Great Persecution" as if a source's phrase → "the persecution" or "the persecution that began in 303".
 - "the four bishops died the same day as Peter" → Eusebius lists them among the martyrs of Egypt; the account says they were martyred before Melitius went to Alexandria (M2).
 - Not "Clergy who fell could share communion but never return to their office" as a rule for every fallen cleric. Canon 10 rules only on clergy who gave themselves up to the persecutors unbidden, fell, and took up the struggle again: communion, not their office (E11, ANF6 27162–27193).
+- Not "Meanwhile", "at the same time" or any time word tying the four bishops' letter to the fourth Easter or the canons. The letter and the account give no date; say "Four bishops of Egypt, writing from prison, rebuked Melitius" (M1, X3).
+- Not "who lived through it" or "who lived through those years" for Eusebius (the live wording, barred by slate decision 2). Say "who wrote at the time" (Who tells it: contemporary, EUS 43312).
 
 ## Leave out
 
