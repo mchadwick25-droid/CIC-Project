@@ -14,7 +14,7 @@
 
 - **Length (Mark, 2026-11-27, "Batch 12: lengths measured by the draft": "approve as recommended". This batch only.):** the draft is the measure; a draft at 675 or under goes on to review as written. This draft runs 675 against the approved 575: judge it at its length, and flag only what the heart does not need.
 - **The live text (this batch):** an earlier hand may have seen parts of the live story in the census by accident. The second trust reader also opens `hippolytus-of-rome.brief.live.txt` in this folder once, after the read, and lists any sentence of the new brief that echoes its wording (an echo is a finding only where the outline does not hold the wording itself).
-- **Variety across the batch:** `Build/Ministry/Operations/Audits/2026-11-26_batch-12/Variety_Report_Wave2.txt` counts the moves that repeat across the briefs written so far. It is a report for the reviewer and Mark: nothing is recast because of it.
+- **Variety across the batch:** `Build/Ministry/Operations/Audits/2026-11-26_batch-12/Variety_Report_Wave3.txt` counts the moves that repeat across the briefs written so far. It is a report for the reviewer and Mark: nothing is recast because of it.
 
 
 ---

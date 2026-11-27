@@ -1,0 +1,49 @@
+# Revision: Josephus
+
+One revision of `josephus.brief.txt` against `Review.md`. Backup of the reviewed brief: `josephus.brief.v1.txt` (never edited). Every change uses the review's exact wording; no sentence the review did not touch was changed.
+
+## Do not say lines added to the outline
+
+All of the review's Do not say lines were already in `Outline.md` from the review fixes, except one, now added word for word:
+
+- B2, second line: "in his Life he answered a rival historian" alone → "In his Life, a book on his own life, he defended himself against a rival historian who, he says, had written falsely of him".
+
+Already present and left as they stand: B1 (sword after the prayer), B2 first line (books and defence), B3 (deal justly and honor God), B4 (forged records), B5 (both Jerome lines, and "the passage's own words"). One difference: the review cites B3's line as JW 82091–82093; the outline, after its recheck, cites JW 82093–82095. Checked in `cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt`: "righteousness toward one another, and / piety toward God" stands at JW 82093–82095, so the outline's reference is the right one and was kept.
+
+## Findings and what was done
+
+- **B1.** "In the cave, the men with him had held out a sword." → "Back in the cave, after his prayer, the men with him held out a sword." The surrender is not told again.
+- **B2.** Paragraph 4 replaced whole with the review's four sentences.
+- **B3.** "who urged the Jews to live justly." → "who urged the Jews to deal justly with one another and to honor God." The outline holds it (beat 5; Cut first 13; Do not say).
+- **B4.** The Eusebius sentence changed to the review's wording: "He set the lines on John and Jesus, a Jew's own word, against forged records of Pilate's dealings with Jesus, written against him and sent out, he says, in his own day with the emperor's approval."
+- **B5.** Paragraph 9 replaced with the review's two sentences. "And the old sources leave it open" is gone with it.
+- **MINOR 1.** Paragraph 2, s2 and s3 changed to the review's wording ("...under the emperors' favor. In his people's history, finished there about 93, ...").
+- **MINOR 2.** Paragraph 1, s2 → "When the Romans found him on the third day and promised him his life, he prayed in secret, telling God he would surrender." Quote 1's "them" is still the Romans.
+- **MINOR 3.** → "Its key word, the Christ, means the Messiah, the anointed one the Jews awaited."
+- **MINOR 4.** "forty men of standing" → "forty leading men".
+- **MINOR 5.** → "He proposed that they draw lots, each to be killed in turn by the next."
+- **MINOR 6.** → "between a riot under Pilate, the Roman governor of Judea, and another disaster" (Words to explain, Pilate).
+- **MINOR 7, 8.** Handled by B2 and B5, as the review says. No further change.
+- **Noted, not changed:** left as the review says.
+
+## New sentences
+
+No sentence is the reviser's own. Each changed sentence is the review's exact wording; where it is new against the old brief, its outline line is:
+
+- "Back in the cave, after his prayer, ..." : beat 2; Openings 2; Do not say (sword).
+- Paragraph 4, all four sentences: beat 4; Who tells it; Do not say (books; rival historian).
+- "...deal justly with one another and to honor God." : beat 5; Cut first 13.
+- The Eusebius sentence: What came 1; Cut first 18's Keep line; Do not say (forged records).
+- Paragraph 9, both sentences: What came 3; Do not say (Jerome; "the passage itself says").
+- "When the Romans found him ... promised him his life": Openings 2 (E3; JW 110766–110768 as the review cites).
+- "In his people's history, finished there about 93": the essence (E11).
+- "draw lots, each to be killed in turn by the next": beat 2 (E5; JW 111106–111110).
+- "the Roman governor of Judea": Words to explain, Pilate.
+
+## Essence, length, scorer
+
+- The essence is complete at word 192 ("...give in different words.").
+- 776 words, about 5 minutes 10 seconds at 150 words a minute.
+- **Over the ceiling.** The review's fixes take the brief past the 725-word ceiling by 51 words. Nothing the review did not name was cut; this goes to Mark as a length question, as the review says.
+- Scorer: `776 words, grade 9.2 (names out 8.5), reading ease names out 72.9, 21.6 words a sentence, 0.4 joining words per 100, 6% short sentences, longest sentence 36 words - pass`.
+- Re-read for the four faults: none found. The passage's wonder stays in its voice ("The passage goes on"); the doubt is credited to the passage, Origen and Jerome; the defence now sits on the *Life* alone; no reading is carried forward as settled. American spelling outside quotes.

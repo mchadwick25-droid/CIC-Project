@@ -1,0 +1,6 @@
+16 briefs; a move in more than 4 is marked
+ok    1  an unnamed opening, then the name revealed: suetonius
+OVER  5  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): clement-of-alexandria, era-1, lactantius, pontius-the-deacon, valentinus
+ok    0  the "Most of what we know" witness formula: -
+ok    4  a sentence opening with "Yet": lactantius, origen, pontius-the-deacon, valentinus
+OVER  8  an ending on a later writer or institution (a later time marker in the last two paragraphs): clement-of-alexandria, cyprian-of-carthage, hippolytus-of-rome, origen, pamphilus-of-caesarea, peter-of-alexandria, pontius-the-deacon, tatian
