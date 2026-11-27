@@ -116,7 +116,7 @@ Line references are to `Source_Sheet.md` rows (S, E, I, D), each of which gives 
   - Polycarp turning many from him at Rome (I2): the Polycarp and Irenaeus stories tell it; card.
   - Ambrose and Origen (I1): card.
 - **Cut first, in order** (bring the draft to about 525 words; each item for the card or Leave out):
-  1. Beat 5: Heracleon and the others' paths (KR 9663; TE 43121–43122). Card. About 12 words.
+  1. Beat 5: Heracleon and the others' paths (KR 9660–9662; TE 43121–43122). Card. About 12 words.
   2. Beat 1: Justin's "Valentinians" (E1). Card. About 15 words.
   3. Beat 3: Hippolytus's "all love" paraphrase (E6). Card. About 25 words.
   4. Beat 2: that Tertullian and Irenaeus differ on the time (D1); keep the expulsion. Card. About 15 words.

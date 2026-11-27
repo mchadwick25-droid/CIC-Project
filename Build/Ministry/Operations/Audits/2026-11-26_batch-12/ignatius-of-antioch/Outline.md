@@ -168,8 +168,8 @@ To bring the planned ~600 words to 500, in order:
 3. Beat 1: Irenaeus's wording of the reason, keeping Eusebius's in the ending (about 12). → card.
 4. Beat 5: "he would coax the beasts, and compel them" (about 12). → Leave out.
 5. Beat 2: the three bishops coming to Smyrna, reduced to "the churches of Ephesus, Magnesia and Tralles sent their bishops" (about 10 saved). → Leave out (names by role already).
-6. Beat 1: the ten soldiers growing worse, already told by Q1 in the opening (about 18). → Leave out (told once, in the opening).
-7. Beat 1: Eusebius's "his testimony to Christ", told once in the ending (about 8). → Leave out (told once, in the ending).
+6. Beat 1: the ten soldiers growing worse, already told by Q1 in the opening (about 18). → Leave out. Done: removed from beat 1.
+7. Beat 1: Eusebius's "his testimony to Christ", told once in the ending (about 8). → Leave out. Done: removed from beat 1.
 
 Not to cut: the three quotes and their plain senses, the explanation of the teaching he opposed and of why he begged Rome not to act, beat 7 (the connection), and the ending's credit to Eusebius.
 
