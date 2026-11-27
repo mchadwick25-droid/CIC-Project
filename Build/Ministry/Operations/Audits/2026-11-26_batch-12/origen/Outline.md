@@ -120,7 +120,7 @@ Batch 12, Part D. Row codes (S, E, T, I, L, D, M) are rows of `Source_Sheet.md` 
 - **Cut first** (in order; drop from the top only while the draft runs past 675 words; each item kept for the card or left out, as marked):
   1. What came of it 3: Jerome's Job preface and Origen's library (I8, I9). Card. About 40 words.
   2. Beat 5: the first quarrel, preaching as a layman and the bishops' answer (E14); keep the ordination, Eusebius's and Jerome's versions, and Quote 3. Card. About 45 words.
-  3. What came of it 2: Athanasius (I3); keep Methodius, the Defense and the council. Card. About 20 words.
+  3. What came of it 2: Athanasius (I3); keep the Defense and the council. Card. About 20 words.
   4. Beat 1: the grammar teaching and the four obols and the bare ground (E5, E7); keep that pagans came to him and Demetrius entrusted the teaching to him alone. Card. About 25 words.
   5. Beat 6: the bishops sitting under him as their only teacher (E21); keep the two brothers. Leave out. About 15 words.
   6. Beat 4: the first, second and third day without a sun (T8); keep the stumbling blocks in one clause. Leave out. About 15 words.
