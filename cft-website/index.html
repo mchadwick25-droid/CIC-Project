@@ -143014,10 +143014,11 @@ window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
 const cftTally=(()=>{
   const q=[]; let started=false, activeSec=0, lastAct=0;
   const OPT_KEY='cft-count-off', VID_KEY='cft_vid';
-  const visitorId=()=>{
+  const visitorId=(create)=>{
     let id='';
     try{const m=document.cookie.match(/(?:^|; )cft_vid=([a-f0-9]{32})/);if(m)id=m[1];}catch(e){}
     if(!id)try{const v=localStorage.getItem(VID_KEY);if(/^[a-f0-9]{32}$/.test(v||''))id=v;}catch(e){}
+    if(!id&&!create)return '';
     if(!id){
       try{id=Array.from(crypto.getRandomValues(new Uint8Array(16)),b=>b.toString(16).padStart(2,'0')).join('');}
       catch(e){id=Array.from({length:32},()=>Math.floor(Math.random()*16).toString(16)).join('');}
@@ -143042,9 +143043,14 @@ const cftTally=(()=>{
     }
   }catch(e){}
   const blocked=navigator.webdriver||!navigator.sendBeacon;
-  if(markOwner&&!blocked){try{navigator.sendBeacon('/e',new Blob([JSON.stringify([{t:'owner',v:visitorId()}])],{type:'text/plain'}));}catch(e){}}
-  const vid=(optedOut||blocked)?'':visitorId();
-  const off=blocked||optedOut;
+  if(markOwner&&!blocked){const known=visitorId(false);if(known){try{navigator.sendBeacon('/e',new Blob([JSON.stringify([{t:'owner',v:known}])],{type:'text/plain'}));}catch(e){}}}
+  const CONSENT_KEY='cft-consent';
+  let vid='', off=true;
+  const allow=()=>{vid=visitorId(true);off=false;if(lastAct)begin();};
+  const deny=()=>{
+    try{document.cookie='cft_vid=; Max-Age=0; Path=/; SameSite=Lax';}catch(e){}
+    try{localStorage.removeItem(VID_KEY);}catch(e){}
+  };
   const flush=()=>{
     if(activeSec>=15){q.push({t:'active',v:vid,n:Math.round(activeSec)});activeSec=0;}
     if(!q.length||off)return;
@@ -143066,6 +143072,8 @@ const cftTally=(()=>{
     if(/mail|outlook|email/.test(s))return 'email';
     return 'other';
   };
+  const utm=()=>{const q=new URLSearchParams(location.search);return ['utm_source','utm_medium','utm_campaign'].map(k=>(q.get(k)||'').toLowerCase().replace(/[^\w.-]/g,'').slice(0,30)).join('/');};
+  const landed={s:source(),u:utm()};
   const device=()=>coarsePointer?(narrowScreen()?'phone':'tablet'):'computer';
   const begin=()=>{
     if(started||off)return; started=true;
@@ -143073,7 +143081,7 @@ const cftTally=(()=>{
     let seen=null; try{seen=JSON.parse(localStorage.getItem('cft-seen'));}catch(e){}
     const firstToday=!seen||seen.day!==day, firstWeek=!seen||seen.week!==week;
     try{localStorage.setItem('cft-seen',JSON.stringify({day,week}));}catch(e){}
-    q.push({t:'visit',v:vid,a:seen&&seen.day!==day?'returning':seen?'same-day':'new',b:source(),c:device(),n:[1,firstToday?1:0,firstWeek?1:0]});
+    q.push({t:'visit',v:vid,a:seen&&seen.day!==day?'returning':seen?'same-day':'new',b:landed.s,d:landed.u,c:device(),n:[1,firstToday?1:0,firstWeek?1:0]});
   };
   const act=()=>{lastAct=Date.now();begin();};
   ['pointerdown','wheel','keydown','touchstart','scroll'].forEach(t=>window.addEventListener(t,act,{passive:true,capture:true}));
@@ -143094,6 +143102,22 @@ const cftTally=(()=>{
   document.addEventListener('play',listen,true);
   document.addEventListener('timeupdate',listen,true);
   document.addEventListener('click',ev=>{const l=ev.target.closest&&ev.target.closest('a[href]');if(l&&/(^|\/)support(\.html)?$/.test(l.getAttribute('href')))push({t:'grow',a:'link'});},true);
+  const askConsent=()=>{
+    const bar=document.createElement('div');
+    bar.id='cftConsent';bar.setAttribute('role','region');bar.setAttribute('aria-label','Counting visits');
+    bar.style.cssText='position:fixed;left:12px;bottom:12px;max-width:30rem;padding:12px 14px;z-index:9999;background:#fff;color:#222;border:1px solid #888;border-radius:6px;font:14px/1.4 system-ui,sans-serif;box-shadow:0 2px 10px rgba(0,0,0,.2)';
+    bar.innerHTML='<p style="margin:0 0 8px">May we count your visit? We keep one cookie with a random number, so we can see how many people use the tree and how many come back. We never sell it. <a href="/privacy.html">Privacy</a></p>';
+    const mk=(label,fn)=>{const b=document.createElement('button');b.type='button';b.textContent=label;b.style.cssText='margin-right:8px;padding:6px 12px;font:inherit;cursor:pointer';b.onclick=()=>{fn();bar.remove();};return b;};
+    const remember=v=>{try{localStorage.setItem(CONSENT_KEY,v);}catch(e){}};
+    bar.append(mk('Yes, count my visit',()=>{remember('yes');allow();}),mk('No thanks',()=>{remember('no');deny();}));
+    document.body.appendChild(bar);
+  };
+  if(!blocked&&!optedOut){
+    let c=null;try{c=localStorage.getItem(CONSENT_KEY);}catch(e){}
+    if(c==='yes')allow();
+    else if(c==='no')deny();
+    else fetch('/region',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(j=>{if(j&&j.eu===false)allow();else if(j&&j.eu===true)askConsent();}).catch(()=>{});
+  }
   return {
     open(page){
       const [kind,...rest]=String(page).split('/'), id=rest.join('/');

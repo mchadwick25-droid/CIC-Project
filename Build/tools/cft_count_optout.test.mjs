@@ -34,8 +34,9 @@ before(async () => {
 after(async () => { await browser?.close(); server?.close(); });
 
 // Visits the map with one shared browser context, acts once, and returns what was sent to /e.
-async function visit(ctx, query) {
+async function visit(ctx, query, eu = false) {
   const page = await ctx.newPage();
+  await page.route('**/region', (route) => route.fulfill({ json: { eu } }));
   await page.addInitScript(() => {
     Object.defineProperty(navigator, 'webdriver', { get: () => false });
     window.__sent = [];
@@ -69,19 +70,29 @@ test('without the flag, a visit is counted', async () => {
   await ctx.close();
 });
 
-test('?count=off sets the flag, says so, and sends nothing, now or later', async () => {
+test('?count=off sets the flag, says so, sends nothing, and marks an existing visitor number as the owner', async () => {
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const counted = await visit(ctx, '');
   const first = await visit(ctx, '?count=off');
   assert.equal(first.flag, '1');
   assert.equal(first.sent, 0);
   assert.deepEqual(first.events.map(e => e.t), ['owner']);
-  assert.equal(first.events[0].v, first.cookie);
+  assert.equal(first.events[0].v, counted.cookie);
   assert.match(first.toast, /no longer counts/);
   assert.doesNotMatch(first.url, /count=/);
   const later = await visit(ctx, '');
   assert.equal(later.sent, 0);
   assert.equal(later.events.length, 0);
   assert.equal(later.toast, '');
+  await ctx.close();
+});
+
+test('?count=off on a device with no visitor number makes none and sends nothing', async () => {
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const s = await visit(ctx, '?count=off');
+  assert.equal(s.flag, '1');
+  assert.equal(s.events.length, 0);
+  assert.equal(s.cookie, null);
   await ctx.close();
 });
 
@@ -108,5 +119,71 @@ test('other query parameters survive the opt-out visit', async () => {
   const s = await visit(ctx, '?utm_source=x&count=off');
   assert.match(s.url, /utm_source=x/);
   assert.doesNotMatch(s.url, /count=/);
+  await ctx.close();
+});
+
+async function euPage(ctx) {
+  const page = await ctx.newPage();
+  await page.route('**/region', (route) => route.fulfill({ json: { eu: true } }));
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => false });
+    window.__sent = [];
+    navigator.sendBeacon = (url, body) => { if (url === '/e') body.text().then(t => window.__sent.push(JSON.parse(t))); return true; };
+  });
+  await page.goto(base, { waitUntil: 'domcontentloaded' });
+  await page.waitForFunction(() => typeof applyTransform === 'function');
+  await page.waitForSelector('#cftConsent');
+  return page;
+}
+const settle = async (page) => {
+  await page.mouse.click(300, 300);
+  await page.waitForTimeout(200);
+  await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
+  await page.waitForTimeout(300);
+  return page.evaluate(() => ({ events: window.__sent.flat().length, cookie: document.cookie.includes('cft_vid') }));
+};
+
+test('Europe: the notice shows, and nothing is stored or sent until Yes', async () => {
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const page = await euPage(ctx);
+  const before = await settle(page);
+  assert.deepEqual(before, { events: 0, cookie: false });
+  await page.click('#cftConsent button:first-of-type');
+  const after = await settle(page);
+  assert.ok(after.events > 0);
+  assert.equal(after.cookie, true);
+  await ctx.close();
+});
+
+test('Europe: No thanks sends nothing, keeps no cookie, and the notice does not return', async () => {
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const page = await euPage(ctx);
+  await page.click('#cftConsent button:last-of-type');
+  const s = await settle(page);
+  assert.deepEqual(s, { events: 0, cookie: false });
+  await page.close();
+  const again = await ctx.newPage();
+  await again.route('**/region', (route) => route.fulfill({ json: { eu: true } }));
+  await again.goto(base, { waitUntil: 'domcontentloaded' });
+  await again.waitForFunction(() => typeof applyTransform === 'function');
+  await again.waitForTimeout(500);
+  assert.equal(await again.locator('#cftConsent').count(), 0);
+  await ctx.close();
+});
+
+test('outside Europe no notice shows, and a failed region lookup counts nothing', async () => {
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const page = await ctx.newPage();
+  await page.route('**/region', (route) => route.abort());
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => false });
+    window.__sent = [];
+    navigator.sendBeacon = (url, body) => { window.__sent.push(1); return true; };
+  });
+  await page.goto(base, { waitUntil: 'domcontentloaded' });
+  await page.waitForFunction(() => typeof applyTransform === 'function');
+  const s = await settle(page);
+  assert.equal(s.events, 0);
+  assert.equal(await page.locator('#cftConsent').count(), 0);
   await ctx.close();
 });

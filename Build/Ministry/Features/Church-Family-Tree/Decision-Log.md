@@ -6399,3 +6399,16 @@ Mark, relayed by the coordinator: "yes track as other sights do, this hyper priv
 **Readability.** About scores grade 5.5, reading ease 71.4. Privacy scores grade 5.5, reading ease 76.9. Both are within the hard limits. Both are below the grade-8 floor, which is a warning only; no text was padded to move it.
 
 **Not touched.** The feedback bar and the audio player scripts are shared with churchinconversation.com. The Help us grow page still says "Give once" and "Give monthly", which may want the same PBC wording.
+
+## 2026-11-27 — Visitor tracking widened: city, tagged links, visit length, and a consent notice for Europe (Mark)
+
+Mark: "Yes. Build industry-standard visitor tracking: a first-party visitor ID cookie (1 year), unique and returning visitors, visit length and pages, sources including tagged links for my posts, country/region/city, device and browser, plus the engagement counts we already have. Don't store IP addresses. Exclude my devices and home address. Add a consent notice for European visitors only. Update the Privacy page plainly and replace the cookie-free rule."
+
+This builds on "Standard visitor analytics replace the cookie-free counts" above, which already superseded the cookie-free rule.
+
+**Decided.**
+1. The worker also stores the city (Cloudflare's request data) and the tagged-link fields (`utm_source`, `utm_medium`, `utm_campaign`, kept as one short field read when the page opens).
+2. A visit is one visitor on one day. The report gives minutes in use and cards opened per visit, plus a city split and a tagged-link split. No IP address is stored.
+3. Consent: the worker answers `/region` with whether the request comes from Europe (EU, EEA, UK, Switzerland), and nothing about the visitor is kept. In Europe the map asks first; until "Yes" it sets no cookie and sends nothing, and "No thanks" removes the cookie and is remembered. Outside Europe it counts as before. If the lookup fails, nothing is counted.
+4. Owner exclusion: the home address goes in the `OWNER_IPS` binding on the worker `church-family-tree`, never in the repository. Mark's devices are excluded by `?count=off`, which also marks an existing visitor number as the owner's.
+5. The Privacy page says all of this in plain words.

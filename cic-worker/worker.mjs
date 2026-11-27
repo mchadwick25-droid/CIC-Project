@@ -123,9 +123,18 @@ export function eventPoints(text, where = {}) {
     .filter((e) => e && typeof e === 'object' && EVENT_TYPES.has(e.t))
     .map((e) => ({
       indexes: [e.t],
-      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40), visitorId(e.v), field(where.country, 2), field(where.region, 40), field(where.browser, 10)],
+      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40), visitorId(e.v), field(where.country, 2), field(where.region, 40), field(where.browser, 10), field(where.city, 40), field(e.d, 100)],
       doubles: (Array.isArray(e.n) ? e.n : [e.n]).slice(0, 3).map(number),
     }));
+}
+
+const CONSENT_COUNTRIES = new Set(['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH']);
+
+// Tells the page whether to ask for consent: Europe (EU, EEA, UK, Switzerland) only. Nothing about the visitor is kept.
+export function regionNote(request) {
+  const country = String((request.cf || {}).country || '');
+  const body = country ? JSON.stringify({ eu: CONSENT_COUNTRIES.has(country) }) : '{}';
+  return new Response(body, { status: 200, headers: { ...BASELINE_HEADERS, 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
 }
 
 export async function countEvents(request, env) {
@@ -138,7 +147,7 @@ export async function countEvents(request, env) {
   const text = await request.text();
   if (text.length > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
   const cf = request.cf || {};
-  const where = { country: cf.country, region: cf.region, browser: browserFamily(request.headers.get('User-Agent') || '') };
+  const where = { country: cf.country, region: cf.region, city: cf.city, browser: browserFamily(request.headers.get('User-Agent') || '') };
   for (const point of eventPoints(text, where)) env.EVENTS.writeDataPoint(point);
   return done;
 }
@@ -178,6 +187,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === '/e') return countEvents(request, env);
+    if (url.pathname === '/region') return regionNote(request);
     const isRead = request.method === 'GET' || request.method === 'HEAD';
     if ((url.pathname === '/' || url.pathname === '/index.html') && isRead && UNFURLER.test(request.headers.get('User-Agent') || '')) return previewPage(request, env);
     const moved = await treeRedirect(url, env);
