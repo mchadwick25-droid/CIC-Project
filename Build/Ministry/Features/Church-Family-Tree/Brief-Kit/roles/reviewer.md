@@ -16,7 +16,7 @@ A quote is often our modern rendering of an old text: where it is rendered from 
 
 Then judge whether the heart is the right heart for its subject, from what the sources show, and whether it is told by the end of the first minute (about 150 words, 130 for a council).
 
-Each SOFTENED, ASSUMPTION ADDED, MODERN ONLY or NOT FOUND sentence is BLOCKING, with its exact change: told as the source gives it, or cut. So is a missing or late heart. A sentence the outline does not hold is cut, never written into the outline to match the text. Write `Trust.md`: a count for each mark, then each non-HELD sentence with its evidence.
+Each SOFTENED, ASSUMPTION ADDED, MODERN ONLY or NOT FOUND sentence is BLOCKING, with its exact change: told as the source gives it, or cut. So is a missing or late heart. A sentence the outline does not hold is cut, never written into the outline to match the story. Write `Trust.md`: a count for each mark, then each non-HELD sentence with its evidence.
 
 **The second trust read.** A second reader who knows the period, who has not seen `Trust.md`, checks the same way every sentence the writer added or changed: in a new brief every sentence, and in a fix the sentences that differ from the approved text. Write `Trust_Second.md`. A finding either read makes is BLOCKING until it is fixed or a third reader, who has seen neither, shows from the source that it holds.
 
@@ -42,6 +42,6 @@ Each unfilled test line, bare statement or tell is BLOCKING, and so is an openin
 
 ## The fresh read
 
-After the one revision, a new trust reader and a new first-time listener, who have not seen this story's reads, `Revision.md` or any earlier draft, read the final `{SLUG}.brief.txt` in full in the same way, and a second trust read checks every sentence the revision added or changed. They write `Fresh_Read.md`: the counts, PASS or REVISE, and each finding with its exact change. The fresh read blocks only for what the bar blocks. A MINOR finding there is applied word for word or noted, never the start of another round: the aim is reliable, sound work, not perfection. Once per batch, the same hands read the kind's reference briefs in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/` in the same way, without opening `Scores.md`, and `Reference_Read.md` sets their counts beside those in `Scores.md`.
+After the one revision, a new trust reader and a new first-time listener, who have not seen this story's reads, `Revision.md` or any earlier draft, read the final `{SLUG}.brief.txt` in full in the same way, and a second trust read checks every sentence the revision added or changed. They write `Fresh_Read.md`: the counts, PASS or REVISE, and each finding with its exact change. The fresh read blocks only for what the bar blocks. A MINOR finding there is applied word for word or noted, never the start of another round: the aim is reliable, sound work, not perfection. Once per batch, the same hands read the kind's reference stories in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/` in the same way, without opening `Scores.md`, and `Reference_Read.md` sets their counts beside those in `Scores.md`.
 
-Do not edit the text or commit. Each reply is under 150 words.
+Do not edit the story or commit. Each reply is under 150 words.
