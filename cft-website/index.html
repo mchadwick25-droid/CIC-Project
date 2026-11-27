@@ -140205,7 +140205,7 @@ function stepLineHTML(label,before,me,after){
 }
 function briefSourcesHTML(list){
   if(!list||!list.length)return '';
-  return `<div class="brief-sources"><h4>Old sources for this brief</h4><ul class="person-list">${list.map(s=>`<li>${s.author&&!String(s.title).startsWith(s.author)?`${esc(s.author)}, `:''}${esc(s.title)}</li>`).join('')}</ul></div>`;
+  return `<div class="brief-sources"><h4>Sources for this brief</h4><ul class="person-list">${list.map(s=>`<li>${s.author&&!String(s.title).startsWith(s.author)?`${esc(s.author)}, `:''}${esc(s.title)}</li>`).join('')}</ul></div>`;
 }
 const QUOTES_NOTE='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
 function briefReadHTML(text,quotesFrom,sources){
@@ -140525,8 +140525,8 @@ function render(){
       if(!sameLane){
         const link=continuesLink(m.id,n.id);
         const cont=el('g',{class:'continues','data-lanes':`${m.laneOrder}|${n.laneOrder}`,tabindex:'0',role:'button',
-          'aria-label':`${m.shortName||m.name} continued as ${n.shortName||n.name}, ${link?link.confidence:'not yet graded'}`});
-        const contTip=()=>link?tipForEdge(link,m,n):`<div class="n">${esc(m.shortName||m.name)} → ${esc(n.shortName||n.name)}</div><div class="m">continued as · not yet graded</div>`;
+          'aria-label':`${m.shortName||m.name} continued as ${n.shortName||n.name}, ${link?', '+link.confidence:''}`});
+        const contTip=()=>link?tipForEdge(link,m,n):`<div class="n">${esc(m.shortName||m.name)} → ${esc(n.shortName||n.name)}</div><div class="m">continued as</div>`;
         cont.addEventListener('mouseenter',ev=>showTip(ev,contTip()));
         cont.addEventListener('mousemove',ev=>positionTip(ev));
         cont.addEventListener('mouseleave',hideTip);
@@ -140701,7 +140701,7 @@ const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
 const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${type==='argued against'?'argued':fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
 function pairLinkNote(aId,bId){
   const other=DATA.edges.find(e=>(e.from===aId&&e.to===bId)||(e.from===bId&&e.to===aId));
-  return other?`The checked connection between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No connection between them has been drawn and checked yet.';
+  return other?`The checked connection between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'';
 }
 function continuesLink(fromId,toId){return DATA.edges.find(e=>e.type==='continued as'&&e.from===fromId&&e.to===toId)||null;}
 
@@ -140733,7 +140733,7 @@ function connectionsByKindHTML(m,inbound,outbound){
   if(P.children.length||P.next){
     h+=P.children.map(x=>lineageRowHTML(x.e,x.id,x.label)).join('');
     if(P.next){const link=continuesLink(m.id,P.next.id);
-      h+=link?lineageRowHTML(link,P.next.id,'continued as'):`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${lineageNameBtn(P.next.id)}</b><br>${pairLinkNote(m.id,P.next.id)}</div>`;}
+      h+=link?lineageRowHTML(link,P.next.id,'continued as'):`<div class="edge"><span class="k">continued as</span><br><b>${lineageNameBtn(P.next.id)}</b><br>${pairLinkNote(m.id,P.next.id)}</div>`;}
   }else h+=`<p class="meta">No direct descendant is recorded.${others?' Its other links are influence, argument and contact.':''}</p>`;
   if(P.splits.length)h+='<h3>Broke with</h3>'+P.splits.map(x=>lineageRowHTML(x.e,x.id,x.label)).join('');
   if(others){
@@ -140945,7 +140945,7 @@ function clock(s){s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+':'+Str
 function briefPlayerHTML(src,len,text){
   return `<div class="brief" data-brief-src="${esc(src)}" data-brief-len="${esc(len||'')}">`
     +`<div class="brief-row"><button type="button" class="brief-play"></button>`
-    +`<p class="brief-head"><span class="brief-label">Audio Brief · Narrated Edition</span><span class="brief-time"></span></p>`
+    +`<p class="brief-head"><span class="brief-label">Audio brief</span><span class="brief-time"></span></p>`
     +`<button type="button" class="brief-read-btn" aria-expanded="false" aria-controls="brief-read"${text?'':' hidden'}>Read along</button></div>`
     +`<div class="brief-rail" role="slider" tabindex="0" aria-label="Position in the audio brief" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="brief-fill"></span></div>`
     +`<div class="brief-opts"><label>Speed <select class="brief-rate">${NARR_RATES.map(r=>`<option value="${r}">${r}×</option>`).join('')}</select></label>`
@@ -141260,17 +141260,16 @@ async function loadBuiltWorldOrientation(censusId){
     join('fold-connections','Connections','people',[['In its own record',wrap(o.relations_summary&&o.relations_summary.text?R.relations_summary(compiled):'')]]);
     join('fold-legacy','Legacy and today','legacy',[['Legacy',wrap(o.legacy&&o.legacy.length?R.legacy(compiled,nopts):'')]]);
     const notes=[
-      ['Doctrinal floor note',wrap(o.floor_note&&o.floor_note.text?R.floor_note(compiled):'')],
+      ['On the Nicene Creed',wrap(o.floor_note&&o.floor_note.text?R.floor_note(compiled):'')],
       ['This tradition’s sources',wrap((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length)?R.sourcing(compiled):'')]
     ].filter(([,html])=>html), sourcesFold=panelBody.querySelector('#sources-fold .fold-b');
     if(sourcesFold&&notes.length)sourcesFold.insertAdjacentHTML('afterbegin',notes.map(([t,html])=>`<h3>${esc(t)}</h3>${html}`).join(''));
     else if(notes.length)put('sources',foldHTML('Sources',0,notes,'sources-fold'));
     panelBody.querySelectorAll('.orient-slot').forEach(el=>el.remove());
-    if(panelBody.querySelector('.fold'))slot.remove();
-    else{slot.innerHTML='<p class="meta">No further orientation content recorded for this tradition yet.</p>';slot.classList.remove('orient-loading');}
+    slot.remove();
     panelBody.querySelectorAll('audio').forEach(narrApplyRate);
   }catch(err){
-    slot.innerHTML='<p class="meta">This tradition’s fuller record could not be loaded right now. Try reopening this panel.</p>';
+    slot.innerHTML='<p class="meta">This section did not load. Check your connection, then reopen it.</p>';
     slot.classList.remove('orient-loading');
     console.error('orientation fetch failed for',censusId,err);
   }
@@ -141372,7 +141371,7 @@ function openCouncilCard(c){
     foldHTML('Timeline',timelineCount(co.timeline),[['',`<dl class="person-facts">${facts}</dl>`],['',timelineHTML(co.timeline)]],'fold-timeline'),
     foldHTML('People and stories',people.length+(c.documentedStories||[]).length,[['Who came',list('attended')],['Who',people.length?`<ul class="people-list council-who">${people.map(p=>{
       if(p.person){const e=personById[p.person]; return `<li><button type="button" class="panel-link" data-person="${esc(p.person)}">${esc(e?e.name:p.person)}</button> · ${esc(p.part)}</li>`;}
-      return `<li>${esc(p.name)}<span class="verdict">${esc(COUNCIL_VERDICT_WORDS[p.verdict]||p.verdict)}</span> · ${esc(p.part)}</li>`;
+      return `<li>${esc(p.name)}${(w=>w?`<span class="verdict">${esc(w)}</span>`:'')(p.verdict in COUNCIL_VERDICT_WORDS?COUNCIL_VERDICT_WORDS[p.verdict]:p.verdict)} · ${esc(p.part)}</li>`;
     }).join('')}</ul>`:''],['Documented stories',docStoriesHTML(c)]],'people-section'),
     foldHTML('What happened',0,[['Called by',co.calledBy?`<p>${esc(co.calledBy)}</p>`:''],['Why they met',list('issue')],['How the council worked',list('howItWorked')],['What they decided',list('decided')]],'fold-own'),
     foldHTML('Connections',trads.length,[['Traditions it touched',touched]],'fold-connections'),
@@ -141390,7 +141389,7 @@ function openCouncilCard(c){
   wireDocStories(c);
   syncWorldURL(c.id);
 }
-const COUNCIL_VERDICT_WORDS={WHO:'Profile to come',STORY:'Told in a story',LISTED:'Listed','NOT SCORED':'Not yet assessed'};
+const COUNCIL_VERDICT_WORDS={WHO:'',STORY:'Told in a story',LISTED:'','NOT SCORED':''};
 function openPanel(m){
   if(personById[m.id])return openPersonCard(whoPeople[m.id]||{key:m.id,entry:m,name:m.shortName||m.name,rows:[]});
   return whenLoaded(()=>[ensureEntry(m)],esc(m.shortName&&m.shortName!==m.name?m.shortName:m.name),()=>openPanelNow(m));
@@ -141430,8 +141429,8 @@ function openPanelNow(m){
     if(m.continuesAs&&byId[m.continuesAs]){
       const next=byId[m.continuesAs], link=continuesLink(m.id,next.id);
       conns+=`<h3>Continues as</h3>`+(link
-        ?`<div class="edge"><span class="k">${esc(link.type)} · ${esc(link.confidence)}</span><br><b>${esc(next.shortName||next.name)}</b><br>The same ongoing church, in the next window.</div>`
-        :`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${esc(next.shortName||next.name)}</b><br>${pairLinkNote(m.id,next.id)}</div>`);
+        ?`<div class="edge"><span class="k">${esc(link.type)} · ${esc(link.confidence)}</span><br><b>${esc(next.shortName||next.name)}</b><br>The same church, in the next era.</div>`
+        :`<div class="edge"><span class="k">continued as</span><br><b>${esc(next.shortName||next.name)}</b><br>${pairLinkNote(m.id,next.id)}</div>`);
     }
   }
   let sources='';
@@ -141441,7 +141440,7 @@ function openPanelNow(m){
   }).join('');
   let registry='';
   if(m.verifiedSources&&m.verifiedSources.length){
-    registry=`<p class="meta">${m.verifiedSources.length} vendored, rights-checked works assigned to this entry in the project's own source library — every claim the Representative makes traces back to this list.</p>`;
+    registry=`<p class="meta">${m.verifiedSources.length} works this tradition's record draws on.</p>`;
     let curRole=null;
     m.verifiedSources.forEach(s=>{
       if(s.role!==curRole){curRole=s.role;registry+=`<p class="source-group">${esc(s.roleLabel)}</p>`;}
@@ -141451,7 +141450,7 @@ function openPanelNow(m){
   }
   const orient=k=>isBuiltWorld?`<div class="orient-slot" data-orient="${k}"></div>`:'';
   h+=[
-    isBuiltWorld?'<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this tradition’s fuller record…</p></div>':'',
+    isBuiltWorld?'<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading…</p></div>':'',
     foldHTML('Timeline',timelineCount(m.timeline),[['',timelineHTML(m.timeline)]],'fold-timeline'),
     isAcross(m)?'':foldHTML('People and stories',peopleList(m).length+(m.documentedStories||[]).length,[
       ['People',peopleHTML(m)],
@@ -141469,10 +141468,10 @@ function openPanelNow(m){
     orient('legacy'),
     questionsFold(m.uncertain),
     foldHTML('Sources',(m.sources||[]).length,[
-      ['Doctrinal floor note',m.floorNote?`<p>${esc(m.floorNote)}</p>`:''],
+      ['On the Nicene Creed',m.floorNote?`<p>${esc(m.floorNote)}</p>`:''],
       ['How sure the record is',hasContent(m.sourcing)?`<p>${esc(m.sourcing)}</p>`:''],
       ['Old sources',sources],
-      ['Full source registry',registry],
+      ['All sources',registry],
       ['Modern works',modernWorksHTML(m.modernWorks)],
       ['',pageLinkHTML(m)]
     ],'sources-fold'),
@@ -141589,7 +141588,7 @@ function showPanel(page){
   hideTip();
   panel.scrollTop=0;
   lastFocused=document.activeElement;
-  if(!panelBody.querySelector('.review-line'))panelBody.insertAdjacentHTML('beforeend','<p class="review-line">Checked with AI tools. No scholar or church partner has reviewed it yet. <a href="method.html">How the tree is made</a>.</p>');
+  if(!panelBody.querySelector('.review-line'))panelBody.insertAdjacentHTML('beforeend','<p class="review-line">Checked with AI tools. Review by church history experts is planned as funding and partnerships allow. <a href="method.html">How the tree is made</a>.</p>');
   if(!panelBody.querySelector('.grow-line'))panelBody.insertAdjacentHTML('beforeend','<p class="grow-line">This map is free to use. If it helps you, <a href="support.html">help it grow</a>.</p>');
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
@@ -141722,7 +141721,7 @@ function buildLegend(){
   const keyRows=[
     [sv('<path d="M-3,-7 C1,-3 -5,1 -1,7" fill="none" stroke="#cf8a3a" stroke-width="4" stroke-linecap="round"/>'),'A river','A family of churches, or a group the map keeps together. It is wider where more traditions were active.'],
     [sv(house('var(--iron-gall)')),'A tradition',`${coarsePointer?'Tap':'Click'} its name to open its card.`],
-    [sv(house('var(--gold-leaf)')),'A tradition with a Representative','Conversations with its Representative are coming soon.'],
+    [sv(house('var(--gold-leaf)')),'A tradition with Church in Conversation','Opens Church in Conversation.'],
     [sv('<circle r="2.2" fill="var(--graphite)"/>'),'A tradition, zoomed out','Zoom in and its name appears.'],
     [sv(`<g fill="var(--iron-gall)">${fig}</g>`),'People of a tradition',`${coarsePointer?'Tap':'Click'} to see who they were.`],
     [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','The people the map lists for that river in that era, with the count.'],
@@ -141737,7 +141736,7 @@ function buildLegend(){
   let key=`<dl class="key-list">${keyRows.map(r=>`<div class="key-row">${r[0]}<div><dt>${r[1]}</dt><dd>${r[2]}</dd></div></div>`).join('')}</dl>`;
   key+=`<p class="note">Zoom in to see more: first the major traditions, then every tradition and story, then places and people.</p><p class="note">Places are given with the country they lie in today.</p>`;
   key+=`<span class="cap">Take a tour</span><button type="button" class="row tour-row" data-tour="intro"><span class="sw-name">Getting started</span></button><button type="button" class="row tour-row" data-tour="conn"><span class="sw-name">Connections</span></button>`;
-  key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
+  key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc. &middot; <a href="license.html">License</a>. From the team behind <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,icon,label,body,extra)=>`<div class="chip-group grp-${id}"><button type="button" class="chip has-ico" aria-expanded="false" aria-controls="sw-${id}"${extra||''}>${barIcon(icon)}<span class="sw-name">${label}<span class="dn" aria-hidden="true"> &#9662;</span></span></button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   const layer=(id,label)=>`<button type="button" class="chip has-ico" data-toggle="${id}" aria-pressed="true">${barIcon(id)}<span class="sw-name">${label}</span><span class="sw" aria-hidden="true"></span></button>`;
   let bar=group('rivers','rivers','Rivers',rivers)+layer('people','People');
@@ -142989,7 +142988,7 @@ function openGrowDialog(){
     main.querySelectorAll('a[href]').forEach(a=>{if(/^https?:/.test(a.getAttribute('href'))){a.target='_blank';a.rel='noopener';}});
     const h=main.querySelector('h1'); if(h)h.id='growDlgTitle';
     body.innerHTML=main.innerHTML;
-  }).catch(()=>{growLoaded=null;body.innerHTML='<h1 id="growDlgTitle">Help us grow</h1><p>This page did not load. <a href="support.html">Open it on its own</a>.</p>';});
+  }).catch(()=>{growLoaded=null;body.innerHTML='<h1 id="growDlgTitle">Help us grow</h1><p>This page did not load. <a href="support.html">Open the page</a>.</p>';});
   hideTip();
   if(!growDlg.open){try{growDlg.showModal();}catch(e){growDlg.setAttribute('open','');}}
   growDlg.querySelector('.gd-in').scrollTop=0;
@@ -143031,8 +143030,8 @@ const cftTally=(()=>{
   try{
     const sp=new URLSearchParams(location.search), c=sp.get('count');
     let note='';
-    if(c==='off'){optedOut=true;markOwner=true;localStorage.setItem(OPT_KEY,'1');note='Visits from this device are no longer counted.';}
-    else if(c==='on'){localStorage.removeItem(OPT_KEY);note='Visits from this device are counted again.';}
+    if(c==='off'){optedOut=true;markOwner=true;localStorage.setItem(OPT_KEY,'1');note='The map no longer counts your use in this browser.';}
+    else if(c==='on'){localStorage.removeItem(OPT_KEY);note='The map counts your use in this browser again.';}
     else optedOut=localStorage.getItem(OPT_KEY)==='1';
     if(note){
       const el=document.getElementById('barToast');

@@ -46,6 +46,7 @@ async function visit(ctx, query) {
   await page.mouse.click(300, 300);
   await page.waitForTimeout(200);
   await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
+  await page.waitForTimeout(300);
   const state = await page.evaluate(() => ({
     events: window.__sent.flat(),
     cookie: (document.cookie.match(/cft_vid=([a-f0-9]{32})/) || [])[1] || null,
@@ -75,7 +76,7 @@ test('?count=off sets the flag, says so, and sends nothing, now or later', async
   assert.equal(first.sent, 0);
   assert.deepEqual(first.events.map(e => e.t), ['owner']);
   assert.equal(first.events[0].v, first.cookie);
-  assert.match(first.toast, /no longer counted/);
+  assert.match(first.toast, /no longer counts/);
   assert.doesNotMatch(first.url, /count=/);
   const later = await visit(ctx, '');
   assert.equal(later.sent, 0);
@@ -97,7 +98,7 @@ test('?count=on clears the flag and counting resumes', async () => {
   await visit(ctx, '?count=off');
   const back = await visit(ctx, '?count=on');
   assert.equal(back.flag, null);
-  assert.match(back.toast, /counted again/);
+  assert.match(back.toast, /counts your use in this browser again/);
   assert.ok(back.sent > 0);
   await ctx.close();
 });
