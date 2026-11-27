@@ -1,0 +1,247 @@
+{
+ "shortDescription": "At Caesarea, on the coast of Roman Palestine, Origen taught, and the presbyter Pamphilus gathered a library of Christian books. In the persecution Pamphilus was put to death there, and his friend Eusebius wrote down how the martyrs of Palestine died.",
+ "dates": "early 3rd to early 4th c.",
+ "timeline": [
+  {
+   "when": "Early in the 3rd century",
+   "headline": "Alexander comes to Jerusalem, Origen preaches at Caesarea, and Africanus leads an embassy for Emmaus",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Alexander, a bishop in Cappadocia, came to Jerusalem because of a vow and to learn about the places there. After a vision at night, the people there, with the bishops of the nearby churches, kept him to share the office with their aged bishop, Narcissus.",
+     "reference": "Eusebius, Church History VI.11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33426-33532",
+     "note": "The visions are Eusebius's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "Alexander writes to the church at Antinoe that Narcissus, who held the office before him and now joins him in prayer, sends greetings at the age of a hundred and sixteen.",
+     "reference": "Alexander, Letter to the Antinoites, in Eusebius, Church History VI.11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33534-33556"
+    },
+    {
+     "when": "date unknown",
+     "text": "Alexander writes to Origen of their old friendship, and names Pantaenus and Clement, his masters, as the men through whom he came to know Origen.",
+     "reference": "Alexander, Letter to Origen, in Eusebius, Church History VI.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34330-34356"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that when a war broke out in Alexandria, Origen went to Palestine and stayed at Caesarea. The bishops there asked him to preach and explain the Scriptures in public, though he was not yet a presbyter.",
+     "reference": "Eusebius, Church History VI.19, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35303-35322"
+    },
+    {
+     "when": "date unknown",
+     "text": "Alexander, bishop of Jerusalem, and Theoctistus, bishop of Caesarea, answer Demetrius, bishop of Alexandria, that wherever men able to teach the brothers are found, the bishops ask them to preach to the people.",
+     "reference": "Alexander and Theoctistus to Demetrius, in Eusebius, Church History VI.19, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35371-35401"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Demetrius called Origen back by letter, and Origen returned to Alexandria.",
+     "reference": "Eusebius, Church History VI.19, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35422-35425"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that the letters of the learned men of that time were kept to his own day in the library at Aelia, as Jerusalem was then called, which Alexander founded. From that library, he says, he gathered material for his history.",
+     "reference": "Eusebius, Church History VI.20, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35434-35443"
+    },
+    {
+     "when": "in the reign of Antoninus, who followed Macrinus",
+     "text": "Jerome writes that Julius Africanus, author of five books on chronology, was given a commission to restore the city of Emmaus, which was afterwards called Nicopolis. Eusebius's Chronicle, in Jerome's Latin, says Africanus led the embassy for it.",
+     "reference": "Jerome, Lives of Illustrious Men 63, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40745-40748; Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43627-43633"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Origen, passing through Palestine on church business on his way to Greece, was made a presbyter at Caesarea by the bishops of that country.",
+     "reference": "Eusebius, Church History VI.23, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35953-35958; Jerome, Lives of Illustrious Men 62, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40732-40734",
+     "note": "Jerome says Alexander wrote in Origen's defense against Demetrius, who objected that Alexander had made him a presbyter."
+    }
+   ]
+  },
+  {
+   "when": "From the tenth year of Alexander's reign, to the time of Gallus",
+   "headline": "Origen settles at Caesarea and teaches there, and under Decius Alexander dies in prison and Origen is tortured",
+   "lines": [
+    {
+     "when": "about 231, the tenth year of Alexander",
+     "text": "Eusebius writes that in the tenth year of the emperor Alexander's reign, Origen moved from Alexandria to Caesarea, leaving the school there to Heraclas.",
+     "reference": "Eusebius, Church History VI.26, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36330-36334; Alexander's reign, VI.21, lines 35554-35556; the year is a conversion from Eusebius's tenth year of Alexander, counting his reign from 222"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Firmilian, bishop of Caesarea in Cappadocia, visited Origen in Judea and stayed with him to learn. Alexander of Jerusalem and Theoctistus of Caesarea, he says, attended on Origen as their only teacher and let him explain the Scriptures.",
+     "reference": "Eusebius, Church History VI.26-27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36340-36392"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that while Origen taught at Caesarea, pupils came to him from nearby and from other countries, among them Theodorus, later called Gregory, and his brother Athenodorus, who stayed five years.",
+     "reference": "Eusebius, Church History VI.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36568-36571,  36679-36684"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Origen wrote his commentaries on Isaiah and Ezekiel at Caesarea. He finished Ezekiel at Athens, and completed his ten books on the Song of Songs after his return to Caesarea.",
+     "reference": "Eusebius, Church History VI.32, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36813-36881"
+    },
+    {
+     "when": "date unknown",
+     "text": "Julius Africanus writes to Origen that the story of Susanna, which Origen had cited from the book of Daniel, is a later forgery. Its two puns, on the trees the elders name and the punishments they are threatened with, work in Greek, he says, but not in Hebrew.",
+     "reference": "Africanus, Letter to Origen, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 35060-35095"
+    },
+    {
+     "when": "date unknown",
+     "text": "Origen answers Africanus at length, saying his few days in Nicomedia left him little time. He asks whether the churches should throw out the copies of Scripture in use among them and ask the Jews for copies free from forgery.",
+     "reference": "Origen, Letter to Africanus, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 35131-35147,  35244-35250"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Africanus wrote five careful books on chronology, and went to Alexandria drawn by the fame of Heraclas. He also wrote to Aristides on the seeming disagreement between the genealogies of Jesus in Matthew and Luke.",
+     "reference": "Eusebius, Church History VI.31, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36794-36807",
+     "note": "Eusebius used the letter to Aristides in his first book."
+    },
+    {
+     "when": "under Decius",
+     "text": "Eusebius writes that in the persecution under Decius, Alexander, bishop of Jerusalem, was brought again before the governor's court at Caesarea, confessed his faith a second time, and died in prison in old age. Mazabanes succeeded him.",
+     "reference": "Eusebius, Church History VI.39, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37381-37384,  37413-37414,  37439-37458"
+    },
+    {
+     "when": "under Decius",
+     "text": "Eusebius writes that in the same persecution Origen endured chains, the iron collar, the dungeon and the stocks, and threats of fire, while his judge tried hard not to end his life.",
+     "reference": "Eusebius, Church History VI.39, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37484-37510"
+    },
+    {
+     "when": "until the time of Gallus and Volusianus",
+     "text": "Jerome writes that Origen lived until the time of Gallus and Volusianus, to his sixty-ninth year, and died at Tyre, where he was buried.",
+     "reference": "Jerome, Lives of Illustrious Men 54, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40589-40591"
+    }
+   ]
+  },
+  {
+   "when": "Before the persecution of Diocletian, date unknown",
+   "headline": "Pamphilus, a presbyter of Caesarea, copies Origen's books and gathers a library",
+   "lines": [
+    {
+     "when": "while Agapius was bishop of Caesarea",
+     "text": "Eusebius writes that while Agapius was bishop of Caesarea, he came to know Pamphilus, an eloquent man of philosophic life and a presbyter there. He says he wrote a separate work on Pamphilus's life, his school and his trials.",
+     "reference": "Eusebius, Church History VII.32, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42996-43046"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that Pamphilus copied most of Origen's works with his own hand, and that they were still kept in the library at Caesarea. Jerome owned twenty-five volumes of Origen on the twelve prophets in Pamphilus's hand.",
+     "reference": "Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40958-40968"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that in his life of Pamphilus he gave a catalogue of the library Pamphilus collected, of Origen's works and those of other church writers.",
+     "reference": "Eusebius, Church History VI.32, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36883-36894"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that the Hebrew Gospel of Matthew was kept to his day in the library at Caesarea that Pamphilus gathered so carefully.",
+     "reference": "Jerome, Lives of Illustrious Men 3, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39357-39361"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that Pamphilus wrote an Apology for Origen before Eusebius wrote his own.",
+     "reference": "Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40968-40969"
+    }
+   ]
+  },
+  {
+   "when": "From the nineteenth year of Diocletian, about 303",
+   "headline": "The persecution comes to Caesarea, and Apphianus, Pamphilus and his household die",
+   "witness": "Eusebius, The Martyrs of Palestine, who lived through it at Caesarea",
+   "lines": [
+    {
+     "when": "303, the nineteenth year of Diocletian",
+     "text": "Eusebius writes that the persecution began in the nineteenth year of Diocletian's reign, in the month Xanthicus, and that the first of the martyrs of Palestine was Procopius.",
+     "reference": "Eusebius, The Martyrs of Palestine preface and 1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 45892-45894,  45924-45925; the year is a conversion, counting Diocletian's reign from 284"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Apphianus, from a wealthy family of Pagae in Lycia, had studied Greek learning at Berytus. He left his family in secret and came to Caesarea, where he lived with Eusebius and studied the Scriptures.",
+     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46327-46366"
+    },
+    {
+     "when": "the third year of the persecution",
+     "text": "Eusebius writes that when Maximinus ordered all the people to sacrifice, heralds summoned the city of Caesarea and officers called each name from a roll. Apphianus, not yet twenty, slipped past those he lived with, Eusebius among them, and past the soldiers. He seized the governor Urbanus by the right hand as he poured an offering, and urged him to leave his error.",
+     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46333-46334,  46376-46396"
+    },
+    {
+     "when": "the third year of the persecution",
+     "text": "Eusebius writes that Apphianus was beaten, held in the stocks for a night and a day, and tortured until his face could not be known. His feet were wrapped in linen soaked in oil and set on fire, and at last, half dead, he was thrown into the sea.",
+     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46408-46436"
+    },
+    {
+     "when": "on the fourth day before the Nones of April",
+     "text": "Eusebius writes that the sea and the shore were then shaken, and the sea threw the body out before the gates of the city, and that all the people of Caesarea saw it.",
+     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46438-46458,  46492-46493",
+     "note": "The wonder is Eusebius's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that twelve were martyred with Pamphilus, a man thrice dear to him and the only presbyter at Caesarea among them. Pamphilus shared his goods with the needy and was devoted to the Scriptures.",
+     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47067-47080"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that five Egyptians, who had gone with the confessors to the mines in Cilicia, were seized at the gates of Caesarea on their way home, when they told the guards who they were.",
+     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47111-47117"
+    },
+    {
+     "when": "on the fourteenth day before the Kalends of March, so 309 or 310",
+     "text": "Eusebius writes that the five Egyptians were brought before the judge with Pamphilus and his companions, and that each of them gave the same single answer when asked if they would now obey.",
+     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47119-47134,  47191-47198; the year is worked out from Eusebius's sixth year of the persecution, lines 46750-46751, and its seventh year complete, line 47406, counting from the nineteenth year of Diocletian, line 45893; Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40969-40970",
+     "note": "Jerome says Pamphilus was put to death at Caesarea in the persecution of Maximinus."
+    },
+    {
+     "when": "the same day",
+     "text": "Eusebius writes that Porphyry, a young servant of Pamphilus's household, cried out from the crowd asking that the bodies be buried. He was scraped to the bone, as if he were stone or wood, and then burned over a slow fire, calling on Jesus the Son of God.",
+     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47200-47245"
+    },
+    {
+     "when": "the same day",
+     "text": "Eusebius writes that Seleucus, a confessor who had been a soldier, brought Pamphilus word of Porphyry's death and greeted one of the martyrs with a kiss. He was seized and put to death at once.",
+     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47247-47254"
+    },
+    {
+     "when": "after the seventh year of the persecution",
+     "text": "Eusebius writes that when the seventh year of the persecution was complete, the measures against the Christians, which went on into the eighth year, slowly became less severe.",
+     "reference": "Eusebius, The Martyrs of Palestine 13, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47405-47408"
+    }
+   ]
+  },
+  {
+   "when": "Afterwards, in the 4th century",
+   "headline": "Eusebius, bishop of Caesarea, takes Pamphilus's name and writes the church's history",
+   "lines": [
+    {
+     "when": "in the reigns of Constantine and Constantius",
+     "text": "Jerome writes that Eusebius, bishop of Caesarea, studied the Bible with Pamphilus. His works include a Church History in ten books, a Chronicle, six books of Apology for Origen and three books on the life of Pamphilus. His surname Pamphilus, Jerome says, came from his friendship with the martyr.",
+     "reference": "Jerome, Lives of Illustrious Men 81, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41061-41077"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Church History and The Martyrs of Palestine, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men, in English",
+   "author": "Jerome",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Letters on the story of Susanna, in English",
+   "author": "Julius Africanus and Origen",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+  }
+ ],
+ "uncertain": [
+  "How long Origen stayed at Caesarea. Eusebius says he moved there in the tenth year of Alexander's reign. Jerome says he lived until the time of Gallus and Volusianus and died at Tyre. No old source held here gives the length of his stay.",
+  "The year Pamphilus died. Eusebius gives the day, the fourteenth before the Kalends of March, and no year. His chapter falls between the sixth year of the persecution and the end of the seventh, so the year is 309 or 310. Jerome says only that Pamphilus died in the persecution of Maximinus.",
+  "The library at Caesarea. Eusebius speaks of the library Pamphilus collected, and Jerome of the library at Caesarea that Pamphilus gathered, which held Origen's works in Pamphilus's hand. Eusebius's three books on the life of Pamphilus, where he listed it, are not held.",
+  "Africanus and Emmaus. Jerome says Africanus was given a commission to restore Emmaus, and the Chronicle says he led the embassy for it. Neither says he lived there.",
+  "The story of Susanna. Africanus says Origen cited it in a discussion with Agnomon. Origen's reply says the discussion was with Bassus.",
+  "The body of Apphianus. Eusebius says all the people of Caesarea saw the sea throw it out before the city gates."
+ ]
+}

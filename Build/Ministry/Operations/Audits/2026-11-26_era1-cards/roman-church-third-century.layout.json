@@ -1,0 +1,384 @@
+{
+ "shortDescription": "In Rome, Callistus, once a slave, became bishop, and Hippolytus, a writer of his day, said he let people off for sins of the body. In 251, after Decius made Christians sacrifice, bishops at Rome agreed to take back those who gave way, if they repented.",
+ "dates": "c. 201 to late 3rd c.",
+ "timeline": [
+  {
+   "when": "Under Zephyrinus, bishop of Rome, early in the 3rd century",
+   "headline": "Zephyrinus leads the church of Rome, a penitent comes back, and a quarrel begins over Father and Son",
+   "lines": [
+    {
+     "when": "about 201, the ninth year of Severus",
+     "text": "Eusebius writes that Victor was bishop of Rome for ten years, and that Zephyrinus succeeded him in about the ninth year of the emperor Severus.",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32209-32211; the year is a conversion from Eusebius's ninth year of Severus, counting his reign from 193"
+    },
+    {
+     "when": "under Victor, before Zephyrinus",
+     "text": "An anonymous writer of Zephyrinus's day, whom Eusebius quotes, says that Victor, bishop of Rome, had cut off from communion Theodotus the cobbler, the first to say that Christ was a mere man.",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32190-32204"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "The same writer tells of Natalius, a confessor, one who had stood trial for the faith. The followers of Theodotus persuaded him to be their bishop for a salary of a hundred and fifty denarii a month.",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32216-32219,  32244-32246",
+     "note": "The writer says this happened in his own time."
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "The writer says Natalius was warned in visions and paid them little regard, and that he was then scourged by holy angels all night.",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32252-32262",
+     "note": "The visions and the angels are the writer's account."
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "In the morning, the writer says, Natalius put on sackcloth and ashes and fell in tears before Zephyrinus, rolling at the feet of the clergy and the people. He showed the welts of his beating, and was barely taken back into communion, the church's shared bread and cup.",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32267-32274"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Eusebius writes that Caius, a learned churchman, held a dialogue at Rome under Zephyrinus with Proclus, who argued for the Phrygian heresy, as Eusebius calls the New Prophecy.",
+     "reference": "Eusebius, Church History VI.20, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35451-35457"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus writes that the teaching of Noetus, that the Son and the Father are the same, was spread at Rome by his pupil Epigonus, and taken up by Cleomenes.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13280-13285,  13553-13554"
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus calls Zephyrinus uninformed and corrupt, and says he came over to the same teaching, with Callistus as his adviser.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13285-13295",
+     "note": "Hippolytus opposed both men."
+    },
+    {
+     "when": "under Zephyrinus",
+     "text": "Hippolytus writes that Zephyrinus said in public that he knew one God, Jesus Christ, and no other born and able to suffer. At another time, Hippolytus says, he said the Father did not die, but the Son, and Hippolytus's side withstood him.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13619-13633"
+    }
+   ]
+  },
+  {
+   "when": "Callistus bishop, after the death of Zephyrinus",
+   "headline": "Callistus, who had been a slave, becomes bishop, and Hippolytus charges him on teaching, forgiveness and marriage",
+   "witness": "Hippolytus, Refutation of All Heresies IX, by an opponent, written after Callistus died",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that Callistus was a household slave of Carpophorus, a believer in the emperor's household. After Callistus caused a disturbance in a synagogue on the Sabbath, he says, the city prefect Fuscianus had Callistus scourged and sent to a mine in Sardinia.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13672-13674,  13690,  13726-13751"
+    },
+    {
+     "when": "under Victor, then Zephyrinus",
+     "text": "Hippolytus writes that Victor, bishop of Rome, sent Callistus to live at Antium on a monthly allowance, and that Zephyrinus brought him back and set him over the cemetery.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13800-13805"
+    },
+    {
+     "when": "the first year of Antoninus, Eusebius says",
+     "text": "Eusebius writes that Zephyrinus died after eighteen years as bishop, in the first year of Antoninus, who followed Macrinus, and that Callistus held the office for five years, followed by Urbanus.",
+     "reference": "Eusebius, Church History VI.21, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35477-35482,  35530-35533",
+     "note": "The list of Rome's bishops in the Chronograph of 354 counts the years differently."
+    },
+    {
+     "when": "in the times of Macrinus and Elagabalus, the list says",
+     "text": "The list of Rome's bishops in the Chronograph of 354 gives Callistus five years, two months and ten days as bishop, in the times of Macrinus and Elagabalus.",
+     "reference": "The list of Rome's bishops in the Chronograph of 354, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 66797-66799"
+    },
+    {
+     "when": "after the death of Zephyrinus",
+     "text": "Hippolytus writes that Callistus, once bishop, put Sabellius out of the church for his teaching. He says Callistus did it out of fear of Hippolytus, and to clear himself among the churches of the charge that he shared it.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13816-13822"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus gives Callistus's own words: he would not profess belief in two Gods, Father and Son, but in one. Hippolytus then charges that Callistus made the Father suffer along with the Son.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13855-13864"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that Callistus called his side worshippers of two gods. In his own work against Noetus, Hippolytus says there is one God, but two Persons, Father and Son, and the grace of the Holy Spirit.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13633-13640; Against Noetus, the same file, lines 23728-23732"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus charges that Callistus was the first to let people off for sins of sensual pleasure, saying he forgave everyone's sins. Anyone who joined his congregation, Hippolytus says, had his sin not counted against him.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13873-13882"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that many were glad of Callistus's rule: people troubled in conscience, people other groups had rejected, and some whom Hippolytus's own side had forced out of the church.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13882-13889"
+    },
+    {
+     "when": "in Callistus's time",
+     "text": "Hippolytus charges that Callistus held that a bishop should not be removed even for a grave sin. In his time, Hippolytus says, bishops, priests and deacons married twice or three times began to keep their places.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13889-13897"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that Callistus gave his reasons from Scripture: Paul's question, who are you to judge another's servant, and the parable that lets the weeds grow with the wheat. So, Hippolytus says, he let sinners stay in the church.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13899-13909"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus writes that Callistus let a woman who would lose her rank by a lawful marriage take a companion, slave or free, and count him her husband.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13923-13938"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hippolytus charges that such women then took drugs to prevent or end a pregnancy, not wanting a child by a slave, and he calls Callistus's rule a teaching of adultery and murder.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13938-13951"
+    },
+    {
+     "when": "after Callistus's death",
+     "text": "Hippolytus writes that Callistus's people tried to call themselves a Catholic Church, and that the school Callistus founded still kept his customs, offering communion to all.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13951-13963"
+    }
+   ]
+  },
+  {
+   "when": "After Callistus, to 250",
+   "headline": "A bishop and Hippolytus are sent to Sardinia, and Fabian is chosen bishop",
+   "lines": [
+    {
+     "when": "in the consulship of Severus and Quintianus, so 235",
+     "text": "The list of Rome's bishops in the Chronograph of 354 says that Pontianus, the bishop, and Hippolytus, a presbyter, were deported to the island of Sardinia.",
+     "reference": "The list of Rome's bishops in the Chronograph of 354, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 66805-66808; the year is a conversion from the consuls the list names"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that Pontianus, bishop of Rome for six years, was succeeded by Anteros, and Anteros, after a month, by Fabian.",
+     "reference": "Eusebius, Church History VI.29, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36476-36488"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius tells it as a report. When all the brothers met to choose a bishop by vote, a dove flew down onto Fabian, a newcomer from the country whom no one had in mind. The whole people cried out that he was worthy, and set him on the bishop's seat.",
+     "reference": "Eusebius, Church History VI.29, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36508-36526",
+     "note": "The dove is what Eusebius says was told."
+    },
+    {
+     "when": "date unknown",
+     "text": "The list of Rome's bishops says that Fabian divided the regions of the city among the deacons and had many buildings put up in the cemeteries.",
+     "reference": "The list of Rome's bishops in the Chronograph of 354, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 66818-66821"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that it is reported that the emperor Philip was a Christian and wished to share in the church's prayers at Easter.",
+     "reference": "Eusebius, Church History VI.34, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36995-36997"
+    }
+   ]
+  },
+  {
+   "when": "250, the persecution under Decius",
+   "headline": "Fabian dies a martyr, and Rome's clergy care for the fallen without a bishop",
+   "lines": [
+    {
+     "when": "250, in the consulship of Decius, for the second time, and Gratus",
+     "text": "Eusebius writes that Decius, out of hatred for Philip, began a persecution of the churches, in which Fabian died a martyr at Rome. The list of Rome's bishops ends Fabian's years in the consulship of Decius, for the second time, and Gratus.",
+     "reference": "Eusebius, Church History VI.39, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37413-37416; the list, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 66818-66820; the year is a conversion from the consuls the list names"
+    },
+    {
+     "when": "250",
+     "text": "Cyprian, bishop of Carthage, writes to the clergy of Rome that their letter, brought by the subdeacon Crementius, told him fully of Fabian's glorious end.",
+     "reference": "Cyprian, Letters 3 in the English numbering, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28911-28916"
+    },
+    {
+     "when": "250",
+     "text": "Rome's clergy write to Carthage's clergy that they called back people on their way up to sacrifice. Some fell from terror, they write, being people of standing or seized with fear of men, and the clergy have not abandoned them, but urge them to repent.",
+     "reference": "The Roman clergy to the clergy of Carthage, Cyprian, Letters 8.2, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 1126-1133; English, Letters 2, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28850-28860"
+    },
+    {
+     "when": "250",
+     "text": "In the same letter, Rome's clergy ask that a fallen Christian who falls sick, repents and asks for communion be given it. Widows, the bedridden, prisoners and those shut out of their homes must have people to serve them, and the bodies of the martyrs must be buried.",
+     "reference": "The Roman clergy to the clergy of Carthage, Cyprian, Letters 8.3, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28865-28878"
+    },
+    {
+     "when": "after Fabian's death",
+     "text": "Moyses and Maximus, presbyters, and Nicostratus and Rufinus, deacons, write to Cyprian as confessors of Rome, held for the faith.",
+     "reference": "Cyprian, Letters 25 in the English numbering, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 31009-31013; the list of Rome's bishops, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 66823-66824"
+    },
+    {
+     "when": "250, after Fabian's death",
+     "text": "Rome's clergy write to Cyprian that they have had no bishop since Fabian's death, because of the troubles of the times. So no one can settle the case of the fallen with authority.",
+     "reference": "Cyprian, Letters 30 in the English numbering, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 31706-31713"
+    }
+   ]
+  },
+  {
+   "when": "251",
+   "headline": "Cornelius is made bishop, Novatian is set up against him, and the confessors come back",
+   "lines": [
+    {
+     "when": "251",
+     "text": "Cyprian writes that Cornelius rose through every office of the church. He was made bishop, Cyprian says, by the judgment of God, the witness of almost all the clergy, the vote of the people then present, and the assembly of older bishops.",
+     "reference": "Cyprian, Letters 55.8, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 7673-7679; English, Letters 51, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33559-33580",
+     "note": "Cyprian was Cornelius's ally."
+    },
+    {
+     "when": "251",
+     "text": "Cyprian praises Cornelius for sitting fearless in the bishop's chair at Rome while the emperor threatened the bishops. The emperor, he writes, would sooner hear of a rival emperor than of a bishop made at Rome.",
+     "reference": "Cyprian, Letters 55.9, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 7715-7719; English, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33598-33603",
+     "note": "Cyprian's praise."
+    },
+    {
+     "when": "251",
+     "text": "Cornelius, writing to Fabius, bishop of Antioch, counts his church. It has forty-six presbyters and seven deacons, with lesser clergy: seven subdeacons, forty-two acolytes, and fifty-two exorcists, readers and doorkeepers. It feeds more than fifteen hundred widows and people in distress.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38565-38615"
+    },
+    {
+     "when": "251",
+     "text": "Eusebius writes that Novatus, as he names this presbyter of Rome, set himself against the fallen, as if there was no more hope of salvation for them. He led those who called themselves Cathari, the pure.",
+     "reference": "Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38265-38270; the name Novatian, Cyprian's letters, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml line 33166",
+     "note": "Cyprian's letters name him Novatian."
+    },
+    {
+     "when": "251",
+     "text": "Cornelius writes of his rival that he long wanted to be bishop and hid it, using as a cloak the confessors who had sided with him from the beginning.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38383-38387",
+     "note": "Cornelius's charge against his rival."
+    },
+    {
+     "when": "251",
+     "text": "Cornelius writes that one of the bishops who made Novatian bishop soon came back, confessing his wrong. He was received as a layman, with all the people present pleading for him.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38536-38540"
+    },
+    {
+     "when": "251",
+     "text": "Cornelius writes that Novatian did not know there should be one bishop in a catholic church.",
+     "reference": "Cornelius to Fabius, in Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38542-38548"
+    },
+    {
+     "when": "date unknown",
+     "text": "The list of Rome's bishops in the Chronograph of 354 says that Novatus came from Africa and separated Novatian and some confessors from the church, after Moyses died in prison.",
+     "reference": "The list of Rome's bishops in the Chronograph of 354, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 66825-66827",
+     "note": "Written about a century later; Cornelius tells it differently."
+    },
+    {
+     "when": "251",
+     "text": "Eusebius writes that sixty bishops met at Rome, with many presbyters and deacons. They decreed that Novatian's party was to be held outside the church, and that the fallen were to be healed through repentance.",
+     "reference": "Eusebius, Church History VI.43, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 38272-38299"
+    },
+    {
+     "when": "251",
+     "text": "Cornelius writes to Cyprian that the confessors who had sided with Novatian came back, saying they had been deceived. He called the presbyters together, with five bishops, and then the people were told.",
+     "reference": "Cornelius to Cyprian, Cyprian, Letters 49.1-2, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6785-6788; English, Letters 45, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 32975-33011"
+    },
+    {
+     "when": "251",
+     "text": "Cornelius writes that a great crowd of the brothers and sisters came running together and gave thanks to God with one voice. They wept for joy, and embraced the confessors as if they had been set free from prison that day.",
+     "reference": "Cornelius to Cyprian, Cyprian, Letters 49.2, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6825-6828; English, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33011-33015"
+    },
+    {
+     "when": "251",
+     "text": "The confessors, as Cornelius gives their words, say they know there is one God, one Christ the Lord whom they confessed, and one Holy Spirit. There should be one bishop, they say, in the catholic church.",
+     "reference": "Cornelius to Cyprian, Cyprian, Letters 49.2, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6829-6837; English, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33015-33025"
+    },
+    {
+     "when": "251",
+     "text": "Cornelius writes that Maximus the presbyter was told to take his place again, and the rest were received with the loud approval of the people.",
+     "reference": "Cornelius to Cyprian, Cyprian, Letters 49.2, ed. Hartel, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6867-6869; English, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33034-33037"
+    }
+   ]
+  },
+  {
+   "when": "After 251, to the time of Dionysius of Rome",
+   "headline": "Rome's bishops send help east, Xistus dies a martyr, and Dionysius of Rome writes on Father and Son",
+   "lines": [
+    {
+     "when": "under Stephen, bishop of Rome",
+     "text": "Eusebius writes that Cornelius was bishop about three years, then Lucius for less than eight months, then Stephen. Dionysius of Alexandria writes to Stephen of all Syria and Arabia, to which, he says, Stephen sends help when needed.",
+     "reference": "Eusebius, Church History VII.2, VII.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39214-39232,  39386-39388"
+    },
+    {
+     "when": "under Valerian, on the eighth day of the Ides of August",
+     "text": "Cyprian writes to Successus, a fellow bishop, that Valerian has ordered bishops, presbyters and deacons to be punished at once, and that Xistus, bishop of Rome, was martyred in the cemetery with four deacons.",
+     "reference": "Cyprian, Letters 81 in the English numbering, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 41156-41186; Xistus as bishop of Rome, Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41759",
+     "note": "A note in the print gives another reading: and with him Quartus."
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that after Xistus had led the church of Rome for eleven years, Dionysius succeeded him, and that about the same time Paul of Samosata became bishop of Antioch.",
+     "reference": "Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41785"
+    },
+    {
+     "when": "date unknown",
+     "text": "Athanasius writes that believers from Alexandria went to Rome and spoke against their own bishop, Dionysius, before Dionysius, bishop of Rome. Dionysius of Rome then wrote against the followers of Sabellius, and against those who said the Word of God is a thing made.",
+     "reference": "Athanasius, On the Opinion of Dionysius 13, cic/texts/npnf204_athanasius-select-works-letters.xml lines 29870-29882",
+     "note": "Athanasius wrote in the next century."
+    },
+    {
+     "when": "date unknown",
+     "text": "Dionysius of Rome, as Athanasius quotes him, writes against Sabellius, who says the Son is the Father, and against teachers who preach three Gods. Scripture, he writes, preaches a Triad, and neither Testament preaches three Gods.",
+     "reference": "Athanasius, On the Decrees of the Synod of Nicaea 26, cic/texts/npnf204_athanasius-select-works-letters.xml lines 28469-28473,  28529-28534,  28566-28571"
+    },
+    {
+     "when": "before the persecution of Eusebius's own day",
+     "text": "Eusebius writes that the Roman church's custom of sending gifts to many churches in every city, and to believers in the mines, was kept down to the persecution of his own day.",
+     "reference": "Eusebius, Church History IV.23, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25094-25105",
+     "note": "Eusebius says this while quoting a letter to the Romans written when Soter was their bishop."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Refutation of All Heresies, Book 9, with the letters of Cyprian and of the Roman church, in English",
+   "author": "Hippolytus, Cyprian and the Roman clergy",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+  },
+  {
+   "title": "Church History, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Church History, Books 6 to 10, in Greek",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "title": "Letters of Cyprian and of the Roman church, in Latin",
+   "author": "Cyprian, the Roman clergy and Cornelius",
+   "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+  }
+ ],
+ "uncertain": [
+  "What Callistus meant. His words and his reasons survive only as Hippolytus reports them. Hippolytus gives his saying that he would not believe in two Gods, then calls it a cover, and charges that Callistus still made the Father suffer along with the Son.",
+  "Who led the split of 251. Eusebius says a presbyter of Rome, lifted up against the fallen as if they had no more hope, led the split. Cornelius, as Eusebius quotes him, says he had confessors at his side. The list of Rome's bishops in the Chronograph of 354 says instead that Novatus came from Africa and separated Novatian and some confessors from the church, after Moyses had died in prison.",
+  "The year Callistus became bishop. The list of Rome's bishops and Eusebius count the years differently, so the old sources fix no single year.",
+  "Fabian's election. Eusebius, writing in the next century, tells it as a report: a dove flew down onto Fabian, a newcomer from the country whom no one had in mind, and the whole people cried out that he was worthy.",
+  "Natalius's return. The anonymous writer whom Eusebius quotes says Natalius was warned in visions and then scourged all night by holy angels, and showed the welts when he begged to be taken back."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "I will not profess belief in two Gods, Father and Son, but in one.",
+   "printed": "I will not profess belief in two Gods, Father and Son, but in one.",
+   "work": "Hippolytus, Refutation of All Heresies IX (tr. J. H. MacMahon, Ante-Nicene Fathers 5, 1886)",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "13856-13857",
+   "uncertain": "The Greek of the Refutation is not held, so the English stands alone. These are Callistus's words as Hippolytus, his opponent, reports them.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "They are separated from us, but we have not abandoned them. We urged them, and urge them still, to repent, if by some means they can receive pardon from the One who is able to grant it. If we abandoned them, they would grow worse.",
+   "printed": "quos quidem separatos a nobis non dereliquimus, sed ipsos cohortati sumus et hortamur agere paenitentiam, si quo modo indulgentiam poterint recipere ab eo qui potest praestare, ne si relicti fuerint a nobis, peiores efficiantur.",
+   "work": "The Roman clergy to the clergy of Carthage, 250 (Cyprian, Letters 8.2, ed. W. Hartel, 1871)",
+   "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+   "lines": "1129-1133",
+   "englishPrinted": "these, however, we did not abandon, although they were separated from us, but exhorted them, and do exhort them, to repent, if in any way they may receive pardon from Him who is able to grant it; lest, haply, if they should be deserted by us, they should become worse.",
+   "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "englishLines": "28856-28860",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "A great crowd of the brothers and sisters came running together. All of them had one voice, giving thanks to God. They showed the joy of their hearts in tears. They embraced them as if they had been set free from prison that very day.",
+   "printed": "magnus fraternitatis concursus factus. una uox erat omnium gratias Deo agentium gaudium pectoris lacrimis exprimentes, conplectentes eos quasi hoc die poena carceris fuissent liberati.",
+   "work": "Cornelius to Cyprian, 251 (Cyprian, Letters 49.2, ed. W. Hartel, 1871)",
+   "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+   "lines": "6825-6828",
+   "englishPrinted": "a great concourse of the brotherhood was assembled. There was one voice from all, giving thanks to God; all were expressing the joy of their heart by tears, embracing them as if they had this day been set free from the penalty of the dungeon.",
+   "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "englishLines": "33011-33016",
+   "uncertain": "Fraternitas is the whole body of believers, so brothers and sisters; concursus is a running together.",
+   "secondReading": "minor"
+  }
+ ]
+}
