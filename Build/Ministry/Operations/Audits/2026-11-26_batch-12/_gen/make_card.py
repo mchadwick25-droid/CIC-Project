@@ -1,0 +1,17 @@
+"""make_card.py <slug>... -> Card_Prompt.filled.md (writer) and Card_Check_Prompt.filled.md (independent check)"""
+import re, sys
+B='Build/Ministry/Operations/Audits/2026-11-26_batch-12'
+role=open('Build/Ministry/Features/Church-Family-Tree/Brief-Kit/roles/card.md').read()
+RULE='''- **The card (Mark, 2026-11-27, "Batch 12: the full cards for its twenty people": "a". This batch only).** Batch 12 writes the full new card for this person, right after the brief: every section of the card in `Build/Ministry/Features/Church-Family-Tree/Stage-Two-Kit/Kit.md` section 1, the Timeline (section 2) included, with dates and names under section 3. It is a full card, not a refinement. Build it under the role's "A new card": every field is sourced afresh from the source sheet, the outline at its cited lines, or the finished brief. The starting card (`Card.existing.json`, and this entry's `card` in `cic-website/data/world-census.json` as it now stands) is a pointer only: wording of it that a held line still supports may be kept, and each kept field is listed in `Card_Edits.md` with its evidence like any other.
+- **The card standard and format (Mark's words, recorded in `Build/Ministry/Operations/Audits/2026-11-26_era1-cards/Header.md`, sections "Correction: the full section set", "The card standard", "Dates from the sources' own clues" and "Modern works on the cards").** Read those four sections and follow them: Brief Kit Part 1 in full, in card form (read and scanned, each line standing alone, no narrative moves); a Timeline in periods, each period with a date and one-line headline, every line with its reference (file and lines) right after the point; where a section has no held material, say so plainly. The model for the keys and their shape is the `card` of `polycarp-of-smyrna` in `cic-website/data/world-census.json` (`shortDescription`, `briefSources`, `timeline`, with the other card keys), and the census validator `tools/validate-census.mjs` decides which keys are allowed. The short description is one or two sentences, written fresh. Run `python -m engine.m1.profile_readability` on a plain file of the card's running text (kept outside the repository) and give its line.
+- **The brief is final:** `{SLUG}.brief.txt` in this folder, after its fresh read (`Fresh_Read.md`, `Fresh_Applied.md` where present). Name no audit file, review or ruling on the card.
+'''
+for slug in sys.argv[1:]:
+    h=open(f'{B}/{slug}/Reviewer_Prompt.filled.md').read().split('\n---\n')[0]
+    h='\n'.join(l for l in h.split('\n') if not l.startswith('- **Length (Mark') and not l.startswith('- **The live text') and not l.startswith('- **Variety'))
+    name=re.search(r'\*\*Story:\*\* (.*?) \(census',h).group(1)
+    body=role.replace('{NAME}',name).replace('{FOLDER}',f'{B}/{slug}').replace('{SLUG}',slug).replace('{CARD}',f'{B}/{slug}/Card.existing.json')
+    hdr=h.rstrip('\n')+'\n\n'+RULE.replace('{SLUG}',slug)
+    w=hdr+'\n---\n\nYou are the **card writer**. Do the role below up to (not including) "The check pass".\n\n'+body
+    c=hdr+'\n---\n\nYou are the **card checker**: you did not write this card. Do only "The check pass" of the role below, checking every line and headline of the Timeline against its source (Stage Two Kit section 2, item 6) and every card text against the card standard above, and write `'+f'{B}/{slug}/Card_Check.md'+'`.\n\n'+body
+    open(f'{B}/{slug}/Card_Prompt.filled.md','w').write(w); open(f'{B}/{slug}/Card_Check_Prompt.filled.md','w').write(c); print('ok',slug,name)
