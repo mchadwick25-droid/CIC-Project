@@ -223,8 +223,8 @@
       "witness": "Hippolytus, in the Refutation, an enemy's account of Zephyrinus and Callistus",
       "lines": [
         {
-          "when": "In Victor's time",
-          "text": "Callistus, a servant of Carpophorus, loses money that widows and brethren had left at his bank and runs away. Later the city prefect sends him to a mine in Sardinia, and he is freed with other prisoners there through Marcia, who had asked the emperor Commodus for their release.",
+          "when": "Date unknown, ending in Victor's time",
+          "text": "Callistus, a servant of Carpophorus, loses money that widows and brethren had left at his bank and runs away. Later the city prefect sends him to a mine in Sardinia. Though left off the list, he is freed when Marcia wins the release of the martyrs there from the emperor Commodus.",
           "reference": "Refutation IX.7, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13672-13790"
         },
         {
@@ -428,7 +428,7 @@
         {
           "when": "Date unknown",
           "text": "Writing to Damasus, Jerome gives the words of Hippolytus the martyr; in later letters he calls him eloquent, and says Ambrose followed him and Basil.",
-          "reference": "Jerome, Letter 36, cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt lines 14310; Jerome, Letters 71 and 84, cic/texts/npnf206_jerome-principal-works.xml lines 16970 and 19268-19272"
+          "reference": "Jerome, Letter 36, cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt lines 14309-14316; Jerome, Letters 71 and 84, cic/texts/npnf206_jerome-principal-works.xml lines 16970 and 19268-19272"
         },
         {
           "when": "Date unknown",

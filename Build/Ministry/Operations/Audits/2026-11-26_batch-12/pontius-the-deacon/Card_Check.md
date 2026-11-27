@@ -8,15 +8,15 @@ Four changes, below. Everything else passes.
 
 ## FIX
 
-1. **timeline, period "257, the first day at Curubis", third line, `text`.** The judge's face was calm; it was his mind that seemed moved (VE 28078–28079, "I perceived from the calmness of his countenance that the judge's mind was moved"; VL 41034–41035, "sensi tamen de uultus sereuitate iudicis mentem quasi iusta petitione commotam"). The card moves the detail from the mind to the face.
+1. **timeline, period "257, the first day at Curubis", third line, `text`.** The judge's face was calm; it was his mind that seemed moved (VE 28078–28079, "I perceived from the calmness of his countenance that the judge's mind was moved"; VL 41033–41034, "sensi tamen de uultus sereuitate iudicis mentem quasi iusta petitione commotam"). The card moves the detail from the mind to the face.
    - Old: "Cyprian begs a delay of one day to put his affairs in order. The judge's face seems moved, and the young man signals, twisting his fingers one behind the other, that the delay is granted until the next day."
    - New: "Cyprian begs a delay of one day to put his affairs in order. From the judge's calm face, he senses that the request has moved him, and the young man signals, twisting his fingers one behind the other, that the delay is granted until the next day."
 
-2. **timeline, period "257 to 258", fifth line (the messenger), `text`, `reference` and a new `note`.** The Latin reads "de Xisto ... ab urbe nuntius uenerat" (VL 41142–41143): a messenger had come from the city about Xistus. "From Xistus" is the English translation's reading (VE 28137–28138). The outline keeps both ("from (or about) its bishop", Beat 4); the card states one as fact.
+2. **timeline, period "257 to 258", fifth line (the messenger), `text`, `reference` and a new `note`.** The Latin reads "de Xisto ... ab urbe nuntius uenerat" (VL 41141–41142): a messenger had come from the city about Xistus. "From Xistus" is the English translation's reading (VE 28137–28138). The outline keeps both ("from (or about) its bishop", Beat 4); the card states one as fact.
    - Old text: "A messenger comes to Cyprian from the bishop of Rome, whom Pontius calls a most blessed martyr."
    - New text: "A messenger comes to Cyprian from Rome with word about its bishop, whom Pontius calls a most blessed martyr."
    - Old reference: "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28137-28139"
-   - New reference: "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28137-28139; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41142-41143"
+   - New reference: "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28137-28139; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41141-41142"
    - New note: "The Latin says the messenger came about the bishop; the English translation says from him."
 
 3. **timeline, period "September 258", sixth line (the trial), `text`.** "He is the man" is unclear read once. The Latin is "interrogatur de suo nomine: se esse respondit. et hactenus uerba" (VL 41310), the outline's rendering "He answered that he was. That was all that was said" (outline Quotes).

@@ -8,7 +8,7 @@ Card: `origen.card.json`. Keys: knownFor, shortDescription, datesNote, placeNote
 
 **knownFor** (kept word for word). Teacher and Bible scholar at Alexandria and Caesarea: brief para 2; E7, S4. Commentaries: EUS 35968-35972 (chapter "The Commentaries which he prepared at Alexandria"). A book of doctrine argued over for centuries: I12 (PAM 14630-14706, On First Principles the book his accusers attack most); J6 40804-40818; brief para 2.
 
-**shortDescription** (new). Brief para 2 (the essence) and para 10 (Decius); E28.
+**shortDescription** (new). Brief para 2 (the essence) and para 11 (Decius); E28.
 
 **datesNote** (new). S2 (tenth year of Severus), E4 (not quite seventeen), S4 (tenth year of Alexander), E27/E28 (Decius), S6 (Gallus, sixty-nine). Editor's years not stated: M1, M5, M6 (Outline, Setting and "For the card"). The last clause matches the Entry fields change to `dates` below.
 
@@ -27,9 +27,9 @@ Card: `origen.card.json`. Keys: knownFor, shortDescription, datesNote, placeNote
 3. Kept, one change. Old: "A letter Origen wrote to that Gregory ... It urges him to take from Greek learning whatever serves Christianity". New: "A letter from Origen to a Gregory he calls his son ... It urges him to take from Greek philosophy what can prepare for Christianity". Evidence: PHIL 148-149 (ch. XIII, "my good lord and most reverend son, Gregory"; "such parts even of Greek philosophy as may serve ... a kind of preparation for Christianity"). The held letter does not say it is the pupil of trace 1, so "that Gregory" is not kept.
 4. New: Dionysius his pupil. I11 (EUS 36552-36559, 37077-37080). Outline, What came of it 4 (card).
 5. New: Pamphilus's library; Eusebius's collection of letters. I10 (EUS 36887-36894, 37206-37208; NP3 40958-40962). Outline, What came of it 5 (card).
-6. New: the Defense, its six books, and what Book I answered. I4 (PHO 11437-11441), I12 (PAM 14630-14706); brief para 11. Outline, What came of it 5 (card).
+6. New: the Defense, its six books, and what Book I answered. I4 (PHO 11437-11441), I12 (PAM 14630-14706); brief para 12. Outline, What came of it 5 (card).
 7. New: Athanasius. I3 (N4 28647-28652). Cut first 3 (card). Narrated: "labour-loving" is not quoted (Outline, What came of it 2).
-8. New: Basil and Gregory of Nazianzus, Socrates's account, the Arians glossed. I1 (N2 13913-13922); brief para 11.
+8. New: Basil and Gregory of Nazianzus, Socrates's account, the Arians glossed. I1 (N2 13913-13922); brief para 12.
 9. Kept word for word: Gregory of Nazianzus and the Philocalia. I2 (N7 47445-47451).
 10. New: Jerome's Job preface. I8 (J6 47003-47012). Cut first 1 (card).
 
@@ -76,7 +76,7 @@ Card: `origen.card.json`. Keys: knownFor, shortDescription, datesNote, placeNote
 
 **briefSources** (new). The old sources the brief draws on: EUS, PHIL, A4, A9, NP3 (Lives 54), PAM, N2, N7, N14.
 
-**timeline** (new). Six periods, every line with its work and file lines after the point; dated only by the record's own phrases (S2, E6, S4, E25, E27, S6, I1 "next century" as the brief has it, I7). Witness named at a period's head where one carries it (S1; E28 "from Origen's own letters"). Notes carry the contested or late points: E9/D3, E16-E19/D1/D2, D4, D5, E20, E3 ("they say"). Lines from Cut first and Leave out marked card: E1, E2, E4, E5, E6, E8, E11, E14, E15, E21, E23, E25, E26, I3, I4, I5, I8, I9, I10, plus NP3 40539-40554 (journeys and letters to Philip, Leave out "card if any"). Not carried: the jar at Jericho is in (E10); Firmilian (E21) and Alexander's death in prison (E27) are left out as side figures.
+**timeline** (new). Six periods, every line with its work and file lines after the point; dated only by the record's own phrases (S2, E6, S4, E25, E27, S6, I1 "in the century after his death" as the brief has it, I7). Witness named at a period's head where one carries it (S1; E28 "from Origen's own letters"). Notes carry the contested or late points: E9/D3, E16-E19/D1/D2, D4, D5, E20, E3 ("they say"). Lines from Cut first and Leave out marked card: E1, E2, E4, E5, E6, E8, E11, E14, E15, E21, E23, E25, E26, I3, I4, I5, I8, I9, I10, plus NP3 40539-40554 (journeys and letters to Philip, Leave out "card if any"). Not carried: Firmilian (E21) and Alexander's death in prison (E27), as side figures.
 
 ## Items the outline, review and fresh read send to the card
 
@@ -99,7 +99,7 @@ All carried: Outline "For the card" (dates; Rufinus quote; 553 and Hefele; E19, 
   {"title": "Eusebius Werke, zweiter Band: Die Kirchengeschichte", "author": "Eduard Schwartz and Theodor Mommsen (eds.)", "year": "1908", "publisher": "J. C. Hinrichs, Leipzig", "note": "Greek text of Eusebius's Church History, books 6 to 10, with Rufinus's Latin translation."},
   {"title": "The Philocalia of Origen", "author": "George Lewis (tr.)", "year": "1911", "publisher": "T. & T. Clark, Edinburgh", "note": "English translation of the Philocalia, passages chosen from Origen, among them the part of On First Principles on how Scripture is to be read."},
   {"title": "Fathers of the Third Century: Tertullian, Part Fourth; Minucius Felix; Commodian; Origen, Parts First and Second (Ante-Nicene Fathers, vol. 4)", "author": "Frederick Crombie (tr.)", "year": "1885", "note": "English translation of On First Principles, Against Celsus and the letters to Africanus and Gregory."},
-  {"title": "The Gospel of Peter, the Diatessaron of Tatian, Origen's Commentaries (Ante-Nicene Fathers, vol. 9)", "author": "Allan Menzies (ed. and tr.)", "year": "1896", "note": "English translation of Origen's commentaries on John and Matthew."},
+  {"title": "The Gospel of Peter, the Diatessaron of Tatian, Origen's Commentaries (Ante-Nicene Fathers, vol. 9)", "author": "Allan Menzies (tr.)", "year": "1896", "note": "English translation of Origen's commentaries on John and Matthew."},
   {"title": "Fathers of the Third Century: Gregory Thaumaturgus, Dionysius the Great, Julius Africanus, Methodius, Arnobius (Ante-Nicene Fathers, vol. 6)", "author": "Philip Schaff (ed.)", "year": "1886", "note": "English translation of the speech of thanks to Origen bearing Gregory's name, and of Photius's extracts from Methodius."},
   {"title": "Theodoret, Jerome, Gennadius and Rufinus: Historical Writings (Nicene and Post-Nicene Fathers, second series, vol. 3)", "author": "Ernest Cushing Richardson and others (tr.)", "year": "1892", "note": "English translation of Jerome's Lives of Illustrious Men and of Rufinus's preface to On First Principles."},
   {"title": "The Principal Works of St. Jerome (Nicene and Post-Nicene Fathers, second series, vol. 6)", "author": "W. H. Fremantle (tr.)", "year": "1893", "note": "English translation of Jerome's letters, prefaces and Against John of Jerusalem."},
@@ -109,7 +109,7 @@ All carried: Outline "For the card" (dates; Rufinus quote; 553 and Hefele; E19, 
   {"title": "The Seven Ecumenical Councils (Nicene and Post-Nicene Fathers, second series, vol. 14)", "author": "Henry R. Percival (ed.)", "year": "1900", "note": "English translation of the councils' canons and anathemas, among them those of the council at Constantinople that named Origen."},
   {"title": "The Library of Photius, vol. 1", "author": "J. H. Freese (tr.)", "year": "1920", "publisher": "Society for Promoting Christian Knowledge, London", "note": "English translation of Photius's summaries of books, among them the Defense of Origen by Pamphilus and Eusebius."},
   {"title": "Epiphanius, zweiter Band: Panarion haer. 34-64", "author": "Karl Holl (ed.)", "year": "1922", "publisher": "J. C. Hinrichs, Leipzig", "note": "Greek text of Epiphanius's Panarion, whose sixty-fourth chapter is against Origen."},
-  {"title": "History of the Patriarchs of the Coptic Church of Alexandria (Patrologia Orientalis, tome 1, fascicle 2)", "author": "B. Evetts (ed. and tr.)", "note": "Arabic text and English translation of the Egyptian church's chronicle of its patriarchs, from Mark onward."},
+  {"title": "History of the Patriarchs of the Coptic Church of Alexandria (Patrologia Orientalis, tome 1, fascicle 2)", "author": "B. Evetts (ed. and tr.)", "note": "Edition and English translation of the Egyptian church's chronicle of its patriarchs, from Mark onward."},
   {"title": "S. Pamphili martyris Apologia pro Origene (Origenis Opera omnia, vol. 24)", "author": "C. H. E. Lommatzsch (ed.)", "year": "1846", "publisher": "Haude et Spener, Berlin", "note": "Latin text of Pamphilus's Defense of Origen, Book I, in Rufinus's translation."},
   {"title": "Origenis Opera omnia, vol. 3: Commentary on Matthew", "author": "C. H. E. Lommatzsch (ed.)", "year": "1834", "publisher": "Haude et Spener, Berlin", "note": "Greek text of Origen's Commentary on Matthew, with a Latin translation."},
   {"title": "A History of the Councils of the Church, vol. 4", "author": "Charles Joseph Hefele; William R. Clark (tr.)", "year": "1895", "publisher": "T. & T. Clark, Edinburgh", "note": "History of the councils from 451 to 680, with their documents, among them the council at Constantinople that named Origen and the question over his name in its eleventh anathema."}
