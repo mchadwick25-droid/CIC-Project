@@ -1,0 +1,13 @@
+ignatius-of-antioch: SPELLING Magnesia (the tree has Manresa)
+tacitus: clear
+josephus: clear
+suetonius: SPELLING Chrestians (the tree has Chrestianus, Christian, Christians)
+suetonius: SPELLING Domitian (the tree has Dominican, Dormition)
+peter-of-alexandria: clear
+clement-of-alexandria: SPELLING Galatians (the tree has Galata, Galatia, Latins)
+valentinus: clear
+hippolytus-of-rome: clear
+tatian: SPELLING Phoenicia (the tree has Phoenicians)
+tatian: SPELLING Phoenician (the tree has Phoenicians)
+tatian: SPELLING Rhodo (the tree has Rhoda, Rhodon)
+pamphilus-of-caesarea: clear

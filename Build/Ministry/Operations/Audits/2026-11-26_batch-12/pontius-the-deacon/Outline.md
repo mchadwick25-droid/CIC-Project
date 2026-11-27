@@ -10,7 +10,7 @@ Kind: person (`kinds/person.md`). Items S, E, I, D are in `Source_Sheet.md`, whi
 
 ## Length
 
-**About 4½ minutes: 675 words approved**, at 150 a minute; the Cut first list brings it to about 650. The record is one book and one sentence of Jerome's, with the court record of Cyprian's end and Cyprian's last letter beside it. But the slate's job has four parts inside that book, the reason, the choices, the dream and the grief, and each needs its scene or its words. The death and the plague are clauses, so the room goes to the book.
+**About 4½ minutes: 675 words approved**, at 150 a minute; the Cut first list brings it to about 660 (measured by the draft: 782 words with items 1–25 out; items 26–39 save about 120). The record is one book and one sentence of Jerome's, with the court record of Cyprian's end and Cyprian's last letter beside it. But the slate's job has four parts inside that book, the reason, the choices, the dream and the grief, and each needs its scene or its words. The death and the plague are clauses, so the room goes to the book.
 
 Count of what the story must carry first: the three quotes (50, 41 and 64 words: 155); the plain sense of the words to explain below (passion, people still learning the faith, the court record, the Roman rites, Jerome's catalog: about 40); the witnesses credited (Pontius as the one witness, once; Jerome for the name; Cyprian's own last letter; the court record for the exile and for "as had been shown to him": about 50). That is about 245 words before the story is told.
 
@@ -24,7 +24,7 @@ As planned below, before cuts, about 1,150 words:
 - Beat 6, what he chose: about 100.
 - What came of him: about 60. Ending, with Quote 3: about 80.
 
-The Cut first list brings it to about 650.
+The Cut first list brings it to about 660, measured by the draft.
 
 ## Setting
 
@@ -159,7 +159,7 @@ What passed from Pontius was one book, and with it Cyprian's exile, his dream an
 
 ## Cut first
 
-The count as planned is about 1,150; these cuts, in order, bring it to about 650.
+The count as planned is about 1,150; these cuts, in order, bring it to about 660. Items 1–25 brought the draft to 782; items 26–39, taken with the draft in hand, bring it to about 660.
 
 1. Beat 1: the place, sunny and fit, with visitors and kind townspeople (about 30 words). **Card.**
 2. Beat 1: "the whole world is one home" (about 15). **Card.**
@@ -186,6 +186,22 @@ The count as planned is about 1,150; these cuts, in order, bring it to about 650
 23. Beat 6: the plague care for everyone (about 12). **Card**; the sibling and the tradition story tell the plague.
 24. Beat 2: the fingers twisted one behind the other; keep "signalled that it was granted until the next day" (about 12). **Leave out.**
 25. What came 2: Jerome's naming is already in the essence; keep only "More than a century later, Jerome called it 'a notable volume'" with the shared exile until the day of the death (about 20). **Leave out** the repeat of the name.
+26. Beat 3: the delay asked for church business, above all the care of the poor, and spent so (about 23). **Card.** Beat 3 keeps the day read as a year.
+27. Beat 2: Cyprian waking glad of the delay, yet trembling at what it might mean (about 12). **Card.**
+28. What came 2: Jerome's words that its author shared the exile until the day of the death (about 15). **Card.** Keep "a notable volume", credited to Jerome, more than a century later; his naming is in the essence.
+29. Beat 4: the sentence's wording, "an enemy of the Roman gods" (about 7). **Card.** Keep "sentenced him to the sword"; the plain words need no gloss.
+30. Beat 4: "of high rank" for the friends (about 3). **Leave out.**
+31. Beat 2: "to put his affairs in order", after the delay of one day (about 6). **Leave out.**
+32. Beat 2: "without the usual questions", at the governor's tablet (about 4). **Leave out.**
+33. Beat 2: "since he could not say it aloud": keep "The young man behind him read it and showed it by a sign"; Quote 2 carries the point (about 8). **Leave out.**
+34. Beat 5: the people still learning the faith, and "so that people not yet born would know them" (about 17). **Card.** Quote 1's "to those after us" carries the second; the catechumens gloss goes with the first.
+35. Beat 5: "nearly every detail of" their sufferings; keep "wrote down the sufferings" (about 4). **Leave out.**
+36. Beat 5: "when he had much to teach even apart from it"; keep "and if his deeds in life stayed hidden" (about 9). **Card.**
+37. Essence: the dream's content in the essence; keep "heard Cyprian tell a dream", which Beat 2 then tells (about 8). **Leave out** from the essence. The dream itself is not cut.
+38. Beat 4: the year "In 258" at the friends' offers; the death date carries it (about 2). **Leave out.**
+39. Beat 4: "as usual" at the last night; keep the last night (about 2). **Leave out.**
+
+Next cut, not taken (only if the redraft runs past 675): Beat 6, the studies and "these things I pass over" (about 16), **Card**, keeping the start at baptism and its reason. It thins the slate's "what he chose to tell", so take it only after a word-level trim of the redraft fails.
 
 Never cut: the willing exile and his wish to share the martyrdom (the opening, called back at the end); the book unsigned and Jerome's naming; Quote 2 with the delay; Pontius's reading of the day as a year, credited; the two accounts of the last withdrawal, side by side; the last night; Quote 1 with his reason; the start at baptism; the court record for the first hearing; Quote 3.
 
