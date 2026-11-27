@@ -6350,3 +6350,13 @@ Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon
 **Past data.** The counts carry nothing that identifies a device, so Mark's visits before this change cannot be separated and are not filtered.
 
 **Added the same day (Mark, 2026-11-27, relayed by the coordinator).** "you have the ability to know if this is and internal thing, my computer etc." The event worker (`/e`) also drops any event whose request address is in the comma-separated `OWNER_IPS` binding. The addresses live only in the worker's secret, never in the repository, logs or reports. The `?count=off` flag stays for other networks. Test: `cic-worker/worker.test.mjs`.
+## 2026-11-27 — The House Church brief names the Didache (Mark)
+
+**Why.** On the tile's "A short manual taught newcomers the Two Ways…", Mark wrote: "what do you mean a short manual thats crap". Offered options, he wrote "it doesnt read a", which the coordinator took as A: name the text. The coordinator then narrowed the job: the tree no longer reads `entry.tile`, and Mark said "we dont need the longer version do we?". So the tile is left alone, and only the brief (`longDescription`), which had the same vague wording, is fixed.
+
+**Done.** Brief paragraph 3:
+
+- Before: "A short manual, whose writer, date and place no one knows, opens on the Two Ways."
+- After: "A church handbook called the Didache, a Greek word for teaching, opens on the Two Ways. No one knows who wrote it, or when or where."
+
+The held text's title is "The Teaching of the Twelve Apostles", and the editors give the Greek word (anf07 12477–12499, 12621). Its Two Ways open at anf07 12698 and its baptism follows at 12910–12918. The gloss only explains a word. An independent checker confirmed the new wording and that nothing else changed. The outline's Do not say line is updated to match. Readability: 678 words, grade 7.2, reading ease 75.7, pass.

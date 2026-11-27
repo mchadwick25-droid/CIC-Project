@@ -144,7 +144,7 @@ What passed on was the practice of being one church across many cities: a thanks
 - "Pliny, around 112" → "under the emperor Trajan".
 - "Clement wrote to Corinth" as the narrator's fact → "the church of Rome wrote"; Clement only in Dionysius's words, "written to us through Clement".
 - "in 96" → "near the end of the first century".
-- "the Didache, written in Syria about 100" → "a short manual whose writer, date and place no one knows".
+- "the Didache, written in Syria about 100" → "a church handbook called the Didache, a Greek word for teaching" and "No one knows who wrote it, or when or where".
 - "the early church gave thanks over the cup first" → "this one manual".
 - "Justin describes how all churches worshipped" or "what Christians at Rome did" → "what Christians did", with his own scope, "all who live in the towns or in the country" (1apol-grc 1759–1760).
 - "the president" → "the one who presides".
