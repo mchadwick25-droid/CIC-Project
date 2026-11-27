@@ -135,7 +135,7 @@ Quotes give the printed words with XML tags removed. `[n]` marks where a transla
 
 **I1. The letters were gathered and passed on as a set (what he left).** Contemporary, then later.
 - Polycarp, *Phil.* 13, ANF 3613–3618: "The Epistles of Ignatius written by him[n] to us, and all the rest [of his Epistles] which we have by us, we have sent to you, as you requested. They are subjoined to this Epistle, and by them ye may be greatly profited; for they treat of faith and patience, and all things that tend to edification in our Lord." ANF-ed 3613–3615: the two letters to Smyrna and to Polycarp. EUS 20096–20101 gives the same in McGiffert's English: "For they comprise faith and patience, and every kind of edification that pertaineth to our Lord."
-- Polycarp, *Phil.* 13, ANF 3608–3613: "Both you and Ignatius wrote to me, that if any one went [from this] into Syria, he should carry your letter[n] with him; which request I will attend to if I find a fitting opportunity". Polycarp did what Ignatius asked (Pol. 7–8).
+- Polycarp, *Phil.* 13, ANF 3608–3613: "Both you and Ignatius wrote to me, that if any one went [from this] into Syria, he should carry your letter[n] with him; which request I will attend to if I find a fitting opportunity". Polycarp promises to do what Ignatius (Pol. 7–8) and the Philippians asked; no held source says he did it.
 - EUS 3.36.5–15 names all seven and quotes Romans, Smyrnaeans, Irenaeus and Polycarp (19961–20101). Jerome NPNF3 39790–39824 the same.
 - Later growth of the name: fifteen letters carry it (ANF-ed 4490–4496); eight are spurious and a longer form padded the seven (EUS-ed 19824–19829). Shows the name carried weight; card.
 

@@ -12,7 +12,7 @@ Checked against the Library: the record holds all of this in his own words. It d
 
 ## Length
 
-About 3 minutes 40 seconds, about **550 words**. The words the story must carry: three quotes (about 105 words); plain sense of the words to explain below (about 70); the witnesses it credits, Eusebius for the reign and the death, Polycarp, Irenaeus (about 60); the opening and essence (about 125). That leaves about 190 words for the seven beats, which is tight: the beats below are planned at about 600 in all, and the Cut first list brings them to 550. Longer than the kit's 450 aim because the record is rich in his own words and the slate gives three messages plus the stand; the life before the arrest is a blank, so it does not run longer.
+About 3 minutes 20 seconds, about **500 words** (approved). The words the story must carry: three quotes (about 105 words); plain sense of the words to explain below (about 70); the witnesses it credits, Eusebius for the reign and the death, Polycarp, Irenaeus (about 60); the opening and essence (about 125). That leaves about 190 words for the seven beats, which is tight: the beats below are planned at about 600 in all, and the Cut first list brings them to 500. Longer than the kit's 450 aim because the record is rich in his own words and the slate gives three messages plus the stand; the life before the arrest is a blank, so it does not run longer.
 
 ## Setting
 
@@ -22,12 +22,12 @@ About 3 minutes 40 seconds, about **550 words**. The words the story must carry:
 
 ## Words to explain
 
-- **elders:** use "elders" for ANF "presbyters/presbytery"; gloss once: the council of senior men who led a church with its bishop (Magn. 6, ANF 5854–5856).
+- **elders:** use "elders" for ANF "presbyters/presbytery"; gloss once: the council of elders who led a church with its bishop (Magn. 6, ANF 5854–5856; Trall. 3, ANF 6347–6352).
 - **eucharist:** "the thanksgiving meal of one bread and one cup" (Philad. 4, ANF 7497–7502; Eph. 20, ANF 5547–5549).
 - **fight with beasts / food for wild beasts:** condemned to be killed by wild animals in the arena at Rome (Eph. 1, ANF 4703–4705; Rom. 4, ANF 7039–7040). On the road, "beasts" is his word for the soldiers (Rom. 5, ANF 7087–7090).
-- **"he only seemed to suffer":** some teachers said Christ only appeared to have a body and to suffer (Trall. 10, ANF 6671–6673; Smyrn. 2, ANF 8005–8009). No label; tell what they said.
+- **"he only seemed to suffer":** some teachers said Christ only appeared to have a body and to suffer (Trall. 10, ANF 6671–6673; Smyrn. 2, ANF 8005–8009; Pol. 3, ANF 8646). No label; tell what they said.
 - **Asia:** the Roman province, today western Turkey. **Troas:** a port on its coast.
-- **the bread line's sense:** "pure bread" = an offering to God; Romans 4 itself says so next: "that by these instruments I may be found a sacrifice [to God]" (ANF 7046–7047).
+- **the bread line's sense:** "pure bread" = an offering to God; Romans 4 itself says so next: "that by these instruments I may be found a sacrifice [to God]" (ANF 7046–7047; Rom. 2, ANF 6958–6959).
 
 ## Shape
 
@@ -41,23 +41,23 @@ About 3 minutes 40 seconds, about **550 words**. The words the story must carry:
 ## Openings
 
 1. **His own words on the road.** Q1 (the ten leopards), then: Ignatius, bishop of the church at Antioch in Syria, wrote that as a prisoner, on his way to die in the arena at Rome. The beasts he fought on the road were his guards. (Rom. 5, ANF 7083–7090; Rom. 2, ANF 6961–6963; Eph. 1, ANF 4703–4705.) Recommended.
-2. **The churches on the road.** The churches came out to meet him "city by city", he told Rome, and received him "not as a mere passer-by", though they did not lie on his way. (Rom. 9, ANF 7280–7287.) Can follow Opening 1 as the bridge to Smyrna.
+2. **The churches on the road.** The churches came out to meet him "city by city", he told Rome, and received him "not as a mere passer-by", though they did not lie on his way. (Rom. 9, ANF 7280–7287.) Use one or the other: if this opens, beat 2 does not retell Rom. 9.
 
 ## Story beats
 
-1. **Bound from Syria.** He was bishop of the church at Antioch in Syria; he calls himself "the bishop of Syria" (Rom. 2, ANF 6961–6963). He was led bound to Rome "for the common name and hope", that is, as a Christian (Eph. 1, ANF 4703–4704; Eph. 3, ANF 4793). Irenaeus gives the reason as "his testimony with respect to God" (ANF 53556–53558); Eusebius, "his testimony to Christ" (EUS 19935–19936). A squad of ten soldiers guarded him, and they grew worse when treated kindly (Rom. 5). Reign of Trajan, crediting Eusebius (SS S2). Explain it: the arrest is told as he and the later witnesses give it, with no charge added. Documented (his words); Widely Accepted (the reign, as Eusebius's).
+1. **Bound from Syria.** He was bishop of the church at Antioch in Syria; he calls himself "the bishop of Syria" (Rom. 2, ANF 6961–6963). He was led bound to Rome "for the common name and hope", that is, as a Christian (Eph. 1, ANF 4703–4704; Eph. 3, ANF 4793). Irenaeus gives the reason as "his testimony with respect to God" (ANF 53556–53558). Reign of Trajan, crediting Eusebius (SS S2). Explain it: the arrest is told as he and the later witnesses give it, with no charge added. Documented (his words); Contested (the reign; told crediting Eusebius, SS S2).
 2. **Smyrna.** On the road through Asia the churches came out to meet him (Rom. 9). At Smyrna he met Polycarp, its bishop (Eph. 21; Magn. 15, ANF 6220–6223; Pol. 1). The bishops of Ephesus, Magnesia and Tralles came to him with others of their churches (Eph. 1, ANF 4707–4711; Magn. 2, ANF 5674–5677; Trall. 1, ANF 6279–6282). From Smyrna he wrote to their three churches, and to Rome (Rom. 10, ANF 7309–7310; EUS 19961–19992). Give the bishops by role. Documented.
 3. **Keep together around your bishop.** His first message: let each church act as one with its bishop, its elders and its deacons. The elders should be fitted to the bishop "as the strings are to the harp", so the whole church sings with one voice (Eph. 4, ANF 4828–4840; told in the narrator's words around the image). Do nothing without the bishop; one thanksgiving meal, one cup, one altar, as there is one bishop (Magn. 7, ANF 5895–5898; Philad. 4, ANF 7497–7502). Why it mattered to him: "where there is division and wrath, God doth not dwell" (Philad. 8, ANF 7756–7757). Writing later from Troas, he recalled that at Philadelphia he had cried out to heed the bishop; some there suspected he already knew of a split, and he answered that the Spirit had spoken it (Philad. 7, ANF 7717–7731; the Spirit stays in his voice). Documented.
-4. **Christ truly suffered.** His second message, against teachers who said Christ only seemed to suffer (Trall. 9, ANF 6617–6620). Q2. Their side, as he reports it: they kept away from the thanksgiving meal, because they did not confess it to be Christ's flesh (Smyrn. 7, ANF 8220–8225), and they thought the same of the martyrs' sufferings (Smyrn. 5, ANF 8134–8137). He would not write their names (Smyrn. 5, ANF 8143–8145). He charged that they cared nothing for the widow, the orphan or the hungry (Smyrn. 6, ANF 8184–8186); told as his charge. No text of theirs is held. Documented (as his account).
-5. **To Rome: do not save me.** He was afraid of the Roman church's love: "it is difficult for me to attain to God, if ye spare me" (Rom. 1, ANF 6917–6922). If they kept silent, he would "become God's" (Rom. 2, ANF 6956–6958). Q3, then its plain sense from the same chapter: that he may be found a sacrifice to God (Rom. 4, ANF 7046–7047). He would coax the beasts, and compel them if they held back (Rom. 5, ANF 7093–7097). Explain it: why he asked, from his own words; the record does not say what Rome could have done. Documented.
-6. **Troas.** At Troas news came that the church at Antioch was at peace (Philad. 10, ANF 7856–7859; Smyrn. 11, ANF 8418–8421; Pol. 7, ANF 8806–8808). He asked Philadelphia, Smyrna and Polycarp to choose a messenger to go to Syria and rejoice with them (Philad. 10; Smyrn. 11; Pol. 7, ANF 8813–8819). He could not write to every church, "because I must suddenly sail from Troas to Neapolis" (Pol. 8, ANF 8854–8856). His own words end there. Documented.
+4. **Christ truly suffered.** His second message, against teachers who said Christ only seemed to suffer (Trall. 9, ANF 6617–6620; Pol. 3, ANF 8646). Q2. Their side, as he reports it: they kept away from the thanksgiving meal, because they did not confess it to be Christ's flesh (Smyrn. 7, ANF 8220–8225), and they thought the same of his own sufferings and those of others like him (Smyrn. 5, ANF 8134–8137). He would not write their names (Smyrn. 5, ANF 8143–8145). He charged that they cared nothing for the widow, the orphan or the hungry (Smyrn. 6, ANF 8184–8186); told as his charge. No text of theirs is held. Documented (as his account).
+5. **To Rome: do not save me.** He was afraid of the Roman church's love: "it is difficult for me to attain to God, if ye spare me" (Rom. 1, ANF 6917–6922). If they kept silent, he would "become God's" (Rom. 2, ANF 6956–6958). Q3, then its plain sense from the same chapter: that he may be found a sacrifice to God (Rom. 4, ANF 7046–7047; Rom. 2, ANF 6958–6959). He would coax the beasts, and compel them if they held back (Rom. 5, ANF 7093–7097). Explain it: why he asked, from his own words; the record does not say what Rome could have done. Documented.
+6. **Troas.** At Troas news came that the church at Antioch was at peace (Philad. 10, ANF 7856–7859; Smyrn. 11, ANF 8418–8421; Pol. 7, ANF 8806–8808). He asked Philadelphia, Smyrna and Polycarp to choose a messenger to go to Syria and rejoice with them (Philad. 10; Smyrn. 11; Pol. 7, ANF 8813–8819). He could not write to every church, "because I must suddenly sail from Troas to Neapolis" (Pol. 8, ANF 8854–8856). It is the last stage of the road his letters tell. Documented.
 7. **What the churches did with the letters.** Polycarp wrote to the church at Philippi, which had seen him pass. He set "the blessed Ignatius" among those whose endurance they had seen with their own eyes (*Phil.* 9, ANF 3484–3488). At Philippi's request he sent on the letters of Ignatius that he held, saying they treat of faith and patience (*Phil.* 13, ANF 3613–3618), and asked for any surer news of Ignatius and those with him (ANF 3619–3630). About seventy years later Irenaeus quoted the wheat line, without his name, as the words of "a certain man of ours" condemned to the beasts (ANF 53556–53560). Contemporary; later.
 
 ## What came of it
 
 Ranked by what later witnesses carried on and used.
 
-1. **The letters gathered and passed on.** Polycarp sent the ones he held to Philippi (*Phil.* 13, ANF 3613–3618) and did what Ignatius asked about Syria (*Phil.* 13, ANF 3608–3613). Eusebius named all seven and quoted them (EUS 19961–20101); Jerome the same (NPNF3 39790–39824). Their weight shows also in forgery: fifteen letters came to bear his name (ANF-ed 4490–4496). Story: beat 7. Card: the forgeries.
+1. **The letters gathered and passed on.** Polycarp sent the ones he held to Philippi (*Phil.* 13, ANF 3613–3618) and promised to send a letter on to Syria when he found the chance, as Ignatius and the Philippians had both asked (*Phil.* 13, ANF 3608–3613). Eusebius named all seven and quoted them (EUS 19961–20101); Jerome the same (NPNF3 39790–39824). Their weight shows also in forgery: fifteen letters came to bear his name (ANF-ed 4490–4496). Story: beat 7. Card: the forgeries.
 2. **The wheat line carried on.** Irenaeus made it the pattern of the saved, ground fine by suffering (ANF 53550–53560); Eusebius quotes Irenaeus quoting it (EUS 20067–20071); the Greek Horologion prints it at his feast (HOR 15547–15552). Story: beat 7. Card: Horologion.
 3. **Defended: Christ truly in the flesh.** Athanasius quoted his "one physician, of flesh and of spirit" in the Nicene dispute (NPNF4 59204–59210; Eph. 7, ANF 4973–4978); Theodoret brought his Smyrnaeans forward as "the apostolic teaching" (NPNF3 20264–20290). Card.
 4. **Remembered and kept as a martyr.** Eusebius: "whose fame is still celebrated by a great many" (EUS 19742). Antioch kept his remains outside the Daphnitic gate (Jerome, NPNF3 39830–39831); Chrysostom preached his feast there: "Ye sent forth a Bishop, and received a martyr" (CHR 10355). Feasts on 20 December in the Greek Horologion (HOR 15536–15538) and 1 February in the Roman Breviary (BREV 1596). Card.
@@ -67,7 +67,7 @@ Who keeps him today: no held source speaks of today; the two calendars (1851, 19
 
 ## Quotes
 
-- **Q1. Rom. 5.** "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day. I am bound to ten leopards, I mean a band of soldiers. Even when they receive kindness, they grow all the worse."
+- **Q1. Rom. 5.** "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day. I am bound to ten leopards, I mean a band of soldiers. Even when they are treated well, they grow all the worse."
   - Source: ANF 7083–7090, shorter form, rendered from the ANF English; checked against EUS 19994–20000 and Jerome, NPNF3 39808–39812. Stands behind it: English printed before 1931 (ANF 1885); the Greek is not held.
   - Job: the opening; his own image of the road, and the guards as his "beasts". Not used in any other story on the tree.
 - **Q2. Trall. 10.** "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. If that is so, why am I in chains? Why do I long to fight the wild beasts? Do I die for nothing, then?"
@@ -90,7 +90,7 @@ No quote here is used in another story on the tree, and none is barred (the barr
 
 ## Connection to carry into the story
 
-What passed: his letters, and through them his three messages. The churches he wrote to kept them, and Polycarp, who had met him at Smyrna, gathered those he had and sent them to Philippi at that church's request, because "by them ye may be greatly profited; for they treat of faith and patience" (*Phil.* 13, ANF 3613–3618). Polycarp also did the errand Ignatius gave him, sending letters on to Syria (ANF 3608–3613; Pol. 7–8). The listener needs to understand that the letters reached later readers because the churches on his road passed them hand to hand, starting with Polycarp; that is how Irenaeus, seventy years on, could quote him without naming him and be understood. Carry it through what Polycarp did (beat 7), not a "this matters because" line.
+What passed: his letters, and through them his three messages. The churches he wrote to kept them, and Polycarp, who had met him at Smyrna, gathered those he had and sent them to Philippi at that church's request, because "by them ye may be greatly profited; for they treat of faith and patience" (*Phil.* 13, ANF 3613–3618). Polycarp also promised to send a letter on to Syria at the first fitting chance, as Ignatius and the Philippians had both asked (ANF 3608–3613; Pol. 7–8). The listener needs to understand that the letters reached later readers because the churches on his road passed them hand to hand, starting with Polycarp; and about seventy years later Irenaeus quoted the wheat line as the words of "a certain man of ours" (ANF 53556–53560). Carry it through what Polycarp did (beat 7), not a "this matters because" line.
 
 ## Ending
 
@@ -119,9 +119,10 @@ What passed: his letters, and through them his three messages. The churches he w
 
 ## Do not say
 
+- "priests" for the elders → "elders".
 - "Let me be ground" (a plea) → "I am ground" (Q3, SS D1).
 - That the leopards were animals → they were soldiers, his "beasts" on the road (Rom. 5).
-- That the soldiers were bribed, or what the "kindness" was → "even when they receive kindness" only (ANF-ed 7089–7090 is a guess).
+- That the soldiers were bribed, or what the "kindness" was → "even when they are treated well" only (ANF-ed 7089–7090 is a guess).
 - A year (107, 110, 115) → "in the reign of the emperor Trajan, Eusebius says", or no time marker.
 - That he was a disciple of John, or ordained by Peter or Paul → leave out (SS D4, D7).
 - That a Roman court charged him with a named crime, or that Trajan tried him → he was bound "for the name"; Irenaeus and Eusebius say for his testimony (SS E1).
@@ -129,6 +130,7 @@ What passed: his letters, and through them his three messages. The churches he w
 - That the emperor ordered the sailing → "I must suddenly sail" (the bracket "[of the emperor]" is the translators', ANF 8858).
 - What Rome could have done to save him (a petition, money, prayers) → he only says he feared their love (Rom. 1).
 - That he died in the theatre, heard lions, or spoke the wheat line or "may I have joy of the beasts" at his death → those are Chrysostom's and Jerome's, two to three centuries later (SS E8, D6).
+- That he was killed by beasts at Rome, told in the narrator's voice → "two centuries later Eusebius wrote that report said he became food for wild beasts" (EUS 19935–19936).
 - That Polycarp knew how he died → Polycarp sets him among those now with the Lord, and asks for surer news (ANF 3484–3492, 3619–3630).
 - "Docetists", "Gnostics" or "heretics" as a label → "teachers who said Christ only seemed to suffer".
 - "Catholic Church" unexplained, or "the first to use the phrase" → leave the phrase out of the story (Coxe's claim is modern).
@@ -137,6 +139,8 @@ What passed: his letters, and through them his three messages. The churches he w
 - That Polycarp collected "all seven" → "the letters of Ignatius that he held" (*Phil.* 13).
 - "Theophorus means God-bearer" as his own gloss → the meaning comes from late witnesses; card.
 - The Spirit's words at Philadelphia as fact → "he wrote that the Spirit had told him" (Philad. 7).
+- That Polycarp sent a messenger or letter to Syria → he promised to, "if I find a fitting opportunity" (*Phil.* 13, ANF 3608–3613).
+- Why Irenaeus left out his name, or how he knew the line → the record does not say.
 
 ## Leave out
 
@@ -157,13 +161,15 @@ Original sources list: the seven letters (ANF), Polycarp *Phil.* 9, 13; Irenaeus
 
 ## Cut first
 
-To bring the planned ~600 words to 550, in order:
+To bring the planned ~600 words to 500, in order:
 
 1. Beat 3: the cry at Philadelphia and the suspicion of a split (about 30 words). → Leave out.
 2. Beat 4: "he would not write their names" (about 10). → Leave out.
 3. Beat 1: Irenaeus's wording of the reason, keeping Eusebius's in the ending (about 12). → card.
 4. Beat 5: "he would coax the beasts, and compel them" (about 12). → Leave out.
 5. Beat 2: the three bishops coming to Smyrna, reduced to "the churches of Ephesus, Magnesia and Tralles sent their bishops" (about 10 saved). → Leave out (names by role already).
+6. Beat 1: the ten soldiers growing worse, already told by Q1 in the opening (about 18). → Leave out (told once, in the opening).
+7. Beat 1: Eusebius's "his testimony to Christ", told once in the ending (about 8). → Leave out (told once, in the ending).
 
 Not to cut: the three quotes and their plain senses, the explanation of the teaching he opposed and of why he begged Rome not to act, beat 7 (the connection), and the ending's credit to Eusebius.
 
