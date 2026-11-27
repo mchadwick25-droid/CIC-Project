@@ -145,7 +145,7 @@ GEB 1431-1432: "Ποίεε ὃ ϑέλεις. / ἡμεῖς γὰρ Χριστι
 
 **E12. Sentence and death.** Trial account. Widely Accepted.
 GEB 1433-1436 (V.8): "Οἱ um βουλη- / ϑέντες ϑῦσαι τοῖς ϑεοῖς καὶ εἶξαι τῷ τοῦ αὐτοκράτορος / προστάγματι μαστιγωϑέντες ἀπαχϑήτωσαν, κεφαλικὴν / ἀποτιννύντες δίχην κατὰ τὴν τῶν νόμων GxoAovOíay." (OCR "um" for μή, "GxoAovOíay" for ἀκολουθίαν.)
-GEB 1437-1442 (VI): "ἐξελθόντες ἐπὶ τὸν συνήϑη τόπον ἀπετμήϑησαν τὰς / κεφαλάς … τινὲς δὲ τῶν πιστῶν λαϑραίως / αὐτῶν τὰ σώματα λαβόντες κατέϑεντο ἐν τόπῳ ἐπιτη- / δείῳ". (OCR "λαβόντος".)
+GEB 1437-1442 (VI): "ἐξελθόντες ἐπὶ τὸν συνήϑη τόπον ἀπετμήϑησαν τὰς / κεφαλάς … τινὲς δὲ τῶν πιστῶν λαϑραίως / αὐτῶν τὰ σώματα λαβόντος κατέϑεντο ἐν τόπῳ ἐπιτη- / δείῳ". (OCR "λαβόντος" for λαβόντες.)
 ANF1 29396-29406: "Let those who have refused to sacrifice to the gods and to yield to the command of the emperor be scourged, and led away to suffer the punishment of decapitation, according to the laws." … "having gone forth to the accustomed place, were beheaded … And some of the faithful having secretly removed their bodies, laid them in a suitable place".
 No year is given in the account.
 
