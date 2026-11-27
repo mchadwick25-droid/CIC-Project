@@ -1,6 +1,6 @@
 # Release
 
-You put one batch's finished work into the census and the tree. You write no story or card text of your own. Work in the repository root, from the batch folder `{FOLDER}/`.
+You put one batch's finished work into the census and the tree. You write no text or card text of your own. Work in the repository root, from the batch folder `{FOLDER}/`.
 
 1. **Apply the checks.** Apply each `Card_Check.md` FIX and each card change in `Second_Readings.md`, word for word, and set each `secondReading`. Where a reading changes meaning, change the brief's rendering to match, and send that sentence for a targeted check (Kit, Keeping the kit clean).
 2. **The census** (`cic-website/data/world-census.json`). Add each new entry's `<slug>.entry.json` beside the other entries of its era and kind. Each finished text goes to its home, final newline removed: a person, council or tradition brief to the entry's `longDescription`; a documented story to its `documentedStories[i].text`; a connection note to its edge's `note`. A map story goes to its record in `cft-website/index.html`, and a built world's narration to its world's piece through `Build/tools/generate_world_narration.mjs`. `card` becomes the card where the kind has one, and each entry-field change the card checker passed in `Card_Edits.md` is applied word for word. Change no other field. Add each new person's or council's link to the tradition it is told within, as `cyril-and-methodius` is linked, and nothing else.
