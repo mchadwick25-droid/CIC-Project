@@ -82,7 +82,7 @@ The Cut first list (items 1 to 24) brings it to about 663, measured by the draft
 
 Each rendered by me from Brandt's Latin (CSEL 19, 1890), in the machine-corrected TEI, with a second scan of the same print confirming every word. None is used in another story on the tree (CEN, every `longDescription` searched for each), none is barred by the slate, and none appears in the Tertullian or Cyprian outlines.
 
-Only Quotes 1 and 3 are spoken as quotes. Five short phrases of his own stand inside the narrator's sentences, each rendered from the Latin: "the temple of God was overthrown" (Beat 2; "dei templum euerteretur", DI-L 22775); "in my presence, and to my grief" (Beat 2; "praesente me ac dolente", DI-L 23206); "by force and tortures" (Beat 2; "ui atque tormentis", DI-L 26072); "to" the Christians, not "against" them (Beat 2; "non contra Christianos … sed ad Christianos", DI-L 22917–22918); "the greatest necessities" (Beat 6; "in summis necessitatibus", TE 3608). Each is in a clean or readable held print and agrees with Fletcher's English (AN 4487, 4567, 5136, 4505, 9310). None is used in another story on the tree.
+Only Quotes 1 and 3 are spoken as quotes. Four short phrases of his own stand inside the narrator's sentences, each rendered from the Latin: "the temple of God was overthrown" (Beat 2; "dei templum euerteretur", DI-L 22775); "in my presence, and to my grief" (Beat 2; "praesente me ac dolente", DI-L 23206); "by force and tortures" (Beat 2; "ui atque tormentis", DI-L 26072); "the greatest necessities" (Beat 6; "in summis necessitatibus", TE 3608). Each is in a clean or readable held print and agrees with Fletcher's English (AN 4487, 4567, 5136, 9310). None is used in another story on the tree.
 
 1. ***Divine Institutes* V.11.15.** Latin (DI-L 24576–24579; DI-L3 33611–33614): "uidi ego in Bithynia praesidem gaudio mirabiliter elatum tamquam barbarorum gentem aliquam subegisset, quod unus qui per biennium magna uirtute restiterat, postremo cedere uisus esset."
    - Rendering: **"I myself saw in Bithynia a governor astonishingly elated with joy, as if he had conquered some nation of barbarians. It was because one man, who had held out for two years with great courage, seemed at last to give way."**
@@ -109,7 +109,7 @@ Only Quotes 1 and 3 are spoken as quotes. Five short phrases of his own stand in
 - Lucifer of Cagliari: link (What came 2). Census "Lucifer of Cagliari". The emperor Constantius by role and name once, as "Constantine's son Constantius".
 - Augustine: link (What came 3). Census "Augustine". First to cut.
 - By role only: Arnobius ("an African teacher of rhetoric", or not at all), the philosopher, the judge, Donatus, Galerius, Athanasius.
-Past six names: Augustine and Eusebius are the first to drop to role.
+Past six names: Augustine is the first to drop to role.
 
 ## Connection to carry into the story
 
@@ -136,7 +136,7 @@ What passed from him: a full Latin case for the faith, made to the educated from
 - **Lactantius** (old; his own time): the *Institutes* and *On the Workmanship of God*. Credited for the opening, Beats 1 to 5 and Beat 6's "greatest necessities". He is a party: his portraits of the two writers are his, told as his ("he says").
 - ***On the Deaths of the Persecutors*** (old; written after 313, as its own last events show, AN 10712; author disputed, D1). Credited only as "a book … under the name of a Lucius Caecilius" in Beat 6. The doubt is told inside that one sentence; it is not the story.
 - **Eusebius** (old; his own time): the edict (Beat 2).
-- **Jerome** (old; later in the same century, a generation or two after Lactantius): from Africa, the verse journey, the book on persecution, Crispus, the poverty, the judgments. Most of the life outside his own books rests on Jerome: say so once, early, inside the sentence that brings Jerome in (Beat 1).
+- **Jerome** (old; later in the same century, a generation or two after Lactantius): from Africa, the verse journey, Crispus, the poverty, the judgments. Most of the life outside his own books rests on Jerome: say so once, early, inside the sentence that brings Jerome in (Beat 1).
 - **Lucifer of Cagliari** (old; under Constantius): What came 2.
 - **Augustine** (old; later): What came 3.
 - **Brandt** (modern editor): clarifies an old text: his edition and apparatus, which found Lucifer's borrowing. Never named in the story.
