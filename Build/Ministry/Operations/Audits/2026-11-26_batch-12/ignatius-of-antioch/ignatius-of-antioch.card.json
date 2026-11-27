@@ -24,7 +24,7 @@
     "traces": [
       "Polycarp of Smyrna sent the letters of Ignatius he held to the church at Philippi, at its request, because they spoke of faith and patience.",
       "Eusebius of Caesarea named all seven letters, said which were written from Smyrna and which from Troas, and copied passages from them into his Church History.",
-      "Irenaeus of Lyon used the wheat line to show that suffering makes those who are saved ready for God, as wheat is ground fine to make bread.",
+      "Irenaeus of Lyon quoted the wheat line, without his name, to show that suffering makes those who are saved ready for God, as wheat is ground fine to make bread.",
       "Athanasius of Alexandria, writing on the quarrel over whether the Son shares the Father's being, quoted his words on Christ as both of the flesh and of God, and held that Ignatius was right.",
       "Theodoret of Cyrrhus, in his dialogue Eranistes, set out his words on Christ truly born of a virgin and crucified in the flesh as witness to the teaching of the apostles."
     ],
@@ -394,7 +394,7 @@
         {
           "when": "Date unknown",
           "text": "Irenaeus, bishop of Lyon in Gaul, quotes the wheat line, without naming him, to show that suffering makes those who are saved ready for God.",
-          "reference": "Irenaeus, Against Heresies V.28.4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 53550-53560"
+          "reference": "Irenaeus, Against Heresies V.28.4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 53550-53560; Against Heresies I, preface 3, lines 29884-29885; Eusebius, Church History V.5.8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 27954-27955"
         },
         {
           "when": "Date unknown",
@@ -409,7 +409,7 @@
         {
           "when": "Date unknown",
           "text": "John Chrysostom, preaching at Antioch, says the city sent out a bishop and received back a martyr.",
-          "reference": "John Chrysostom, Eulogy on Saint Ignatius, cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml lines 10343-10357"
+          "reference": "John Chrysostom, Eulogy on Saint Ignatius, cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml lines 9955-9956, 10355"
         },
         {
           "when": "Date unknown",
