@@ -86,7 +86,7 @@ After duplicates are merged and disagreements judged: **8 BLOCKING**, 10 MINOR. 
 
 - **M1. Jerome credit** (both). "Jerome, writing long after, says he had once been a teacher of public speaking." (+3; the outline gives him as about 135 years later.)
 - **M2. "as Cyprian copies his letter"** (both). "Stephen, bishop of Rome, answered otherwise. His letter, as Cyprian copies it, said: let nothing new be done beyond what has been handed down." (+2; keeps the outline's phrase.)
-- **M3. "the brothers' peace"** (both). "the peace of his fellow Christians" (+2). Needs the outline (Beat 1 wording).
+- **M3. "the brothers' peace"** (both). "his fellow Christians' peace" (+1). Needs the outline (Beat 1 wording).
 - **M4. "a mother outside whom no one has God as Father"** (both). "He taught that the church is one, and a mother: no one outside her has God as Father, and each bishop answers to Christ alone." (+1.) Heart wording (report).
 - **M5. The closing mirror line** (Skeptic). It is Augustine's image (PL38 99289–99291): keep it in his voice, "Worshippers, he said, now ringed the place where persecutors had ringed him." (+2.)
 - **M6. "Communion meant belonging to the church…"** (Skeptic: a dropped-in glossary line). Noted; the outline sets the gloss at the quote, and the B4 change keeps it there.
@@ -110,6 +110,6 @@ The ruled length is about 965; the draft runs 965 (969 by `wc -w`).
 | B7 Utica (+3), the waiting line (+12), "In the end" (+3) | +18 |
 | B8 "be received with" | +2 |
 | **BLOCKING fixes** | **+22, to about 987** |
-| MINOR M1, M2, M3, M5 if taken (M4 only if Mark allows) | +9 (+1), to about 996 |
+| MINOR M1, M2, M3, M5 if taken (M4 only if Mark allows) | +8 (+1), to about 995 |
 
 The BLOCKING fixes run about 2% past the ruling, inside "about 965". If words must be found, the cheapest are to leave the MINORs and drop "In the end" in B7 (−3).

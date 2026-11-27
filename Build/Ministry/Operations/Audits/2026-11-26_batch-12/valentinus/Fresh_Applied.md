@@ -19,3 +19,12 @@ Not made here (named in `Fresh_Read.md`, outside this instruction): the Do not s
 Scorer (`python -m engine.m1.profile_readability`):
 
 `valentinus.brief.txt: 638 words, grade 8.5 (names out 7.1), reading ease names out 78.8, 19.3 words a sentence, 1.3 joining words per 100, 3% short sentences, longest sentence 32 words - pass`
+
+## Fresh_Check FIX and outline changes
+
+- `valentinus.brief.txt`: "and Hippolytus a long book answering their teaching." → "and Hippolytus a long work answering their teaching." Applied.
+- `Outline.md`, Do not say line "a higher race" → "a different race": not applied. The text "higher race" is not in `Outline.md`; Beat 4 already reads "a different race" and no Do not say line carries it.
+- `Outline.md`, Beat 5: "split over what kind of body Jesus had, into an Italian" → "split into an Italian". Applied.
+- `Outline.md`, Do not say entry: "tell only the split, its cause and the two branches" → "tell only the split and the two branches". Applied.
+
+`valentinus.brief.txt: 638 words, grade 8.5 (names out 7.1), reading ease names out 78.8, 19.3 words a sentence, 1.3 joining words per 100, 3% short sentences, longest sentence 32 words - pass`

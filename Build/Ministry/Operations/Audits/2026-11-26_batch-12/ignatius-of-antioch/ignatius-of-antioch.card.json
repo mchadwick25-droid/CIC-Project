@@ -1,0 +1,437 @@
+{
+  "otherNames": [
+    "Theophorus"
+  ],
+  "knownFor": "Bishop of the church at Antioch in Syria who wrote seven letters as a prisoner bound for death in the arena at Rome, urging the churches to keep together around their bishops and to hold that Christ truly suffered, and begging the church at Rome not to save him.",
+  "datesNote": "His letters give no year. Eusebius, about two centuries later, sets his death in the reign of the emperor Trajan, when Trajan stirred up persecution against the Christians. Jerome gives the eleventh year of Trajan, and the later Martyrdom of Ignatius the ninth, a numeral its editors call uncertain.",
+  "placeNote": "Antioch in Syria; Smyrna and Troas on the road to Rome",
+  "role": "Bishop and martyr",
+  "keyWorks": [
+    {
+      "title": "Letter to the Romans",
+      "about": "his plea that the church at Rome not save him from the beasts"
+    },
+    {
+      "title": "Letter to the Smyrnaeans",
+      "about": "written from Troas, against those who said Christ only seemed to suffer, and urging the church to do nothing without its bishop"
+    },
+    {
+      "title": "Letter to Polycarp",
+      "about": "to the bishop of Smyrna, asking him to care for the church at Antioch"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Polycarp of Smyrna sent the letters of Ignatius he held to the church at Philippi, at its request, because they spoke of faith and patience.",
+      "Eusebius of Caesarea named all seven letters, said which were written from Smyrna and which from Troas, and copied passages from them into his Church History.",
+      "Irenaeus of Lyon used the wheat line to show that suffering makes those who are saved ready for God, as wheat is ground fine to make bread.",
+      "Athanasius of Alexandria, writing on the quarrel over whether the Son shares the Father's being, quoted his words on Christ as both of the flesh and of God, and held that Ignatius was right.",
+      "Theodoret of Cyrrhus, in his dialogue Eranistes, set out his words on Christ truly born of a virgin and crucified in the flesh as witness to the teaching of the apostles."
+    ],
+    "remembered": [
+      "Polycarp of Smyrna, in his letter to the Philippians, holds up \"the blessed Ignatius\" as an example of patience.",
+      "Irenaeus of Lyon quotes the wheat line as the words of a man of the church condemned to the beasts. Eusebius of Caesarea gives Irenaeus's words as \"As one of our people said.\"",
+      "Eusebius of Caesarea says his fame \"is still celebrated by a great many.\"",
+      "John Chrysostom, preaching at Antioch on his feast, told the church there that it had sent out a bishop and received back a martyr. Jerome says his remains lay at Antioch, in the cemetery outside the Daphnitic gate.",
+      "The Great Horologion of the Greek Church keeps his feast on 20 December and prints the wheat line there. The Roman Breviary keeps it on 1 February."
+    ]
+  },
+  "uncertain": [
+    "The witnesses. Nearly all that is known of him comes from his own seven letters, written on the road. Polycarp, who met him, and Irenaeus, who does not name him, add a little. Eusebius, about two centuries later, adds that he was the second bishop of Antioch, and that report said he died by the beasts at Rome.",
+    "The year. His letters give none. Eusebius's Chronicle sets his death among the events of Trajan's persecution of the Christians. Jerome gives the eleventh year of Trajan, and the later Martyrdom of Ignatius the ninth, though its editors call that numeral uncertain. Modern editors do not agree on the year.",
+    "His place among the bishops. Eusebius calls him the second bishop of Antioch, after Evodius. Jerome calls him the third after the apostle Peter, counting Peter as the first. Theodoret, writing more than three centuries later, says Peter himself made him bishop.",
+    "John's disciple. Eusebius's Chronicle, in Jerome's Latin, names him among those who heard the apostle John, and the Great Horologion calls him John's disciple. His own letters do not say so.",
+    "The name Theophorus. Each letter opens with Ignatius, who is also called Theophorus, a Greek name meaning God-bearer. The Great Horologion explains it as one who carried God living in his soul. The later Martyrdom of Ignatius has him tell Trajan that it means one who has Christ within his breast.",
+    "Which letters are his. Fifteen letters carry his name. Polycarp, Irenaeus and Eusebius treat the seven as his, and Eusebius names those seven. The seven survive in a shorter and a longer Greek form, and three of them also in a shorter Syriac version. Which form is his, and whether the seven are his at all, was argued among modern editors for centuries; the editors of the Ante-Nicene Fathers and Arthur McGiffert, who translated Eusebius, set out that dispute.",
+    "The peace at Antioch. He writes that the church at Antioch was at peace and restored to its proper greatness, but not what trouble it had passed through. A chapter heading in the English, on the close of the persecution, is the editors' own.",
+    "The sailing from Troas. He writes that he must suddenly sail from Troas to Neapolis, as the will enjoins. The words of the emperor that follow in the English are the translators' own, in brackets.",
+    "His end. No writer of his own century tells how he died. Polycarp counts him among those now with the Lord, yet later in the same letter asks the Philippians for surer news of him and those with him; that later part survives only in Latin, and some modern scholars have questioned whether it is Polycarp's. Eusebius gives only what report said. Chrysostom and Jerome, writing later still, set his words on the beasts at the moment of his death.",
+    "The trial. The later Martyrdom of Ignatius has the emperor Trajan try him in person at Antioch. His letters say only that he was led bound for the name of Christ, and Irenaeus that he was condemned because of his testimony to God."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Epistles of Ignatius, shorter and longer Greek forms, and the Syriac version",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 3, chapters 22 and 36",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Chronicle, in Jerome's Latin",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "Epistle to the Philippians, chapters 9 and 13",
+        "author": "Polycarp of Smyrna",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Against Heresies, Book 5, chapter 28",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "On the Councils of Ariminum and Seleucia (De Synodis), chapter 47",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Eulogy on Saint Ignatius",
+        "author": "John Chrysostom",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 16",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Eranistes, Dialogue 1",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Martyrdom of Ignatius",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "The Great Horologion, 20 December",
+        "author": null,
+        "date": "1851",
+        "language": "Greek",
+        "file": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt"
+      },
+      {
+        "title": "The Roman Breviary, calendar for February",
+        "author": null,
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Ignatius, Letter to the Romans 5, Ante-Nicene Fathers vol. 1, shorter form: from Syria to Rome he fights with beasts, by land and sea, by night and day; the ten leopards are a band of soldiers, who grow worse when they are treated well.",
+    "Romans 2, Smyrnaeans 11: the bishop of Syria, from the church at Antioch in Syria, led in chains to the west.",
+    "Ephesians 1 and 3: led bound from Syria for the common name, to fight with beasts at Rome.",
+    "Eusebius of Caesarea, Chronicle, in Jerome's Latin: Ignatius brought to Rome and handed to the beasts in the time of Trajan's persecution.",
+    "Romans 9: the churches that came out to meet him city by city, even those not on his road.",
+    "Ephesians 1 and 21, Magnesians 2 and 15, Trallians 1, Polycarp 1: at Smyrna he met Polycarp, the bishop there, and the bishops of Ephesus, Magnesia and Tralles came to him.",
+    "Romans 10 and Eusebius, Church History 3.36: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome.",
+    "Magnesians 6 and 7, Trallians 3: the bishop, with the elders and the deacons; nothing done without the bishop and elders.",
+    "Ephesians 4: the elders fitted to the bishop as strings to the harp, and the church urged to sing with one voice.",
+    "Philadelphians 4 and 8, Ephesians 20: one thanksgiving meal, one flesh and one cup, one altar, as there is one bishop; God does not dwell where there is division and wrath.",
+    "Trallians 9 and 10, Smyrnaeans 2: Christ truly born, truly suffering and truly raised, against those who said he only seemed to suffer, and his own chains.",
+    "Smyrnaeans 5, 6 and 7: they kept away from the thanksgiving meal, because they did not confess it to be Christ's flesh; they thought the same of the sufferings of Ignatius and others; no care for the widow, the orphan or the hungry.",
+    "Romans 1, 2 and 4: afraid of the love of the church at Rome; hard to reach God if they spared him; if they kept silent he would become God's; to be found a sacrifice to God by the teeth of the beasts.",
+    "Romans 4, as Irenaeus quotes it in Eusebius, Church History 3.36, tr. Arthur McGiffert, with the Greek of the Great Horologion (Venice, 1851), 20 December: I am God's wheat, ground by the teeth of wild beasts, so that I may be found pure bread.",
+    "Philadelphians 10 and 11, Smyrnaeans 11 and 12, Polycarp 7: written from Troas; the church at Antioch at peace and restored; a messenger sent to Syria to rejoice with it.",
+    "Polycarp of Smyrna, Epistle to the Philippians 9 and 13: the blessed Ignatius among those whose patience they had seen; the letters of Ignatius he held, sent as Philippi asked, because they treat of faith and patience; the request for surer news of him and those with him.",
+    "Irenaeus of Lyon, Against Heresies 5.28.4, and Against Heresies 1, preface 3; Eusebius, Church History 5.5: the wheat line, given as the words of a man of ours condemned to the wild beasts, without his name; Irenaeus living in Gaul, as bishop of Lyon.",
+    "Athanasius of Alexandria, On the Councils 47, and Theodoret of Cyrrhus, Eranistes, Dialogue 1: his words brought forward by later bishops.",
+    "Eusebius of Caesarea, Church History 3.36, tr. Arthur McGiffert: report says that he was sent from Syria to Rome and became food for wild beasts on account of his testimony to Christ."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day. I am bound to ten leopards, I mean a band of soldiers. Even when they are treated well, they grow all the worse.",
+      "printed": "From Syria even unto Rome I fight with beasts, both by land and sea, both by night and day, being bound to ten leopards, I mean a band of soldiers, who, even when they receive benefits, show themselves all the worse.",
+      "work": "Ignatius, Letter to the Romans 5, shorter form, Ante-Nicene Fathers vol. 1",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "7083-7090"
+    },
+    {
+      "modern": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. If that is so, why am I in chains? Why do I long to fight the wild beasts? Do I die for nothing, then?",
+      "printed": "But if, as some that are without God, that is, the unbelieving, say, that He only seemed to suffer (they themselves only seeming to exist), then why am I in bonds? Why do I long to be exposed to the wild beasts? Do I therefore die in vain?",
+      "work": "Ignatius, Letter to the Trallians 10, shorter form, Ante-Nicene Fathers vol. 1",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "6671-6676",
+      "uncertain": "The modern English has fight, where the English prints be exposed to, from the translators' note at that word: \"Literally, “to fight with.”\" (line 6675). The translators also note that some read the last two clauses as statements rather than questions (lines 6677-6678)."
+    },
+    {
+      "modern": "I am God's wheat. I am ground by the teeth of wild beasts, so that I may be found pure bread.",
+      "printed": "I am God’s wheat, and by the teeth of wild beasts am I ground, that I may be found pure bread.",
+      "work": "Ignatius, Letter to the Romans 4, as Irenaeus quotes it in Eusebius, Church History 3.36.12, tr. Arthur McGiffert; Greek from the Great Horologion (Venice, 1851), 20 December, citing Eusebius",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "20069-20071",
+      "original": "ΒΊτος εἰμὶ τοῦ Θ εοὗ, και δὶ ὀδόντων ϑηρίων ἀλήϑομα!, ἵνα καϑαρὸς ἄρτος εὐρεϑῶ",
+      "originalFile": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt",
+      "originalLines": "15547-15552",
+      "uncertain": "The Greek is printed as the damaged scan reads it; it reads Σῖτός εἰμι τοῦ Θεοῦ, καὶ δι᾽ ὀδόντων θηρίων ἀλήθομαι, ἵνα καθαρὸς ἄρτος εὑρεθῶ, and ἀλήθομαι means \"I am ground\", a statement. The longer Greek form, the Syriac version, whose translators note \"Literally, “I am ground.”\", and Irenaeus read the same. The Ante-Nicene English of the shorter form alone reads \"let me be ground\", a plea, and ends \"the pure bread of Christ\" (anf01 lines 7040-7042)."
+    }
+  ],
+  "shortDescription": "Ignatius was bishop of the church at Antioch in Syria, taken under guard to Rome to face the wild beasts. On the road he wrote seven letters, urging the churches to keep together around their bishops and to hold that Christ truly suffered, and asking the church at Rome to let him die.",
+  "briefSources": [
+    {
+      "title": "The Epistles of Ignatius, shorter and longer Greek forms, and the Syriac version, in Ante-Nicene Fathers vol. 1",
+      "author": "Ignatius of Antioch",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    },
+    {
+      "title": "Epistle to the Philippians, in Ante-Nicene Fathers vol. 1",
+      "author": "Polycarp of Smyrna",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    },
+    {
+      "title": "Against Heresies, Book 5, chapter 28",
+      "author": "Irenaeus of Lyon",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    },
+    {
+      "title": "Church History, Book 3, chapter 36",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+    },
+    {
+      "title": "Chronicle, in Jerome's Latin",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+    },
+    {
+      "title": "On the Councils of Ariminum and Seleucia (De Synodis), chapter 47",
+      "author": "Athanasius of Alexandria",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+    },
+    {
+      "title": "Eranistes, Dialogue 1",
+      "author": "Theodoret of Cyrrhus",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "The Great Horologion, 20 December",
+      "file": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Date unknown",
+      "headline": "Bishop of the church at Antioch",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Eusebius names him the second bishop of Antioch, after Evodius.",
+          "reference": "Eusebius, Church History III.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 17006-17009",
+          "note": "Jerome calls him the third after the apostle Peter, counting Peter as the first; Theodoret, much later, says Peter made him bishop."
+        },
+        {
+          "when": "Date unknown",
+          "text": "In his letters he calls himself the bishop of Syria, and opens each one as Ignatius, who is also called Theophorus.",
+          "reference": "Ignatius, Letter to the Romans, greeting and 2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 6863-6864, 6961-6963"
+        }
+      ]
+    },
+    {
+      "when": "In the reign of Trajan, Eusebius says",
+      "headline": "Led in chains from Syria to Smyrna",
+      "witness": "His own letters",
+      "lines": [
+        {
+          "when": "In the reign of Trajan",
+          "text": "He is led bound from Syria for the name of Christ, to fight with beasts at Rome.",
+          "reference": "Ignatius, Letter to the Ephesians 1 and 3, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 4703-4705, 4793-4794",
+          "note": "The reign is Eusebius's, writing about two centuries later, in his Chronicle (cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 42193-42202)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He travels bound to ten soldiers, whom he calls leopards, by land and sea, by night and day.",
+          "reference": "Ignatius, Letter to the Romans 5, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 7083-7090"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Churches come out to meet him city by city, even those not on his road.",
+          "reference": "Ignatius, Letter to the Romans 9, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 7280-7287"
+        },
+        {
+          "when": "Date unknown",
+          "text": "At Smyrna he meets its bishop, Polycarp, face to face.",
+          "reference": "Ignatius, Letter to Polycarp 1; Letter to the Magnesians 15, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8549-8553, 6220-6223"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Onesimus, bishop of Ephesus, Damas, bishop of Magnesia, and Polybius, bishop of Tralles, come to him at Smyrna with others of their churches.",
+          "reference": "Ignatius, Letters to the Ephesians 1, the Magnesians 2 and the Trallians 1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 4707-4711, 5674-5677, 6279-6282"
+        }
+      ]
+    },
+    {
+      "when": "At Smyrna",
+      "headline": "Four letters from Smyrna",
+      "witness": "His own letters",
+      "lines": [
+        {
+          "when": "At Smyrna",
+          "text": "To Ephesus he writes that its elders are fitted to the bishop as strings to a harp, and urges the church to sing with one voice.",
+          "reference": "Ignatius, Letter to the Ephesians 4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 4828-4839"
+        },
+        {
+          "when": "At Smyrna",
+          "text": "To Magnesia he writes that the church should do nothing without the bishop and the elders, the council who led a church with him.",
+          "reference": "Ignatius, Letter to the Magnesians 6 and 7, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 5851-5856, 5895-5898"
+        },
+        {
+          "when": "At Smyrna",
+          "text": "To Tralles he writes that Christ was truly born, truly crucified and truly raised, against those who said he only seemed to suffer.",
+          "reference": "Ignatius, Letter to the Trallians 9 and 10, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 6617-6620, 6671-6676"
+        },
+        {
+          "when": "At Smyrna",
+          "text": "To Rome he writes that he is afraid their love will spare him, and asks to become food for the wild beasts, God's wheat ground into pure bread.",
+          "reference": "Ignatius, Letter to the Romans 1 and 4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 6917-6922, 7036-7042"
+        },
+        {
+          "when": "At Smyrna",
+          "text": "He names Smyrna as the place he writes from to Rome.",
+          "reference": "Ignatius, Letter to the Romans 10, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 7309-7310"
+        }
+      ]
+    },
+    {
+      "when": "At Troas",
+      "headline": "Three letters from Troas, and a sudden sailing",
+      "witness": "His own letters",
+      "lines": [
+        {
+          "when": "At Troas",
+          "text": "News reaches him that the church at Antioch is at peace, and he asks the church at Philadelphia to choose a deacon to go to Syria and rejoice with it.",
+          "reference": "Ignatius, Letter to the Philadelphians 10 and 11, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 7856-7861, 7894-7895"
+        },
+        {
+          "when": "At Troas",
+          "text": "To Philadelphia he writes of one thanksgiving meal, one cup and one altar, as there is one bishop.",
+          "reference": "Ignatius, Letter to the Philadelphians 4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 7497-7502"
+        },
+        {
+          "when": "At Troas",
+          "text": "To Smyrna he writes against teachers who said Christ only seemed to suffer, and who kept away from the thanksgiving meal.",
+          "reference": "Ignatius, Letter to the Smyrnaeans 2 and 7, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8005-8009, 8220-8225"
+        },
+        {
+          "when": "At Troas",
+          "text": "He asks Smyrna to send a delegate to Syria, to rejoice with the church at Antioch that it is at peace and restored.",
+          "reference": "Ignatius, Letter to the Smyrnaeans 11 and 12, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8418-8425, 8466-8467"
+        },
+        {
+          "when": "At Troas",
+          "text": "He asks Polycarp to call a council and choose a messenger to go to Syria, and tells him to stand firm like an anvil under the hammer.",
+          "reference": "Ignatius, Letter to Polycarp 3 and 7, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8649-8651, 8806-8819"
+        },
+        {
+          "when": "At Troas",
+          "text": "He writes that he must suddenly sail from Troas to Neapolis, so he cannot write to every church. These are the last words of his that survive.",
+          "reference": "Ignatius, Letter to Polycarp 8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8854-8856"
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "His end, as later writers report it",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Polycarp sets the blessed Ignatius among those whose patience the Philippians had seen, who are now with the Lord.",
+          "reference": "Polycarp, Epistle to the Philippians 9, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3484-3492"
+        },
+        {
+          "when": "Date unknown",
+          "text": "In the same letter, Polycarp asks the Philippians for any surer news of Ignatius and those with him.",
+          "reference": "Polycarp, Epistle to the Philippians 13, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3619-3630",
+          "note": "This part survives only in Latin."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Irenaeus says he was condemned to the wild beasts because of his testimony to God.",
+          "reference": "Irenaeus, Against Heresies V.28.4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 53556-53558",
+          "note": "Irenaeus does not name him."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Eusebius writes that, by report, he was sent from Syria to Rome and became food for wild beasts for his testimony to Christ.",
+          "reference": "Eusebius, Church History III.36.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19935-19936",
+          "note": "Written about two centuries later."
+        },
+        {
+          "when": "In the eleventh year of Trajan, Jerome says",
+          "text": "Jerome dates his death to the eleventh year of Trajan.",
+          "reference": "Jerome, Lives of Illustrious Men 16, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39829-39830",
+          "note": "Written much later; Jerome also has him hear the lions roar and speak the wheat line in the arena."
+        }
+      ]
+    },
+    {
+      "when": "After his death",
+      "headline": "His letters gathered, quoted and kept",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Polycarp sends the letters of Ignatius he holds to the church at Philippi, at its request, and promises to carry its letter to Syria if he finds a fitting opportunity.",
+          "reference": "Polycarp, Epistle to the Philippians 13, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3608-3618"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Irenaeus, bishop of Lyon in Gaul, quotes the wheat line, without naming him, to show that suffering makes those who are saved ready for God.",
+          "reference": "Irenaeus, Against Heresies V.28.4, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 53550-53560"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Eusebius names all seven letters, says where each was written, and copies passages from them.",
+          "reference": "Eusebius, Church History III.36.5-15, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19961-20101"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Athanasius quotes his words on Christ as one physician, of flesh and of spirit, both from Mary and from God.",
+          "reference": "Athanasius, On the Councils 47, cic/texts/npnf204_athanasius-select-works-letters.xml lines 59204-59210"
+        },
+        {
+          "when": "Date unknown",
+          "text": "John Chrysostom, preaching at Antioch, says the city sent out a bishop and received back a martyr.",
+          "reference": "John Chrysostom, Eulogy on Saint Ignatius, cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml lines 10343-10357"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Jerome writes that his remains lie at Antioch, in the cemetery outside the Daphnitic gate.",
+          "reference": "Jerome, Lives of Illustrious Men 16, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39830-39831"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Theodoret brings forward his letter to the Smyrnaeans as testimony of the teaching of the apostles.",
+          "reference": "Theodoret, Eranistes, Dialogue 1, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 20267-20290"
+        },
+        {
+          "when": "20 December",
+          "text": "The Great Horologion of 1851 keeps his feast and prints the wheat line in Greek, citing Eusebius.",
+          "reference": "The Great Horologion, 20 December, cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt lines 15536-15552"
+        },
+        {
+          "when": "1 February",
+          "text": "The Roman Breviary of 1908 keeps his feast as bishop and martyr.",
+          "reference": "The Roman Breviary, February, cic/texts/roman-breviary_bute1908.txt lines 1596"
+        }
+      ]
+    }
+  ]
+}
