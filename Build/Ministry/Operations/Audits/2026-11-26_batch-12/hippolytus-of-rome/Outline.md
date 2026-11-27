@@ -26,12 +26,11 @@ Census id `hippolytus-of-rome`. Kind: person (`kinds/person.md`). Source codes (
 | Noetus's teaching | "that Christ was the Father himself, so that the Father was born, suffered and died" | E1 |
 | the Word | "his name, from John's gospel, for the Son as he was with the Father before he became man" | E3; NG 3743, 3778-3779 (John 1:1); HIP 23830-23834 (*Against Noetus* 15: the Word "addressed as Son because He was to become such", and not yet Son "prior to incarnation") |
 | "worshippers of two gods" | Callistus's taunt at his side for speaking of Father and Son as two: narrate, never quote | E2, E4 |
-| Sabellius put out (only if Cut first 7 is not applied) | "put out of the church's fellowship" | E4 |
+| Sabellius put out (only if Cut first 7/8 is not applied) | "put out of the church's fellowship" | E4 |
 | Callistus's rule | "he forgave every sin of the body to anyone who came over to him, and would not remove a bishop even for the gravest sin" | E5 |
-| "school" (only if Cut first 5 is not applied) | Hippolytus's word: "a teacher's following, not a church" | E5 |
+| "school" (only if Cut first 7/8 is not applied) | Hippolytus's word: "a teacher's following, not a church" | E5 |
 | high priesthood (in Q3) | "the chief priestly office of the church", told as his own claim, never as proof he was a bishop | E8; D2 |
 | the *Refutation of All Heresies* | "a long book that traced every teaching he held false back to the Greek philosophers, the mystery cults and the astrologers" | E7 |
-| Catholic, beat 4 (only if Cut first 8 is not applied) | "the church of the whole" | E5 |
 | catholic faith (Ending) | "the faith of the whole church", so it is not heard as a modern denomination | I4 |
 | Easter table | "a table, on a cycle of sixteen years, for finding the day of Easter" | E9 |
 | the split of Novatus | "the split that Novatian's party made at Rome in 251, refusing to take back those who had given way in persecution"; Damasus calls him Novatus | I4; census `novatianism` |
@@ -178,14 +177,14 @@ What passed from him was a teaching and a record. The teaching: against Noetus a
 
 ## Cut first
 
-Each item is for the card or Leave out. Every item goes to the card or Leave out, as marked (Approved heart and length).
+Each item is for the card or Leave out, and every item is applied (Approved heart and length).
 
 1. Origen present at his sermon, beat 1 (about 25). **Card.**
 2. "From Scripture and from no other source", beat 2 (about 15). **Leave out.**
 3. The two burial places in beat 6 ('Hippolytus on the Tiburtine Road and Pontianus in the cemetery of Callistus'), keeping the shared day of 13 August (about 13). **Card.**
 4. Jerome's city he could not learn, beat 6, keeping Eusebius's unnamed church and the list's elder (about 15). **Card.**
 5. 'He set up a school of his own' in the opening, keeping the expulsion (about 8). **Leave out.**
-6. The elders' answer to Noetus in the opening, keeping Q1 and the expulsion (about 25). **Leave out.**
+6. The elders' answer to Noetus in the opening, keeping his question (narrated) and the expulsion (about 25). **Leave out.**
 7. Sabellius put out "from fear of me", beat 3, keeping the "two gods" charge and his answer (about 35). **Leave out.**
 8. Callistus's following calling themselves the Catholic Church, beat 4 (about 15). **Card.**
 9. The find of 1842 under Origen's name, beat 5 (about 25). **Card**, with D1.

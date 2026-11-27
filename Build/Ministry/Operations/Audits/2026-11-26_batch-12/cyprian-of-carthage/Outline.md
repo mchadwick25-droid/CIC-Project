@@ -17,13 +17,13 @@ Count of what the story must carry (as planned below, before cuts, about 990):
 - Essence: about 70.
 - Beat 1, Decius, the hunt and the notice, the withdrawal in his words, the letters, with "proscribed" glossed: about 70.
 - Beat 2, the charge, with the hireling glossed, both halves of Rome's letter, his answer and Pontius's defence: about 75.
-- Beat 3, the lapsed and Novatian in clauses, the confessors and the book, its images, the "mother" gloss and Quote 1 (23): about 100.
-- Beat 4, the plague, why he spoke, the disease, Quote 2 (58), Pontius credited: about 110.
-- Beat 5, the quarrel, with baptism and "outside the church" glossed, his rule, Stephen's rule as Cyprian copies it, Firmilian credited, the council, communion glossed and Quote 3 (50): about 175.
+- Beat 3, the lapsed and Novatian in clauses, the confessors and the book, its images, the "mother" gloss and Quote 1 (26): about 100.
+- Beat 4, the plague, why he spoke, the disease, Quote 2 (55), Pontius credited: about 110.
+- Beat 5, the quarrel, with baptism and "outside the church" glossed, his rule, Stephen's rule as Cyprian copies it, Firmilian credited, the council, communion glossed and Quote 3 (51): about 175.
 - Beat 6, the hearing of 257 with "I am a Christian and a bishop" (6), Curubis, the new order, the last letter, Pontius credited: about 80.
 - Beat 7, the night watch, the trial, the sentence in its own terms, "Thanks be to God" (4), the field, the cloth, the trees, the burial: about 115.
 - What came 1 (60), 2 (20) and 3 with the ending (55): about 135.
-Recount after every Cut first item (1–28), each beat drafted as lean as it can be told with its glosses, credits and quotes whole (Quote 1 is 26 words, Quote 2 54, Quote 3 51): opening 45; essence 80; Beat 1, 50; Beat 2, 95; Beat 3 with Quote 1, 100; Beat 4 with Quote 2, 85; Beat 5 with Quote 3, 180; Beat 6, 100; Beat 7, 70; What came 1, 70; What came 3 with the ending, 60. **Total about 940: about 265 past the approved 675.** The plan is long because each part of the slate's job needs its explanation; the cuts take detail and side witnesses, never the explanations or the force.
+Recount after every Cut first item (1–28), each beat drafted as lean as it can be told with its glosses, credits and quotes whole (Quote 1 is 26 words, Quote 2 55, Quote 3 51): opening 45; essence 80; Beat 1, 50; Beat 2, 95; Beat 3 with Quote 1, 100; Beat 4 with Quote 2, 85; Beat 5 with Quote 3, 180; Beat 6, 100; Beat 7, 70; What came 1, 70; What came 3 with the ending, 60. **Total about 940: about 265 past the approved 675.** The plan is long because each part of the slate's job needs its explanation; the cuts take detail and side witnesses, never the explanations or the force.
 
 ## Setting
 
