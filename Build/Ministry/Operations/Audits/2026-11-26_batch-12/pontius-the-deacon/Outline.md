@@ -10,7 +10,7 @@ Kind: person (`kinds/person.md`). Items S, E, I, D are in `Source_Sheet.md`, whi
 
 ## Length
 
-**About 4½ minutes: 675 words approved**, at 150 a minute; the Cut first list brings it to about 660 (measured by the draft: 782 words with items 1–25 out; items 26–39 save about 120). The record is one book and one sentence of Jerome's, with the court record of Cyprian's end and Cyprian's last letter beside it. But the slate's job has four parts inside that book, the reason, the choices, the dream and the grief, and each needs its scene or its words. The death and the plague are clauses, so the room goes to the book.
+**About 4½ minutes: 675 words approved**, at 150 a minute; the Cut first list brings it to about 670 (measured by the draft: 782 words with items 1–25 out; items 26–38 save about 113). The record is one book and one sentence of Jerome's, with the court record of Cyprian's end and Cyprian's last letter beside it. But the slate's job has four parts inside that book, the reason, the choices, the dream and the grief, and each needs its scene or its words. The death and the plague are clauses, so the room goes to the book.
 
 Count of what the story must carry first: the three quotes (50, 41 and 64 words: 155); the plain sense of the words to explain below (passion, people still learning the faith, the court record, the Roman rites, Jerome's catalog: about 40); the witnesses credited (Pontius as the one witness, once; Jerome for the name; Cyprian's own last letter; the court record for the exile and for "as had been shown to him": about 50). That is about 245 words before the story is told.
 
@@ -24,7 +24,7 @@ As planned below, before cuts, about 1,150 words:
 - Beat 6, what he chose: about 100.
 - What came of him: about 60. Ending, with Quote 3: about 80.
 
-The Cut first list brings it to about 660, measured by the draft.
+The Cut first list brings it to about 670, measured by the draft.
 
 ## Setting
 
@@ -35,7 +35,7 @@ The Cut first list brings it to about 660, measured by the draft.
 ## Words to explain
 
 - **passion** (in the title, and in his own lines): the suffering and death of a martyr (E4, E8). Gloss the title once: "the story of his life, and of his suffering and death as a martyr". Never "passion" bare.
-- **catechumens:** "people still learning the faith before baptism" (E8; VL 40272). Never the word bare.
+- **catechumens:** card only, with Cut first 33. If told, "people still learning the faith before baptism" (E8; VL 40272), never the word bare.
 - **the Acts** (VE 28002–28004, "there are Acts which relate"): "the court record of the hearing" (E9). Never "the Acts" bare, which a listener will hear as the book of the Bible.
 - **the Roman rites:** the ceremonies of Rome's gods, which the emperors ordered all who did not keep the Roman religion to take part in (E2; KNOPF 4826–4827). One clause, at the exile.
 - **proconsul:** "the governor" (E4).
@@ -45,7 +45,7 @@ The Cut first list brings it to about 660, measured by the draft.
 
 ## Shape
 
-**Teacher or thinker** (a biographer). The question he was trying to answer: how should the church remember a bishop who died a martyr? Ordinary believers who died as martyrs had their sufferings written down in detail; it would be hard, he says, if this bishop's death were passed over, when he had much to teach even apart from it, and if his deeds in life stayed hidden (E8). What he taught is in his book's choices: begin at the new birth, pass over what came before, tell the deeds as an example for later readers, and read the dream and the sentence as signs fulfilled (E5, E7, E9). Who learned it: the copyists who kept it with Cyprian's writings, and Jerome, who named its author (I1, I2). The trap is a list of books; with one book, the trap is a list of its contents. Show the idea through his own words (Quote 1) and one scene (the dream). The record decides the order.
+**Teacher or thinker** (a biographer). The question he was trying to answer: how should the church remember a bishop who died a martyr? Ordinary believers who died as martyrs had their sufferings written down; it would be hard, he says, if this bishop's death were passed over and his deeds in life stayed hidden (E8). What he taught is in his book's choices: begin at the new birth, pass over what came before, tell the deeds as an example for later readers, and read the dream and the sentence as signs fulfilled (E5, E7, E9). Who learned it: the copyists who kept it with Cyprian's writings, and Jerome, who named its author (I1, I2). The trap is a list of books; with one book, the trap is a list of its contents. Show the idea through his own words (Quote 1) and one scene (the dream). The record decides the order.
 
 ## Sibling
 
@@ -65,7 +65,7 @@ The Cut first list brings it to about 660, measured by the draft.
 2. **The dream** (E4). On the day they settled at Curubis, Cyprian told them, before he fell asleep a young man of more than human size seemed to lead him to the governor's court (VL 41012–41018; VE 28055–28065). The governor wrote a sentence on his tablet without the usual questions. The young man behind him read it, and since he could not say it aloud, he showed it by a sign (VL 41019–41024). Then Quote 2. Cyprian begged a delay of one day to put his affairs in order; the judge's face seemed moved, and the young man signalled with his fingers twisted one behind the other that the delay was granted until the next day. Cyprian woke glad of it, yet trembling at what it might mean (VL 41029–41073; VE 28074–28089). Explain it: the sentence is the governor's written judgment; the stroke is the sword stroke of execution. Say once that these are Cyprian's words as Pontius gives them. Confidence: Documented as Pontius's report; a wonder, kept in their voice.
 3. **How Pontius read it** (E5, E6). The one day, he writes, meant one year: Cyprian would live a year after the vision, and he was put to death, Pontius says, on the very day of the year on which it had been shown him (VL 41080–41083, 41090–41092; Pontius's claim, never the narrator's). He adds that the delay was asked for church business, above all the care of the poor, and that Cyprian spent it so (HAR 1408–1411; VE 28125–28129; his reading). Everyone knew his death was near, he says, though no one spoke of the day (VL 41092–41093). The court record agrees that something had been shown him: back at his gardens after Curubis, it says, he expected every day that they would come for him, as had been shown to him (KNOPF 4855–4857; GEB 6558–6559; Documented; in the narrator's words, not quoted). Confidence: Documented as each witness's words.
 4. **The last days, 258** (E6, E7, D2). A messenger came from Rome, from (or about) its bishop, whom Pontius calls a most blessed martyr (VE 28137–28139; the bishop by role). Friends of high rank urged Cyprian again and again to withdraw and offered him places to go; Pontius says he would not agree (VE 28142–28149; VL 41184–41185; Pontius's account). Cyprian's own last letter says that when he heard officers were sent to take him to Utica, he did leave his gardens for a while on his dearest friends' advice, because a bishop should confess the Lord in the city where he leads the church (EP 17370–17375; Documented, his own words). Tell both, side by side, credited, and no verdict. Then the arrest, and the night in the officer's house: "we, his table companions and dear ones," Pontius writes, were with him as usual (VL 41246–41248, "conuiuae eius et cari in coutubernio ex more fuerimus"; told in the narrator's words, or the short phrase "as usual"). Next day the governor sentenced him to the sword, and he died on 14 September 258 (KNOPF 4910, 4955–4956; one clause; the sibling tells the trial and death). Explain it (the sentence): it called him an enemy of the Roman gods, who had gathered men into a wicked conspiracy (KNOPF 4902–4904). Pontius reads the sentence as a prophecy fulfilled (VL 41315–41319; card if room is short).
-5. **Why he wrote** (E8). He wrote for people who had heard Cyprian, who wanted to hear everything about him, now that his living voice was silent (VL 40315–40319; VE 27692–27695). He felt pressed on both sides, he says, by the bishop's greatness and by their asking (VE 27698–27700). The church's forebears, he writes, had honored ordinary believers and people still learning the faith who died as martyrs, and wrote down nearly every detail of their sufferings, so that people not yet born would know them. It would be hard if the death of so great a bishop were passed over, when he had much to teach even apart from it, and if what he did in life stayed hidden (VL 40271–40310; VE 27677–27685; paraphrase). Then Quote 1. Explain it: catechumens glossed above. Which earlier accounts he meant is a scholars' reading: say only "accounts of martyrs". Confidence: Documented, his own words.
+5. **Why he wrote** (E8). He wrote for people who had heard Cyprian, who wanted to hear everything about him, now that his living voice was silent (VL 40315–40319; VE 27692–27695). He felt pressed on both sides, he says, by the bishop's greatness and by their asking (VE 27698–27700). The church's forebears, he writes, had honored ordinary believers and people still learning the faith who died as martyrs, and wrote down nearly every detail of their sufferings, so that people not yet born would know them. It would be hard if the death of so great a bishop were passed over, when he had much to teach even apart from it, and if what he did in life stayed hidden (VL 40271–40310; VE 27677–27685; paraphrase). Then Quote 1. Explain it: nothing further; the catechumens go to the card (Cut first 33). Which earlier accounts he meant is a scholars' reading: say only "accounts of martyrs". Confidence: Documented, his own words.
 6. **What he chose to tell** (E9). He began at Cyprian's baptism: the deeds of a man of God, he wrote, should be counted only from the day he was born of God. Whatever studies had filled his mind before, "these things I pass over" (VL 40326–40332; VE 27703–27708; the short phrase may stand). He would tell what he was there for, and what he learned of earlier things (VL 40333, 40364; paraphrase only, D5). So he tells Cyprian giving away the price of whole estates to the poor while still learning the faith (VE 27730–27732), his withdrawal in an earlier persecution, which he says was obedience to God and not fear, since Cyprian later suffered after all (VE 27905–27908; one clause), and his care in a plague for everyone, not only Christians (VE 27991–27992; VL 40855–40856; one clause). He says he leaves out many other things, great ones too, to keep the book in measure (VL 40844–40845). For what Cyprian told the governor at the first hearing, he sends readers to the court record (VL 40900–40901; "the court record tells it"). Confidence: Documented, his own words.
 
 ## What came of him (heaviest first)
@@ -133,7 +133,7 @@ What passed from Pontius was one book, and with it Cyprian's exile, his dream an
 - "the dream came true", "a year later to the day" as the narrator's fact → "Pontius says he was put to death on the very day of the year on which it had been shown him" (E5, D4).
 - "an angel" → "a young man of more than human size", as Cyprian tells it (E4).
 - "Cyprian refused to hide" or "Cyprian hid" as the narrator's fact → Pontius: he would not agree; Cyprian's letter: he left his gardens for a while on his friends' advice (D2). Credit each.
-- "Pontius watched him die" or "at the execution" → the book puts him with Cyprian on the last night; Jerome says he shared the exile until the day of his death (E6, E1).
+- "Pontius watched him die" or "at the execution" → the book puts him with Cyprian on the last night (E6).
 - "Pontius died a martyr" or "Pontius died in 260" → no early source says how or when he died; leave it out (E12).
 - "Pontius was young" or "Cyprian made him deacon" → no old source says (E9, HAR-view).
 - "under guard at Curubis" or "a barren wilderness" → Pontius imagines such a place, then says it was sunny, with visitors and kind townspeople (E3).
@@ -159,7 +159,7 @@ What passed from Pontius was one book, and with it Cyprian's exile, his dream an
 
 ## Cut first
 
-The count as planned is about 1,150; these cuts, in order, bring it to about 660. Items 1–25 brought the draft to 782; items 26–39, taken with the draft in hand, bring it to about 660.
+The count as planned is about 1,150; these cuts, in order, bring it to about 670. Items 1–25 brought the draft to 782; items 26–38, taken with the draft in hand, bring it to about 670.
 
 1. Beat 1: the place, sunny and fit, with visitors and kind townspeople (about 30 words). **Card.**
 2. Beat 1: "the whole world is one home" (about 15). **Card.**
@@ -189,17 +189,16 @@ The count as planned is about 1,150; these cuts, in order, bring it to about 660
 26. Beat 3: the delay asked for church business, above all the care of the poor, and spent so (about 23). **Card.** Beat 3 keeps the day read as a year.
 27. Beat 2: Cyprian waking glad of the delay, yet trembling at what it might mean (about 12). **Card.**
 28. What came 2: Jerome's words that its author shared the exile until the day of the death (about 15). **Card.** Keep "a notable volume", credited to Jerome, more than a century later; his naming is in the essence.
-29. Beat 4: the sentence's wording, "an enemy of the Roman gods" (about 7). **Card.** Keep "sentenced him to the sword"; the plain words need no gloss.
-30. Beat 4: "of high rank" for the friends (about 3). **Leave out.**
-31. Beat 2: "to put his affairs in order", after the delay of one day (about 6). **Leave out.**
-32. Beat 2: "without the usual questions", at the governor's tablet (about 4). **Leave out.**
-33. Beat 2: "since he could not say it aloud": keep "The young man behind him read it and showed it by a sign"; Quote 2 carries the point (about 8). **Leave out.**
-34. Beat 5: the people still learning the faith, and "so that people not yet born would know them" (about 17). **Card.** Quote 1's "to those after us" carries the second; the catechumens gloss goes with the first.
-35. Beat 5: "nearly every detail of" their sufferings; keep "wrote down the sufferings" (about 4). **Leave out.**
-36. Beat 5: "when he had much to teach even apart from it"; keep "and if his deeds in life stayed hidden" (about 9). **Card.**
-37. Essence: the dream's content in the essence; keep "heard Cyprian tell a dream", which Beat 2 then tells (about 8). **Leave out** from the essence. The dream itself is not cut.
-38. Beat 4: the year "In 258" at the friends' offers; the death date carries it (about 2). **Leave out.**
-39. Beat 4: "as usual" at the last night; keep the last night (about 2). **Leave out.**
+29. Beat 4: "of high rank" for the friends (about 3). **Leave out.**
+30. Beat 2: "to put his affairs in order", after the delay of one day (about 6). **Leave out.**
+31. Beat 2: "without the usual questions", at the governor's tablet (about 4). **Leave out.**
+32. Beat 2: "since he could not say it aloud": keep "The young man behind him read it and showed it by a sign"; Quote 2 carries the point (about 8). **Leave out.**
+33. Beat 5: the people still learning the faith, and "so that people not yet born would know them" (about 17). **Card.** Quote 1's "to those after us" carries the second; the catechumens gloss goes with the first.
+34. Beat 5: "nearly every detail of" their sufferings; keep "wrote down the sufferings" (about 4). **Leave out.**
+35. Beat 5: "when he had much to teach even apart from it"; keep "and if his deeds in life stayed hidden" (about 9). **Card.**
+36. Essence: the dream's content in the essence; keep "heard Cyprian tell a dream", which Beat 2 then tells (about 8). **Leave out** from the essence. The dream itself is not cut.
+37. Beat 4: the year "In 258" at the friends' offers; the death date carries it (about 2). **Leave out.**
+38. Beat 4: "as usual" at the last night; keep the last night (about 2). **Leave out.**
 
 Next cut, not taken (only if the redraft runs past 675): Beat 6, the studies and "these things I pass over" (about 16), **Card**, keeping the start at baptism and its reason. It thins the slate's "what he chose to tell", so take it only after a word-level trim of the redraft fails.
 
