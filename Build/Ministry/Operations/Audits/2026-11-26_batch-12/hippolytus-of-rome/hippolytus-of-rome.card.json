@@ -3,7 +3,7 @@
     "Hippolytus"
   ],
   "knownFor": "A teacher in the church at Rome in the early 200s who wrote in Greek. In his Refutation of All Heresies, a book against every teaching he held false, he attacked the bishop Callistus, and in 235 he was deported to Sardinia with Rome's bishop.",
-  "shortDescription": "Hippolytus taught in the church at Rome in the early 200s and wrote in Greek. He held that the Son was another beside the Father, yet one God with him, would not give way to two bishops of Rome on this or on forgiveness, and in 235 was sent to Sardinia with Rome's bishop.",
+  "shortDescription": "Hippolytus taught in the church at Rome in the early 200s, wrote in Greek, and held that the Son was another beside the Father, yet one God with him. He would not give way to two bishops of Rome on this or on forgiveness, and in 235 he was sent to Sardinia with Rome's bishop.",
   "datesNote": "No old source gives the year of his birth or of his death. He taught at Rome while Zephyrinus was bishop and after Callistus took his place. Rome's list of bishops, in the book of 354, dates his deportation to Sardinia by the consuls of the year, Severus and Quintianus, which is 235. Eusebius says his Easter table ran to the first year of the emperor Alexander.",
   "placeNote": "Rome, where he taught; Sardinia, to which he was deported with Rome's bishop; the Tiburtine Road, where Rome's calendar of martyrs places him.",
   "role": "Teacher and writer in the church at Rome. Rome's list of bishops calls him an elder; Eusebius says he led another church, and Jerome and Theodoret call him a bishop.",
@@ -32,7 +32,7 @@
     ],
     "remembered": [
       "Rome's calendar of martyrs, in the book of 354, keeps him on 13 August, on the Tiburtine Road, and Pontianus on the same day, in the cemetery of Callistus.",
-      "Damasus, bishop of Rome, set a verse on his tomb, telling what he had heard. It says that Hippolytus, an elder, had stayed in the split of Novatus, and that as he went to the kingdom of the faithful he told the people to follow the catholic faith, the faith of the whole church. So, the verse says, he earned his place as a martyr.",
+      "Damasus, bishop of Rome, set a verse on his tomb, telling what he had heard. It says that Hippolytus, an elder, had stayed in the split of Novatus. As he went to the kingdom of the faithful, it says, he told the people to follow the catholic faith, the faith of the whole church, and so he earned his place as a martyr.",
       "The poet Prudentius, in a hymn, tells of finding the tomb of Hippolytus, an elder who had once had a part in the split of Novatus. In the poem the judge has him torn apart by wild horses, the death of Hippolytus son of Theseus in the old Greek story.",
       "The later Book of the Popes says that Pope Hadrian restored the cemetery of the blessed martyr Hippolytus, beside Saint Lawrence, which had decayed since early times."
     ]
@@ -261,7 +261,7 @@
       "lines": [
         {
           "when": "Date unknown",
-          "text": "He answers that Christ said he and the Father are one, and not that he is one with the Father as a single person: the words speak of two persons and one power.",
+          "text": "He argues that when Christ said he and the Father are one, the plural verb speaks of two persons and one power.",
           "reference": "Against Noetus 7, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 23439-23450"
         },
         {
@@ -350,7 +350,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "Christians then differed over the day: the churches of Asia kept the moon's fourteenth day, and Hippolytus counts those who kept the fourteenth day, whatever day of the week it fell, among the heretics.",
+          "text": "Christians differed over the day of Easter. Eusebius says the churches of Asia kept the moon's fourteenth day, and Hippolytus counts among the heretics those who kept the fourteenth day on whatever day of the week it fell.",
           "reference": "Eusebius, Church History V.23, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 31136-31140; Refutation VIII.11, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13064-13075"
         }
       ]
@@ -383,7 +383,7 @@
         },
         {
           "when": "In the time of Damasus, bishop of Rome",
-          "text": "Damasus sets a verse on his tomb, telling what he has heard: Hippolytus, an elder, had stayed in the split of Novatus, but at the end told the people to follow the catholic faith, and so earned his place as a martyr.",
+          "text": "Damasus sets a verse on his tomb, telling what he has heard. It says Hippolytus, an elder, had stayed in the split of Novatus, and that as he went to the kingdom of the faithful he told the people to follow the catholic faith, the faith of the whole church.",
           "reference": "Damasus, verse on the tomb of Hippolytus, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 109159-109166",
           "note": "Hearsay by the verse's own words, written more than a century later."
         },
