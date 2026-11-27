@@ -6341,6 +6341,15 @@ A second independent checker confirmed it against Smyrnaeans 13, To Polycarp 8 a
 
 An independent checker confirmed it against Smyrnaeans 13 and To Polycarp 8 (anf01 8503–8508, 8868–8869), and that nothing else changed. Neither `records/worlds/` nor `Build/Ministry/Features/Conversation-Chooser/Card-Words/Approved-Card-Words.yaml` holds the sentence; they were left alone.
 
+## 2026-11-27 — Owner opt-out from the tree's own counts (Mark)
+
+Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon does not stop the tree's own counts, because they go to the tree's own worker.
+
+**Decided.** Opening the map with `?count=off` sets a flag in that browser's localStorage (`cft-count-off`), and the map then sends no events. `?count=on` clears it. A short note says so once. The Privacy page says any visitor can do this. The test is `Build/tools/cft_count_optout.test.mjs`.
+
+**Past data.** The counts carry nothing that identifies a device, so Mark's visits before this change cannot be separated and are not filtered.
+
+**Added the same day (Mark, 2026-11-27, relayed by the coordinator).** "you have the ability to know if this is and internal thing, my computer etc." The event worker (`/e`) also drops any event whose request address is in the comma-separated `OWNER_IPS` binding. The addresses live only in the worker's secret, never in the repository, logs or reports. The `?count=off` flag stays for other networks. Test: `cic-worker/worker.test.mjs`.
 ## 2026-11-27 — The House Church brief names the Didache (Mark)
 
 **Why.** On the tile's "A short manual taught newcomers the Two Ways…", Mark wrote: "what do you mean a short manual thats crap". Offered options, he wrote "it doesnt read a", which the coordinator took as A: name the text. The coordinator then narrowed the job: the tree no longer reads `entry.tile`, and Mark said "we dont need the longer version do we?". So the tile is left alone, and only the brief (`longDescription`), which had the same vague wording, is fixed.

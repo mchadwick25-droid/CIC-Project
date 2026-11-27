@@ -143014,7 +143014,23 @@ window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
 // "returning". A visit counts only after a real action, and never from an automated browser.
 const cftTally=(()=>{
   const q=[]; let started=false, activeSec=0, lastAct=0;
-  const off=navigator.webdriver||!navigator.sendBeacon;
+  const OPT_KEY='cft-count-off';
+  let optedOut=false;
+  try{
+    const sp=new URLSearchParams(location.search), c=sp.get('count');
+    let note='';
+    if(c==='off'){optedOut=true;localStorage.setItem(OPT_KEY,'1');note='Visits from this device are no longer counted.';}
+    else if(c==='on'){localStorage.removeItem(OPT_KEY);note='Visits from this device are counted again.';}
+    else optedOut=localStorage.getItem(OPT_KEY)==='1';
+    if(note){
+      const el=document.getElementById('barToast');
+      if(el){el.textContent=note;el.classList.add('on');setTimeout(()=>el.classList.remove('on'),5000);}
+      sp.delete('count');
+      const rest=sp.toString();
+      history.replaceState(null,'',location.pathname+(rest?'?'+rest:'')+location.hash);
+    }
+  }catch(e){}
+  const off=navigator.webdriver||!navigator.sendBeacon||optedOut;
   const flush=()=>{
     if(activeSec>=15){q.push({t:'active',n:Math.round(activeSec)});activeSec=0;}
     if(!q.length||off)return;
