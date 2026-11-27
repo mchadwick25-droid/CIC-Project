@@ -260,7 +260,7 @@
         },
         {
           "when": "The first day at Curubis",
-          "text": "Cyprian begs a delay of one day to put his affairs in order. The judge's face seems moved, and the young man signals, twisting his fingers one behind the other, that the delay is granted until the next day.",
+          "text": "Cyprian begs a delay of one day to put his affairs in order. From the judge's calm face, he senses that the request has moved him, and the young man signals, twisting his fingers one behind the other, that the delay is granted until the next day.",
           "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28074-28084"
         },
         {
@@ -297,13 +297,14 @@
         },
         {
           "when": "Date unknown",
-          "text": "A messenger comes to Cyprian from the bishop of Rome, whom Pontius calls a most blessed martyr.",
-          "reference": "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28137-28139"
+          "text": "A messenger comes to Cyprian from Rome with word about its bishop, whom Pontius calls a most blessed martyr.",
+          "reference": "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28137-28139; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41141-41142",
+          "note": "The Latin says the messenger came about the bishop; the English translation says from him."
         }
       ]
     },
     {
-      "when": "September 258",
+      "when": "258, to 14 September",
       "headline": "Cyprian's last days, and the last night",
       "lines": [
         {
@@ -335,7 +336,7 @@
         },
         {
           "when": "14 September 258",
-          "text": "Brought before the governor and asked his name, Cyprian answers only that he is the man, Pontius writes, and nothing more is said.",
+          "text": "Brought before the governor and asked his name, Cyprian answers that he is Cyprian, Pontius writes. That was all that was said.",
           "reference": "Pontius, Life and Passion of Cyprian 16, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28227-28230; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41309-41310"
         },
         {
