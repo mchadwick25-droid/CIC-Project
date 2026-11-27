@@ -11,7 +11,7 @@ Kind: person. Items S, E, I, D are in `Source_Sheet.md`, which gives each file a
   - **Bishop on the road.** The bishop of Caesarea in Palestine made him a second bishop to succeed him. Called to the synod at Antioch, he passed through Laodicea, whose bishop, the same deacon, had died, and the believers kept him (E5).
   - **The Easter rule.** The first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox; those who do so, he wrote, make no small mistake. He claimed the Jews kept that rule before Christ, and he set his count on a nineteen-year cycle (E6; his own words).
   - **What came of him:** see below. Defended: the equinox rule (E6).
-- **Length:** 675 words, as approved (Mark, 2026-11-27). Planned at about 665 once Cut first items 1–29 below are applied, measured against the writer's draft (`Fixes_Length.md`).
+- **Length:** 675 words, as approved (Mark, 2026-11-27). With Cut first items 1–29 applied and the review's fixes and payments made, the plan runs at 675, at the ceiling (`Review.md`, Length).
 - **Setting:**
   - Time: the later 200s; Jerome says he flourished under the emperors Probus and Carus (S2). No year for birth, death, siege or ordination (S2, D2).
   - Place: Alexandria, in Egypt; Caesarea in Palestine; Laodicea in Syria (S3, Jerome's words; "on the coast" rests only on Loofs, so leave it out); Antioch, for the synod (E5).
@@ -129,6 +129,7 @@ Short phrases that may stand in the narrator's sentence: "one good man, as they 
 - "Bede proved the Irish wrong" → Bede said anyone skilled could very easily tell whether their claim was true (I1c).
 - 'Colman quoted the Latin book and Wilfrid the Greek' or 'they quoted two different books' → each claimed Anatolius; no old source says which text either used (BEDE 8117–8150; LATCAN 14840–14843).
 - 'As bishop he wrote…' or 'at Laodicea he wrote…' → he wrote an Easter book; no time or place for it (E6).
+- 'Later bishop of Laodicea, he wrote…' or any wording that sets the Easter book in his years as bishop → 'He later became bishop of Laodicea in Syria. He also wrote…' (E6; Cut first 17).
 - 'a revolt against Rome' or any cause for the siege → none; Eusebius gives none (E1).
 - 'Columbanus quoted Anatolius's own words' → words from a Latin Easter book under his name (I1a, D4).
 - Paul's teaching told as the narrator's fact → 'who, Eusebius says, taught that Christ was by nature an ordinary man' (E5, EUS 41838–41840).
