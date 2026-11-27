@@ -32,7 +32,7 @@ Every line cites `Source_Sheet.md` (S setting, C the chapter, R what came of it,
 **Sibling:** `suetonius` (this batch, researched after this outline; its live text read). Its job: Suetonius's two lines, Claudius and "Chrestus", and Nero's punishment of the Christians in one clause. This story's job: Nero's punishment told in full. Leave "Chrestus" and "Chrestians" to it (D5), and quote no line of Suetonius. Live beside: `pliny-the-younger`, `tertullian-s-voice`; no quote from either is used.
 
 **Openings**
-- (a) Chosen. When daylight failed in Nero's gardens, people were set alight to light the dark. Some, covered in animal skins, were torn apart by dogs; many were nailed to crosses (C6). The Roman who tells it, the historian Tacitus, thought them guilty and despised them (C3, C7). Then the essence.
+- (a) Chosen. When daylight failed in the emperor Nero's gardens in Rome, Christians were set alight to light the dark. Some, covered in animal skins, were torn apart by dogs; many were nailed to crosses (C6). The Roman who tells it, the historian Tacitus, thought them guilty and despised them (C3, C7). Then the essence.
 - (b) A Roman historian, writing of the fire, stops to explain a name, and in one sentence names Christus, put to death under Tiberius by the governor Pontius Pilate (C4). Not used: it spends Q1 before the story reaches it.
 
 **Story beats** (beat 1 is the first minute)
@@ -42,8 +42,8 @@ Every line cites `Source_Sheet.md` (S setting, C the chapter, R what came of it,
 4. **Arrests and verdict.** First those who confessed were seized. Then, on their information, a huge number were convicted, less, he says, of setting the fire than of hatred of the human race (C5). He does not say what the first ones confessed. Documented as his account.
 5. **The show.** Mockery was added to their deaths: the deaths the opening showed. Do not list the skins, dogs and crosses again; say only that Nero gave his gardens for the show and put on chariot races, mixing with the crowd dressed as a charioteer, or standing in a chariot himself (C6). Documented as his account. His closing sentence (Q3) is held for the ending.
 6. **The readers, in time order** (each credited):
-   - About 200, in Carthage (Carthage: Jerome in TERT-E 620–622), Tertullian, in his defence of the Christians, answered Tacitus by name, about another of his histories, which told where the Jews came from. Tacitus, Tertullian says, had written that the Jews, dying of thirst in the desert, followed wild asses to water and honoured the animal's head; people took it that the Christians, close to the Jews, worshipped the same. Tertullian called him a liar, and a wordy one (narrator's words from "mendaciorum loquacissimus", not a quote), and caught him out: the same Tacitus tells that Pompey, who took Jerusalem, went into the temple and found no image there (R3). Narrator's words; no quote. Documented. It is about the Jews, not the fire.
-   - About 400, Sulpicius Severus, a Christian writing a short history of the world, told the fire, the blame and the same deaths, in nearly Tacitus's own Latin words, though he names no source (R1: Documented; that he drew on Tacitus, Widely Accepted). But where Tacitus called them guilty, Sulpicius wrote: Q2.
+   - About 200, in Carthage (Carthage: Jerome in TERT-E 620–622), Tertullian, in his defence of the Christians, answered Tacitus by name, about another of his histories, which told where the Jews came from. Tacitus, Tertullian says, had written that the Jews, dying of thirst in the desert, followed wild asses to water and honoured the animal's head; people took it that the Christians, close to the Jews, worshipped the same. Tertullian called him a liar, and a wordy one (narrator's words from "mendaciorum loquacissimus", not a quote), and caught him out: the same Tacitus tells that Pompey, who took Jerusalem, went into the temple and found no image there, though if they worshipped an image, Tertullian says, the temple was the very place it would be shown (R3; TERT-L 17919–17921, "nusquam magis quam in sacrari[o] suo exhiberetur"). Narrator's words; no quote. Documented. It is about the Jews, not the fire.
+   - About 400, Sulpicius Severus, a Christian writing a short history of the world, told the fire and the blame, and gave the same deaths in nearly Tacitus's own Latin words, though he names no source (R1: Documented; that he drew on Tacitus, Widely Accepted). But where Tacitus called them guilty, Sulpicius wrote: Q2.
 7. **Ending.** See Ending.
 
 **What came of it** (ranked heaviest first; weight is what later witnesses carried on and used)
@@ -59,7 +59,7 @@ Nothing defended. No line on who keeps him today.
 
 **Names** (census spelling)
 - Tacitus (acts). "Cornelius Tacitus" not needed.
-- Nero (acts).
+- Nero, the emperor (acts; "the emperor Nero" the first time, C2, "largitionibus principis").
 - Pontius Pilate (acts, inside Q1).
 - Tiberius (inside Q1, "the emperor Tiberius" if the narrator names him).
 - Christus (inside Q1; the narrator may add "Christ" once).
@@ -102,6 +102,7 @@ Nothing defended. No line on who keeps him today.
 - Not that Tertullian answered this chapter or called the fire account a lie. He answered Tacitus's account of the Jews (R3).
 - Not "Sulpicius copied Tacitus word for word" or "Sulpicius names Tacitus". Say "in nearly Tacitus's own words", and that he names no source (R1).
 - Not that Tacitus mentions Antium, laws or edicts, or Peter and Paul. Those are Sulpicius's (R1).
+- Not that Sulpicius told the fire or the blame in Tacitus's words. Only the rumour of the order and the deaths are nearly his (R1).
 - Not that the victims were really Jews, or that historians agree they were Christians (D1: card).
 - Not what the verdict "really meant" (D3: moderns' reading, card).
 - Not "historians doubt it", and not Bradlaugh's doubt: the one held doubter is on the card (R2d, D2).
@@ -110,6 +111,7 @@ Nothing defended. No line on who keeps him today.
 - Not the ass's-head tale or Pompey's empty temple as told straight from Tacitus. The Histories are not held; tell both as Tertullian reports them (R3).
 - Not that the people in animal skins were also nailed to crosses. The skins and dogs are one death; the crosses and the burning are others (C6).
 - Not where Tacitus learned of Christus (D6).
+- Not "people" for the victims in the opening, and not Nero without "the emperor" the first time. Name them as the Christians Nero punished, in Rome (S1, C3).
 - Not a sentence that only says what is missing. Each gap is told inside a sentence about what he does (Kit, Craft).
 - Any word in Words to explain used without its plain sense the first time, "procurator", "circus" and "superstition" among them.
 
