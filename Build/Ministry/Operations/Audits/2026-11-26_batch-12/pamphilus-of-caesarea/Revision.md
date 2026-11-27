@@ -17,7 +17,7 @@ None beyond the review's exact wording, except one join: "The Defense set out Or
 
 ## Essence
 
-Complete at "read for generations after him", word 169.
+Complete at "read for generations after him", word 170.
 
 ## Length
 
