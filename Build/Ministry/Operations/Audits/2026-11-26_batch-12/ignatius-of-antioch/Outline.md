@@ -4,7 +4,7 @@ Kind: person (`Brief-Kit/kinds/person.md`). Batch 12, Part B. Evidence: `Source_
 
 ## The heart
 
-- **The essence:** Ignatius, bishop of the church at Antioch in Syria, was taken under guard to Rome to be killed by wild beasts. On the road he wrote seven letters to the churches that came out to meet him: keep together around your bishop, hold that Christ truly suffered, and, to the church at Rome, do not save me. Polycarp of Smyrna gathered the letters and sent them on, and later bishops quoted them for centuries. (Rom. 2, ANF 6961–6963; Eph. 1, ANF 4703–4705; Eph. 4, ANF 4828–4831; Trall. 10, ANF 6671–6676; Rom. 1–4, ANF 6917–6922, 7036–7042; Polycarp, *Phil.* 13, ANF 3613–3618; SS I1–I3.)
+- **The essence:** Ignatius, bishop of the church at Antioch in Syria, was taken under guard to Rome to be killed by wild beasts. On the road he wrote seven letters, six to churches and one to a fellow bishop: keep together around your bishop, hold that Christ truly suffered, and, to the church at Rome, do not save me. Polycarp of Smyrna gathered the letters he held and sent them on, and later bishops quoted them for centuries. (Rom. 2, ANF 6961–6963; Eph. 1, ANF 4703–4705; Eph. 4, ANF 4828–4831; Trall. 10, ANF 6671–6676; Rom. 1–4, ANF 6917–6922, 7036–7042; Polycarp, *Phil.* 13, ANF 3613–3618; SS I1–I3.)
 - **Also told:** what the three messages held. The bishop, with the elders and deacons, as the one centre of a church's life and its one thanksgiving meal (Eph. 4; Magn. 6–7; Philad. 4; Smyrn. 8). Christ truly born, truly crucified, truly raised, against teachers who said he only seemed to suffer, and why that touched his own chains (Trall. 9–10; Smyrn. 2, 4, 7). Why he begged Rome not to act: to be spared was to be kept from God (Rom. 1–2, 4). And the road itself: the churches that met him city by city, and his care for Antioch once news came that it was at peace (Rom. 9; Philad. 10; Pol. 7–8).
 - **What came of them:** see "What came of it" below. Defended: the one bishop with elders and deacons, one eucharist; Christ's real flesh and suffering.
 
@@ -40,7 +40,7 @@ About 3 minutes 20 seconds, about **500 words** (approved). The words the story 
 
 ## Openings
 
-1. **His own words on the road.** Q1 (the ten leopards), then: Ignatius, bishop of the church at Antioch in Syria, wrote that as a prisoner, on his way to die in the arena at Rome. The beasts he fought on the road were his guards. (Rom. 5, ANF 7083–7090; Rom. 2, ANF 6961–6963; Eph. 1, ANF 4703–4705.) Recommended.
+1. **His own words on the road.** Ignatius, bishop of the church at Antioch in Syria, was a prisoner on his way to die in the arena at Rome when he wrote Q1 (the ten leopards). (Rom. 5, ANF 7083–7090; Rom. 2, ANF 6961–6963; Eph. 1, ANF 4703–4705.) Recommended.
 2. **The churches on the road.** The churches came out to meet him "city by city", he told Rome, and received him "not as a mere passer-by", though they did not lie on his way. (Rom. 9, ANF 7280–7287.) Use one or the other: if this opens, beat 2 does not retell Rom. 9.
 
 ## Story beats
@@ -51,7 +51,7 @@ About 3 minutes 20 seconds, about **500 words** (approved). The words the story 
 4. **Christ truly suffered.** His second message, against teachers who said Christ only seemed to suffer (Trall. 9, ANF 6617–6620; Pol. 3, ANF 8646). Q2. Their side, as he reports it: they kept away from the thanksgiving meal, because they did not confess it to be Christ's flesh (Smyrn. 7, ANF 8220–8225), and they thought the same of his own sufferings and those of others like him (Smyrn. 5, ANF 8134–8137). He would not write their names (Smyrn. 5, ANF 8143–8145). He charged that they cared nothing for the widow, the orphan or the hungry (Smyrn. 6, ANF 8184–8186); told as his charge. No text of theirs is held. Documented (as his account).
 5. **To Rome: do not save me.** He was afraid of the Roman church's love: "it is difficult for me to attain to God, if ye spare me" (Rom. 1, ANF 6917–6922). If they kept silent, he would "become God's" (Rom. 2, ANF 6956–6958). Q3, then its plain sense from the same chapter: that he may be found a sacrifice to God (Rom. 4, ANF 7046–7047; Rom. 2, ANF 6958–6959). He would coax the beasts, and compel them if they held back (Rom. 5, ANF 7093–7097). Explain it: why he asked, from his own words; the record does not say what Rome could have done. Documented.
 6. **Troas.** At Troas news came that the church at Antioch was at peace (Philad. 10, ANF 7856–7859; Smyrn. 11, ANF 8418–8421; Pol. 7, ANF 8806–8808). He asked Philadelphia, Smyrna and Polycarp to choose a messenger to go to Syria and rejoice with them (Philad. 10; Smyrn. 11; Pol. 7, ANF 8813–8819). He could not write to every church, "because I must suddenly sail from Troas to Neapolis" (Pol. 8, ANF 8854–8856). It is the last stage of the road his letters tell. Documented.
-7. **What the churches did with the letters.** Polycarp wrote to the church at Philippi, which had seen him pass. He set "the blessed Ignatius" among those whose endurance they had seen with their own eyes (*Phil.* 9, ANF 3484–3488). At Philippi's request he sent on the letters of Ignatius that he held, saying they treat of faith and patience (*Phil.* 13, ANF 3613–3618), and asked for any surer news of Ignatius and those with him (ANF 3619–3630). About seventy years later Irenaeus quoted the wheat line, without his name, as the words of "a certain man of ours" condemned to the beasts (ANF 53556–53560). Contemporary; later.
+7. **What the churches did with the letters.** Polycarp wrote to the church at Philippi, which had seen him pass. He set "the blessed Ignatius" among those whose endurance they had seen with their own eyes (*Phil.* 9, ANF 3484–3488). At Philippi's request he sent on the letters of Ignatius that he held, saying they treat of faith and patience (*Phil.* 13, ANF 3613–3618), and asked for any surer news of Ignatius and those with him (ANF 3619–3630). Later Irenaeus quoted the wheat line, without his name, as the words of "a certain man of ours" condemned to the beasts (ANF 53556–53560). Contemporary; later.
 
 ## What came of it
 
@@ -90,7 +90,7 @@ No quote here is used in another story on the tree, and none is barred (the barr
 
 ## Connection to carry into the story
 
-What passed: his letters, and through them his three messages. The churches he wrote to kept them, and Polycarp, who had met him at Smyrna, gathered those he had and sent them to Philippi at that church's request, because "by them ye may be greatly profited; for they treat of faith and patience" (*Phil.* 13, ANF 3613–3618). Polycarp also promised to send a letter on to Syria at the first fitting chance, as Ignatius and the Philippians had both asked (ANF 3608–3613; Pol. 7–8). The listener needs to understand that the letters reached later readers because the churches on his road passed them hand to hand, starting with Polycarp; and about seventy years later Irenaeus quoted the wheat line as the words of "a certain man of ours" (ANF 53556–53560). Carry it through what Polycarp did (beat 7), not a "this matters because" line.
+What passed: his letters, and through them his three messages. The churches he wrote to kept them, and Polycarp, who had met him at Smyrna, gathered those he had and sent them to Philippi at that church's request, because "by them ye may be greatly profited; for they treat of faith and patience" (*Phil.* 13, ANF 3613–3618). Polycarp also promised to send a letter on to Syria at the first fitting chance, as Ignatius and the Philippians had both asked (ANF 3608–3613; Pol. 7–8). The listener needs to understand that the letters reached later readers because the churches on his road passed them hand to hand, starting with Polycarp; and later Irenaeus quoted the wheat line as the words of "a certain man of ours" (ANF 53556–53560). Carry it through what Polycarp did (beat 7), not a "this matters because" line.
 
 ## Ending
 
@@ -111,7 +111,7 @@ What passed: his letters, and through them his three messages. The churches he w
 
 - **His seven letters** (ANF): old, his own words, written on the road. Almost everything the story tells comes from them; say so once, early, inside the sentence that brings in the letters ("His letters, written on the road, tell nearly all we know of him"). The Library shows no other early account of his life; McGiffert says the same (EUS-ed 19817–19820, modern, clarifies). Credited beside: beats 1–6.
 - **Polycarp of Smyrna**, *Letter to the Philippians* 9 and 13: old, contemporary, the bishop who met him. Credited beside: beat 7. The listener should know he met Ignatius in person.
-- **Irenaeus of Lyon**, *Against Heresies* 5.28.4: old, about seventy years later; does not name him. Credited beside: the reason for his condemnation (beat 1, optional) and the wheat line carried on (beat 7).
+- **Irenaeus of Lyon**, *Against Heresies* 5.28.4: old, later; does not name him. Credited beside: the reason for his condemnation (beat 1, optional) and the wheat line carried on (beat 7).
 - **Eusebius of Caesarea**, *Church History* 3.36 and *Chronicle*: old, about two hundred years later; his account adds little to the letters but the bishop list and the death at Rome (EUS-ed 19779–19784, modern, clarifies). Credited beside: the reign of Trajan, the death.
 - **Arthur McGiffert** (1890), notes to Eusebius; **A. Cleveland Coxe** and the ANF translators (1885): modern. They clarify the texts (readings, recensions, the Syriac). Their claims of their own (the year, "first use" of "Catholic Church", Schaff's verdict on him) stay out of the story and the card's narrative; the authorship dispute goes on the card as theirs.
 - Chrysostom, Jerome, Theodoret, Athanasius, Socrates: old, 250–330 years later; card only.
@@ -137,10 +137,16 @@ What passed: his letters, and through them his three messages. The churches he w
 - That he invented the office of bishop, or "monarchical bishop" → tell what he urged.
 - That the seven letters are certainly his, or forged → tell them as his, as every old witness does; the dispute goes on the card.
 - That Polycarp collected "all seven" → "the letters of Ignatius that he held" (*Phil.* 13).
+- "gathered the letters" with no limit, wherever it follows "seven letters" → "gathered the letters he held". Change the essence to match.
 - "Theophorus means God-bearer" as his own gloss → the meaning comes from late witnesses; card.
 - The Spirit's words at Philadelphia as fact → "he wrote that the Spirit had told him" (Philad. 7).
 - That Polycarp sent a messenger or letter to Syria → he promised to, "if I find a fitting opportunity" (*Phil.* 13, ANF 3608–3613).
 - Why Irenaeus left out his name, or how he knew the line → the record does not say.
+- "seven letters to the churches that came out to meet him" → "seven letters, six to churches and one to a fellow bishop" (Rome had not met him, and one letter went to Polycarp). Change the essence to match.
+- the harp as a rule for every church → his praise of the elders at Ephesus, with the one voice as what he urged (Eph. 4).
+- "about seventy years later" → "later" (the interval rests on a Contested date for Ignatius). Also strike it from beat 7, Connection to carry and Who tells it.
+- Q1 before he is named → name him, his see and his road first, then Q1. Do not follow the quote with "the beasts on his road were his guards". Change Openings 1 to match.
+- "at peace" alone → "at peace and whole again" (Smyrn. 11). Never that the persecution had ended.
 
 ## Leave out
 

@@ -14,6 +14,8 @@
 
 
 
+- **Redraft (Mark, 2026-11-27, "Batch 12: lengths measured by the draft": "approve as recommended". This batch only.):** the first draft ran 1,004 words; the outline has since been cut back with that draft in hand (`Fixes_Length.md`, `Recheck_Length.md`) to an expected draft of about 673. Write a fresh draft from the outline as it now stands; do not open the first draft. The ceiling is 675 words: if it still runs past 675 with every Cut first item out, stop and say so.
+
 ---
 
 # Writer
