@@ -6462,3 +6462,13 @@ This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 2. Lengths: Cyprian about 965 words (the twelve free cuts and four more that take only side events, `cyprian-of-carthage/Cuts_Named.md`); Origen about 950 (the free cuts only); Eusebius about 850 (the free cuts and C1-C6: the Chronicle ending, the Defense of Origen, the Rufinus and Jerome lines to the card); Josephus about 725, as drafted; the era 1 brief about 730 (the free cuts only). These run past the person kit's 675 ceiling where the heart needs it, as Latin Pastoral and Manichaeism did in batch 11.
 
 This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md` and each outline's "Approved heart and length" section.
+
+## 2026-11-27 — Batch 12: the full cards for its twenty people (Mark)
+
+**Why.** Two threads were set to write cards for the same people. The era 1 cards thread (`session_01JMNsS9jvf8MiuJ4c5BaFtq`) was writing cards for all 28 era 1 people, while batch 12 rebuilds the briefs of 20 of them and, under the card ruling of 2026-11-26, would then refine each card on the new material. Asked through the coordinator: "the era 1 cards thread is set to write cards for all 28 era 1 people, while batch 12 is rewriting 20 of them. A (recommended): split the people between the two threads. The era 1 cards thread writes cards only for the people batch 12 isn't touching. Batch 12 writes the full card for each of its 20 as part of its own card step, right after each new brief, under the same card rules."
+
+**Decided (Mark, 2026-11-27): "a".**
+1. Batch 12 writes the full new card for each of its twenty people at its card step (Kit step 6), after each new brief: every section of the card the kit approves, Timeline included, under `roles/card.md` with its independent check. It is a full card, not a refinement of the card thread's version.
+2. The era 1 cards thread writes cards only for the era 1 people batch 12 does not touch, and leaves the twenty alone.
+
+This replaces, for these twenty people, the card ruling of 2026-11-26 ("this thread does what it has and when batch 12 runs it then does the card refinements like now on new material"). This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`.
