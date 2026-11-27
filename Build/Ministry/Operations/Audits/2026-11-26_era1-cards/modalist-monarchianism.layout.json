@@ -1,5 +1,5 @@
 {
- "shortDescription": "Noetus of Smyrna taught that Christ is the Father himself, who was born, suffered and died, and his pupils carried the teaching to Rome. Hippolytus and Tertullian wrote against it, and what it taught comes to us in their books.",
+ "shortDescription": "Hippolytus reports that Noetus of Smyrna taught that Christ is the Father himself, who was born, suffered and died. A pupil of Noetus brought the teaching to Rome, and Hippolytus and Tertullian wrote against it.",
  "dates": "c. 200 to 4th c.",
  "timeline": [
   {
@@ -72,7 +72,7 @@
     },
     {
      "when": "in Callistus's time",
-     "text": "Hippolytus gives Callistus's own words: he would not profess belief in two Gods, Father and Son, but in one. Hippolytus charges that Callistus taught that the Father suffered along with the Son, and that Callistus called Hippolytus's side worshippers of two gods.",
+     "text": "Hippolytus quotes Callistus as saying he would not profess belief in two Gods, Father and Son, but in one. Hippolytus charges that Callistus taught that the Father suffered along with the Son, and that Callistus called Hippolytus's side worshippers of two gods.",
      "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13837-13841, 13855-13864"
     }
    ]
@@ -185,7 +185,7 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "Augustine writes that the Sabellians are said to have come from Noetus, and that some say Sabellius was his pupil. The Noetians are hard to find, he says, but the Sabellians are on many people's lips.",
+     "text": "Augustine writes that the Sabellians are said to have come from Noetus, and that some say Sabellius was his pupil. Few people know of the Noetians, he says, but the Sabellians are on many people's lips.",
      "reference": "Augustine, On Heresies 41, cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt lines 1745-1752",
      "note": "Augustine wrote in the 5th century."
     },
@@ -217,7 +217,7 @@
  "uncertain": [
   "Their own words. No writing of Noetus, Praxeas or Sabellius is among the texts this card draws on. What they taught comes through those who wrote against them: Hippolytus, Tertullian, Novatian, the two bishops named Dionysius, Epiphanius and Basil.",
   "Who began it. In Book IX of his Refutation, Hippolytus calls Epigonus a pupil of Noetus. In Book X he writes that Noetus brought in a heresy that began with Epigonus.",
-  "Callistus. Hippolytus, his rival at Rome, charges that Callistus backed the teaching and then put Sabellius out to clear himself. Among the texts this card draws on, the charge stands on Hippolytus alone.",
+  "Callistus. Hippolytus, who opposed him at Rome, charges that Callistus backed the teaching and then put Sabellius out to clear himself. Among the texts this card draws on, the charge stands on Hippolytus alone.",
   "Praxeas. Tertullian says he came from Asia to Rome. Augustine reports that he is said to have been in Africa.",
   "Sabellius's homeland. Basil calls him Sabellius the Libyan. Hippolytus, who warned him in person, tells of him only at Rome.",
   "One teaching or two. Epiphanius counts the Noetians and the Sabellians as two heresies. Augustine writes that he cannot find out why, and takes them as one sect with many names."

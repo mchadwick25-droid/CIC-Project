@@ -55,7 +55,7 @@
     },
     {
      "when": "under Diocletian and Maximian",
-     "text": "The act of Irenaeus says that Probus later asked Irenaeus whether he had a wife, children or parents, and Irenaeus said he had none. He told Probus that his children had the same God he had, who was able to save them.",
+     "text": "The act of Irenaeus says that Probus later asked Irenaeus whether he had a wife, children or parents, and Irenaeus said he had none, citing Christ's word that whoever loves them more than him is not worthy of him. He told Probus that his children had the same God he had, who was able to save them.",
      "reference": "The Passion of Irenaeus 4, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 44356-44366"
     },
     {
@@ -132,7 +132,7 @@
    "lines": [
     {
      "when": "in the reign of Gratian",
-     "text": "The minutes of Aquileia record Palladius telling Ambrose and his side that it was their doing that the council was not a general and full one, and that with their fellow bishops absent they could not judge on the faith. Asked who those bishops were, Palladius answered the eastern bishops.",
+     "text": "The minutes of Aquileia record Palladius telling Ambrose and his side that it was their doing that the council was not a general and full one. With his own fellow bishops absent, he said, his side could not judge on the faith. Asked who those bishops were, Palladius answered the eastern bishops.",
      "reference": "The minutes of the council of Aquileia, in Maximinus, Against Ambrose, ed. Kauffmann, cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt lines 14724-14729",
      "note": "Maximinus calls him Palladius, bishop of Ratiaria, line 14692."
     },
@@ -155,7 +155,7 @@
     {
      "when": "date unknown, in Jerome's time",
      "text": "Jerome writes to a friend, Anatolius, who had sent him Victorinus's commentary on the Apocalypse, that Papias, bishop of Hierapolis, and Nepos, a bishop in Egypt, had held the thousand-year reign as Victorinus did. He says he joined to Victorinus's work what he found on it in older commentaries, and took out what Victorinus had meant literally.",
-     "reference": "Jerome, Letter to Anatolius, the preface to his revision, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 4178-4193"
+     "reference": "Jerome, Letter to Anatolius, the preface to his revision, cic/texts/victorinus_opera-lat_haussleiter-csel49-1916.txt lines 4178-4193; Anatolius named, line 4227"
     },
     {
      "when": "date unknown, in Jerome's time",
@@ -169,7 +169,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Gennadius writes that Niceas, bishop of the city of Romatia, wrote six books of instruction in plain language for those preparing for baptism, among them books on faith in one sovereign, on the creed and on the Passover lamb.",
+     "text": "Gennadius writes that Niceas, bishop of the city of Romatia, wrote six books of instruction in simple and clear language. The first tells how those who seek baptism ought to act, and others are on faith in one sovereign, on the creed and on the Passover lamb.",
      "reference": "Gennadius, Lives of Illustrious Men 22, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 42593-42607",
      "note": "Gennadius wrote in the 5th century."
     },
@@ -211,8 +211,7 @@
  "uncertain": [
   "Victorinus's dates. Jerome says he died a martyr at the last, and gives no year, place or emperor.",
   "What Jerome changed. Jerome says he took out what Victorinus meant literally about the thousand years, and that the end of the book is added. The held Latin prints Victorinus's own text beside Jerome's revision, so the two can be read side by side.",
-  "Irenaeus's family. In the act, his children and the women of his house plead with him, yet later he tells Probus he has no wife, children or parents.",
-  "Who led the quarrel. Athanasius, an opponent, gives the creeds and letters of Valens, Ursacius and Germinius, and judges them as foes of Christ. Their own letter to Julius is the one text of theirs this card draws on.",
+  "Who led the quarrel. Athanasius, who opposed Valens, Ursacius and Germinius, gives their creeds and calls them foes of Christ. Socrates, writing in the 5th century, also tells that Ursacius and Valens had the creed of Sirmium read at Ariminum. Their own words survive in their letter to Julius, which Athanasius keeps.",
   "Niceas and Niceta. Gennadius writes of Niceas, bishop of Romatia, and his books. Paulinus writes of Niceta going home to the Dacians, to the shores where he serves as priest. The lines opened for this card do not say they are the same man."
  ]
 }

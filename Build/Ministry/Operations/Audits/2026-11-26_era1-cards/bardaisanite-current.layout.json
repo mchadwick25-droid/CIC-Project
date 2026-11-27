@@ -3,8 +3,8 @@
  "dates": "Late 2nd to 4th c.",
  "timeline": [
   {
-   "when": "In Bardaisan's lifetime, late in the 2nd century",
-   "headline": "Bardaisan is born at Edessa, writes in Syriac against Marcion's followers and on fate, and is named among the schools of Valentinus",
+   "when": "In Bardaisan's lifetime, in the 2nd century",
+   "headline": "Bardaisan is born, writes in Syriac against Marcion's followers and on fate, and is named among the schools of Valentinus",
    "lines": [
     {
      "when": "154, the year 465 of the Greeks",
@@ -34,7 +34,7 @@
      "note": "Epiphanius wrote in the 4th century."
     },
     {
-     "when": "in the times of the emperor Antoninus, Epiphanius says",
+     "when": "in the times of Antoninus Verus, Epiphanius says",
      "text": "Epiphanius writes that Bardesanes argued at length against Abidas the astronomer about fate. He says that when Apollonius, a companion of the emperor Antoninus, urged him to deny he was a Christian, Bardesanes refused, saying he did not fear death.",
      "reference": "Epiphanius, Panarion 56.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 26407-26417, 26486-26491"
     },
@@ -46,7 +46,8 @@
     {
      "when": "date unknown",
      "text": "Hippolytus names Bardesanes, with Axionicus, among the eastern followers of Valentinus, who say that the body of the Savior was spiritual.",
-     "reference": "Hippolytus, Refutation of All Heresies VI, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 9656-9663"
+     "reference": "Hippolytus, Refutation of All Heresies VI, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 9656-9663",
+     "note": "Hippolytus's text spells the name Bardesianes, or Ardesianes in Miller's text, lines 9660-9662."
     },
     {
      "when": "in Hippolytus's own times",
@@ -83,7 +84,8 @@
     {
      "when": "date unknown",
      "text": "Bardaisan says that Christ planted Christians in every country, and that wherever they are, they are called by the one name of Christ. On the first day of the week, he says, they meet together, and on the days of the readings they go without food.",
-     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 68966-68976"
+     "reference": "The Book of the Laws of Countries, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 68966-68976",
+     "note": "The translator marks the word for readings as uncertain, lines 68971-68974."
     },
     {
      "when": "date unknown",
@@ -99,7 +101,7 @@
    ]
   },
   {
-   "when": "At Edessa, in the 4th century",
+   "when": "In the 4th century",
    "headline": "Ephrem the Syrian attacks Bardaisan's teaching and songs in hymns and in prose",
    "witness": "Ephrem the Syrian, an opponent",
    "lines": [
@@ -190,7 +192,7 @@
  "uncertain": [
   "Which came first. Eusebius and Jerome say Bardaisan began among the followers of Valentinus and left them. Epiphanius says he began as an excellent Christian and joined them later.",
   "Two portraits. In the dialogue Bardaisan argues that people are free in what they do, whatever the stars may hold. Ephrem charges him with Entities in empty space, and with the Seven, from which he says rain and dew come. The old sources held here do not settle how the two fit together.",
-  "His dates. The Chronicle of Edessa gives his birth in the year 465 of the Greeks. Eusebius places him in the reign of Marcus Aurelius, and Epiphanius in the times of an emperor Antoninus.",
+  "His dates. The Chronicle of Edessa gives his birth in the year 465 of the Greeks. Eusebius places him in the reign of Marcus Aurelius, and Epiphanius in the times of Antoninus Verus, not the one called Pius.",
   "Who made the songs. Ephrem names Bardaisan as the maker of the hymns and the hundred and fifty psalms. Sozomen and Theodoret give the songs to his son Harmonius.",
   "Bardaisan's people. Hippolytus calls him an Armenian. Eusebius and Jerome call him a Syrian and a man of Mesopotamia, and Epiphanius places him among those who lived in Edessa."
  ]
