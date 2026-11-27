@@ -1,0 +1,162 @@
+{
+  "otherNames": [
+    "Bardesanes",
+    "Bardesan"
+  ],
+  "knownFor": "A Syriac teacher of Edessa whose pupil's dialogue, the Book of the Laws of Countries, argues that people are free and not ruled by the stars.",
+  "datesNote": "About 155 to about 222, by later Syriac chronicles",
+  "placeNote": "Edessa, in Mesopotamia",
+  "role": "Teacher and writer of dialogues",
+  "keyWorks": [
+    {
+      "title": "The Book of the Laws of Countries",
+      "about": "a dialogue in which Bardaisan answers Avida on fate and freedom; written by a disciple"
+    },
+    {
+      "title": "Dialogues against the followers of Marcion",
+      "about": "named by Eusebius of Caesarea; not held in the Library"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His followers. Sozomen, the church historian, says his son Harmonius is said to have set Syriac verse to meter and music, and that the Syrians still sang the melodies in Sozomen's day."
+    ],
+    "remembered": [
+      "Ephrem the Syrian learned Harmonius's meters and wrote hymns of his own for the church, Sozomen says.",
+      "Ephrem attacked Bardaisan as one of the worst of heretics in his Prose Refutations."
+    ]
+  },
+  "uncertain": [
+    "Eusebius of Caesarea, who calls him \"a powerful defender of the faith,\" says he began as a follower of Valentinus and left him. Epiphanius of Salamis, who wrote against every heresy, says he began as an excellent Christian and fell into the error of Valentinus later. McGiffert thinks Eusebius's order may well be right. Following Hort, he finds no Gnostic system in Bardaisan's teaching.",
+    "The dialogue was written by a disciple, not by Bardaisan, says Arthur McGiffert, who translated Eusebius. In it Bardaisan speaks to \"Philip and Baryama.\"",
+    "McGiffert thinks Ephrem knew Bardaisan only through his followers, and so judged him more harshly. But Ephrem says he came upon a book of Bardaisan's, and he answers Bardaisan's Domnus by name.",
+    "His dates come through McGiffert from the Chronicle of Edessa and Barhebraeus. Karl Holl's notes give Barhebraeus's year of death as 221 or 222. Eusebius placed him under Marcus Aurelius. McGiffert, with Hort and Hilgenfeld, takes this as a confusion of the later emperors named Antoninus with the earlier.",
+    "In the dialogue he admits that he once followed the astrologers himself.",
+    "Epiphanius says he refused when a companion of the emperor Antoninus urged him to deny he was a Christian. Karl Holl, who edited Epiphanius, notes that the emperor meant cannot be Marcus Aurelius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Book of the Laws of Countries (his argument, written down by a disciple)",
+        "language": "English translation",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 4, chapter 30, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Panarion 56 (Greek, ed. Holl)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+        "author": "Ephrem the Syrian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+      },
+      {
+        "title": "Church History, Book 3, chapter 16",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Introduction to Ephrem, with lines of his Nisibene Hymns and Hymns against Heresies in English",
+        "author": "John Gwynn",
+        "date": "1898",
+        "language": "English",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men 33",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "De viris illustribus 33 (PL 23)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+      },
+      {
+        "title": "Introductory notice and notes to the Recognitions of Clement",
+        "author": "Thomas Smith",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      },
+      {
+        "title": "The Chronicle of Edessa (tr. B. H. Cowper)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/chronicle-of-edessa_cowper.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle (ed. Abbeloos and Lamy)",
+        "author": "Barhebraeus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "The Book of the Laws of Countries, tr. B. P. Pratten, the opening: the pupils visiting a friend, Bardaisan asking what they had been talking about, as was his habit, and the question of Avida, a newcomer too bashful to ask, why God did not make people unable to do wrong.",
+    "The Book of the Laws of Countries: Philip addressed by name; Arthur McGiffert and B. P. Pratten on its writing by a disciple.",
+    "The Book of the Laws of Countries: a person made unable to do wrong would be like a harp another plays or a ship another guides; the sun never says it will not rise; the good a person does is his own.",
+    "The Book of the Laws of Countries: he once followed the astrologers; fate, the order given to the powers of the heavens from the hour of birth, rules wealth, sickness and children; nature rules the body; freedom rules conduct.",
+    "The Book of the Laws of Countries: each nation's laws under the same stars, the Brahmans of India, the Persians, stoning and death for some offenses, King Abgar's law at Edessa, and the Christians who keep the law of Christ in every land.",
+    "The Book of the Laws of Countries: the ending, on the new world to come.",
+    "The Chronicle of Edessa, tr. B. H. Cowper: his birth, in 154 by Cowper's reckoning, 155 by Hort's through McGiffert. The river Daisan and his name: Hahn's note to the dialogue, and John Gwynn.",
+    "Eusebius of Caesarea, Church History 4.30, tr. McGiffert: dialogues in Syriac against the followers of Marcion, his very many pupils who put his works into Greek, a powerful defender of the faith, first a follower of Valentinus, and the stain of the old heresy he never wholly washed off.",
+    "Epiphanius of Salamis, Panarion 56 (Greek, ed. Holl): at first an excellent man of the church, who later joined the followers of Valentinus and denied the resurrection of the dead, like a fine ship wrecked by the harbor.",
+    "Barhebraeus, Ecclesiastical Chronicle, with Karl Holl's note: he lived 68 years and died in the year 533 of the Greeks, 221 or 222.",
+    "The Recognitions of Clement, Thomas Smith's notice and notes: chapters taken in altered form from the work ascribed to Bardaisan, On Fate.",
+    "Jerome, Lives of Illustrious Men 33, in Latin and English: On Fate the strongest of his books.",
+    "Ephrem the Syrian, Prose Refutations, tr. C. W. Mitchell: against his teaching on the soul, the body and the first beings he said the world was made from.",
+    "Ephrem the Syrian, in John Gwynn's English: the curse on anyone who says, as Bardaisan said, that the rain and the dew come from the Seven, powers Bardaisan confesses; Ephrem's account of his school's hymns.",
+    "Sozomen, Church History 3.16: Ephrem learned the meters of Harmonius's songs and wrote hymns of his own in them.",
+    "World census, Edessa, today in Turkey; Valentinus and Marcion of Pontus: what each taught."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "So we humans are ruled by nature all alike, by fate each in a different way, and by our freedom each as we choose.",
+      "printed": "And thus we men are found to be governed by Nature all alike, and by Fate variously, and by our freedom each as he chooses.",
+      "work": "The Book of the Laws of Countries, tr. B. P. Pratten, Ante-Nicene Fathers 8",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": "68441-68443",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Wherever we are, we are all called by the one name of Christ: Christians.",
+      "printed": "for, lo! wherever we are, we are all called after the one name of Christ—Christians.",
+      "work": "The Book of the Laws of Countries, tr. B. P. Pratten, Ante-Nicene Fathers 8",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": "68968-68969",
+      "secondReading": "same"
+    },
+    {
+      "modern": "When that new world is set up, all evil turmoil will cease, and every rebellion will end. The foolish will be convinced, and all that is lacking will be filled.",
+      "printed": "And at the establishment of that new world all evil commotions shall cease, and all rebellions terminate, and the foolish shall be convinced, and all deficiencies shall be filled up,",
+      "work": "The Book of the Laws of Countries, tr. B. P. Pratten, Ante-Nicene Fathers 8",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": "69026-69029",
+      "secondReading": "same"
+    }
+  ]
+}

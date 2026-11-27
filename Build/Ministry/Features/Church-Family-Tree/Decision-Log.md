@@ -6412,3 +6412,18 @@ This builds on "Standard visitor analytics replace the cookie-free counts" above
 3. Consent: the worker answers `/region` with whether the request comes from Europe (EU, EEA, UK, Switzerland), and nothing about the visitor is kept. In Europe the map asks first; until "Yes" it sets no cookie and sends nothing, and "No thanks" removes the cookie and is remembered. Outside Europe it counts as before. If the lookup fails, nothing is counted.
 4. Owner exclusion: the home address goes in the `OWNER_IPS` binding on the worker `church-family-tree`, never in the repository. Mark's devices are excluded by `?count=off`, which also marks an existing visitor number as the owner's.
 5. The Privacy page says all of this in plain words.
+
+## 2026-11-27 — Batch 12: the slate approved (Mark)
+
+**Why.** Step 0 of batch 12 (the twenty era 1 people graded below C, then the era 1 brief). The slate went to Mark on one page, https://claude.ai/artifact/5VuWiHRad1q1gPoEXnwzFz (version 1). Mark paused the batch on 2026-11-26 and lifted the pause on 2026-11-27 ("we can also start batch 12 work").
+
+**Decided (Mark, 2026-11-27): "approve the slate as recommended".**
+1. The twenty jobs as the slate gives them, in four parts (A to D), then the era 1 brief as part E, in place of the kit's two halves of about six. One slate, one hearts page and one release for the batch.
+2. Research order: Tacitus, Josephus, Justin, Ignatius, Valentinus, Hippolytus, Clement, Tertullian, Anatolius and Peter first; Suetonius after Tacitus's outline; Tatian after Justin's; Bardaisan after Valentinus's; Cyprian after Tertullian's; Origen after Clement's; Pontius after Cyprian's; Lactantius after Tertullian's and Cyprian's; Methodius and Pamphilus after Origen's; Eusebius after Pamphilus's; the era brief after the twenty outlines.
+3. Each person gets a new source sheet and outline from the Library. The old batch's sheet and outline are pointers only, and the live wording is not kept.
+4. No census change. The stories tell, crediting their witnesses, Valentinus's break, Tatian's Encratites, Melitius's break with Peter's church, Pamphilus at Caesarea and Hippolytus's rival church. The Melitian line and Pamphilus's home go to Open-Gaps for a later census pass.
+5. Old recordings: nothing is removed. At release, a person whose recording is of an older text keeps its file, manifest entry and times, and its player is hidden, as for the three person references (Open-Gaps 413).
+6. The era 1 brief comes after the twenty outlines; its heart and length are ruled on the hearts page; where its text lives in the census is settled with the card-site thread at its card step.
+7. No quote reuse. The quotes the slate lists stay where they are.
+
+This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`.

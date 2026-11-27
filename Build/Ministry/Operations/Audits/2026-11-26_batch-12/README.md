@@ -6,7 +6,7 @@ Each folder `<slug>/` holds `<slug>.brief.live.txt`, the live `longDescription` 
 
 Stops go to Mark through the coordinator session (`session_01JMNsSDxiDjhkPh1K48BmfL`) with send_message; his words come back verbatim. The card-site build runs alongside and changes the census schema (`meta`), `cft-website/index.html` and the tree page generator: bring the branch up to date with `main` before merging. No recording in this batch (Decision-Log, "No person or story recordings until a new voice", 2026-11-26); each live recording stays until a new one replaces it (change order, 2026-11-26).
 
-## The twenty (proposed; slate decision 1)
+## The twenty (approved)
 
 | Census id | Part | Grade (overall, rigor/craft) | Research order |
 |---|---|---|---|
@@ -34,13 +34,16 @@ Stops go to Mark through the coordinator session (`session_01JMNsSDxiDjhkPh1K48B
 
 Jobs, homes and direct lines, siblings, the live stories beside each, and quote bars: the slate, https://claude.ai/artifact/5VuWiHRad1q1gPoEXnwzFz (version 1).
 
-Earlier research, as pointers only if decision 2 is approved: batch 3 (`justin-martyr`), batch 4 (`clement-of-alexandria`), batch 6 (`josephus`, `tatian`, `hippolytus-of-rome`, `suetonius`, `tacitus`, `ignatius-of-antioch`, `valentinus`, `bardaisan-of-edessa`), batch 7 (the rest), and for `origen` and `methodius-of-olympus`, `2026-11-16_eight-standard-v1`.
+Earlier research, as pointers only (decision 2): batch 3 (`justin-martyr`), batch 4 (`clement-of-alexandria`), batch 6 (`josephus`, `tatian`, `hippolytus-of-rome`, `suetonius`, `tacitus`, `ignatius-of-antioch`, `valentinus`, `bardaisan-of-edessa`), batch 7 (the rest), and for `origen` and `methodius-of-olympus`, `2026-11-16_eight-standard-v1`.
 
 ## Steps
 0. Slate: sent to Mark through the coordinator, 2026-11-26. Paused by Mark the same day, as the coordinator relayed it: "i want everything else done with batch 11 and other system work before starting batch 12". The slate is not approved; no research starts. The coordinator brings it back to Mark when he is ready.
    Pause lifted (Mark, 2026-11-27, as the coordinator relayed it): "we can also start batch 12 work". He gives his slate ruling directly in this session. Before it, on 2026-11-27: `main` (`556d8243`) merged into the branch, cleanly. None of the twenty census entries changed (text, card, home), no edge was added or removed, and `check_tree_overlap.py` on the twenty live texts gives the same all-clear. Each quote the slate bars still stands where the slate says. The slate holds as sent. The era 1 cards thread (`session_01JMNsS9jvf8MiuJ4c5BaFtq`) is writing these twenty people's cards now; bring `main` in again right before release, and raise any person both threads touch through the coordinator.
+   Approved (Mark, 2026-11-27: "approve the slate as recommended"; Decision-Log, "Batch 12: the slate approved").
+1. Research (`<slug>/Researcher_Prompt.filled.md`, each a filled `roles/researcher.md`, all twenty written 2026-11-27; `<slug>/Card.existing.json` is the census card as it stood then). The parts run in fresh hands: each researcher is a fresh Opus agent started from its prompt file alone, so this coordinating session carries only their replies. First wave started 2026-11-27: Tacitus, Josephus, Justin, Ignatius, Valentinus, Hippolytus, Clement, Tertullian, Anatolius, Peter. Waiting: Suetonius (Tacitus), Tatian (Justin), Bardaisan (Valentinus), Cyprian (Tertullian), Origen (Clement), then Pontius (Cyprian), Lactantius (Tertullian, Cyprian), Methodius and Pamphilus (Origen), Eusebius (Pamphilus), the era brief (all twenty).
 
-## Open items (the slate's six decisions)
+
+## The slate's six decisions (approved as recommended)
 1. Four parts (A to D) plus the era as E, each in its own fresh session, in place of the kit's two halves of about six.
 2. A new source sheet and outline for each person; the old ones are pointers only; the live wording is not kept.
 3. No census change: Valentinus's break, Tatian's Encratites, the Melitian break with Peter's church, Pamphilus's home (Caesarea), Hippolytus's rival church. The Melitian line and Pamphilus's home are noted in Open-Gaps for a later census pass.
@@ -49,4 +52,6 @@ Earlier research, as pointers only if decision 2 is approved: batch 3 (`justin-m
 6. No quote reuse. The barred quotes are listed on the slate.
 
 ## Rulings
+- "Batch 12: the slate approved" (Mark, 2026-11-27: "approve the slate as recommended"): decisions 1 to 6 above, the twenty jobs and the research order. This batch only.
+- For the release: Open-Gaps entries for the Melitian break line and Pamphilus's census home (decision 3).
 - Cards (Mark, 2026-11-26, as the coordinator relayed it): "this thread does what it has and when batch 12 runs it then does the card refinements like now on new material". A separate era 1 card thread writes cards for every era 1 person, these twenty included, from their current briefs. When batch 12 runs, it rebuilds each brief, then refines that person's card (the card thread's version, as it then stands in the census) on the new material, with the same card role (`roles/card.md`) and checks. Batch 12 stays paused.
