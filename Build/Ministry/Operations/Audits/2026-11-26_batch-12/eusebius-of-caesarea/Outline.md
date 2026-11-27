@@ -100,6 +100,7 @@ Batch 12, Part D. Row codes (S, E, I, L, D) are rows of `Source_Sheet.md` in thi
   - "Later historians began their books where his History ended" as the essence's last sentence → told straight after the History's making, inside the first minute (kinds/person.md, The essence).
   - "if they came here to speak against him so" with "they" unnamed → "if Athanasius's side came here…" (E23, EPI 44480–44490, 44604–44612).
   - "the council removed Athanasius" alone → the council removed him as bishop, with Socrates's ground, credited (SOC 5185–5211).
+  - "His plan" straight after the Pamphilus clause → "Eusebius's plan" (B1).
 - **Leave out:**
   - Eustathius's charge and Eusebius's counter-charge of Sabellius's opinion (E21-pre): needs a second doctrine glossed; card.
   - The Abgar letters from Edessa and the modern forgery verdict (E4): a side story; card at most.
