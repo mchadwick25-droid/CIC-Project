@@ -20,7 +20,7 @@ None of these touches the essence, the Also told parts, the Never cut list, an e
 | F6 | Beat 5: "and Cyprian set out how this meeting would run", rejoined as "He began:" before Quote 3 | 7 | Leave out | 1125 |
 | F7 | Beat 5: "from across Roman Africa" (becomes "eighty-seven African bishops") | 3 | Leave out | 1122 |
 | F8 | Beat 6: "Pontius says he refused friends' offers of places to hide." (the last letter carries the choice) | 10 | Card | 1112 |
-| F9 | Beat 7: "and held for one night in an officer's house" (rejoined "He was taken at his gardens, and next morning…") | 9 | Card | 1103 |
+| F9 | Beat 7: "and held for one night in an officer's house" (leaving "He was taken at his gardens. Next morning…") | 9 | Card | 1103 |
 | F10 | What came 1: "Cyprian held a different view on baptism, Augustine said, yet he never left the church's unity." (the sentence before, "hold with us to his example of keeping unity", carries it) | 16 | Card | 1087 |
 | F11 | Essence: "the great city of" (becomes "Carthage, in Roman Africa") | 3 | Leave out | 1084 |
 | F12 | Beat 1: "In his telling," (the sentence before already credits him: "he wrote later") | 3 | Leave out | 1081 |
