@@ -6340,3 +6340,14 @@ A second independent checker confirmed it against Smyrnaeans 13, To Polycarp 8 a
 - After: "…met together. A short manual…" and "…should act as one around its bishop. He greeted the church at Smyrna household by household. Near the end…"
 
 An independent checker confirmed it against Smyrnaeans 13 and To Polycarp 8 (anf01 8503–8508, 8868–8869), and that nothing else changed. Neither `records/worlds/` nor `Build/Ministry/Features/Conversation-Chooser/Card-Words/Approved-Card-Words.yaml` holds the sentence; they were left alone.
+
+## 2026-11-27 — The House Church brief names the Didache (Mark)
+
+**Why.** On the tile's "A short manual taught newcomers the Two Ways…", Mark wrote: "what do you mean a short manual thats crap". Offered options, he wrote "it doesnt read a", which the coordinator took as A: name the text. The coordinator then narrowed the job: the tree no longer reads `entry.tile`, and Mark said "we dont need the longer version do we?". So the tile is left alone, and only the brief (`longDescription`), which had the same vague wording, is fixed.
+
+**Done.** Brief paragraph 3:
+
+- Before: "A short manual, whose writer, date and place no one knows, opens on the Two Ways."
+- After: "A church handbook called the Didache, a Greek word for teaching, opens on the Two Ways. No one knows who wrote it, or when or where."
+
+The held text's title is "The Teaching of the Twelve Apostles", and the editors give the Greek word (anf07 12477–12499, 12621). Its Two Ways open at anf07 12698 and its baptism follows at 12910–12918. The gloss only explains a word. An independent checker confirmed the new wording and that nothing else changed. The outline's Do not say line is updated to match. Readability: 678 words, grade 7.2, reading ease 75.7, pass.
