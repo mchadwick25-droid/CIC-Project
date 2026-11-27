@@ -6,6 +6,32 @@ Each folder `<slug>/` holds `<slug>.brief.live.txt`, the live `longDescription` 
 
 Stops go to Mark through the coordinator session (`session_01JMNsSDxiDjhkPh1K48BmfL`) with send_message; his words come back verbatim. The card-site build runs alongside and changes the census schema (`meta`), `cft-website/index.html` and the tree page generator: bring the branch up to date with `main` before merging. No recording in this batch (Decision-Log, "No person or story recordings until a new voice", 2026-11-26); each live recording stays until a new one replaces it (change order, 2026-11-26).
 
+## Where each story stands (2026-11-27, for a fresh session)
+
+| Story | Step | Next action |
+|---|---|---|
+| `ignatius-of-antioch` | Brief done through review, revision, length cut, fresh read (667 words). With Mark as one of the first two. | On Mark's word: card (step 6). |
+| `tacitus` | Brief done through review, revision, fresh read (584). With Mark as one of the first two. | On Mark's word: card. |
+| `josephus` | Outline cut with the draft in hand and rechecked; redraft 725 (over 675). Length with Mark (long-stories page). | On Mark's length ruling: review the 725 draft as written, or cut the forged records at the outline, recheck, redraft. |
+| `cyprian-of-carthage`, `origen`, `eusebius-of-caesarea`, `era-1` | Outline checked (Cyprian, Eusebius and Origen rechecks wait on length); measuring draft (`<slug>.measure.txt`) and `Cuts_Named.md` done. Lengths with Mark. | On Mark's ruling: the researcher applies the named cuts at the outline (`Cuts_Named.md`, to the ruled length), a targeted recheck, then the writer drafts `<slug>.brief.txt` and the brief goes through review. |
+| `suetonius`, `justin-martyr`, `tatian`, `valentinus`, `bardaisan-of-edessa`, `hippolytus-of-rome`, `clement-of-alexandria`, `tertullian-s-voice`, `pontius-the-deacon`, `lactantius`, `methodius-of-olympus`, `pamphilus-of-caesarea`, `anatolius-of-alexandria-and-laodicea`, `peter-of-alexandria` (fourteen) | Outline through the check, every recheck replacement applied. `Writer_Prompt.filled.md` written (with the length ruling). | On Mark's word on the first two: write all fourteen in parallel, then each through review, one revision and the fresh read. |
+
+**How each step was run** (the pattern to copy; every hand is a fresh agent started from one filled prompt file, Opus except the word-for-word applies, which are Sonnet):
+- Writer: `<slug>/Writer_Prompt.filled.md`. A draft at or under 675 goes on; over 675 goes back to the researcher (`Length_Cut_Prompt.filled.md` pattern, Josephus and Ignatius).
+- Before review, across the briefs written: `python tools/check_brief_variety.py <briefs>` and `python tools/check_tree_overlap.py <briefs>` (reports kept here).
+- Review: `<slug>/Reviewer_Prompt.filled.md` (pattern: `ignatius-of-antioch/`), four hands: Trust, Trust_Second (with the live-text echo check), Listen_FirstTime, Listen_Skeptic; then one hand gathers `Review.md`. Findings the outline lacks go to the researcher first (`Review_Fix_Prompt.filled.md`, Tacitus), with a targeted recheck.
+- Revision: `<slug>/Reviser_Prompt.filled.md` (pattern: `tacitus/`). Heart-wording changes are applied and reported to Mark with the brief.
+- Fresh read: three new hands (Fresh_Trust, Fresh_Trust_Second on the changed sentences against `.v1`, Fresh_Listen), gathered in `Fresh_Read.md`; every exact change applied word for word.
+- Generators for the filled prompts: `_gen/` (`people.py` holds the slate data; `make_writer.py <slugs>`, `make_checker.py`, `make_cuts.py`).
+- The reference read (Kit step 5, once per batch, person kind: `Brief-Kit/reference/`) is not yet done: run it with the first fresh reads of the fourteen.
+
+**Open items to carry:**
+- For Mark at the card or release step: heart-wording changes by checked fixes (Ignatius B1/B2; Tacitus B3; Tertullian, Tatian, Suetonius, Bardaisan as recorded above).
+- Card-step notes recorded above (Clement, Origen, Methodius, Eusebius, Justin dates; Tatian's "Rome · Edessa"; Pamphilus's surname; Hippolytus's Refutation attribution on the card; Bradlaugh and Ruinart to the card).
+- Open-Gaps at release: the Melitian break line and Pamphilus's census home (slate decision 3); `check_tree_overlap.py` reads only `longDescription`, so it misses quotes in timelines and documented stories; the prompt gap on the census `longDescription`; the outline length formula undercounts drafts by 30-50 per cent.
+- The account is at its 1,000-artifact limit: reuse a batch 12 page (slate `5VuWiHRad1q1gPoEXnwzFz`, hearts/first-two `RBTfTfBxXXpT5RD7qjZVVk`, lengths `LVuVVjugx5AvTN979oSgG2`) unless Mark frees one.
+- Before release: bring `main` in (the era 1 card thread, `session_01JMNsS9jvf8MiuJ4c5BaFtq`, edits the same census entries); cards are refined on the new material under Mark's card ruling.
+
 ## The twenty (approved)
 
 | Census id | Part | Grade (overall, rigor/craft) | Research order |
