@@ -172,6 +172,8 @@ What passed from him: a full Latin case for the faith, made to the educated from
 - "as ready to build up the faith" → "could have built up the faith as easily as he tore down other people's" (*potuisset … facile*, JLL 27050–27052).
 - in the opening, "during the persecution" with no one named → "during the persecution of the Christians". "The judges … knew it was a contest" on its own → "knew it was a contest, and tortured to win" (AN 4899). "Nicomedia" without Bithynia → "Nicomedia in Bithynia".
 - "tells of Constantine's dream" with nothing more → "tells how a dream directed the emperor Constantine to mark his soldiers' shields with the sign of Christ" (AN 10620). "whether it is his" → "whether it is Lactantius's".
+- "In his own words, he was called to Nicomedia" → "he was called to Bithynia to teach, he says" (*in Bithynia … accitus*, DI-L 22774). Nicomedia is Jerome's word.
+- "Of the Latin writers (or defenders) before him, he judged Tertullian" → "Of the Christian writers before him, he found Tertullian".
 
 ## Leave out
 
