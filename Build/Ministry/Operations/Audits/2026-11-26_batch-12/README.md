@@ -38,6 +38,7 @@ Earlier research, as pointers only if decision 2 is approved: batch 3 (`justin-m
 
 ## Steps
 0. Slate: sent to Mark through the coordinator, 2026-11-26. Paused by Mark the same day, as the coordinator relayed it: "i want everything else done with batch 11 and other system work before starting batch 12". The slate is not approved; no research starts. The coordinator brings it back to Mark when he is ready.
+   Pause lifted (Mark, 2026-11-27, as the coordinator relayed it): "we can also start batch 12 work". He gives his slate ruling directly in this session. Before it, on 2026-11-27: `main` (`556d8243`) merged into the branch, cleanly. None of the twenty census entries changed (text, card, home), no edge was added or removed, and `check_tree_overlap.py` on the twenty live texts gives the same all-clear. Each quote the slate bars still stands where the slate says. The slate holds as sent. The era 1 cards thread (`session_01JMNsS9jvf8MiuJ4c5BaFtq`) is writing these twenty people's cards now; bring `main` in again right before release, and raise any person both threads touch through the coordinator.
 
 ## Open items (the slate's six decisions)
 1. Four parts (A to D) plus the era as E, each in its own fresh session, in place of the kit's two halves of about six.
