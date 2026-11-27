@@ -224,3 +224,41 @@ None. (The checker's "marked, not edited" notes on `start` and `end` are not fin
 ### Could not place
 
 None.
+
+## Check G
+
+Source: `Card_Check_G.md`. Each change was applied word for word to the card's `<id>.layout.json`; the two scan readings were added as given to `tools/quote_scan_readings.json` (the check names no change to them). All files still load as JSON. A scratch census copy with the three layouts merged in (`/tmp/claude-0/apply-g/census-copy.json`; the real census was not edited), run with `node tools/validate-census.mjs`: 0 errors, 4 warnings (the four standing shortName warnings). Nothing committed. Finding numbers are the checker's.
+
+### Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| palestinian-church-pre-constantinian | P1 | shortDescription |
+| palestinian-church-pre-constantinian | P2 | timeline, period 4, line 30: text |
+| palestinian-church-pre-constantinian | P3 | timeline, period 4: headline |
+| palestinian-church-pre-constantinian | P4 | timeline, period 4, line 32: text |
+| palestinian-church-pre-constantinian | P5 | timeline, period 3: when |
+| palestinian-church-pre-constantinian | P6 | timeline, period 3, line 20: text |
+| palestinian-church-pre-constantinian | P7 | timeline, period 2, line 15: text, reference |
+| palestinian-church-pre-constantinian | P8 | timeline, period 2, line 12: reference |
+| palestinian-church-pre-constantinian | P9 | reference spacing, lines 17, 25, 27, 29, 32 (12 and 15 are covered by P8 and P7) |
+| palestinian-church-pre-constantinian | P10 | uncertain, item 3 |
+| roman-church-third-century | R1 | timeline, period 2, line 10: text, reference |
+| roman-church-third-century | R2 | timeline, period 6, line 2: when, reference |
+| roman-church-third-century | R3 | timeline, period 6, line 3: note (new), reference |
+| roman-church-third-century | R4 | timeline, period 1, line 6: text |
+| roman-church-third-century | R5 | reference spacing, lines 3, 7, 12, 48, 52 (10 is covered by R1) |
+| antiochene-church-third-century | A1 | shortDescription |
+| antiochene-church-third-century | A2 | timeline, period 7, line 8: text, reference |
+| antiochene-church-third-century | A3 | timeline, period 4, line 1: text |
+| antiochene-church-third-century | A4 | timeline, period 2, line 1: reference |
+| antiochene-church-third-century | A5 | reference spacing, lines 36, 42, 43 (44 is covered by A2) |
+| antiochene-church-third-century | scan readings | `tools/quote_scan_readings.json`: Eusebius Schwartz-Mommsen line 11897, Epiphanius Oehler line 45745 (drop) |
+
+### For existing census texts, not applied here
+
+None.
+
+### Could not place
+
+None. One count differs from the checker's: the P9 and R5 lists name eight double-spaced references each, but the files hold seven (Palestinian; line 18 has none) and six (Roman). All that exist were fixed.
