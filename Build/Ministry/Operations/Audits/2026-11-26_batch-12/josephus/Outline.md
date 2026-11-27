@@ -15,7 +15,7 @@ Batch 12, part A. Kind: person. Shape: Outside witness. Every reference is to `S
 
 **About 4 minutes 10 seconds: about 625 words.**
 
-The count the story must carry first: the three quotes, 82 words; the plain sense of the words to explain (Antiquities, Christ, Greeks, the council of judges, Sadducees, John's washing, the forged records), about 60; the witnesses credited (that his life rests on his own books, Suetonius, Origen, Eusebius, Jerome), about 100. That is about 240 words before any beat. The beats below, told plainly, need about 385 more: his surrender is the scene that carries the story's craft and its question (traitor, or God's servant), and the three passages must each be told with what it says and why the act in it happened (Part 1, Explain it). The kind kit allows up to about 675 where the sources and content call for it. Here they do: his own books give the life in full, and the job adds three passages and their long use. The full plan below runs to about 750; the Cut first list brings it to 625.
+The count the story must carry first: the three quotes, 82 words; the plain sense of the words to explain (Antiquities, Christ, Greeks, the council of judges, Sadducees, John's washing, the forged records), about 60; the witnesses credited (that his life rests on his own books, Suetonius, Origen, Eusebius, Jerome), about 100. That is about 240 words before any beat. The beats below, told plainly, need about 385 more: his surrender is the scene that carries the story's craft and its question (traitor, or God's servant), and the three passages must each be told with what it says and why the act in it happened (Part 1, Explain it). The kind kit allows up to about 675 where the sources and content call for it. Here they do: his own books give the life in full, and the job adds three passages and their long use. The full plan below runs to about 750; Cut first items 1–7 were meant to bring it to 625. Its draft, with those out, ran 1,004, so items 8–21 cut it by the draft's own words to about 673, under the approved 675 (`Fixes_Length.md`).
 
 ## Setting
 
@@ -52,8 +52,8 @@ None in the batch. Links on the tree, each a clause, as the slate set it: `euseb
 
 ## Openings
 
-1. **(Recommended) At the walls of Jerusalem, 70.** The Roman commander Titus sent Josephus to speak to the defenders in their own language, hoping a countryman might persuade them (JW 121492–121495). He went round the wall, out of range of their weapons but within hearing, and begged them to spare themselves, their country and their Temple (JW 121497–121502). The Jews inside wanted him punished; the Romans, whenever they lost a fight, blamed his treachery and called for his death as a traitor (JW 5336–5345). Brings the name in at once, and sets the story's question: traitor, or something else. The hook reaches ahead; the beats do not tell the walls again.
-2. **In the cave at Jotapata, 67.** Forty men in a hidden den, the Romans at the mouth, and his secret prayer (E3, E4; Quote 1). Use this only if the writer moves Quote 1 into the opening; then beat 2 starts after the prayer.
+1. **At the walls of Jerusalem, 70.** Cut (Cut first 8); kept here for the record. The Roman commander Titus sent Josephus to speak to the defenders in their own language, hoping a countryman might persuade them (JW 121492–121495). He went round the wall, out of range of their weapons but within hearing, and begged them to spare themselves, their country and their Temple (JW 121497–121502). The Jews inside wanted him punished; the Romans, whenever they lost a fight, blamed his treachery and called for his death as a traitor (JW 5336–5345). Brings the name in at once, and sets the story's question: traitor, or something else. The hook reaches ahead; the beats do not tell the walls again.
+2. **(Recommended) In the cave at Jotapata, 67.** Vespasian takes Jotapata, a walled town in Galilee, "the north of the country"; Josephus hides in a cave with forty men of standing; found on the third day and offered his life, he prays in secret, telling God he will surrender to the Romans (E2, E3, E4). **Quote 1** closes the opening. The essence follows, and it already says he commanded in Galilee and gave himself up to Vespasian, so beat 1 is not told (Cut first 10). Beat 2 then starts after the prayer, back in the cave, with the men's sword and the lots; the cave is not set up again.
 
 ## Story beats
 
@@ -90,9 +90,9 @@ None of these is used in another story on the tree (checked against every census
 ## Names
 
 - **Josephus**: acts.
-- **Vespasian**: acts. **Titus**: acts.
+- **Vespasian**: acts. **Titus**: not named (Opening 1 cut, Cut first 8).
 - **John the Baptist**: acts (in the passage). **Herod**: acts; first heard as 'the ruler Herod' (JW 82009). **James**: acts. **Jesus**: acts. **Pilate**: acts (in the passage).
-- **Suetonius**: link. **Origen**: link. **Eusebius of Caesarea**: link. **Jerome**: link.
+- **Suetonius**: not named (beat 3 cut, Cut first 9). **Origen**: link. **Eusebius of Caesarea**: link. **Jerome**: link.
 - By role, not by name: the high priest (Ananus), the Roman officer he knew (Nicanor), the governors (Festus, Albinus), the king (Agrippa), the rival historian (Justus), the Syriac chronicler (Michael), if kept.
 
 ## Connection to carry into the story
@@ -163,7 +163,7 @@ What passed from Josephus to the church was three short passages in a Jewish his
 
 ## Cut first
 
-In order, until the count reaches about 625 words.
+In order. Items 1–7 brought the plan to about 625; the draft of it ran 1,004 (`josephus.brief.txt`, 2026-11-27). Items 8–21 are cut by that draft's own words, to about 673 (`Fixes_Length.md`).
 
 1. Michael the Syrian's reading (What came 3, second sentence), about 25 words: **card**.
 2. The chain cut through (beat 3), about 10 words: **Leave out**. Keep "freed in 69".
@@ -172,8 +172,22 @@ In order, until the count reaches about 625 words.
 5. Herod's defeat as God's punishment (beat 5), about 20 words: **card**. Keep Herod's own reason.
 6. The two accounts of why he went to Galilee (beat 1), about 25 words: **card**. Keep "the leaders in Jerusalem sent him to command in Galilee".
 7. The priestly and royal lines (beat 1), about 15 words: **Leave out**. Keep "a priest of a priestly family".
+8. The walls of Jerusalem (Opening 1), about 75 words: **Leave out**. The cave (Opening 2) opens instead, ending on Quote 1; the essence names Vespasian once, as "Vespasian", since the opening has already called him the Roman general.
+9. The prediction and the release (beat 3, all of it, with Suetonius), about 59 words: **card**. The essence's "lived on at Rome under the emperors' favour" carries what followed. Do not add a line on his release.
+10. Beat 1 (born in 37, sent by the leaders in Jerusalem in 66), about 23 words: **card**. The essence carries the priest and the command in Galilee; the gloss "the north of the country" moves to Galilee's first hearing, in the opening.
+11. The dreams (beat 2, E3), about 21 words: **card**. Quote 1 carries his own reason for going over.
+12. The Roman officer he knew (beat 2), about 7 words: **Leave out**. Keep "found on the third day and offered his life".
+13. John's washing and its gloss (beat 5, and Words to explain, baptism), about 25 words: **card**. Keep "a good man who urged the Jews to live justly" and Herod's fear of a rising. The Do not say line on John's baptism still holds if the washing is named at all.
+14. The high priest as a Sadducee, with its gloss (beat 7, Words to explain), about 11 words: **card**.
+15. The governor dead and the next on the road (beat 7), about 12 words: **card**. Keep the charge of law-breaking and the citizens' protest that he had no right to call the court.
+16. In the passage's further sentences (beat 6), "those who loved him did not leave him" and "as the prophets had foretold", about 11 words: **Leave out**. Keep Pilate, the leading men's urging, the third day, and the Christians not died out, each in the passage's voice.
+17. In beat 4, "first in his own language", "when he was fifty-six" and "from the creation to his own day", about 19 words: **Leave out**. Keep his three reasons for writing (the false accounts, Greek readers, the rival) and "his people's history, in twenty books, finished about 93".
+18. In What came 1, "as the word of a Hebrew historian" (the essence carries it), "full of every kind of blasphemy", and "across the empire for schoolboys to learn by heart", about 26 words: **card**. Keep "forged records of Pilate's dealings with Jesus, sent out with the emperor's approval": it says what they were and why Eusebius answered them (Explain it).
+19. In What came 2, that Origen quotes nothing of a passage on Jesus, about 9 words: **card**. Keep that he knew the lines on John and the phrase on James, and his word that Josephus did not accept Jesus as the Christ.
+20. In What came 3, a lead sentence saying the old writers word the clause differently, about 11 words: **Leave out**. The essence has said it; the scene goes straight to Jerome's reading against "This man was the Christ", then Origen's word, then how much he wrote is uncertain.
+21. In the Ending, the emperors' favour and Domitian's punishment of his accusers, about 16 words: **card**. Keep the close: he leaves others to judge his character from his life, as they please.
 
-Never cut: Quote 1 and the lots (the scene that carries the craft), the three passages with their reasons, the gloss of "the Christ", or the three readings side by side.
+Never cut: Quote 1 and the lots (the scene that carries the craft), the three passages with their reasons, the gloss of "the Christ", the three readings side by side, his three reasons for writing, that his life rests on his own books, the forged records Eusebius answered, or the close on his own last word. The next cut past item 21 would take the forged records (about 22 words), which carries the connection: it goes to Mark, not to the card.
 
 ## Approved heart and length
 
