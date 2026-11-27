@@ -126,7 +126,7 @@ What passed from Josephus to the church was three short passages in a Jewish his
 ## Do not say
 
 - Any phrase in quotation marks in the story other than Quotes 1 to 3 → narrator's words, no quotation marks. Wording in quotation marks elsewhere in this outline is a suggested gloss or plain word, not a quote.
-- "He was a traitor" or "he betrayed his people" in the narrator's voice → "both sides called him a traitor" (E5, E8), and his own "servant" (Quote 1).
+- "He was a traitor" or "he betrayed his people" in the narrator's voice → "the men with him called him a traitor" (E5), and his own "servant" (Quote 1). The Romans' charge (E8) went with Opening 1 (Cut first 8).
 - "He foresaw" or "he prophesied" Vespasian's rise → "he told Vespasian he would be emperor"; the dreams are "he says" (E3, E6).
 - "his son after him" → "he, and his son with him" (JW 111188–111190).
 - "The forty killed themselves" → they killed one another by lot (E5).
