@@ -6301,3 +6301,9 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Decided (Mark, 2026-11-27): "C"**. The coordinator asked: "Kit line 36 currently reads 'The audio tells the story'. What should it say? A: 'The audio reads the brief.' B: 'The audio tells it.' C: Leave it as it is. The line is about how the audio should sound, not what it's called, so 'story' can stand there as ordinary English." Line 36 stays as it is.
 
 **Done.** Eighteen uses changed: eleven in Kit.md, one in `roles/checker.md`, one in `roles/release.md`, three in `roles/researcher.md` and two in `roles/reviewer.md`. An independent reader confirmed the count and that nothing else changed.
+
+## 2026-11-27 — The kit is put back as it was: the "brief" naming applies to cards only (Mark)
+
+**Why.** The two kit wording changes of 2026-11-27 (Decision-Log, "The kit's wording: "brief" for the opening audio text", and "The kit's general word for a piece of text is "text"") moved the kit's wording. The coordinator then relayed a further ruling from Mark and asked him: "Should I undo those two kit changes? A (recommended): yes, put the kit back exactly as it was before today".
+
+**Decided (Mark, 2026-11-27): "This is naming and should only impact cards"**. To the question above he answered: "A". `Brief-Kit/Kit.md` and `Brief-Kit/roles/` are restored to their state before the first change; the kit is unchanged by the naming ruling. The two earlier entries stay in this log as the record.
