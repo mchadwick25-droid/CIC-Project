@@ -272,7 +272,7 @@
           "when": "Date unknown",
           "text": "Eusebius writes that he shared his possessions with the needy and was devoted above all to the Divine Scriptures.",
           "reference": "Eusebius, Martyrs of Palestine 11.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47072-47080",
-          "note": "The longer form adds that he sold his inheritance, gave it all to the poor and lived without possessions (Greek, lines 24837-24840)."
+          "note": "The longer form adds that he sold his inheritance, gave it all to the poor and lived without possessions (Eusebius, Martyrs of Palestine, longer form, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 24837-24840)."
         }
       ]
     },
@@ -339,7 +339,7 @@
         {
           "when": "The fifth year of the persecution",
           "text": "Urbanus first tests him in rhetorical philosophy and learning, then tries to force him to sacrifice. He refuses and ignores the threats.",
-          "reference": "Martyrs of Palestine 7.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46699-46705"
+          "reference": "Martyrs of Palestine 7.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46700-46705"
         },
         {
           "when": "The fifth year of the persecution",
@@ -357,7 +357,7 @@
           "when": "Date unknown",
           "text": "Eusebius writes that he and Pamphilus prepared the Defense with care and did the work jointly, on account of faultfinders.",
           "reference": "Eusebius, Church History VI.33.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36973-36976",
-          "note": "Photius says five of its six books were written by Pamphilus in prison, in the company of Eusebius (codex 118, cic/texts/photius_library-v1_freese1920.txt lines 11437-11442)."
+          "note": "Photius says five of its six books were written by Pamphilus in prison, in the company of Eusebius (Photius, Library, codex 118, cic/texts/photius_library-v1_freese1920.txt lines 11437-11442)."
         },
         {
           "when": "Date unknown",
@@ -399,7 +399,7 @@
         {
           "when": "After two whole years in prison",
           "text": "After two whole years in prison, five Egyptian Christians returning home are seized at the gates of Caesarea, and their arrival becomes the occasion of the martyrdom.",
-          "reference": "Martyrs of Palestine 11.5-6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47106-47118"
+          "reference": "Martyrs of Palestine 11.5-6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47106-47117"
         },
         {
           "when": "A day in February",
@@ -410,13 +410,13 @@
           "when": "A day in February",
           "text": "The governor knows they have held firm under earlier tortures, and asks only whether they will now obey. Each gives the same answer, and he punishes them as he did the others.",
           "reference": "Martyrs of Palestine 11.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47191-47198",
-          "note": "The longer form in Greek says a capital sentence (lines 25241-25244); Photius says by the sword (codex 118, lines 11440-11441)."
+          "note": "The longer form in Greek says a capital sentence (cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 25241-25244); Photius says by the sword (Library, codex 118, cic/texts/photius_library-v1_freese1920.txt lines 11440-11441)."
         },
         {
           "when": "A day in February",
           "text": "A young servant of his household, taught in his master's way of life, cries out from the crowd for the bodies to be buried. He is scraped and burned by slow fire, and dies before his master.",
           "reference": "Martyrs of Palestine 11.15-19, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47199-47226",
-          "note": "Eusebius names him Porphyry. The longer form calls him a true foster-son of Pamphilus, not quite eighteen, skilled in fine writing (Greek, lines 25247-25248)."
+          "note": "Eusebius names him Porphyry. The longer form calls him a true foster-son of Pamphilus, not quite eighteen, skilled in fine writing (Martyrs of Palestine, longer form, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 25247-25248)."
         },
         {
           "when": "A day in February",
@@ -426,7 +426,7 @@
         {
           "when": "A day in February",
           "text": "Twelve die in all, and Pamphilus is the only presbyter among them. Julian, arriving from abroad, completes the twelve.",
-          "reference": "Martyrs of Palestine 11.1-2 and 11.25-26, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47067-47074 and 47295-47306"
+          "reference": "Martyrs of Palestine 11.1-2 and 11.25-26, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47067-47074 and 47295-47309"
         },
         {
           "when": "A day in February",
@@ -437,7 +437,7 @@
         {
           "when": "Date unknown",
           "text": "Jerome says he was put to death at Caesarea in the persecution of Maximinus.",
-          "reference": "Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40969-40971"
+          "reference": "Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40969-40970"
         }
       ]
     },
@@ -501,7 +501,7 @@
           "when": "About ten years after his catalog",
           "text": "Jerome complains that readers give no heed to the bishops who condemn Origen, since they think a martyr has praised him.",
           "reference": "Jerome, Apology against Rufinus I.10, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 51453-51456",
-          "note": "Jerome dates the catalog about ten years before (lines 53975-53981)."
+          "note": "Jerome dates his catalog about ten years before (Apology against Rufinus, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 53975-53981)."
         }
       ]
     },
@@ -539,7 +539,7 @@
         {
           "when": "The ninth century",
           "text": "Photius reads the six books of the Defense, and says five were written by Pamphilus in prison and the sixth by Eusebius alone after Pamphilus's death.",
-          "reference": "Photius, Library, codex 118, cic/texts/photius_library-v1_freese1920.txt lines 11435-11442"
+          "reference": "Photius, Library, codex 118, cic/texts/photius_library-v1_freese1920.txt lines 11437-11442"
         }
       ]
     }
