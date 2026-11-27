@@ -21,6 +21,7 @@ Every line cites `Source_Sheet.md` (S setting, C the chapter, R what came of it,
 - **procurator:** say "the governor" (C4, X). Never "procurator".
 - **superstition:** his word of contempt for their religion, which he calls deadly: "a deadly superstition, he calls it" (C4, X). Do not copy the sibling's wording ("Superstition was his word of contempt for their religion").
 - **circus:** "chariot races" or "the chariot-racing ground" (C6, X).
+- **Christus:** "Christus, that is, Christ" the first time the narrator names him (C4, Names).
 - **hatred of the human race:** told in his words, with no gloss added (C5, D3).
 - **Histories** (beat 7): "another of his histories, which told where the Jews came from" (R3, X).
 - **Apology** (beat 7): "his defence of the Christians" (X).
@@ -114,6 +115,8 @@ Nothing defended. No line on who keeps him today.
 - Not "people" for the victims in the opening, and not Nero without "the emperor" the first time. Name them as the Christians Nero punished, in Rome (S1, C3).
 - Not a sentence that only says what is missing. Each gap is told inside a sentence about what he does (Kit, Craft).
 - Any word in Words to explain used without its plain sense the first time, "procurator", "circus" and "superstition" among them.
+- Not that the chariot races were held in the gardens ("there"). Tacitus gives the gardens and the races side by side and names no place for the races. Say "he also put on chariot races" (C6).
+- Not "Christus" bare the first time the narrator names him. Say "Christus, that is, Christ" (C4, Names).
 
 **Leave out:** The gods and the Sibylline books by name (C1): a list that adds nothing. Nero at Antium (Sulpicius only, N1). Peter and Paul (Sulpicius, Duchesne). The "superstitio exitiabilis" turned on heretics (R1a): card. Hooker, Ruinart against Dodwell, and Whiston (R2a–c): card. Gibbon as Roberts read him (R2d): card. The 1876 debate (R2d, D2): Robert Roberts's use of the chapter with Pliny to show "a vast multitude" believing in Christ (RB 2565–2569, 2622–2633), and Charles Bradlaugh's doubt that it is genuine, that it is "liable to impeachment" because Eusebius does not quote it, without "absolute denial" (RB 3162–3164, 6671–6676): Card (Mark, 2026-11-27, hearts ruling). The Christians-or-Jews dispute (D1) and the moderns' reading of the verdict (D3): card. The readings "Chrestianos", "coniuncti" and "flammandi" (D5): card, and "Chrestus" is the sibling's. The Shaw–Jones debate (D7): not held. 1 Clement and Tertullian's *Apology* 5: inside witnesses that name no writer. Montaigne's and Whiston's reports of his offices (S2): late, unheld. Pliny as his friend (N2): not held. Suetonius by name: the sibling carries the link both ways (its live text already points here).
 
