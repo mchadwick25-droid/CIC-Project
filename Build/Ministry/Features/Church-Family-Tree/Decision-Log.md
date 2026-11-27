@@ -6283,3 +6283,11 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Why.** Fourteen era 1 traditions, Polycarp, the councils of 251 and the era 1 card had passed their write, independent check and verbatim fixes (`Build/Ministry/Operations/Audits/2026-11-26_era1-cards/`). Story, connection and river cards need site code first, and the allowance was nearly spent. One pull request for all of era 1 had been agreed. Mark was offered: release these 17 cards now, or wait for the rest after Friday's reset.
 
 **Decided (Mark, 2026-11-26): "1"** (release now). Their `shortDescription`, `timeline`, `briefSources`, `uncertain` and `quotationOriginals` go into the census, with their shown `dates` by the date rule. The rest of era 1 follows in a later pull request.
+
+## 2026-11-27 — The kit's wording: "brief" for the opening audio text (Mark)
+
+**Why.** The audio introduction is a brief, not a story (Decision-Log, 2026-11-25). The kit and role files still said "story" for it in places (Open-Gaps 430). The coordinator asked Mark: "A: bring the kit's wording into line. You ruled that the opening audio text is a 'brief', but the kit still calls it a 'story' in about 26 places, some of which really do mean stories (Open-Gaps 430). It's one mechanical pass with a check, and the kit is locked, so it only needs your words to approve it."
+
+**Decided (Mark, 2026-11-27): "a"**. One checked pass over `Brief-Kit/Kit.md` and `Brief-Kit/roles/`: "story" becomes "brief" where it means the opening audio text, and stays where it means a real story. Nothing else in the kit changes.
+
+**Done.** Five uses changed, all the reference briefs (`reference/*.brief.txt`): Kit.md Part 3 steps 3 and 5 (three uses), `roles/reviewer.md` and `roles/writer.md`. Sixty-five kept: real stories, file and outline-field names, and the batch item, and every use in a rule that covers all kinds, documented and map stories included. A list of every use, with its reason, was checked by an independent reader.
