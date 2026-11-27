@@ -88,3 +88,11 @@ The card does not contradict these fields once the changes below are made. Relea
   - {"title": "Theodoret, Jerome, Gennadius, Rufinus: Historical Writings (Nicene and Post-Nicene Fathers, series 2, vol. 3)", "author": "Blomfield Jackson, Ernest Cushing Richardson and W. H. Fremantle (tr.)", "year": "1892", "note": "English of Jerome's Lives of Illustrious Men and Apology against Rufinus, and of Theodoret's Eranistes and letters."}
   - {"title": "Socrates and Sozomenus: Ecclesiastical Histories (Nicene and Post-Nicene Fathers, series 2, vol. 2)", "author": "A. C. Zenos and C. D. Hartranft (tr.)", "year": "1890", "note": "English translation of Socrates's Church History, among it Book VI, chapter 13, on Origen's critics."}
   - {"title": "Socratis Scholastici Ecclesiastica Historia, vol. 2", "author": "Robert Hussey (ed.)", "year": "1853", "note": "The Greek text of Socrates's Church History, Books IV to VII."}
+
+## Entry fields (card check)
+
+- `modernWorks`: add these four entries to the list (all printed before 1931, per each file's header):
+  - {"title": "Patrologiae cursus completus, Series Latina, vol. 23 (Jerome, Opera omnia, vol. 2)", "author": "Jacques-Paul Migne (ed.), after Domenico Vallarsi", "year": "1883", "note": "The Latin of Jerome's Lives of Illustrious Men, with Vallarsi's notes on the manuscripts."}
+  - {"title": "Corporis haereseologici tomus secundus: Epiphanius, Panarion", "author": "Franz Oehler (ed.)", "year": "1860", "note": "The Greek of the Panarion with Petavius's Latin translation beside it."}
+  - {"title": "Eusebius: Church History, Life of Constantine (Nicene and Post-Nicene Fathers, series 2, vol. 1)", "author": "Arthur Cushman McGiffert (tr.)", "year": "1890", "note": "English translation of Eusebius's Church History."}
+  - {"title": "Apollinaris von Laodicea und seine Schule: Texte und Untersuchungen, I", "author": "Hans Lietzmann (ed.)", "year": "1904", "note": "Greek texts on Apollinaris and his school, among them Socrates's Church History VI.13."}

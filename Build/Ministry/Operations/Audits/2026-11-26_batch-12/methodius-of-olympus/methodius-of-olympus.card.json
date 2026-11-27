@@ -30,7 +30,7 @@
       "Theodoret of Cyrrhus copied a passage from his sermon on the martyrs into a set of testimonies from earlier bishops on how God became man. In it Methodius says martyrdom is so precious that Christ himself honored it, to crown the manhood he had come down into.",
       "Photius read On the Resurrection centuries later and summed it up, and his summary keeps what Methodius said of Origen's teaching on the body.",
       "A later Syriac chronicle retells his story of Phidias, a sculptor who poured oil before his ivory statue so that it would last, from the work he addressed to Aglaophon on the resurrection.",
-      "Three fragments of his work against Porphyry are held, from a later collection, the Parallels of John of Damascus. Later writers on the use of images in worship cited him too, John of Damascus among them, and, by a list of Nikephoros of Constantinople, those who opposed images."
+      "Three fragments of his work against Porphyry are held, from a later collection, the Parallels of John of Damascus. John of Damascus, writing on the use of images in worship, cited him too."
     ],
     "remembered": [
       "Remembered as Origen's opponent. The church historian Socrates of Constantinople, who defended Origen, names him first among the four who reviled Origen.",
@@ -41,11 +41,11 @@
   },
   "uncertain": [
     "His death. Jerome gives two times: at the end of the recent persecution, or, as others affirm, under Decius and Valerian, earlier emperors. An editor of Jerome notes that the words on Decius and Valerian are missing from the oldest manuscript, at Verona. Where he died rests on Jerome alone, and no held source tells how he died.",
-    "His sees. Jerome makes him bishop of Olympus in Lycia and afterwards of Tyre; Socrates names Olympus only. Much later writers, John of Damascus and the list of Nikephoros, call him bishop of Patara, also in Lycia.",
+    "His sees. Jerome makes him bishop of Olympus in Lycia and afterwards of Tyre; Socrates names Olympus only. John of Damascus, writing much later, calls him bishop of Patara, also in Lycia.",
     "His second name. Epiphanius calls him Methodius, also called Eubulius. Euboulios is also the friend who asks for the story in the Banquet; the sources do not say why he bore the name.",
-    "Socrates of Constantinople tells of his change of heart, and Socrates defended Origen. He names the dialogue in which Methodius of Olympus praised him: Xenon, a work the Library does not hold. Eusebius of Caesarea, as Jerome quotes him, asks how Methodius dared to write against Origen now. Jerome reads this as the same charge, but Eusebius's words do not themselves say that Methodius praised Origen.",
+    "Socrates of Constantinople tells of his change of heart, and Socrates defended Origen. He names the dialogue in which Methodius of Olympus praised him: Xenon, a work the Library does not hold. Eusebius of Caesarea, as Jerome quotes him, asks how Methodius dared to write against Origen now. Jerome says Eusebius makes the same complaint against Methodius that Rufinus, Jerome's opponent, makes against Jerome himself, but Eusebius's words do not themselves say that Methodius praised Origen.",
     "Eusebius's question. Jerome, who reports it, calls Eusebius an Arian, a follower of Arius, who taught that there was a time when the Son was not. Pamphilus of Caesarea had written a defense of Origen before Eusebius wrote his.",
-    "Origen's side. Origen's teaching on the body is told as Methodius gave it. The soul lived without a body before the fall, the first sin, and was given the body afterwards as a fetter. At the resurrection only each person's form rises, on another, spiritual body. Origen's own book On First Principles, held only in English from the Latin of Rufinus, a later translator, says it is the body that rises, our own, as a spiritual body.",
+    "Origen's side. Origen's teaching on the body is told as Methodius gave it. The soul lived without a body before the fall, the first sin, and was given the body afterwards as a fetter. At the resurrection only each person's form rises, on another, spiritual body. Origen's own book On First Principles, held only in English from the Latin of Rufinus, a later translator, says it is the body that rises, our own, as a spiritual body. Rufinus says he left out or changed passages on the Trinity, and made unclear sentences plainer from Origen's other works.",
     "The summary. What the dialogue On the Resurrection is about, and its account of Origen, come from the summary Photius made centuries later. Methodius's own Greek survives only in the long passages Epiphanius copied, and the Greek of the Banquet is not held.",
     "Socrates's reason. He argues that the four who attacked Origen, each on one point, never charged him with unsound views on the Trinity, and so bear witness to his soundness.",
     "Jerome also says he answered Porphyry, a philosopher of his own time who wrote books against the Christians and their Scriptures, in a work of ten thousand lines. Jerome names him again, with Eusebius and Apollinaris, among those who answered Porphyry's attack on the book of Daniel.",
@@ -103,8 +103,8 @@
         "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt"
       },
       {
-        "title": "Lives of Illustrious Men, chapter 83; Apology against Rufinus I.11; Eranistes and Letter 151 of Theodoret",
-        "author": "Jerome; Theodoret",
+        "title": "Lives of Illustrious Men, chapter 83; Apology against Rufinus I.11; Eranistes and Letter 151 of Theodoret; Rufinus's Apology I",
+        "author": "Jerome; Theodoret; Rufinus",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
@@ -173,18 +173,11 @@
         "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
       },
       {
-        "title": "Orations on Images",
+        "title": "Against the Jacobites, testimonies of the Fathers",
         "author": "John of Damascus",
         "date": null,
         "language": "Greek and Latin",
         "file": "cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt"
-      },
-      {
-        "title": "Works, the editor's chapter list",
-        "author": "Nikephoros of Constantinople",
-        "date": null,
-        "language": "Greek and Latin",
-        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
       }
     ]
   },
@@ -216,12 +209,12 @@
       "original": "τῷ μὲν γὰρ ἀγάλματι ἀπολέσϑαι οὖκ ἔστιν ὑπὸ τῷ αὐτῷ τεχνίτῃ ὄντι, χἂν πάλιν eis ὕλην λυϑῇ, ἀποχατασταϑῆναι δὲ ἔστι\" τοῖς δὲ αἴσχεσι χαὶ λωβήμασιν ἀπολέσϑαι μὲν ἔστιν (τήχονται γάρ), ἀποχατασταϑ'ῆναι δὲ οὐκ ἔστι",
       "originalFile": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
       "originalLines": "35713-35716",
-      "uncertain": "The Greek is printed as the damaged scan reads it; it reads κἂν πάλιν εἰς ὕλην λυθῇ and ἀποκατασταθῆναι, and Oehler's print of the same passage confirms the reading (epiphanius_panarion-haer-48-69, lines 22929-22933). Holl's notes record that two manuscripts lack ὄντι and one reads χυθῇ, which leaves the sense unchanged (lines 35747-35748). The modern English follows the Greek: statue for ἄγαλμα, where Clark prints image, and material for ὕλη, since the statue is of gold or other material (Clark, lines 35424-35425); the same craftsman for τῷ αὐτῷ τεχνίτῃ, where Clark prints the original artist."
+      "uncertain": "The Greek is printed as the damaged scan reads it; it reads κἂν πάλιν εἰς ὕλην λυθῇ and ἀποκατασταθῆναι, and Oehler's print of the same passage confirms the reading (epiphanius_panarion-haer-48-69, lines 22929-22933). Holl's notes record that two manuscripts lack ὄντι and one reads χυθῇ, which leaves the sense unchanged (lines 35747-35750). The modern English follows the Greek: statue for ἄγαλμα, where Clark prints image, and material for ὕλη, since the statue is of gold or other material (Clark, lines 35424-35425); the same craftsman for τῷ αὐτῷ τεχνίτῃ, where Clark prints the original artist."
     },
     {
       "modern": "Worthless people, who cannot be noticed on their own, want to be seen by finding fault with their betters. Methodius was the first to fall into this.",
       "printed": "Worthless characters, and such as are destitute of ability to attain eminence themselves, often seek to get into notice by decrying those who excel them. And first Methodius, bishop of a city in Lycia named Olympus, labored under this malady",
-      "work": "Socrates of Constantinople, Church History VI.13, tr. A. C. Zenos, Nicene and Post-Nicene Fathers series 2 vol. 2; Greek ed. Robert Hussey, as Hans Lietzmann reprints it",
+      "work": "Socrates of Constantinople, Church History VI.13, tr. A. C. Zenos, Nicene and Post-Nicene Fathers series 2 vol. 2; Greek as Hans Lietzmann prints it, and ed. Robert Hussey",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "18138-18142",
       "original": "οἱ εὐτελεῖς καὶ dp’ ἑαυτῶν μὴ δυνάμενοι φαίνεσθαι ἐκ τοῦ ψέγειν τοὺς ἑαυτῶν κρείττονας δείκνυσθαι βούλονται. τοῦτο πέπονθε πρῶτος Μεθόδιος",
@@ -289,8 +282,8 @@
         },
         {
           "when": "Date unknown",
-          "text": "John of Damascus, and the list of Nikephoros, call him bishop of Patara.",
-          "reference": "John of Damascus, cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt lines 108853; Nikephoros, cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt lines 1335",
+          "text": "John of Damascus calls him bishop of Patara.",
+          "reference": "John of Damascus, Against the Jacobites, cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt line 108853",
           "note": "Much later writers."
         }
       ]
@@ -384,7 +377,7 @@
         {
           "when": "Date unknown",
           "text": "A Syriac chronicle retells his story of Phidias's ivory statue.",
-          "reference": "Syriac Chronicle of Zachariah of Mitylene, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt lines 899-921"
+          "reference": "Syriac Chronicle of Zachariah of Mitylene, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt lines 899-924"
         },
         {
           "when": "Date unknown",
