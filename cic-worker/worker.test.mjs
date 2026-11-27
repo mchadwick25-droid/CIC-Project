@@ -278,7 +278,7 @@ test('events: listed types are written as short anonymous points; others are dro
   const res = await worker.fetch(post(body), env);
   assert.equal(res.status, 204);
   assert.equal(points.length, 4);
-  assert.deepEqual(points[0], { indexes: ['visit'], blobs: ['visit', 'returning', 'facebook', 'phone', '', '', '', 'other'], doubles: [1, 1, 0] });
+  assert.deepEqual(points[0], { indexes: ['visit'], blobs: ['visit', 'returning', 'facebook', 'phone', '', '', '', 'other', '', ''], doubles: [1, 1, 0] });
   assert.equal(points[3].blobs[1], 'script');
   assert.equal(points[3].blobs[2].length, 120);
   assert.equal(env.ASSETS.calls.length, 0);
@@ -289,12 +289,32 @@ test('events: the visitor id, country, region and browser family are stored; a m
   const vid = 'a1b2c3d4e5f60718293a4b5c6d7e8f90';
   const body = JSON.stringify([{ t: 'open', a: 'tradition', b: 'x', v: vid }, { t: 'open', a: 'tradition', b: 'y', v: 'not-an-id' }, { t: 'owner', v: vid }]);
   const req = post(body, { 'CF-Connecting-IP': 'addr-nine' });
-  Object.defineProperty(req, 'cf', { value: { country: 'GB', region: 'England' } });
+  Object.defineProperty(req, 'cf', { value: { country: 'GB', region: 'England', city: 'London' } });
   await worker.fetch(req, env);
-  assert.deepEqual(points[0].blobs, ['open', 'tradition', 'x', '', vid, 'GB', 'England', 'other']);
+  assert.deepEqual(points[0].blobs, ['open', 'tradition', 'x', '', vid, 'GB', 'England', 'other', 'London', '']);
   assert.equal(points[1].blobs[4], '');
   assert.equal(points[2].blobs[0], 'owner');
   assert.ok(!JSON.stringify(points).includes('addr-nine'));
+});
+
+test('events: the tagged-link source is stored as one short field', async () => {
+  const { points, env } = eventsEnv();
+  await worker.fetch(post(JSON.stringify([{ t: 'visit', a: 'new', b: 'facebook', c: 'phone', d: 'facebook/social/advent-post', n: [1, 1, 1] }])), env);
+  assert.equal(points[0].blobs[9], 'facebook/social/advent-post');
+});
+
+test('region note: Europe (EU, EEA, UK, Switzerland) is told to ask; elsewhere is not; unknown says nothing', async () => {
+  const ask = async (country) => {
+    const req = new Request('https://example.test/region');
+    if (country) Object.defineProperty(req, 'cf', { value: { country } });
+    const res = await worker.fetch(req, envWith({}));
+    assert.equal(res.headers.get('Cache-Control'), 'no-store');
+    return res.json();
+  };
+  assert.deepEqual(await ask('DE'), { eu: true });
+  assert.deepEqual(await ask('GB'), { eu: true });
+  assert.deepEqual(await ask('US'), { eu: false });
+  assert.deepEqual(await ask(''), {});
 });
 
 test('events: a step onward from a brief is counted with its kind and the card it opens', async () => {

@@ -45,6 +45,11 @@ QUERIES = {
   "countries": (f"SELECT blob6 AS country, blob7 AS region, sum(_sample_interval) AS visits, "
                 f"count(DISTINCT blob5) AS visitors FROM cft_events WHERE blob1 = 'visit' AND blob6 != '' AND {WINDOW} "
                 f"GROUP BY country, region ORDER BY visits DESC LIMIT 40"),
+  "cities": (f"SELECT blob9 AS city, blob6 AS country, sum(_sample_interval) AS visits, count(DISTINCT blob5) AS visitors "
+             f"FROM cft_events WHERE blob1 = 'visit' AND blob9 != '' AND {WINDOW} GROUP BY city, country ORDER BY visits DESC LIMIT 40"),
+  "campaigns": (f"SELECT blob10 AS tagged_link, sum(_sample_interval) AS visits, count(DISTINCT blob5) AS visitors "
+                f"FROM cft_events WHERE blob1 = 'visit' AND blob10 != '' AND blob10 != '//' AND {WINDOW} "
+                f"GROUP BY tagged_link ORDER BY visits DESC LIMIT 40"),
   "browsers": (f"SELECT blob8 AS browser, sum(_sample_interval) AS visits FROM cft_events "
                f"WHERE blob1 = 'visit' AND blob8 != '' AND {WINDOW} GROUP BY browser ORDER BY visits DESC"),
   "totals": (f"SELECT sumIf(_sample_interval, blob1 = 'visit') AS visits, "
@@ -72,7 +77,7 @@ def num(v):
 
 os.makedirs(OUT, exist_ok=True)
 stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-STR = ("country","region","browser","day","source","device","kind","item","group_","clip","tour","layer")
+STR = ("city","tagged_link","country","region","browser","day","source","device","kind","item","group_","clip","tour","layer")
 report = {"generated": stamp, "days": DAYS}
 for name, sql in QUERIES.items():
     data, cols = run(sql)
@@ -88,10 +93,17 @@ vd, _ = run(f"SELECT blob5 AS visitor, {DAY} AS day, sum(_sample_interval) AS vi
 days, visits = {}, {}
 for r in vd:
     days.setdefault(r["visitor"], set()).add(r["day"]); visits[r["visitor"]] = visits.get(r["visitor"], 0) + float(r["visits"])
+# A visit is one visitor on one day. Time in use and cards opened are summed the same way.
+vt, _ = run(f"SELECT blob5 AS visitor, {DAY} AS day, sumIf(_sample_interval * double1, blob1 = 'active') AS secs, "
+             f"sumIf(_sample_interval, blob1 = 'open') AS opens FROM cft_events "
+             f"WHERE blob5 != '' AND {WINDOW} GROUP BY visitor, day LIMIT 100000")
+visit_days = max(1, len(vt))
 n = len(days)
 report["visitors"] = {"unique_visitors": n,
     "returning_visitors": sum(1 for d in days.values() if len(d) > 1),
     "visits_per_visitor": round(sum(visits.values()) / n, 2) if n else 0,
-    "note": "Counted by visitor id since the ids began (2026-11-27); earlier visits carry no id. Owner ids are left out."}
+    "minutes_in_use_per_visit": round(sum(float(r["secs"]) for r in vt) / 60 / visit_days, 1),
+    "cards_opened_per_visit": round(sum(float(r["opens"]) for r in vt) / visit_days, 1),
+    "note": "A visit is one visitor on one day. Counted by visitor id since the ids began (2026-11-27); earlier visits carry no id. Owner ids are left out."}
 print("visitors", n)
 json.dump(report, open(os.path.join(OUT, "cft_usage.json"), "w"), indent=1)
