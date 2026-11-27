@@ -6361,6 +6361,20 @@ Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon
 
 The held text's title is "The Teaching of the Twelve Apostles", and the editors give the Greek word (anf07 12477–12499, 12621). Its Two Ways open at anf07 12698 and its baptism follows at 12910–12918. The gloss only explains a word. An independent checker confirmed the new wording and that nothing else changed. The outline's Do not say line is updated to match. Readability: 678 words, grade 7.2, reading ease 75.7, pass.
 
+## 2026-11-27 — Standard visitor analytics replace the cookie-free counts (Mark)
+
+Mark, relayed by the coordinator: "yes track as other sights do, this hyper privacy is not working." Mark then asked what else makes the program harder to run, said he is learning and wants it simpler, closer to industry practice and more valuable, and said the aim is "to build a better program that i can show value and industry alignment". Then: "cinverged, auto mode".
+
+**Supersedes** "Analytics and privacy (Q7, option B). Cookie-free counts only" (item 11 above) and the 2026-11-21 line "nothing that stands for a person is made or sent" (Measuring visits).
+
+**Decided.**
+1. Each browser gets a random visitor number, kept in a first-party cookie and in localStorage for one year, and sent with every event.
+2. The worker stores country, region and browser family from Cloudflare's request data, beside the device type the map already sends. No raw IP address is stored.
+3. Owner traffic is left out three ways: the `OWNER_IPS` binding drops events at the worker; `?count=off` stops a device sending; and `?count=off` also sends one `owner` event carrying that device's visitor number, and `tools/cft_usage_report.py` leaves out every event from such a number, past and future.
+4. The report gives unique visitors, returning visitors, visits per visitor, a country and region split and a browser split.
+5. The Privacy page is rewritten to say what is collected, why, for how long and how to opt out.
+
+**Open.** Cloudflare Web Analytics has no site token on any page, so the Privacy page no longer mentions it. The numbers by visitor start on 2026-11-27, because earlier events carry no visitor number.
 ## 2026-11-27 — Public wording of About, Privacy and system messages (Mark)
 
 **Why.** Mark, relayed by the coordinator: "clean up our about and system wording. we don't need to tell them everything, follow the pattern of others, only say what is required and what is positive, no saying things that are system insider stuff". The review page showed every string, before and after.

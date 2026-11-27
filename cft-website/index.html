@@ -143013,12 +143013,24 @@ window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
 // "returning". A visit counts only after a real action, and never from an automated browser.
 const cftTally=(()=>{
   const q=[]; let started=false, activeSec=0, lastAct=0;
-  const OPT_KEY='cft-count-off';
-  let optedOut=false;
+  const OPT_KEY='cft-count-off', VID_KEY='cft_vid';
+  const visitorId=()=>{
+    let id='';
+    try{const m=document.cookie.match(/(?:^|; )cft_vid=([a-f0-9]{32})/);if(m)id=m[1];}catch(e){}
+    if(!id)try{const v=localStorage.getItem(VID_KEY);if(/^[a-f0-9]{32}$/.test(v||''))id=v;}catch(e){}
+    if(!id){
+      try{id=Array.from(crypto.getRandomValues(new Uint8Array(16)),b=>b.toString(16).padStart(2,'0')).join('');}
+      catch(e){id=Array.from({length:32},()=>Math.floor(Math.random()*16).toString(16)).join('');}
+    }
+    try{document.cookie='cft_vid='+id+'; Max-Age=31536000; Path=/; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');}catch(e){}
+    try{localStorage.setItem(VID_KEY,id);}catch(e){}
+    return id;
+  };
+  let optedOut=false, markOwner=false;
   try{
     const sp=new URLSearchParams(location.search), c=sp.get('count');
     let note='';
-    if(c==='off'){optedOut=true;localStorage.setItem(OPT_KEY,'1');note='The map no longer counts your use in this browser.';}
+    if(c==='off'){optedOut=true;markOwner=true;localStorage.setItem(OPT_KEY,'1');note='The map no longer counts your use in this browser.';}
     else if(c==='on'){localStorage.removeItem(OPT_KEY);note='The map counts your use in this browser again.';}
     else optedOut=localStorage.getItem(OPT_KEY)==='1';
     if(note){
@@ -143029,14 +143041,17 @@ const cftTally=(()=>{
       history.replaceState(null,'',location.pathname+(rest?'?'+rest:'')+location.hash);
     }
   }catch(e){}
-  const off=navigator.webdriver||!navigator.sendBeacon||optedOut;
+  const blocked=navigator.webdriver||!navigator.sendBeacon;
+  if(markOwner&&!blocked){try{navigator.sendBeacon('/e',new Blob([JSON.stringify([{t:'owner',v:visitorId()}])],{type:'text/plain'}));}catch(e){}}
+  const vid=(optedOut||blocked)?'':visitorId();
+  const off=blocked||optedOut;
   const flush=()=>{
-    if(activeSec>=15){q.push({t:'active',n:Math.round(activeSec)});activeSec=0;}
+    if(activeSec>=15){q.push({t:'active',v:vid,n:Math.round(activeSec)});activeSec=0;}
     if(!q.length||off)return;
     try{navigator.sendBeacon('/e',new Blob([JSON.stringify(q.splice(0,25))],{type:'text/plain'}));}catch(e){}
     if(q.length)flush();
   };
-  const push=e=>{if(!started||off)return;q.push(e);if(q.length>=20)flush();};
+  const push=e=>{if(!started||off)return;e.v=vid;q.push(e);if(q.length>=20)flush();};
   const dayOf=d=>d.toISOString().slice(0,10);
   const weekOf=d=>{const t=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));const day=t.getUTCDay()||7;t.setUTCDate(t.getUTCDate()+4-day);const y=new Date(Date.UTC(t.getUTCFullYear(),0,1));return t.getUTCFullYear()+'-W'+Math.ceil(((t-y)/864e5+1)/7);};
   const source=()=>{
@@ -143058,7 +143073,7 @@ const cftTally=(()=>{
     let seen=null; try{seen=JSON.parse(localStorage.getItem('cft-seen'));}catch(e){}
     const firstToday=!seen||seen.day!==day, firstWeek=!seen||seen.week!==week;
     try{localStorage.setItem('cft-seen',JSON.stringify({day,week}));}catch(e){}
-    q.push({t:'visit',a:seen&&seen.day!==day?'returning':seen?'same-day':'new',b:source(),c:device(),n:[1,firstToday?1:0,firstWeek?1:0]});
+    q.push({t:'visit',v:vid,a:seen&&seen.day!==day?'returning':seen?'same-day':'new',b:source(),c:device(),n:[1,firstToday?1:0,firstWeek?1:0]});
   };
   const act=()=>{lastAct=Date.now();begin();};
   ['pointerdown','wheel','keydown','touchstart','scroll'].forEach(t=>window.addEventListener(t,act,{passive:true,capture:true}));
