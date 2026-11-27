@@ -90,6 +90,7 @@ Witness kinds: **own** (Clement's own words), **contemporary** (Alexander, his p
 | I4 | Theodoret counts "Clement the Stromateus" among those who fought for the truth against Basilides, Valentinus and the Encratites | THD 27950-27957, 29659-29661, 29810-29815 | later (Theodoret, about 250 years) | Documented | THD 27955-27959 (raw OCR, editor's note numbers in brackets): "᾿Καταγωνίζουται δὲ τούτους, ᾿Αγρίππας, ὁ καὶ Κάττωρ ἐπίχλην (46), καὶ Εἰρηναῖος, καὶ Κλήμης (47) ὁ Στροωματεὺς, xat Ὠριγένης, τῆς ἀληθείας ὑπερμαχοῦντες." Latin 27950-27952: "Contra hos autem decertant Agrippas cognomento Castor, et Irenzus, et Clemens Stromateus, et Origenes, pro veritate dimicantes." Latin 29659-29661 (raw OCR): "Contra Valentinum autem, eos- que qui-ab illo predierunt, et Irenzeus, et Clemens, et Origenes." |
 | I5 | Photius reads three of his works: the Outlines condemned, the Instructor praised, the Miscellanies "in some parts unsound" (the record's conflict) | PHO 11066-11170 (codices CIX-CXI) | later (Photius) | Documented as Photius's judgment | See T10, T12, T15. "These discourses have nothing in common with the Outlines, since they are entirely free from idle and blasphemous opinions." |
 | I6 | Jerome's Chronicle: with Pantaenus, "held most eloquent" in defending the faith | CHR 43374-43377 | later | Documented | See S7. Card. |
+| I7 | Epiphanius counts Clement with Irenaeus and Hippolytus among those who wonderfully refuted the Valentinians, and calls him 'the holy Clement' who mocked the Greek gods (defended: the faith against the Valentinians) | Holl vol. 1 (`epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt`) 32965-32966, 33699-33700, 22619 | later (Epiphanius, about 175 years) | Documented | 32965-32966: "φημὶ δὲ Κλήμης καὶ Εἰρηναῖος καὶ Ἱππόλυτος χαὶ ἄλλοι πλείους, οἱ / καὶ ϑαυμαστῶς τὴν κατ᾿ αὐτῶν πεποίηνται ἀνατροπήν"; 33699-33700: "Κλήμης τε, (ὃν / φασί τινες “Ἱλεξανδρέα, ἕτεροι δὲ ᾿“Αϑηναῖον)"; 22619: "χαὶ ὁ ἅγιος Κλήμης | καταγελῶν τῆς τῶν ϑεῶν τῶν Ἑλλήνων" (raw OCR as printed in the file) |
 
 ## 5. Links to other people
 
@@ -105,6 +106,7 @@ Witness kinds: **own** (Clement's own words), **contemporary** (Alexander, his p
 | L8 | `tatian`: Clement names Tatian's Discourse to the Greeks | T18 | later (Eusebius's report) | Documented | Card. McGiffert's guess that the "Assyrian" teacher was Tatian is not told. |
 | L9 | Alexander, bishop, later at Jerusalem (no census entry) | E14-E16 | contemporary | Documented | Acts in the story; named, no tree link. |
 | L10 | Pantaenus (no census entry) | E3, E4, S3 | later | Documented as Eusebius's account | Name optional (Cut first). |
+| L11 | `epiphanius-of-salamis`: counted him among those who refuted the Valentinians | I7 | later | Documented | Card. |
 
 ## 6. Where sources disagree or come late
 
@@ -116,6 +118,7 @@ Witness kinds: **own** (Clement's own words), **contemporary** (Alexander, his p
 | D4 | Were the Outlines his? | PHO 11104-11105 ("either he or some one else under his name") | Photius's own doubt. Card. |
 | D5 | Lateness | Eusebius about a century after; Jerome about two centuries; Theodoret about 250 years; Photius about 650 years | Only Alexander's letters are of his own time. Most of what is told of his life is Eusebius's, written about a century later (Outline, Who tells it). |
 | D6 | Was he born a pagan? | PE 4947-4951 (Eusebius: "had gone through experience of all, but had quickly emerged from the delusion"); ANF2 14837-14839 (Wilson's notice, modern) | Eusebius's account only. Leave out of the story. |
+| D7 | Where was he from? | Holl vol. 1 33699-33700 | Epiphanius: some call him an Alexandrian, others an Athenian. An old report of two views; card. The modern 'probably an Athenian' (M1, M3) is not told. |
 
 ## 7. Explain it: each thing or act the story could name
 
@@ -158,7 +161,7 @@ Witness kinds: **own** (Clement's own words), **contemporary** (Alexander, his p
   - The Synaxaristes (`nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt`) and the Pedalion: the hits checked are other Clements (of Rome, of Ancyra) or canon notes; no commemoration of this Clement was found in the lines read.
   - Routh, Otto, Harnack, Hefele, Duchesne: modern editions and histories; they lead to sources already held, and their judgments are not used.
   - The Migne Origen and Lommatzsch's Pamphilus/Rufinus: the hits are editors' notes on Rufinus's plan to translate Clement; no old claim about Clement's life.
-  - Epiphanius's Panarion (Holl): the hits are Holl's apparatus marking silent borrowings from the Exhortation; a modern identification, not Epiphanius naming him.
+  - Epiphanius's Panarion (Holl): names Clement in his own text three times (I7, D7); used for the card. Holl's apparatus also marks silent borrowings from the Exhortation, a modern identification, not used.
   - Eusebius III.23 (EUS 17100 onward), Clement's story of John and the young robber from What Rich Man is Saved?: a side story about John, not about Clement.
   - The pseudo-Clementine and Theodotus material in `anf08_…`: not his, by the ANF editor's own notice.
   - Cyril of Alexandria: the held volumes (`cyril-alexandria_…pusey1872/1881`) do not hold the Against Julian passage Coxe quotes; not used.

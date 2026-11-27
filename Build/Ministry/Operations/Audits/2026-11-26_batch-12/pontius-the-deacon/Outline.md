@@ -175,7 +175,7 @@ The count as planned is about 1,150; these cuts, in order, bring it to about 650
 12. Beat 2: the judge's face seeming moved (about 8). **Leave out.**
 13. Beat 4: the sentence's wording to "an enemy of the Roman gods" only (about 10). **Leave out** the rest.
 14. Beat 4: the arrest's detail to one clause, keeping the last night (about 10). **Leave out.**
-15. Beat 6: the withdrawal under Decius defended as obedience, not fear, with Decius's name (about 25). **Card.**
+15. Beat 6: the withdrawal in an earlier persecution defended as obedience, not fear (about 25). **Card.**
 16. Essence: "It was copied with Cyprian's own writings", which What came 1 tells (about 10). **Leave out** from the essence.
 17. Beat 1: the reason for the exile to its shortest form, "because he would not take part in the Roman rites" (about 10). **Leave out** the rest.
 18. Essence: the sentence "Christians had already written down the sufferings of ordinary believers ... for those who came after" becomes "He wrote so that those who came after would have Cyprian's example" (about 25 saved). The full reason is told once, in Beat 5. **Leave out** from the essence. (This also stops the reason being told twice.)
