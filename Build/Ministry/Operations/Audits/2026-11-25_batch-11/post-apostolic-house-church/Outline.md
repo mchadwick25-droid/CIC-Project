@@ -137,7 +137,7 @@ What passed on was the practice of being one church across many cities: a thanks
 ## Do not say
 
 - "met in house churches" as their own word, or "they all met in houses" → "met together". "House churches" is the tree's name, not theirs; their word is "the church of God" in a city. Do not say where they met.
-- "their letters greet one another household by household", or any wording where the churches greet each other's households → only Ignatius greets a church's households, and only Smyrna's (Smyrnaeans 13, anf01 8503–8508; To Polycarp 8, anf01 8868–8869). The brief tells it once, in Ignatius's paragraph: "He greeted households".
+- "their letters greet one another household by household", or any wording where the churches greet each other's households → only Ignatius greets a church's households, and only Smyrna's (Smyrnaeans 13, anf01 8503–8508; To Polycarp 8, anf01 8868–8869). The brief tells it once, in Ignatius's paragraph, as his: "He greeted the church at Smyrna household by household".
 - "two deaconesses" → "two slave women who were called ministrae, servers". Not "the Christians called them": Pliny says only "who were called".
 - "Pliny executed the women" or any end for them → nothing is recorded.
 - "a hymn to Christ as God" with a capital → "as to a god" (Pliny's Latin, a pagan's phrase).

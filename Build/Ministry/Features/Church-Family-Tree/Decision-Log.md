@@ -6314,9 +6314,16 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 
 **Decided (Mark, 2026-11-27): "a"**.
 
-**Done.** The erroneous clause is cut. The household greeting is still told once, in the brief's Ignatius paragraph ("He greeted households").
+**Done.** The erroneous clause is cut. The household greeting is told once, in the brief's Ignatius paragraph (see Mark's note below).
 
 - Before: "In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together, and their letters greet one another household by household."
 - After: "In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together."
 
-The census `longDescription`, the live brief (backup `brief.v7.txt`) and the outline's essence, "Who they were" and Do not say lines changed with it (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/`). An independent checker confirmed the new sentence against the held lines and that nothing else changed. Readability: 663 words, grade 7.2, reading ease 75.4, pass. No recording exists, so no audio work. The entry's `entry.tile` carries the same phrase ("Their letters greet one another household by household."); it was outside this ruling and is left for Mark (Open-Gaps, "The House Church brief's household slip", 2026-11-27).
+The census `longDescription`, the live brief (backup `brief.v7.txt`) and the outline's essence, "Who they were" and Do not say lines changed with it (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/`). An independent checker confirmed the new sentence against the held lines and that nothing else changed. Readability: 668 words, grade 7.3, reading ease 75.3, pass.
+
+**Mark's note (2026-11-27), relayed by the coordinator: "i liked it, but if its not credible, i guess its not right".** He liked the picture of churches known household by household. The coordinator asked that as much of it be kept as the held lines support, told as Ignatius's own. So the Ignatius paragraph now carries it:
+
+- Before: "He greeted households, and asked Polycarp, bishop of Smyrna, to have churches send messengers or letters to Antioch."
+- After: "He greeted the church at Smyrna household by household, and asked Polycarp, its bishop, to have churches send messengers or letters to Antioch."
+
+A second independent checker confirmed it against Smyrnaeans 13, To Polycarp 8 and the inscription of To Polycarp ("Bishop of the Church of the Smyrnæans", anf01 8535), and that it repeats nothing else in the brief. No recording exists, so no audio work. The entry's `entry.tile` carries the same phrase ("Their letters greet one another household by household."); it was outside this ruling and is left for Mark (Open-Gaps, "The House Church brief's household slip", 2026-11-27).
