@@ -6360,3 +6360,28 @@ Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon
 - After: "A church handbook called the Didache, a Greek word for teaching, opens on the Two Ways. No one knows who wrote it, or when or where."
 
 The held text's title is "The Teaching of the Twelve Apostles", and the editors give the Greek word (anf07 12477–12499, 12621). Its Two Ways open at anf07 12698 and its baptism follows at 12910–12918. The gloss only explains a word. An independent checker confirmed the new wording and that nothing else changed. The outline's Do not say line is updated to match. Readability: 678 words, grade 7.2, reading ease 75.7, pass.
+
+## 2026-11-27 — Public wording of About, Privacy and system messages (Mark)
+
+**Why.** Mark, relayed by the coordinator: "clean up our about and system wording. we don't need to tell them everything, follow the pattern of others, only say what is required and what is positive, no saying things that are system insider stuff". The review page showed every string, before and after.
+
+**Mark's words on the review, verbatim.**
+- "the 11 are for church in conversation, for this we only say you can access church in conversation from a growin gnumber of christian traditions (worlds is an internal term)"
+- "yes, recommentations, also how are we funded, by contricutions"
+- "not gifts, that sounds non-profit, use wording that is more appropriate for pbc"
+- "reveiw by church history experts coming soon" and "2. Niceene Creed not later ones"
+- "maybe not comming sood, as funding or partnerships are dependents, maybe review by experts depending on funding and partnerships (make it sound right dont use my wording)"
+
+**Done.**
+- About and Privacy are rewritten in `Build/tools/tree_site_pages.json`. About drops the "told in full" count, the confidence-grade names, the gazetteer note, permanent IDs and the data-file address. It says the tree is free and that contributions from its users support it. It says Church in Conversation can be reached from a growing number of Christian traditions on the tree. Privacy keeps every fact it stated before. It adds that `?count=off` stops the map's own counting and leaves Cloudflare's visit totals as they are. Gifts are called contributions.
+- The review line, on the map and on every tree page, now reads "Checked with AI tools. Review by church history experts is planned as funding and partnerships allow." About says the same.
+- "Doctrinal floor note" becomes "On the Nicene Creed" on the map and on the tree pages. The text under it is unchanged.
+- Council name tags "Profile to come", "Not yet assessed" and "Listed" are no longer shown. "Told in a story" stays.
+- On the map: the source-library sentence, "Full source registry", "not yet graded", the unchecked-pair note, "next window", the Representative key entry, "Narrated Edition", "Old sources", the counting note and the footer are reworded. The empty orientation note is now hidden.
+- On the tree pages: "No sources recorded" and the empty description are hidden. "About This Movement" becomes "About This Tradition", the retired page says "No longer on the tree", and the footer matches the map's.
+
+**Change order.** The review page also showed tree-page headings in sentence case. The tree pages set every heading in Title Case, so changing only the listed ones would have mixed the two styles on one page. The casing is left as it was, and only the word changes are made.
+
+**Readability.** About scores grade 5.5, reading ease 71.4. Privacy scores grade 5.5, reading ease 76.9. Both are within the hard limits. Both are below the grade-8 floor, which is a warning only; no text was padded to move it.
+
+**Not touched.** The feedback bar and the audio player scripts are shared with churchinconversation.com. The Help us grow page still says "Give once" and "Give monthly", which may want the same PBC wording.

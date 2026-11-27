@@ -86,7 +86,7 @@ test('the Listen block is labeled as the audio brief, with its length from the r
   const sha = crypto.createHash('sha256').update(m.longDescription, 'utf8').digest('hex');
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-audio-'));
   fs.writeFileSync(path.join(dir, 'manifest.json'), JSON.stringify({ [m.id]: { file: `${m.id}.mp3`, bytes: 1200000, outputFormat: 'mp3_44100_64', text_sha256: sha } }));
-  assert.match(generate(census, dir)(`tree/${m.id}.html`), /<p class="narration-label">Audio Brief · Narrated Edition <span>2:30<\/span><\/p>/);
+  assert.match(generate(census, dir)(`tree/${m.id}.html`), /<p class="narration-label">Audio Brief <span>2:30<\/span><\/p>/);
 });
 
 test('the data page reads its release number, date and counts from the census', () => {
@@ -143,17 +143,14 @@ test('the method and data pages are linked from the about page, the map, every p
   assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/data</loc>'));
 });
 
-test('the about page counts traditions, rivers, eras and links from the census', () => {
+test('the about page counts traditions, rivers and eras from the census', () => {
   const c = structuredClone(census);
-  withLinks(c, 12);
   const traditions = c.movements.filter(m => !m.kind);
   const rivers = new Set(traditions.map(m => m.laneOrder)).size;
-  const inFull = traditions.filter(m => m.status === 'Built & Live').length;
   const page = generate(c)('about.html');
-  assert.match(page, /The tree shows 12 links of seven kinds\./);
   assert.match(page, new RegExp(`The tree maps ${traditions.length} church traditions, and the councils, people and stories that shaped them\\.`));
-  assert.match(page, new RegExp(`The traditions flow in ${rivers} rivers, across ${c.eras.length} eras\\.`));
-  assert.match(page, new RegExp(`The tree tells ${inFull} traditions in full`));
+  assert.match(page, new RegExp(`The traditions flow in ${rivers} rivers across ${c.eras.length} eras\\.`));
+  assert.doesNotMatch(page, /in full/);
   assert.match(page, new RegExp(`<meta name="description" content="[^"]*with ${traditions.length} church traditions`));
 });
 
@@ -238,7 +235,7 @@ test('every page states its review status in plain words', () => {
   const [a, b] = c.movements;
   b.reviewStatus = 'scholar-reviewed';
   const read = generate(c);
-  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked with AI tools\. No scholar or church partner has reviewed it yet\./);
+  assert.match(read(`tree/${a.id}.html`), /<p class="review-status"><b>Review:<\/b> checked with AI tools\. Review by church history experts is planned as funding and partnerships allow\./);
   assert.match(read(`tree/${b.id}.html`), /<b>Review:<\/b> reviewed by a scholar\./);
 });
 
@@ -274,7 +271,7 @@ test('a retired movement with no redirect gets a retired page with only its cens
   const page = read('tree/gone-movement.html');
   assert.match(page, /<main class="page" id="content" data-retired="true">/);
   assert.match(page, /<h1>Gone &amp; Movement<\/h1>/);
-  assert.match(page, /<p>This entry was retired from the tree on November 8, 2026\.<\/p>/);
+  assert.match(page, /<p>This entry was removed from the tree on November 8, 2026\.<\/p>/);
   assert.match(page, /<p>Its story falls after the tree ends\.<\/p>/);
   assert.match(page, /<header class="site-header">/);
   assert.match(page, /<meta name="robots" content="noindex">/);
@@ -380,7 +377,7 @@ test('a major council page shows its kind, its record, its traditions and its Wh
   assert.match(page, /class="part-group">Gathered</);
   assert.match(page, /class="part-group">Condemned</);
   assert.match(page, /<a href="arius\.html">Arius<\/a> · /);
-  assert.match(page, /class="verdict">Not yet assessed<\/span>/);
+  assert.doesNotMatch(page, /Not yet assessed|Profile to come/);
   assert.match(page, /<p class="source-group">From the council<\/p>/);
   assert.doesNotMatch(page, /No sources recorded/);
   assert.doesNotMatch(page, /<h2>In Its Own Record<\/h2>/);
@@ -527,7 +524,7 @@ const between = (page, from, to) => { const a = page.indexOf(from); const b = pa
 test('a tradition page shows a lineage line, then its direct line, then everything else', () => {
   const page = generate(census)(`tree/${withLine.id}.html`);
   assert.match(page, /<nav class="lineage-strip" aria-label="Direct line of descent">/);
-  assert.ok(page.indexOf('class="lineage-strip"') < page.indexOf('<h2>About This Movement</h2>'));
+  assert.ok(page.indexOf('class="lineage-strip"') < page.indexOf('<h2>About This Tradition</h2>'));
   assert.match(page, /<h2>Connections<\/h2>/);
   const at = (h) => page.indexOf(`<h3>${h}</h3>`);
   assert.ok(at('Descended from') > 0 && at('Descended from') < at('Direct descendants'));
@@ -600,9 +597,9 @@ test('a tradition page runs in the card\'s order: short description, line, brief
   const page = generate(c)(`tree/${m.id}.html`);
   const at = s => page.indexOf(s);
   assert.ok(at('<p class="short-desc">A short description.</p>') > 0);
-  assert.ok(at('class="short-desc"') < at('class="lineage-strip"') && at('class="lineage-strip"') < at('<h2>About This Movement</h2>'));
-  assert.match(page, /<p class="source-group">Old sources for this brief<\/p><ul class="sources-list"><li>Hippolytus, Refutation of All Heresies, Book IX<\/li>/);
-  const order = ['About This Movement', 'Timeline', 'People and Stories', 'Connections', 'Legacy and Today', 'Open Questions', 'Sources'].map(h => at(`<h2>${h}</h2>`));
+  assert.ok(at('class="short-desc"') < at('class="lineage-strip"') && at('class="lineage-strip"') < at('<h2>About This Tradition</h2>'));
+  assert.match(page, /<p class="source-group">Sources for this brief<\/p><ul class="sources-list"><li>Hippolytus, Refutation of All Heresies, Book IX<\/li>/);
+  const order = ['About This Tradition', 'Timeline', 'People and Stories', 'Connections', 'Legacy and Today', 'Open Questions', 'Sources'].map(h => at(`<h2>${h}</h2>`));
   assert.ok(order.every(i => i > 0), 'every section shows');
   assert.deepEqual(order, [...order].sort((a, b) => a - b));
   assert.match(page, /<button type="button" class="tl-all" hidden>Open every period<\/button><details class="tl-period"><summary><span class="tl-pw">Around 200 to 217<\/span> <span class="tl-ph">Zephyrinus, and the quarrel<\/span><\/summary><p class="tl-wit">Most of this comes from Hippolytus\.<\/p>/);
@@ -614,7 +611,7 @@ test('a tradition page runs in the card\'s order: short description, line, brief
 
 test('a page with none of the new fields shows its other sections, and no timeline control', () => {
   const page = generate(census)('tree/roman-church-third-century.html');
-  assert.doesNotMatch(page, /<h2>Timeline<\/h2>|<h2>Open Questions<\/h2>|class="tl-all"|Old sources for this brief/);
+  assert.doesNotMatch(page, /<h2>Timeline<\/h2>|<h2>Open Questions<\/h2>|class="tl-all"|Sources for this brief/);
   for (const h of ['People and Stories', 'Connections', 'Legacy and Today', 'Sources']) assert.match(page, new RegExp(`<h2>${h}</h2>`), h);
 });
 

@@ -179,7 +179,7 @@ function siteHeader(up) {
 function siteFooter(up) {
   return `<footer class="site-footer">
   <div class="row">
-    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="${up}license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <p>&copy; 2026 Faithways Studio, Inc. &middot; <a href="${up}license.html">License</a>. From the team behind <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="${up}about.html">About</a>
       <a href="${up}method.html">Method</a>
@@ -259,7 +259,7 @@ function truncateDescription(text, maxLength = 160) {
 
 function formatSourcesList(sources) {
   if (!sources || !Array.isArray(sources) || sources.length === 0) {
-    return '<p>No sources recorded.</p>';
+    return '';
   }
 
   let html = '<ul class="sources-list">';
@@ -468,7 +468,7 @@ function hasNarration(movement) {
 
 // Review status (Decision-Log 2026-11-06, ruling 18), in plain words on every page.
 const REVIEW_WORDS = {
-  'AI-checked': 'checked with AI tools. No scholar or church partner has reviewed it yet.',
+  'AI-checked': 'checked with AI tools. Review by church history experts is planned as funding and partnerships allow.',
   'partner-contributed': 'written with a church partner from this tradition. No scholar has reviewed it yet.',
   'scholar-reviewed': 'reviewed by a scholar.',
 };
@@ -490,14 +490,14 @@ function toldWithinLine(movement) {
 const WHO_ENTRIES_ONLY = true;
 
 // A major council's people are its Who click: a person entry links to its page; a named line shows its verdict in plain words.
-const VERDICT_WORDS = { WHO: 'Profile to come', STORY: 'Told in a story', LISTED: 'Listed', 'NOT SCORED': 'Not yet assessed' };
+const VERDICT_WORDS = { WHO: '', STORY: 'Told in a story', LISTED: '', 'NOT SCORED': '' };
 function councilPeopleHtml(movement) {
   const items = (movement.people || []).map(p => {
     if (p.person) {
       const who = movementMap.get(p.person);
       return `<li><a href="${who.id}.html">${escapeHtml(who.name)}</a> · ${escapeHtml(p.part)}</li>`;
     }
-    return `<li>${escapeHtml(p.name)}<span class="verdict">${escapeHtml(VERDICT_WORDS[p.verdict] || p.verdict)}</span> · ${escapeHtml(p.part)}</li>`;
+    return `<li>${escapeHtml(p.name)}${(w => w ? `<span class="verdict">${escapeHtml(w)}</span>` : '')(p.verdict in VERDICT_WORDS ? VERDICT_WORDS[p.verdict] : p.verdict)} · ${escapeHtml(p.part)}</li>`;
   });
   if (!items.length) return '';
   return `<h3>Who</h3>
@@ -595,7 +595,7 @@ const sub = (title, body) => body ? `<h3>${title}</h3>${body}` : '';
 
 function briefSourcesHtml(list) {
   if (!list || !list.length) return '';
-  return `<div class="brief-sources"><p class="source-group">Old sources for this brief</p><ul class="sources-list">${list.map(s => `<li>${s.author && !String(s.title).startsWith(s.author) ? `${escapeHtml(s.author)}, ` : ''}${escapeHtml(s.title)}</li>`).join('')}</ul></div>`;
+  return `<div class="brief-sources"><p class="source-group">Sources for this brief</p><ul class="sources-list">${list.map(s => `<li>${s.author && !String(s.title).startsWith(s.author) ? `${escapeHtml(s.author)}, ` : ''}${escapeHtml(s.title)}</li>`).join('')}</ul></div>`;
 }
 
 function modernWorksHtml(list) {
@@ -653,7 +653,7 @@ function cardParts(movement) {
     const exp = movement.experienceToday && movement.experienceToday.length ? `<ul>${movement.experienceToday.map(e => `<li><a href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.text)}</a></li>`).join('')}</ul>` : '';
     parts.legacy = sub('Why It Is on the Tree', movement.why ? `<p>${escapeHtml(movement.why)}</p>` : '') + sub('Legacy', movement.legacy ? paragraphs(movement.legacy) : '') + sub('Experience It Today', exp);
     parts.questions = movement.uncertain && movement.uncertain.length ? bullets(movement.uncertain) : '';
-    parts.sources = sub('Doctrinal Floor Note', hasContent(movement.floorNote) ? `<p>${escapeHtml(movement.floorNote)}</p>` : '') + sub('How Sure the Record Is', hasContent(movement.sourcing) ? `<p>${escapeHtml(movement.sourcing)}</p>` : '') + formatSourcesList(movement.sources);
+    parts.sources = sub('On the Nicene Creed', hasContent(movement.floorNote) ? `<p>${escapeHtml(movement.floorNote)}</p>` : '') + sub('How Sure the Record Is', hasContent(movement.sourcing) ? `<p>${escapeHtml(movement.sourcing)}</p>` : '') + formatSourcesList(movement.sources);
   }
   if (isPerson) parts.connections = (movement.toldWithin && movementMap.get(movement.toldWithin) ? sub('Tradition', `<p><a href="${movement.toldWithin}.html">${escapeHtml(movementMap.get(movement.toldWithin).name)}</a></p>`) : '') + parts.connections + (buildLineageHtml(movement.id, movement) ? sub('Connections on the Map', buildLineageHtml(movement.id, movement)) : '');
   const voices = !isPerson && !isCouncil && movement.voices && movement.voices.length ? bullets(movement.voices) : '';
@@ -719,14 +719,14 @@ ${siteHeader('../')}
 
 
   <section>
-    <h2>About This ${isCouncil ? 'Council' : isPerson ? 'Person' : 'Movement'}</h2>
+    <h2>About This ${isCouncil ? 'Council' : isPerson ? 'Person' : 'Tradition'}</h2>
     ${narrated ? `
     <div class="narration">
-      <p class="narration-label">Audio Brief · Narrated Edition${briefClock(treeAudioManifest[movement.id]) ? ` <span>${briefClock(treeAudioManifest[movement.id])}</span>` : ''}</p>
+      <p class="narration-label">Audio Brief${briefClock(treeAudioManifest[movement.id]) ? ` <span>${briefClock(treeAudioManifest[movement.id])}</span>` : ''}</p>
       <audio controls preload="none" src="../audio/tree/${movement.id}.mp3"></audio>
     </div>
     ` : ''}
-    ${movement.longDescription ? `${narrated ? '<details class="read-along"><summary>Read along</summary>' : ''}<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>${quotesHtml(parts.card)}${briefSourcesHtml(parts.card.briefSources)}${narrated ? '</details>' : ''}` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}
+    ${movement.longDescription ? `${narrated ? '<details class="read-along"><summary>Read along</summary>' : ''}<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>${quotesHtml(parts.card)}${briefSourcesHtml(parts.card.briefSources)}${narrated ? '</details>' : ''}` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '')}
   </section>
 
   ${section('Timeline', parts.timelineHead + timelineHtml(parts.card.timeline), 'timeline')}
@@ -980,10 +980,10 @@ ${siteHeader('../')}
 
 <main class="page" id="content" data-retired="true">
   <div class="titleblock">
-    <p class="eyebrow">Retired entry</p>
+    <p class="eyebrow">No longer on the tree</p>
     <h1>${escapeHtml(r.name)}</h1>
   </div>
-  <p>This entry was retired from the tree on ${escapeHtml(retiredOn)}.</p>
+  <p>This entry was removed from the tree on ${escapeHtml(retiredOn)}.</p>
   <p>${escapeHtml(r.reason)}</p>
   <p><a href="../index.html">Return to the map</a></p>
 </main>
