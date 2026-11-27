@@ -185,7 +185,7 @@
   ],
   "briefSources": [
     {
-      "title": "The Life and Passion of Cyprian (tr. Ernest Wallis), with Hartel's Latin",
+      "title": "The Life and Passion of Cyprian (tr. Ernest Wallis)",
       "author": "Pontius the Deacon",
       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
     },
@@ -250,12 +250,12 @@
         {
           "when": "The first day at Curubis",
           "text": "Before he fell asleep, Cyprian says, a young man of more than human size seemed to lead him to the governor's court.",
-          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28055-28064",
+          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28055-28065",
           "note": "A wonder, in Cyprian's words as Pontius reports them."
         },
         {
           "when": "The first day at Curubis",
-          "text": "The governor writes a judgment on his tablet without the usual questions. The young man standing behind him reads it and shows it by a sign, the stroke of the sword.",
+          "text": "The governor writes a judgment on his tablet without the usual questions. The young man standing behind the governor reads it and shows it by a sign, the stroke of the sword.",
           "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28065-28074"
         },
         {
@@ -277,18 +277,18 @@
         {
           "when": "257 to 258",
           "text": "Pontius reads the one day's delay as one year more of life.",
-          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28098-28102",
+          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28095-28102",
           "note": "Pontius's own reading of the dream."
         },
         {
           "when": "257 to 258",
           "text": "Pontius says the delay was asked for church business, above all the care of the poor, and that Cyprian spent it so.",
-          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28123-28136"
+          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28124-28136"
         },
         {
           "when": "257 to 258",
           "text": "Everyone knew his death was near, Pontius says, though no one spoke of the day.",
-          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28114-28116"
+          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28114-28117"
         },
         {
           "when": "Date unknown",
@@ -330,7 +330,7 @@
         },
         {
           "when": "14 September 258",
-          "text": "A soldier who had once been a Christian offers Cyprian dry clothes. Cyprian answers that they are treating troubles that will likely be gone by the end of the day.",
+          "text": "An officer who had once been a Christian offers Cyprian dry clothes. Cyprian answers that they are treating troubles that will likely be gone by the end of the day.",
           "reference": "Pontius, Life and Passion of Cyprian 16, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28218-28226"
         },
         {
