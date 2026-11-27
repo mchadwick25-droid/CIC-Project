@@ -17,12 +17,12 @@ None of these touches the Essence, Also told, What came of them, the Never cut l
 | F3 | P3: "and the family's property was seized, and Origen, not quite seventeen, was left with his mother and six younger brothers" (S3, E4) | 20 | 986 | Card |
 | F4 | P3: "Pagans came to him to hear the word of God. In his eighteenth year," (E6). Demetrius's entrusting of the teaching stays, since the break needs him and the essence needs the teaching. | 14 | 972 | Leave out (told in `alexandria-catechetical`) |
 | F5 | P3: "Under the emperor Severus the churches were persecuted. His father was beheaded." (S3). This is the one free cut with a real story cost: the martyr's-son frame goes. It is not part of the heart, and no reason is cut, since the sources give none. | 12 | 960 | Card |
-| F6 | P6: "Origen was always with Plato," becomes "Origen used the books, Porphyry wrote, of Chaeremon...". The two named writers stay, because Quote 2's "these writers" needs them. | 5 | 955 | Leave out |
-| F7 | P5: "At Alexandria" (the place of On First Principles) | 2 | 953 | Leave out |
+| F6 | P7: "Origen was always with Plato," becomes "Origen used the books, Porphyry wrote, of Chaeremon...". The two named writers stay, because Quote 2's "these writers" needs them. | 5 | 955 | Leave out |
+| F7 | P6: "At Alexandria" (the place of On First Principles) | 2 | 953 | Leave out |
 
 **Count after the free cuts: 953.**
 
-I set one possible trim aside: "on a church errand to Greece" in P7 (6 words). It guards against hearing the ordination as irregular (Do not say: "ordained without his bishop's permission"; D2). Dropping it would invite an implication the outline forbids.
+I set one possible trim aside: "on a church errand to Greece" in P8 (6 words). It guards against hearing the ordination as irregular (Do not say: "ordained without his bishop's permission"; D2). Dropping it would invite an implication the outline forbids.
 
 ## 3. Further cuts, each taking part of the heart
 
@@ -31,11 +31,11 @@ These are in order of least cost first. An event is cut before its meaning. Wher
 | # | Cut | What it takes | Saves | Count after |
 |---|---|---|---|---|
 | T1 | P1: "and they say he often stood by the sleeping boy, uncovered his chest and kissed it" (E3) | The opening scene's turn, its craft. The father's private thanks stays, so Do not say's "keep both halves" still holds. Goes to the card. | 16 | 937 |
-| T2 | P8 whole: the two brothers at Caesarea, bishops in Pontus (E22) | The shape's "who learned it" for his own pupils, the first line of the Connection, and What came of it 4. Goes to the card (told in `anatolian-church-third-century`). | 39 | 898 |
+| T2 | P9 whole: the two brothers at Caesarea, bishops in Pontus (E22) | The shape's "who learned it" for his own pupils, the first line of the Connection, and What came of it 4. Goes to the card (told in `anatolian-church-third-century`). | 39 | 898 |
 | T3 | P11: the Arians sentence, with its gloss (I1, I3) | What came of it 1's **defended** mark: Basil and Gregory defending his reasoning. Goes to the card. | 28 | 870 |
-| T4 | P5: God's stumbling blocks, "so that readers would look for a meaning worthy of God" (T7) | Also told, the second half of the question in his own words: Scripture read on more than one level. Only "bare letter" is left. Goes to Leave out. | 28 | 842 |
+| T4 | P6: God's stumbling blocks, "so that readers would look for a meaning worthy of God" (T7) | Also told, the second half of the question in his own words: Scripture read on more than one level. Only "bare letter" is left. Goes to Leave out. | 28 | 842 |
 | T5 | P12 whole: the Philocalia ending, with its gloss (I2) | The preferred Ending 1 and the rest of What came of it 1. The story would then end on the council. Goes to the card. | 38 | 804 |
-| T6 | P4 whole: the columns, the Seventy and its gloss, and his reason (E10, T13) | The Also told columns, all of it. Only the essence's one line is left. Event and meaning go together. Goes to the card. | 90 | 714 |
+| T6 | P5 whole: the columns, the Seventy and its gloss, and his reason (E10, T13) | The Also told columns, all of it. Only the essence's one line is left. Event and meaning go together. Goes to the card. | 90 | 714 |
 | T7 | P11: Socrates on Basil and Gregory drawing the right reading from his books (I1) | What came of it 1 entirely, and the Connection's main line on later readers. The impact would be left as the Defense and the council alone. Goes to the card. | 31 | 683 |
 
 **Stop at 683. The draft cannot reach 675 within the rules.** Every sentence left is one of these:
