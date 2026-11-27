@@ -11,7 +11,7 @@
   "keyWorks": [
     {
       "title": "Paschal Canons",
-      "about": "his writings on finding Easter. Eusebius says that in his works he gave his views on the Passover in particular, and quotes a long extract: the first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox, and the count runs on a cycle of nineteen years. He says the rule was known to the Jews before Christ"
+      "about": "his writings on finding Easter. Eusebius says that in his works he gave his views on the Passover in particular, and quotes a long extract. In it, the first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox. The count runs on a cycle of nineteen years, and the rule, he says, was known to the Jews before Christ"
     },
     {
       "title": "Institutes of Arithmetic",
@@ -24,12 +24,12 @@
   ],
   "legacy": {
     "traces": [
-      "Columbanus, an Irish abbot, wrote to Pope Gregory the Great against an Easter on the moon's 21st or 22nd day. He cited Anatolius and quoted words from the Latin Easter book under his name: if the moon rises only at midnight, darkness rules over the light, and the feast of the Lord's resurrection is light.",
+      "Columbanus, an Irish abbot, wrote to Pope Gregory the Great against an Easter on the moon's 21st or 22nd day. He cited Anatolius, and quoted words from the Latin Easter book under his name. The words say that if the moon rises only at midnight, darkness rules over the light, and the feast of the Lord's resurrection is light.",
       "To a synod of bishops in Gaul, Columbanus wrote that he trusted the tradition of his homeland, and Anatolius, over Victorius, who had written lately and in doubt.",
       "Bede wrote that the northern Irish and the Picts kept Easter from the moon's fourteenth to its twentieth day, believing they followed the writings of Anatolius. Anyone skilled, he added, could very easily tell whether that was true.",
       "At the synod at Whitby in 664, Colman, for the Irish side, said Anatolius had written that Easter was to be kept from the fourteenth to the twentieth. Wilfrid, for Rome's side, answered that Anatolius had set out a cycle of nineteen years, which the whole church of Christ kept.",
       "Bede lists among his own works one on the leap year and the equinox, according to Anatolius.",
-      "Elias of Nisibis cites the words of Anatolius, bishop of Laodicea, to show that the spring equinox fell on the 22nd of Adar in his time, two days earlier than in Christ's time."
+      "Elias of Nisibis cites the words of Anatolius, bishop of Laodicea, to show that the spring equinox fell on the 22nd of Adar in his time. That was two days earlier, Elias says, than in Christ's time."
     ],
     "remembered": [
       "Eusebius says he \"stood first among the ablest men of our time\" in arithmetic, geometry, astronomy, logic and physics, and was at the head in rhetoric.",
@@ -53,9 +53,9 @@
     "The Easter book. No old source says where or when he wrote it. Eusebius quotes only part of it.",
     "The nineteen years. Wilfrid credits Anatolius with setting out a cycle of nineteen years. Abbot Ceolfrid's letter, which Bede copies, says the nineteen-year cycle began in the time of the apostles, at Rome and in Egypt, and does not name him.",
     "The Latin book. A longer Latin book on Easter carries his name. It was first printed in 1634. Whether he wrote it, no old source says, and modern scholars disagree: some take it for an early translation of his own work, others for a later forgery.",
-    "What his days of the moon meant. Colman says Anatolius wrote that Easter was to be kept from the fourteenth to the twentieth, and the Latin book under his name allows the celebration to be extended to the moon's twentieth. Wilfrid says Anatolius counted in the Egyptian way, so that his fourteenth was the fifteenth by evening and his twentieth the twenty-first, and that Colman's side sometimes kept Easter before the full moon. Bede says a skilled reader can tell whether the Irish truly followed him. No old source says which text either man drew on.",
-    "A Syriac chronicle, in its Latin version, calls him a teacher at Laodicea after Eusebius, an Alexandrian by birth. It says he taught that the months begin on the eighteenth of Adar, and that the count comes round again after nineteen years. The extract Eusebius quotes puts the new moon at the head of the cycle on the 26th of the Egyptian month Phamenoth, the eleventh day before the Kalends of April.",
-    "Socrates, against Sabbatius's Easter, gives the rule that the Hebrews sacrificed after the spring equinox, as Eusebius relates on the witness of Philo, Josephus and Aristobulus, writers the extract from Anatolius names. Socrates does not name Anatolius.",
+    "What his days of the moon meant. Colman says Anatolius wrote that Easter was to be kept from the fourteenth to the twentieth. The Latin book under his name allows the celebration to be extended to the moon's twentieth. Wilfrid says Anatolius counted in the Egyptian way, so that his fourteenth was the fifteenth by evening and his twentieth the twenty-first. He adds that Colman's side sometimes kept Easter before the full moon. Bede says a skilled reader can tell whether the Irish truly followed him. No old source says which text either man drew on.",
+    "A Syriac chronicle, in its Latin version, calls him a teacher at Laodicea after Eusebius, an Alexandrian by birth. It says he taught that the months begin on the eighteenth of Adar, and that the count comes round again after nineteen years. The extract Eusebius quotes puts the new moon at the head of the cycle on the 26th of the Egyptian month Phamenoth, the 22nd of the Macedonian month Dystrus.",
+    "Socrates, writing against the Easter of Sabbatius, gives the rule that the ancient Hebrews sacrificed after the spring equinox. He cites Eusebius, and Philo, Josephus and Aristobulus, writers the extract from Anatolius names, but does not name Anatolius.",
     "The books on arithmetic. The Ante-Nicene Fathers prints fragments of books on arithmetic under his name, taken from a modern collection. That they are his rests on modern editors."
   ],
   "sources": {
@@ -334,7 +334,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He argues that the old women, children and old men, the crippled and the maimed, should be sent out of the gates, and the city should feed only men and youths.",
+          "text": "He argues that the old women, children and old men, the crippled and the maimed, should be sent out of the gates. The city should feed only men and youths.",
           "reference": "Eusebius, Church History VII.32.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42735-42743"
         },
         {
@@ -344,7 +344,7 @@
         },
         {
           "when": "By night",
-          "text": "Under cover of the decree he saves almost all the besieged: the church's people first, then others of every age, and many more beyond the decree, secretly dressed in women's clothes. They go out of the gates to the Roman camp.",
+          "text": "Under cover of the decree he saves almost all the besieged, the church's people first, then others of every age. Many more beyond the decree go too, secretly dressed in women's clothes. They go out of the gates to the Roman camp.",
           "reference": "Eusebius, Church History VII.32.11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42753-42759"
         },
         {
@@ -413,17 +413,17 @@
         },
         {
           "when": "Date unknown",
-          "text": "He sets the new moon of the first month, the beginning of every cycle of nineteen years, on the 26th of the Egyptian month Phamenoth, the eleventh day before the Kalends of April.",
+          "text": "He sets the new moon of the first month on the 26th of the Egyptian month Phamenoth. That new moon is the beginning of every cycle of nineteen years.",
           "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42788-42803"
         },
         {
           "when": "Date unknown",
-          "text": "He writes that those who put the first month, and the Passover's fourteenth day, in the twelfth and last segment of the sun's yearly path, the one before the equinox, make no small mistake.",
+          "text": "The first segment of the sun's yearly path begins at the spring equinox. He writes that those who put the first month, and the Passover's fourteenth day, in the segment before it make no small mistake.",
           "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.15, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42805-42817"
         },
         {
           "when": "Date unknown",
-          "text": "He says the rule is not his own: the Jews knew it before Christ, as Philo, Josephus, Musaeus, the two Agathobuli and Aristobulus show, who say the Passover is sacrificed after the spring equinox.",
+          "text": "He says the rule is not his own, since the Jews knew it before Christ. Philo, Josephus, Musaeus, the two Agathobuli and Aristobulus, he writes, say the Passover is sacrificed after the spring equinox.",
           "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.16 to 17, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42819-42868"
         },
         {
@@ -439,7 +439,7 @@
       "lines": [
         {
           "when": "While Gregory the Great was pope",
-          "text": "Columbanus, an Irish abbot, writes to Gregory against an Easter on the moon's 21st or 22nd day. He cites Anatolius, a man of wonderful learning, as Jerome says, and quotes the Latin Easter book under his name: when the moon rises only at midnight, darkness rules over the light.",
+          "text": "Columbanus, an Irish abbot, writes to Gregory against an Easter on the moon's 21st or 22nd day. He cites Anatolius, a man of wonderful learning, as Jerome says. He quotes words from the Latin Easter book under his name: when the moon rises only at midnight, darkness rules over the light.",
           "reference": "Columbanus, letter to Gregory the Great, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 4320-4355",
           "note": "The words Columbanus quotes stand in the Latin Paschal Canon under Anatolius's name, not in the Greek extract Eusebius keeps."
         },
@@ -450,17 +450,17 @@
         },
         {
           "when": "664",
-          "text": "At a synod in the monastery at Whitby, where Abbess Hild presides, Colman, for the Irish side, says Anatolius wrote that Easter was to be kept from the fourteenth to the twentieth.",
+          "text": "A synod meets in the monastery at Whitby, where Abbess Hild presides. Colman, for the Irish side, says Anatolius wrote that Easter was to be kept from the fourteenth to the twentieth.",
           "reference": "Bede, Ecclesiastical History III.25, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 7956-7967; 8117-8121"
         },
         {
           "when": "664",
-          "text": "Wilfrid, for Rome's side, answers that Anatolius set out a cycle of nineteen years, which the whole church of Christ keeps, and counted his days in the Egyptian way, from evening.",
+          "text": "Wilfrid, for Rome's side, answers that Anatolius set out a cycle of nineteen years, which the whole church of Christ keeps. He adds that Anatolius counted his days in the Egyptian way, from evening.",
           "reference": "Bede, Ecclesiastical History III.25, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8134-8150"
         },
         {
           "when": "664",
-          "text": "The king rules for Peter, who holds the keys of heaven, and all present agree. Colman leaves, taking with him those who will not accept the Catholic Easter.",
+          "text": "The king rules for Peter, who holds the keys of heaven, and all present agree. Colman leaves, taking with him those who will not accept the Easter agreed there.",
           "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8195-8237"
         },
         {
