@@ -106,14 +106,16 @@ export function resetRenamesForTests() { renamesPromise = null; }
 // Anonymous use counts from the Church Family Tree map, written to Workers Analytics Engine
 // (binding EVENTS, set only in wrangler.cft.jsonc). The map sends only these event types and
 // short fields: no identity, no typed text, no address. Bots and link previews are dropped.
-export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow', 'next']);
+export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow', 'next', 'owner']);
 const BOT_AGENT = /bot|crawl|spider|slurp|preview|facebookexternalhit|headless|lighthouse|python|curl|wget|httpclient/i;
 const MAX_BODY = 8192;
 const MAX_EVENTS = 25;
 const field = (v, n) => (typeof v === 'string' ? v.replace(/[^\w .:/-]/g, '').slice(0, n) : '');
+const visitorId = (v) => (typeof v === 'string' && /^[a-f0-9]{32}$/.test(v) ? v : '');
+const browserFamily = (ua) => (/edg\//i.test(ua) ? 'edge' : /opr\/|opera/i.test(ua) ? 'opera' : /firefox|fxios/i.test(ua) ? 'firefox' : /chrome|crios/i.test(ua) ? 'chrome' : /safari/i.test(ua) ? 'safari' : 'other');
 const number = (v) => (Number.isFinite(v) && v >= 0 && v <= 86400 ? v : 0);
 
-export function eventPoints(text) {
+export function eventPoints(text, where = {}) {
   let list;
   try { list = JSON.parse(text); } catch { return []; }
   if (!Array.isArray(list)) return [];
@@ -121,19 +123,32 @@ export function eventPoints(text) {
     .filter((e) => e && typeof e === 'object' && EVENT_TYPES.has(e.t))
     .map((e) => ({
       indexes: [e.t],
-      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40)],
+      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40), visitorId(e.v), field(where.country, 2), field(where.region, 40), field(where.browser, 10), field(where.city, 40), field(e.d, 100)],
       doubles: (Array.isArray(e.n) ? e.n : [e.n]).slice(0, 3).map(number),
     }));
+}
+
+const CONSENT_COUNTRIES = new Set(['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH']);
+
+// Tells the page whether to ask for consent: Europe (EU, EEA, UK, Switzerland) only. Nothing about the visitor is kept.
+export function regionNote(request) {
+  const country = String((request.cf || {}).country || '');
+  const body = country ? JSON.stringify({ eu: CONSENT_COUNTRIES.has(country) }) : '{}';
+  return new Response(body, { status: 200, headers: { ...BASELINE_HEADERS, 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
 }
 
 export async function countEvents(request, env) {
   const done = new Response(null, { status: 204, headers: BASELINE_HEADERS });
   if (request.method !== 'POST') return new Response(null, { status: 405, headers: { ...BASELINE_HEADERS, Allow: 'POST' } });
   if (!env.EVENTS || BOT_AGENT.test(request.headers.get('User-Agent') || '')) return done;
+  const owner = String(env.OWNER_IPS || '').split(',').map((v) => v.trim()).filter(Boolean);
+  if (owner.includes(request.headers.get('CF-Connecting-IP') || '')) return done;
   if (Number(request.headers.get('Content-Length') || 0) > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
   const text = await request.text();
   if (text.length > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
-  for (const point of eventPoints(text)) env.EVENTS.writeDataPoint(point);
+  const cf = request.cf || {};
+  const where = { country: cf.country, region: cf.region, city: cf.city, browser: browserFamily(request.headers.get('User-Agent') || '') };
+  for (const point of eventPoints(text, where)) env.EVENTS.writeDataPoint(point);
   return done;
 }
 
@@ -172,6 +187,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === '/e') return countEvents(request, env);
+    if (url.pathname === '/region') return regionNote(request);
     const isRead = request.method === 'GET' || request.method === 'HEAD';
     if ((url.pathname === '/' || url.pathname === '/index.html') && isRead && UNFURLER.test(request.headers.get('User-Agent') || '')) return previewPage(request, env);
     const moved = await treeRedirect(url, env);
