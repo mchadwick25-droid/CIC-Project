@@ -6,6 +6,7 @@ for slug in sys.argv[1:]:
     wp=open(f'{B}/{slug}/Writer_Prompt.filled.md').read()
     header=wp.split('\n---\n')[0]
     header=re.sub(r'\n- \*\*Length \(Mark, 2026-11-27, "Batch 12: lengths measured by the draft".*?\n','\n',header)
+    header='\n'.join(l for l in header.split('\n') if 'stop and say so' not in l and 'stop only past 675' not in l)
     header=re.sub(r'\n- \*\*Redraft \(.*?\n','\n',header)
     name=re.search(r'\*\*Story:\*\* (.*?) \(census',header).group(1) if slug!='era-1' else 'Era 1, The Early Church Era'
     n=len(open(f'{B}/{slug}/{slug}.brief.txt').read().split())
