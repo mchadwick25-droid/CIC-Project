@@ -6412,3 +6412,9 @@ This builds on "Standard visitor analytics replace the cookie-free counts" above
 3. Consent: the worker answers `/region` with whether the request comes from Europe (EU, EEA, UK, Switzerland), and nothing about the visitor is kept. In Europe the map asks first; until "Yes" it sets no cookie and sends nothing, and "No thanks" removes the cookie and is remembered. Outside Europe it counts as before. If the lookup fails, nothing is counted.
 4. Owner exclusion: the home address goes in the `OWNER_IPS` binding on the worker `church-family-tree`, never in the repository. Mark's devices are excluded by `?count=off`, which also marks an existing visitor number as the owner's.
 5. The Privacy page says all of this in plain words.
+
+## 2026-11-27 — Era 1 people split between the era 1 cards thread and batch 12 (Mark)
+
+**Why.** Both the era 1 cards thread and batch 12 would otherwise write cards for the 20 era 1 people graded F or D, which batch 12 rebuilds.
+
+**Decided (Mark, 2026-11-27, through the coordinator), verbatim: "a".** The option put to him: "A (recommended): split the people between the two threads. The era 1 cards thread writes cards only for the people batch 12 isn't touching. Batch 12 writes the full card for each of its 20 as part of its own card step." The era 1 cards thread writes the cards for Irenaeus, Dionysius of Alexandria, Novatian, Polycrates, Pliny the Younger, Marcion of Pontus and Hermas (Polycarp and the councils of 251 are done). Batch 12 writes the cards for the 20 in `Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/Rebuild_Order.csv`.
