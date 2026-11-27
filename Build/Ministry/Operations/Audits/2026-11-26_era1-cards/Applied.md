@@ -262,3 +262,37 @@ None.
 ### Could not place
 
 None. One count differs from the checker's: the P9 and R5 lists name eight double-spaced references each, but the files hold seven (Palestinian; line 18 has none) and six (Roman). All that exist were fixed.
+
+## Check H
+
+Source: `Card_Check_H.md`. Each change was applied word for word to the card's `<id>.layout.json`. All three files still load as JSON. A scratch census copy with the three layouts merged in (`/tmp/claude-0/apply-h/census-copy.json`; the real census was not edited), run with `node tools/validate-census.mjs`: 0 errors, 4 warnings (the four standing shortName warnings). Nothing committed. Finding numbers are the checker's.
+
+### Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| danubian-latin-christianity | D1 | timeline, period 2, line 4: text |
+| danubian-latin-christianity | D2 | uncertain, item 3 (removed) |
+| danubian-latin-christianity | D3 | uncertain, item 4 |
+| danubian-latin-christianity | D4 | timeline, period 4, line 1: text |
+| danubian-latin-christianity | D5 | timeline, period 5, line 1: reference; line 4: text |
+| modalist-monarchianism | M1 | shortDescription |
+| modalist-monarchianism | M2 | timeline, period 2, line 7: text |
+| modalist-monarchianism | M3 | uncertain, item 3 |
+| modalist-monarchianism | M4 | timeline, period 6, line 1: text |
+| bardaisanite-current | B1 | timeline, period 1: headline |
+| bardaisanite-current | B2 | timeline, period 1: when |
+| bardaisanite-current | B3 | timeline, period 1, line 6: when; uncertain, item 3 |
+| bardaisanite-current | B4 | timeline, period 3: when |
+| bardaisanite-current | B5 | timeline, period 1, line 8: note (new); period 2, line 5: note (new) |
+
+### For existing census texts, not applied here
+
+| Card | Finding | Field |
+|---|---|---|
+| danubian-latin-christianity | D6 | `modernWorks`, Kauffmann note (proposed new entry field, not in the layout) |
+| bardaisanite-current | B6 | `modernWorks`, Gifford note (proposed new entry field, not in the layout) |
+
+### Could not place
+
+None.
