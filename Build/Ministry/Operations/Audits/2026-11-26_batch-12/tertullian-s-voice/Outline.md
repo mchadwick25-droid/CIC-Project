@@ -4,7 +4,7 @@ Kind: person (`kinds/person.md`). Items S, E, I, D are in `Source_Sheet.md`, whi
 
 ## The heart
 
-- **The essence:** Tertullian of Carthage, around the year 200, was the foremost early writer of the faith in Latin (S1, S2, D5; Vincent of Lérins, about two centuries later, gives him "the first place … among the Latins", VIN 13555–13557; Documented as Vincent's judgment. Jerome's Latin, "primus post Victorem et Apollonium Latinorum ponitur", JERL 55610–55611, places him in his list after two earlier Latin writers: no ranking, card). Eusebius calls him well versed in Roman law (S5; Documented as Eusebius's word; Contested that he practised). He pleaded the Christians' case before Rome's judges and claimed the Scriptures for the churches the apostles founded (E1, E4; Documented). Then he joined the strict New Prophecy (E6; Documented), and after that turn wrote of God as one substance and three persons, in Latin words that stand in his text (E9, E10; ANF3 51098–51099; Documented). Cyprian read him every day, but Jerome and Augustine counted him outside the church (I1, I4; Documented as their reports).
+- **The essence:** Tertullian of Carthage, around the year 200, was the foremost early writer of the faith in Latin (S1, S2, D5; Vincent of Lérins, about two centuries later, gives him "the first place … among the Latins", VIN 13555–13557; Documented as Vincent's judgment. Jerome's Latin, "primus post Victorem et Apollonium Latinorum ponitur", JERL 55610–55613, places him in his list after two earlier Latin writers: no ranking, card). Eusebius calls him well versed in Roman law (S5; Documented as Eusebius's word; Contested that he practised). He pleaded the Christians' case before Rome's judges and claimed the Scriptures for the churches the apostles founded (E1, E4; Documented). Then he joined the strict New Prophecy (E6; Documented), and after that turn wrote of God as one substance and three persons, in Latin words that stand in his text (E9, E10; ANF3 51098–51099; Documented). Cyprian read him every day, but Jerome and Augustine counted him outside the church (I1, I4; Documented as their reports).
 - **Also told:** what each book says, with its weight. The Apology: the Christians are condemned for a name by judges who will not learn what it means (E1, E2). The Prescription: arguments from Scripture should not be heard until it is settled whose the Scriptures are, and they belong to the churches the apostles founded (E4, E5). Against Praxeas: God is one substance, and the Son is another person, distinct but not divided (E9, E10). The turn: he came to hold that the Paraclete spoke through new prophets and set a stricter rule than the bishops, and he parted from those who refused it (E6, E7, E11).
 - **What came of him:** below, ranked. Defended: the Christians' innocence before Rome's courts; the apostles' churches' title to the Scriptures; one God in three against Praxeas; later, the New Prophecy's rule.
 
@@ -116,7 +116,7 @@ Each rendered by me. Only these three are spoken as quotes. Two short phrases of
 - Jerome: link, witness (Beat 3, What came 1 to 3).
 - Augustine of Hippo: link, witness (Beat 3, What came 3 and 4). Say "Augustine".
 - Cyprian of Carthage: link (What came 1). Say "Cyprian".
-- Novatian: link (What came 2), a presbyter of Rome (JER 40886); use it if he is named. First to go if names run long.
+- Novatian: link (What came 2), a presbyter of Rome (JER 40887); use it if he is named. First to go if names run long.
 - Vincent of Lérins: link, witness (the essence). Say "Vincent of Lérins" once.
 - Optatus: witness, by name or as "an African bishop" (What came 3).
 - By role: the governors, the bishop of Rome, a bishop, the prophets in Phrygia, an old man of Italy (Paul of Concordia), Cyprian's secretary. Montanus, Prisca and Maximilla are not named: the `montanism-the-new-prophecy` story names them.
@@ -124,7 +124,8 @@ Each rendered by me. Only these three are spoken as quotes. Two short phrases of
 ## Connection to carry into the story
 
 What passed from him was a Latin way of arguing the faith, made in the courtroom's terms and kept by Latin readers after him. The listener must understand three things, through what people did:
-- **Why it was new:** Jerome places him first among the Latin writers of the faith after Victor and Apollonius (D5; JER 40495; JERL 55610–55613); he made Latin carry the case: a plea that throws out a case, a title to an estate (S6, E5), and words for God, person and substance (E10). - **Who carried it:** Cyprian read him daily and called him the master, and Novatian's book on God was, Jerome says, a summary of his (I1, I2). The writer must say that Cyprian did not follow him into the New Prophecy (JERW 18969–18972), so the listener does not think his whole line passed on.
+- **Why it was new:** he made Latin carry the case: a plea that throws out a case, a title to an estate (S6, E5), and words for God, person and substance (E10). Vincent of Lérins, about two centuries later, gives him the first place among the Latins (D5; VIN 13555–13557).
+- **Who carried it:** Cyprian read him daily and called him the master, and Novatian's book on God was, Jerome says, a summary of his (I1, I2). The writer must say that Cyprian did not follow him into the New Prophecy (JERW 18969–18972), so the listener does not think his whole line passed on.
 - **Why it split:** the same readers who kept his words would not keep him. Augustine names him a heretic, and Jerome says he was not a man of the church, both because of the turn (I4, E8). His own followers lasted at Carthage only until Augustine's day (I5).
 This comes through the acts above, never a sentence saying why he matters.
 
@@ -152,7 +153,7 @@ This comes through the acts above, never a sentence saying why he matters.
 
 - **Tertullian himself**, old, in his own time, for the four books and the turn (S7, E1–E11). On Praxeas, the heretics and the bishop he is a hostile witness: "by his account", "he says" (E9, E11).
 - **Eusebius**, old, about a century later, beside "well versed in Roman law" (S5).
-- **Jerome**, old, about 170 to 200 years later, beside: his rank among Latin writers, why he turned, Cyprian's daily reading (hearsay through two people: tell the chain), Novatian's summary, "not a man of the church", his old age (D5, E8, I1, I2, I4, E12).
+- **Jerome**, old, about 170 to 200 years later, beside: why he turned, Cyprian's daily reading (hearsay through two people: tell the chain), Novatian's summary, "not a man of the church", his old age (E8, I1, I2, I4, E12). His placing of Tertullian in his list after Victor and Apollonius is not a ranking: card (D5; JERL 55610–55613).
 - **Augustine**, old, about two centuries later, beside: why he turned, that he was read as eloquent, that he became a heretic, his followers' end (E8, I3, I4, I5).
 - **Optatus**, old, an African bishop, later fourth century, about a century and a half later: beside his place among the champions of the Catholic church (What came 3; I7).
 - **Vincent of Lérins**, old, 434: beside the first place among the Latins (the essence); his praise and blame otherwise card (I3, I4).
@@ -163,7 +164,7 @@ This comes through the acts above, never a sentence saying why he matters.
 ## Do not say
 
 - "A lawyer", "an advocate" or "trained as an advocate" as fact. Say Eusebius calls him well versed in Roman law (S5, D3).
-- "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5). It is a ranking, so credit it the first time it is heard, to Vincent of Lérins, writing about two centuries later (VIN 13555–13557). Never say Jerome ranks him first: Jerome's Latin places him in his list after Victor and Apollonius (JERL 55610–55611); Richardson's "regarded as chief" (JER 40495) is the translator's.
+- "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5). It is a ranking, so credit it the first time it is heard, to Vincent of Lérins, writing about two centuries later (VIN 13555–13557). Never say Jerome ranks him first: Jerome's Latin places him in his list after Victor and Apollonius (JERL 55610–55613); Richardson's "regarded as chief" (JER 40495) is the translator's.
 - "In 197" or any year but "around the year 200"; no year for the Prescription, the turn, Against Praxeas or On Modesty (S2, D6).
 - "His last book" (E11).
 - "Then", "a few years later" or any word of time that puts the Prescription before or after another book: its place rests on Monceaux alone (E4, D6). The turn, Against Praxeas and On Modesty may be told as after the Apology and the Prescription only in the way his own words show: Against Praxeas and On Modesty speak of the Paraclete and the new prophets (E9, E11).
