@@ -6296,6 +6296,8 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 
 **Why.** Eighteen uses of "story" in the kit and role files sit in rules that cover briefs, documented stories and map stories alike (Open-Gaps 441). The coordinator asked Mark: "what should the kit call a piece of text in the 18 rules that cover briefs, documented stories and map stories alike? A (recommended): 'text', as in 'every text is checked against a held line'. B: 'piece'. C: name the kinds each time."
 
-**Decided (Mark, 2026-11-27): "A"**. In those eighteen uses the word is "text" (or "text's"). Nothing else in the kit changes. Kit.md line 36 ("The audio tells the story") is a separate question and stays as it is.
+**Decided (Mark, 2026-11-27): "A"**. In those eighteen uses the word is "text" (or "text's"). Nothing else in the kit changes. Kit.md line 36 ("The audio tells the story") was a separate question.
+
+**Decided (Mark, 2026-11-27): "C"**. The coordinator asked: "Kit line 36 currently reads 'The audio tells the story'. What should it say? A: 'The audio reads the brief.' B: 'The audio tells it.' C: Leave it as it is. The line is about how the audio should sound, not what it's called, so 'story' can stand there as ordinary English." Line 36 stays as it is.
 
 **Done.** Eighteen uses changed: eleven in Kit.md, one in `roles/checker.md`, one in `roles/release.md`, three in `roles/researcher.md` and two in `roles/reviewer.md`. An independent reader confirmed the count and that nothing else changed.
