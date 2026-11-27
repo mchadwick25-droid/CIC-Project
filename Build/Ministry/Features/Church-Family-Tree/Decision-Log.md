@@ -6340,3 +6340,11 @@ A second independent checker confirmed it against Smyrnaeans 13, To Polycarp 8 a
 - After: "…met together. A short manual…" and "…should act as one around its bishop. He greeted the church at Smyrna household by household. Near the end…"
 
 An independent checker confirmed it against Smyrnaeans 13 and To Polycarp 8 (anf01 8503–8508, 8868–8869), and that nothing else changed. Neither `records/worlds/` nor `Build/Ministry/Features/Conversation-Chooser/Card-Words/Approved-Card-Words.yaml` holds the sentence; they were left alone.
+
+## 2026-11-27 — Owner opt-out from the tree's own counts (Mark)
+
+Mark: "take this computer/system out". A browser blocker for Cloudflare's beacon does not stop the tree's own counts, because they go to the tree's own worker.
+
+**Decided.** Opening the map with `?count=off` sets a flag in that browser's localStorage (`cft-count-off`), and the map then sends no events. `?count=on` clears it. A short note says so once. The Privacy page says any visitor can do this. The test is `Build/tools/cft_count_optout.test.mjs`.
+
+**Past data.** The counts carry nothing that identifies a device, so Mark's visits before this change cannot be separated and are not filtered.
