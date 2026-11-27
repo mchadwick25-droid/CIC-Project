@@ -165,3 +165,5 @@ Never cut: Quote 1 and Pella; Tertullian's boast, credited as his, and its "boas
 ## Approved heart and length
 
 Mark, 2026-11-27 ("Batch 12: hearts and lengths approved", "approve as recommended"): the heart above, and **525 words** (the era ruling; the independent count in `Length_Count_Era.md` found about 686). If the outline, less its Cut first list, runs past 525, it is cut back at the outline by its researcher and checked; the heart and the record's force are not cut, and a story that cannot fit without cutting its heart goes back to Mark. Every Cut first item goes to the card or Leave out as it is marked.
+
+**Length ruling:** Mark, 2026-11-27 ("Batch 12: the first two briefs approved, and the long stories' lengths", "approve as recommended"): **about 730 words**: apply the free cuts only, as `Cuts_Named.md` lists them, at the outline; a targeted recheck follows, then the brief is drafted. This replaces the approved length above for this story.

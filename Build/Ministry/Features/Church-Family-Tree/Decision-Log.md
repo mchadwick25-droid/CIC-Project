@@ -6452,3 +6452,13 @@ This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 3. Cyprian, Eusebius, Origen and the era are drafted now on their outlines as they stand, to measure only; these drafts are not reviewed and are not briefs written ahead of Mark's reading of the first two. Each researcher then names the cuts that would bring its draft to 675 (the era to 525) and what each would take from the heart; the real counts come to Mark on one page.
 
 This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`.
+
+## 2026-11-27 — Batch 12: the first two briefs approved, and the long stories' lengths (Mark)
+
+**Why.** Two stops were open together. The first two briefs (Kit step 5), Ignatius of Antioch (667 words) and Tacitus (584), each through review, one revision and a fresh read: https://claude.ai/artifact/RBTfTfBxXXpT5RD7qjZVVk (version 2). And the measured lengths of the five long stories, each drafted to measure with its researcher's named cuts: https://claude.ai/artifact/LVuVVjugx5AvTN979oSgG2 (version 4).
+
+**Decided (Mark, 2026-11-27): "approve as recommended".** Taken as approving both pages, which the same message put to him together.
+1. Ignatius and Tacitus approved as they stand, with the heart-wording changes their reviews made (Ignatius: "seven letters, six to churches and one to a fellow bishop"; "the letters he held". Tacitus: "Christus, that is, Christ"). The other fourteen people whose outlines are through the check are written in parallel, each through review, one revision and the fresh read.
+2. Lengths: Cyprian about 965 words (the twelve free cuts and four more that take only side events, `cyprian-of-carthage/Cuts_Named.md`); Origen about 950 (the free cuts only); Eusebius about 850 (the free cuts and C1-C6: the Chronicle ending, the Defense of Origen, the Rufinus and Jerome lines to the card); Josephus about 725, as drafted; the era 1 brief about 730 (the free cuts only). These run past the person kit's 675 ceiling where the heart needs it, as Latin Pastoral and Manichaeism did in batch 11.
+
+This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md` and each outline's "Approved heart and length" section.
