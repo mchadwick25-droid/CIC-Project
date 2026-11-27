@@ -25,7 +25,7 @@ Counted from each Outline.md, not from its stated count. Rates: quotes at their 
 | anatolius-of-alexandria-and-laodicea | 600 | 160 | 104 | 24 | 451 (41) | 739 | 4:56 | OVER | 865 [126] |
 | peter-of-alexandria | 600 | 82 | 64 | 36 | 462 (42) | 644 | 4:18 | LONG | 779 [135] |
 
-Totals: AIM 2 (tacitus, clement-of-alexandria); LONG 10; OVER 8. In every outline the Cut first list is written to bring its own plan down to the plan figure; the count above shows the plan figure is met only by tacitus and clement-of-alexandria without cuts, and that the cut lists are not enough to bring any OVER story to 675 (with its Cut first items removed, as counted, eight stories still stand above 675).
+Totals: AIM 2 (tacitus, clement-of-alexandria); LONG 10; OVER 8. Each Total already leaves out its Cut first items, so the eight OVER stories stand above 675 even with every Cut first item applied.
 
 ## What carries the weight (LONG and OVER)
 
