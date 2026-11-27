@@ -10,7 +10,7 @@ Census id `hippolytus-of-rome`. Kind: person (`kinds/person.md`). Source codes (
 
 ## Length
 
-**Approved: 575 words** (Mark, 2026-11-27; independent count 553 with every Cut first item applied). Every Cut first item below goes to the card or Leave out.
+**Approved: 575 words** (Mark, 2026-11-27; independent recount after the fix pass, `Recheck.md`: about 597 with Cut first 1-9 applied, about 567 with all eleven). Every Cut first item below goes to the card or Leave out.
 
 ## Setting
 
@@ -26,9 +26,9 @@ Census id `hippolytus-of-rome`. Kind: person (`kinds/person.md`). Source codes (
 | Noetus's teaching | "that Christ was the Father himself, so that the Father was born, suffered and died" | E1 |
 | the Word | "his name, from John's gospel, for the Son as he was with the Father before he became man" | E3; NG 3743, 3778-3779 (John 1:1); HIP 23830-23834 (*Against Noetus* 15: the Word "addressed as Son because He was to become such", and not yet Son "prior to incarnation") |
 | "worshippers of two gods" | Callistus's taunt at his side for speaking of Father and Son as two: narrate, never quote | E2, E4 |
-| Sabellius put out (only if Cut first 7/8 is not applied) | "put out of the church's fellowship" | E4 |
+| Sabellius put out (only if Cut first 7 is not applied) | "put out of the church's fellowship" | E4 |
 | Callistus's rule | "he forgave every sin of the body to anyone who came over to him, and would not remove a bishop even for the gravest sin" | E5 |
-| "school" (only if Cut first 7/8 is not applied) | Hippolytus's word: "a teacher's following, not a church" | E5 |
+| "school" (only if Cut first 10 is not applied) | Hippolytus's word: "a teacher's following, not a church" | E5 |
 | high priesthood (in Q3) | "the chief priestly office of the church", told as his own claim, never as proof he was a bishop | E8; D2 |
 | the *Refutation of All Heresies* | "a long book that traced every teaching he held false back to the Greek philosophers, the mystery cults and the astrologers" | E7 |
 | catholic faith (Ending) | "the faith of the whole church", so it is not heard as a modern denomination | I4 |
@@ -56,8 +56,8 @@ Census id `hippolytus-of-rome`. Kind: person (`kinds/person.md`). Source codes (
 2. **His answer.** Against Noetus he taught that the Son was another beside the Father, yet one power with him: Q2 (E3). He took his proof from Scripture, he said, and from no other source (E3, NG 3660-3661; optional clause). Explain it: the Word (Words to explain). Confidence: Documented, his own words.
 3. **Callistus becomes bishop.** When Zephyrinus died, Callistus took his place and put the teacher Sabellius out of the church's fellowship; Hippolytus says he did it out of fear of him, to clear himself of the charge he shared Sabellius's view (E4; an enemy's motive, credited). Callistus called Hippolytus's side worshippers of two gods; Hippolytus answered that he spoke of one God, not two, in two persons, with the grace of the Spirit as a third (E4, E3, NG 3781-3783; narrated, both as their texts give them, never joined as the editor joins them). Explain it: the charge and the answer. Confidence: Documented as each is reported.
 4. **The rule on sin, from his side.** Callistus, Hippolytus says, forgave every sin of the body to anyone who came over to him, and held that a bishop should not be removed even for the gravest sin (E5). Some whom Hippolytus's own side had judged and put out of the church joined him (E5, RG 18283: his own words, which show his side acting as the church). Hippolytus called Callistus's following a school, its people Callistians; they called themselves the Catholic Church (E5). Explain it: the rule, the "school", Catholic ("the church of the whole"). Confidence: Documented as his charge; what Callistus ruled, Contested (one hostile witness).
-5. **His books.** The *Refutation of All Heresies* set out to show that each teaching he held false came from Greek philosophers, mysteries and astrologers, not from Scripture or from any saint's succession; its last part turned to the teachings of his own day at Rome, Callistus's among them (E7; HIP 13249, 13870 ff.). In its opening he gave his own warrant: Q3 (E8). It came down in a manuscript found on Mount Athos in 1842 and was first printed under Origen's name (I8; a modern event, told as an event; D1). He also drew up a table for finding the day of Easter on a cycle of sixteen years, and Jerome says it gave Eusebius the cue for his own cycle of nineteen; he wrote many other books, which Eusebius says many kept (E9, I3). Later bishops in the East quoted him for the faith and called him bishop and martyr (I1). Explain it: the book's plan, high priesthood, the Easter table. Confidence: Documented (his words; Eusebius); the attribution Widely Accepted (D1).
-6. **Exile, 235, and his day at Rome.** In 235, Rome's list of bishops records, Pontianus, the bishop, and Hippolytus, whom it calls an elder, were deported to Sardinia (E10; the list gives no reason; narrated, never quoted). Rome's calendar of martyrs kept both on 13 August, Hippolytus on the Tiburtine Road and Pontianus in the cemetery of Callistus (E11). In the East, Eusebius wrote that he had led another church, without naming it, and Jerome that he was bishop of a city he could not learn (I6); Rome's own list calls him an elder (E10). All narrated. Explain it: the deportation, told as the list gives it. Confidence: Documented, each as its witness says; the bishop or elder question Contested, told by its witnesses (D2).
+5. **His books.** The *Refutation of All Heresies* set out to show that each teaching he held false came from Greek philosophers, mysteries and astrologers, not from Scripture or from any saint's succession; its last part turned to the teachings of his own day at Rome, Callistus's among them (E7; HIP 13249, 13870 ff.). In its opening he gave his own warrant: Q3 (E8). It came down in a manuscript found on Mount Athos in 1842 and was first printed under Origen's name (I8; a modern event, told as an event; D1). He also drew up a table for finding the day of Easter on a cycle of sixteen years, and Jerome says it gave Eusebius the cue for his own cycle of nineteen; he wrote many other books, which Eusebius says many kept (E9, I3). Explain it: the book's plan, high priesthood, the Easter table. Confidence: Documented (his words; Eusebius); the attribution Widely Accepted (D1).
+6. **Exile, 235, and his day at Rome.** In 235, Rome's list of bishops records, Pontianus, the bishop, and Hippolytus, whom it calls an elder, were deported to Sardinia (E10; the list gives no reason; narrated, never quoted). Rome's calendar of martyrs kept both on 13 August, Hippolytus on the Tiburtine Road and Pontianus in the cemetery of Callistus (E11). In the East, Eusebius wrote that he had led another church, without naming it, and Jerome that he was bishop of a city he could not learn (I6); later bishops in the East quoted him for the faith and called him bishop and martyr (I1); Rome's own list calls him an elder (E10). All narrated. Explain it: the deportation, told as the list gives it. Confidence: Documented, each as its witness says; the bishop or elder question Contested, told by its witnesses (D2).
 
 ## What came of it
 
@@ -90,7 +90,7 @@ The writer must name the apostles just before Q3 ("the apostles had received the
 | Damasus | link (`damasus-of-rome`; Ending) |
 | Novatian | link (`novatian`), only as the gloss on Damasus's "Novatus" |
 
-By role: Sabellius ("another teacher, Sabellius" may be named once if the writer needs it; else "a teacher of the same view"), Epigonus and Cleomenes ("Noetus's pupils"), the elders of Noetus's church, Theodoret and Epiphanius ("later bishops in the East"), if the clause in What came of it 1 is kept. Ten names: Origen and Jerome are the first to go to role or the card if the writer is past six that act.
+By role: Sabellius ("another teacher, Sabellius" may be named once if the writer needs it; else "a teacher of the same view"), Epigonus and Cleomenes (card only, Cut first 11), the elders of Noetus's church, Theodoret and Epiphanius ("later bishops in the East"), if the clause in What came of it 1 is kept. Ten names: Origen and Jerome are the first to go to role or the card if the writer is past six that act.
 
 ## Connection to carry into the story
 
@@ -157,7 +157,7 @@ What passed from him was a teaching and a record. The teaching: against Noetus a
 | "the book ends with Callistus" | "its last part turned to the teachings of his own day, Callistus's among them" |
 | "the elders of Smyrna" | "the elders", since the text does not say where they met |
 | "he taught three persons" or "the Trinity" | "one God, two persons, and the grace of the Holy Spirit as a third" (NG 3781-3783) |
-| "Noetus came to Rome" | "Noetus's pupils brought the teaching to Rome" (E2) |
+| "Noetus came to Rome" | "Noetus's teaching reached Rome" (E2) |
 | "light from light, as the Nicene Creed later said", or any link to a later creed | Leave out (no held source in the outline makes the link) |
 | "Hippolytus joined Novatian" or "lived to 251" | Only as Damasus's "it is said". The verse says he "had always stayed" ("semper mansisse") in the split. Keep the gloss's 251 and add nothing to it |
 | "on his way to death" (Ending) | "as he went to the kingdom of the faithful", the verse's own image ("peteret cum regna piorum", LP 109162) |
@@ -188,7 +188,9 @@ Each item is for the card or Leave out, and every item is applied (Approved hear
 7. Sabellius put out "from fear of me", beat 3, keeping the "two gods" charge and his answer (about 35). **Leave out.**
 8. Callistus's following calling themselves the Catholic Church, beat 4 (about 15). **Card.**
 9. The find of 1842 under Origen's name, beat 5 (about 25). **Card**, with D1.
-Never cut: Q2, Q3, the sentence that the quarrel survives only in his telling, his side's refusal to give way, Callistus's rule with Hippolytus's charge, the people his side had put out, the exile, the calendar, the bishop-or-elder witnesses (Eusebius and the list), which carry the record's own disagreement, the Easter table sentence with Jerome's word on Eusebius's cycle (beat 5), and the clause on later bishops in the East (beat 5).
+10. Hippolytus calling Callistus's following a school, its people Callistians, beat 4, with its gloss (about 19). **Card**; the sibling tells the school.
+11. Noetus's pupils as the ones who brought the teaching, beat 1. The beat reads: 'Hippolytus says that when Noetus's teaching reached Rome, Zephyrinus let it spread, with Callistus as his adviser' (about 11). **Card** (Epigonus and Cleomenes).
+Never cut: Q2, Q3, the sentence that the quarrel survives only in his telling, his side's refusal to give way, Callistus's rule with Hippolytus's charge, the people his side had put out, the exile, the calendar, the bishop-or-elder witnesses (Eusebius and the list), which carry the record's own disagreement, the Easter table sentence with Jerome's word on Eusebius's cycle (beat 5), and the clause on later bishops in the East (beat 6).
 
 ## Approved heart and length
 
