@@ -19,7 +19,7 @@
     {
      "when": "under Zephyrinus",
      "text": "The same writer tells of Natalius, a confessor, one who had stood trial for the faith. The followers of Theodotus persuaded him to be their bishop for a salary of a hundred and fifty denarii a month.",
-     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32216-32219,  32244-32246",
+     "reference": "Eusebius, Church History V.28, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32216-32219, 32244-32246",
      "note": "The writer says this happened in his own time."
     },
     {
@@ -35,13 +35,13 @@
     },
     {
      "when": "under Zephyrinus",
-     "text": "Eusebius writes that Caius, a learned churchman, held a dialogue at Rome under Zephyrinus with Proclus, who argued for the Phrygian heresy, as Eusebius calls the New Prophecy.",
+     "text": "Eusebius writes that Caius, a very learned man, held a dialogue at Rome under Zephyrinus with Proclus, who argued for the Phrygian heresy, as Eusebius calls the New Prophecy.",
      "reference": "Eusebius, Church History VI.20, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35451-35457"
     },
     {
      "when": "under Zephyrinus",
      "text": "Hippolytus writes that the teaching of Noetus, that the Son and the Father are the same, was spread at Rome by his pupil Epigonus, and taken up by Cleomenes.",
-     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13280-13285,  13553-13554"
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13280-13285, 13553-13554"
     },
     {
      "when": "under Zephyrinus",
@@ -63,8 +63,8 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "Hippolytus writes that Callistus was a household slave of Carpophorus, a believer in the emperor's household. After Callistus caused a disturbance in a synagogue on the Sabbath, he says, the city prefect Fuscianus had Callistus scourged and sent to a mine in Sardinia.",
-     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13672-13674,  13690,  13726-13751"
+     "text": "Hippolytus writes that Callistus was a household slave of Carpophorus, a believer in the emperor's household, and charges that he made away with money that widows and brothers had deposited with him. Later, he says, Callistus caused a disturbance in a synagogue on the Sabbath, hoping to meet death, and the city prefect Fuscianus had him scourged and sent to a mine in Sardinia.",
+     "reference": "Hippolytus, Refutation of All Heresies IX, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13672-13690, 13725-13751"
     },
     {
      "when": "under Victor, then Zephyrinus",
@@ -74,7 +74,7 @@
     {
      "when": "the first year of Antoninus, Eusebius says",
      "text": "Eusebius writes that Zephyrinus died after eighteen years as bishop, in the first year of Antoninus, who followed Macrinus, and that Callistus held the office for five years, followed by Urbanus.",
-     "reference": "Eusebius, Church History VI.21, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35477-35482,  35530-35533",
+     "reference": "Eusebius, Church History VI.21, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35477-35482, 35530-35533",
      "note": "The list of Rome's bishops in the Chronograph of 354 counts the years differently."
     },
     {
@@ -285,18 +285,19 @@
     {
      "when": "under Stephen, bishop of Rome",
      "text": "Eusebius writes that Cornelius was bishop about three years, then Lucius for less than eight months, then Stephen. Dionysius of Alexandria writes to Stephen of all Syria and Arabia, to which, he says, Stephen sends help when needed.",
-     "reference": "Eusebius, Church History VII.2, VII.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39214-39232,  39386-39388"
+     "reference": "Eusebius, Church History VII.2, VII.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39214-39232, 39386-39388"
     },
     {
-     "when": "under Valerian, on the eighth day of the Ides of August",
+     "when": "258, in the consulship of Tuscus and Bassus, on the eighth day of the Ides of August",
      "text": "Cyprian writes to Successus, a fellow bishop, that Valerian has ordered bishops, presbyters and deacons to be punished at once, and that Xistus, bishop of Rome, was martyred in the cemetery with four deacons.",
-     "reference": "Cyprian, Letters 81 in the English numbering, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 41156-41186; Xistus as bishop of Rome, Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41759",
+     "reference": "Cyprian, Letters 81 in the English numbering, tr. Wallis, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 41156-41186; Xistus as bishop of Rome, Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41759; the year, the list of Rome's bishops in the Chronograph of 354, ed. Duchesne, cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt lines 67074-67076, is a conversion from the consuls the list names",
      "note": "A note in the print gives another reading: and with him Quartus."
     },
     {
      "when": "date unknown",
      "text": "Eusebius writes that after Xistus had led the church of Rome for eleven years, Dionysius succeeded him, and that about the same time Paul of Samosata became bishop of Antioch.",
-     "reference": "Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41785"
+     "reference": "Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41785, 41835-41836",
+     "note": "The list of Rome's bishops in the Chronograph of 354 gives Xistus two years, eleven months and six days."
     },
     {
      "when": "date unknown",
@@ -307,7 +308,7 @@
     {
      "when": "date unknown",
      "text": "Dionysius of Rome, as Athanasius quotes him, writes against Sabellius, who says the Son is the Father, and against teachers who preach three Gods. Scripture, he writes, preaches a Triad, and neither Testament preaches three Gods.",
-     "reference": "Athanasius, On the Decrees of the Synod of Nicaea 26, cic/texts/npnf204_athanasius-select-works-letters.xml lines 28469-28473,  28529-28534,  28566-28571"
+     "reference": "Athanasius, On the Decrees of the Synod of Nicaea 26, cic/texts/npnf204_athanasius-select-works-letters.xml lines 28469-28473, 28529-28534, 28566-28571"
     },
     {
      "when": "before the persecution of Eusebius's own day",

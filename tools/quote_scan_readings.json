@@ -1098,6 +1098,23 @@
     "304",
     "S. Aureli Augustini"
    ]
+  },
+  {
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "lines": "11897",
+   "scan": "10 »τοὺς",
+   "reads": "»τοὺς",
+   "kind": "margin line number set inside the span"
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45745",
+   "scan": "ec - 2 -",
+   "drop": true,
+   "kind": "scan marks set inside the span",
+   "lines_held": [
+    "ec - 2 -"
+   ]
   }
  ]
 }

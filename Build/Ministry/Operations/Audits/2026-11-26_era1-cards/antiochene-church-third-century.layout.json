@@ -1,5 +1,5 @@
 {
- "shortDescription": "In Antioch, in Roman Syria, bishops met many times over their bishop, Paul of Samosata, and put him out of the church for what he taught about Christ. Later Lucian, a presbyter of Antioch, died for his faith, and Arius called himself his pupil.",
+ "shortDescription": "In Antioch, in Roman Syria, bishops met many times over the bishop there, Paul of Samosata, and put him out of the church for what he taught about Christ. Later Lucian, a presbyter of Antioch, died for his faith, and Arius called himself his pupil.",
  "dates": "late 2nd to early 4th c.",
  "timeline": [
   {
@@ -30,7 +30,7 @@
     {
      "when": "about the time Dionysius became bishop of Rome",
      "text": "Eusebius writes that when Demetrianus died in Antioch, Paul of Samosata received the office of bishop, about the time Dionysius succeeded Xistus at Rome.",
-     "reference": "Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41785"
+     "reference": "Eusebius, Church History VII.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41758-41785, 41835-41836"
     },
     {
      "when": "about 260, the seventh year of Valerian and Gallienus",
@@ -94,7 +94,7 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "The bishops write that Paul, once poor, grew rich on what he took from the brothers, promising for a reward to help people in trouble and then deceiving them.",
+     "text": "The bishops write that Paul, once poor, grew rich on what he extorted from the brothers, promising for a reward to help people in trouble and then deceiving them.",
      "reference": "The bishops' letter, in Eusebius, Church History VII.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42084-42101"
     },
     {
@@ -230,7 +230,7 @@
     {
      "when": "date unknown",
      "text": "Arius, a presbyter of Alexandria, writes to Eusebius, bishop of Nicomedia, that his bishop drove him out of the city for not agreeing that the Son always was, as God always was. Arius says the Son has a beginning, and God has none.",
-     "reference": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History I.4, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 6025-6031,  6045-6046; Arius a presbyter of Alexandria, Theodoret I.1, lines 5278-5283"
+     "reference": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History I.4, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 6025-6031, 6045-6046; Arius a presbyter of Alexandria, Theodoret I.1, lines 5278-5283"
     },
     {
      "when": "date unknown",
@@ -262,18 +262,18 @@
     {
      "when": "date unknown",
      "text": "Athanasius answers bishops who said the council that deposed Paul had written that the Son is not coessential, of one being, with the Father. He says he does not have their letter, and that those bishops took the word in a bodily sense.",
-     "reference": "Athanasius, On the Councils of Ariminum and Seleucia, cic/texts/npnf204_athanasius-select-works-letters.xml lines 58970-58981,  59053-59057",
+     "reference": "Athanasius, On the Councils of Ariminum and Seleucia, cic/texts/npnf204_athanasius-select-works-letters.xml lines 58970-58981, 59053-59057",
      "note": "Athanasius speaks of the seventy who deposed Paul, line 58995."
     },
     {
      "when": "date unknown",
-     "text": "Hilary of Poitiers writes that the fathers who condemned Paul rejected the word homoousion, because Paul had used it to teach that God was single and undivided. He says eighty bishops once rejected it.",
-     "reference": "Hilary, On the Councils 81, 86, tr. Watson, cic/texts/npnf209_hilary-poitiers-john-damascus.xml lines 9607-9611,  9772-9773"
+     "text": "Hilary of Poitiers, answering a letter that set out reasons against the word homoousion, writes that its second reason was that the fathers who condemned Paul rejected the word, because Paul had used it to teach that God was single and undifferentiated. He says himself that eighty bishops once rejected it.",
+     "reference": "Hilary, On the Councils 81, 86, tr. Watson, cic/texts/npnf209_hilary-poitiers-john-damascus.xml lines 9594-9611, 9772-9773"
     },
     {
      "when": "date unknown",
      "text": "Basil writes that the synods on Paul of Samosata found fault with the word homoousion, holding that it set forth both an essence and what is derived from it.",
-     "reference": "Basil, Letter 52, tr. Jackson, cic/texts/npnf208_basil-letters-select-works.xml lines 27366-27368,  27402-27407"
+     "reference": "Basil, Letter 52, tr. Jackson, cic/texts/npnf208_basil-letters-select-works.xml lines 27366-27368, 27402-27407"
     }
    ]
   }

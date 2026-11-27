@@ -1,5 +1,5 @@
 {
- "shortDescription": "At Caesarea, on the coast of Roman Palestine, Origen taught, and the presbyter Pamphilus gathered a library of Christian books. In the persecution Pamphilus was put to death there, and his friend Eusebius wrote down how the martyrs of Palestine died.",
+ "shortDescription": "At Caesarea, on the coast of Roman Palestine, Origen taught and the presbyter Pamphilus gathered a library. Pamphilus was put to death there for his faith, and his friend Eusebius wrote down how the martyrs of Palestine died.",
  "dates": "early 3rd to early 4th c.",
  "timeline": [
   {
@@ -72,7 +72,7 @@
     {
      "when": "date unknown",
      "text": "Eusebius writes that while Origen taught at Caesarea, pupils came to him from nearby and from other countries, among them Theodorus, later called Gregory, and his brother Athenodorus, who stayed five years.",
-     "reference": "Eusebius, Church History VI.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36568-36571,  36679-36684"
+     "reference": "Eusebius, Church History VI.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36568-36571, 36676, 36679-36684"
     },
     {
      "when": "date unknown",
@@ -86,8 +86,8 @@
     },
     {
      "when": "date unknown",
-     "text": "Origen answers Africanus at length, saying his few days in Nicomedia left him little time. He asks whether the churches should throw out the copies of Scripture in use among them and ask the Jews for copies free from forgery.",
-     "reference": "Origen, Letter to Africanus, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 35131-35147,  35244-35250"
+     "text": "Origen answers Africanus at length, saying his few days in Nicomedia left him little time. He asks, in scorn, whether the churches must throw out the copies of Scripture in use among them and coax the Jews for copies free from forgery, as if Providence had not cared for the churches.",
+     "reference": "Origen, Letter to Africanus, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 35131-35147, 35244-35254"
     },
     {
      "when": "date unknown",
@@ -98,7 +98,7 @@
     {
      "when": "under Decius",
      "text": "Eusebius writes that in the persecution under Decius, Alexander, bishop of Jerusalem, was brought again before the governor's court at Caesarea, confessed his faith a second time, and died in prison in old age. Mazabanes succeeded him.",
-     "reference": "Eusebius, Church History VI.39, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37381-37384,  37413-37414,  37439-37458"
+     "reference": "Eusebius, Church History VI.39, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37381-37384, 37413-37414, 37439-37458"
     },
     {
      "when": "under Decius",
@@ -113,12 +113,12 @@
    ]
   },
   {
-   "when": "Before the persecution of Diocletian, date unknown",
+   "when": "In Pamphilus's lifetime, date unknown",
    "headline": "Pamphilus, a presbyter of Caesarea, copies Origen's books and gathers a library",
    "lines": [
     {
      "when": "while Agapius was bishop of Caesarea",
-     "text": "Eusebius writes that while Agapius was bishop of Caesarea, he came to know Pamphilus, an eloquent man of philosophic life and a presbyter there. He says he wrote a separate work on Pamphilus's life, his school and his trials.",
+     "text": "Eusebius writes that he came to know Pamphilus while Agapius was bishop of Caesarea, and calls him an eloquent man of philosophic life and a presbyter there. He says he wrote a separate work on Pamphilus's life, his school and his trials.",
      "reference": "Eusebius, Church History VII.32, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42996-43046"
     },
     {
@@ -145,13 +145,13 @@
   },
   {
    "when": "From the nineteenth year of Diocletian, about 303",
-   "headline": "The persecution comes to Caesarea, and Apphianus, Pamphilus and his household die",
+   "headline": "The persecution comes to Caesarea, and Apphianus, Pamphilus and his companions die",
    "witness": "Eusebius, The Martyrs of Palestine, who lived through it at Caesarea",
    "lines": [
     {
      "when": "303, the nineteenth year of Diocletian",
      "text": "Eusebius writes that the persecution began in the nineteenth year of Diocletian's reign, in the month Xanthicus, and that the first of the martyrs of Palestine was Procopius.",
-     "reference": "Eusebius, The Martyrs of Palestine preface and 1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 45892-45894,  45924-45925; the year is a conversion, counting Diocletian's reign from 284"
+     "reference": "Eusebius, The Martyrs of Palestine preface and 1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 45892-45894, 45924-45925; the year is a conversion, counting Diocletian's reign from 284"
     },
     {
      "when": "date unknown",
@@ -161,7 +161,7 @@
     {
      "when": "the third year of the persecution",
      "text": "Eusebius writes that when Maximinus ordered all the people to sacrifice, heralds summoned the city of Caesarea and officers called each name from a roll. Apphianus, not yet twenty, slipped past those he lived with, Eusebius among them, and past the soldiers. He seized the governor Urbanus by the right hand as he poured an offering, and urged him to leave his error.",
-     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46333-46334,  46376-46396"
+     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46333-46334, 46376-46396"
     },
     {
      "when": "the third year of the persecution",
@@ -171,12 +171,12 @@
     {
      "when": "on the fourth day before the Nones of April",
      "text": "Eusebius writes that the sea and the shore were then shaken, and the sea threw the body out before the gates of the city, and that all the people of Caesarea saw it.",
-     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46438-46458,  46492-46493",
+     "reference": "Eusebius, The Martyrs of Palestine 4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46438-46458, 46492-46493",
      "note": "The wonder is Eusebius's account."
     },
     {
      "when": "date unknown",
-     "text": "Eusebius writes that twelve were martyred with Pamphilus, a man thrice dear to him and the only presbyter at Caesarea among them. Pamphilus shared his goods with the needy and was devoted to the Scriptures.",
+     "text": "Eusebius writes that Pamphilus, a man thrice dear to him, died with others, twelve in all, and was the only presbyter at Caesarea among them. Pamphilus shared his goods with the needy and was devoted to the Scriptures.",
      "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47067-47080"
     },
     {
@@ -186,8 +186,8 @@
     },
     {
      "when": "on the fourteenth day before the Kalends of March, so 309 or 310",
-     "text": "Eusebius writes that the five Egyptians were brought before the judge with Pamphilus and his companions, and that each of them gave the same single answer when asked if they would now obey.",
-     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47119-47134,  47191-47198; the year is worked out from Eusebius's sixth year of the persecution, lines 46750-46751, and its seventh year complete, line 47406, counting from the nineteenth year of Diocletian, line 45893; Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40969-40970",
+     "text": "Eusebius writes that on that day the five Egyptians were brought before the judge with Pamphilus and his companions. Asked if they would now obey, Pamphilus and his companions each gave only one answer, their last confession.",
+     "reference": "Eusebius, The Martyrs of Palestine 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47119-47134, 47191-47198; the year is worked out from Eusebius's sixth year of the persecution, lines 46750-46751, and its seventh year complete, line 47406, counting from the nineteenth year of Diocletian, line 45893; Jerome, Lives of Illustrious Men 75, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40969-40970",
      "note": "Jerome says Pamphilus was put to death at Caesarea in the persecution of Maximinus."
     },
     {
@@ -239,7 +239,7 @@
  "uncertain": [
   "How long Origen stayed at Caesarea. Eusebius says he moved there in the tenth year of Alexander's reign. Jerome says he lived until the time of Gallus and Volusianus and died at Tyre. No old source held here gives the length of his stay.",
   "The year Pamphilus died. Eusebius gives the day, the fourteenth before the Kalends of March, and no year. His chapter falls between the sixth year of the persecution and the end of the seventh, so the year is 309 or 310. Jerome says only that Pamphilus died in the persecution of Maximinus.",
-  "The library at Caesarea. Eusebius speaks of the library Pamphilus collected, and Jerome of the library at Caesarea that Pamphilus gathered, which held Origen's works in Pamphilus's hand. Eusebius's three books on the life of Pamphilus, where he listed it, are not held.",
+  "The library at Caesarea. Eusebius speaks of the library Pamphilus collected, and Jerome of the library at Caesarea that Pamphilus gathered, which held Origen's works in Pamphilus's hand. Eusebius's three books on the life of Pamphilus, where he listed it, are not among the texts this card draws on.",
   "Africanus and Emmaus. Jerome says Africanus was given a commission to restore Emmaus, and the Chronicle says he led the embassy for it. Neither says he lived there.",
   "The story of Susanna. Africanus says Origen cited it in a discussion with Agnomon. Origen's reply says the discussion was with Bassus.",
   "The body of Apphianus. Eusebius says all the people of Caesarea saw the sea throw it out before the city gates."
