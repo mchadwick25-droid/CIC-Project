@@ -12,12 +12,12 @@ Kind: era (`kinds/era.md`). Every line points to `Source_Sheet.md` (row ids) and
 
 ## Length
 
-About **3 minutes 20 seconds, about 500 words** (proposed; Mark rules on it with the heart). The story must carry: two quotes (35 words; Quote 2 is the card's); the plain sense of the words to explain; the witnesses it credits, Josephus, Eusebius, Tertullian, the bishop of Alexandria and the historians' picture. Recounted after the outline check's fixes, at tight narration: about 680 words as the outline now stands, and about 620 after its whole Cut first list. That is past the approved 525. The rest is the heart (each item in at least a clause) and the Never cut list; under the ruling it is not cut further, and the outline goes back to Mark with this count.
+About **4 minutes 50 seconds, about 730 words** (Mark's length ruling, 2026-11-27, below). The story must carry: two quotes (35 words; Quote 2 is the card's); the plain sense of the words to explain; the witnesses it credits, Josephus, Eusebius, Tertullian, the bishop of Alexandria and the historians' picture. The measuring draft `era-1.measure.txt`, with Cut first items 4–6 out, runs 834 words; after Cut first items 8–17 (the free cuts the ruling names) it runs 732. The rest is the heart (each item in at least a clause) and the Never cut list, and is not cut.
 
 ## Setting (facts for the writer, a clause at a time)
 
 - **Time:** from the Temple's fall in 70 (S1; Widely Accepted) to 312 (E29; Widely Accepted). Spoken: "the year 70", "the second century", "about the year 200", "in 250", "in 303", "in 311", "the next year". The bounds are the map's label; the story does not call them the end of an age (S5).
-- **Places:** Jerusalem; Perea, "the land across the Jordan", and Pella, "a town there" (S2–S4). Lyon, "in Gaul" (E3). Carthage, "in Roman Africa" (E5). Alexandria, "in Egypt" (E11). Edessa, "a city with its own king, on Rome's eastern edge" (E6, E7; EDE 53 names its king). Asia Minor, "today's Turkey" (E8). Nicomedia need not be named.
+- **Places:** Jerusalem; Perea, "the land across the Jordan", and Pella, "a town there" (S2–S4). Lyon, "in Gaul" (E3). Carthage, "in Roman Africa" (E5). Alexandria, "in Egypt" (E11). Edessa, "a city on Rome's eastern edge" (E6, E7); its own king (EDE 53) is the card's. Asia Minor, "today's Turkey" (E8). Nicomedia need not be named.
 - **Tradition:** none; the era is the ground the era 1 traditions stand on.
 
 ## Words to explain
@@ -41,18 +41,18 @@ Every era 1 story on the tree, live beside. Each tells its own tradition, counci
 
 ## Openings
 
-1. **(Chosen) The fire heard across the Jordan, 70.** Roman soldiers set fire to the Temple, against their commander's wish (S1; Josephus's reasons, JW 126002–126020, to the card). Josephus, a Jewish commander who had surrendered to the Romans and was now with their army, wrote what was heard that day: the starving in the city broke out in groans and cries (JW 126103–126110), and then **Quote 1** (S2). Perea was the land across the Jordan, and Eusebius, writing over two centuries later, says Jerusalem's Christians had already gone there, to a town called Pella, warned by a revelation before the war (S3, S4; the revelation in his voice). Then the essence.
+1. **(Chosen) The fire heard across the Jordan, 70.** Roman soldiers set fire to the Temple (S1; that it was against their commander's wish, with Josephus's reasons, JW 126002–126020, is the card's). Josephus, a Jewish commander who had surrendered to the Romans and was now with their army, wrote what was heard that day: the starving in the city broke out in groans and cries (JW 126103–126110), and then **Quote 1** (S2). Perea was the land across the Jordan, and Eusebius, writing over two centuries later, says Jerusalem's Christians had already gone there, to a town called Pella, warned by a revelation before the war (S3, S4; the revelation in his voice). Then the essence.
 2. **(Possible) Tertullian's boast, about 200.** Quote 2 as the opening, then the essence, and the story told from the Temple on. Not chosen: it opens mid-age, and the story would go back in time.
 
 ## Story beats (after the opening and the essence, in time order)
 
-1. **The ruling, and the crowds (second century).** The emperor Trajan ruled that Christians were not to be hunted out, but those accused and found must be punished (E1; Documented). So, Eusebius writes, there was no great persecution, but local ones in one province or another, stirred by crowds or by governors (E2; his summary). In 177 the crowds at Lyon in Gaul rose against them (E3; Documented). Explain it: the reason for punishment is the ruling itself, refusing to deny the name (E1; sheet §5); Lyon's, the crowds' rising (E3). Confidence: Documented.
+1. **The ruling, and the crowds (second century).** The same ruling, in the second century, also said that Christians were not to be hunted out (E1; Documented); that the accused and found must be punished is told once, in the essence. So, Eusebius writes, there was no great persecution, but local ones in one province or another, stirred by crowds or by governors (E2; his summary). In 177 the crowds at Lyon in Gaul rose against them (E3; Documented). Explain it: the reason for punishment is the ruling itself, refusing to deny the name (E1; sheet §5); Lyon's, the crowds' rising (E3). Confidence: Documented.
 2. **Spread, about 200.** Tertullian, at Carthage about 200, boasted to the governors who judged them that Christians had filled every part of Roman life and left them only their temples (his claim, E5; the governors, TERT-E 1448–1450). It was a boast to men who could have them killed, made to show they were many and had never risen in arms (TERT-E 3790–3797, the sentences before it). Bishops met by region, from Gaul to Mesopotamia (E4); a book from Edessa speaks of Christians in Persia (E6). By the early 300s, as historians now map it, they were thickest in Asia Minor and Edessa, then around Antioch, in Egypt, at Rome and in Roman Africa, and fewest in northern Gaul and along the Rhine (E8; DMR; no numbers, D5). Confidence: E4–E6 Documented as their claims; E8 DMR.
-3. **The empire shakes; Decius (250).** In 250 the emperor Decius ordered sacrifice to the gods across the empire (E10, E12a; the edict's text is lost, E12a). Eusebius blames his hatred of the emperor before him; historians since have seen a wish to bring back the old religion (E10a; Explain it). At Alexandria, its bishop wrote, people were called by name to the altars, and some went pale and trembling (E11); at Carthage many ran to sacrifice, and others bought a paper saying they had (E12). Those who gave way were the fallen (Words to explain). Decius was killed fighting invaders on the Danube (E13; D3: "invaders", not "Goths" or "Carpi"). Confidence: Documented; the empire-wide reach Widely Accepted (E2a, E12a).
+3. **Decius (250).** In 250 the emperor Decius ordered sacrifice to the gods across the empire (E10, E12a; the edict's text is lost, E12a). Eusebius blames his hatred of the emperor before him; historians since have seen a wish to bring back the old religion (E10a; Explain it). At Alexandria, its bishop wrote, people were called by name to the altars, and some went pale and trembling (E11); at Carthage many ran to sacrifice, and others bought a paper saying they had (E12). Those who gave way were the fallen (Words to explain). Decius was killed fighting invaders on the Danube (E13; D3: "invaders", not "Goths" or "Carpi"). Confidence: Documented; the empire-wide reach Widely Accepted (E2a, E12a).
 4. **Valerian, and his son (250s–260).** A later emperor, friendly at first, turned on them, persuaded, the bishop of Alexandria wrote, by an adviser who led Egypt's magicians (E15, E15a). His officers banned their meetings and their burial grounds (E14); Valerian's order to the senate (E14a) is the card's. Then the Persians took him captive, and his son stopped the hunt and wrote to the bishops themselves, giving back their places of worship (E16; Documented). Plague followed (E17; the nursing of the sick is the sibling's). Confidence: Documented.
 5. **The long quiet (to 303).** In the decades that followed, Eusebius writes, Christians governed provinces without being made to sacrifice, served in the palace, and built large new churches in every city, because the old buildings were too small (E20; Documented as his account; no count of years: Valerian's capture rests on editors' dates, E16). Confidence: Documented.
-6. **The Great Persecution (303–311).** Diocletian, who shared the rule of the empire with three others (E21), ordered in 303 that the churches be leveled and the Scriptures burned, Christians of rank be stripped of it, and servants who held to the faith lose their freedom (E23; month and day differ, D1, not told). Then the prisons filled with bishops, presbyters and deacons, and those who would not sacrifice were tortured (E25). Explain it: the emperors' own reason, given in their edict of 311, was to bring the Christians back to their ancestors' ways, since they had made laws for themselves and met apart (E28, EUS 45615–45620; DMP 10482–10484). It weighed less in the West (E26; the two old sources differ, D2: say only "less", or leave it out). Confidence: Documented.
-7. **The edict of 311.** Galerius, whom Eusebius blames for the whole persecution (E27; blame in Eusebius's voice), lay sick, and an order went out in his name and his fellow emperors' (E28). **Quote 3**, if they kept good order (E28, DMP 10486). In return, it said, they must pray to their own God for the emperors' safety (E28, EUS 45669–45671). Confidence: Documented.
+6. **The Great Persecution (303–311).** Diocletian, who shared the rule of the empire with three others (E21), ordered in 303 that the churches be leveled and the Scriptures burned, Christians of rank be stripped of it, and servants who held to the faith lose their freedom (E23; month and day differ, D1, not told). Then the prisons filled with bishops, presbyters and deacons, and those who would not sacrifice were tortured (E25). Explain it: the emperors' own reason, given in their edict of 311, was to bring the Christians back to their ancestors' ways, since they had made laws for themselves and met apart (E28, EUS 45615–45620; DMP 10482–10484). That it weighed less in the West (E26; the two old sources differ, D2) is the card's. Confidence: Documented.
+7. **The edict of 311.** Galerius lay sick (a fact; Eusebius's blame of him for the whole persecution, E27, is the card's), and an order went out in his name and his fellow emperors' (E28). **Quote 3**, if they kept good order (E28, DMP 10486). In return, it said, they must pray to their own God for the emperors' safety (E28, EUS 45669–45671). Confidence: Documented.
 
 ## What came of it (ranked heaviest first)
 
@@ -95,7 +95,7 @@ What passed from this age to every tradition in it: a church of many cities, hel
 
 ## Ending
 
-1. **(Chosen) The age's questions, after Constantine's victory.** After Quote 3 and the prayer it asked for, the next year Constantine defeated his rival at Rome when a bridge of boats broke (E29; one clause, no wonder). The age ended with its questions open, the first two told as what people were already arguing over; the third as the question the order of 311 put to them, asking their prayers (E28); in plain words and in time order of their asking: whether those who gave way could come back, and who should decide (Impact 1); how to speak of the Son beside the Father (Impact 3); and what the churches owed an emperor who no longer hunted them and wanted their prayers (Impact 2, E28). No summing-up, no moral; it stops on the last question.
+1. **(Chosen) The age's questions, after Constantine's victory.** After Quote 3 and the prayer it asked for, the next year Constantine defeated his rival at Rome when a bridge of boats broke (E29; one clause, no wonder). Then the questions, with no sentence announcing them: the first two told as what people were already arguing over; the third as the question the order of 311 put to them, asking their prayers (E28); in plain words and in time order of their asking: whether those who gave way could come back, and who should decide (Impact 1); how to speak of the Son beside the Father (Impact 3); and what the churches owed an emperor who no longer hunted them and wanted their prayers (Impact 2, E28). No summing-up, no moral; it stops on the last question.
 2. **(Possible) The edict as the close.** End on Quote 3 and the prayer, with the questions told before it. Not chosen: the questions are the era's job, and Quote 3 would end on the emperors, not the age.
 
 ## Links
@@ -105,7 +105,7 @@ Each era 1 tradition and the council (ground of): `post-apostolic-house-church`,
 ## Who tells it
 
 - **Josephus** (old; own time, an eyewitness with the Roman army): the burning and the echo (S1, S2). The listener should hear that he was a Jewish commander who had surrendered and was with the Romans, said in the opening's clause; never "deserter" or "traitor", the charge his own story answers (Josephus outline, Quote 1).
-- **Eusebius of Caesarea** (old; bishop, writing in the early 300s; an eyewitness for 303–311, two centuries and more after the earlier events): Pella and its revelation (S3), Trajan's ruling and the local persecutions (E1–E2), the long quiet (E20), his blame of Galerius (E27). Credited each time the story relies on him for a judgment or a wonder; his record of 303 is told plainly (E23, E25).
+- **Eusebius of Caesarea** (old; bishop, writing in the early 300s; an eyewitness for 303–311, two centuries and more after the earlier events): Pella and its revelation (S3), Trajan's ruling and the local persecutions (E1–E2), the long quiet (E20). Credited each time the story relies on him for a judgment or a wonder; his record of 303 is told plainly (E23, E25).
 - **Tertullian** (old; own words, Carthage, about 200): his boast (E5), credited as his.
 - **The bishop of Alexandria** (old; Dionysius, own time, in Eusebius): the calling by name (E11) and the adviser (E15a), credited to "its bishop".
 - **Cyprian** (old; own time): the run to sacrifice and the papers at Carthage (E12); told plainly, not named.
@@ -117,7 +117,7 @@ Each era 1 tradition and the council (ground of): `post-apostolic-house-church`,
 ## Do not say
 
 - "The Christians at Pella heard the echo" → no source says it; Josephus names Perea, Eusebius names Pella in Perea (D8).
-- "Titus burned the Temple" or "Rome ordered it burned" → "Roman soldiers set it on fire"; Josephus says against their commander's wish (JW 126012–126020).
+- "Titus burned the Temple" or "Rome ordered it burned" → "Roman soldiers set it on fire"; that Josephus says it was against their commander's wish (JW 126012–126020) is the card's.
 - "Josephus went over to Rome" or "turncoat" → "had surrendered to the Romans" (the charge is the Josephus story's own question).
 - "Jerusalem's Christians fled the siege" → "had already gone, warned, Eusebius says, by a revelation before the war" (S3; no year).
 - "punished for the name alone" → "accused and would not deny it" (E1; EUS 19471–19476).
@@ -128,8 +128,8 @@ Each era 1 tradition and the council (ground of): `post-apostolic-house-church`,
 - "Decius wanted to restore the old gods" as fact → credit it to historians, beside Eusebius's reason (E10a).
 - "Christians were half the empire" or any number → no numbers (D5).
 - "Goths killed Decius" → "invaders on the Danube" (D3).
-- "Constantius spared the churches" or "pulled down only their walls" → "it weighed less in the West", or leave it out (D2).
-- "Galerius repented" or "God struck him" in the narrator's voice → Eusebius's blame stays his (E27); the sickness may be told as a fact.
+- "Constantius spared the churches" or "pulled down only their walls" → leave it out; the West's lighter hunt is the card's (E26, D2).
+- "Galerius repented" or "God struck him" in the narrator's voice → the sickness told as a fact; Eusebius's blame (E27) is the card's.
 - "Lactantius tells" → "a Christian writer of the time", or the book's title (Names).
 - "The Edict of Milan" → not in this era; not told.
 - "Tolerance" or "freedom of religion" for the 311 edict → its own words, Quote 3, and the prayer it asked for (D6).
@@ -151,14 +151,24 @@ Each era 1 tradition and the council (ground of): `post-apostolic-house-church`,
 - Maximinus in 235 (E9): a side fact, kept only for the Do not say line.
 - Aurelian and the church house at Antioch (E19): the sibling's scene; kept for What came of it 2 and the card.
 
-## Cut first (in order; from about 680 to about 620)
+## Cut first (in order; items 4–6 and 8–17 out, the measuring draft runs 834 to 732)
 
 1–3. Struck: Lyon in 177 (E3), the synods (E4) and the plague (E17) are heart items, each kept in a clause.
 4. Beat 3, Alexandria's calling by name (E11): card; keep Carthage's run and the papers. (−20)
 5. Names: Trajan to "the emperor" (−2); beat 5 shortened to "in the years that followed, Eusebius writes, they built large new churches in every city" (−15). (−17)
 6. Beat 4, the adviser who led Egypt's magicians (E15a): Leave out together with Valerian's turn from friendship, so the act is told as the sources give it, "a later emperor turned on them" (−20). This is allowed only because it cuts the event's detail with its reason; if the writer keeps "friendly at first", the reason stays.
 7. Struck: the book from Edessa on Christians in Persia (E6) is a heart item, kept in a clause.
-   *About 620: past the approved 525; goes back to Mark.*
+8. Tertullian's quoted list (Quote 2, "We have filled everything of yours … We have left you only the temples."): card. The narrated claim, "every part of Roman life", and the boast framing stay. (−34)
+9. "In the 200s the empire itself shook, with war on the Danube and with Persia": Leave out. The heart's wars are told in Decius's death on the Danube (E13) and Valerian's capture by the Persians (E16). (−15)
+10. Beat 1, the ruling's accused-and-punished half, told a second time: Leave out; it is told once, in the essence. The beat keeps "the same ruling, in the second century, also said that Christians were not to be hunted out." (−11)
+11. Beat 6, "the hunt weighed less in the West" (E26, D2): card, with both old sources. (−7)
+12. Beat 7, Eusebius's blame of Galerius for the whole persecution (E27): card. The sickness stays as fact. (−7)
+13. Ending, a sentence announcing that the age ended with its questions open: Leave out; the questions carry the close. (−8)
+14. Opening, "against their commander's wish": card, with Josephus's reasons (JW 126002–126020). "Roman soldiers set fire to the Temple" stays. (−4)
+15. Setting, Edessa's king (EDE 53): card; the gloss is "a city on Rome's eastern edge". (−4)
+16. Beat 6, the emperors' reason "given later in their own words" becomes "given later": Leave out. (−4)
+17. Beat 7, "and gave their purpose in a single line": Leave out; Quote 3 follows the condition directly. (−8)
+   *About 730: the ruled length (Mark, 2026-11-27).*
 
 Never cut: Quote 1 and Pella; Tertullian's boast, credited as his, and its "boast" framing; Decius's order with its reason credited (E10a) and the fallen; the son's letter to the bishops; the 303 orders and the emperors' own reason; Quote 3 and the prayer; the questions; the heart's items, each in at least a clause.
 
