@@ -79,7 +79,7 @@ The Cut first list brings it to about 650.
 
 ## What came of him (heaviest first)
 
-1. **Cyprian read him as his master.** Jerome met an old man in Italy, Paul of Concordia, who as a youth had met Cyprian's aged secretary at Rome. The secretary said Cyprian, bishop of Carthage a generation later, never let a day pass without reading Tertullian, and would say, "Give me the master" (I1; JERL 55618–55626; JER 40500–40505; Documented as Jerome's report, hearsay through two people; the English wrongly makes Paul the secretary, D2). Jerome also says Cyprian took him for his master "as his writings prove", yet did not follow him into the New Prophecy (JERW 18969–18972; Documented as Jerome's). One clause each, by the slate.
+1. **Cyprian read him as his master.** Jerome met an old man in Italy, Paul of Concordia, who as a youth had met Cyprian's aged secretary at Rome. The secretary said Cyprian, later bishop of Carthage, never let a day pass without reading Tertullian, and would say, "Give me the master" (I1; JERL 55618–55626; JER 40500–40505; Documented as Jerome's report, hearsay through two people; the English wrongly makes Paul the secretary, D2). Jerome also says Cyprian took him for his master "as his writings prove", yet did not follow him into the New Prophecy (JERW 18969–18972; Documented as Jerome's). One clause each, by the slate.
 2. **Novatian kept his book on God.** Jerome calls Novatian's On the Trinity "a sort of epitome of the work of Tertullian", a kind of summary of it (I2; JER 40895–40897; Documented as Jerome's judgment). Modern doubts go to the card.
 3. **Read, and judged.** Augustine says many of his short works, "most eloquently written", were still read (I3; AUG 2827–2828). But Augustine lists his followers among the heresies and says he became a heretic by the turn (I4, E8; AUG 2827, 2868–2873), and Jerome, answering a writer who cited him, said he would say no more of Tertullian than that he was not a man of the church (I4; JERL 15618–15620; JERW 33677–33681). Documented as each one's verdict. Vincent's praise and blame: card.
 4. **His followers.** A small group at Carthage bore his name, the Tertullianists, dwindling down to Augustine's day; then the very few left joined the main church and handed over their church building, still well known (I5; AUG 2829–2835; Documented as Augustine's report).
@@ -122,7 +122,7 @@ Each rendered by me. Only these three are spoken as quotes. Two short phrases of
 ## Connection to carry into the story
 
 What passed from him was a Latin way of arguing the faith, made in the courtroom's terms and kept by Latin readers after him. The listener must understand three things, through what people did:
-- **Why it was new:** Jerome names only two Latin writers of the faith before him, Victor and Apollonius, and ranks him first after them (D5; JER 40495; JERL 55610–55613); he made Latin carry the case: a plea that throws out a case, a title to an estate (S6, E5), and words for God, person and substance (E10). - **Who carried it:** Cyprian read him daily and called him the master, and Novatian's book on God was, Jerome says, a summary of his (I1, I2). The writer must say that Cyprian did not follow him into the New Prophecy (JERW 18969–18972), so the listener does not think his whole line passed on.
+- **Why it was new:** Jerome places him first among the Latin writers of the faith after Victor and Apollonius (D5; JER 40495; JERL 55610–55613); he made Latin carry the case: a plea that throws out a case, a title to an estate (S6, E5), and words for God, person and substance (E10). - **Who carried it:** Cyprian read him daily and called him the master, and Novatian's book on God was, Jerome says, a summary of his (I1, I2). The writer must say that Cyprian did not follow him into the New Prophecy (JERW 18969–18972), so the listener does not think his whole line passed on.
 - **Why it split:** the same readers who kept his words would not keep him. Augustine names him a heretic, and Jerome says he was not a man of the church, both because of the turn (I4, E8). His own followers lasted at Carthage only until Augustine's day (I5).
 This comes through the acts above, never a sentence saying why he matters.
 
@@ -160,9 +160,10 @@ This comes through the acts above, never a sentence saying why he matters.
 ## Do not say
 
 - "A lawyer", "an advocate" or "trained as an advocate" as fact. Say Eusebius calls him well versed in Roman law (S5, D3).
-- "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5).
+- "The first Christian to write in Latin", or any "first". Say "the foremost early writer of the faith in Latin" (D5). It is a ranking, so credit it the first time it is heard: Jerome ranks him so, and so does Vincent (JER 40495; VIN 13555–13557).
 - "In 197" or any year but "around the year 200"; no year for the Prescription, the turn, Against Praxeas or On Modesty (S2, D6).
 - "His last book" (E11).
+- "Then", "a few years later" or any word of time that puts the Prescription before or after another book: its place rests on Monceaux alone (E4, D6). The turn, Against Praxeas and On Modesty may be told as after the Apology and the Prescription only in the way his own words show: Against Praxeas and On Modesty speak of the Paraclete and the new prophets (E9, E11).
 - "The Christians to the lions": the Latin is singular, "the lion" (E2).
 - "The blood of the martyrs is the seed of the church" (E3).
 - "He invented the words Trinity, person and substance", "he coined them", or "the first to call God a Trinity". Say the Latin words stand in his text (E10). The Greek word for a triad is older (E10).
