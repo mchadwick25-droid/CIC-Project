@@ -176,6 +176,7 @@ To bring the planned ~600 words to 500, in order:
 5. Beat 2: the three bishops coming to Smyrna, reduced to "the churches of Ephesus, Magnesia and Tralles sent their bishops" (about 10 saved). → Leave out (names by role already).
 6. Beat 1: the ten soldiers growing worse, already told by Q1 in the opening (about 18). → Leave out. Done: removed from beat 1.
 7. Beat 1: Eusebius's "his testimony to Christ", told once in the ending (about 8). → Leave out. Done: removed from beat 1.
+8. Beat 6: the sudden sailing to Neapolis, "because I must suddenly sail from Troas to Neapolis" (Pol. 8, ANF 8854–8856), which this ending does not use (about 22). → Card. Done: cut from the draft after its revision (683 to 661 words).
 
 Not to cut: the three quotes and their plain senses, the explanation of the teaching he opposed and of why he begged Rome not to act, beat 7 (the connection), and the ending's credit to Eusebius.
 
