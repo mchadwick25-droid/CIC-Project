@@ -106,14 +106,16 @@ export function resetRenamesForTests() { renamesPromise = null; }
 // Anonymous use counts from the Church Family Tree map, written to Workers Analytics Engine
 // (binding EVENTS, set only in wrangler.cft.jsonc). The map sends only these event types and
 // short fields: no identity, no typed text, no address. Bots and link previews are dropped.
-export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow', 'next']);
+export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow', 'next', 'owner']);
 const BOT_AGENT = /bot|crawl|spider|slurp|preview|facebookexternalhit|headless|lighthouse|python|curl|wget|httpclient/i;
 const MAX_BODY = 8192;
 const MAX_EVENTS = 25;
 const field = (v, n) => (typeof v === 'string' ? v.replace(/[^\w .:/-]/g, '').slice(0, n) : '');
+const visitorId = (v) => (typeof v === 'string' && /^[a-f0-9]{32}$/.test(v) ? v : '');
+const browserFamily = (ua) => (/edg\//i.test(ua) ? 'edge' : /opr\/|opera/i.test(ua) ? 'opera' : /firefox|fxios/i.test(ua) ? 'firefox' : /chrome|crios/i.test(ua) ? 'chrome' : /safari/i.test(ua) ? 'safari' : 'other');
 const number = (v) => (Number.isFinite(v) && v >= 0 && v <= 86400 ? v : 0);
 
-export function eventPoints(text) {
+export function eventPoints(text, where = {}) {
   let list;
   try { list = JSON.parse(text); } catch { return []; }
   if (!Array.isArray(list)) return [];
@@ -121,7 +123,7 @@ export function eventPoints(text) {
     .filter((e) => e && typeof e === 'object' && EVENT_TYPES.has(e.t))
     .map((e) => ({
       indexes: [e.t],
-      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40)],
+      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40), visitorId(e.v), field(where.country, 2), field(where.region, 40), field(where.browser, 10)],
       doubles: (Array.isArray(e.n) ? e.n : [e.n]).slice(0, 3).map(number),
     }));
 }
@@ -135,7 +137,9 @@ export async function countEvents(request, env) {
   if (Number(request.headers.get('Content-Length') || 0) > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
   const text = await request.text();
   if (text.length > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
-  for (const point of eventPoints(text)) env.EVENTS.writeDataPoint(point);
+  const cf = request.cf || {};
+  const where = { country: cf.country, region: cf.region, browser: browserFamily(request.headers.get('User-Agent') || '') };
+  for (const point of eventPoints(text, where)) env.EVENTS.writeDataPoint(point);
   return done;
 }
 

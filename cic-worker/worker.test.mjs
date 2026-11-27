@@ -278,10 +278,23 @@ test('events: listed types are written as short anonymous points; others are dro
   const res = await worker.fetch(post(body), env);
   assert.equal(res.status, 204);
   assert.equal(points.length, 4);
-  assert.deepEqual(points[0], { indexes: ['visit'], blobs: ['visit', 'returning', 'facebook', 'phone'], doubles: [1, 1, 0] });
+  assert.deepEqual(points[0], { indexes: ['visit'], blobs: ['visit', 'returning', 'facebook', 'phone', '', '', '', 'other'], doubles: [1, 1, 0] });
   assert.equal(points[3].blobs[1], 'script');
   assert.equal(points[3].blobs[2].length, 120);
   assert.equal(env.ASSETS.calls.length, 0);
+});
+
+test('events: the visitor id, country, region and browser family are stored; a malformed id is not; no address is stored', async () => {
+  const { points, env } = eventsEnv();
+  const vid = 'a1b2c3d4e5f60718293a4b5c6d7e8f90';
+  const body = JSON.stringify([{ t: 'open', a: 'tradition', b: 'x', v: vid }, { t: 'open', a: 'tradition', b: 'y', v: 'not-an-id' }, { t: 'owner', v: vid }]);
+  const req = post(body, { 'CF-Connecting-IP': 'addr-nine' });
+  Object.defineProperty(req, 'cf', { value: { country: 'GB', region: 'England' } });
+  await worker.fetch(req, env);
+  assert.deepEqual(points[0].blobs, ['open', 'tradition', 'x', '', vid, 'GB', 'England', 'other']);
+  assert.equal(points[1].blobs[4], '');
+  assert.equal(points[2].blobs[0], 'owner');
+  assert.ok(!JSON.stringify(points).includes('addr-nine'));
 });
 
 test('events: a step onward from a brief is counted with its kind and the card it opens', async () => {

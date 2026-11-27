@@ -39,7 +39,7 @@ async function visit(ctx, query) {
   await page.addInitScript(() => {
     Object.defineProperty(navigator, 'webdriver', { get: () => false });
     window.__sent = [];
-    navigator.sendBeacon = (url, body) => { window.__sent.push(url); return true; };
+    navigator.sendBeacon = (url, body) => { if (url === '/e') body.text().then(t => window.__sent.push(JSON.parse(t))); return true; };
   });
   await page.goto(base + query, { waitUntil: 'domcontentloaded' });
   await page.waitForFunction(() => typeof applyTransform === 'function');
@@ -47,11 +47,13 @@ async function visit(ctx, query) {
   await page.waitForTimeout(200);
   await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
   const state = await page.evaluate(() => ({
-    sent: window.__sent.filter(u => u === '/e').length,
+    events: window.__sent.flat(),
+    cookie: (document.cookie.match(/cft_vid=([a-f0-9]{32})/) || [])[1] || null,
     flag: localStorage.getItem('cft-count-off'),
     toast: document.getElementById('barToast').textContent,
     url: location.search,
   }));
+  state.sent = state.events.filter(e => e.t !== 'owner').length;
   await page.close();
   return state;
 }
@@ -60,6 +62,8 @@ test('without the flag, a visit is counted', async () => {
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   const s = await visit(ctx, '');
   assert.ok(s.sent > 0);
+  assert.match(s.cookie, /^[a-f0-9]{32}$/);
+  assert.ok(s.events.every(e => e.v === s.cookie));
   assert.equal(s.flag, null);
   await ctx.close();
 });
@@ -69,11 +73,22 @@ test('?count=off sets the flag, says so, and sends nothing, now or later', async
   const first = await visit(ctx, '?count=off');
   assert.equal(first.flag, '1');
   assert.equal(first.sent, 0);
+  assert.deepEqual(first.events.map(e => e.t), ['owner']);
+  assert.equal(first.events[0].v, first.cookie);
   assert.match(first.toast, /no longer counted/);
   assert.doesNotMatch(first.url, /count=/);
   const later = await visit(ctx, '');
   assert.equal(later.sent, 0);
+  assert.equal(later.events.length, 0);
   assert.equal(later.toast, '');
+  await ctx.close();
+});
+
+test('the visitor id stays the same across visits', async () => {
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const a = await visit(ctx, '');
+  const b = await visit(ctx, '');
+  assert.equal(a.cookie, b.cookie);
   await ctx.close();
 });
 
