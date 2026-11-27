@@ -6307,3 +6307,16 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Why.** The two kit wording changes of 2026-11-27 (Decision-Log, "The kit's wording: "brief" for the opening audio text", and "The kit's general word for a piece of text is "text"") moved the kit's wording. The coordinator then relayed a further ruling from Mark and asked him: "Should I undo those two kit changes? A (recommended): yes, put the kit back exactly as it was before today".
 
 **Decided (Mark, 2026-11-27): "This is naming and should only impact cards"**. To the question above he answered: "A". `Brief-Kit/Kit.md` and `Brief-Kit/roles/` are restored to their state before the first change; the kit is unchanged by the naming ruling. The two earlier entries stay in this log as the record.
+
+## 2026-11-27 — The House Church brief's household slip is fixed (Mark)
+
+**Why.** The card checks on `claude/built-world-short-descriptions` (`Short-Descriptions/2026-11-26_built-worlds/Check.md` and `Check_v2.md`) found that the `post-apostolic-house-church` brief, paragraph 2, said the churches' letters "greet one another household by household". In the held letters only Ignatius greets a church's households, and only Smyrna's (Smyrnaeans 13, anf01 8503–8508; To Polycarp 8, anf01 8868–8869). The coordinator asked Mark: "fix the House Church brief's wording slip. The brief says the churches greeted one another household by household. In the sources, only Ignatius greets one church's households. That's an accuracy fix in live text, and it's needed before that brief is recorded."
+
+**Decided (Mark, 2026-11-27): "a"**.
+
+**Done.** The erroneous clause is cut. The household greeting is still told once, in the brief's Ignatius paragraph ("He greeted households").
+
+- Before: "In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together, and their letters greet one another household by household."
+- After: "In the hundred years after the apostles, Christians in Antioch, in the cities of Asia Minor and in Rome met together."
+
+The census `longDescription`, the live brief (backup `brief.v7.txt`) and the outline's essence, "Who they were" and Do not say lines changed with it (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/`). An independent checker confirmed the new sentence against the held lines and that nothing else changed. Readability: 663 words, grade 7.2, reading ease 75.4, pass. No recording exists, so no audio work. The entry's `entry.tile` carries the same phrase ("Their letters greet one another household by household."); it was outside this ruling and is left for Mark (Open-Gaps, "The House Church brief's household slip", 2026-11-27).
