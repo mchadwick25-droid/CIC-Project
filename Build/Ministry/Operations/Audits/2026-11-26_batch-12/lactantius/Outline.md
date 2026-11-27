@@ -174,6 +174,8 @@ What passed from him: a full Latin case for the faith, made to the educated from
 - "tells of Constantine's dream" with nothing more → "tells how a dream directed the emperor Constantine to mark his soldiers' shields with the sign of Christ" (AN 10620). "whether it is his" → "whether it is Lactantius's".
 - "In his own words, he was called to Nicomedia" → "he was called to Bithynia to teach, he says" (*in Bithynia … accitus*, DI-L 22774). Nicomedia is Jerome's word.
 - "Of the Latin writers (or defenders) before him, he judged Tertullian" → "Of the Christian writers before him, he found Tertullian".
+- "named gods after death" → "had once been men" (AN 1009–1011: some were called gods in life).
+- "a Lucius Caecilius" → "the name Lucius Caecilius" (DI-L 131, 5452–5454, 32648).
 
 ## Leave out
 

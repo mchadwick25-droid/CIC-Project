@@ -36,13 +36,13 @@
       "Clement of Alexandria quotes his words to argue against them. Clement says Valentinus held that some people are saved by nature, by what they were born as. Then the commandments would be useless, Clement says, and salvation would come apart from the Savior. If a different race came down to end death, \"it is not Christ who has abolished death\".",
       "Tertullian calls him \"the disciple of Platonism.\" He wrote a book Against the Valentinians, and puts Justin Martyr among those who wrote against such teachers in their own lifetime.",
       "Hippolytus of Rome charges that he took his teaching from Pythagoras and Plato, not from the Gospels, and so should be reckoned \"a Pythagorean and Platonist, not a Christian\".",
-      "Hippolytus of Rome says Valentinus claimed to have seen a newborn child who told him he was the Word.",
+      "Hippolytus of Rome says Valentinus claimed to have seen a newborn child who told him he was the Word, a name for God's Son.",
       "Irenaeus says Polycarp of Smyrna, at Rome when Anicetus was bishop, turned many away from Valentinus and Marcion to the church."
     ]
   },
   "uncertain": [
     "Almost everything known of him comes from his opponents: Irenaeus of Lyon, Tertullian of Carthage, Clement of Alexandria and Hippolytus of Rome. His own words survive in their quotations, chiefly Clement's.",
-    "What is his and what is his school's. Irenaeus gives a short account of Valentinus himself; his long account of the powers is of Ptolemy's school. Tertullian sets the teacher against his pupil. Hippolytus speaks of Valentinus, Heracleon, Ptolemy and the whole school together, so the teacher and his students cannot always be told apart.",
+    "What is his and what is his school's. Irenaeus gives a short account of Valentinus himself; his long account of the powers is of Ptolemy's school. There Irenaeus reports that the school held its own members would be saved because they were spiritual by nature. Clement gives the teaching of a class saved by nature to Valentinus himself. Tertullian sets the teacher against his pupil. Hippolytus speaks of Valentinus, Heracleon, Ptolemy and the whole school together, so the teacher and his students cannot always be told apart.",
     "Why the powers came in pairs. Hippolytus gives the school's answer: the Father was alone and was all love, and \"love is not love except there may be some object of affection\", so he brought forth the first pair. Hippolytus does not name the man who says it.",
     "The fall. Irenaeus says one of the last powers broke away and fell, and from its fall came everything outside. From that line came a lesser maker who ruled what lay below. Irenaeus gives no reason for the fall here.",
     "Tertullian places him at Rome under Bishop Eleutherus. Irenaeus places him from Hyginus to Anicetus, earlier.",
@@ -77,7 +77,7 @@
     ],
     "about": [
       {
-        "title": "Against Heresies, Book 1 preface and chapters 10 and 11; Book 3 chapters 3, 4 and 11; Book 5 preface",
+        "title": "Against Heresies, Book 1 preface and chapters 6, 10 and 11; Book 3 chapters 3, 4 and 11; Book 5 preface",
         "author": "Irenaeus of Lyon",
         "date": null,
         "language": "English translation",
@@ -164,7 +164,7 @@
   },
   "briefSources": [
     {
-      "title": "Stromata, Books 2, 4 and 5, in Ante-Nicene Fathers vol. 2",
+      "title": "Stromata, Books 2, 4, 5 and 7, in Ante-Nicene Fathers vol. 2",
       "author": "Clement of Alexandria",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
     },
@@ -212,7 +212,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He founds a school, a circle of students around a teacher. Irenaeus says he adapted the principles of the Gnostic teaching to it.",
+          "text": "He founds a school, a circle of students around a teacher. Irenaeus says he adapted to it the principles of the Gnostic teaching, that of people who claimed a special knowledge.",
           "reference": "Irenaeus, Against Heresies I.11.1, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 31519-31520"
         },
         {
@@ -335,8 +335,8 @@
         },
         {
           "when": "Date unknown",
-          "text": "Hippolytus says Valentinus claimed to have seen a newborn child who told him he was the Word.",
-          "reference": "Hippolytus, Refutation of All Heresies, Book 6, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 10054-10059",
+          "text": "Hippolytus says Valentinus claimed to have seen a newborn child who told him he was the Word, a name for God's Son.",
+          "reference": "Hippolytus, Refutation of All Heresies, Book 6, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 10054-10059; Tertullian, Prescription against Heretics 13, cic/texts/anf03_tertullian.xml lines 20645-20650",
           "note": "A wonder, in one hostile witness."
         }
       ]
@@ -391,7 +391,7 @@
       "lines": [
         {
           "when": "Date unknown",
-          "text": "Irenaeus writes five books against what he calls knowledge falsely so called, aimed above all at Ptolemy's school, a bud of Valentinus's.",
+          "text": "Irenaeus writes five books against people who claimed a special knowledge, which he calls knowledge falsely so called. He aims them above all at Ptolemy's school, a bud of Valentinus's.",
           "reference": "Irenaeus, Against Heresies I preface and V preface, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 29871-29873, 50552-50554"
         },
         {
@@ -407,7 +407,7 @@
         {
           "when": "Early in the third century",
           "text": "Tertullian writes Against the Valentinians, and names Justin Martyr among those who wrote against such teachers in their own lifetime.",
-          "reference": "Tertullian, Against the Valentinians 5, cic/texts/anf03_tertullian.xml lines 43159-43163"
+          "reference": "Tertullian, Against the Valentinians 5, cic/texts/anf03_tertullian.xml lines 43159-43163; Jerome, Lives of Illustrious Men 53, under Severus and Caracalla, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40494-40499"
         },
         {
           "when": "Date unknown",
@@ -424,7 +424,7 @@
         {
           "when": "1945",
           "text": "For eighteen centuries the school was known almost only through its opponents' books. In 1945, writings from these circles were found in Egypt.",
-          "reference": "World census, Valentinian and other Gnostic Christianities"
+          "reference": "World census, Valentinian and other Gnostic Christianities, cic-website/data/world-census.json, entry valentinian-and-other-gnostic-christianities, longDescription and legacy"
         }
       ]
     }

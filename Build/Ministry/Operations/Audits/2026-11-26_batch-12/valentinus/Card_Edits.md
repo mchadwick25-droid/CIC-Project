@@ -71,7 +71,7 @@ A full new card, built under the role's "A new card". The starting card (`Card.e
 
 - Entry `regions` holds "Asia Minor": not found in any held line on Valentinus (S1 gives Rome only). Not changed; for release to judge.
 - The tradition entry `valentinian-and-other-gnostic-christianities` (not this entry; flagged, not touched): its `why` says Valentinus was "an Alexandrian teacher who came to Rome around 136" and taught "a divine spark… trapped", each a line the outline's Do not say forbids (S4, S1, E-rows). The card does not repeat them.
-- From the starting card, not carried: "The division of people by nature is reported by Irenaeus" (not found in the sheet's held lines); "as the American edition's note on his Book 6 shows" (a modern note, no witness).
+- From the starting card: "The division of people by nature is reported by Irenaeus" is found at IR 30758-30763 (Against Heresies I.6.2) and is carried in `uncertain[1]` (card check). Not carried: "as the American edition's note on his Book 6 shows" (a modern note, no witness).
 
 Scorer (`python -m engine.m1.profile_readability`, card running text, outside the repository): `2255 words, grade 7.6 (names out 5.4), reading ease names out 81.6, 14.0 words a sentence, 0.8 joining words per 100, 23% short sentences, longest sentence 33 words - pass (note: grade 7.6 is under 8: the listener read checks it is not flat)`
 
