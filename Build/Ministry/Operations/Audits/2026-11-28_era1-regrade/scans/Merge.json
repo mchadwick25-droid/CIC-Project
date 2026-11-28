@@ -1,0 +1,87 @@
+{
+ "held": {
+  "tree/methodius-of-olympus": [],
+  "tree/suetonius": [],
+  "tree/hippolytus-of-rome": [
+   {
+    "quote": "In 235 he was sent to Sardinia with Rome's bishop",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "Why were they sent there, and by whom?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/tacitus": [
+   {
+    "quote": "First those who confessed were seized.",
+    "missing": "what",
+    "weight": 2,
+    "weights": [
+     1,
+     2
+    ],
+    "asks": "Confessed to what, being Christians or setting the fire?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/josephus": [],
+  "tree/cyprian-of-carthage": [
+   {
+    "quote": "At Rome a second bishop, Novatian, was set up against the one already chosen",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "Why was a rival bishop set up, over what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ]
+ },
+ "third": [
+  {
+   "id": "S001",
+   "key": "tree/methodius-of-olympus",
+   "test": "bare statement",
+   "f": {
+    "quote": "asked how Methodius dared to write against Origen now",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why \"now\"? What made it daring at that moment?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S002",
+   "key": "tree/suetonius",
+   "test": "modern opinion",
+   "f": {
+    "quote": "His lives end with that emperor, so he wrote after Domitian's death.",
+    "kind": "guess",
+    "weight": 1,
+    "who": "unnamed"
+   },
+   "weights": [
+    1
+   ]
+  }
+ ],
+ "hearts": {
+  "tree/methodius-of-olympus": "A bishop and martyr of Lycia who praised the virgin life in his Banquet and, in On the Resurrection, argued against Origen that the body is no chain on the soul and that the same body will rise.",
+  "tree/suetonius": "A Roman biographer of the emperors whose two short lines, Claudius driving out Jews rioting \"at the urging of Chrestus\" and Nero punishing the Christians, are among the earliest outside mentions of Christ's followers, later read and reused by Christians.",
+  "tree/hippolytus-of-rome": "A Greek-writing teacher at Rome in the early 200s who held that the Son is another beside the Father yet one God with him, refused to yield to bishops Zephyrinus and Callistus on that and on forgiveness, and was exiled to Sardinia in 235 and kept by Rome as a martyr.",
+  "tree/tacitus": "A Roman historian who despised the Christians yet gave the fullest outside account of Nero blaming them for the fire of 64 and killing them cruelly, naming Christ as put to death under Pontius Pilate.",
+  "tree/josephus": "A Jewish priest and general who surrendered to Rome in the war and at Rome wrote his people's history, whose few lines on John the Baptist, James and Jesus Christians copied for centuries and argued over.",
+  "tree/cyprian-of-carthage": "A new Christian made bishop of Carthage who led Africa's church through persecution, plague and division, taught that the church is one mother outside which no one has God as Father, resisted Stephen of Rome on baptism, and was put to the sword in 258."
+ }
+}

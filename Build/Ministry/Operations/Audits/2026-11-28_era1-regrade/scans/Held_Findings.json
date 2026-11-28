@@ -1,0 +1,57 @@
+{
+ "tree/methodius-of-olympus": [],
+ "tree/suetonius": [
+  {
+   "quote": "His lives end with that emperor, so he wrote after Domitian's death.",
+   "kind": "guess",
+   "weight": 1,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S002"
+  }
+ ],
+ "tree/hippolytus-of-rome": [
+  {
+   "quote": "In 235 he was sent to Sardinia with Rome's bishop",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why were they sent there, and by whom?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/tacitus": [
+  {
+   "quote": "First those who confessed were seized.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "Confessed to what, being Christians or setting the fire?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/josephus": [],
+ "tree/cyprian-of-carthage": [
+  {
+   "quote": "At Rome a second bishop, Novatian, was set up against the one already chosen",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why was a rival bishop set up, over what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ]
+}
