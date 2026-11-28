@@ -6436,6 +6436,8 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 
 **Metered spend.** Twelve runs, all approved by Mark in chat, each one capped and printed before it ran: ten samples of 508 characters and two full Polycarp briefs of 2,618 characters. About 10,300 characters, roughly 5,000 credits at 0.485 a character. The account counter lagged, so the figure is an estimate. No recording of any person or story was made.
 
-**What this does not do.** It does not start any recording. People and stories stay text with their players hidden until a run is approved after Mark hears its sample (Open-Gaps 433). Whether the people briefs already recorded in Neo are re-recorded is not decided.
+**What this does not do.** It does not start any recording. People and stories stay text with their players hidden until a run is approved after Mark hears its sample (Open-Gaps 433).
+
+**The recordings already made (Mark, 2026-11-28, relayed by the coordinator; his words as given).** "we will put any new work in sally fords voice, leave the others in neos until we replace them". Every new person and story recording is made in Sally Ford. The people and stories already recorded in Neo stay as they are until each one is replaced.
 
 **Records.** `Brief-Kit/Recording_Settings.md` (the person command), Open-Gaps 447, and `Voice-Research/2026-11-27/Notes.md`.
