@@ -8,13 +8,13 @@
   ],
   "knownFor": "A teacher of Latin public speaking from Africa, Jerome says, who was teaching at Nicomedia in Bithynia when the Great Persecution began in 303. He answered it with the Divine Institutes, seven books arguing the faith to educated pagans from their own philosophers and historians, which hold that religion cannot be forced. In extreme old age, Jerome says, he taught Constantine's son Crispus in Gaul.",
   "shortDescription": "Lactantius was teaching Latin public speaking at Nicomedia, the city where the emperor Diocletian kept his palace, when the Great Persecution began in 303. He answered it with the Divine Institutes, seven books that argue the faith to educated pagans and hold that religion cannot be forced.",
-  "datesNote": "No old source gives the year of his birth or of his death. He was teaching in Bithynia when the persecution began, in the nineteenth year of the emperor Diocletian as Eusebius counts it, so in 303. Jerome says he had been called to Nicomedia in Diocletian's reign. His own books were written during and after the persecution, which they describe, and name no year. Jerome puts his teaching of Crispus in his extreme old age, and his Chronicle sets it at the year Crispus was named Caesar, a junior emperor.",
+  "datesNote": "No old source gives the year of his birth or of his death. He was teaching in Bithynia when the persecution began, in the nineteenth year of the emperor Diocletian as Eusebius counts it, so in 303. His own books were written during and after the persecution, which they describe, and name no year. Jerome puts his teaching of Crispus in his extreme old age.",
   "placeNote": "From Africa, Jerome says, who tells of a verse account of his journey from Africa to Nicomedia. Nicomedia was a Greek-speaking city in Bithynia, a Roman province on the Black Sea in north-west Asia Minor, now north-west Turkey. The emperor Diocletian had his palace there, and Lactantius taught Latin public speaking there. Later Gaul, where Jerome says he taught Crispus; Jerome names no city.",
   "role": "Teacher of Latin public speaking at Nicomedia; Christian writer in Latin",
   "keyWorks": [
     {
       "title": "Divine Institutes",
-      "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Book II traces the origin of error, and Book III sets the philosophers against one another. Book IV joins true wisdom and religion, holding that there is no religion without wisdom, nor wisdom without religion. Book V, on justice, turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
+      "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Book II traces the origin of error, and Book III sets the philosophers against one another. Book IV joins true wisdom and religion, holding that there is no religion without wisdom, nor wisdom without religion. Book V turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
     },
     {
       "title": "On the Workmanship of God",
@@ -53,7 +53,7 @@
     "The cause of the palace fire at Nicomedia. The book on the persecutors' deaths says Galerius's agents set it, and the blame was laid on the Christians. Eusebius says it broke out he knows not how, and was laid on the Christians through a false suspicion. Constantine, in the speech Eusebius keeps, says lightning destroyed the palace and the emperor's chamber, and that eyewitnesses, he among them, declare it.",
     "The address to Constantine. Some copies of the Divine Institutes open with an address to the emperor Constantine, and others lack it. Whether Lactantius wrote it is disputed.",
     "The two writers he answers. The philosopher who praised poverty and the judge who pressed for the persecution are not named in the Divine Institutes.",
-    "When he taught Crispus. Jerome's Lives of Illustrious Men puts it in his extreme old age, and his Chronicle sets it at the year Crispus was named Caesar. Neither gives a year for the teaching itself.",
+    "When he taught Crispus. Jerome puts it in his extreme old age, and gives no year.",
     "How, when and where he died is not known."
   ],
   "sources": {
@@ -288,7 +288,7 @@
   ],
   "timeline": [
     {
-      "when": "Date unknown; in the reign of Diocletian",
+      "when": "Date unknown",
       "headline": "From Africa to a Greek city in Bithynia",
       "witness": "Jerome, writing later in the same century, unless a line says otherwise",
       "lines": [
@@ -304,8 +304,8 @@
           "note": "The two Latin prints of Jerome differ on whether the Banquet was written in Africa."
         },
         {
-          "when": "In the reign of Diocletian",
-          "text": "In the reign of Diocletian he is summoned to Nicomedia, with Flavius the Grammarian, and teaches rhetoric there.",
+          "when": "Date unknown",
+          "text": "He is summoned to Nicomedia, with Flavius the Grammarian, and teaches rhetoric there.",
           "reference": "Jerome, Lives of Illustrious Men 80, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41035-41037"
         },
         {
@@ -397,8 +397,8 @@
         },
         {
           "when": "Date unknown",
-          "text": "A judge who had pressed for the persecution writes two books to the Christians, as if out of kindness, to prove that their Scripture contradicts itself, and attacks Paul and Peter as spreaders of deceit.",
-          "reference": "Lactantius, Divine Institutes V.2, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 4505, 4513",
+          "text": "A judge who had pressed for the persecution writes two books to the Christians, as if out of kindness, to prove that their Scripture contradicts itself.",
+          "reference": "Lactantius, Divine Institutes V.2, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 4505",
           "note": "Lactantius's portrait of him; he gives no name."
         }
       ]
@@ -410,7 +410,7 @@
       "lines": [
         {
           "when": "Date unknown",
-          "text": "He takes up the task of answering the two men and all like them, spurred, he says, by their ungodliness, by his awareness of the truth, and, as he believes, by God.",
+          "text": "He takes up the task of answering the two men and all like them.",
           "reference": "Divine Institutes V.4, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 4567; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 23206-23210"
         },
         {
@@ -450,18 +450,13 @@
         },
         {
           "when": "Date unknown",
-          "text": "He holds that the philosophers disagree and refute one another, so that philosophy destroys itself, and that there is no religion without wisdom, nor wisdom without religion.",
-          "reference": "Divine Institutes I.1 and III.4, chapters as numbered in the English edition, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 575, 584, 2300"
+          "text": "He holds that the philosophers disagree and refute one another, and that there is no religion without wisdom, nor wisdom without religion.",
+          "reference": "Divine Institutes I.1, chapter as numbered in the English edition, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 575, 584"
         },
         {
           "when": "Date unknown",
           "text": "Book V holds that religion cannot be compelled, and must be carried on by words rather than blows, so that it is willing.",
           "reference": "Divine Institutes V.20, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 5140; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 26133-26135"
-        },
-        {
-          "when": "Date unknown",
-          "text": "He writes that nothing is so much a matter of free will as religion, which ceases to exist once the worshipper's mind is turned against it.",
-          "reference": "Divine Institutes V.20, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 5158; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 26246-26249"
         },
         {
           "when": "Date unknown",
@@ -538,11 +533,6 @@
           "when": "In his extreme old age",
           "text": "In his extreme old age he is tutor in Gaul to Crispus Caesar, a son of Constantine, who was later put to death by his father.",
           "reference": "Jerome, Lives of Illustrious Men 80, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41051-41054; Latin, cic/texts/lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt lines 11223-11226"
-        },
-        {
-          "when": "Date unknown",
-          "text": "Jerome's Chronicle sets his teaching of Crispus in Latin letters at the year Crispus and others are named Caesars, junior emperors.",
-          "reference": "Jerome, Chronicle, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 44976-44984; cic/texts/lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt lines 11238-11241"
         },
         {
           "when": "Date unknown",
