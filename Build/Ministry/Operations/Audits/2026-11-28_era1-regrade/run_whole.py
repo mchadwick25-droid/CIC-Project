@@ -38,7 +38,7 @@ def main():
         x['strict_rigor'] = gw.strict(x)
         x['readability'] = read[x['id']]
         for f in x['findings']:
-            f['left_by_source'] = any(q in f['quote'] or f['quote'] in q for q in left.get(x['id'], []))
+            f['left_by_source'] = f['kind'] == 'bare' and any(q in f['quote'] or f['quote'] in q for q in left.get(x['id'], []))
     rows.sort(key=lambda x: (gw.POINTS[x['overall']], -(x['rigor_load'] + x['craft_load']), x['id']))
     json.dump(rows, open(os.path.join(HERE, 'Grades_Whole.json'), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
     cols = ['id', 'name', 'words', 'rigor', 'rigor_load', 'craft', 'craft_load', 'overall', 'action', 'before', 'strict_rigor']

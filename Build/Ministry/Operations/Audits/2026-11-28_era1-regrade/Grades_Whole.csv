@@ -1,0 +1,7 @@
+id,name,words,rigor,rigor_load,craft,craft_load,overall,action,before,strict_rigor
+hippolytus-of-rome,Hippolytus of Rome,678,B,1.0,C,4.1,B,OK to keep,C,
+tacitus,Tacitus,589,B,1.2,B,2.4,B,OK to keep,C,
+cyprian-of-carthage,Cyprian of Carthage,1010,B,0.7,B,2.8,B,OK to keep,new,
+suetonius,Suetonius,548,B,1.3,A,0.0,B,OK to keep,D,
+methodius-of-olympus,Methodius of Olympus,650,A,0.0,B,2.2,A,great as is,D,
+josephus,Josephus,807,A,0.0,A,0.0,A,great as is,C,
