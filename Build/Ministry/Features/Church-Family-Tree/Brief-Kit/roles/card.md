@@ -4,7 +4,7 @@ You bring the card for **{NAME}** up to the card standard (the Stage Two Kit's l
 
 1. **New.** Add what the new brief brings: its quotations, each with the modern rendering exactly as the brief has it, the printed or original wording verbatim from its file and lines, and the work. Add the references the brief draws on. For the format, see the `card` of `cyril-and-methodius` in `cic-website/data/world-census.json`. Re-read each cited line in its file.
 2. **Clearly wrong.** Correct a statement only when a held source contradicts it, or when it contradicts the finished brief. Change the fewest words that put it right. A claim you cannot find support for is not wrong: leave it in place and list it as not found.
-3. **The standard.** What the layout or Part 1 requires: the timeline, and the card's fields in the layout's order; a modern view, date or identification stated as the card's own content comes out of it, and the work, if historical rather than speculative, goes in `modernWorks` with one line on what it covers ("Modern works on the cards", Decision-Log 2026-11-26).
+3. **The standard.** What the layout or Part 1 requires: the timeline, and the card's fields in the layout's order; a modern view, date or identification stated as the card's own content comes out of it, and the work, if historical rather than speculative, goes in `modernWorks` with one line on what it covers.
 
 Leave connections to other entries out for now.
 
