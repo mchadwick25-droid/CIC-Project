@@ -27,7 +27,9 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 7. Grade (`Grade/`): **C** (rigor C, craft B). Blind (`Grade/Blind_Result.md`): passes, B / C+ / B−.
 8. **Stopped for the manager and Mark:** the grade is under B. Mark signs off at C, or rules the fix pass below; a fix pass is new wording after review 3, so it goes to Mark, then a fresh grading run.
 
-## Handover (context limit reached, 2026-11-28)
+## Handover (context limit and cost cap reached, 2026-11-28)
+
+This session stopped at $19.81 of its $20 cap (session `total cost`, list-rate telemetry, not a bill), with context past 150,000 tokens. The Artifact page for Mark (brief, card, the three reviews' counts, the grade, the blind result) was not built; the next session builds it from this folder. Review counts: outline check FIX, 1 BLOCKING, 10 MINOR; brief review REVISE, 3 BLOCKING, 5 MINOR; final check FIX (card only), 0 BLOCKING, 4 card fixes, 1 brief MINOR.
 
 A fresh session picks up here. Brief, card and every review are final at commit 564562a8 plus the grade files. What is open:
 - Mark's ruling on the C grade (sign off, or the fixes below).
