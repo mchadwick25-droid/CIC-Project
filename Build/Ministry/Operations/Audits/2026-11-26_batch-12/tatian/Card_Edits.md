@@ -71,3 +71,9 @@ A full new card, built under the role's "A new card". The starting card (`Card.e
 Scorer (`python -m engine.m1.profile_readability`, card running text, outside the repository): `2197 words, grade 7.6 (names out 5.8), reading ease names out 78.6, 14.2 words a sentence, 0.1 joining words per 100, 26% short sentences, longest sentence 30 words - pass (note: grade 7.6 is under 8: the listener read checks it is not flat)`
 
 Validator (`tools/validate-census.mjs --skip-quotes` on a census copy outside the repository, with this card and the brief as `longDescription`): the only errors are the two missing `secondReading` values, which release sets. Each `printed` stands at its lines. The two quoted spans in the card's own prose ("I know not how", "In the beginning was the Word") were checked by a script against the cited files and found.
+
+## Entry fields (card check)
+
+- `modernWorks`, the entry titled `Corpus Apologetarum Christianorum saeculi secundi 9`: change its `note`.
+  - Old: `Prints Theodoret's Greek and Latin on the Diatessaron and its copies.`
+  - New: `Prudentius Maran's prolegomena on Tatian, which quote the Greek of the Address, chapter 29, and of Irenaeus on the break, and Theodoret's Greek and Latin on the Diatessaron and its copies.`
