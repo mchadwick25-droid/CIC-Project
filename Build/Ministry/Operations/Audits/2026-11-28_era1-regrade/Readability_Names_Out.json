@@ -1,0 +1,50 @@
+{
+ "methodius-of-olympus": {
+  "words": 650,
+  "grade_names_out": 7.6,
+  "grade_with_names": 8.7,
+  "ease_names_out": 74.7,
+  "ease_with_names": 67.0,
+  "passes_names_out": true
+ },
+ "suetonius": {
+  "words": 546,
+  "grade_names_out": 8.0,
+  "grade_with_names": 9.1,
+  "ease_names_out": 72.3,
+  "ease_with_names": 64.6,
+  "passes_names_out": true
+ },
+ "hippolytus-of-rome": {
+  "words": 676,
+  "grade_names_out": 7.4,
+  "grade_with_names": 8.8,
+  "ease_names_out": 77.5,
+  "ease_with_names": 67.5,
+  "passes_names_out": true
+ },
+ "tacitus": {
+  "words": 587,
+  "grade_names_out": 8.6,
+  "grade_with_names": 9.8,
+  "ease_names_out": 69.4,
+  "ease_with_names": 60.9,
+  "passes_names_out": true
+ },
+ "josephus": {
+  "words": 806,
+  "grade_names_out": 8.5,
+  "grade_with_names": 9.3,
+  "ease_names_out": 72.2,
+  "ease_with_names": 66.2,
+  "passes_names_out": true
+ },
+ "cyprian-of-carthage": {
+  "words": 1006,
+  "grade_names_out": 7.1,
+  "grade_with_names": 7.7,
+  "ease_names_out": 76.2,
+  "ease_with_names": 71.8,
+  "passes_names_out": true
+ }
+}

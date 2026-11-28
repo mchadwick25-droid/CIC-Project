@@ -1,0 +1,94 @@
+[
+ {
+  "id": "methodius-of-olympus",
+  "name": "Methodius of Olympus",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 650,
+  "floor": 300,
+  "text_from": "claude/cft-release-batch12-13 @ 34ea1b40: Build/Ministry/Operations/Audits/2026-11-26_batch-12/methodius-of-olympus/methodius-of-olympus.brief.txt",
+  "before": {
+   "rigor": "B",
+   "craft": "D",
+   "overall": "D"
+  }
+ },
+ {
+  "id": "suetonius",
+  "name": "Suetonius",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 548,
+  "floor": 300,
+  "text_from": "claude/cft-release-batch12-13 @ 34ea1b40: Build/Ministry/Operations/Audits/2026-11-26_batch-12/suetonius/suetonius.brief.txt",
+  "before": {
+   "rigor": "C",
+   "craft": "F",
+   "overall": "D"
+  }
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "name": "Hippolytus of Rome",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 678,
+  "floor": 300,
+  "text_from": "claude/cft-release-batch12-13 @ 34ea1b40: Build/Ministry/Operations/Audits/2026-11-26_batch-12/hippolytus-of-rome/hippolytus-of-rome.brief.txt",
+  "before": {
+   "rigor": "C",
+   "craft": "D",
+   "overall": "C"
+  }
+ },
+ {
+  "id": "tacitus",
+  "name": "Tacitus",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 589,
+  "floor": 300,
+  "text_from": "claude/cft-release-batch12-13 @ 34ea1b40: Build/Ministry/Operations/Audits/2026-11-26_batch-12/tacitus/tacitus.brief.txt",
+  "before": {
+   "rigor": "C",
+   "craft": "C",
+   "overall": "C"
+  }
+ },
+ {
+  "id": "josephus",
+  "name": "Josephus",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 807,
+  "floor": 300,
+  "text_from": "claude/cft-fix-josephus-grade @ e370a5ae: Build/Ministry/Operations/Audits/2026-11-26_batch-12/josephus/josephus.brief.txt",
+  "before": {
+   "rigor": "D",
+   "craft": "B",
+   "overall": "C"
+  }
+ },
+ {
+  "id": "cyprian-of-carthage",
+  "name": "Cyprian of Carthage",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 1010,
+  "floor": 300,
+  "text_from": "claude/cft-story-cyprian-of-carthage @ fa303762: Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/cyprian-of-carthage.brief.txt",
+  "before": "new"
+ }
+]
