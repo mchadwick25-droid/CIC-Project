@@ -6412,3 +6412,32 @@ This builds on "Standard visitor analytics replace the cookie-free counts" above
 3. Consent: the worker answers `/region` with whether the request comes from Europe (EU, EEA, UK, Switzerland), and nothing about the visitor is kept. In Europe the map asks first; until "Yes" it sets no cookie and sends nothing, and "No thanks" removes the cookie and is remembered. Outside Europe it counts as before. If the lookup fails, nothing is counted.
 4. Owner exclusion: the home address goes in the `OWNER_IPS` binding on the worker `church-family-tree`, never in the repository. Mark's devices are excluded by `?count=off`, which also marks an existing visitor number as the owner's.
 5. The Privacy page says all of this in plain words.
+
+## 2026-11-28 — The people and stories voice: Sally Ford, speed 1.04 (Mark)
+
+Mark, 2026-11-27: "can we start a thread to research the second voice for people and stories, high quality no background noise". Mark, 2026-11-28: "1.04 is it, lets go with this for people and stories".
+
+**Decided.** People briefs and documented stories are recorded in Sally Ford (`kBag1HOZlaVBH7ICPE8x`, a British voice from the ElevenLabs library, "mature female with a smooth, soft, calm, well-spoken classy voice"), model `eleven_multilingual_v2`, output `mp3_44100_64`, voice settings stability 0.95, similarity 0.68, style 0, speaker boost on, and **speed 1.04**. Speed is a new setting on the Recording Settings page. Neo (`onegjDE2z0mQtp1g0HK7`) is no longer the people and stories voice. Daniel keeps tradition and council briefs.
+
+**How it was reached.** Dozens of shared female voices were screened on their free previews (a quiet floor, a dull top end, an unaccented voice, narration use). Eight were sampled on the first 508 characters of the published Polycarp brief, and the rest of the settings were held fixed so the voices could be compared. Mark's words on each:
+- Jane: "the first one i ok"; kept as a finalist.
+- Maysie: "that one is good too".
+- Sally Ford: "thats not bad", then "i like sally ford at 1.05" (a time-stretched copy of her sample, 5% faster than the recording).
+- Beatrice: "no on that one".
+- Samantha (full Polycarp brief): "she sounds whini".
+- Katherine: "to whispery".
+- Amanda: "no amanda is to fast" (about 187 words a minute).
+- Rachel: "yes to fast, but not bad" (about 177 words a minute).
+- Speed: native speed 1.05 and 1.04 samples gave about 147 and 148 words a minute. Mark chose 1.04.
+
+**Why the model changed.** The earlier Neo recordings were on `eleven_v4`. Measured on the published files, 30 to 37 percent of their speech energy sat above 8 kHz, against 0.6 percent in a Daniel tradition brief and about 0.15 percent in Jane, Maysie and Sally Ford on `eleven_multilingual_v2`. Mark's own reports were static and clicking between sections. Pause levels and abrupt starts were clean in every file measured, so the cause is the model's bright speech, not the gaps. This is a measurement, not an ear test, and the files' voices were taken from the settings logged, not checked file by file.
+
+**Known weak point.** Her pauses are not digital silence. They measure about −58 to −62 dBFS, against −91 for Jane. Mark did not object on listening. A full three-minute brief has not been recorded in her voice, so how she holds over a whole brief and handles Greek, Latin and Syriac names is untested.
+
+**Metered spend.** Twelve runs, all approved by Mark in chat, each one capped and printed before it ran: ten samples of 508 characters and two full Polycarp briefs of 2,618 characters. About 10,300 characters, roughly 5,000 credits at 0.485 a character. The account counter lagged, so the figure is an estimate. No recording of any person or story was made.
+
+**What this does not do.** It does not start any recording. People and stories stay text with their players hidden until a run is approved after Mark hears its sample (Open-Gaps 433).
+
+**The recordings already made (Mark, 2026-11-28, relayed by the coordinator; his words as given).** "we will put any new work in sally fords voice, leave the others in neos until we replace them". Every new person and story recording is made in Sally Ford. The people and stories already recorded in Neo stay as they are until each one is replaced.
+
+**Records.** `Brief-Kit/Recording_Settings.md` (the person command), Open-Gaps 447, and `Voice-Research/2026-11-27/Notes.md`.
