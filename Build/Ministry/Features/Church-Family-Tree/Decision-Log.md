@@ -6503,3 +6503,33 @@ This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 **Decided (Mark, 2026-11-28): "A, wording works, converged, auto mode"; then "a".** The Privacy page says: "Cloudflare hosts the site. It also counts page visits for us with its Web Analytics. This uses no cookie and gives us no visitor number. It records the page, where you came from, your country, your kind of device and how fast the page loaded." The Europe paragraph says: "Until you say yes, the map sets no cookie and sends nothing of its own. Cloudflare's page count still runs. If you say no, the map keeps no cookie and does not ask again." The last sentence names "the map" where it said "it", so it still points at the map after the new Cloudflare sentence; the coordinator's call, for Mark to keep or strike.
 
 **Found in carrying it out.** `cft-website/privacy.html` is built from `Build/tools/tree_site_pages.json`, but the 2026-11-27 analytics changes edited only the built page. The next page build would have put back "sets no cookies", which is no longer true. The source now carries the 2026-11-27 wording and this decision, and the built page matches it byte for byte.
+
+## 2026-11-28 — Tertullian: length up to about 800 words (Mark)
+
+**Why.** The Tertullian draft, with every Cut first item dropped, ran 798 words (about 5:19), past batch 7's "Write to 4:30" for this story.
+
+**Decided (Mark, 2026-11-28, relayed by the managing session): "a"**, the option "allow about 5:15, up to about 800 words", with wording still tightened where nothing is lost. This replaces the batch 7 length for this story. This story only. Records: `Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/README.md`.
+
+## 2026-11-28 — Tertullian: one fix pass, then a fresh grade (Mark)
+
+**Why.** The rebuilt Tertullian brief graded C (rigor C, craft B), under the B bar for new work, and the blind judges heard faults: Marcion and Valentinus with no word of what they taught, "There he answered them", Augustine's marriage verdict told twice, the turn told twice, the line back to the opening, two dates (197 and 200), and a close on a summing-up.
+
+**Decided (Mark, 2026-11-28): "a".** One fix pass on the grade and blind-check findings, then a fresh grade, then his page. The two findings on "why" (the break from the prophets; the last followers crossing over) fall away, because Augustine gives no reason, and nothing is added there. Done: grade B (rigor B, craft C), blind check passes (B, C+, B), page https://claude.ai/artifact/1N8JcMVx8FuXgYrAvokPZ8. Then Mark: "release tertullian", after the repeated "around the year 200" was cut from the opening and kept in the approved essence. This story only. Records: the story README, `Fix_Check.md`, `Grade_2/` and `Release.md` in its folder.
+
+## 2026-11-28 — Tertullian: the heart held to what his books show (managing session, on the kit's rule)
+
+**Why.** The batch 7 heart said Tertullian "gave Latin its words for God as one substance in three persons" (Widely Accepted, from the census and editors). No held old or later witness carries that claim.
+
+**Decided.** The Brief Kit's rule for the heart ("Where the sources will not hold a claim, say what they do hold", Kit Part 2) applies, so no ruling was needed (managing session, 2026-11-28: "Proceed. Holding the claim to what the record holds is the kit's own rule"). The story says he said in Latin how God is one and yet three: *trinitas*, *persona* and *substantia* stand in his own book, Against Praxeas. And it says later Latin writers read him closely: Cyprian, through Jerome, and Novatian, in Jerome's judgment. The approved essence, "the foremost early writer of the faith in Latin, around the year 200", stands word for word. Shown to Mark on his page before he released. Lives in the kit already (Part 2, The heart); its use here is this story only.
+
+## 2026-11-28 — The House Church: the Corinth fix (Mark)
+
+**Why.** Two Corinth phrases in the `post-apostolic-house-church` brief and card needed correcting. A fresh final check passed the fix (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/Fix_2026-11-28_Corinth.md`, `Final_Check_2026-11-28_Corinth.md`).
+
+**Decided (Mark, 2026-11-28): "yes".** The fix ships with the Tertullian release, merged from `claude/cft-fix-house-church-corinth` at 146bfe97. Its recording no longer matches its text (Open-Gaps 453). This story only.
+
+## 2026-11-28 — Ebionites stays as it is (Mark)
+
+**Why.** The Ebionites tradition grades D on the whole-text method. The grade comes from a record known only through its opponents: the sources hold few scenes in which these people act.
+
+**Decided (Mark, 2026-11-28): "leave it".** Ebionites stays at its live text under his 25 Nov sign-off ("Batch 11: the two rebuilt stories ship", 2026-11-25). The kit shape for traditions known only through their opponents or their writings is still to come to him (Open-Gaps 455). This story only.

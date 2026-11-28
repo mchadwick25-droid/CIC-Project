@@ -538,7 +538,7 @@
     }
   ],
   "briefReferences": [
-    "Apology 1 (Thelwall; the Latin is held in a damaged scan): the rulers who sat as judges, the hidden road of silent writing, the plea not to be condemned unknown, and the charge laid on the name of Christian; the brief sets it around the year 200; the book's own year, 197, is Widely Accepted.",
+    "Apology 1 (Thelwall; the Latin is held in a damaged scan): the rulers who sat as judges, the hidden road of silent writing, the plea not to be condemned unknown, and the charge laid on the name of Christian; the brief puts him around the year 200; the book's own year, 197, is Widely Accepted.",
     "Apology 50 (Thelwall; Latin in Oehler): the more they are cut down the more they grow; the blood of Christians is seed.",
     "Prescription Against Heretics 15, 19, 21, 34, 36, 37 and 38 (Holmes): whose the Scriptures are, the churches the apostles founded such as Rome, which kept what the apostles taught, Marcion's other god of goodness only, Valentinus's Aeons and the Creator traced to the sin of one of them, Marcion's knife and Valentinus's bent meaning, and the property lines about timber, springs and heirs. Against Marcion 1.5 (Holmes): Valentinus's swarm of divine essences.",
     "Against Praxeas 1 (Holmes): his side separated from the carnally-minded by the Paraclete, who in the brief is the Holy Spirit; On Monogamy 1: the stricter rule of the New Prophecy on marriage. Jerome, Lives 53: after middle life, the envy and abuse of the clergy of Rome.",
@@ -554,7 +554,8 @@
       "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "1457-1459",
-      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin read through that scan: let it be permitted to the truth to reach your ears by the hidden road of silent writing, the Latin's tacitarum litterarum, where Thelwall has a noiseless book. Thelwall puts it as what the judges cannot forbid."
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin read through that scan: let it be permitted to the truth to reach your ears by the hidden road of silent writing, the Latin's tacitarum litterarum, where Thelwall has a noiseless book. Thelwall puts it as what the judges cannot forbid.",
+      "secondReading": "minor"
     },
     {
       "modern": "For now, she longs for one thing: not to be condemned unknown.",
@@ -562,7 +563,8 @@
       "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "1463-1465",
-      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. She is the truth, which the Apology has just named. This sentence comes in chapter 1; the Apology goes on after it and closes in chapter 50."
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. She is the truth, which the Apology has just named. This sentence comes in chapter 1; the Apology goes on after it and closes in chapter 50.",
+      "secondReading": "same"
     },
     {
       "modern": "By what right, Marcion, do you cut my timber? By whose leave, Valentinus, do you turn my springs aside?",
@@ -602,7 +604,8 @@
       "original": "nam et radix et frutex duae res sunt, sed coniunctae; et fons et flumen duae species sunt, sed indiuisae; et sol et radius duae formae sunt, sed cohaerentes",
       "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
       "originalLines": "12221-12224",
-      "uncertain": "Holmes's distinctly and correlatively are his own fullness; the Latin has only two things, but joined. Oehler's print agrees with Kroymann's, with letters damaged in his scan. Cut before this: the tree is not severed from the root, nor the river from the fountain, nor the ray from the sun; nor is the Word separated from God."
+      "uncertain": "Holmes's distinctly and correlatively are his own fullness; the Latin has only two things, but joined. Oehler's print agrees with Kroymann's, with letters damaged in his scan. Cut before this: the tree is not severed from the root, nor the river from the fountain, nor the ray from the sun; nor is the Word separated from God.",
+      "secondReading": "same"
     },
     {
       "modern": "The Spirit is third from God and the Son, as the fruit from the tree is third from the root.",
@@ -613,7 +616,8 @@
       "original": "tertius enim est spiritus a deo et filio",
       "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
       "originalLines": "12227",
-      "uncertain": "The Latin given is Kroymann's first clause only, because his scan misreads sicut as siout in the clause that follows; Oehler's print reads that clause cleanly, sicut tertius a radice fructus ex frutice, and has a damaged letter in the first. Cut after it: the stream out of the river is third from the fountain, and the tip of the ray is third from the sun."
+      "uncertain": "The Latin given is Kroymann's first clause only, because his scan misreads sicut as siout in the clause that follows; Oehler's print reads that clause cleanly, sicut tertius a radice fructus ex frutice, and has a damaged letter in the first. Cut after it: the stream out of the river is third from the fountain, and the tip of the ray is third from the sun.",
+      "secondReading": "same"
     },
     {
       "modern": "Give me the master,",
