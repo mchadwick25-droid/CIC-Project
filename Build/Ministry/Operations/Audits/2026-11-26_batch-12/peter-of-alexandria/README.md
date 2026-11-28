@@ -13,7 +13,7 @@ Run under the brief kit on `main` (PRs #1841 and #1842). Launch: from the managi
 
 ## Next
 
-Release (`roles/release.md`) on Mark's word: bring `main` in first; one draft PR into `main`, pushed once after the local checks pass, then marked ready; merge on green CI; check churchfamilytree.com; cost in `Release.md`.
+Release prepared on this branch (census, tree, quote registry, ledger; `Release.md`). No pull request: Mark releases after the grade. Then: bring `main` in again (the 13-story release also edits the census), rerun the checks, one draft PR, ready, merge on green, check churchfamilytree.com.
 
 ## Open items
 

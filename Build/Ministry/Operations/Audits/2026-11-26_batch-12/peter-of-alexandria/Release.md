@@ -16,7 +16,7 @@
 ## Checks
 
 - `validate-census.mjs --atlas --tree`: 629 movements, 736 edges, 0 errors, 4 warnings (existing).
-- `validate_census_*` tests, `atlas-check`, `atlas-check --edges-only`, `build_tree_site.mjs`, worker and tree-page tests: see the PR (CHECKS_PLACEHOLDER).
+- After bringing `main` in (the Josephus release): `atlas-check` and `--edges-only`: no changes. `build_tree_site.mjs`: 0 mismatched. Worker and tree-page tests: 89 of 89 pass. `validate_census_*` tests: all passed before the merge (exit 0); the rerun after the merge was still running at handover.
 - `check_live_commentary.py --enforce`: pass. `check_open_gaps_numbers.py`: pass. `check_spelling.py --enforce`: 0. `profile_readability`: 692 words, grade 9.5 (names out 8.7), reading ease 69.1, pass. `check_standard_lock.py`: no locked file changed.
 
 ## Reviews
@@ -36,9 +36,11 @@
 
 ## Cost
 
-This session's record, `usage.cost_usd` (telemetry at API rates, not a bill): COST_PLACEHOLDER, both Sonnet card hands and the Opus final check included.
+This session's record, `usage.cost_usd` (telemetry at API rates, not a bill): $9.86 at handover (2026-11-28), both Sonnet card hands and the Opus final check included.
 
 ## Not done
+
+- No pull request: Mark releases after the grade (2026-11-28, "i release after the grade"), graded from this branch.
 
 - Recording (step 8): not in this run. The old recording (4:17, of the earlier text) keeps its file and manifest entry; the rebuilt page hides its player, as slate decision 5 says.
 - The Melitian line and Pamphilus's home stay in Open-Gaps for a later census pass (slate decision 4).
