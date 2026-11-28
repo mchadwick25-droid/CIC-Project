@@ -6484,3 +6484,14 @@ Then: "no everything should have a grading run". Every new or rebuilt text is gr
 **Why.** Grading finding by finding failed texts on exactness that is not the heart; scored on the whole text, of the 181 D-or-F texts in the 25 Nov set, 165 stay D or F. A blind comparison with the Basil reference caught a year slip in Josephus that three reviews and two gradings missed.
 
 **Decided (Mark, 2026-11-28).** "thats not a helpful grading then"; "a"; "i still want the truth and not passing because i want it"; "much of the failing seems to be unreasonable exactness that is not the heart, we are not pursuing perfection, but accedemic and listening/reading appreciation/this is really good"; "also make sure you remove names from the reading level"; "1 yes"; "2 yes" (the readability gate judges names out, `engine/m1/profile_readability.py`). On asking "can i trust the grades or is it ai apeasment" and "run the test blind", to adding a blind comparison before release: "yes to all". On "do we need a pull request for every little tweek": "yes". On the kit: "dont put all my comments in the kit, it stays protected from edits to keep quality, keep it clean with only minor adjustments i approve." On the day's kit changes, shown old beside new: "approve". Lines: `Stage-Two-Kit/Kit.md` opening and section 5; `Brief-Kit/Kit.md` Part 1 (limits), Part 3 step 6, "Keeping the kit clean".
+## 2026-11-28 — Release 13 and Peter of Alexandria in one merge; the F and D stories held (Mark)
+
+**Why.** Peter of Alexandria (graded B) was ready, and release 13 (PR #1846, thirteen era 1 people) also edits the census. The era 1 grades (`Build/Ministry/Operations/Audits/2026-11-28_era1-new-grades/Grades.csv`) put Suetonius and Tatian at F ("must be redone"), Methodius of Olympus at D ("should be redone"), six at C and the rest at B.
+
+**Decided (Mark, 2026-11-28).** "lets get everything together in one merge then continue". Asked what the merge holds: "Peter + #1846". Asked how to treat the low grades: "Hold the F and D ones", with the option's words: "One merge with Peter and #1846's stories graded B or C (11 people). Suetonius, Tatian and Methodius stay at their current live text until they're redone."
+
+- One pull request carries Peter and the ten release 13 people graded B or C. #1849 (whole-text grading) stays its own pull request.
+- Suetonius, Tatian and Methodius keep `main`'s census entries, tree pages and quote renderings; their batch 12 folders stay as work for the redo.
+- The six graded C (Tacitus, Anatolius, Clement, Hippolytus, Origen, Lactantius) go out on this choice, which is Mark's sign-off under "New work passes at B or with Mark's sign-off" (2026-11-28).
+
+This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Release.md`.

@@ -1,0 +1,515 @@
+{
+  "otherNames": [
+    "Anatolius of Alexandria",
+    "Anatolius of Laodicea"
+  ],
+  "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
+  "shortDescription": "Anatolius, a learned Christian of Alexandria, used a vote of the city council to get almost all the besieged out of the palace quarter of the city. He later became bishop of Laodicea in Syria and wrote a rule for finding the date of Easter, and centuries later both sides of a quarrel over Easter claimed him.",
+  "datesNote": "No old source gives a year for his birth, for his becoming bishop or for his death, or ties a year to the siege he lived through. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus. The later 200s comes from the modern dating of those reigns.",
+  "placeNote": "Alexandria, in Egypt, where he was born and lived through the siege of the palace quarter; Caesarea in Palestine, where he was made a second bishop; Laodicea in Syria, where he was bishop",
+  "role": "Scholar of Alexandria, then bishop at Caesarea in Palestine and at Laodicea in Syria",
+  "keyWorks": [
+    {
+      "title": "Paschal Canons",
+      "about": "his writings on finding Easter. Eusebius says that in his works he gave his views on the Passover in particular, and quotes a long extract. In it, the first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox. The count runs on a cycle of nineteen years, and the rule, he says, was known to the Jewish people before Christ"
+    },
+    {
+      "title": "Institutes of Arithmetic",
+      "about": "ten books on arithmetic, which Eusebius and Jerome name. The Library does not hold them"
+    },
+    {
+      "title": "The Paschal Canon, in Latin",
+      "about": "a longer Latin book on Easter under his name, which allows the feast to be kept up to the moon's twentieth day. Columbanus, writing to Pope Gregory the Great, quoted words that stand in it as the words of Anatolius. Whether Anatolius wrote it is disputed"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Columbanus, an Irish abbot, wrote to Pope Gregory the Great against an Easter on the moon's 21st or 22nd day. He cited Anatolius, and quoted words from the Latin Easter book under his name. The words say that if the moon rises only at midnight, darkness rules over the light, and the feast of the Lord's resurrection is light.",
+      "To a synod of bishops in Gaul, Columbanus wrote that he trusted the tradition of his homeland, and Anatolius, over Victorius, who had written lately and in doubt.",
+      "Bede wrote that the northern Irish and the Picts kept Easter from the moon's fourteenth to its twentieth day, believing they followed the writings of Anatolius. Anyone skilled, he added, could very easily tell whether that was true.",
+      "At the synod at Whitby in 664, Colman, for the Irish side, said Anatolius had written that Easter was to be kept from the fourteenth to the twentieth. Wilfrid, for Rome's side, answered that Anatolius had set out a cycle of nineteen years, which the whole church of Christ kept.",
+      "Bede lists among his own works a letter on the leap year and the equinox, according to Anatolius.",
+      "Elias of Nisibis cites the words of Anatolius, bishop of Laodicea, to show that the spring equinox fell on the 22nd of Adar in his time. That was two days earlier, Elias says, than in Christ's time."
+    ],
+    "remembered": [
+      "Eusebius says he \"stood first among the ablest men of our time\" in arithmetic, geometry, astronomy, logic and physics, and was at the head in rhetoric.",
+      "Jerome calls him a man of wonderful learning, and says the greatness of his genius can be seen from his book on the Passover and his ten books on arithmetic.",
+      "In a letter defending Christian writers' use of pagan learning, Jerome names Anatolius, chief priest of the church of Laodicea, among those whose books weave in the teachings of the philosophers.",
+      "Jerome's Chronicle, under the emperor Probus, says that Anatolius, bishop of Laodicea, learned in the teachings of the philosophers, was much spoken of. Bede's Greater Chronicle repeats it.",
+      "At Whitby, Colman called him \"a holy man, and much commended in church history.\" Wilfrid called him \"a most holy, learned, and commendable man\", but said Colman's side did not keep his rules.",
+      "Barhadbeshabba lists Anatolius, bishop of Laodicea, among the teachers who lived in the land of the Romans. Michael the Syrian says he followed Eusebius at Laodicea and was famous.",
+      "Bar Hebraeus calls Eusebius, bishop of Laodicea, and Anatolius, both Alexandrians, true leaders in sacred and secular learning."
+    ]
+  },
+  "uncertain": [
+    "The siege rests on report. Eusebius tells it as others told it to him (\"They relate\", \"They say\"), and gives no cause for the siege and no year.",
+    "The cause of the war. Eusebius says only that the rest of the city was allied with the Roman army. Rufinus calls it a war that broke out among the citizens of Alexandria. Jerome's Chronicle, under the first year of the emperor Claudius, says the palace quarter, besieged for many years, was at last destroyed. No old source says this is the siege Eusebius tells.",
+    "Rufinus, in his Latin version of Eusebius a century later, tells the siege in other terms. He has Anatolius in the part of the city loyal to Rome, going to the Roman commander himself and receiving the refugees with a parent's and a doctor's care. His speech asks only that all unfit for war be let out of the gates, and Rufinus adds that he freed the city from famine and war alike. Eusebius gives the message and the welcome to the deacon outside the lines.",
+    "The school. Eusebius gives only the report that the citizens asked him to found a school of Aristotle's philosophy. Rufinus says that he was trained from boyhood, so that all the learned men and philosophers of Alexandria made him teach logic. Neither says he held a church office there.",
+    "His subjects. Eusebius lists arithmetic, geometry, astronomy, logic, physics and rhetoric. Jerome has grammar in place of physics.",
+    "The years. No held old source gives a year for his birth, his becoming bishop or his death, or ties a year to the siege he lived through. Jerome says he flourished under Probus and Carus, and his Chronicle names him under Probus. Elias of Nisibis says he lived in the time of the emperor Gallus. Modern editors give years of their own reckoning, which differ.",
+    "The synod. Eusebius says only that the synod on Paul's case called him to Antioch and that the believers at Laodicea kept him as he passed through. No old source says whether he ever reached the synod. That Paul taught that Christ was by nature an ordinary man is the charge Eusebius gives.",
+    "His death. No held old source tells how, where or when he died. Eusebius says only that after him Stephen was the last bishop of Laodicea before the persecution.",
+    "The Easter book. No old source says where or when he wrote it. Eusebius quotes only part of it.",
+    "The nineteen years. Wilfrid credits Anatolius with setting out a cycle of nineteen years. Abbot Ceolfrid's letter, which Bede copies, says the nineteen-year cycle began in the time of the apostles, at Rome and in Egypt, and does not name him.",
+    "The Latin book. A longer Latin book on Easter carries his name. It was first printed in 1634. Whether he wrote it, no old source says, and modern scholars disagree: some take it for an early translation of his own work, others for a later forgery.",
+    "What his days of the moon meant. Colman says Anatolius wrote that Easter was to be kept from the fourteenth to the twentieth. The Latin book under his name allows the celebration to be extended to the moon's twentieth. Wilfrid says Anatolius counted in the Egyptian way, so that his fourteenth was the fifteenth by evening and his twentieth the twenty-first. He adds that Colman's side sometimes kept Easter before the full moon. Bede says a skilled reader can tell whether the Irish truly followed him. No old source says which text either man drew on.",
+    "A Syriac chronicle, in its Latin version, calls him a teacher at Laodicea after Eusebius, an Alexandrian by birth. It says he taught that the months begin on the eighteenth of Adar, and that the count comes round again after nineteen years. The extract Eusebius quotes puts the new moon at the head of the cycle on the 26th of the Egyptian month Phamenoth, the 22nd of the Macedonian month Dystrus.",
+    "Socrates, writing against the Easter of Sabbatius, gives the rule that the ancient Hebrews sacrificed after the spring equinox. He cites Eusebius, and Philo, Josephus and Aristobulus, writers the extract from Anatolius names, but does not name Anatolius.",
+    "The books on arithmetic. The Ante-Nicene Fathers prints fragments of books on arithmetic under his name, taken from a modern collection. That they are his rests on modern editors."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Paschal Canons (extract), in Eusebius's Church History, Book 7, chapter 32",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Paschal Canons (extract), in Eusebius's Church History, Book 7, chapter 32, ed. Eduard Schwartz",
+        "language": "Greek",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "The Paschal Canon (Latin version) and fragments of the Institutes of Arithmetic",
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "disputed": "Whether he wrote the Latin book or the fragments is disputed."
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 7, chapters 27, 29 and 32, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Church History, Book 7, chapter 32, in Greek with Rufinus's Latin version on the facing pages",
+        "author": "Eusebius of Caesarea; Rufinus of Aquileia",
+        "date": null,
+        "language": "Greek and Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 73, with Richardson's notes",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 70, to Magnus",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Chronicle (Eusebii Chronici Canones)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "Letter to Pope Gregory the Great (Epistle CXXVII)",
+        "author": "Columbanus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Letters, with the letter to a synod of bishops in Gaul (Patrologia Latina, vol. 80)",
+        "author": "Columbanus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25; Book 5, chapters 21, 23 and 24",
+        "author": "Bede",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25 (Latin, ed. Plummer)",
+        "author": "Bede",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Greater Chronicle (Chronica maiora)",
+        "author": "Bede",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt"
+      },
+      {
+        "title": "Ecclesiastical History, the chapter on the Sabbatians and the Easter festival",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Cause of the Foundation of the Schools",
+        "author": "Barhadbeshabba",
+        "date": null,
+        "language": "French translation of a Syriac work",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+      },
+      {
+        "title": "Maronite Chronicle, in the Latin version of the Chronica minora, part 1",
+        "author": null,
+        "date": null,
+        "language": "Latin version of a Syriac chronicle",
+        "file": "cic/texts/chronica-minora-pars-prior-versio-lat_guidi1903.txt"
+      },
+      {
+        "title": "Chronography (Opus chronologicum)",
+        "author": "Elias of Nisibis",
+        "date": null,
+        "language": "Latin version of a Syriac work",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      },
+      {
+        "title": "Chronicle, vol. 1, books 1 to 7",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation of a Syriac work",
+        "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle, vol. 1",
+        "author": "Bar Hebraeus",
+        "date": null,
+        "language": "Latin version of a Syriac work",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Eusebius, Church History VII.32.8 to 9, tr. Arthur McGiffert, with the Greek ed. Eduard Schwartz: the bread run out, hunger harder to bear than the enemy outside, and the speech to the city council, rendered from the Greek.",
+    "Church History VII.32.6: born in Alexandria; first among the men of his time in arithmetic, geometry, astronomy, logic, physics and rhetoric; the report that the citizens asked him to found a school of Aristotle's philosophy. Jerome, Lives of Illustrious Men 73: he flourished under Probus and Carus.",
+    "Church History VII.32.7: the siege, one of his many deeds, told as others told it.",
+    "Church History VII.32.8 to 9: the rest of the city allied with the Roman army; the deacon outside the lines, known to the Roman general, winning safety for deserters.",
+    "Church History VII.32.9 to 10: the council, his call for peace with Rome and its anger, the argument to feed only men and youths, his vote, and the council's agreement.",
+    "Church History VII.32.11: almost all the besieged saved, the church's people first, many more beyond the decree in women's clothes, by night to the Roman camp, where the deacon took them in like a father and a doctor.",
+    "Church History VII.32.21, with VII.32.5 to 6 and VII.27.2: the bishop of Caesarea in Palestine making him a second bishop to succeed him; the bishops at Antioch calling him, and Paul's teaching as Eusebius gives it; the believers at Laodicea, whose bishop, the same deacon, had died, keeping him.",
+    "Church History VII.32.13 to 16, the extract from his Paschal Canons: the first month not counted from a new moon before the spring equinox, the mistake of those who do, the nineteen-year cycle, and the rule known to the Jewish people before Christ.",
+    "Columbanus, letter to Pope Gregory the Great, tr. James Barmby: the Irish Easter defended against an Easter past the moon's twentieth day, and the darkness argument from the Latin Easter book under Anatolius's name, whose words stand in the Paschal Canon (Latin version) in the Ante-Nicene Fathers.",
+    "Bede, Ecclesiastical History III.25, tr. Giles, with the Latin ed. Plummer: the meeting at Whitby in 664, in Abbess Hild's monastery; Colman's claim for the fourteenth to the twentieth; Wilfrid's answer, rendered from the Latin, and the cycle of nineteen years. Bede V.23: the year 731.",
+    "Bede, Ecclesiastical History III.3, tr. Giles, with the Latin ed. Plummer: the northern Irish and Picts believing they followed the writings of Anatolius, and anyone skilled able to tell very easily whether that was true."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I advise sending out of the gates those we have too many of, who are of no use to us at all: old women, infants and old men.",
+      "printed": "I counsel you to send the supernumeraries and those who are in nowise useful to us, as old women and children and old men, outside the gates,",
+      "work": "Anatolius's speech, as Eusebius of Caesarea reports it, Church History VII.32.9, tr. Arthur McGiffert; Greek ed. Eduard Schwartz",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "42736-42738",
+      "secondReading": "minor",
+      "uncertain": "Infants follows the Greek in Eduard Schwartz's print, νήπια, where McGiffert's English has children."
+    },
+    {
+      "modern": "like a father and a doctor",
+      "printed": "like a father and physician,",
+      "work": "Eusebius of Caesarea, Church History VII.32.11, tr. Arthur McGiffert; Greek ed. Eduard Schwartz",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "42760",
+      "secondReading": "same"
+    },
+    {
+      "modern": "make no small mistake, and no careless one.",
+      "printed": "commit no slight or common blunder.",
+      "work": "Anatolius, Paschal Canons, in Eusebius of Caesarea, Church History VII.32.15, tr. Arthur McGiffert; Greek ed. Eduard Schwartz",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "42816-42817",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "It is agreed that Anatolius was a most holy man, most learned and most worthy of praise.",
+      "printed": "was a most holy, learned, and commendable man",
+      "work": "Wilfrid's words, in Bede, Ecclesiastical History III.25, tr. Giles; Latin ed. Plummer",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "8135",
+      "original": "sanctissimum, doctissimum, ac laude esse dignissimum",
+      "originalFile": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+      "originalLines": "21582",
+      "secondReading": "same"
+    }
+  ],
+  "briefSources": [
+    {
+      "title": "Church History, Book 7, chapters 27 and 32, with the extract from the Paschal Canons",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+    },
+    {
+      "title": "Church History, Book 7, chapter 32, in Greek (ed. Eduard Schwartz)",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men, chapter 73",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "Letter to Pope Gregory the Great",
+      "author": "Columbanus",
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+    },
+    {
+      "title": "The Paschal Canon (Latin version), in Ante-Nicene Fathers vol. 6",
+      "author": "Under the name of Anatolius",
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+    },
+    {
+      "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25",
+      "author": "Bede",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+    },
+    {
+      "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25 (Latin, ed. Plummer)",
+      "author": "Bede",
+      "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Date unknown",
+      "headline": "A learned man of Alexandria",
+      "witness": "Eusebius of Caesarea, a younger man of the same time",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Born in Alexandria.",
+          "reference": "Eusebius, Church History VII.32.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42684-42685"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Ranked first among the ablest men of his time in arithmetic, geometry, astronomy, logic and physics, and at the head in rhetoric.",
+          "reference": "Eusebius, Church History VII.32.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42685-42688",
+          "note": "Jerome has grammar in place of physics."
+        },
+        {
+          "when": "Date unknown",
+          "text": "The citizens of Alexandria are reported to have asked him to found a school of Aristotle's philosophy.",
+          "reference": "Eusebius, Church History VII.32.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42688-42690",
+          "note": "A report only. Rufinus, a century later, says all the learned men and philosophers of Alexandria made him teach logic."
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "He gets the besieged out of the palace quarter",
+      "witness": "Eusebius of Caesarea, from what others told him",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "During the siege of the palace quarter of Alexandria he does many deeds, for which all those in high office honor him. Eusebius tells one.",
+          "reference": "Eusebius, Church History VII.32.7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42696-42716",
+          "note": "Eusebius's word for the quarter is Pyrucheium; his translator's note explains it as the quarter that held the royal palaces and the citadel."
+        },
+        {
+          "when": "Date unknown",
+          "text": "The bread runs out, and the famine is harder to bear than the enemy outside.",
+          "reference": "Eusebius, Church History VII.32.8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42718-42720"
+        },
+        {
+          "when": "Date unknown",
+          "text": "The rest of the city is allied with the Roman army. Anatolius sends word of the starving to Eusebius, a deacon of the church in the free part, whose name has reached the Roman general.",
+          "reference": "Eusebius, Church History VII.32.8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42720-42727",
+          "note": "Rufinus puts Anatolius himself in the part loyal to Rome and has him go to the Roman commander."
+        },
+        {
+          "when": "Date unknown",
+          "text": "The deacon asks the Roman commander, as the greatest favor, to grant safety to deserters, and wins it.",
+          "reference": "Eusebius, Church History VII.32.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42729-42732"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Anatolius calls the city council and first urges all to make peace with Rome. They grow angry.",
+          "reference": "Eusebius, Church History VII.32.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42733-42735"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He argues that the old women, children and old men, the crippled and the maimed, should be sent out of the gates. The city should feed only men and youths.",
+          "reference": "Eusebius, Church History VII.32.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42735-42743"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Rising first, he votes that all not needed for the army, men or women, should leave, since if they stay they will starve. The council agrees.",
+          "reference": "Eusebius, Church History VII.32.10 to 11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42745-42753"
+        },
+        {
+          "when": "By night",
+          "text": "Under cover of the decree he saves almost all the besieged, the church's people first, then others of every age. Many more beyond the decree go too, secretly dressed in women's clothes. They go out of the gates to the Roman camp.",
+          "reference": "Eusebius, Church History VII.32.11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42753-42759"
+        },
+        {
+          "when": "By night",
+          "text": "At the camp the deacon takes them all in, like a father and a doctor, and nurses them back to health.",
+          "reference": "Eusebius, Church History VII.32.11, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42759-42762",
+          "note": "Rufinus gives this welcome to Anatolius, and adds that he freed the city from famine and war alike."
+        }
+      ]
+    },
+    {
+      "when": "After the war",
+      "headline": "Bishop at Caesarea, then at Laodicea",
+      "witness": "Eusebius of Caesarea",
+      "lines": [
+        {
+          "when": "After the war",
+          "text": "Eusebius says the church of Laodicea had two such pastors in turn, the deacon Eusebius and Anatolius, who came there from Alexandria after the war.",
+          "reference": "Eusebius, Church History VII.32.12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42764-42767"
+        },
+        {
+          "when": "Date unknown",
+          "text": "The deacon goes to Syria over the affair of Paul of Samosata, and is kept there as bishop of Laodicea.",
+          "reference": "Eusebius, Church History VII.32.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42657-42662"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Theotecnus, bishop of Caesarea in Palestine, makes Anatolius a bishop, meaning him to succeed him at his death. For a short time the two lead that church together.",
+          "reference": "Eusebius, Church History VII.32.21, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42925-42928"
+        },
+        {
+          "when": "Date unknown",
+          "text": "The synod held on the case of Paul of Samosata, bishop of Antioch, calls Anatolius to Antioch. Eusebius says Paul taught that Christ was by nature an ordinary man.",
+          "reference": "Eusebius, Church History VII.32.21 and VII.27.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42928-42938; 41838-41840",
+          "note": "No old source says whether Anatolius reached the synod."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Passing through Laodicea, whose bishop, the deacon Eusebius, has died, he is kept there by the believers as their bishop: one good man, Eusebius says, following another.",
+          "reference": "Eusebius, Church History VII.32.21 and VII.32.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42938-42940; 42683-42684"
+        },
+        {
+          "when": "Under the emperors Probus and Carus",
+          "text": "Jerome says that Anatolius of Alexandria, bishop of Laodicea in Syria, flourished then.",
+          "reference": "Jerome, Lives of Illustrious Men 73, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40932-40934",
+          "note": "Elias of Nisibis, much later, says he lived in the time of the emperor Gallus."
+        },
+        {
+          "when": "Date unknown",
+          "text": "After Anatolius dies, Stephen is the last bishop of Laodicea before the persecution.",
+          "reference": "Eusebius, Church History VII.32.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42942-42944",
+          "note": "No held old source tells how, where or when he died."
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "His writings on Easter and on arithmetic",
+      "witness": "Anatolius's own words, as Eusebius quotes them",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "He writes few works, Eusebius says, and in them gives his views on the Passover above all.",
+          "reference": "Eusebius, Church History VII.32.13, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42769-42773",
+          "note": "No old source says where or when he wrote."
+        },
+        {
+          "when": "Date unknown",
+          "text": "In the first year of his cycle, he sets the new moon of the first month on the 26th of the Egyptian month Phamenoth. That new moon is the beginning of every cycle of nineteen years.",
+          "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42788-42803"
+        },
+        {
+          "when": "Date unknown",
+          "text": "The first segment of the sun's yearly path begins at the spring equinox. He writes that those who put the first month, and the Passover's fourteenth day, in the segment before it make no small mistake.",
+          "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.15, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42805-42817"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He says the rule is not his own, since the Jewish people knew it before Christ. Philo, Josephus, Musaeus, the two Agathobuli and Aristobulus, he writes, say the Passover is sacrificed after the spring equinox.",
+          "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.16 to 17, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42819-42868"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes the Institutes of Arithmetic, in ten books.",
+          "reference": "Eusebius, Church History VII.32.20, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42917-42918; Jerome, Lives of Illustrious Men 73, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40936-40938"
+        }
+      ]
+    },
+    {
+      "when": "While Gregory the Great was pope, to 731",
+      "headline": "Claimed in the Easter quarrel of the Irish and Rome",
+      "lines": [
+        {
+          "when": "While Gregory the Great was pope",
+          "text": "Columbanus, an Irish abbot, writes to Gregory against an Easter on the moon's 21st or 22nd day. He cites Anatolius, a man of wonderful learning, as Jerome says, whose writings Eusebius set into his Church History. He quotes words from the Latin Easter book under his name: when the moon rises only at midnight, darkness rules over the light.",
+          "reference": "Columbanus, letter to Gregory the Great, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 4320-4355",
+          "note": "The words Columbanus quotes stand in the Latin Paschal Canon under Anatolius's name, not in the Greek extract Eusebius keeps."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Columbanus writes to a synod of bishops in Gaul that he trusts his homeland's tradition, and Anatolius, over Victorius.",
+          "reference": "Columbanus, letter to a synod of Gaul, cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt lines 20791-20797"
+        },
+        {
+          "when": "664",
+          "text": "A synod meets in the monastery at Whitby, where Abbess Hild presides. Bishop Colman, who leads the Irish side, asks whether Anatolius, a holy man much commended in church history, went against the law and the Gospel when he wrote that Easter was to be kept from the fourteenth to the twentieth.",
+          "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 7956-7967; 8117-8121; 8236-8237"
+        },
+        {
+          "when": "664",
+          "text": "Wilfrid, for Rome's side, answers that Anatolius set out a cycle of nineteen years, which the whole church of Christ keeps. He adds that Anatolius counted his days in the Egyptian way, from evening.",
+          "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8134-8150; 8236-8237"
+        },
+        {
+          "when": "664",
+          "text": "The king rules for Peter, who holds the keys of heaven, and all present agree. Colman leaves, taking with him those who will not accept the Easter agreed there.",
+          "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8195-8237"
+        },
+        {
+          "when": "By 731",
+          "text": "Bede writes that the northern Irish and the Picts believed they followed the writings of Anatolius, and that anyone skilled could very easily tell whether that was true.",
+          "reference": "Bede, Ecclesiastical History III.3 and V.23, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 5749-5757; 15190-15192; Latin, cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt lines 18705-18709"
+        }
+      ]
+    },
+    {
+      "when": "Later centuries",
+      "headline": "His name kept in chronicles and reckonings",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Jerome names him in a letter among Christian writers whose books weave in the teachings of the philosophers, and his Chronicle praises him under Probus.",
+          "reference": "Jerome, Letter 70, cic/texts/npnf206_jerome-principal-works.xml lines 16665-16702; Jerome, Chronicle, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 44129-44131"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Bede's Greater Chronicle repeats Jerome's praise of him.",
+          "reference": "Bede, Greater Chronicle, cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt lines 23993-23998"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Bede lists among his own works a letter on the leap year and the equinox, according to Anatolius.",
+          "reference": "Bede, Ecclesiastical History V.24, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 15512-15513"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Barhadbeshabba lists him among the teachers in the land of the Romans; a Syriac chronicle calls him a teacher at Laodicea after Eusebius.",
+          "reference": "Barhadbeshabba, The Cause of the Foundation of the Schools, cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt lines 13022-13023; Maronite Chronicle, cic/texts/chronica-minora-pars-prior-versio-lat_guidi1903.txt lines 3720-3725"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Elias of Nisibis cites his words to show that the spring equinox fell on the 22nd of Adar in his time.",
+          "reference": "Elias of Nisibis, Chronography, cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt lines 41059-41066"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Michael the Syrian calls him famous, and Bar Hebraeus calls him and Eusebius true leaders in sacred and secular learning.",
+          "reference": "Michael the Syrian, Chronicle, cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt lines 15951-15952; Bar Hebraeus, Ecclesiastical Chronicle, cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt lines 4961-4965"
+        }
+      ]
+    }
+  ]
+}
