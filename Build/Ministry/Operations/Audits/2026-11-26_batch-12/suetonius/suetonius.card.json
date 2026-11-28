@@ -30,7 +30,7 @@
     ],
     "remembered": [
       "About 200, Tertullian of Carthage names Suetonius twice. He sends his readers to him on which games were founded for which gods, and cites him for the report that Nero never dreamed, except with difficulty at the very end of his life. He never cites the line on the Christians.",
-      "Tertullian and, later, Lactantius complained that pagans called Christians Chrestians and Christ Chrestus. Neither names Suetonius.",
+      "Tertullian complained that pagans called Christians Chrestians, and Lactantius, later, that the ignorant called Christ Chrestus. Neither names Suetonius.",
       "Thierry Ruinart, a monk of Saint-Germain-des-Prés who died in 1709, used both lines against Henry Dodwell's dissertation on the fewness of martyrs, printed at Oxford in 1684. Ruinart read the Jews whom Claudius drove out as including Christians. Because Suetonius lists the punishment among Nero's measures, Ruinart judged that Nero must have issued a written order against the Christians. Suetonius names no such order."
     ]
   },
@@ -45,8 +45,7 @@
     "Suetonius blames Nero for the great fire, but his notice of the Christians does not mention it.",
     "Superstition. Suetonius calls the Christians' faith a new and harmful superstition, his word for a religion he despised. In his life of Claudius, the Druids' rite in Gaul is a religion.",
     "Suetonius names the Christians only once, in his life of Nero.",
-    "The dismissal. A life of Hadrian written long after says that Hadrian replaced Suetonius, Septicius Clarus, the commander of his guard, and many others. The reason it gives is that they had behaved toward his wife Sabina, without his leave, more familiarly than the respect owed to the court allowed. No other old source tells of it.",
-    "Pliny the Younger. Pliny's letters are not among the texts used here, so nothing from them is told on this card."
+    "The dismissal. A life of Hadrian written long after says that Hadrian replaced Suetonius, Septicius Clarus, the commander of his guard, and many others. The reason it gives is that they had behaved toward his wife Sabina, without his leave, more familiarly than the respect owed to the court allowed. No other old source tells of it."
   ],
   "sources": {
     "ownWords": [
@@ -206,7 +205,7 @@
     }
   ],
   "briefReferences": [
-    "Lives of the Caesars, Claudius 25.3 to 25.4, Latin, with tr. John C. Rolfe: the people of old Troy freed from every burden as founders of the Roman race; the Jews driven from Rome for rioting at the urging of Chrestus; the German envoys allowed to sit with the senators at the theater.",
+    "Lives of the Caesars, Claudius 25.3 to 25.4, Latin, with tr. John C. Rolfe: the people of old Troy freed from tax forever as founders of the Roman race; the Jews driven from Rome for rioting at the urging of Chrestus; the German envoys allowed to sit with the senators at the theater.",
     "Nero 16.2: abuses severely punished and put down, and new rules made; the limit on spending; the taverns barred from selling cooked food except beans and greens; punishments laid on the Christians; the chariot drivers stopped from roaming the streets and cheating people for fun. Nero 19.3: these acts deserve no blame, some even praise. Nero 38: Nero set Rome on fire.",
     "Otho 10.1, Nero 57.2 and Domitian 12.2: his father an army officer; Suetonius a young man under Domitian. The lives run from Julius Caesar to Domitian.",
     "Spartianus, Life of Hadrian 11.3: Suetonius master of Hadrian's letters.",
@@ -302,8 +301,8 @@
       "lines": [
         {
           "when": "Under Claudius; no year given",
-          "text": "Claudius frees the people of old Troy from every burden, because, Suetonius says, they founded the Roman race.",
-          "reference": "Suetonius, Claudius 25.3, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 25904-25907"
+          "text": "Claudius frees the people of old Troy from tax forever, because, Suetonius says, they founded the Roman race.",
+          "reference": "Suetonius, Claudius 25.3, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 25769-25770"
         },
         {
           "when": "Under Claudius; no year given",
@@ -378,7 +377,7 @@
         {
           "when": "After Domitian's death in 96",
           "text": "He writes the lives of twelve rulers of Rome, from Julius Caesar to Domitian.",
-          "reference": "Suetonius, Lives of the Caesars, from the life of Julius to the life of Domitian, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 918-36065"
+          "reference": "Suetonius, Lives of the Caesars, from the life of Julius to the life of Domitian, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 918-41018"
         },
         {
           "when": "In the reign of Hadrian",
@@ -410,25 +409,25 @@
         },
         {
           "when": "Date unknown",
-          "text": "Lactantius writes that the ignorant call Christ Chrestus by changing one letter. He explains that the Jews anointed their priests and kings with holy oil, so Christ means the anointed one. He does not name Suetonius.",
-          "reference": "Lactantius, Divine Institutes 4.7.5 to 4.7.7, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 16813-16830"
+          "text": "Lactantius writes that Christ is a title of power and rule, not a proper name, since the Jews called their kings by it. He says the ignorant call Christ Chrestus by changing one letter. He explains that the Jews anointed their priests and kings with holy oil, so Christ means the anointed one. He does not name Suetonius.",
+          "reference": "Lactantius, Divine Institutes 4.7.4 to 4.7.7, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 16770-16830"
         }
       ]
     },
     {
-      "when": "In the fourteenth year of the emperor Theodosius",
-      "headline": "Jerome follows his example",
+      "when": "From the sixth consulship of Valens to the fourteenth year of Theodosius",
+      "headline": "Jerome draws on him and follows his example",
       "witness": "Jerome",
       "lines": [
+        {
+          "when": "At the sixth consulship of the emperor Valens, where his chronicle ends",
+          "text": "In the preface to his chronicle, Jerome says he gathered much for the years from Troy to Constantine from Tranquillus and other historians.",
+          "reference": "Jerome, preface to the Chronicle, cic/texts/npnf206_jerome-principal-works.xml lines 46321-46329"
+        },
         {
           "when": "In the fourteenth year of the emperor Theodosius",
           "text": "Asked to follow the example of Tranquillus, Jerome writes short lives of Christian writers up to that year, as Suetonius had done for the men of letters among the pagans.",
           "reference": "Jerome, Lives of Illustrious Men, preface, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 38773-38785"
-        },
-        {
-          "when": "Date unknown",
-          "text": "In the preface to his chronicle, Jerome says he gathered much for the years from Troy to Constantine from Tranquillus and other historians.",
-          "reference": "Jerome, preface to the Chronicle, cic/texts/npnf206_jerome-principal-works.xml lines 46321-46325"
         }
       ]
     },
