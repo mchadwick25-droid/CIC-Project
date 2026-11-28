@@ -41,3 +41,18 @@ None. Every changed sentence is the review's exact wording, and each matches the
 
 - The essence is complete at word 141 ("…and Rome kept his day among its martyrs.").
 - Length: 675 words by `wc` (673 by the profiler), at the 675 ceiling, as the review expected (net 0). About 4.5 minutes at 150 words a minute.
+
+## After grading, carrying out Mark's ruling (2026-11-28)
+
+Mark's ruling of 2026-11-28 ("2": apply the proposed fixes to the stories below B), from the whole-text grades (`2026-11-28_era1-new-grades/Grades_Whole.json`). Each proposed fix is applied as worded, or, where it is only a direction, by the smallest change that meets it (Opus), checked at the line cited. The same words change in the census `longDescription`. Every other sentence is unchanged.
+
+In the brief, old beside new:
+
+- "A teacher from Smyrna named Noetus said that Christ was the Father himself, so that the Father was born, suffered and died. Twice the elders, the church's priests, called him before the church, and they put him out." → "Twice the elders, the church's priests, called a teacher from Smyrna named Noetus before the church. He said that Christ was the Father himself, so that the Father was born, suffered and died, and in the end they put him out." (Outline, Opening 1 (E1, *Against Noetus* 1; Do not say: "the elders" with no place): the pull finding; the elders now act first).
+- "This was the split that Novatian's party made from the church at Rome in 251," → "Yet that split came later: Novatian's party made it from the church at Rome in 251," (Outline, the split of Novatus gloss (I4; LP 66806-66807, 66819-66827) and Do not say (keep the 251 set against the exile, add nothing else): the thread finding; "Yet ... came later" lets the listener hear that the dates do not meet).
+
+Findings that fall, the old source giving only the act (Kit Part 1, Explain it):
+
+- "In 235 he was sent to Sardinia with Rome's bishop" and "were deported to Sardinia" (why, by whom; both readers, the Opus third read and the craft reader): Outline Beat 6, E10, "the list gives no reason". Falls; no change.
+- "Some whom Hippolytus's own side had judged and put out of the church" (for what): Source_Sheet E5, RG 18283, "ἐπὶ καταγνώσει ἔκβλητοι", upon condemnation, with no sin named. Falls; no change.
+- "while a tyrant's orders pressed" (which tyrant): Outline What came of it 1, I4, LP 109159-109166; Damasus names none. Falls; no change.

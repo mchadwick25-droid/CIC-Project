@@ -52,3 +52,18 @@ In the brief, old beside new:
 - "His quarrel was with another of Tacitus's histories, which told where the Jews came from." → "His quarrel was with another of Tacitus's histories, which told where the Jewish people came from."
 - "That account of the Jews, Tertullian says, started the tale that the Christians, close to the Jews in religion, worshiped a donkey's head." → "That account of the Jewish people, Tertullian says, started the tale that the Christians, close to the Jewish people in religion, worshiped a donkey's head."
 - "If the Jews worshiped an image, Tertullian says, the temple was the very place it would be shown." → "If the Jewish people worshiped an image, Tertullian says, the temple was the very place it would be shown."
+
+## After grading, carrying out Mark's ruling (2026-11-28)
+
+Mark's ruling of 2026-11-28 ("2": apply the proposed fixes to the stories below B), from the whole-text grades (`2026-11-28_era1-new-grades/Grades_Whole.json`). Each proposed fix is applied as worded, or, where it is only a direction, by the smallest change that meets it (Opus), checked at the line cited. The same words change in the census `longDescription`. Every other sentence is unchanged.
+
+In the brief, old beside new:
+
+- "When daylight failed in the emperor Nero's gardens in Rome, Christians" → "When daylight failed in the emperor Nero's gardens in Rome, after the city's great fire, Christians" (Outline, Opening (a) (C6) and Beat 2 (C1, C2: the deaths follow the fire): the opening finding ("missing when")).
+- "Mockery was added to their deaths, the deaths told at the start, and Nero" → "Mockery was added to their deaths, and Nero" (Kit Part 1, Craft (no add-on statement): a tell; the pointer back to the opening is cut).
+
+Findings that fall, the old source giving only the act (Kit Part 1, Explain it):
+
+- "people hated for their shameful acts" (what acts; rigor and craft): Outline Beat 3 and Do not say (C3), "Tacitus does not say what the shameful acts were". Falls; no change.
+- "First those who confessed were seized." (confessed to what; rigor and craft): Outline Beat 4 and Do not say (C5), "Say 'those who confessed'". Falls; no change.
+- "though it was held back for a moment" (held back by what): Outline Beat 3 (C4), "checked for a moment"; he does not say by what. Falls; no change.

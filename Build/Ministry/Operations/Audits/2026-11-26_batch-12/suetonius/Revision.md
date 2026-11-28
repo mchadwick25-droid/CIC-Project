@@ -61,3 +61,16 @@ Mark kept none of "a Jew" for Aquila ("yes" to the handover's judgment calls, re
 - "At Corinth, the apostle Paul met a Jew and his wife lately come from Italy because of that order." → "At Corinth, the apostle Paul met a Jewish man and his wife lately come from Italy because of that order."
 
 This replaces the note above that "a Jew" stands.
+
+## After grading, carrying out Mark's ruling (2026-11-28)
+
+Mark's ruling of 2026-11-28 ("2": apply the proposed fixes to the stories below B), from the whole-text grades (`2026-11-28_era1-new-grades/Grades_Whole.json`). Each proposed fix is applied as worded, or, where it is only a direction, by the smallest change that meets it (Opus), checked at the line cited. The same words change in the census `longDescription`. Every other sentence is unchanged.
+
+In the brief, old beside new:
+
+- "In his life of the emperor Claudius, who ruled in the first century, the Roman writer Suetonius sets down the emperor's acts one after another. Claudius freed the people of old Troy from tax forever, because, he says, they founded the Roman race, and he let German envoys sit with the senators at the theater. Between those two comes one sentence: "He drove out of Rome the Jewish people who kept rioting at the urging of Chrestus."" → "In the first century, the emperor Claudius freed the people of old Troy from tax forever, because, he says, they founded the Roman race, and he let German envoys sit with the senators at the theater. The Roman writer Suetonius sets down these acts one after another in his life of Claudius, and between those two comes one sentence: "He drove out of Rome the Jewish people who kept rioting at the urging of Chrestus."" (Outline, Beat 1 (E1, E2: *Claudius* 25): the pull finding ("no one acting") and the summary finding; the opening now starts on Claudius acting, with a when, and keeps the whole quote verbatim in the same place).
+- "This line, and one more under Nero, is all he says of the first Christians, if this one is about them at all." → "He has one more line like it, under Nero." (Outline, Essence (E1, E3, D1): the guess finding; the clause is cut, and "only the second names the Christians" keeps the doubt in what the record shows).
+- "so he wrote after Domitian's death, a generation or more after both events." → "so he wrote after Domitian's death." (Outline, Who he was (S5, S6): the hedged-date finding; "a generation or more" rests on modern reckoning and is cut; "after Domitian's death" stands on his lives ending with Domitian).
+- "He tells the expulsion in that one sentence, with no year, number or source. " → cut (Outline, Also told (E1, E3): a tell (a sentence that only says what is missing); cut).
+- "Suetonius names Chrestus without saying who he was or where. The name is close" → "The name Chrestus is close" (Outline, Also told (D1): a tell; cut, and "The name" becomes "The name Chrestus" so the next sentence keeps its subject).
+- "That is all Suetonius set down: seven Latin words between old Troy's tax and the German envoys' seats at the theater, and nine between the taverns' beans and greens and the chariot drivers." → cut (Kit Part 1, Craft (no summing-up close): a tell; cut, so the story ends on Bede joining the line to Acts).
