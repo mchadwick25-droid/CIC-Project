@@ -32481,9 +32481,10 @@
        "note": "Irenaeus's own words."
       },
       {
-       "when": "\"the tenth year of the reign of Commodus\"",
+       "when": "\"the tenth year of the reign of Commodus\", about 189",
        "text": "Victor becomes bishop of Rome.",
-       "reference": "Eusebius, Church History V.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml line 31003"
+       "reference": "Eusebius, Church History V.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml line 31003",
+       "note": "About 189: counted from the start of Commodus's reign alone, in 180."
       },
       {
        "when": "date unknown",
@@ -33458,10 +33459,10 @@
        "reference": "Jerome, Lives of Illustrious Men 79, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41022-41025"
       },
       {
-       "when": "in the twenty-first year of Constantine, by the Chronicle",
+       "when": "in the twenty-first year of Constantine, about 327, by the Chronicle",
        "text": "Jerome's Chronicle says dreams drove Arnobius, still a pagan, toward belief, and the bishop would not take him in. So he wrote brilliant books against his old religion, and at last, as if with hostages for his devotion, he was let in.",
        "reference": "Jerome, Chronicle, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 45066-45076; cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt lines 21713-21718",
-       "note": "Jerome's two books set Arnobius in different reigns. The story rests on Jerome alone."
+       "note": "Jerome's two books set Arnobius in different reigns. The story rests on Jerome alone. About 327: counted from the start of Constantine's reign in 306; the Chronicle's own count of years gives the same."
       },
       {
        "when": "date unknown",
@@ -33497,7 +33498,7 @@
        "note": "That he was Arnobius's pupil rests on Jerome."
       },
       {
-       "when": "the feast of Terminus, in the eighth consulship of Diocletian and the seventh of Maximian",
+       "when": "the feast of Terminus, in the eighth consulship of Diocletian and the seventh of Maximian, 303",
        "text": "At dawn the prefect and his officers force the church at Nicomedia, burn the Scriptures, and the Praetorian Guards level the building, on a day chosen to end the Christian religion.",
        "reference": "Lactantius, On the Deaths of the Persecutors 12, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 10152-10161; the year is a conversion, worked out from the consuls Lactantius names",
        "note": "Lactantius's own account."
@@ -33814,10 +33815,10 @@
      "witness": "Serapion, in what he wrote to the church at Rhossus, kept by Eusebius",
      "lines": [
       {
-       "when": "in the tenth year of Commodus",
+       "when": "in the tenth year of Commodus, about 189",
        "text": "Eusebius names Serapion, the eighth bishop from the apostles, as bishop of the church at Antioch in these years.",
        "reference": "Eusebius, Church History V.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 31003, 31060-31061",
-       "note": "Eusebius's account, written about a century later."
+       "note": "Eusebius's account, written about a century later. About 189: counted from the start of Commodus's reign alone, in 180."
       },
       {
        "when": "date unknown",
@@ -34419,7 +34420,7 @@
      ]
     },
     {
-     "when": "\"the tenth year of the reign of Severus\"",
+     "when": "\"the tenth year of the reign of Severus\", about 202",
      "headline": "Persecution empties the city of teachers, and Origen's first pupils die",
      "witness": "Eusebius of Caesarea, Church History, writing about a century later, from letters and from people who had known Origen",
      "lines": [
@@ -34429,9 +34430,10 @@
        "reference": "Eusebius, Church History VI.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397-32433, 32511-32533"
       },
       {
-       "when": "date unknown",
+       "when": "In his eighteenth year, about 203",
        "text": "With every teacher of the faith driven out by the threat of persecution, pagans come to Origen to hear the word of God. The first is Plutarch, the second his brother Heraclas. Origen is in his eighteenth year.",
-       "reference": "Eusebius, Church History VI.3.1-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32670-32733; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 1215-1219"
+       "reference": "Eusebius, Church History VI.3.1-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32670-32733; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 1215-1219",
+       "note": "About 203: counted from Origen's age, not quite seventeen, in the tenth year of Severus, about 202, counting Severus's reign from 193."
       },
       {
        "when": "date unknown",
@@ -35086,9 +35088,10 @@
      "witness": "Aphrahat, in his own letters",
      "lines": [
       {
-       "when": "\"the six hundred and fifty-fifth year\" of the Greeks",
+       "when": "\"the six hundred and fifty-fifth year\" of the Greeks, about 344",
        "text": "Aphrahat writes his last twelve letters, in the thirty-fifth year of the Persian king.",
-       "reference": "Aphrahat, Demonstration XXII.25, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 28554-28561"
+       "reference": "Aphrahat, Demonstration XXII.25, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 28554-28561",
+       "note": "About 344: counted from the start of the era of the Greeks, in 312 BC."
       },
       {
        "when": "date unknown",
@@ -35628,12 +35631,12 @@
      "witness": "The Acta, the record of Cyprian's trials and death",
      "lines": [
       {
-       "when": "30 August, when Valerian and Gallienus were consuls",
+       "when": "30 August 257, when Valerian and Gallienus were consuls",
        "text": "The proconsul tells Cyprian that the emperors Valerian and Gallienus have ordered those who do not keep the Roman religion to take part in the Roman rites. Cyprian answers that he is a Christian and a bishop, and is sent into exile at Curubis.",
        "reference": "Acta Proconsularia 1, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41413-41432"
       },
       {
-       "when": "13 September, when Tuscus and Bassus were consuls",
+       "when": "13 September 258, when Tuscus and Bassus were consuls",
        "text": "Officers come for Cyprian, who has returned and is staying in his gardens. He is held at an officer's house, and all his people gather in the street outside the door, where he has the girls looked after.",
        "reference": "Acta Proconsularia 2, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41470-41476, 41510-41516; cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4878-4880"
       },
@@ -35811,7 +35814,7 @@
        "reference": "Possidius, Life of Augustine 29, 31, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4144-4148, 4936-4938"
       },
       {
-       "when": "28 August, when Theodosius and Valentinian were consuls",
+       "when": "28 August 430, when Theodosius and Valentinian were consuls",
        "text": "Augustine dies, aged seventy-six, Possidius says, almost forty years of them as priest or bishop.",
        "reference": "Prosper, Chronicle, cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt lines 54201-54208; Possidius, Life of Augustine 31, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4919-4920"
       },
@@ -37405,9 +37408,10 @@
        "reference": "Ibn al-Nadim, Fihrist, in Flügel's German, cic/texts/mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862.txt lines 4366-4371"
       },
       {
-       "when": "in his thirteenth year, the second year of Ardashir, King of Kings",
+       "when": "in his thirteenth year, the second year of Ardashir, King of Kings, about 228",
        "text": "Biruni writes that Mani received his first revelation in his thirteenth year.",
-       "reference": "al-Biruni, Chronology of Ancient Nations, cic/texts/biruni_chronology-of-ancient-nations_sachau1879.txt lines 29098-29100"
+       "reference": "al-Biruni, Chronology of Ancient Nations, cic/texts/biruni_chronology-of-ancient-nations_sachau1879.txt lines 29098-29100",
+       "note": "About 228: Biruni also gives the year 539 of the era of Alexander, which is counted from 312 BC."
       },
       {
        "when": "when he had completed his twelfth year",
@@ -38364,10 +38368,10 @@
        "note": "Eusebius's own words, not the elder's."
       },
       {
-       "when": "\"about the nineteenth year of Antoninus Pius\"",
+       "when": "\"about the nineteenth year of Antoninus Pius\", about 156",
        "text": "Epiphanius dates the rise of the movement to this year.",
        "reference": "Epiphanius, Panarion 48.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17018-17019",
-       "note": "Epiphanius wrote about two centuries later; the elder gives no year."
+       "note": "Epiphanius wrote about two centuries later; the elder gives no year. About 156: counted from the start of Antoninus's reign in 138."
       }
      ]
     },
@@ -38558,9 +38562,10 @@
        "reference": "Basil, Letter 188, cic/texts/npnf208_basil-letters-select-works.xml lines 34871-34881"
       },
       {
-       "when": "\"the twelfth year of Valentinian and Valens and the eighth of Gratian\"",
+       "when": "\"the twelfth year of Valentinian and Valens and the eighth of Gratian\", about 375",
        "text": "Epiphanius writes that Pepuza lies deserted and razed, yet the believers still go there for their rites, saying the Jerusalem from above comes down there. He says they are found in Cappadocia, Galatia, Phrygia, Cilicia, and most of all in Constantinople.",
-       "reference": "Epiphanius, Panarion 48.2 and 48.14, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17224-17228, 18466, 18512-18517; cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt lines 3032-3037"
+       "reference": "Epiphanius, Panarion 48.2 and 48.14, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17224-17228, 18466, 18512-18517; cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt lines 3032-3037",
+       "note": "About 375: counted from the start of the reign of Valentinian and Valens in 364."
       },
       {
        "when": "date unknown",
@@ -87424,7 +87429,7 @@
    "name": "Origen",
    "shortName": "Origen",
    "informalName": "Origen of Alexandria",
-   "dates": "3rd c.",
+   "dates": "about 185 to 251–253",
    "start": 203,
    "end": 253,
    "region": "Alexandria, Caesarea Maritima",
@@ -87601,7 +87606,7 @@
    "card": {
     "knownFor": "Teacher and Bible scholar at Alexandria and Caesarea, who wrote commentaries on Scripture and a book of doctrine that was argued over for centuries.",
     "shortDescription": "Origen taught the Christian faith at Alexandria, in Egypt, and then at Caesarea, in Palestine, and spent his life asking what Scripture means beneath its plain words. He set the Hebrew text beside the Greek translations, and was tortured under the emperor Decius.",
-    "datesNote": "No old source used here gives a calendar year for his life. Eusebius sets the persecution in which his father died in the tenth year of the emperor Severus, when Origen was not quite seventeen. He sets the move to Caesarea in the tenth year of the emperor Alexander. He says Origen was tortured under Decius and died in the time of Gallus, aged sixty-nine. The years in the translators' notes are their own reckoning, and the third century comes from the modern dating of those reigns.",
+    "datesNote": "Eusebius sets the persecution in which his father died in the tenth year of the emperor Severus, about 202, when Origen was not quite seventeen, so he was born about 185. He sets the move to Caesarea in the tenth year of the emperor Alexander, about 231. He says Origen was tortured under Decius, who reigned from 249 to 251, and died in the time of Gallus, who reigned from 251 to 253, aged sixty-nine. These years are counted from the start of each reign: Severus in 193 and Alexander in 222. Sixty-nine years from about 185 runs a year or so past Gallus, so Eusebius's two counts do not quite meet.",
     "placeNote": "Alexandria, in Egypt, where he grew up and first taught; Caesarea, on the coast of Palestine, where he was ordained and later settled and taught; Tyre, where Jerome says he died and was buried",
     "role": "Teacher and Bible scholar",
     "keyWorks": [
@@ -87959,14 +87964,15 @@
     ],
     "timeline": [
      {
-      "when": "In the tenth year of the emperor Severus",
+      "when": "In the tenth year of the emperor Severus, about 202",
       "headline": "A boyhood in Scripture, and his father's death",
       "witness": "Eusebius of Caesarea, from letters and from people who knew him",
       "lines": [
        {
-        "when": "In the tenth year of Severus",
+        "when": "In the tenth year of Severus, about 202",
         "text": "Under the emperor Severus, believers are brought to Alexandria from all Egypt to be tried. Origen's father is among them, and is beheaded while his son is still young.",
-        "reference": "Eusebius, Church History VI.1 and VI.2.2; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397-32460, 32523-32533"
+        "reference": "Eusebius, Church History VI.1 and VI.2.2; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397-32460, 32523-32533",
+        "note": "About 202: counted from the start of Severus's reign in 193."
        },
        {
         "when": "Date unknown",
@@ -87985,19 +87991,22 @@
         "note": "Eusebius gives this as what is said, not as what he knew."
        },
        {
-        "when": "In the tenth year of Severus",
+        "when": "In the tenth year of Severus, about 202",
         "text": "When his father is arrested, the boy longs to die a martyr too. His mother begs him to stay, then hides all his clothes so he cannot go out.",
-        "reference": "Eusebius, Church History VI.2.3-5; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32536-32554"
+        "reference": "Eusebius, Church History VI.2.3-5; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32536-32554",
+        "note": "About 202: counted from the start of Severus's reign in 193."
        },
        {
-        "when": "In the tenth year of Severus",
+        "when": "In the tenth year of Severus, about 202",
         "text": "He writes to his father in prison, urging him not to change his mind for the family's sake.",
-        "reference": "Eusebius, Church History VI.2.6; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32556-32562"
+        "reference": "Eusebius, Church History VI.2.6; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32556-32562",
+        "note": "About 202: counted from the start of Severus's reign in 193."
        },
        {
-        "when": "In the tenth year of Severus",
+        "when": "In the tenth year of Severus, about 202",
         "text": "His father dies a martyr. Origen, not quite seventeen, is left with his mother and six younger brothers, and the family's property is seized.",
-        "reference": "Eusebius, Church History VI.2.12-13; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32607-32613"
+        "reference": "Eusebius, Church History VI.2.12-13; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32607-32613",
+        "note": "About 202: counted from the start of Severus's reign in 193."
        },
        {
         "when": "Date unknown",
@@ -88007,15 +88016,15 @@
       ]
      },
      {
-      "when": "From his eighteenth year",
+      "when": "From his eighteenth year, about 203",
       "headline": "Teaching the faith at Alexandria",
       "witness": "Eusebius of Caesarea",
       "lines": [
        {
-        "when": "In his eighteenth year",
+        "when": "In his eighteenth year, about 203",
         "text": "With the teachers of the faith driven away by persecution, some pagans come to him to hear the word of God, and he takes charge of the teaching.",
         "reference": "Eusebius, Church History VI.3.1 and 3; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32670-32674, 32732-32733",
-        "note": "Eusebius says Origen tells this himself."
+        "note": "Eusebius says Origen tells this himself. About 203: counted from his age, not quite seventeen, in the tenth year of Severus, about 202."
        },
        {
         "when": "Date unknown",
@@ -88082,7 +88091,7 @@
       ]
      },
      {
-      "when": "Years later; the tenth year of the emperor Alexander",
+      "when": "Years later; the tenth year of the emperor Alexander, about 231",
       "headline": "The break with Demetrius, and the move to Caesarea",
       "lines": [
        {
@@ -88129,9 +88138,10 @@
         "note": "A report written about six centuries later, of a lost work; no earlier source used here tells of the gathering."
        },
        {
-        "when": "In the tenth year of Alexander",
+        "when": "In the tenth year of Alexander, about 231",
         "text": "He leaves Alexandria for Caesarea, leaving the teaching there to Heraclas.",
-        "reference": "Eusebius, Church History VI.26; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36330-36334"
+        "reference": "Eusebius, Church History VI.26; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36330-36334",
+        "note": "About 231: counted from the start of Alexander's reign in 222."
        },
        {
         "when": "Date unknown",
@@ -88162,9 +88172,10 @@
         "reference": "Jerome, Lives of Illustrious Men 65; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40775-40787"
        },
        {
-        "when": "When he is over sixty, as they say",
+        "when": "When he is over sixty, as they say, after about 245",
         "text": "He lets shorthand writers take down his public talks for the first time, and writes eight books answering Celsus's True Discourse against the Christians.",
-        "reference": "Eusebius, Church History VI.36.1-2; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37093-37106"
+        "reference": "Eusebius, Church History VI.36.1-2; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37093-37106",
+        "note": "After about 245: counted from his birth, about 185."
        },
        {
         "when": "Date unknown",
@@ -88174,23 +88185,23 @@
       ]
      },
      {
-      "when": "Under the emperor Decius, and the time of Gallus",
+      "when": "Under the emperor Decius, and the time of Gallus, 249 to 253",
       "headline": "Tortured under Decius, and his death",
       "witness": "Eusebius of Caesarea, from Origen's own letters",
       "lines": [
        {
-        "when": "Under Decius",
+        "when": "Under Decius, 249 to 251",
         "text": "Decius persecutes the churches out of hatred for Philip, the emperor before him, Eusebius says.",
         "reference": "Eusebius, Church History VI.39.1; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37383-37384, 37413-37416",
         "note": "Jerome says Decius was mad against the religion of Philip, whom he had killed (Lives of Illustrious Men 54; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40576-40579)."
        },
        {
-        "when": "Under Decius",
+        "when": "Under Decius, 249 to 251",
         "text": "For the word of Christ, Origen endures chains, tortures of the body, the iron collar and the dungeon. For many days his feet are stretched four spaces in the stocks, a wooden frame that held a prisoner's feet apart, and he is threatened with fire.",
         "reference": "Eusebius, Church History VI.39.5; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37484-37507"
        },
        {
-        "when": "Under Decius",
+        "when": "Under Decius, 249 to 251",
         "text": "His judge does all he can not to let him die.",
         "reference": "Eusebius, Church History VI.39.5; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37505-37507",
         "note": "Eusebius gives no reason."
@@ -88201,10 +88212,10 @@
         "reference": "Eusebius, Church History VI.39.5; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37507-37510"
        },
        {
-        "when": "In the time of Gallus",
+        "when": "In the time of Gallus, 251 to 253",
         "text": "He dies, aged sixty-nine. Jerome says he died at Tyre and was buried there.",
         "reference": "Eusebius, Church History VII.1; Jerome, Lives of Illustrious Men 54; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39146-39163; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40589-40591",
-        "note": "Photius says Pamphilus and others wrote that he died a martyr at Caesarea under Decius (Library 118; cic/texts/photius_library-v1_freese1920.txt lines 11449-11454)."
+        "note": "Photius says Pamphilus and others wrote that he died a martyr at Caesarea under Decius (Library 118; cic/texts/photius_library-v1_freese1920.txt lines 11449-11454). Gallus reigned from 251 to 253. Sixty-nine years from his birth, about 185, runs a year or so later."
        }
       ]
      },
@@ -93434,7 +93445,7 @@
    "name": "Polycarp of Smyrna",
    "shortName": "Polycarp",
    "informalName": "Polycarp, bishop of Smyrna",
-   "dates": "2nd c.",
+   "dates": "died 161 to 180",
    "start": 110,
    "end": 155,
    "region": "Smyrna",
@@ -93478,7 +93489,7 @@
    "reviewStatus": "AI-checked",
    "card": {
     "knownFor": "Bishop of the church in Smyrna, in Asia, who wrote to the church at Philippi and was put to death at Smyrna after he refused to curse Christ; his own church wrote the account of his death. Irenaeus, who heard him as a boy, held him up as a witness to what the apostles taught.",
-    "datesNote": "No ancient source gives a year for his birth or his death. His church's account dates his death to a great Sabbath, the second day of the month Xanthicus, and gives no year. Irenaeus says he was at Rome when Anicetus was bishop there, and Eusebius and Jerome put his death in the reign of Marcus Aurelius. The second century comes from the modern dating of those reigns.",
+    "datesNote": "No ancient source gives a year for his birth or his death. His church's account dates his death to a great Sabbath, the second day of the month Xanthicus, and gives no year. Irenaeus says he was at Rome when Anicetus was bishop there, and Eusebius and Jerome put his death in the reign of Marcus Aurelius, who reigned from 161 to 180.",
     "placeNote": "Smyrna, in Asia, where he was bishop and died in the stadium; farms near the city, where he withdrew before his arrest; Rome, where he met Anicetus",
     "role": "Bishop of the church in Smyrna; martyr",
     "keyWorks": [
@@ -96811,19 +96822,22 @@
         "reference": "Martyrs of Palestine 4.8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46166-46173"
        },
        {
-        "when": "The fifth year of the persecution",
+        "when": "The fifth year of the persecution, about 307",
         "text": "After the Nones of November in the fifth year, Urbanus puts others in prison after severe tortures, and among them Pamphilus, whom Eusebius calls his dearest friend.",
-        "reference": "Martyrs of Palestine 7.1-4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46620-46697"
+        "reference": "Martyrs of Palestine 7.1-4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46620-46697",
+        "note": "About 307: counted from the start of the persecution in 303."
        },
        {
-        "when": "The fifth year of the persecution",
+        "when": "The fifth year of the persecution, about 307",
         "text": "Urbanus first tests him in rhetorical philosophy and learning, then tries to force him to sacrifice. He refuses and ignores the threats.",
-        "reference": "Martyrs of Palestine 7.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46700-46705"
+        "reference": "Martyrs of Palestine 7.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46700-46705",
+        "note": "About 307: counted from the start of the persecution in 303."
        },
        {
-        "when": "The fifth year of the persecution",
+        "when": "The fifth year of the persecution, about 307",
         "text": "In anger the governor has his sides scraped in long torture, then puts him in prison with the confessors.",
-        "reference": "Martyrs of Palestine 7.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46705-46709"
+        "reference": "Martyrs of Palestine 7.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 46705-46709",
+        "note": "About 307: counted from the start of the persecution in 303."
        }
       ]
      },
@@ -101967,7 +101981,7 @@
      "Theophorus"
     ],
     "knownFor": "Bishop of the church at Antioch in Syria. As a prisoner bound for death in the arena at Rome, he wrote seven letters: keep together around your bishop, hold that Christ truly suffered, and, to Rome, do not save me.",
-    "datesNote": "His letters give no year. Eusebius, about two centuries later, sets his death in the reign of the emperor Trajan, when Trajan stirred up persecution against the Christians. Jerome gives the eleventh year of Trajan, and the later Martyrdom of Ignatius the ninth, a numeral its editors call uncertain.",
+    "datesNote": "His letters give no year. Eusebius, about two centuries later, sets his death in the reign of the emperor Trajan, when Trajan stirred up persecution against the Christians. Jerome gives the eleventh year of Trajan, about 108, and the later Martyrdom of Ignatius the ninth, about 106, a numeral its editors call uncertain.",
     "placeNote": "Antioch in Syria; Smyrna and Troas on the road to Rome",
     "role": "Bishop and martyr",
     "keyWorks": [
@@ -102343,10 +102357,10 @@
         "note": "Written about two centuries later."
        },
        {
-        "when": "In the eleventh year of Trajan, Jerome says",
+        "when": "In the eleventh year of Trajan, about 108, Jerome says",
         "text": "Jerome dates his death to the eleventh year of Trajan.",
         "reference": "Jerome, Lives of Illustrious Men 16, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39829-39830",
-        "note": "Written much later; Jerome also has him speak the wheat line as he heard the lions roaring."
+        "note": "Written much later; Jerome also has him speak the wheat line as he heard the lions roaring. About 108: counted from the start of Trajan's reign in 98."
        }
       ]
      },
@@ -105331,7 +105345,7 @@
     ],
     "knownFor": "A teacher in the church at Rome in the early 200s who wrote in Greek. In his Refutation of All Heresies, a book against every teaching he held false, he attacked the bishop Callistus, and in 235 he was deported to Sardinia with Rome's bishop.",
     "shortDescription": "Hippolytus taught in the church at Rome in the early 200s, wrote in Greek, and held that the Son was another beside the Father, yet one God with him. He would not give way to two bishops of Rome on this or on forgiveness, and in 235 he was sent to Sardinia with Rome's bishop.",
-    "datesNote": "No old source gives the year of his birth or of his death. He taught at Rome while Zephyrinus was bishop and after Callistus took his place. Rome's list of bishops, in the book of 354, dates his deportation to Sardinia by the consuls of the year, Severus and Quintianus, which is 235. Eusebius says his Easter table ran to the first year of the emperor Alexander.",
+    "datesNote": "No old source gives the year of his birth or of his death. He taught at Rome while Zephyrinus was bishop and after Callistus took his place. Rome's list of bishops, in the book of 354, dates his deportation to Sardinia by the consuls of the year, Severus and Quintianus, which is 235. Eusebius says his Easter table ran to the first year of the emperor Alexander, about 222.",
     "placeNote": "Rome, where he taught; Sardinia, to which he was deported with Rome's bishop; the Tiburtine Road, where Rome's calendar of martyrs places him.",
     "role": "Teacher and writer in the church at Rome. Rome's list of bishops calls him an elder; Eusebius says he led another church, and Jerome and Theodoret call him a bishop.",
     "keyWorks": [
@@ -105672,8 +105686,9 @@
        },
        {
         "when": "Date unknown",
-        "text": "He draws up a table, on a cycle of sixteen years, for finding the day of Easter; Eusebius says it ran to the first year of the emperor Alexander.",
-        "reference": "Eusebius, Church History VI.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35650-35651 and 35778-35780; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 4098-4102"
+        "text": "He draws up a table, on a cycle of sixteen years, for finding the day of Easter; Eusebius says it ran to the first year of the emperor Alexander, about 222.",
+        "reference": "Eusebius, Church History VI.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35650-35651 and 35778-35780; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 4098-4102",
+        "note": "About 222: the first year of Alexander's reign."
        },
        {
         "when": "Date unknown",
@@ -107531,7 +107546,7 @@
    "major": false,
    "activeYear": 270,
    "name": "Anatolius of Alexandria and Laodicea",
-   "dates": "flourished under Probus and Carus",
+   "dates": "flourished under Probus and Carus, 276 to 283",
    "start": 270,
    "end": 280,
    "region": "Alexandria, Laodicea",
@@ -107671,7 +107686,7 @@
     ],
     "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
     "shortDescription": "Anatolius, a learned Christian of Alexandria, used a vote of the city council to get almost all the besieged out of the palace quarter of the city. He later became bishop of Laodicea in Syria and wrote a rule for finding the date of Easter, and centuries later both sides of a quarrel over Easter claimed him.",
-    "datesNote": "No old source gives a year for his birth, for his becoming bishop or for his death, or ties a year to the siege he lived through. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus. The later 200s comes from the modern dating of those reigns.",
+    "datesNote": "No old source gives a year for his birth, for his becoming bishop or for his death, or ties a year to the siege he lived through. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus, who reigned from 276 to 283.",
     "placeNote": "Alexandria, in Egypt, where he was born and lived through the siege of the palace quarter; Caesarea in Palestine, where he was made a second bishop; Laodicea in Syria, where he was bishop",
     "role": "Scholar of Alexandria, then bishop at Caesarea in Palestine and at Laodicea in Syria",
     "keyWorks": [
@@ -108058,7 +108073,7 @@
         "reference": "Eusebius, Church History VII.32.21 and VII.32.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42938-42940; 42683-42684"
        },
        {
-        "when": "Under the emperors Probus and Carus",
+        "when": "Under the emperors Probus and Carus, 276 to 283",
         "text": "Jerome says that Anatolius of Alexandria, bishop of Laodicea in Syria, flourished then.",
         "reference": "Jerome, Lives of Illustrious Men 73, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40932-40934",
         "note": "Elias of Nisibis, much later, says he lived in the time of the emperor Gallus."
@@ -108529,14 +108544,15 @@
       ]
      },
      {
-      "when": "The fourth Easter of the persecution",
+      "when": "The fourth Easter of the persecution, about 306",
       "headline": "The rules for taking back the fallen",
       "witness": "Peter's own words, in the Canonical Epistle",
       "lines": [
        {
-        "when": "The fourth Easter of the persecution",
+        "when": "The fourth Easter of the persecution, about 306",
         "text": "Peter writes of Christians who were jailed and tortured until they gave way, and of those already in a third year of mourning their fall. He says they did not come to this by choice.",
-        "reference": "Peter of Alexandria, Canonical Epistle, canon 1, tr. Hawkins; Greek in the Pedalion"
+        "reference": "Peter of Alexandria, Canonical Epistle, canon 1, tr. Hawkins; Greek in the Pedalion",
+        "note": "About 306: counted from the start of the persecution in February 303, before that year's Easter."
        },
        {
         "when": "The fourth Easter of the persecution",
@@ -121263,7 +121279,7 @@
    "major": false,
    "activeYear": 451,
    "name": "Euthymius the Great",
-   "dates": "born under Gratian; died under the emperor Leo",
+   "dates": "377 to about 473",
    "start": 377,
    "end": 473,
    "region": "Melitene, the Judean desert",
@@ -121300,7 +121316,7 @@
      "Euthymius"
     ],
     "knownFor": "A monk from Melitene who settled in the desert near Jerusalem, baptized a Saracen chief and his people by Cyril of Scythopolis's account, and held to the Council of Chalcedon when most Palestinian monks turned against it.",
-    "datesNote": "Born, by Cyril of Scythopolis, in the fourth consulship of Gratian; died, by Cyril, in the sixteenth year of the emperor Leo. The sources used here give no year in our reckoning",
+    "datesNote": "Born, by Cyril of Scythopolis, in the fourth consulship of Gratian, which is 377; died, by Cyril, in the sixteenth year of the emperor Leo, about 473, counting Leo's reign from 457. Cyril also says he died in the ninety-ninth year of his life, which counted from 377 runs about two years later",
     "placeNote": "Melitene in Armenia; Jerusalem; Pharan; the Judean desert",
     "role": "Monk, priest and founder of a laura",
     "legacy": {
