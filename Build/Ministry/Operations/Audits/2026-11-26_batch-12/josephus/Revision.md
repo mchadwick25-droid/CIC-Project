@@ -101,3 +101,19 @@ A blind reader compared the brief with a reference and found three faults. Mark 
 The essence is complete at word 207. The approved heart timing was word 192; the grading fixes before the blind test added the prediction clause ("and foretold that the general would be emperor. When that came true,"), and the tested brief also completes at 207.
 
 Scorer: 793 words, grade 9.2 (names out 8.4), reading ease names out 72.1, 20.9 words a sentence, 0.3 joining words per 100, 8% short sentences, longest sentence 35 words: pass.
+
+## After the second grading, carrying out Mark's ruling "fix the points" (2026-11-28)
+
+Three blind readers named four points, each by two or three of them. Mark ruled "fix the points": the smallest change for each, every other sentence word for word. Backup of the brief before these changes: `josephus.brief.v4.txt`. The census `longDescription` carries the same changes; the card holds none of these sentences.
+
+| Point | Old | New | Source line |
+|---|---|---|---|
+| 1. The surrender told twice | Paragraph 2: …rose against Rome in 66. In 67 he gave himself up to Vespasian and foretold that the general would be emperor. When that came true, he lived on at Rome under the emperors' favor. In his people's history, finished there about 93, … | Paragraph 2: …rose against Rome in 66. In his people's history, finished at Rome about 93, … | JW 91662–91666 (finished in Domitian's thirteenth year, E11); JW 5403–5413 ("when we were come to Rome", S4) |
+| 1, continued: the surrender and Rome told once, after the cave | …by chance or by God's providence, he writes, and persuaded him to live. | …by chance or by God's providence, he writes, and persuaded him to live. Then he gave himself up to Vespasian and foretold that the general would be emperor. When that came true, he lived on at Rome under the emperors' favor. | JW 111135–111137 (led by Nicanor to Vespasian); JW 111171–111205 (the prediction); JW 117837–117841 (Vespasian, emperor, frees him); JW 5407–5413 (S4) |
+| 2. "The passage itself says he was the Christ" | …his Latin says only that Jesus was believed to be the Christ. The passage itself says he was the Christ. | …his Latin says only that Jesus was believed to be the Christ. | Cut; the quote ("This man was the Christ.", JW 81405–81421) stands on its own |
+| 3. The gloss on "the Greeks" a sentence of its own | Its key word, the Christ, means the Messiah, the anointed one the Jewish people awaited. "About this time … This man was the Christ." The Greeks are those who were not Jewish. | Its key word, the Christ, means the Messiah, the anointed one the Jewish people awaited, and when it speaks of Greeks, it means those who were not Jewish. "About this time … This man was the Christ." | Source_Sheet E14 (the Greek "of the Greek world", Whiston's "Gentiles", non-Jews; JVL 50993–51005, ADON 80255–80262) |
+| 4. "the north of the country" names no country | a walled town in Galilee, in the north of the country, | a walled town in Galilee, in the north of Judea, | JW 109146 (taking Jotapata, Vespasian "should take all Judea"); JW 107912–107913 ("the Romans' ill success in Judea"); JW 108251–108257 (Galilee bounded on the south by Samaria, on the north by Tyre) |
+
+Point 1 departs from the outline's Do not say line "Do not tell the surrender again after the lots: the essence tells it once". That line assumed the essence told the surrender; by Mark's ruling the essence no longer does, so the surrender is told once, after the lots. The "In 67" of the moved sentence became "Then", since the opening already sets the cave in 67. The essence is now complete at word 178.
+
+Scorer: 790 words, grade 9.6 (names out 8.8), reading ease names out 71.2, 21.9 words a sentence, 0.3 joining words per 100, 3% short sentences, longest sentence 35 words: pass.
