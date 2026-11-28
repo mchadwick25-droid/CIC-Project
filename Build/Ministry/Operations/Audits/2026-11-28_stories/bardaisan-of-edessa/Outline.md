@@ -17,7 +17,7 @@ Sheet items (S, E, I, D, X) are in `Source_Sheet.md`, which gives each file and 
 
 ## Length
 
-About 4:30 (Decision-Log, "2026-11-19 — Batch 6: Bardaisan's length (Mark)"), about 675 words. Count the story must carry: Q1 + Q2 + Q3 about 55 words; glosses (fate, Syriac, Marcion's followers, Valentinus's followers, the body charge, meters, a pagan rite) about 90; credited witnesses (Philip, Eusebius twice, Ephrem, a later historian, Epiphanius, Jerome) about 60. Beats as planned run about 845 (recount at the outline check); the Cut first list brings it to about 675.
+About 5:15, up to about 790 words, for this story only (Mark, 2026-11-28, after the draft ran 784 words with every Cut first item dropped; it replaces the batch 6 "about 4:30"). Count the story must carry: Q1 + Q2 + Q3 about 55 words; glosses (fate, Syriac, Marcion's followers, Valentinus's followers, the body charge, meters, a pagan rite) about 90; credited witnesses (Philip, Eusebius twice, Ephrem, a later historian, Epiphanius, Jerome) about 60. Beats as planned run about 845 (recount at the outline check); the Cut first list brings it to about 675.
 
 ## Setting
 
