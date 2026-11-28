@@ -613,7 +613,8 @@
       "original": "alienus est, profanus est, hostis est. habere non potest Deum patrem qui ecclesiam non habet matrem.",
       "originalFile": "cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt",
       "originalLines": "363-365",
-      "uncertain": "The English print has no longer, which is not in the Latin; the modern English follows the Latin. The Latin profanus is rendered unholy, where the print says profane."
+      "uncertain": "The English print has no longer, which is not in the Latin; the modern English follows the Latin. The Latin profanus is rendered unholy, where the print says profane.",
+      "secondReading": "same"
     },
     {
       "modern": "This plague and pestilence, which seems so dreadful and deadly, searches out how just each person is. It tests the minds of the human race. Do the healthy serve the sick? Do relatives love their kin as they ought? Do masters pity their sick slaves? Do doctors not abandon the sick who plead with them?",
@@ -624,7 +625,8 @@
       "original": "pestis ista et lues quae horribilis et feralis uidetur explorat iustitiam singulorum et mentes humani generis examinat, an infirmis seruiant sani, an propinqui cognatos pie diligant, an misereantur seruorum languentium domini, an deprecantes aegros non deserant medici",
       "originalFile": "cic/texts/cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt",
       "originalLines": "584-588",
-      "uncertain": "The Latin clauses begin with an, whether, and the modern English asks them as questions. The Latin servi are slaves, where the English print says servants, a word whose modern sense misleads."
+      "uncertain": "The Latin clauses begin with an, whether, and the modern English asks them as questions. The Latin servi are slaves, where the English print says servants, a word whose modern sense misleads.",
+      "secondReading": "same"
     },
     {
       "modern": "It remains for each of us to say what we think on this matter. We judge no one, and we cut no one off from communion if he thinks otherwise. For none of us sets himself up as a bishop of bishops. None of us drives his colleagues to obey by a tyrant's terror.",
@@ -635,7 +637,8 @@
       "original": "re singuli quid sentiamus proferamus neminem iudicantes aut a iure communicationis aliquem si diuersum senserit amouentes. neque enim quisquam nostrum episcopum se episcoporum constituit aut tyrannico terrore ad obsequendi necessitatem collegas suos adigit",
       "originalFile": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt",
       "originalLines": "138-142",
-      "uncertain": "We judge no one renders the Latin participle iudicantes, judging no one. The original given starts at re singuli; the opening words, superest ut de hac ipsa, stand at line 121, with Hartel's notes between."
+      "uncertain": "We judge no one renders the Latin participle iudicantes, judging no one. The original given starts at re singuli; the opening words, superest ut de hac ipsa, stand at line 121, with Hartel's notes between.",
+      "secondReading": "minor"
     },
     {
       "modern": "Thanks be to God.",

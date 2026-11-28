@@ -2967,53 +2967,53 @@
   },
   {
    "id": "cyprian-of-carthage",
-   "quote": "less than plainly and faithfully",
-   "original": {
-    "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
-    "lines": "2967-2968",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "cyprian-of-carthage",
-   "quote": "Whoever does not have the Church as mother cannot have God as Father.",
+   "quote": "He is a stranger, he is unholy, he is an enemy. The one who does not have the Church as mother cannot have God as Father.",
    "original": {
     "file": "cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt",
-    "lines": "364-365",
+    "lines": "363-365",
     "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "cyprian-of-carthage",
-   "quote": "Do the healthy serve the sick? Do relatives love their kin as they should? Do masters pity their sick slaves? Do doctors stand by the sick who beg for help?",
+   "quote": "This plague and pestilence, which seems so dreadful and deadly, searches out how just each person is. It tests the minds of the human race. Do the healthy serve the sick? Do relatives love their kin as they ought? Do masters pity their sick slaves? Do doctors not abandon the sick who plead with them?",
    "original": {
     "file": "cic/texts/cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt",
-    "lines": "586-588",
+    "lines": "584-588",
     "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "cyprian-of-carthage",
-   "quote": "For none of us sets himself up as a bishop of bishops, or drives his fellow bishops by a tyrant's terror to obey.",
+   "quote": "It remains for each of us to say what we think on this matter. We judge no one, and we cut no one off from communion if he thinks otherwise. For none of us sets himself up as a bishop of bishops. None of us drives his colleagues to obey by a tyrant's terror.",
    "original": {
     "file": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt",
-    "lines": "140-142",
+    "lines": "138-142",
     "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/Final_Check.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyprian-of-carthage",
+   "quote": "Thanks be to God.",
+   "original": {
+    "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+    "lines": "4910-4911",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/Final_Check.md",
     "verdict": "same"
    }
   },
