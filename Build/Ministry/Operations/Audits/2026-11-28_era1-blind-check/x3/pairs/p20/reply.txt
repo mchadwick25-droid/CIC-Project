@@ -1,0 +1,21 @@
+X is somewhat better.
+
+Reasons:
+1. X keeps one question alive from start to end: will Rome spare him? It sets it up with "do not save me" and "it would be hard for him to reach God", and closes it with "became food for wild beasts". Y moves through topics (the book, Jerome's brother, the curtain, Constantinople) with no clear thread.
+2. X keeps its names few and needed. Y uses more than ten (Adam, Augustine, Jerome, Theophilus, Socrates, Sozomen, the Long Brothers, John Chrysostom...).
+3. Y has the better rigor on a disputed point. It credits both sides: "The historian Socrates says... Another historian, Sozomen, says instead..." X has nothing of that kind to handle.
+
+Faults in X:
+- Told twice, and the ending told before going back: "Polycarp... sent them on, and later bishops quoted them for centuries" comes back in paragraph 6.
+- A how-we-know line: "they tell nearly all we know of him."
+- "he wrote" appears three times in paragraph 5; the gloss in "the elders, the council who led a church with its bishop, were fitted" breaks up the sentence.
+- A flat close that starts with a later writer: "Eusebius also wrote that, by report..."
+
+Faults in Y:
+- The ending told early, then told again: "Later writers, from Augustine to a council at Nicaea... took his book as their list" and "In old age he carried the same fight", both before paragraph 3, and repeated in paragraphs 6–7.
+- Told twice: "He named eighty heresies as poisons and set a cure beside each" repeats the preface quote.
+- A historian's anecdote told as fact: "He had not, and had judged them by report."
+- "about 375" rests on one way of reckoning the date.
+
+X: B
+Y: C

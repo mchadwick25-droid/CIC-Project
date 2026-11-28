@@ -1,0 +1,380 @@
+[
+ {
+  "pair": "p01",
+  "story": "peter-of-alexandria",
+  "story_branch": "claude/cft-story-peter-of-alexandria",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/peter-of-alexandria.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p02",
+  "story": "peter-of-alexandria",
+  "story_branch": "claude/cft-story-peter-of-alexandria",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/peter-of-alexandria.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p03",
+  "story": "peter-of-alexandria",
+  "story_branch": "claude/cft-story-peter-of-alexandria",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/peter-of-alexandria.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p04",
+  "story": "cyprian-of-carthage",
+  "story_branch": "claude/cft-story-cyprian-of-carthage",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/cyprian-of-carthage.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p05",
+  "story": "cyprian-of-carthage",
+  "story_branch": "claude/cft-story-cyprian-of-carthage",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/cyprian-of-carthage.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p06",
+  "story": "cyprian-of-carthage",
+  "story_branch": "claude/cft-story-cyprian-of-carthage",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/cyprian-of-carthage/cyprian-of-carthage.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p07",
+  "story": "pamphilus-of-caesarea",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/pamphilus-of-caesarea/pamphilus-of-caesarea.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p08",
+  "story": "pamphilus-of-caesarea",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/pamphilus-of-caesarea/pamphilus-of-caesarea.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p09",
+  "story": "pamphilus-of-caesarea",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/pamphilus-of-caesarea/pamphilus-of-caesarea.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p10",
+  "story": "clement-of-alexandria",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/clement-of-alexandria/clement-of-alexandria.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p11",
+  "story": "clement-of-alexandria",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/clement-of-alexandria/clement-of-alexandria.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p12",
+  "story": "clement-of-alexandria",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/clement-of-alexandria/clement-of-alexandria.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p13",
+  "story": "hippolytus-of-rome",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/hippolytus-of-rome/hippolytus-of-rome.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p14",
+  "story": "hippolytus-of-rome",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/hippolytus-of-rome/hippolytus-of-rome.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p15",
+  "story": "hippolytus-of-rome",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/hippolytus-of-rome/hippolytus-of-rome.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p16",
+  "story": "tatian",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/tatian/tatian.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p17",
+  "story": "tatian",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/tatian/tatian.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p18",
+  "story": "tatian",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/tatian/tatian.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p19",
+  "story": "ignatius-of-antioch",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/ignatius-of-antioch/ignatius-of-antioch.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p20",
+  "story": "ignatius-of-antioch",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/ignatius-of-antioch/ignatius-of-antioch.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p21",
+  "story": "ignatius-of-antioch",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/ignatius-of-antioch/ignatius-of-antioch.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p22",
+  "story": "tacitus",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/tacitus/tacitus.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p23",
+  "story": "tacitus",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/tacitus/tacitus.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p24",
+  "story": "tacitus",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/tacitus/tacitus.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p25",
+  "story": "suetonius",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/suetonius/suetonius.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p26",
+  "story": "suetonius",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/suetonius/suetonius.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p27",
+  "story": "suetonius",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/suetonius/suetonius.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p28",
+  "story": "lactantius",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/lactantius/lactantius.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p29",
+  "story": "lactantius",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/lactantius/lactantius.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p30",
+  "story": "lactantius",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/lactantius/lactantius.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p31",
+  "story": "pontius-the-deacon",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/pontius-the-deacon/pontius-the-deacon.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p32",
+  "story": "pontius-the-deacon",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/pontius-the-deacon/pontius-the-deacon.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p33",
+  "story": "pontius-the-deacon",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/pontius-the-deacon/pontius-the-deacon.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p34",
+  "story": "valentinus",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/valentinus/valentinus.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p35",
+  "story": "valentinus",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/valentinus/valentinus.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p36",
+  "story": "valentinus",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/valentinus/valentinus.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p37",
+  "story": "origen",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/origen/origen.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p38",
+  "story": "origen",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/origen/origen.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p39",
+  "story": "origen",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/origen/origen.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p40",
+  "story": "anatolius-of-alexandria-and-laodicea",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/anatolius-of-alexandria-and-laodicea/anatolius-of-alexandria-and-laodicea.brief.txt",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "p41",
+  "story": "anatolius-of-alexandria-and-laodicea",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/anatolius-of-alexandria-and-laodicea/anatolius-of-alexandria-and-laodicea.brief.txt",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "p42",
+  "story": "anatolius-of-alexandria-and-laodicea",
+  "story_branch": "claude/cft-release-batch12-13",
+  "story_path": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/anatolius-of-alexandria-and-laodicea/anatolius-of-alexandria-and-laodicea.brief.txt",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ }
+]

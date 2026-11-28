@@ -1,0 +1,23 @@
+Y is somewhat better overall.
+
+Reasons:
+1. Y carries one question, the blunt bishop against the powerful, from the Eutropius scene to the exile. X drifts into a list of later readers ("Pamphilus... Socrates... Basil... Gregory also sent a friend the Philocalia").
+2. Y credits its disputes cleanly: "Socrates says they removed him from office only for refusing to come... they tell it differently." X does too ("Here the old sources disagree... Jerome, writing over a century later"), but sets it inside denser material.
+3. Y is easier to follow by ear. X's paragraph on On First Principles is a long chain of abstractions followed by a long quote.
+
+Faults in X:
+- Told twice: "He set the Hebrew text beside the Greek translations" and later "He set them side by side in columns with the Hebrew."
+- Too many names. "Chaeremon, a Stoic philosopher, and of Cornutus" are not needed.
+- "His judge did all he could not to let him die" is ambiguous and could mislead, because the judge kept him alive to prolong the torture.
+- The second sentence of the opening runs past 30 words.
+- "fought over them for centuries" is a summing-up phrase.
+- The ending piles reception onto reception.
+
+Faults in Y:
+- It tells the ending, then goes back to it, and so tells it twice: "came back only when his body came home" and later "those who had left the church over John's fall came back."
+- "They decked the altar" has an unclear "they."
+- "they tell it differently" has an unclear "they."
+- The Gothic general episode never says how it bore on John's fall.
+
+X: C+
+Y: B

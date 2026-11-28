@@ -1,0 +1,21 @@
+X is somewhat better overall.
+
+Reasons:
+1. X holds one story with a clear question, how Pontius saw Cyprian's end, and it ends on Pontius's own grief: "Yet I grieve more that I remained behind." Y gives a crowded run of episodes and uses at least ten names (Adam, Augustine, Origen, Jerome, Theophilus, Socrates, Sozomen, John Chrysostom, the Long Brothers).
+2. Both credit sources where they differ. X sets Pontius against Cyprian's own letter: "But Cyprian's own last letter says...". Y sets Socrates against Sozomen ("says instead").
+3. Y's later-reception paragraph is hard to follow on one hearing: "arguing that his eighty chapters never listed the making of images... A book written to answer the council's argument replied with his own letter."
+
+Faults in X:
+- It tells events twice. "Pontius went into exile by choice, heard Cyprian's dream there, and was with him on his last night" gives the plot away before the story tells it.
+- It breaks time order by going back to why Pontius wrote ("The church's forebears, Pontius writes...") after Cyprian's death.
+- "almost all we know of him is his own book" leans toward a stock how-we-know sentence.
+
+Faults in Y:
+- Paragraph 3 previews the ending ("Later writers, from Augustine to a council at Nicaea... In old age he carried the same fight"), and paragraph 15 then tells it again.
+- "a wrong belief held by people led astray ever since Adam" is unclear.
+- "protection for those who may yet fall into it": the "it" is vague.
+- "He had not, and had judged them by report" gives no source.
+- "about 375" may rest on a modern estimate.
+
+X: B
+Y: C

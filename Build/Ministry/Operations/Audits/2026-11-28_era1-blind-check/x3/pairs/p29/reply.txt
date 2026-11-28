@@ -1,0 +1,20 @@
+X is somewhat better.
+
+Reasons:
+1. X tells one story in order, from the book to Jerusalem, then Theophilus, then Constantinople, then death at sea. After paragraph 6, Y breaks into pieces: the disputed book, then "In extreme old age, Lactantius taught Constantine's son Crispus", then Jerome, then Lucifer, then Jerome again.
+2. X credits each witness where they differ: "The historian Socrates says... Another historian, Sozomen, says instead". Y blurs who is speaking: "He was called to Bithynia to teach, he says, and was teaching when 'the temple of God was overthrown.'" Is that Jerome or Lactantius?
+3. X explains what it names ("deacons, the clergy who serve under priests"; "sacraments, the church's holy rites"). It ends on the subject's own image of the church.
+
+X faults:
+- Paragraph 3 tells the later story before it happens, and then tells it again: "Later writers, from Augustine to a council at Nicaea... took his book as their list"; "carried the same fight to Jerusalem and Constantinople". Calling the council a user of his "list" is also loose.
+- "He wrote the Panarion about 375" may rest on an editor's reckoning.
+- "He had not, and had judged them by report" reads as the narrator's verdict and does not credit a witness.
+
+Y faults:
+- The same point is told twice: "religion cannot be forced, since it lives only in the will" and "Religion cannot be compelled, he wrote".
+- "He is the last on the tree of the Latin Apologists" is a report about the tree, not the story.
+- The ending rests on a later writer: "Jerome called Lactantius the most eloquent man..."
+- Some sentences are overlong or awkward: "Lactantius was teaching Latin public speaking at Nicomedia..." and "He called his Divine, a full course on..."
+- The Constantine dream is told without saying which witness holds it.
+
+Grades: X B, Y C+.

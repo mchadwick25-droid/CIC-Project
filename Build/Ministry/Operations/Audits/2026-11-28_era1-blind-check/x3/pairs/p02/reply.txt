@@ -1,0 +1,23 @@
+Y is somewhat better.
+
+Reasons:
+1. Y tells one story in order. X's essence paragraph tells the ending early ("from Augustine to a council at Nicaea... In old age he carried the same fight to Jerusalem and Constantinople"), then tells all of it again in paragraphs 7, 13 and 15.
+2. Y credits its sources with care and tells the listener who each witness is: "Athanasius, a later bishop of Alexandria and an enemy of the Melitians", "Epiphanius... writing some sixty years later". X does this well only once, with Socrates and Sozomen.
+3. Y explains each thing it names in plain words: "communion again: a place in the prayers and in the body and blood of Christ", "The marks were the scars of their torture."
+
+Faults in X:
+- The ending told early and then told again (above).
+- "He wrote the Panarion about 375" jumps back after the story has already reached his old age.
+- "so that no one could say he answered from report alone" reads as the narrator guessing his motive.
+- "against church rules" names the rule without explaining it.
+- "He had not, and had judged them by report" is one witness's account told as plain fact.
+
+Faults in Y:
+- "as if Maximinus had ordered it" is confusing heard once.
+- 311 and the beheading are told twice (paragraphs 3 and 15).
+- "and bishops of Egypt were thrown into prison" is tacked awkwardly onto the end of a sentence.
+- Paragraph 7 is a run of rules that is hard to follow in one hearing.
+- The close on the 692 council ends on later writers, not on Peter.
+
+X: C+
+Y: B+
