@@ -1,0 +1,23 @@
+**Verdict:** Y (Origen) is somewhat better than X (Basil).
+
+**Why Y is ahead:**
+1. **It keeps one question alive from start to finish.** It opens on the boy asking "what the inspired words really meant", and that thread runs through On First Principles, Porphyry's attack and the Philocalia's "first chapter is on how Scripture is to be read".
+2. **Its sourcing is cleaner.** It names its main witness once, early ("Eusebius... who tells most of Origen's life about two generations after his death"). Where the sources differ, it credits each: "Here the old sources disagree... Jerome, writing over a century later". It gives an enemy's charge in the enemy's own words (Porphyry).
+3. **It explains what it names:** "the Seventy, the old Greek translation", "a presbyter, an elder", "the Arians, who taught that the Son of God had a beginning".
+
+**Faults in X:**
+- The ending comes first: "he died before a council... declared it in its creed" appears early, and the 381 council is told again at the close.
+- The lodging is told twice, in paragraph 3 and again in paragraph 13.
+- Praise is told in the narrator's voice: "Basil greeted them as brothers and tended them himself", and "The whole city poured around Basil as he died" is not credited.
+- It is hard to follow by ear: "with the Son, together with the Holy Spirit, and through the Son, in the Holy Spirit".
+- The disagreement over what turned him sits after the essence, and the order wobbles from there.
+- It ends on later writers (Rufinus, Benedict), not on Basil.
+
+**Faults in Y:**
+- The columns of Hebrew and Greek are told twice ("set the Hebrew text beside the Greek translations" and paragraph 7).
+- "and of Cornutus" is never explained. There are too many names: Chaeremon, Cornutus, Philip, Gallus and Pamphilus.
+- "Gregory also sent a friend" does not say which Gregory.
+- The ending, "named him... among the heretics", gives no reason, and the tail hangs on later writers.
+- The "Heretics..." sentence runs past 30 words.
+
+**Grades:** X: C+. Y: B.

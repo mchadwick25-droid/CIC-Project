@@ -1,0 +1,100 @@
+[
+ {
+  "pair": "pair01",
+  "story": "lactantius",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair02",
+  "story": "origen",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair03",
+  "story": "ignatius-of-antioch",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "pair04",
+  "story": "cyprian-of-carthage",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "pair05",
+  "story": "tatian",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "pair06",
+  "story": "peter-of-alexandria",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair07",
+  "story": "suetonius",
+  "reference": "basil-of-caesarea",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair08",
+  "story": "anatolius-of-alexandria-and-laodicea",
+  "reference": "john-chrysostom",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair09",
+  "story": "tacitus",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "pair10",
+  "story": "hippolytus-of-rome",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair11",
+  "story": "clement-of-alexandria",
+  "reference": "john-chrysostom",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair12",
+  "story": "valentinus",
+  "reference": "epiphanius-of-salamis",
+  "story_label": "Y",
+  "reference_label": "X"
+ },
+ {
+  "pair": "pair13",
+  "story": "pontius-the-deacon",
+  "reference": "basil-of-caesarea",
+  "story_label": "X",
+  "reference_label": "Y"
+ },
+ {
+  "pair": "pair14",
+  "story": "pamphilus-of-caesarea",
+  "reference": "john-chrysostom",
+  "story_label": "X",
+  "reference_label": "Y"
+ }
+]

@@ -1,0 +1,25 @@
+**Verdict:** Y (Epiphanius) is clearly better than X (Tatian).
+
+**Why**
+1. **Opening.** Y opens on a concrete image in the subject's own words: "called his book the Panarion, which means a medicine chest... antidotes: cures for those who have been bitten." It closes on the same image ("one thing more after the eighty heresies in his chest of cures"). X opens on two thin claims, then gives a summary that tells the ending before going back ("In the 400s one bishop put away the copies").
+2. **Order and repetition.** X tells several things twice. Tatian leaving the church comes in paragraphs 3 and 11, the Gospel harmony in 3, 15 and 17, and Theodoret's removal of the copies in 3 and 17. X also jumps back in time to "Born, he says, in the land of the Assyrians" after the conversion. Y moves forward in order.
+3. **Crediting where sources differ.** Y credits each side: "The historian Socrates says... Another historian, Sozomen, says instead..."
+
+**Faults in X**
+- A narrator guess: "so he meant the writings of Moses and the prophets."
+- A sentence that only says what is missing: "did not know how Tatian combined the Gospels."
+- A source left vague: "A later Roman teacher gives Tatian's reason."
+- Names that add nothing, such as Rhodon. More than 14 people are named in all.
+- "their learning" comes before the Greeks are introduced.
+- The Diatessaron is explained late.
+- "aeons, invisible heavenly powers" is only thinly explained.
+- There are runs of short one-act sentences.
+
+**Faults in Y**
+- The 787 council at Nicaea is previewed in paragraph 3 and told again in paragraph 15.
+- "took his book as their list" overstates what Augustine and the council did.
+- "A book written to answer the council's argument" is never explained.
+- The explanations sit awkwardly inside the sentence: "he had deacons, the clergy who serve under priests, seize the man."
+- The definition "led astray ever since Adam" is muddy.
+
+**Grades:** X: C-. Y: B+.

@@ -1,0 +1,22 @@
+**Verdict: Y is somewhat better than X.**
+
+**Reasons**
+1. **Y opens on a scene; X opens on a quote.** Y starts with Eutropius "trembling under the altar" while John preaches. That holds the listener and sets up the story's question. X opens on a long quote, and the quote's last line ("they grow all the worse") goes unexplained.
+2. **Y credits its sources where they differ.** "Socrates says they removed him from office only for refusing to come… the meeting's own written record… tell it differently." Palladius is also flagged as partisan: "who… took his side… In his telling."
+3. **Y tells one story in order.** X is arranged by theme ("Three messages run through them"), so it reads as a report about the letters rather than a told journey.
+
+**Faults in X**
+- It tells two things twice. Polycarp passing on the letters comes in paragraph 2 and again in paragraph 15. Eusebius comes in paragraph 5 and again in paragraph 17.
+- "they tell nearly all we know of him" is a how-we-know sentence.
+- "They thought the same of his own sufferings and those of others like him" is unclear.
+- Elders is glossed in a nested clause after the word is already used: "the elders, the council who led a church with its bishop, were fitted…"
+- It ends on a later writer ("by report"), and the death comes in secondhand.
+
+**Faults in Y**
+- The ending is given away early: "came back only when his body came home" in paragraph 2, then again at the close.
+- "and they tell it differently" uses a plural "they" for one record, which is awkward.
+- The Gothic general and the Arians lead nowhere in the story.
+- "His followers kept Easter in the public baths" is unexplained.
+- "his blunt words to the powerful led to his exile" is the narrator compressing the cause.
+
+**Grades:** X: C+. Y: B+.

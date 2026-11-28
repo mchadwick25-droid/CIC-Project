@@ -1,0 +1,20 @@
+**Verdict:** Y is somewhat better than X.
+
+**Reasons**
+1. **Order.** Y keeps one question in view, how to take back the fallen and the split it caused, and follows it to Nicaea. X reads as a run of separate episodes. Its second paragraph tells the ending ahead of time ("Later writers, from Augustine to a council at Nicaea… In old age he carried the same fight to Jerusalem and Constantinople"), and the closing paragraphs then tell both again.
+2. **Credit where sources differ.** Y handles this well: "Athanasius… an enemy of the Melitians, says…" and "Epiphanius… writing some sixty years later, says…". X does it well too with Socrates and Sozomen. But X then tells Socrates' anecdote in its own voice: "He had not, and had judged them by report."
+3. **Vividness.** X is the more vivid script ("It was not spiritual water but real water"; the deacons who "hold his mouth shut"). That narrows the gap.
+
+**Faults in X**
+- It tells the ending first and then again: Augustine and Nicaea 787 appear in both paragraph 2 and the last paragraph, and the Origen fight is previewed before it is told.
+- Too many names for one hearing: Adam, Origen, Jerome, Theophilus, Socrates, Sozomen, John Chrysostom and Augustine.
+- "a wrong belief held by people led astray ever since Adam" is a clumsy gloss.
+- "He had not, and had judged them by report" takes one witness's anecdote and tells it as fact.
+
+**Faults in Y**
+- It tells the end and then goes back. "in 311 Peter was beheaded" comes in paragraph 2, then "He had become bishop about 300" in paragraph 3. The death is later told a second time.
+- "about 300" may rest on an editor's reckoning rather than the old sources.
+- The canons paragraph lists one ruling per sentence and is hard to take in by ear.
+- It ends on a later council ("in 692 a council set its seal…") rather than on Peter himself.
+
+**Grades:** X: C. Y: B.
