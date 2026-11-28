@@ -6463,6 +6463,6 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 **Why.** Reading the Josephus card, Mark asked: "can we say the isrealits or jewish people rather than jews". "Israelites" names the ancient Israel of the Bible and would mislead for the first century. Three options were shown: A, the narrator's own words only; B, A and the quote renderings too; C, every instance, titles included.
 
 **Decided (Mark, 2026-11-28): "A, and make it a rule for every story"; then "yes, use claude/kit-jewish-people for the kit rule".**
-1. In the narrator's own words, a story and its card say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews" (`Brief-Kit/Kit.md`, Part 1, Accessibility, "Plain modern words").
-2. Inside a quotation the source's own word is kept as faithfully rendered. A work is given its own title, faithfully rendered: Mark, on the draft line's example: "no that is a later translation its jewish antiquties", so *Jewish Antiquities*, not *Antiquities of the Jews*.
+1. In our own English, a story and its card say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews" (`Brief-Kit/Kit.md`, Part 1, Accessibility, "Plain modern words").
+2. Quotes too (Mark: "yes, quotes too in the rule"): a quote's modern rendering says "the Jewish people" or "Jewish"; its printed wording stays verbatim. A work is given its own title, faithfully rendered: Mark, on the draft line's example: "no that is a later translation its jewish antiquties", so *Jewish Antiquities*, not *Antiquities of the Jews*.
 3. It governs the next story on, and Josephus, which was unfinished when it was made. It reopens no finished story except by a named change order.
