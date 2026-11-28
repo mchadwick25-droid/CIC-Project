@@ -1,0 +1,49 @@
+{
+ "tree/tertullian-s-voice": [
+  {
+   "quote": "Rival teachers used the Scriptures too, for teachings the churches rejected.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What did Marcion and Valentinus teach?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "later he broke from the prophets too and gathered meetings of his own",
+   "missing": "both",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why did he break from the prophets, and over what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "the very few who were left crossed into the Catholic church, the main body, and handed over their church building",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why did they cross over?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Valentinus kept them whole but bent their meaning",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Bent them to mean what?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S003"
+  }
+ ]
+}

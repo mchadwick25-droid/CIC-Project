@@ -1,0 +1,89 @@
+{
+ "held": {
+  "tree/tertullian-s-voice": [
+   {
+    "quote": "Rival teachers used the Scriptures too, for teachings the churches rejected.",
+    "missing": "what",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "What did Marcion and Valentinus teach?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "later he broke from the prophets too and gathered meetings of his own",
+    "missing": "both",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why did he break from the prophets, and over what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "the very few who were left crossed into the Catholic church, the main body, and handed over their church building",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why did they cross over?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ]
+ },
+ "third": [
+  {
+   "id": "S001",
+   "key": "tree/tertullian-s-voice",
+   "test": "bare statement",
+   "f": {
+    "quote": "If they could not look into the charges openly, from the judge's seat",
+    "missing": "what",
+    "weight": 2,
+    "asks": "What were Christians charged with?"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S002",
+   "key": "tree/tertullian-s-voice",
+   "test": "bare statement",
+   "f": {
+    "quote": "Jerome, who wrote his life, says the envy and insults of the clergy of Rome drove him to it.",
+    "missing": "why",
+    "weight": 2,
+    "asks": "Why did the Roman clergy envy and insult him?"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S003",
+   "key": "tree/tertullian-s-voice",
+   "test": "bare statement",
+   "f": {
+    "quote": "Valentinus kept them whole but bent their meaning",
+    "missing": "what",
+    "weight": 1,
+    "asks": "Bent them to mean what?"
+   },
+   "weights": [
+    1
+   ]
+  }
+ ],
+ "hearts": {
+  "tree/tertullian-s-voice": "Tertullian of Carthage, the first great Christian writer in Latin, defended Christians to Rome's governors, claimed the Scriptures for the apostles' churches, and gave Latin its words for God as one and three. Later he joined the strict New Prophecy and turned against the bishops, yet the Latin church kept reading him."
+ }
+}

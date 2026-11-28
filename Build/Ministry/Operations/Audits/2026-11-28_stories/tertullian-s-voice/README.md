@@ -21,6 +21,19 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 1. Research: done. `Source_Sheet.md` (the batch 7 sheet, brought up to the kit: T6, E8a, I8 added), `Outline.md` (new, to Part 2), `Excerpts.md`.
 2. Review 1, the outline check: done, FIX (1 BLOCKING, 10 MINOR), all applied (`Fixes.md`).
 3. Write: draft written, every Cut first item dropped, 798 words (about 5:19), readability pass (grade 8.2, names out 7.1). Stopped for the length; Mark ruled "a" (about 5:15, up to about 800 words, this story only). Review 2 next.
+4. Review 2: REVISE (3 BLOCKING, 5 MINOR), all applied word for word (`Revision.md`); 790 words.
+5. Card (Sonnet): `tertullian-s-voice.card.json`, `Card_Edits.md`.
+6. Review 3, final check: FIX, card only; 4 card fixes and the optional brief MINOR ("For that teaching on marriage") applied word for word. Quotes: 4 SAME, 1 MINOR, 0 MEANING; release sets `secondReading` [0] minor, [1] [5] [6] same.
+7. Grade (`Grade/`): **C** (rigor C, craft B). Blind (`Grade/Blind_Result.md`): passes, B / C+ / B−.
+8. **Stopped for the manager and Mark:** the grade is under B. Mark signs off at C, or rules the fix pass below; a fix pass is new wording after review 3, so it goes to Mark, then a fresh grading run.
+
+## Handover (context limit reached, 2026-11-28)
+
+A fresh session picks up here. Brief, card and every review are final at commit 564562a8 plus the grade files. What is open:
+- Mark's ruling on the C grade (sign off, or the fixes below).
+- Proposed fixes (my wording, not yet applied; each needs Mark's word and then a regrade): (a) say what Marcion and Valentinus taught, one clause each, from a held line to be added to the outline (Against Marcion for Marcion's two gods; Irenaeus or Against the Valentinians for Valentinus); (b) end on the building handed over, moving Augustine's "many of Tertullian's works … are read" ahead of his list of the heresies; (c) "There he answered them" → "In that book he answered them"; (d) drop Augustine's marriage sentence from paragraph 5 and give his whole verdict once at the end; (e) "Then he came to believe the New Prophecy, a movement from Phrygia" → "The New Prophecy had begun in Phrygia"; (f) "That letter was his Apology" → "Those lines open his Apology".
+- The release then sets `secondReading` per `Final_Check.md`. Not released, no PR (the manager batches releases).
+- Flag for the manager: the census edge `tertullian-s-voice--latin-pastoral-congregational-christianity` note repeats Richardson's error on Cyprian's secretary (JERL 55617–55624).
 
 ## Open items
 
