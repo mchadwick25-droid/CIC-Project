@@ -6533,3 +6533,9 @@ This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 **Why.** The Ebionites tradition grades D on the whole-text method. The grade comes from a record known only through its opponents: the sources hold few scenes in which these people act.
 
 **Decided (Mark, 2026-11-28): "leave it".** Ebionites stays at its live text under his 25 Nov sign-off ("Batch 11: the two rebuilt stories ship", 2026-11-25). The kit shape for traditions known only through their opponents or their writings is still to come to him (Open-Gaps 455). This story only.
+
+## 2026-11-28 — Suetonius: one region, Mediterranean (Mark)
+
+**Why.** The `suetonius` entry listed two regions, Mediterranean and Asia Minor. It is a person entry for a Roman writer, and the second region was the one to drop.
+
+**Decided (Mark, 2026-11-28): "a".** The `regions` of `suetonius` in `cic-website/data/world-census.json` are `["Mediterranean"]`. The tree site is rebuilt. This entry only.
