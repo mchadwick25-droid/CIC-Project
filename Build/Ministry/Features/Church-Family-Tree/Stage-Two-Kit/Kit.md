@@ -21,7 +21,7 @@ Rulings: "The card design: one layout, and a timeline in periods" (2026-11-25), 
 3. A line is dated where the old sources fix the date or it is Widely Accepted. Otherwise it says "date unknown", or gives the record's own phrase ("in Callistus's time"), and sits where it naturally falls in the sequence.
 4. Every line carries its reference directly after the point.
 5. Lines are grouped in periods, each with a date and a one-line headline, closed until opened, with a control to open them all. Where one witness carries a period, that witness is named once at its head; a line keeps its own note only where it differs: a wonder, a contested point, a much later source.
-6. The card writer, on Sonnet, builds it; the card checker, on Opus, checks every line and headline against its source.
+6. The card writer, on Sonnet, builds it; the card checker, on Opus, checks every line and headline against its source, by the card list in `Brief-Kit/roles/final-check.md`.
 
 Ruling: "The card design: one layout, and a timeline in periods" (2026-11-25), items 1 to 6.
 

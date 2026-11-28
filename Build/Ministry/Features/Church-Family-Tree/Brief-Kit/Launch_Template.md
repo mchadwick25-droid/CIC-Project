@@ -8,7 +8,7 @@ Run the Church Family Tree story for **{NAME}** end to end on the brief kit. Rea
 
 **The story.** {SLUG}, its census home {TRADITION}, its card file {CARD}. {THE DECISION-LOG ENTRY WHERE MARK APPROVED IT.} {"APPROVED BEFORE THE KIT AND REVIEWED HERE", OR "NEW".} Run `python tools/list_story_status.py --write` and read era {ERA} in `Story-Ledger.md` first.
 
-**Where things go.** The story folder is `Build/Ministry/Operations/Audits/<date>_{SLUG}/`, with a README that carries the story's step, the open items and its rulings, so a fresh session can pick up from it.
+**Where things go.** The story folder is `Build/Ministry/Operations/Audits/<date>_stories/{SLUG}/`, named for the slug as the kit's tools expect, with a README that carries the story's step, the open items and its rulings, so a fresh session can pick up from it.
 
 **Stops for Mark:** the slate check (step 0), on one page; the heart and length; a BLOCKING outline finding not applied; a blocking fault the final check cannot settle; the finished brief before release; a sibling or shape question; and any recording, in his own words with a credit cap.
 
