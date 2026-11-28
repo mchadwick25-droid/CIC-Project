@@ -3,7 +3,8 @@
 Grade and reading ease are judged with proper names left out of the syllable
 count: the grade must not pass PROFILE_FK_CEILING and the reading ease must
 reach PROFILE_FRE_FLOOR. The grade on the full text is printed beside it; a
-full-text grade under PROFILE_FK_FLOOR is printed as a note and does not fail. The longest sentence is printed. The limits are the
+full-text grade under PROFILE_FK_FLOOR is printed as a note and does not fail.
+The longest sentence is printed. The limits are the
 ones in Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md, Part 1.
 
     python -m engine.m1.profile_readability PATH [PATH ...]

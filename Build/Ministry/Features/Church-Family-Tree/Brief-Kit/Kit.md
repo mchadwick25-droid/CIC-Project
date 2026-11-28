@@ -89,6 +89,6 @@ Block only for unsupported claims (a sentence that softens its source, adds an a
 ### Keeping the kit clean
 
 - Fix a problem where it starts. An error a writer could repeat goes into that outline's Do not say list. A gap in the method goes into the kit.
-- A new ruling rewrites the line it touches. A line is added only when no existing line covers it. Part 1 stays one page. The kit rulings of one working session go to `main` together, in one pull request apart from story work, the same day and before any story uses them; it never lives only on a working branch.
+- A new ruling rewrites the line it touches. A line is added only when no existing line covers it. Part 1 stays one page. The kit rulings of one working session go to `main` together, in one pull request apart from story work, the same day and before any story uses them; they never live only on a working branch.
 - A fix whose wording the fixer writes, whoever the fixer is, and any edit that carries out a ruling, is checked by the next of the three reviews, which reads the sentences on either side; after review 3 it goes to Mark. A fix applied word for word as a checker worded it needs no check. An edit to this kit gets one targeted independent check.
 - Make targeted corrections and preserve approved text. Do not reopen finished briefs for optional polishing. A change to this kit governs the next story on; it reopens a finished story only when Mark says so, as a named change order.
