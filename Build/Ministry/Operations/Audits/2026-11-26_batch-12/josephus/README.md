@@ -1,0 +1,29 @@
+# Josephus: story README (brief kit, one story per thread)
+
+Run under the brief kit as merged in PR #1841. Launch: from the managing session `session_01JMNsSEDBczUWe4gaYxbKDj`. Branch `claude/cft-story-josephus`, from `main`; this folder alone came over from `claude/batch12-era1-persons`.
+
+## Step
+
+- Done: research, outline check (review 1), writing, brief review (review 2), revision, all in batch 12. Mark accepted the length, 778 words, as it stands.
+- Done here: `Source_Sheet.md` file names put in the kit's `**NAME** = \`file\`` form (13 lines, nothing else) so `tools/cut_source_excerpts.py` could read them; `Excerpts.md` cut. `Story_Header.md`, `Card_Prompt.filled.md` and `Final_Check_Prompt.filled.md` written.
+- Step 5, card: one Sonnet hand started from `Card_Prompt.filled.md`. Its output is `josephus.card.json` and `Card_Edits.md`.
+- Handover: the first thread stopped at about 150,000 tokens of context, as the launch requires.
+
+## Next, in order
+
+1. Check that `josephus.card.json` and `Card_Edits.md` exist and that the card passes `node tools/validate-census.mjs` on a census copy outside the repository. If they are missing, run the card hand again from `Card_Prompt.filled.md` (Sonnet).
+2. Review 3: `python tools/list_second_readings.py <folder> --requests <folder> --prefix josephus`, then one fresh Opus hand from `Final_Check_Prompt.filled.md` alone. It must not open the earlier reviews. Apply its exact changes word for word. A blocking fault its exact change cannot settle stops the story and goes to Mark.
+3. Mark reads the brief: one Artifact page with the final brief and the three reviews' counts (the outline check, `Outline_Check.md`; the batch 12 review as review 2, `Review.md`; the final check). Send the link to the managing session and wait for Mark's word.
+4. Release (`roles/release.md`): one draft pull request into `main`, pushed once after the local checks pass, then marked ready; merge when CI is green; check churchfamilytree.com. Cost in `Release.md` from the session records (`total_cost_usd`, telemetry, not a bill).
+
+## Open items
+
+- The card's scope: the launch gives the existing card as the starting card under `roles/card.md`; Mark's batch 12 ruling "a" (2026-11-27) asks for the full card, Timeline included. Both are kept: the header quotes the ruling, and the card writer keeps the existing card word for word and adds the Stage Two sections. Raised to the managing session for Mark.
+- Cost cap (Mark, through the managing session): $25 on the session record's `total_cost_usd`; stop at about $20 before release and report. First thread at handover: about $2.50, plus its card hand.
+
+## Rulings for this story
+
+- "Batch 12: the slate approved" (2026-11-27): the job, decisions 3 (no census change) and 6 (no quote reuse). This story only.
+- "Batch 12: hearts and lengths approved" (2026-11-27): the heart as `Outline.md` states it. This story only.
+- "Batch 12: three hearts, the era's heart timing and five lengths" (2026-11-28, "follow recommendations on all"), item 5: Josephus 778 and its heart timing. This story only.
+- "Batch 12: the full cards for its twenty people" (2026-11-27, "a"). This story only.
