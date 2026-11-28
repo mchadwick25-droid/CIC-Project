@@ -6526,13 +6526,13 @@ This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 
 **Why.** Two Corinth phrases in the `post-apostolic-house-church` brief and card needed correcting. A fresh final check passed the fix (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/Fix_2026-11-28_Corinth.md`, `Final_Check_2026-11-28_Corinth.md`).
 
-**Decided (Mark, 2026-11-28): "yes".** The fix ships with the Tertullian release, merged from `claude/cft-fix-house-church-corinth` at 146bfe97. Its recording no longer matches its text (Open-Gaps 453). This story only.
+**Decided (Mark, 2026-11-28): "yes".** The fix ships with the Tertullian release, merged from `claude/cft-fix-house-church-corinth` at 146bfe97. Its recording no longer matches its text (Open-Gaps 454). This story only.
 
 ## 2026-11-28 — Ebionites stays as it is (Mark)
 
 **Why.** The Ebionites tradition grades D on the whole-text method. The grade comes from a record known only through its opponents: the sources hold few scenes in which these people act.
 
-**Decided (Mark, 2026-11-28): "leave it".** Ebionites stays at its live text under his 25 Nov sign-off ("Batch 11: the two rebuilt stories ship", 2026-11-25). The kit shape for traditions known only through their opponents or their writings is still to come to him (Open-Gaps 455). This story only.
+**Decided (Mark, 2026-11-28): "leave it".** Ebionites stays at its live text under his 25 Nov sign-off ("Batch 11: the two rebuilt stories ship", 2026-11-25). The kit shape for traditions known only through their opponents or their writings is still to come to him (Open-Gaps 456). This story only.
 
 ## 2026-11-28 — Suetonius: one region, Mediterranean (Mark)
 
@@ -6548,3 +6548,19 @@ This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 - Lines: `Brief-Kit/Kit.md`, Part 1, Rigor; `Stage-Two-Kit/Kit.md`, section 2, items 3 and 5.
 - The one independent check added "by plain counting from Widely Accepted dates" to the confirmed wording, to keep a scholar's argument out, and the worked-out year to item 5's list of lines that keep their own note. Both are for Mark to keep or strike.
 - It governs the next story on. Cards already live are brought to it by a named change order (the card sweep).
+
+## 2026-11-28 — The worked-out dates sweep is applied (Mark)
+
+**Why.** Under "A date the old sources let us work out is given as "about" that year" (2026-11-28), live cards that gave an old source's reckoning without the year were listed, with the year worked out for each, old beside new, on one review page.
+
+**Decided (Mark, 2026-11-28).** "yes apply all six recomondations" (relayed by the managing session). A change order, cards only:
+
+- Origen and the other cards on the page get the year beside the record's own reckoning, and each worked-out timeline line's note says how the year is reached.
+- Counts made from a count are included (Origen's "eighteenth year" and "over sixty").
+- Didymus is left out, since it joins two writers' counts.
+- Polycarp and Anatolius give their reigns' years in place of the "modern dating" sentence.
+- The reckoning goes in the line's note, not the reference.
+- A year named by its consuls is given plainly.
+- Suetonius waits for its redo.
+
+Each changed line was checked against its source line by one independent Opus check. Found in checking: Cyril of Scythopolis also gives Euthymius's ninety-ninth year, which runs about two years past the count from Leo's reign, so the card says so. The cards that give a year through a named editor are Open-Gaps "Cards that give a year through a named editor where a reign count would do" (2026-11-28).

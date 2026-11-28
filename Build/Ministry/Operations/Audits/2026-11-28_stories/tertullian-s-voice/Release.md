@@ -10,7 +10,7 @@ Mark: "release tertullian" (2026-11-28, relayed by the managing session).
 - **`tools/quote_renderings.json`:** the five old Tertullian listings replaced by seven, one per quoted span of our modern English, each with `second_reading` pointing at `Final_Check.md`. "Give me the master" stands verbatim in Richardson's English and is not listed.
 - **The House Church fix:** `claude/cft-fix-house-church-corinth` merged at 146bfe97 (two Corinth phrases in the `post-apostolic-house-church` brief and card; census, index and tree page as that branch built them).
 - **Rebuild:** `atlas-sync`, `generate_tree_pages.mjs`, `corpus_coverage.py`. Changed: `cft-website/tree/tertullian-s-voice.html`, `cft-website/index.html`, and `cft-website/tree/latin-apologists.html` (its Tertullian link carries the new teaser). `cft-website/privacy.html` was not changed by the run.
-- **Logs:** five Decision-Log entries (Tertullian's length; Tertullian's fix pass; the heart held to what his books show; the House Church Corinth fix; Ebionites stays as it is). Open-Gaps 452–455 (the census edge on Cyprian's secretary; the House Church recording; the domain's nameservers; the opponents-only tradition shape).
+- **Logs:** five Decision-Log entries (Tertullian's length; Tertullian's fix pass; the heart held to what his books show; the House Church Corinth fix; Ebionites stays as it is). Open-Gaps 453–456 (the census edge on Cyprian's secretary; the House Church recording; the domain's nameservers; the opponents-only tradition shape).
 - **Ledger:** Tertullian was not listed in `Earlier-Approved.yaml`; `python tools/list_story_status.py --write` run.
 
 ## Judgment calls
@@ -43,7 +43,7 @@ This session's `total_cost_usd` is not readable from inside it. Estimated from t
 
 ## Not done
 
-No recording (Open-Gaps 453 for the House Church). Promotion to `live` is Mark's.
+No recording (Open-Gaps 454 for the House Church). Promotion to `live` is Mark's.
 
 ## Check results
 
