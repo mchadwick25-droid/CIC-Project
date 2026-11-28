@@ -143,6 +143,11 @@ Marcion: argued against his followers. Valentinus: later writers say he began in
 - "Eusebius was the first to call him a heretic" → never.
 - "the question is still argued", "most editors judge", or the *Recognitions* → leave out (modern; card).
 
+- "Eusebius copied (or put, or turned) the conversation into Greek" → "Eusebius quoted it in Greek"; only the pupils translated it (EU 26637–26639).
+- "the *Preparation* (or that book) was written against the astrologers" → "a work arguing against belief in fate" (PE 17900–17906).
+- A witness's blame ("never washed off the stain", "heresy", "fell") in a sentence of its own with no witness → keep "he says" in that sentence.
+- Jerome's praise of the book on fate without his charge → tell both: he began with Valentinus and founded a new heresy (THD 40139–40146). Strike Cut first item 2.
+
 ## Leave out
 
 The late birth legends (I6); Bardaisan as historian of Armenia; the archer story; the Indian sages; the planetary cycles and the soul's seven parts (technical); Ephrem's curse on "the Seven" (it lost the last listener: who the Seven are and who confessed what); Ephrem calling him the teacher of Mani (needs a gloss the story has no room for); Hippolytus's line and Prepon's book (card); Theodoret's list (card); the *Recognitions* (an editor's judgment; card); the dating quarrel (D4; card); Epiphanius's story of the refusal to deny (D6; card); the "days of the readings" fast (unclear). None of the record's force is left out: Eusebius's, Ephrem's, Epiphanius's and Jerome's charges, and the dialogue's harsh laws, are told.
