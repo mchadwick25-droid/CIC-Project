@@ -14,7 +14,7 @@
   "keyWorks": [
     {
       "title": "Divine Institutes",
-      "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Book II traces the origin of error, Book III sets the philosophers against one another, and Book IV joins true wisdom and religion, holding that there is no religion without wisdom, nor wisdom without religion. Book V, on justice, turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
+      "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Book II traces the origin of error, and Book III sets the philosophers against one another. Book IV joins true wisdom and religion, holding that there is no religion without wisdom, nor wisdom without religion. Book V, on justice, turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
     },
     {
       "title": "On the Workmanship of God",
@@ -22,7 +22,7 @@
     },
     {
       "title": "On the Deaths of the Persecutors",
-      "about": "a book of disputed authorship, which survives in one copy under the name Lucius Caecilius. It is addressed to Donatus, who had been tortured nine times and was freed from a jail where he had lain six years. It tells how the emperors who persecuted the Christians died, so that later generations might learn from it: the fall of the church at Nicomedia, the edicts, Galerius's disease and his edict letting Christians be Christians again, Constantine's dream before battle, the edict of Milan posted at Nicomedia, and the killing of the persecutors' families, among them a boy of eight and a girl of seven. It counts ten years and about four months from the overthrow of the church to its restoration. The Library holds it in English, in Lord Hailes' translation, and its chapter 48, the edict of Milan, in Latin"
+      "about": "a book of disputed authorship, which survives in one copy under the name Lucius Caecilius. It is addressed to Donatus, who had been tortured nine times and was freed from a jail where he had lain six years. It tells how the emperors who persecuted the Christians died, so that later generations might learn from it. It tells of the fall of the church at Nicomedia, the edicts, and Galerius's disease and his edict letting Christians be Christians again. It tells of Constantine's dream before battle, the edict of Milan posted at Nicomedia, and the killing of the persecutors' families, among them a boy of eight and a girl of seven. It counts ten years and about four months from the overthrow of the church to its restoration. The Library holds it in English, in Lord Hailes' translation, and its chapter 48, the edict of Milan, in Latin"
     }
   ],
   "legacy": {
@@ -36,7 +36,7 @@
     "remembered": [
       "Jerome says Lactantius has a flow of eloquence worthy of Tully, meaning Cicero, and wishes he could have built up the faith as easily as he tore down that of others.",
       "Jerome writes that in Lactantius's books one finds a summary of Cicero's dialogues.",
-      "Jerome charges that Lactantius, in his books and above all in his letters to Demetrian, denies the Holy Spirit a being of his own, taking the passages on the Spirit to mean the Father or the Son. Yet Jerome asks who can forbid him to read the Institutes, in which Lactantius wrote against the pagans with much ability.",
+      "Jerome charges that Lactantius, in his books and above all in his letters to Demetrian, denies the Holy Spirit a being of his own. He takes the passages on the Spirit, Jerome says, to mean the Father or the Son. Yet Jerome asks who can forbid him to read the Institutes, in which Lactantius wrote against the pagans with much ability.",
       "Jerome's Chronicle calls him the most eloquent man of his time and says he was so poor in this life that he often lacked even the necessities.",
       "Jerome counts him among those who held that after the resurrection the Lord would reign in the flesh with the saints.",
       "A list of books received and not received, which its heading credits to Pope Gelasius and a second copy to Pope Hormisdas, sets the little works of Lactantius among the books not received."
@@ -345,7 +345,7 @@
         },
         {
           "when": "303, the eighth consulship of Diocletian",
-          "text": "The book on the persecutors' deaths tells how the church at Nicomedia, within view of the palace, is forced open at first light, its Scriptures burned, and leveled by the Pretorian Guards in a few hours.",
+          "text": "The book on the persecutors' deaths tells how the church at Nicomedia, within view of the palace, is forced open at first light. Its Scriptures are burned, and the Pretorian Guards level it in a few hours.",
           "reference": "On the Deaths of the Persecutors 12, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 10161",
           "note": "A book of disputed authorship."
         },
@@ -435,7 +435,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He sets out to lead the learned to true wisdom and the unlearned to true religion, and calls this a better calling than the teaching of public speaking, in which, he writes, we trained young men not to virtue, but altogether to cunning wickedness.",
+          "text": "He sets out to lead the learned to true wisdom and the unlearned to true religion. He calls this a better calling than the teaching of public speaking, in which, he writes, he trained young men not in virtue but in cunning wickedness.",
           "reference": "Divine Institutes I.1, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 556; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 191-209"
         },
         {
@@ -551,7 +551,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "Jerome lists his books: the Banquet, the Itinerary, the Grammarian, On the Anger of God, the seven books of the Divine Institutes and a summary of them, two books To Asclepiades, one On persecution, letters to Probus, Severus and his pupil Demetrius, and On the work of God.",
+          "text": "Jerome lists his books. Besides the Banquet and the Itinerary, they are the Grammarian, On the Anger of God, and the seven books of the Divine Institutes with a summary of them. Then come two books To Asclepiades, one On persecution, letters to Probus, Severus and his pupil Demetrius, and On the work of God.",
           "reference": "Jerome, Lives of Illustrious Men 80, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 41038-41051"
         }
       ]
