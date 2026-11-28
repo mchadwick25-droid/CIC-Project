@@ -54,3 +54,8 @@ This session's record, `usage.cost_usd` (telemetry at API rates, not a bill): $9
 ## Mechanical fix in release 13's cards
 
 - `check_spelling.py --enforce` found "Saviour" twice in card prose (not quotes): Pamphilus's timeline ("the Saviour's deeds") and Hippolytus's card ("On the praise of our Lord and Saviour"). Both are now "Savior" (Decision-Log 77, American spelling), and the pages are rebuilt.
+
+## Checks on the combined branch
+
+- `validate-census.mjs --atlas --tree`: 0 errors, 4 warnings (existing). `atlas-check` and `--edges-only`: no changes. `build_tree_site.mjs`: 0 mismatched. Census tests: 124 of 124. Worker and tree-page tests: 89 of 89, after the atlas was re-synced for the spelling fix. Live commentary, Open-Gaps numbers, spelling and standard lock: pass.
+- No pull request from this branch: the Cyprian thread merges it into its own for one merge (Mark, 2026-11-28, through the managing session).
