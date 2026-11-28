@@ -68,3 +68,36 @@ Mark's ruling: "b". In the two quotes where Josephus speaks, *Ioudaioi* is rende
 - War 3.8 quote: "as a deserter from the Jews, but as a servant sent by you." → "as a deserter from the Jewish people, but as a servant sent by you."
 - Ant. 18.3 quote: "He won over many Jews, and many of the Greeks as well." → "He won over many of the Jewish people, and many of the Greeks as well."
 - "Then came the Antiquities of the Jews, his people's history" → "Then came the Jewish Antiquities, his people's history"
+
+## After grading, carrying out Mark's ruling (2026-11-28)
+
+The whole-text grading (`2026-11-28_era1-new-grades/Grades_Whole.json`) graded Josephus rigor D, craft B, overall C. Mark ruled "2": apply the proposed fixes to the stories below B. Each proposal was a direction, so each change is the smallest that meets it, checked at its source line. Backup of the graded brief: `josephus.brief.v2.txt`. The same words were changed in the census `longDescription` and, where they stand, in the card (`josephus.card.json` and the census card).
+
+| Finding | Old | New | Source line |
+|---|---|---|---|
+| Opening lacks a when | When the Roman general Vespasian took Jotapata, | In 67, when the Roman general Vespasian took Jotapata, | JW 110707–110710 (Nero's thirteenth year; 67 Widely Accepted, Source_Sheet E2) |
+| Why the emperors favored him | In 67 he gave himself up to Vespasian, and lived on at Rome under the emperors' favor. | That year he gave himself up to Vespasian and foretold that the general would be emperor. When that came true, he lived on at Rome under the emperors' favor. | JW 111175–111191 (the prediction); SUET 36617–36619 (confirms it); JW 117837–117841 (Vespasian, emperor, remembers it and frees him) |
+| Tell: the narrator sums up the scene | He could die as general of the Jewish people, they said, or as a traitor to them, and they rushed at him and called him a coward. … To the forty, surrender was treason and death was honor; to Josephus, in his telling, taking his own life was wrong. | He could die as general of the Jewish people, they said, or as a traitor to them. He argued that it was wrong to take one's own life, and they rushed at him and called him a coward. (The summing-up sentence is cut.) | JW 110905 onward (his speech against suicide); JW 111066–111069 (they ran at him, called him a coward) |
+| What the rival wrote falsely | who, he says, had written falsely of him. | who, he says, had written falsely of him, that he and the Galileans had begun the revolt against Rome. | JW 4625–4630, 4645–4652 (Justus says "I and the Galileans have been the authors of that sedition … against the Romans") |
+| What disaster | and another disaster, stands | and another disaster, the banishing of the Jewish people from Rome, stands | JW 81423–81424 ("another sad calamity"); JW 81596–81633 (Tiberius "ordered all the Jews to be banished out of Rome") |
+| Why he had no right to call the court | protested that he had no right to call the court. | protested that he had no right to call the court without the Roman governor's consent. | JW 91038–91040 ("not lawful for Ananus to assemble a sanhedrim without his consent", Albinus's) |
+| A modern guess told as the record | …did not accept him as the Christ, so how much of it Josephus wrote is uncertain. | …did not accept him as the Christ. | Cut; the clause rested on no old witness (Source_Sheet D2) |
+
+Card, same words: the timeline line on Justus and the timeline line on the passage carry the same two additions; the two `briefReferences` lines for the *Life* and *Antiquities* carry them with the added line ranges. No other sentence changed. The recording `cft-website/audio/tree/josephus.mp3` stays (no new recording is approved).
+
+Scorer: 806 words, grade 9.3 (names out 8.5), reading ease names out 72.2, 21.2 words a sentence, longest sentence 35 words: pass.
+
+## After the blind test, carrying out Mark's ruling (2026-11-28)
+
+A blind reader compared the brief with a reference and found three faults. Mark ruled "yes to all". Each change is the smallest that fixes its fault, checked at its source line; every other sentence stands word for word. Backup of the tested brief: `josephus.brief.v3.txt`. The census `longDescription` carries the same change; the card holds none of these sentences.
+
+| Finding | Old | New | Source line |
+|---|---|---|---|
+| A date slip: "That year" put the surrender in 66 | …when the Jewish people rose against Rome in 66. That year he gave himself up to Vespasian and foretold that the general would be emperor. | …when the Jewish people rose against Rome in 66. In 67 he gave himself up to Vespasian and foretold that the general would be emperor. | JW 110707–110710 (Jotapata taken in Nero's thirteenth year; 67 Widely Accepted, Source_Sheet E2); JW 110754–110756 (found on the third day); Source_Sheet E6 (the prediction, 67) |
+| Told twice: Origen's word that Josephus did not accept Jesus as the Christ | The passage itself says he was the Christ, and Origen wrote that Josephus did not accept him as the Christ. | The passage itself says he was the Christ. | Kept once, in Origen's own paragraph: CC 37933–37934; OMG 3731–3733 (Source_Sheet I2) |
+
+**Going back after the ending** (fault 2), Mark's ruling "a": no change. The order stands as tested: the opening in the cave, the essence, then "Back in the cave, after his prayer, …", the outline's Do not say form. Kit Part 2: "The hook and the essence may reach ahead; the rest does not go back." The essence reaches ahead to the surrender and Rome; from the cave on, the rest runs forward. A first attempt moved the cave paragraph inside the essence; it pushed the essence past the first minute and was undone.
+
+The essence is complete at word 207. The approved heart timing was word 192; the grading fixes before the blind test added the prediction clause ("and foretold that the general would be emperor. When that came true,"), and the tested brief also completes at 207.
+
+Scorer: 793 words, grade 9.2 (names out 8.4), reading ease names out 72.1, 20.9 words a sentence, 0.3 joining words per 100, 8% short sentences, longest sentence 35 words: pass.
