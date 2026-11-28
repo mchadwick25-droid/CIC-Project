@@ -4,7 +4,7 @@
   ],
   "knownFor": "Bishop of Caesarea in Palestine who set out to write the church's story from its own letters and lists, wrote the emperor Constantine's Life, and was charged at Tyre with having got out of prison by giving way.",
   "shortDescription": "Eusebius was bishop of Caesarea in Roman Palestine. He believed he was the first to try to tell the church's story from Christ to his own day, and he built it from the letters, lists and books of the Christians before him. He lived through the emperors' persecution of the church and wrote the emperor Constantine's Life. At Tyre a bishop who had suffered in the persecution charged that he had got out of prison by giving way.",
-  "datesNote": "No old source used here gives the year he was born or the year he became bishop. He dates the first orders of the persecution to the nineteenth year of Diocletian, which is 303, and writes that he saw it. His own letter shows him a priest and then a bishop by the council of Nicaea in 325. Epiphanius places him at Tyre in 335. He died after Constantine, in the reign of Constantine's sons, Socrates says. Modern reckonings of his birth and death are in the works listed under Modern works.",
+  "datesNote": "No old source used here gives the year he was born or the year he became bishop. He dates the first orders of the persecution to the nineteenth year of Diocletian, which is 303, and writes that he saw it. His own letter shows him a priest and then a bishop by the council of Nicaea in 325. Epiphanius places him at the council of Tyre, which met in 335. He died after Constantine, in the reign of Constantine's sons, Socrates says. Modern reckonings of his birth and death are in the works listed under Modern works.",
   "placeNote": "Caesarea, on the coast of Roman Palestine, where he was bishop; Nicaea in Bithynia, where the council met in 325; Tyre, the chief city of Phoenicia, where the bishops met in 335",
   "role": "Bishop and church historian",
   "keyWorks": [
@@ -44,7 +44,7 @@
     "Eusebius wrote that he was the first to enter on the subject of a church history and knew of no church writer who had given himself to it. Sozomen, about a century later, names Clement, Hegesippus and Africanus, as well as Eusebius, among the writers who had set down the church's past before him.",
     "The month the persecution began is told three ways. Eusebius puts the edict ordering the churches torn down in March, in the nineteenth year of Diocletian, and his Martyrs of Palestine gives April. McGiffert's note reports that Lactantius, who was at Nicomedia, gives February 23. The year, 303, is not disputed.",
     "No old source used here gives the year he was born or the year he became bishop.",
-    "Whether he presided at Tyre is not said by any old source used here. Epiphanius says the emperor ordered him to judge there, with some others, who he says leaned toward the Arians, the followers of Arius, who taught that God's Son had a beginning. Sozomen says Athanasius had earlier refused to attend a council at Caesarea, fearing the artifices of Eusebius, bishop of that city, and of Eusebius, bishop of Nicomedia. Modern historians differ on who presided; Hefele's history of the councils, listed under Modern works, treats the question.",
+    "Whether he presided at Tyre is not said by any old source used here. Epiphanius says the emperor ordered him to judge there, with some others, who he says leaned somewhat toward the Arians, the followers of Arius, who taught that God's Son had a beginning. Sozomen says Athanasius had earlier refused to attend a council at Caesarea, fearing the artifices of Eusebius, bishop of that city, and of Eusebius, bishop of Nicomedia. Modern historians differ on who presided; Hefele's history of the councils, listed under Modern works, treats the question.",
     "Rufinus of Aquileia, writing later in Latin, tells a like scene at Tyre that does not name Eusebius. In it Paphnutius, a confessor who had lost an eye, tells Maximus, bishop of Jerusalem, who had also been a confessor, with an eye put out and a leg hamstrung, that he will not let him sit in the council of the wicked.",
     "Socrates says the charge that Athanasius's side had cut off a man's hand failed at Tyre when the man, Arsenius, was brought in alive with both hands. He says the council nevertheless voted to depose Athanasius as bishop, on the report of a one-sided inquiry at Mareotis, by Alexandria, and that its sentence said nothing of the failed charge. Eusebius's own part in the vote is not given.",
     "In his Life of Constantine he says he will pass over the emperor's wars and laws and speak only of what bears on his religious character. Socrates says the book is more intent on the emperor's praise than on an accurate account. Its telling of the council at Tyre names neither Athanasius nor Potamo and says only that envy troubled the churches of Egypt.",
@@ -181,24 +181,19 @@
   },
   "briefReferences": [
     "Church History I.1.1 to 6, tr. Arthur McGiffert: his plan, his claim to be the first, the brief fragments of those before him, the passages he gathered.",
-    "Church History VI.20.1, I.13.5 and V.24.1 to 2: the letters kept in the library at Aelia, the letters from the archives at Edessa, and Polycrates's letter to Victor copied whole.",
-    "Church History VIII.2.1 to 5: the churches thrown down, the Scriptures burned, the shepherds hiding; his rule to leave out those shaken by the persecution; the first edict in the nineteenth year of Diocletian; the second orders, jail and forced sacrifice. VIII.7.2 and VIII.9.4: what he saw at Tyre and in the Thebais.",
-    "Martyrs of Palestine 7 and 11: Pamphilus, his dearest friend, cast into prison, and his martyrdom with his companions. Church History VII.32.25: Pamphilus, a priest of the church at Caesarea. Church History VI.33.4: the Defense of Origen written with Pamphilus.",
-    "Jerome, Lives of Illustrious Men 81: the surname Pamphili from his friendship with Pamphilus.",
-    "Arius's letter to Eusebius of Nicomedia, in Theodoret I.4: Eusebius of Caesarea named among the bishops of the East Arius says were condemned.",
-    "His letter to his church on the Council of Nicaea, in McGiffert's Prolegomena, in Athanasius and in Socrates I.8: his church's creed read, the added word, the questions asked, assent not without inquiry, and peace as the aim.",
+    "Church History V.24.1 to 2: Polycrates's letter to Victor, copied whole.",
+    "Church History VIII.2.1 to 5: the churches thrown down, the Scriptures burned, the shepherds hiding; his rule to leave out those shaken by the persecution; the first edict in the nineteenth year of Diocletian; the second orders, jail and forced sacrifice.",
+    "Martyrs of Palestine 7 and 11: Pamphilus, his dearest friend, cast into prison, and his martyrdom with his companions. Church History VII.32.25: Pamphilus, a priest of the church at Caesarea.",
+    "Arius's letter to Eusebius of Nicomedia, in Theodoret I.4: Arius's teaching that the Son has a beginning.",
+    "His letter to his church on the Council of Nicaea, in McGiffert's Prolegomena, in Athanasius and in Socrates I.8: the added word, the questions asked, assent not without inquiry, and peace as the aim.",
     "Socrates I.8: he held aloof for a short time, then signed. Athanasius, Defence of the Nicene Definition 3: he had denied the day before, then signed.",
-    "Socrates I.23 and I.24, and Constantine's letter in Life of Constantine III.61: Eustathius's charge and Eusebius's answer; the refusal of Antioch.",
-    "Life of Constantine I.11, I.19, I.28, IV.33, IV.41 and IV.45: his rule to speak only of the emperor's religious character; Constantine seen as a young man; what the emperor told him himself under oath; the discourse the emperor stood to hear; the council at Tyre told without naming Athanasius or Potamo; the orations at the dedication in Jerusalem.",
-    "Sozomen II.25: Athanasius's refusal to attend a council at Caesarea. Epiphanius, Panarion 68.7 and 68.8, with Petavius's Latin and McGiffert's English: the charges against Athanasius, the council at Tyre, Potamo's words, Eusebius rises in anger and breaks up the court.",
-    "Socrates I.29 to 32: the charge of the hand, the inquiry at Mareotis, the vote to depose Athanasius.",
+    "Life of Constantine I.11, I.28 and IV.41: his rule to speak only of the emperor's religious character; his acquaintance with the emperor; the council at Tyre told without naming Athanasius or Potamo.",
+    "Epiphanius, Panarion 68.7 and 68.8, with Petavius's Latin and McGiffert's English: the charges against Athanasius, the council at Tyre, Potamo's words, Eusebius rises in anger and breaks up the court.",
+    "Socrates I.31 and 32: the one-sided inquiry at Mareotis, the vote to depose Athanasius.",
     "Athanasius, Defence Against the Arians, letter of the council of Egypt: the charge that Eusebius was accused over a sacrifice, with the Greek in Migne.",
-    "Rufinus, Church History X.18: a like scene at Tyre, with no word of Eusebius. Rufinus, prologue: the Church History put into Latin.",
-    "Socrates I.1: his history begins where Eusebius stopped; the Life of Constantine more intent on the emperor's praise than on an accurate account. Theodoret I.1, Sozomen I.1 and the preface of Evagrius: histories that begin after him.",
-    "Jerome, Chronicle at Constantine's twentieth year, and Lives of Illustrious Men, preface: his Chronicle carried on, and the utmost assistance of his History.",
-    "Socrates I.8 and II.21, Athanasius On the Councils of Ariminum and Seleucia 17, the Epitome of Philostorgius I.2, Jerome Letter 84 and Apology I, and the acts of the Second Council of Nicaea: how he was judged.",
-    "Church History V.24, I.11 and III.33: Polycrates of Ephesus's letter on Easter, the passage on Jesus in Josephus, and Pliny the Younger's letter to Trajan, taken from Tertullian.",
-    "Socrates II.4: Acacius, his pupil, who followed him as bishop and wrote his life."
+    "Socrates I.1: his history begins where Eusebius stopped. Theodoret I.1, Sozomen I.1 and the preface of Evagrius: histories that begin after him.",
+    "Socrates II.21 and Jerome, Letter 84: how he was judged.",
+    "Socrates II.4: his death, in the reign of Constantine's sons."
   ],
   "quotationOriginals": [
     {
@@ -238,7 +233,7 @@
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
     },
     {
-      "title": "Church History, Book 1, chapters 1, 8, 29 to 32; Book 2, chapter 4",
+      "title": "Church History, Book 1, chapters 1, 8, 31 and 32; Book 2, chapters 4 and 21",
       "author": "Socrates of Constantinople",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
     },
@@ -336,7 +331,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He says he was present at Tyre when martyrs were thrown to wild beasts, and that the beasts would not touch them.",
+          "text": "He says he was present at Tyre when martyrs were thrown to wild beasts, and that for a long time the beasts would not touch them.",
           "reference": "Church History VIII.7.2",
           "note": "A wonder, told in his own voice."
         },
@@ -424,7 +419,7 @@
         },
         {
           "when": "335",
-          "text": "Epiphanius says the emperor ordered Eusebius of Caesarea to judge, with some others, who he says leaned toward the Arians.",
+          "text": "Epiphanius says the emperor ordered Eusebius of Caesarea to judge, with some others, who he says leaned somewhat toward the Arians.",
           "reference": "Epiphanius, Panarion 68.7",
           "note": "The Arians were the followers of Arius, who taught that God's Son had a beginning."
         },
