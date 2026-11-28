@@ -37,7 +37,7 @@ Card: `cyprian-of-carthage.card.json`, built from `Card.existing.json`. Keys are
 
 ## Left in place, not found
 
-- **uncertain[5]**: "he promised to come to a meeting of bishops after Easter". Not found in the letters held. EP 3542-3548 (Letter 26) holds only that he will not claim the matter alone and that the bishops will examine each case when peace lets them meet; the timeline uses that line instead.
+- **uncertain[5]**: "he promised to come to a meeting of bishops after Easter". Not found in the letters held. EP 3542-3548 (Letter 26) holds only that he will not claim the matter alone and that the bishops will examine each case when peace lets them meet; the timeline uses that line instead. Found by the final check: EP 6148-6152 (Letter 43).
 - **legacy.traces[3]** (Sulpicius Severus's traveler): not re-read.
 - **legacy.remembered[0]** "Coxe, the American editor, adds that he was the first of the province": a bracketed editor's note that clarifies Pontius (ANF 28280-28281); kept as a clarification, not a claim of the card.
 - **otherNames, role, keyWorks[0], legacy.traces[0, 2, 3 old order], uncertain[0, 5, 6, 11, 13, 14]:** met the standard; not changed.
