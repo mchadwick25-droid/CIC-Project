@@ -19,7 +19,8 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 ## Step
 
 1. Research: done. `Source_Sheet.md` (the batch 7 sheet, brought up to the kit: T6, E8a, I8 added), `Outline.md` (new, to Part 2), `Excerpts.md`.
-2. Review 1, the outline check: next.
+2. Review 1, the outline check: done, FIX (1 BLOCKING, 10 MINOR), all applied (`Fixes.md`).
+3. Write: draft written, every Cut first item dropped, 798 words (about 5:19), readability pass (grade 8.2, names out 7.1). **Stopped for the manager: the length.** The outline planned about 650; the beats as written run about 800. Waiting on a length ruling before review 2.
 
 ## Open items
 
