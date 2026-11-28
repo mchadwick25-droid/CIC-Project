@@ -18,7 +18,7 @@ NOV25 = os.path.join(HERE, '..', '2026-11-25_person-council-grades')
 
 # ---- Weights by size, committed before any brief was scored. ----
 SIZE = {
-    'note': 0,    # Below the kit's bar (Part 3): exactness that neither misleads nor touches the heart.
+    'note': 0,    # Shown, not counted: the listener's drift line, where attention wanders.
     'small': 1,   # One clause fixes it, and the listener is not misled meanwhile.
     'medium': 3,  # A claim the listener takes as the record that the record does not hold, or a lost thread.
     'large': 6,   # A misread source, a missing heart, a softened record, or a story the listener leaves.
@@ -29,7 +29,6 @@ KIND = {
     ('rigor', 'bare', 'Passing'): ('small', 'a thing or act left unexplained on the way; one clause supplies it'),
     ('rigor', 'bare', 'Supporting'): ('small', 'unexplained where the story leans on it, still one clause to supply'),
     ('rigor', 'bare', 'Central'): ('large', 'the heart itself left unexplained: missing essential material'),
-    ('rigor', 'bare', 'below the bar'): ('note', 'an ordinary act or detail, which Part 1 says needs no gloss'),
     ('rigor', 'hedged date', 'any'): ('small', 'a date hedged but resting on modern reckoning; Mark ruled it one modern finding, and Moses the Black B'),
     ('rigor', 'modern', 'Passing'): ('small', 'an unnamed modern view in a side clause; cut or attribute it'),
     ('rigor', 'modern', 'Supporting'): ('small', 'an unnamed modern view where the story leans on it, still a clause to cut'),
@@ -42,7 +41,6 @@ KIND = {
     ('craft', 'test line', 'any'): ('large', 'after one hearing the listener cannot say who, what, or why: the heart is missing'),
     ('craft', 'opening', 'any'): ('small', 'the opening lacks a when or where; a clause fixes it'),
     ('craft', 'bare', 'any'): ('small', 'the listener lost a thing named without its explanation; one clause'),
-    ('craft', 'bare', 'below the bar'): ('note', 'an ordinary act or detail, which Part 1 says needs no gloss'),
     ('craft', 'tell', 'any'): ('small', 'a tell Part 1 names, in one sentence; cut or retell it'),
     ('craft', 'thread', 'any'): ('medium', 'a sentence where the listener lost the thread: a failure to understand on one hearing'),
     ('craft', 'pull', 'no'): ('medium', 'the opening does not pull an adult listener in'),
@@ -51,24 +49,16 @@ KIND = {
     ('craft', 'short', 'any'): ('large', 'under the kind\'s length floor'),
 }
 
-# A bare statement meets the kit's bar when it names a thing (a book, teaching, charge, quarrel,
-# ruling or label) or an act of conflict or punishment without its what or why (Part 1, "Explain
-# it or leave it out"; Part 3: "missing essential material"). Otherwise it is a note. Read on the
-# quoted words and the reader's question together; the same rule is applied to every set.
-BAR_WORDS = re.compile(
-    r'persecut|prison|arrest|exil|banish|deport|sent to |condemn|depos|excommun|put out|cast out|expel|'
-    r'heretic|heres|charg|accus|trial|tried|judg|execut|kill|martyr|burn|behead|sentenc|punish|'
-    r'dissolv|suppress|forbid|ban(ned)? |quarrel|disput|split|schism|broke|break|reject|refus|'
-    r'would not accept|enrag|oppos|attack|against|fight|war\b|siege|besieg|army|protest|court|'
-    r'teaching|taught|doctrine|book|letter|writ|ruling|decree|canon|council|sermon|creed|reform|'
-    r'ideas|confess|seiz|shameful|law\b|crime|guilt|wrong|offen',
-    re.I)
+# Every held bare statement meets the kit's bar: the readers' rule is Part 1's "Explain it" rule,
+# and each finding was held by both readers or the third read. Only a reader can set one aside as
+# an ordinary act, and this run uses no reader. (A word filter, first committed here, set aside
+# plain conflicts such as "They drove him out." It was dropped; dropping it only makes grades stricter.)
 
 # Grade from the summed weight, per 700 words of brief (the middle of this set's length).
 PER = 700
 # Upper bound of load for each letter; above D's bound is F.
 THRESHOLDS = [
-    ('A', 0),    # Nothing counted: only notes below the bar.
+    ('A', 0),    # Nothing counted.
     ('B', 3),    # Up to about three one-clause fixes, or one misleading clause: OK to keep.
     ('C', 6),    # Several small fixes, or two misleading clauses: would benefit.
     ('D', 10),   # A large fault, or many mediums: should be redone.
@@ -109,18 +99,13 @@ def finding(dim, kind, band, quote, fix, why=''):
             'quote': quote, 'fix': fix, 'reason': reason, 'why': why}
 
 
-def meets_bar(quote, asks):
-    return bool(BAR_WORDS.search(quote + ' ' + (asks or '')))
-
-
 def rigor_findings(items, trust):
     out = []
     for i in items:
         band = WEIGHT_NAME.get(i.get('weight'), 'Passing')
         if i['test'] == 'bare statement':
             asks = i.get('asks', '')
-            kind_band = band if (band == 'Central' or meets_bar(i['quote'], asks)) else 'below the bar'
-            out.append(finding('rigor', 'bare', kind_band, i['quote'],
+            out.append(finding('rigor', 'bare', band, i['quote'],
                                f"Answer in a clause, from the source: {asks} If the old source gives only the act, leave it as told and the finding falls.",
                                i.get('decided_by', '')))
         elif i.get('kind') == 'hedged date':
@@ -172,8 +157,7 @@ def craft_findings(r, li, words, floor):
     bl = lines.get('Bare statements', [])
     for k in range(r['bare'] or 0):
         q = bl[k] if k < len(bl) else ('bare statement', '')
-        band = 'any' if meets_bar(q[0], q[1]) else 'below the bar'
-        out.append(finding('craft', 'bare', band, q[0], f"Answer in a clause, from the source: {q[1].replace('asks: ', '')}"))
+        out.append(finding('craft', 'bare', 'any', q[0], f"Answer in a clause, from the source: {q[1].replace('asks: ', '')}"))
     tells = lines.get('AI tells', [])
     for k in range(r['tells'] or 0):
         q = tells[k] if k < len(tells) else ('tell', '')
