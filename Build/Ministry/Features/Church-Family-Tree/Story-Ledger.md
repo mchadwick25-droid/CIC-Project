@@ -29,7 +29,6 @@ On the kit: 29. To do: 0.
 | Councils of Carthage and Rome on the lapsed (`councils-of-rome-and-carthage-251`) | council | 7 | yes |
 | Cyprian of Carthage (`cyprian-of-carthage`) | person | 7 | yes |
 | Dionysius of Alexandria (`dionysius-of-alexandria`) | person | 7 | yes |
-| Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 7 | yes |
 | Lactantius (`lactantius`) | person | 7 | yes |
 | Methodius of Olympus (`methodius-of-olympus`) | person | 7 | yes |
 | Novatian (`novatian`) | person | 7 | yes |
@@ -38,6 +37,7 @@ On the kit: 29. To do: 0.
 | Peter of Alexandria (`peter-of-alexandria`) | person | 7 | yes |
 | Pontius the Deacon (`pontius-the-deacon`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
+| Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 12 | yes |
 | Josephus (`josephus`) | person | 12 | yes |
 
 ## Era 2

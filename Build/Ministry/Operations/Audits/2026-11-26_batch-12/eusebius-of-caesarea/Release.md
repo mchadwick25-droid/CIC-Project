@@ -37,6 +37,10 @@ Released on Mark's word, relayed by the managing session: "release eusebius" (20
 - **Grade:** whole-text method, weights unchanged. Rigor B (load 2.4), craft C (load 4.7), overall B. Reading grade 8.2 and reading ease 71.6 with names out (9.3 grade with names). The readers' work is in `Grade/`.
 - **Blind check:** against the Basil of Caesarea reference. Basil was judged slightly better. Eusebius got B− and Basil B+, so the check passes. The verdict is in `Blind/`.
 
+## Checks
+
+All passed: `validate-census.mjs` (0 errors, 4 existing shortName warnings), the census validator tests, `atlas-check` and `atlas-check --edges-only` (no changes), `build_tree_site.mjs` (0 mismatched), the worker and tree-page tests, `check_live_commentary.py`, `check_open_gaps_numbers.py`, `check_spelling.py` (0), `profile_readability` (pass), and `check_standard_lock.py` (no locked file changed). The local run printed only the tail of each test log, so the pass counts come from CI. `list_story_status.py --write` moved the story to batch 12 in `Story-Ledger.md`.
+
 ## Cost
 
 Session record `cost_usd` was $9.10 at the start of release (telemetry, not a bill). The final figure goes to the managing session at merge.
