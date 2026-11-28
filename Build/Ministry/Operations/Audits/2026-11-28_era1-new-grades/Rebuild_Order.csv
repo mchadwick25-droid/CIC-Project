@@ -1,0 +1,16 @@
+rank,id,name,kind,era,batch,reference,overall,action,rigor,craft,reach,reach_basis
+1,josephus,Josephus,person,1,12,,F,must be redone,F,B,2,"first-visit tour, major"
+2,tatian,Tatian,person,1,12,,F,must be redone,F,A,3,"major, home in a built world, living home"
+3,suetonius,Suetonius,person,1,12,,F,must be redone,F,D,0,
+4,methodius-of-olympus,Methodius of Olympus,person,1,12,,D,should be redone,B,D,0,
+5,clement-of-alexandria,Clement of Alexandria,person,1,12,,C,would benefit,C,B,3,"major, home in a built world, living home"
+6,origen,Origen,person,1,12,,C,would benefit,C,B,3,"major, home in a built world, living home"
+7,hippolytus-of-rome,Hippolytus of Rome,person,1,12,,C,would benefit,C,B,2,"major, living home"
+8,anatolius-of-alexandria-and-laodicea,Anatolius of Alexandria and Laodicea,person,1,12,,C,would benefit,C,B,2,"home in a built world, living home"
+9,tacitus,Tacitus,person,1,12,,C,would benefit,C,C,0,
+10,lactantius,Lactantius,person,1,12,,C,would benefit,C,B,0,
+11,ignatius-of-antioch,Ignatius of Antioch,person,1,12,,B,OK to keep,B,B,3,"major, home in a built world, living home"
+12,peter-of-alexandria,Peter of Alexandria,person,1,12,,B,OK to keep,B,B,3,"major, home in a built world, living home"
+13,pamphilus-of-caesarea,Pamphilus of Caesarea,person,1,12,,B,OK to keep,B,B,2,"home in a built world, living home"
+14,pontius-the-deacon,Pontius the Deacon,person,1,12,,B,OK to keep,B,B,0,
+15,valentinus,Valentinus,person,1,12,,B,OK to keep,B,B,0,
