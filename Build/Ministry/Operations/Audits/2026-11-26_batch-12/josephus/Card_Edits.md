@@ -89,3 +89,11 @@ The thread applied Mark's ruling ("A, and make it a rule for every story") to th
 - timeline, period 6, line 4: "drew over many Jews and many of the Gentiles" → "drew over many Jewish people and many of the Gentiles"; "the anointed one the Jews awaited" → "the anointed one the Jewish people awaited"
 - timeline, period 7, line 2: "came to the Jews as a punishment" → "came to the Jewish people as a punishment"
 - timeline, period 8, line 4: "happened to the Jews to avenge" → "happened to the Jewish people to avenge"
+
+## After review 3: "the Jewish people" in his own words, and "Jewish Antiquities" (Mark, 2026-11-28)
+
+Mark's ruling: "b". Each `modern` changed identically to the brief; each `printed` stays verbatim as Whiston and McGiffert printed it. "Antiquities of the Jews" → "Jewish Antiquities" in these fields: `knownFor`, `keyWorks[1].title`, `briefReferences` [2], [7] and [9], `quotationOriginals[1].work`, `quotationOriginals[2].work`, timeline period 5, line 4. Edition titles (`sources.ownWords`, `briefSources`: "The Works of Flavius Josephus: Antiquities, Jewish War and Life") are book titles as printed, unchanged; the short form "the Antiquities" is unchanged.
+
+- `quotationOriginals[0].modern`: "as a deserter from the Jews, but" → "as a deserter from the Jewish people, but"
+- `quotationOriginals[1].modern`: "He won over many Jews, and" → "He won over many of the Jewish people, and"
+- For release: the entry's `teaser`, if kept as it stands, takes "Jewish Antiquities"; the two changed `modern` wordings replace their `tools/quote_renderings.json` records. `Second_Reading_Key.md` re-cut from the changed brief.

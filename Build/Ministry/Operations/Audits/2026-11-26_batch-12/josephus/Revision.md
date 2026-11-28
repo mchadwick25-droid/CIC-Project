@@ -60,3 +60,11 @@ Mark's ruling in this thread: "A, and make it a rule for every story". In the na
 - "The Greeks are the non-Jews." → "The Greeks are those who were not Jewish."
 
 Scorer: 785 words, grade 9.2 (names out 8.4), reading ease names out 72.8, 21.2 words a sentence, longest sentence 33 words - pass. That is 7 words over the 778 Mark accepted, all from this ruling.
+
+## After review 3: "the Jewish people" in his own words, and "Jewish Antiquities" (Mark, 2026-11-28)
+
+Mark's ruling: "b". In the two quotes where Josephus speaks, *Ioudaioi* is rendered "the Jewish people"; only that word group changes, every other clause as it was. The work's title becomes "Jewish Antiquities" (Greek *Ioudaikē Archaiologia*) where the narrator names it. Applied by the thread after review 3, carrying out the ruling; it goes to Mark under the kit.
+
+- War 3.8 quote: "as a deserter from the Jews, but as a servant sent by you." → "as a deserter from the Jewish people, but as a servant sent by you."
+- Ant. 18.3 quote: "He won over many Jews, and many of the Greeks as well." → "He won over many of the Jewish people, and many of the Greeks as well."
+- "Then came the Antiquities of the Jews, his people's history" → "Then came the Jewish Antiquities, his people's history"

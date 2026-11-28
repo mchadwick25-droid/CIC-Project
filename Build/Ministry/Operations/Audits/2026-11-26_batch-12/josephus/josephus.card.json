@@ -3,7 +3,7 @@
     "Flavius Josephus"
   ],
   "label": "Outside witness",
-  "knownFor": "A Jewish priest and historian at Rome, whose Antiquities of the Jews names Jesus and his brother James.",
+  "knownFor": "A Jewish priest and historian at Rome, whose Jewish Antiquities names Jesus and his brother James.",
   "datesNote": "Born 37; the year of his death is not recorded",
   "placeNote": "Jerusalem, then Rome",
   "role": "Jewish historian",
@@ -13,7 +13,7 @@
       "about": "the rising against Rome, in which he commanded in Galilee"
     },
     {
-      "title": "Antiquities of the Jews",
+      "title": "Jewish Antiquities",
       "about": "the history of his people in twenty books, with the two passages that name Jesus"
     },
     {
@@ -129,21 +129,21 @@
   "briefReferences": [
     "Jewish War, Book 3, in William Whiston's English: the fall of Jotapata in 67, the cave and the forty men, Vespasian's promise, the secret prayer, and the lots.",
     "Life, in Whiston's English: the emperors' favor at Rome, and his closing words, \"let others judge of my character.\"",
-    "Antiquities of the Jews, in Whiston's English: finished in the thirteenth year of Domitian, about 93. Book 18: Herod kills John the Baptist, \"a good man\", fearing his hold on the people; and the passage on Jesus. Book 20: the chief priest has James, \"the brother of Jesus, who was called Christ\", stoned.",
+    "Jewish Antiquities, in Whiston's English: finished in the thirteenth year of Domitian, about 93. Book 18: Herod kills John the Baptist, \"a good man\", fearing his hold on the people; and the passage on Jesus. Book 20: the chief priest has James, \"the brother of Jesus, who was called Christ\", stoned.",
     "Origen, Against Celsus 1.47, and Commentary on Matthew 10.17, in Greek with the Ante-Nicene English: Josephus on John and on James, and that he did not accept Jesus as the Christ.",
     "Eusebius of Caesarea, Church History 1.9 and 1.11, in Arthur McGiffert's English: the passage on Jesus, quoted against the forged Acts of Pilate as the word of a Hebrew historian.",
     "Jerome, Illustrious Men 13, in Latin: Jesus was believed to be the Christ.",
     "Jewish War, Book 3, in Whiston's English: the men's offer of a sword, to die as general of the Jewish people or as a traitor to them, and their rush at him calling him a coward (lines 110897-110901, 111066-111069); the lots, and Josephus left last with one other man (lines 111107-111133).",
-    "Jewish War, opening, and Antiquities of the Jews, opening, in Whiston's English: why he wrote, because others had written falsely of the war, out of flattery to the Romans or hatred of the Jewish people (lines 91740-91751), and to set his people's history before the Greeks (lines 5546-5551).",
+    "Jewish War, opening, and Jewish Antiquities, opening, in Whiston's English: why he wrote, because others had written falsely of the war, out of flattery to the Romans or hatred of the Jewish people (lines 91740-91751), and to set his people's history before the Greeks (lines 5546-5551).",
     "Life, in Whiston's English: his defense against Justus, a rival historian who, he says, had written falsely of him (lines 4614-4632).",
-    "Antiquities of the Jews, in Whiston's English: Book 18, John, a good man who urged righteousness toward one another and piety toward God, and Herod's fear of a rising (lines 82087-82123); Book 18, the passage on Jesus, between a riot under Pilate and another disaster (lines 81390-81424); Book 20, the council of judges, the charge of breaking the law and the protest of the fairest-minded citizens (lines 91000-91047).",
+    "Jewish Antiquities, in Whiston's English: Book 18, John, a good man who urged righteousness toward one another and piety toward God, and Herod's fear of a rising (lines 82087-82123); Book 18, the passage on Jesus, between a riot under Pilate and another disaster (lines 81390-81424); Book 20, the council of judges, the charge of breaking the law and the protest of the fairest-minded citizens (lines 91000-91047).",
     "Eusebius of Caesarea, Church History 1.11 and 2.23, in Arthur McGiffert's English: the lines on John and Jesus (lines 9145-9164, 9228-9246) and the lines on James (lines 13566-13614); Church History 9.5: the forged records sent out with the emperor's approval (lines 47945-47951).",
     "The passage on Jesus in Greek, as the Greek Illustrious Men and the Greek Martyrdom of Donatus quote it (lines 50993-51005 of the Jerome file; lines 80255-80262 of the Acta Sanctorum file): the wording the modern English of the quotation follows.",
     "The phrase on James in Greek: Origen, Commentary on Matthew 10.17 (lines 3729-3730), and Eusebius's quotation in McGiffert's note (lines 13596-13602)."
   ],
   "quotationOriginals": [
     {
-      "modern": "I give them my hands willingly, and I am content to live. And I declare openly that I do not go over to the Romans as a deserter from the Jews, but as a servant sent by you.",
+      "modern": "I give them my hands willingly, and I am content to live. And I declare openly that I do not go over to the Romans as a deserter from the Jewish people, but as a servant sent by you.",
       "printed": "I willingly give them my hands, and am content to live. And I protest openly, that I do not go over to the Romans as a deserter of the Jews, but as a minister from thee.",
       "work": "Josephus, Jewish War 3.8, tr. William Whiston",
       "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
@@ -151,9 +151,9 @@
       "uncertain": "The Greek is not held. The modern English is made from Whiston's English alone, and gives his \"minister\" as \"servant sent by you\"."
     },
     {
-      "modern": "About this time there lived Jesus, a wise man, if one ought to call him a man. For he did astonishing deeds, and taught people who gladly receive the truth. He won over many Jews, and many of the Greeks as well. This man was the Christ.",
+      "modern": "About this time there lived Jesus, a wise man, if one ought to call him a man. For he did astonishing deeds, and taught people who gladly receive the truth. He won over many of the Jewish people, and many of the Greeks as well. This man was the Christ.",
       "printed": "And there lived at that time Jesus, a wise man, if indeed it be proper to call him a man. For he was a doer of wonderful works, and a teacher of such men as receive the truth in gladness. And he attached to himself many of the Jews, and many also of the Greeks. He was the Christ.",
-      "work": "Josephus, Antiquities of the Jews 18.3, as Eusebius quotes it in Church History 1.11, tr. Arthur McGiffert",
+      "work": "Josephus, Jewish Antiquities 18.3, as Eusebius quotes it in Church History 1.11, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "9228-9232",
       "uncertain": "The modern English follows the Greek of the passage as two later Christian books quote it, the Greek Illustrious Men printed with Jerome's Latin (lines 50993-51005 of that file) and the Greek Martyrdom of Donatus, Macarius and Theodore (lines 80255-80262). Both scans are damaged and agree on these sentences. The clause Ὁ Χριστὸς οὗτος ἦν, this man was the Christ, stands clean at line 80262 of the Acta Sanctorum file and lines 50948-50949 of the Jerome file. Whiston's English (lines 81405-81411 of the Josephus file) reads \"Gentiles\" where McGiffert's reads \"Greeks\", and \"He was [the] Christ\"."
@@ -161,7 +161,7 @@
     {
       "modern": "the brother of Jesus who was called Christ, James by name",
       "printed": "the brother of Jesus, who was called Christ, whose name was James",
-      "work": "Josephus, Antiquities of the Jews 20.9, tr. William Whiston",
+      "work": "Josephus, Jewish Antiquities 20.9, tr. William Whiston",
       "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
       "lines": "91005-91009",
       "original": "τὸν ἀδελφὸν Ἰησοῦ τοῦ λεγομένου Χριστοῦ",
@@ -369,7 +369,7 @@
         },
         {
           "when": "About 93",
-          "text": "He finishes the Antiquities of the Jews, his people's history in twenty books, in the thirteenth year of Domitian and the fifty-sixth of his own life. He says he wrote it for the Greeks.",
+          "text": "He finishes the Jewish Antiquities, his people's history in twenty books, in the thirteenth year of Domitian and the fifty-sixth of his own life. He says he wrote it for the Greeks.",
           "reference": "Josephus, Antiquities, lines 91628-91666 and 5546-5551"
         },
         {
