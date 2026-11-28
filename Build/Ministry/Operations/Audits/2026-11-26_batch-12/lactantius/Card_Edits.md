@@ -174,7 +174,7 @@ I also ran the full check. It gives five errors, all expected until release:
 
 None on the card. Every claim on the card stands at its cited lines.
 
-In the census entry (not edited), one claim was not found. The `legacy` sentence "A letter in his collected letters calls Lactantius 'an ancient doctor of the Church.'" is not in the held Calvin file (CA), and I found no other held source for it. I left it in place, and it is listed here.
+In the census entry (not edited), the `legacy` sentence "A letter in his collected letters calls Lactantius 'an ancient doctor of the Church.'" was first listed here as not found. The card check found it: Calvin's letter to the curé of Cernex, `cic/texts/calvin_letters-vol1_bonnet1858.txt` lines 16669-16670. It stands; release glosses "doctor".
 
 ## Entry fields (for release; the entry itself is not edited)
 
@@ -195,7 +195,7 @@ In the census entry (not edited), one claim was not found. The `legacy` sentence
 - **`legacy`.**
   - Old: "He adds a wish that Lactantius had been as ready to teach Christian doctrines as to pull down those of others."
   - New: "He adds a wish that Lactantius could have built up Christian doctrine as easily as he pulled down that of others."
-  - Same evidence as `floorNote`. The "ancient doctor" sentence is listed under Claims not found.
+  - Same evidence as `floorNote`. The "ancient doctor" sentence is held (Calvin, lines 16669-16670; see Claims not found).
 - **`dates`.**
   - Old: "c. 303-325".
   - New: "from 303".
@@ -212,3 +212,9 @@ In the census entry (not edited), one claim was not found. The `legacy` sentence
   - `{"title": "Sancti Eusebii Hieronymi Epistulae, part 1 (Corpus scriptorum ecclesiasticorum Latinorum 54)", "author": "Isidor Hilberg (ed.)", "year": "1910", "note": "The Latin text of Jerome's Letters 1 to 70."}`
   - `{"title": "Luciferi Calaritani opuscula (Corpus scriptorum ecclesiasticorum Latinorum 14)", "author": "Wilhelm Hartel (ed.)", "year": "1886", "note": "The Latin text of Lucifer of Cagliari's pamphlets to the emperor Constantius."}`
   - `{"title": "Quellen zur Geschichte des Papsttums und des römischen Katholizismus, third edition", "author": "Carl Mirbt (ed.)", "year": "1911", "note": "A collection of source texts; it prints the Latin of the edict of Milan from On the Deaths of the Persecutors 48."}`
+
+## Entry fields (card check)
+
+- **`legacy`, for release.**
+  - Old: "A letter in his collected letters calls Lactantius “an ancient doctor of the Church.”"
+  - New: "In a letter to a parish priest, he calls Lactantius “an ancient doctor of the Church,” meaning one of its early teachers."

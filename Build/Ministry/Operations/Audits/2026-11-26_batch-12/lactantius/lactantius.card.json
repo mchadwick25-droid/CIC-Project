@@ -31,7 +31,8 @@
       "Augustine says Lactantius brought in the Sibylline testimonies bit by bit as his argument needed them, and that he himself set them down in one connected series in the City of God.",
       "In On Christian Teaching, Augustine counts Lactantius among the faithful who came out of Egypt loaded with its gold, his image for pagan learning taken into Christian use.",
       "The book on the persecutors' deaths keeps the text of two imperial orders: Galerius's edict letting Christians be Christians again, and the edict of Milan, which gave Christians and all others the freedom to follow the religion each chose, and whose Latin survives there.",
-      "Calvin ends one argument with Lactantius, that no religion is genuine that is not in accordance with truth, and tells readers to read Lactantius and Eusebius on images."
+      "Calvin ends one argument with Lactantius, that no religion is genuine that is not in accordance with truth, and tells readers to read Lactantius and Eusebius on images.",
+      "In a letter to the parish priest of Cernex, Calvin calls Lactantius an ancient doctor of the Church, meaning one of its early teachers. He writes that Lactantius and Augustine show that in their time the world's troubles were blamed on the Gospel, because it had done away with the pagan rites."
     ],
     "remembered": [
       "Jerome says Lactantius has a flow of eloquence worthy of Tully, meaning Cicero, and wishes he could have built up the faith as easily as he tore down that of others.",
@@ -46,7 +47,7 @@
     "Most of his life outside his own books rests on one witness, Jerome, who wrote later in the same century. Lactantius himself says only that he was called to Bithynia to teach, and names no one who called him.",
     "Where he was born. Jerome says he came from Africa, and no old source names the place of his birth.",
     "Where he wrote his Banquet. The English of Jerome's notice and one Latin print say he wrote it as a young man in Africa; the other Latin print lacks the words in Africa. Both have the journey from Africa to Nicomedia.",
-    "His name. Jerome calls him Firmianus, known also as Lactantius. Some copies of the Divine Institutes call him Caecilius Firmianus Lactantius in their book titles, one with the first name Lucius. The one copy of the book on the persecutors' deaths names its author Lucius Caecilius.",
+    "His name. Jerome calls him Firmianus, known also as Lactantius. Some copies of the Divine Institutes call him Caecilius Firmianus Lactantius in their book titles, some with the first name Lucius. The one copy of the book on the persecutors' deaths names its author Lucius Caecilius.",
     "When and where he became a Christian is not known. He was one when the persecution began, since he writes that the attacks on the Christians were published in his presence and to his grief.",
     "Whether he saw the church fall. He writes only that he was teaching in Bithynia when the temple of God was overthrown, and does not say he watched it. The scene of the church at Nicomedia leveled is told in the book on the persecutors' deaths.",
     "Who wrote the book on the persecutors' deaths is disputed. It survives in one copy, which names its author Lucius Caecilius. Jerome lists among Lactantius's books one On persecution, and no old source says it is this book.",
@@ -161,6 +162,13 @@
         "date": "1845",
         "language": "English translation",
         "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt"
+      },
+      {
+        "title": "Letters, volume 1, the letter to the curé of Cernex (English tr., ed. Jules Bonnet)",
+        "author": "John Calvin",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt"
       }
     ]
   },
@@ -310,7 +318,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He writes that he was called to Bithynia to teach Latin public speaking, and names no one who called him.",
+          "text": "He writes that he was called to Bithynia to teach public speaking, and names no one who called him.",
           "reference": "Lactantius, Divine Institutes V.2, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 4487; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt line 22774",
           "note": "His own words."
         },
@@ -321,7 +329,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He says he taught the art of speaking but was never eloquent himself, since he never so much as set foot in the forum, where cases were pleaded.",
+          "text": "He says he gained some skill in speaking for the sake of teaching, but was never eloquent himself, since he never so much as set foot in the forum, where cases were pleaded.",
           "reference": "Lactantius, Divine Institutes III.13, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 2487; Latin, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 12295-12296",
           "note": "His own words."
         }
@@ -451,7 +459,7 @@
         {
           "when": "Date unknown",
           "text": "He holds that the philosophers disagree and refute one another, and that there is no religion without wisdom, nor wisdom without religion.",
-          "reference": "Divine Institutes I.1, chapter as numbered in the English edition, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 575, 584"
+          "reference": "Divine Institutes I.1 and III.4, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 575, 584, 2300"
         },
         {
           "when": "Date unknown",
@@ -466,11 +474,11 @@
         {
           "when": "Date unknown",
           "text": "Book VII holds that the world lasts six ages, six thousand years, and that righteousness then reigns on earth for a thousand years.",
-          "reference": "Divine Institutes VII.14, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 6648"
+          "reference": "Divine Institutes VII.14, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 6648-6650"
         },
         {
           "when": "Date unknown",
-          "text": "Some copies open with an address to the emperor Constantine, as the first Roman ruler to honor the one true God.",
+          "text": "Some copies open with an address to the emperor Constantine, hailing him as the first Roman ruler to honor the one true God.",
           "reference": "Divine Institutes I.1, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 571; Latin apparatus, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 286-289",
           "note": "Only some copies have it, and whether Lactantius wrote it is disputed."
         },
