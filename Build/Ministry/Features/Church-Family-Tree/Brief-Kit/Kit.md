@@ -32,7 +32,7 @@ Every text lets an interested non-specialist meet one part of the church's histo
 
 ### Accessibility
 
-- Plain modern words: simplify the language, never the thought. Use the precise words a grown listener knows, and work any puzzling word or custom into the sentence as part of what happens. In the narrator's own words, say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews"; inside a quotation keep the source's own word as faithfully rendered, and keep a work's standing title (*Antiquities of the Jews*).
+- Plain modern words: simplify the language, never the thought. Use the precise words a grown listener knows, and work any puzzling word or custom into the sentence as part of what happens. In the narrator's own words, in the story and on its card, say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews"; inside a quotation keep the source's own word as faithfully rendered, and keep a work's standing title (*Antiquities of the Jews*).
 - The audio tells the story. The card carries the rest: the Original sources list, the fuller qualifications and the debates among the old sources, and a Modern works list for further reading, each work with one line on what it covers, never what it argues.
 - Aim for reading grade 8 to 9. Grade 10 and reading ease 60 are hard limits; inside them a score is a warning for the listening review, never a goal. Never simplify to move it.
 
