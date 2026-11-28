@@ -19,11 +19,15 @@ The live text was approved before the kit. It grades C on the whole-text method 
 ## Step
 
 1. Research: done. `Source_Sheet.md` (the batch 6 sheet, brought up to the kit: E14, E15, X1–X3 added), `Outline.md` (new, to Part 2: the essence said once, the dialogue told once in its own order, the witnesses in time order, Cut first list), `Excerpts.md`.
+2. Review 1, the outline check: FIX (2 BLOCKING, 6 MINOR), all applied (`Fixes.md`: none set aside). B1 brought in four held texts the sweep had missed, above all Eusebius's long Greek quotation of the dialogue (*Preparation for the Gospel* VI.10); B2 recounted the beats at about 845 words and added Cut first items 7–11.
+3. Write: draft written, every Cut first item dropped, wording tightened with nothing further cut: 784 words, about 5:14 (readability pass: grade 8.8, names out 7.9; reading ease names out 75.3). The essence is complete at word 135. `check_tree_overlap.py`: clear. **Stopped for the length** (writer role: "if it still runs long, stop and say so"); sent to the manager. Review 2 waits on the ruling.
 
 ## Open items
+
+- **Length (for Mark).** 784 words against about 675 (4:30). Options sent: (a) allow about 5:15, up to about 790 words, for this story only; (b) hold 4:30 and cut about 110 words more, which costs content the heart or the outline check asked for (Eusebius's Greek copy, Abgar's law, the Brahmans, Epiphanius's ship).
 
 - Heart wording, for the manager to see (not a change in substance): the heart's "the only text in his voice" is not told, since Ephrem's refutations also quote him (EPH-P 1352, 1937); the story says his argument comes down in the conversation as one of his pupils, Philip, tells it.
 
 ## Cost (from `get_session`)
 
-`get_session` for this session returns no cost field (no `total_cost_usd`); the figure is recorded here when it can be read.
+- After the outline check and fix pass: $6.10 (`get_session` `usage.cost_usd`, list-rate telemetry, not a bill; read again after writing, still $6.10, last updated 09:16 UTC).
