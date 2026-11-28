@@ -480,7 +480,7 @@
       "work": "Hippolytus, Against Noetus 11, tr. S. D. F. Salmond; Greek ed. Paul de Lagarde",
       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
       "lines": "23614-23626",
-      "uncertain": "The modern English is rendered from Lagarde's Greek, lines 3705 to 3708 of its file, which reads by hand ἕτερον δὲ λέγων οὐ δύο θεοὺς λέγω, ἀλλ᾽ ὡς φῶς ἐκ φωτὸς ἢ ὡς ὕδωρ ἐκ πηγῆς ἢ ὡς ἀκτῖνα ἀπὸ ἡλίου. δύναμις γὰρ μία ἡ ἐκ τοῦ παντός, τὸ δὲ πᾶν πατήρ, ἐξ οὗ δύναμις λόγος. The scan is damaged there: it prints ix for ἐκ, Ἡ and ἡ for ἢ, and ἀκτῆα for ἀκτῖνα, with a line of stray marks inside the sentence, so the Greek is not printed here; Salmond's English confirms the reading. The words I mean it as supply the verb the Greek leaves understood in the second clause."
+      "uncertain": "The modern English is rendered from Lagarde's Greek, lines 3705 to 3708 of its file, and follows Salmond's English where the scan cannot be read. The scan is damaged inside the sentence. It prints ix φωτὸς where Salmond has of light, Ἡ ὡς and ἡ ὡς where he has or as, and ἀκτῆα where he has a ray, and line 3706 is a row of stray marks. No other held print gives this Greek, so the Greek is not printed here. The words I mean it as supply the verb the Greek leaves understood in the second clause."
     },
     {
       "modern": "We are their successors. We share in the same grace, in the high priesthood and in the teaching, and we are counted guardians of the church. We do not let our eyes droop, and we do not keep the right word silent.",
