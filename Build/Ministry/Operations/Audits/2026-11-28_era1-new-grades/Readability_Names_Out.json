@@ -1,0 +1,122 @@
+{
+ "josephus": {
+  "words": 787,
+  "grade_names_out": 8.4,
+  "grade_with_names": 9.3,
+  "ease_names_out": 72.6,
+  "ease_with_names": 66.2,
+  "passes_names_out": true
+ },
+ "peter-of-alexandria": {
+  "words": 692,
+  "grade_names_out": 8.7,
+  "grade_with_names": 9.5,
+  "ease_names_out": 69.1,
+  "ease_with_names": 63.1,
+  "passes_names_out": true
+ },
+ "ignatius-of-antioch": {
+  "words": 667,
+  "grade_names_out": 6.8,
+  "grade_with_names": 7.4,
+  "ease_names_out": 81.2,
+  "ease_with_names": 76.7,
+  "passes_names_out": true
+ },
+ "clement-of-alexandria": {
+  "words": 638,
+  "grade_names_out": 8.0,
+  "grade_with_names": 9.0,
+  "ease_names_out": 70.0,
+  "ease_with_names": 62.8,
+  "passes_names_out": true
+ },
+ "valentinus": {
+  "words": 638,
+  "grade_names_out": 7.1,
+  "grade_with_names": 8.5,
+  "ease_names_out": 78.8,
+  "ease_with_names": 68.8,
+  "passes_names_out": true
+ },
+ "pontius-the-deacon": {
+  "words": 665,
+  "grade_names_out": 6.2,
+  "grade_with_names": 6.7,
+  "ease_names_out": 79.3,
+  "ease_with_names": 75.6,
+  "passes_names_out": true
+ },
+ "methodius-of-olympus": {
+  "words": 643,
+  "grade_names_out": 7.7,
+  "grade_with_names": 8.8,
+  "ease_names_out": 74.7,
+  "ease_with_names": 66.9,
+  "passes_names_out": true
+ },
+ "pamphilus-of-caesarea": {
+  "words": 669,
+  "grade_names_out": 8.1,
+  "grade_with_names": 9.3,
+  "ease_names_out": 70.4,
+  "ease_with_names": 61.3,
+  "passes_names_out": true
+ },
+ "tacitus": {
+  "words": 588,
+  "grade_names_out": 8.6,
+  "grade_with_names": 9.8,
+  "ease_names_out": 69.7,
+  "ease_with_names": 61.2,
+  "passes_names_out": true
+ },
+ "origen": {
+  "words": 984,
+  "grade_names_out": 8.9,
+  "grade_with_names": 10.1,
+  "ease_names_out": 67.8,
+  "ease_with_names": 59.4,
+  "passes_names_out": true
+ },
+ "suetonius": {
+  "words": 625,
+  "grade_names_out": 8.0,
+  "grade_with_names": 9.0,
+  "ease_names_out": 72.7,
+  "ease_with_names": 65.3,
+  "passes_names_out": true
+ },
+ "anatolius-of-alexandria-and-laodicea": {
+  "words": 676,
+  "grade_names_out": 7.9,
+  "grade_with_names": 9.1,
+  "ease_names_out": 72.8,
+  "ease_with_names": 64.5,
+  "passes_names_out": true
+ },
+ "hippolytus-of-rome": {
+  "words": 672,
+  "grade_names_out": 7.3,
+  "grade_with_names": 8.7,
+  "ease_names_out": 77.6,
+  "ease_with_names": 67.6,
+  "passes_names_out": true
+ },
+ "lactantius": {
+  "words": 671,
+  "grade_names_out": 8.6,
+  "grade_with_names": 9.8,
+  "ease_names_out": 67.5,
+  "ease_with_names": 59.3,
+  "passes_names_out": true
+ },
+ "tatian": {
+  "words": 675,
+  "grade_names_out": 7.5,
+  "grade_with_names": 8.4,
+  "ease_names_out": 72.2,
+  "ease_with_names": 65.3,
+  "passes_names_out": true
+ }
+}
