@@ -9,7 +9,7 @@ Branch `claude/cft-story-tertullian`. One story, run on the brief kit (`Build/Mi
 - **Job on the slate:** the foremost early writer of the faith in Latin: the Apology, the Prescription, Against Praxeas, the turn to the New Prophecy and against the bishops, and who read him after. Home tradition `latin-apologists` ("The Case Made in Latin").
 - **Siblings:** `latin-apologists`, `montanism-the-new-prophecy`, `pliny-the-younger`, `hermas`, `marcion-of-pontus`, `valentinus`, `modalist-monarchianism`, `cyprian-of-carthage`, `novatian`, `lactantius` (each job in `Outline.md`, Sibling).
 - **Approved heart:** Decision-Log, "2026-11-20 — Batch 7: Tertullian is 'the foremost early writer of the faith in Latin' (Mark)"; "2026-11-20 — Batch 7 hearts approved (Mark)".
-- **Length:** about 4:15 (about 640 words), within the person kit's range and Mark's batch 7 ruling for this story, "Write to 4:30" (2026-11-20).
+- **Length:** about 5:15, up to about 800 words, for this story only (Mark, 2026-11-28, relayed by the manager: "a", the option "allow about 5:15, up to about 800 words"; still tighten wording where nothing is lost). This replaces the batch 7 "Write to 4:30" for this story.
 - **Rulings for this story alone (Mark):** "yes use foremost" (2026-11-20): the story never calls him "the first" in any form. "Never counted a saint" is left out, since no held source says it (2026-11-20). Jerome's story of Cyprian asking for "the master" goes to Tertullian, as one clause; Cyprian does not tell it (2026-11-20). This pass rebuilds texts graded D or below; new work passes at B or with Mark's sign-off (2026-11-28).
 
 ## Why it is rebuilt
@@ -20,7 +20,7 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 
 1. Research: done. `Source_Sheet.md` (the batch 7 sheet, brought up to the kit: T6, E8a, I8 added), `Outline.md` (new, to Part 2), `Excerpts.md`.
 2. Review 1, the outline check: done, FIX (1 BLOCKING, 10 MINOR), all applied (`Fixes.md`).
-3. Write: draft written, every Cut first item dropped, 798 words (about 5:19), readability pass (grade 8.2, names out 7.1). **Stopped for the manager: the length.** The outline planned about 650; the beats as written run about 800. Waiting on a length ruling before review 2.
+3. Write: draft written, every Cut first item dropped, 798 words (about 5:19), readability pass (grade 8.2, names out 7.1). Stopped for the length; Mark ruled "a" (about 5:15, up to about 800 words, this story only). Review 2 next.
 
 ## Open items
 
@@ -28,4 +28,5 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 
 ## Rulings made during this run
 
-None yet.
+- **Length (Mark, 2026-11-28, via the manager):** "a": about 5:15, up to about 800 words, for this story only; tighten wording where nothing is lost. Lives: this story only.
+- **The heart's wording (manager, 2026-11-28):** no ruling needed; the narrowing goes on Mark's final page.

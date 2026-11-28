@@ -20,6 +20,8 @@ Who holds the faith, and who may speak for it? He argued, as a lawyer would, tha
 
 ## Length
 
+Ruled (Mark, 2026-11-28, this story only): about 5:15, up to about 800 words. The count below was the plan before writing; as told, the beats with every Cut first item dropped run about 800.
+
 About 4 minutes 20 seconds (about 650 words, at 150 a minute), inside the person kit's range (up to about 675) and Mark's batch 7 ruling for this story (2026-11-20: "Write to 4:30"). Count, part by part: the opening with Quote 1, about 70 (quote 29); the essence, about 75; beat 2, the Apology, about 60; beat 3, the Prescription with Quote 2 and the clause on what Marcion and Valentinus did, about 110 (quote 31); beat 4, the turn with Jerome and Augustine side by side, about 115; beat 5, Against Praxeas with Quote 3, about 100 (quote 52); beat 6, On Modesty, about 50; What came 1, Cyprian, about 50; What came 2, Novatian, about 25; What came 3, Augustine's verdict, the followers and the ending, about 85. These sum to about 740. Inside them: the plain sense of each word to explain (Apology, prescription, New Prophecy, Phrygia, the unspiritual, substance and person, second marriage, heretic, Catholic: about 65) and the witnesses credited (Eusebius, Jerome three times, Augustine twice: about 40). The Cut first list below, every item, takes about 92, bringing it to about 650. The essence ends by about word 145, inside the first minute.
 
 ## Setting
