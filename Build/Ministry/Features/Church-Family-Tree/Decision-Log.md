@@ -6503,3 +6503,13 @@ This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 **Decided (Mark, 2026-11-28): "A, wording works, converged, auto mode"; then "a".** The Privacy page says: "Cloudflare hosts the site. It also counts page visits for us with its Web Analytics. This uses no cookie and gives us no visitor number. It records the page, where you came from, your country, your kind of device and how fast the page loaded." The Europe paragraph says: "Until you say yes, the map sets no cookie and sends nothing of its own. Cloudflare's page count still runs. If you say no, the map keeps no cookie and does not ask again." The last sentence names "the map" where it said "it", so it still points at the map after the new Cloudflare sentence; the coordinator's call, for Mark to keep or strike.
 
 **Found in carrying it out.** `cft-website/privacy.html` is built from `Build/tools/tree_site_pages.json`, but the 2026-11-27 analytics changes edited only the built page. The next page build would have put back "sets no cookies", which is no longer true. The source now carries the 2026-11-27 wording and this decision, and the built page matches it byte for byte.
+
+## 2026-11-28 — A date the old sources let us work out is given as "about" that year (Mark)
+
+**Why.** The Brief Kit gave a date plainly only where the old sources fix it or it is Widely Accepted, so a card could explain a reckoning (Origen's card gives the old sources' count) and still give no year.
+
+**Decided (Mark, 2026-11-28).** "when we can calculate a date from the sources, even if not direct use it, with an explanation". On Origen's card: "but for origen you dont give it but explain when it is logicly". The wording was shown to him and he confirmed the ruling. A date the old sources let us work out, by plain counting from Widely Accepted dates such as an emperor's reign, is given as "about" that year with the old sources' own reckoning beside it. A modern scholar's argument for a date is not enough. A date that rests only on one editor's guess stays as rough as the old sources allow, or is left out.
+
+- Lines: `Brief-Kit/Kit.md`, Part 1, Rigor; `Stage-Two-Kit/Kit.md`, section 2, items 3 and 5.
+- The one independent check added "by plain counting from Widely Accepted dates" to the confirmed wording, to keep a scholar's argument out, and the worked-out year to item 5's list of lines that keep their own note. Both are for Mark to keep or strike.
+- It governs the next story on. Cards already live are brought to it by a named change order (the card sweep).

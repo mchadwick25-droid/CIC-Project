@@ -16,9 +16,9 @@ A tradition, a person, a council and an era share one layout.
 
 1. It holds every component of the subject in time order (events, acts, writings, rules, quarrels, what came of them): a map of progress and events, not storytelling.
 2. It is made after the brief, so it never shapes the brief, from all the research: the source sheet, the outline, the census entry and the card, documented stories included.
-3. A line is dated where the old sources fix the date or it is Widely Accepted. Otherwise it says "date unknown", or gives the record's own phrase ("in Callistus's time"), and sits where it naturally falls in the sequence.
+3. A line is dated where the old sources fix the date or it is Widely Accepted, or where the old sources let it be worked out by the Brief Kit's date rule: then it gives "about" that year with the record's own phrase, and its note says how the year is reached. Otherwise it says "date unknown", or gives the record's own phrase ("in Callistus's time"), and sits where it naturally falls in the sequence.
 4. Every line carries its reference directly after the point.
-5. Lines are grouped in periods, each with a date and a one-line headline, closed until opened, with a control to open them all. Where one witness carries a period, that witness is named once at its head; a line keeps its own note only where it differs: a wonder, a contested point, a much later source.
+5. Lines are grouped in periods, each with a date and a one-line headline, closed until opened, with a control to open them all. Where one witness carries a period, that witness is named once at its head; a line keeps its own note only where it differs: a wonder, a contested point, a much later source, a worked-out year.
 6. The card writer, on Sonnet, builds it; the card checker, on Opus, checks every line and headline against its source, by the card list in `Brief-Kit/roles/final-check.md`.
 
 ## 3. Dates and names on the card
