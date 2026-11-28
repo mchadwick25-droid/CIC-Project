@@ -1,0 +1,140 @@
+{
+  "otherNames": [
+    "Titus Flavius Clement"
+  ],
+  "knownFor": "Presbyter and teacher at Alexandria, who held that Greek philosophy prepared the way for Christ and taught Origen.",
+  "datesNote": "Writing about 190 to 202; last heard of about 212",
+  "placeNote": "Alexandria; later with the imprisoned bishop Alexander, and at Antioch",
+  "role": "Teacher and presbyter",
+  "keyWorks": [
+    {
+      "title": "Exhortation to the Greeks",
+      "about": "a call to leave the old gods"
+    },
+    {
+      "title": "The Instructor",
+      "about": "three books on how a Christian should live"
+    },
+    {
+      "title": "Stromata",
+      "about": "\"Gnostic Notes on the True Philosophy,\" on faith, knowledge and Greek learning"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Jerome of Strido, in his Lives of Illustrious Men, says Origen was his pupil.",
+      "His Stromata keep words from the letters of Valentinus."
+    ],
+    "remembered": [
+      "Alexander of Jerusalem called him \"the blessed presbyter, a man virtuous and approved.\"",
+      "Arthur McGiffert, who translated Eusebius of Caesarea, notes that he was long honored as a saint, and that Pope Clement the Eighth removed his name from the list because his teaching was suspected."
+    ]
+  },
+  "uncertain": [
+    "Little of his life is known beyond his own books, a few chapters of Eusebius of Caesarea and one of Jerome of Strido.",
+    "That the \"Sicilian bee\" he found in Egypt was Pantaenus is Eusebius's judgment. Eusebius says Clement names Pantaenus as his teacher in another book, the Hypotyposes.",
+    "Eusebius says all who taught at Alexandria were driven away when persecution came. Arthur McGiffert, who translated Eusebius, reads Clement into that line and dates his leaving to 202. Clement is not named there.",
+    "McGiffert says nothing certain is known of the place and time of his birth, or of his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Exhortation to the Heathen; The Instructor; The Stromata",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 5 chapters 10 and 11; Book 6 chapters 3, 6, 11, 13 and 14",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 38",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 70, to Magnus (tr. W. H. Fremantle)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Stromata I.1: his search for teachers in Greece, southern Italy and the East; the last, hidden in Egypt, where he \"found rest\".",
+    "Eusebius, Church History V.11: Pantaenus named as his teacher.",
+    "Stromata IV.2: the Miscellanies.",
+    "Jerome, Lives 38, and Alexander's letter: a presbyter of the church at Alexandria.",
+    "Stromata VI.10: Christians afraid of Greek philosophy as children are at masks. Stromata I.9: \"bare faith alone\", and the grapes without the vine.",
+    "Stromata I.5: philosophy a guide to Christ, as the Law was to the Hebrews; Wilson's note on the pædagogus, who leads the child to his teacher (Instructor I.1).",
+    "Stromata I.7: not one school, but \"whatever has been well said\".",
+    "Stromata II.20: martyrs burned, impaled, beheaded every day.",
+    "Eusebius, Church History VI.11: Alexander's prison letter to Antioch, carried by Clement. VI.14: Alexander counts him among the blessed who had gone before.",
+    "Jerome, Letter 70.2 and 70.4: the critic's question, and Clement as \"the most learned of men\"; Origen's Miscellanies.",
+    "Eusebius, Church History VI.6, and Jerome, Lives 38: Origen his pupil.",
+    "Stromata I.21, and Eusebius, Church History VI.6: written around the year 200.",
+    "Stromata I.5, with Wilson's note: the word for the guide echoes Paul, Galatians 3:24.",
+    "Stromata I.7: what men had cut away and falsified he would never call divine.",
+    "Stromata IV.10: no one should hand himself over to the judge.",
+    "Eusebius, Church History V.11 and VI.6–14: most of what is known of his life, written about a century later."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I tracked him down where he was hidden in Egypt, and I found rest.",
+      "printed": "having tracked him out concealed in Egypt, I found rest.",
+      "work": "Clement, Stromata I.1, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27489-27492",
+      "secondReading": "same"
+    },
+    {
+      "modern": "it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
+      "printed": "this was a schoolmaster to bring “the Hellenic mind,” as the law, the Hebrews, “to Christ.”",
+      "work": "Clement, Stromata I.5, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27891-27893",
+      "uncertain": "\"Schoolmaster\" stands for Paul's word in Galatians 3:24, the household servant who led a child to his teacher (Wilson's note, lines 18697-18699); \"guide\" avoids the modern sense of a man who runs a school.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "in my judgment the most learned of men",
+      "printed": "in my judgment the most learned of men",
+      "work": "Jerome, Letter 70.4, to Magnus, tr. W. H. Fremantle (no Latin held)",
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "lines": "16628-16629",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Is learning missing from these books? Or are they not rather drawn from the very heart of philosophy?",
+      "printed": "Is there any want of learning in these, or are they not rather drawn from the very heart of philosophy?",
+      "work": "Jerome, Letter 70.4, to Magnus, tr. W. H. Fremantle (no Latin held)",
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "lines": "16634-16636",
+      "secondReading": "same"
+    },
+    {
+      "modern": "bare faith alone",
+      "printed": "bare faith alone",
+      "work": "Clement, Stromata I.9, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "28315",
+      "secondReading": "same"
+    },
+    {
+      "modern": "whatever has been well said",
+      "printed": "whatever has been well said",
+      "work": "Clement, Stromata I.7, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "28147-28148",
+      "secondReading": "same"
+    }
+  ]
+}

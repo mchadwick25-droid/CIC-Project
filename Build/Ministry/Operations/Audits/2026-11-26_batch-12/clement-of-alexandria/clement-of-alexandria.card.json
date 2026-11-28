@@ -1,0 +1,495 @@
+{
+  "otherNames": [
+    "Titus Flavius Clement"
+  ],
+  "knownFor": "Presbyter, an elder of the church, and teacher at Alexandria, who held that Greek philosophy prepared the way for Christ; Eusebius says Origen was among his pupils.",
+  "shortDescription": "Clement was a Christian teacher and a presbyter, an elder of the church, at Alexandria in Egypt, late in the second century and into the third. He wrote that Greek philosophy may have been given to the Greeks to bring them to Christ, as the Law of Moses brought the Hebrews.",
+  "datesNote": "No old source gives the year of his birth or of his death. The first book of his Miscellanies counts the years to the death of the emperor Commodus, in 192, so Eusebius dates it to the reign of Severus. Jerome says he flourished under Severus and his son Antoninus. Alexander's letter to Origen, the last word of him, gives no year.",
+  "placeNote": "Alexandria, in Egypt, where he was trained, taught and served as a presbyter; later with the bishop Alexander, then in prison, at a place no source names; and Antioch, in Syria, whose church received the letter he carried for Alexander",
+  "role": "Teacher and presbyter",
+  "keyWorks": [
+    {
+      "title": "Exhortation to the Greeks",
+      "about": "a call to the Greeks to leave their idols for the Word, Christ, whom he calls the New Song"
+    },
+    {
+      "title": "The Instructor",
+      "about": "three books on Christ, the Word, as the Instructor who leads the children, with rules for behavior and conduct"
+    },
+    {
+      "title": "Miscellanies (Stromata)",
+      "about": "eight books of notes, patched together, he said, passing from one thing to another. Eusebius says they treat Scripture, quote the Greek writers wherever they seemed useful, and answer false teachers"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Eusebius of Caesarea says Origen was among his pupils, and Jerome that Origen is known to have been his disciple.",
+      "Jerome says Origen, imitating his example, wrote ten books of Miscellanies that compare the views of Christians and of philosophers.",
+      "His Stromata keep words from the letters of Valentinus.",
+      "Eusebius copied passages of his Exhortation to the Greeks on the pagan mysteries and on human sacrifice into his Preparation for the Gospel, calling him \"the admirable Clement\".",
+      "About two centuries after him, Jerome answered a critic who charged him with defiling the church by quoting pagan books. He named Christian writers who had done the same, Clement among them."
+    ],
+    "remembered": [
+      "Alexander of Jerusalem called him \"the blessed presbyter, a man virtuous and approved.\"",
+      "Writing later to Origen, Alexander named \"the holy Clement, my master and benefactor\" among the blessed men who had gone the way before.",
+      "Jerome called him \"in my judgment the most learned of men\", and asked what in his books did not come from the heart of philosophy.",
+      "Jerome's Chronicle counts him and Pantaenus, a Stoic philosopher, among those held most eloquent in arguing for the faith.",
+      "Epiphanius of Salamis counts him with Irenaeus and Hippolytus among those who wonderfully refuted the followers of Valentinus.",
+      "Theodoret of Cyrrhus counts him, as Clement the author of the Miscellanies, among those who fought for the truth against Basilides and against Valentinus.",
+      "Photius of Constantinople, about 650 years later, found the Instructor \"entirely free from idle and blasphemous opinions\" and the Miscellanies unsound \"in some parts\". He charged the Outlines with \"impious and legendary fables\", and was not sure Clement wrote them."
+    ]
+  },
+  "uncertain": [
+    "The witnesses. Clement's own books say little of his life. Most of what is told of it comes from Eusebius of Caesarea, writing about a century later. The only words about him from his own time are two letters of the bishop Alexander, which Eusebius keeps. Jerome wrote about two centuries later.",
+    "The hidden teacher. Clement names his teachers in Greece, southern Italy and the East only by where they came from, and gives no name for the last, whom he found hidden in Egypt. Eusebius thinks it was Pantaenus, since Clement names Pantaenus as his teacher in another book, the Outlines (Hypotyposes), which the Library does not hold.",
+    "Taking over the teaching. Eusebius says Clement succeeded Pantaenus in charge of the teaching of the faith to learners at Alexandria, which he elsewhere calls a school. Jerome says Clement led the church's school after the death of his master; Eusebius says nothing of a death.",
+    "Origen as a pupil. The English of Eusebius says Origen was one of his pupils \"while still a boy\". The manuscripts of Eusebius's Greek differ on those words, and the Greek edition held leaves them out. That Origen was among his pupils stands in every reading.",
+    "Leaving Alexandria. Eusebius says that when persecution threatened, no one was left at Alexandria to teach the faith, since all had been driven away. He does not name Clement, and no old source says whether or when Clement left the city.",
+    "Birth and death. No old source gives the year or place of his birth or of his death. Epiphanius says some called him an Alexandrian and others an Athenian. Alexander's letter to Origen, which counts him among the blessed who had gone before, is the last word of him.",
+    "The persecution. Eusebius says the churches were persecuted under Severus, and gives no reason. Clement writes of martyrs burned, impaled and beheaded every day, but no source ties his words to that persecution, and none ties his rule against giving oneself up to the judge to his own life.",
+    "The groups he answered. The believers who feared Greek philosophy, and those who wanted \"bare faith alone\", speak only in Clement's account. His charge that the followers of Valentinus claimed to be saved by nature is also reported by Irenaeus of Lyon, who says they held they would be saved because they are spiritual by nature.",
+    "Alexander. His letter from prison gives no reason for the prison and no place. Eusebius says Alexander was first a bishop in Cappadocia and later bishop at Jerusalem.",
+    "The Outlines. Photius, who charged them with fables, doubted they were Clement's own: \"either he or some one else under his name\"."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Exhortation to the Heathen; The Instructor; The Stromata",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 5 chapters 9, 10 and 11; Book 6 chapters 1, 3, 6, 11, 13 and 14",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Church History, Book 6 chapters 6, 11 and 14, in Greek (ed. Eduard Schwartz)",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "Letters to the church at Antioch and to Origen, in Eusebius, Church History VI.11 and VI.14",
+        "author": "Alexander of Jerusalem",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 38",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 70, to Magnus (tr. W. H. Fremantle)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Letter 70, to Magnus (ed. Isidor Hilberg)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt"
+      },
+      {
+        "title": "Chronicle, in Jerome's Latin (ed. J. K. Fotheringham)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "Preparation for the Gospel, Books 2 and 4 (tr. E. H. Gifford)",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt"
+      },
+      {
+        "title": "Panarion, haereses 31 and 32 (ed. Karl Holl)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt"
+      },
+      {
+        "title": "Compendium of Heretical Fables, Book 1 (ed. J.-P. Migne)",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "Greek and Latin",
+        "file": "cic/texts/theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt"
+      },
+      {
+        "title": "Library, codices 109 to 111 (tr. J. H. Freese)",
+        "author": "Photius of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/photius_library-v1_freese1920.txt"
+      },
+      {
+        "title": "Against Heresies I.6.2",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      }
+    ]
+  },
+  "briefSources": [
+    {
+      "title": "The Stromata (Miscellanies) and The Instructor, in Ante-Nicene Fathers vol. 2",
+      "author": "Clement of Alexandria",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+    },
+    {
+      "title": "Church History V.11, VI.1 and VI.6, with Alexander's letters in VI.11 and VI.14",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+    },
+    {
+      "title": "Church History VI.6, in Greek (ed. Eduard Schwartz)",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men, chapter 38",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "Letter 70, to Magnus, in Latin (ed. Isidor Hilberg)",
+      "author": "Jerome",
+      "file": "cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt"
+    },
+    {
+      "title": "Letter 70, to Magnus (tr. W. H. Fremantle)",
+      "author": "Jerome",
+      "file": "cic/texts/npnf206_jerome-principal-works.xml"
+    }
+  ],
+  "briefReferences": [
+    "Stromata I.1: his search for teachers in Greece, southern Italy and the East; the last, the first in ability, hidden in Egypt, where he found rest.",
+    "Jerome, Lives 38, and Alexander's letter in Eusebius, Church History VI.11: a presbyter of the church at Alexandria.",
+    "Stromata VI.10: believers who feared Greek philosophy as children fear masks.",
+    "Stromata I.5: philosophy perhaps given to the Greeks as a guide to bring them to Christ, as the Law brought the Hebrews; the word for the guide is Paul's, Galatians 3:24, and Clement's own sense is the one who leads the children (Instructor I.7). Stromata I.26: the law given through Moses.",
+    "Eusebius, Church History VI.6: Origen among his pupils; Eusebius's Greek, ed. Schwartz, for the reading.",
+    "Jerome, Letter 70.2 and 70.4: the critic's charge, Clement in his judgment the most learned of men, his question about Clement's books, and Origen's ten books of Miscellanies.",
+    "Eusebius, Church History V.11 and VI.6: most of what is told of his life, written about a century later; trained in the Scriptures at Alexandria under his teacher, and took over from him the teaching of the faith to learners.",
+    "Stromata II.3: the followers of Valentinus leave faith to us, the simple, and claim knowledge as men saved by nature. Stromata VII.17: the founders of the teachings he opposed arose under Hadrian. Stromata II.20: words from Valentinus's letter, quoted to answer them.",
+    "Stromata I.7: whatever each Greek school had said well; what men had cut away and falsified he would never call divine.",
+    "Stromata IV.2: the Miscellanies, notes patched together, passing from one thing to another.",
+    "Eusebius, Church History VI.1: the churches persecuted under Severus.",
+    "Stromata II.20: martyrs burned, impaled and beheaded before their eyes every day.",
+    "Stromata IV.11: the question why Christians were persecuted if God cared for them, and his answer. Stromata IV.10: Christ's word to flee, and the guilt of one who gives himself up to the judge.",
+    "Eusebius, Church History VI.11: Alexander's letter from prison to the church at Antioch, sent by Clement, the blessed presbyter.",
+    "Eusebius, Church History VI.14: Alexander's letter to Origen, counting the holy Clement, his master and benefactor, among the blessed who had gone before, through whom he came to know Origen."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I came upon the last, who was the first in power. I tracked him down where he was hidden in Egypt, and I found rest.",
+      "printed": "When I came upon the last (he was the first in power), having tracked him out concealed in Egypt, I found rest.",
+      "work": "Clement, Stromata I.1, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27489-27492",
+      "uncertain": "\"First in power\" is given its plain sense in the story, the first in ability, as the English of Eusebius, who quotes the passage, has it: \"in ability truly he was first\" (Church History V.11.4, npnf201 lines 28756-28757).",
+      "secondReading": "same"
+    },
+    {
+      "modern": "us, the simple,",
+      "printed": "us, the simple,",
+      "work": "Clement, Stromata II.3, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "32107",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "Perhaps philosophy too was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
+      "printed": "Perchance, too, philosophy was given to the Greeks directly and primarily, till the Lord should call the Greeks. For this was a schoolmaster to bring “the Hellenic mind,” as the law, the Hebrews, “to Christ.”",
+      "work": "Clement, Stromata I.5, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27890-27893",
+      "uncertain": "\"Guide\" stands for the printed \"schoolmaster\", Paul's word in Galatians 3:24 (marked at line 27893). Clement gives the word's sense himself: the Instructor \"who leads the children\" (Instructor I.7, lines 19937-19938). The modern sense of schoolmaster, a man who runs a school, would mislead. \"The Law\" is the law given through Moses (Stromata I.26, lines 31207-31208).",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the blessed presbyter.",
+      "printed": "the blessed presbyter",
+      "work": "Alexander, letter to the church at Antioch, in Eusebius, Church History VI.11.6, tr. Arthur Cushman McGiffert (Greek held only in a damaged scan)",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "33614",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "the holy Clement,",
+      "printed": "the holy Clement",
+      "work": "Alexander, letter to Origen, in Eusebius, Church History VI.14.9, tr. Arthur Cushman McGiffert; Greek ed. Eduard Schwartz",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "34354",
+      "original": "τὸν ἱερὸν Κλήμεντα",
+      "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+      "originalLines": "3050",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "What in them is unlearned? Or rather, what in them does not come from the heart of philosophy?",
+      "printed": "quid in illis indoctum, immo quid non de media philosophia est?",
+      "work": "Jerome, Letter 70.4, to Magnus (Latin, ed. Isidor Hilberg); English tr. W. H. Fremantle",
+      "file": "cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
+      "lines": "35367-35368",
+      "englishPrinted": "Is there any want of learning in these, or are they not rather drawn from the very heart of philosophy?",
+      "englishFile": "cic/texts/npnf206_jerome-principal-works.xml",
+      "englishLines": "16634-16636",
+      "secondReading": "same"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Date unknown",
+      "headline": "Searching for teachers, and rest in Egypt",
+      "witness": "Clement, in his own words",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Clement writes that his notes are stored up against old age, an image of the words of blessed men he was allowed to hear.",
+          "reference": "Clement, Stromata I.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27477-27481"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He tells of teachers in Greece, in southern Italy and in the East, among them one born in Assyria and a Hebrew in Palestine.",
+          "reference": "Clement, Stromata I.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27483-27487"
+        },
+        {
+          "when": "Date unknown",
+          "text": "The last of them, the first in ability, he tracks down hidden in Egypt, and there he finds rest.",
+          "reference": "Clement, Stromata I.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27489-27492",
+          "note": "Clement gives no name. Eusebius thinks this teacher was Pantaenus, whom Clement names as his teacher in another book (Church History V.11.2, npnf201 lines 28697-28704)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes that these teachers kept the teaching handed down from the apostles Peter, James, John and Paul.",
+          "reference": "Clement, Stromata I.1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27497-27501"
+        }
+      ]
+    },
+    {
+      "when": "In the time of the emperors Commodus and Severus",
+      "headline": "Trained, teaching and serving as a presbyter at Alexandria",
+      "witness": "Eusebius of Caesarea, writing about a century later",
+      "lines": [
+        {
+          "when": "In the time of Commodus, as Eusebius places it",
+          "text": "Clement is trained in the Scriptures at Alexandria with Pantaenus, and becomes well known there.",
+          "reference": "Eusebius, Church History V.9 and V.11.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28467-28469, 28653-28656, 28689-28694"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He succeeds Pantaenus and has charge of the teaching of the faith to learners at Alexandria.",
+          "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33015, 33040-33043",
+          "note": "Jerome says he led the church's school after his master's death; Eusebius says nothing of a death (Lives of Illustrious Men 38, npnf203 lines 40249-40252)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Origen is among his pupils.",
+          "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33043-33044, 33079-33080",
+          "note": "The manuscripts of Eusebius's Greek differ on whether Origen was then still a boy (Schwartz's edition, lines 1839-1843, 1883-1885)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He serves as a presbyter, an elder of the church at Alexandria.",
+          "reference": "Jerome, Lives of Illustrious Men 38, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40249-40250",
+          "note": "Jerome's words, about two centuries later. Alexander, a bishop of Clement's own time, calls him the blessed presbyter (Church History VI.11.6, npnf201 line 33614)."
+        }
+      ]
+    },
+    {
+      "when": "Date unknown; Eusebius dates the first book of the Miscellanies to the reign of Severus",
+      "headline": "The Miscellanies and his other books",
+      "witness": "Clement, in his own words",
+      "lines": [
+        {
+          "when": "In the reign of Severus",
+          "text": "The first book of his Miscellanies counts the years to the death of the emperor Commodus, so Eusebius dates it to the reign of Severus.",
+          "reference": "Clement, Stromata I.21, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 30602-30604; Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33080-33086",
+          "note": "The dating is Eusebius's."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He calls his Miscellanies notes patched together, passing from one thing to another.",
+          "reference": "Clement, Stromata IV.2, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 37560-37563"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Many believers, he writes, fear Greek philosophy as children fear masks, afraid it will lead them astray.",
+          "reference": "Clement, Stromata VI.10, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 47241-47243"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Some, he writes, demand bare faith alone, like a man who wants grapes without tending the vine.",
+          "reference": "Clement, Stromata I.9, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 28313-28316"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes that God is the cause of all good things, and that philosophy was perhaps given to the Greeks to bring them to Christ, as the Law of Moses brought the Hebrews.",
+          "reference": "Clement, Stromata I.5, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 27885-27893; Stromata I.26, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 31207-31208"
+        },
+        {
+          "when": "Date unknown",
+          "text": "By philosophy he means whatever each Greek school said well. What men had cut away and falsified he would never call divine.",
+          "reference": "Clement, Stromata I.7, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 28146-28154"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes that the followers of Valentinus leave faith to ordinary believers and claim knowledge for themselves as men saved by nature.",
+          "reference": "Clement, Stromata II.3, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 32106-32108",
+          "note": "Clement's charge. Irenaeus of Lyon reports the same claim (Against Heresies I.6.2, anf01 lines 30761-30763)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He copies words from a letter of Valentinus in order to answer them.",
+          "reference": "Clement, Stromata II.20, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 34289-34291"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes that the founders of the teachings he opposed arose in the time of the emperor Hadrian, and names Valentinus among them.",
+          "reference": "Clement, Stromata VII.17, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 52956-52962"
+        },
+        {
+          "when": "Date unknown",
+          "text": "In the Exhortation to the Greeks he calls the Greeks from their idols to the Word, Christ, whom he calls the New Song.",
+          "reference": "Clement, Exhortation to the Heathen 1, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 15279-15282; Exhortation 6, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 17079-17081"
+        },
+        {
+          "when": "Date unknown",
+          "text": "In The Instructor, three books, he writes of Christ, the Word, as the Instructor who leads the children.",
+          "reference": "Clement, The Instructor I.7, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 19937-19946; Eusebius, Church History VI.13.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34004"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Eusebius lists his other books, among them What Rich Man is Saved?, works on the Passover, on fasting and on evil speaking, and one dedicated to the bishop Alexander.",
+          "reference": "Eusebius, Church History VI.13.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33985-34112"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Eusebius says that in these books he also cites books whose place in Scripture was disputed, names Tatian's Discourse to the Greeks, and refers to Jewish writers, among them Philo and Josephus.",
+          "reference": "Eusebius, Church History VI.13.6-7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34128-34199"
+        },
+        {
+          "when": "Date unknown",
+          "text": "In the Outlines, Eusebius says, he gives short accounts of all of Scripture, even the books whose place in it was disputed.",
+          "reference": "Eusebius, Church History VI.14.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34275-34278"
+        }
+      ]
+    },
+    {
+      "when": "Under the emperor Severus, by Eusebius's account; Clement's own words undated",
+      "headline": "Persecution, and martyrs every day",
+      "lines": [
+        {
+          "when": "Under Severus",
+          "text": "Severus persecutes the churches, and believers from all over Egypt are brought to Alexandria and put to death, Eusebius says.",
+          "reference": "Eusebius, Church History VI.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397, 32428-32433",
+          "note": "Eusebius gives no reason for the persecution."
+        },
+        {
+          "when": "Date unknown",
+          "text": "When persecution threatens, Eusebius says, all who taught the faith at Alexandria are driven away.",
+          "reference": "Eusebius, Church History VI.3.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32670-32672",
+          "note": "Clement is not named."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Clement writes that he and his fellow believers see martyrs burned, impaled and beheaded before their own eyes every day.",
+          "reference": "Clement, Stromata II.20, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 34507-34509",
+          "note": "No source ties these words to the persecution under Severus."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Some ask, he writes, why Christians are persecuted and put to death if God cares for them. He answers that Christ foretold it, and that Christians suffer unjustly, for doing right.",
+          "reference": "Clement, Stromata IV.11, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 38903-38914"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He teaches that Christ's word to flee is meant to keep believers from bringing harm on themselves or on the persecutor, and that one who gives himself up to the judge shares the guilt of his own death.",
+          "reference": "Clement, Stromata IV.10, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 38875-38884"
+        }
+      ]
+    },
+    {
+      "when": "Date unknown; when the church at Antioch had a new bishop",
+      "headline": "With Alexander, a bishop in prison",
+      "witness": "Alexander, a bishop of his own time, in letters Eusebius keeps",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Alexander writes from prison to the church at Antioch, glad that it has a new bishop, and sends the letter by Clement.",
+          "reference": "Eusebius, Church History VI.11.5-6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33597-33613",
+          "note": "The letter gives no reason for the prison and no place. Eusebius says Alexander was first a bishop in Cappadocia and later bishop at Jerusalem (VI.11.1-2, lines 33505-33521)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Alexander calls Clement the blessed presbyter, a man virtuous and approved, who has strengthened and built up the church where Alexander is.",
+          "reference": "Eusebius, Church History VI.11.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33614-33617"
+        },
+        {
+          "when": "Later",
+          "text": "Writing to Origen, Alexander counts the holy Clement, his master and benefactor, with Pantaenus among the blessed men who had gone the way before, through whom he came to know Origen.",
+          "reference": "Eusebius, Church History VI.14.8-9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34330-34356",
+          "note": "The last word of him. No year or place of his death is held."
+        }
+      ]
+    },
+    {
+      "when": "After his time",
+      "headline": "Read, copied and judged by later writers",
+      "lines": [
+        {
+          "when": "About a century later",
+          "text": "Eusebius copies passages of the Exhortation on the pagan mysteries and on human sacrifice into his Preparation for the Gospel, calling him the admirable Clement.",
+          "reference": "Eusebius, Preparation for the Gospel II.2-3 and IV.16, cic/texts/eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt lines 4946-4951, 10834-10837, 10919"
+        },
+        {
+          "when": "About 175 years later",
+          "text": "Epiphanius counts him with Irenaeus and Hippolytus among those who wonderfully refuted the followers of Valentinus, and says some called him an Alexandrian, others an Athenian.",
+          "reference": "Epiphanius, Panarion 31 and 32, cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt lines 32964-32966, 33699-33700"
+        },
+        {
+          "when": "About two centuries later",
+          "text": "Jerome's Chronicle counts him and Pantaenus, a Stoic philosopher, among those held most eloquent in arguing for the faith.",
+          "reference": "Jerome, Chronicle, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43374-43377",
+          "note": "An entry of Severus's reign."
+        },
+        {
+          "when": "About two centuries later",
+          "text": "Jerome lists his books, says Origen is known to have been his disciple, and says he flourished under Severus and his son Antoninus.",
+          "reference": "Jerome, Lives of Illustrious Men 38, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40249-40279"
+        },
+        {
+          "when": "About two centuries later",
+          "text": "Answering a critic who charged him with defiling the church by quoting pagan books, Jerome names Clement, in his judgment the most learned of men, and says Origen imitated him in ten books of Miscellanies.",
+          "reference": "Jerome, Letter 70.2 and 70.4, cic/texts/npnf206_jerome-principal-works.xml lines 16477-16480, 16626-16642; Latin, cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt lines 35102-35105, 35364-35370"
+        },
+        {
+          "when": "About 250 years later",
+          "text": "Theodoret counts Clement, the author of the Miscellanies, among those who fought for the truth against Basilides and against Valentinus.",
+          "reference": "Theodoret, Compendium of Heretical Fables I, cic/texts/theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt lines 27950-27957, 29659-29661"
+        },
+        {
+          "when": "About 650 years later",
+          "text": "Photius reads three of his books. He praises the Instructor, finds the Miscellanies unsound in some parts, and charges the Outlines with fables, doubting that Clement wrote them.",
+          "reference": "Photius, Library, codices 109 to 111, cic/texts/photius_library-v1_freese1920.txt lines 11066-11163"
+        }
+      ]
+    }
+  ]
+}
