@@ -72,3 +72,32 @@ In the card (and the census `card`, kept identical):
 - `python -m engine.m1.profile_readability`: 558 words, grade 8.4 (names out 7.5), reading ease names out 75.4, 19.2 words a sentence, longest sentence 35 words, pass.
 - **Length:** 558 words, about 3:43 at 150 words a minute, inside the person kit's 450 to 675 and under the approved 600.
 - Re-read for the four faults: Jerome's two dates stay credited; Origen's teaching stays told as Methodius gave it, now credited to Photius by name; no modern view; nothing moved onto the wrong event. The quarrel over Origen is still carried by Eusebius's question and Epiphanius's copying; Socrates's charge is cut by Mark's ruling, not softened, and stands whole on the card.
+
+## After the second blind reading, carrying out Mark's ruling (2026-11-28)
+
+Three blind readers named five points, each by two or three of them; Mark ruled "fix the points", with no rewrite. Each point gets the smallest change that fixes it, checked at the outline line cited, using only what the outline holds (Opus). The same changes are made in the census `longDescription`. Every other sentence is unchanged, word for word.
+
+In the brief, old beside new:
+
+- **1. It switches between the two works.** The paragraph "The Banquet is a story within a story, ..." moves up from third to second, straight after the opening, and the paragraph "Methodius was bishop of Olympus, ..." moves down from second to third. The Banquet is now told once (opening and speeches), then On the Resurrection (Outline, Story beats: Beat 2 before Beats 3 and 4). No sentence is reworded for the move. The Banquet's close stays as the ending: it is the opening image seen again (Outline, Ending 1; Kit Part 1, end on "the opening image again").
+- **2. "A later bishop copied his words" told twice.** Cut "A later bishop copied his words into his own case against Origen." from the essence paragraph. The one telling is the Epiphanius paragraph, unchanged, where it falls in time (Outline, What came of it 1, I1).
+- **3. The statue quote restated.** Cut "The flaws, that is, melt away, and the statue itself is not lost." The quote stands alone, as it stood before the blind-test fix of this date. This undoes that fix and does not patch it.
+- **4. No question runs through it.** Added, at the close of the essence paragraph: "At issue was what the body is to the soul." (Outline, Also told, The question: "what the body is to the soul"; Shape, "The question he worked at"). Named again where it resolves: "A human being, he held, is soul and body joined in one." → "As for what the body is to the soul, he held that a human being is soul and body joined in one." (Outline, Also told, His answer: "A person is soul and body joined (R3)").
+- **5. The Photius line.** Cut "The dialogue, as Photius summed it up in his reading notes centuries on, asks what the body is to the soul." The outline ranks Photius's summary last in What came of it (5, card), and the Do not say list bars a sentence of its own on where the account is kept, so it cannot move to its own time; it is cut. Its question now stands once, early (point 4). The account of Origen stays credited to Methodius ("Origen, Methodius wrote, held"), and the card keeps the summary as the source for it (`uncertain`: "The summary. What the dialogue On the Resurrection is about, and its account of Origen, come from the summary Photius made centuries later."). This undoes the blind-test fix of this date that named Photius.
+
+### Checks
+
+- `python -m engine.m1.profile_readability`: 532 words, grade 8.5 (names out 7.6), reading ease names out 75.7, 19.7 words a sentence, longest sentence 35 words, pass.
+- **Length:** 532 words, about 3:33 at 150 words a minute, inside the person kit's 450 to 675 and under the approved 600.
+- Re-read for the four faults: Jerome's two dates stay credited; Origen's teaching stays told as Methodius gave it; no modern view; nothing moved onto the wrong event.
+- Raised for Mark: with the Banquet told first, the essence is complete at word 197 ("... the same body will rise."), about 1:19, past the kit's first minute.
+
+### Blind recheck
+
+Three fresh Opus judges, one per reference, each with the judge prompt of `claude/cft-blind-check-14` (`2026-11-28_era1-blind-check/x3/`), reading only the two texts and Kit Part 1. Pass is at least 2 of 3 at B− or better and none calling it clearly worse.
+
+- Against Basil of Caesarea: C+; reference somewhat better (B−).
+- Against Epiphanius of Salamis: B; this story somewhat better (reference C+).
+- Against John Chrysostom: C; reference clearly better (B).
+
+**FAIL** (1 of 3 at B− or better). Faults named by two or more judges: the question phrase said twice and heard as scaffolding ("At issue was what the body is to the soul" / "As for what the body is to the soul", all three); the statue quote hard to follow when heard once (all three); Eusebius's question given without its reason (Basil, Chrysostom). Raised for Mark; no further change made.
