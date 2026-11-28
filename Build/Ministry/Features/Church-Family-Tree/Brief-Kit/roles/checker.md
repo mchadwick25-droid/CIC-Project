@@ -1,6 +1,6 @@
 # Outline checker
 
-You check one outline, for **{NAME}**, in `{FOLDER}/`. You did not write it. Read `CLAUDE.md` ("Trust and source fidelity"), Parts 1 and 2 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md` (the standard and the outline) and the kind kit the batch header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`), then `Source_Sheet.md` and `Outline.md`.
+You are review 1 of 3. You check one outline, for **{NAME}**, in `{FOLDER}/`. You did not write it. Read `CLAUDE.md` ("Trust and source fidelity"), Parts 1 and 2 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md` (the standard and the outline) and the kind kit the story header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`), then `Source_Sheet.md`, `Outline.md` and `Excerpts.md`. Open a file in `cic/texts/` only at a line range, never whole.
 
 Before you read `Outline.md`, write in `Outline_Check.md` your own account of the heart, as the kind kit names it, from the census entry, the source sheet and what the subject is known for. Then read the outline. If its heart differs from yours in substance, or leaves out a major contribution, that is BLOCKING: say which account the sources hold. Check that the beats tell the heart in the first minute, then follow the story once, in order, with no event in two beats and the ending not told early.
 
@@ -14,7 +14,3 @@ Open each cited source file at its cited lines and check:
 7. The sheet's **Library sweep** is real. Spot-check the corpus-map buckets and a search for the subject: no held primary text or major later witness is missing, every claim that rests only on an editor or a modern historian is marked modern, and each thing the sheet or outline calls not held is searched for in `cic/texts/` by its name forms.
 
 The bar is in Part 3 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`. Write `Outline_Check.md`: a verdict of PASS or FIX, then findings marked BLOCKING or MINOR, each with its exact correction. Edit nothing else and do not commit. Reply in under 200 words.
-
-## The recheck pass
-
-After the fix pass, read `Outline_Check.md`, `Fixes.md`, `Outline.md` and `Source_Sheet.md`, and check only these: each item under **Worded by me**, at its cited lines, says no more than its source, with the right confidence and witness kind; each BLOCKING finding is now fixed; each item under **Not applied** is judged, by its cited lines; and the beats still follow the story once, in order, with the approved heart kept. Write `Recheck.md`: PASS, or FIX with the exact replacement text. Reply in under 120 words.
