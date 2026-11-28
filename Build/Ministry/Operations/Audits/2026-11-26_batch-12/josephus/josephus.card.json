@@ -148,7 +148,8 @@
       "work": "Josephus, Jewish War 3.8, tr. William Whiston",
       "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
       "lines": "110852-110856",
-      "uncertain": "The Greek is not held. The modern English is made from Whiston's English alone, and gives his \"minister\" as \"servant sent by you\"."
+      "uncertain": "The Greek is not held. The modern English is made from Whiston's English alone, and gives his \"minister\" as \"servant sent by you\".",
+      "secondReading": "same"
     },
     {
       "modern": "About this time there lived Jesus, a wise man, if one ought to call him a man. For he did astonishing deeds, and taught people who gladly receive the truth. He won over many of the Jewish people, and many of the Greeks as well. This man was the Christ.",
@@ -156,7 +157,8 @@
       "work": "Josephus, Jewish Antiquities 18.3, as Eusebius quotes it in Church History 1.11, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "9228-9232",
-      "uncertain": "The modern English follows the Greek of the passage as two later Christian books quote it, the Greek Illustrious Men printed with Jerome's Latin (lines 50993-51005 of that file) and the Greek Martyrdom of Donatus, Macarius and Theodore (lines 80255-80262). Both scans are damaged and agree on these sentences. The clause Ὁ Χριστὸς οὗτος ἦν, this man was the Christ, stands clean at line 80262 of the Acta Sanctorum file and lines 50948-50949 of the Jerome file. Whiston's English (lines 81405-81411 of the Josephus file) reads \"Gentiles\" where McGiffert's reads \"Greeks\", and \"He was [the] Christ\"."
+      "uncertain": "The modern English follows the Greek of the passage as two later Christian books quote it, the Greek Illustrious Men printed with Jerome's Latin (lines 50993-51005 of that file) and the Greek Martyrdom of Donatus, Macarius and Theodore (lines 80255-80262). Both scans are damaged and agree on these sentences. The clause Ὁ Χριστὸς οὗτος ἦν, this man was the Christ, stands clean at line 80262 of the Acta Sanctorum file and lines 50948-50949 of the Jerome file. Whiston's English (lines 81405-81411 of the Josephus file) reads \"Gentiles\" where McGiffert's reads \"Greeks\", and \"He was [the] Christ\".",
+      "secondReading": "same"
     },
     {
       "modern": "the brother of Jesus who was called Christ, James by name",
@@ -167,7 +169,8 @@
       "original": "τὸν ἀδελφὸν Ἰησοῦ τοῦ λεγομένου Χριστοῦ",
       "originalFile": "cic/texts/origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt",
       "originalLines": "3729-3730",
-      "uncertain": "The modern English follows the Greek of Eusebius's quotation, given in McGiffert's note (lines 13596-13602 of the Eusebius file, a damaged scan), with Origen's Greek for the phrase on Jesus, printed here. Whiston's English reads \"whose name was James\"; McGiffert's English reads \"James by name\" (line 13593)."
+      "uncertain": "The modern English follows the Greek of Eusebius's quotation, given in McGiffert's note (lines 13596-13602 of the Eusebius file, a damaged scan), with Origen's Greek for the phrase on Jesus, printed here. Whiston's English reads \"whose name was James\"; McGiffert's English reads \"James by name\" (line 13593).",
+      "secondReading": "same"
     }
   ],
   "shortDescription": "Josephus was a Jewish priest from Jerusalem who commanded in Galilee when the Jewish people rose against Rome, gave himself up to the Roman general Vespasian in 67, and wrote his people's history at Rome. A few lines in it tell of John the Baptist, of James the brother of Jesus, and of Jesus, and Christians copied them for centuries.",
