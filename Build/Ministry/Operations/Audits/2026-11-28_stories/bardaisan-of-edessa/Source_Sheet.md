@@ -18,7 +18,7 @@ Files, by short name (all under `cic/texts/`):
 - **MS** = `michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt`: Michael the Syrian, *Chronicle* (12th century), Chabot's French.
 - **GN** = `npnf205_gregory-nyssa-dogmatic-treatises.txt`.
 - **PE** = `eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt` (Gifford's English, VI.10 from 17920) and `eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt` (Greek, from 28434): Eusebius quotes the dialogue at length under Bardaisan's name.
-- **PS** = `patrologia-syriaca_pars1-t2-...-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt`: the Syriac of the dialogue with Nau's Latin (from 49589; the Syriac OCR is unusable; Nau's Latin is a modern translation), and Nau's testimonia (from 46586).
+- **PS** = `patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt`: the Syriac of the dialogue with Nau's Latin (from 49589; the Syriac OCR is unusable; Nau's Latin is a modern translation), and Nau's testimonia (from 46586).
 - **THF** = `theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt`: Theodoret, *Compendium of Heretical Fables* I.22 (Latin 29766–29778, Greek from 29805).
 - **ANF1** = `anf01_apostolic-fathers-justin-irenaeus.xml`: Justin, *First Apology*, and Irenaeus, *Against Heresies* (English).
 

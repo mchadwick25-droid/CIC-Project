@@ -1,4 +1,4 @@
-# Source excerpts: 
+# Source excerpts: bardaisan-of-edessa
 
 Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outline.md` cite, 4 lines of context on each side. Each line keeps its file's own number. Open a file itself only at a line range.
 
@@ -1471,6 +1471,35 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 20495:    Let us now go on to the next stage in his argument:--"....the
 ```
 
+## PS = `patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt`
+
+### PS 46673-46682
+```
+46673: EGLOTATO “UL 
+46674: oy wraZro eowmerov.evos TH TOTAL, “2b CUULTOUTTOV TE Kut nob sho avTOD peTacy ov 
+46675: mardetas *. 
+46676: 
+46677: Testatur etiam Iulius Africanus se illum vidisse in aula Abgaris; erat 
+46678: tune Bardesanes solers venator : cidov xxi arog gv “AGyaoou tod Bacrhéws Mayo 
+46679: Tod Taos aVTOD mOAKHIS TELOLGAVTOS éu.00 Sonynoapévo. Totsrng obtm dewosg Hv, ote 
+46680: Oxoxg mote hutv ovens aul wsonuootay... jy O& Zox Gomd; TOOT NS Basdnckvns elmep Thc 
+46681: TE006.».. ouu.xCouev dé Op@vTEs... 
+46682: 
+```
+
+### PS 46703-46711
+```
+46703: 3. Porphyrius (223-305) seribit ad praecedsnie hominum aetatem Bar- 
+46704: desanem pertinuisse : in) tv ratdowy qudv yeyoves *. 
+46705: 
+46706: 
+46707: Idem Porphyrius in alio opere scribit Bardesanem vidisse Indos legatos 
+46708: 
+46709: 
+46710: ‘ Eusebius, H. E.1V, 30; P. G. t. XX, col. 404. Hieron., De viris ill. 33; P, Li 
+46711: t. NXT, col. 647. Epiph. //cer. LVI. Dicere possumus etiam regionem Osroenen, cuius 
+```
+
 ## THF = `theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt`
 
 ### THF 29762-29774
@@ -1574,7 +1603,3 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 ## Wide ranges, not cut (over 40 lines; open at the lines needed)
 
 - EPH-P 282-345 (`ephraim_prose-refutations_mitchell1912-1921.txt`)
-
-## Files not found
-
-- PS = patrologia-syriaca_pars1-t2-...-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt
