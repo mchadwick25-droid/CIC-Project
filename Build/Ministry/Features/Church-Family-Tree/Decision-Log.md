@@ -6457,3 +6457,12 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 **Judgment calls in carrying it out, for Mark to keep or strike.** Each finished brief comes to Mark before release, with its three reviews' counts, until he says otherwise. This replaces "Mark reads the first two", which assumed a batch. The brief reviewer marks SUMMARY HOLDS only after testing the compression in its place beside the sentence before; this keeps part of what the second trust read caught in Ignatius. A BLOCKING outline finding the thread does not apply goes to Mark, since no recheck now judges it.
 
 **What this does not do.** It reopens no finished story. Batch 12's unfinished stories on `claude/batch12-era1-persons` wait for Mark's ruling on how they finish under this kit. The superseded role prompts are in `Archive/Church-Family-Tree-Brief-Kit-roles-2026-11-28/`.
+
+## 2026-11-28 — "The Jewish people" in the narrator's words (Mark)
+
+**Why.** Reading the Josephus card, Mark asked: "can we say the isrealits or jewish people rather than jews". "Israelites" names the ancient Israel of the Bible and would mislead for the first century. Three options were shown: A, the narrator's own words only; B, A and the quote renderings too; C, every instance, titles included.
+
+**Decided (Mark, 2026-11-28): "A, and make it a rule for every story"; then "yes, use claude/kit-jewish-people for the kit rule".**
+1. In the narrator's own words, a story and its card say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews" (`Brief-Kit/Kit.md`, Part 1, Accessibility, "Plain modern words").
+2. Inside a quotation the source's own word is kept as faithfully rendered, and a work keeps its standing title (*Antiquities of the Jews*).
+3. It governs the next story on, and Josephus, which was unfinished when it was made. It reopens no finished story except by a named change order.
