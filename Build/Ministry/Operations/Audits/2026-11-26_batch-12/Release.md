@@ -43,4 +43,5 @@ Telemetry, not a bill: the session records' `cost_usd`. First release session (`
 ## Not done
 
 - No audio recorded.
+- The generator's rewrite of `privacy.html` is open: Open-Gaps, "The tree-page generator rewrites the privacy page with older text" (2026-11-28).
 - Two of the 13 are checked on churchfamilytree.com after the merge; the result goes to the managing session.
