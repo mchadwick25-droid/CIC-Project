@@ -6,19 +6,19 @@ Batch 12, part A (2026-11-27). Job on the slate: a Jewish priest and commander w
 
 All in `cic/texts/` unless marked. Line numbers are the file's own lines (`rg -n`), not the host OCR lines that some file headers cite.
 
-- **JW** = `josephus_works-antiquities-wars-life_whiston1859.txt`. Josephus's *Life* (printed first, JW 1378–5491), *Antiquities of the Jews* and *Jewish War*, in William Whiston's English (made in the eighteenth century; this printing Philadelphia, 1859). Whiston's footnotes and his Dissertation I (from JW 138228) are an editor's words: **JW-ed**. Whiston's square brackets inside the text are his and are kept.
-- **EH** = `npnf201_eusebius-church-history-life-of-constantine.xml`. Eusebius, *Church History*, in Arthur McGiffert's English (1890). McGiffert's endnotes: **EH-ed**.
-- **CC** = `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`. Origen, *Against Celsus*, Ante-Nicene Fathers English (Frederick Crombie).
-- **OM** = `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`. Origen, *Commentary on Matthew*, Book X, Ante-Nicene Fathers English (John Patrick).
-- **OMG** = `origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt`. The same commentary in Origen's Greek (Lommatzsch, Berlin 1834). OCR is rough; my reading in [brackets].
-- **JV** = `npnf203_theodoret-jerome-gennadius-rufinus.xml`. Jerome, *Illustrious Men*, NPNF English. **JVL** = `jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt`, Jerome's Latin in Migne's *Patrologia Latina* 23 (1883), printed with the old Greek version of *Illustrious Men* that goes under the name of Sophronius, and with notes by earlier editors (one signed "Martian."): **JVL-ed**.
-- **JVJ** = `npnf206_jerome-principal-works.xml`. Jerome, *Against Jovinian*, NPNF English.
-- **SOZ** = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`. Sozomen, *Church History* Book I, NPNF English. (The held Greek Sozomen, `sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt`, holds only Books V–IX.)
-- **SUET** = `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt`. Suetonius, *Vespasian*, Latin with John Rolfe's English (Loeb, 1914).
-- **MS** = `michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt`. The chronicle of Michael, Syriac Orthodox patriarch of Antioch (1166–1199, file header), in Jean-Baptiste Chabot's French (1899). The Syriac is not in this file. Chabot's notes: **MS-ed**.
-- **ADON** = `acta-sanctorum_maii-tomus-5-lat_palme1866.txt`. The Greek *Martyrdom of Donatus, Macarius and Theodore* with a Latin version, in the Bollandists' *Acta Sanctorum*, May vol. 5 (reprint 1866); the editor's commentary is by Daniel Cardon (ADON 79590–79592).
-- **CEN** = `cic-website/data/world-census.json` (not in `cic/texts/`): entries `josephus`, `origen`, `eusebius-of-caesarea`, `jerome`, `sozomen`, `suetonius`.
-- **CARD** = `Card.existing.json` in this folder.
+- **JW**: `josephus_works-antiquities-wars-life_whiston1859.txt`. Josephus's *Life* (printed first, JW 1378–5491), *Antiquities of the Jews* and *Jewish War*, in William Whiston's English (made in the eighteenth century; this printing Philadelphia, 1859). Whiston's footnotes and his Dissertation I (from JW 138228) are an editor's words: **JW-ed**. Whiston's square brackets inside the text are his and are kept.
+- **EH**: `npnf201_eusebius-church-history-life-of-constantine.xml`. Eusebius, *Church History*, in Arthur McGiffert's English (1890). McGiffert's endnotes: **EH-ed**.
+- **CC**: `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`. Origen, *Against Celsus*, Ante-Nicene Fathers English (Frederick Crombie).
+- **OM**: `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`. Origen, *Commentary on Matthew*, Book X, Ante-Nicene Fathers English (John Patrick).
+- **OMG**: `origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt`. The same commentary in Origen's Greek (Lommatzsch, Berlin 1834). OCR is rough; my reading in [brackets].
+- **JV**: `npnf203_theodoret-jerome-gennadius-rufinus.xml`. Jerome, *Illustrious Men*, NPNF English. **JVL**: `jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt`, Jerome's Latin in Migne's *Patrologia Latina* 23 (1883), printed with the old Greek version of *Illustrious Men* that goes under the name of Sophronius, and with notes by earlier editors (one signed "Martian."): **JVL-ed**.
+- **JVJ**: `npnf206_jerome-principal-works.xml`. Jerome, *Against Jovinian*, NPNF English.
+- **SOZ**: `npnf202_socrates-sozomen-ecclesiastical-histories.xml`. Sozomen, *Church History* Book I, NPNF English. (The held Greek Sozomen, `sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt`, holds only Books V–IX.)
+- **SUET**: `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt`. Suetonius, *Vespasian*, Latin with John Rolfe's English (Loeb, 1914).
+- **MS**: `michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt`. The chronicle of Michael, Syriac Orthodox patriarch of Antioch (1166–1199, file header), in Jean-Baptiste Chabot's French (1899). The Syriac is not in this file. Chabot's notes: **MS-ed**.
+- **ADON**: `acta-sanctorum_maii-tomus-5-lat_palme1866.txt`. The Greek *Martyrdom of Donatus, Macarius and Theodore* with a Latin version, in the Bollandists' *Acta Sanctorum*, May vol. 5 (reprint 1866); the editor's commentary is by Daniel Cardon (ADON 79590–79592).
+- **CEN**: `cic-website/data/world-census.json` (not in `cic/texts/`): entries `josephus`, `origen`, `eusebius-of-caesarea`, `jerome`, `sozomen`, `suetonius`.
+- **CARD**: `Card.existing.json` in this folder.
 
 ## Languages held
 
