@@ -1,0 +1,16 @@
+id,name,words,rigor,rigor_load,craft,craft_load,overall,action,old_conversion,old_conversion_rigor,old_conversion_craft,old_live,strict_rigor
+methodius-of-olympus,Methodius of Olympus,643,B,1.1,D,7.6,D,should be redone,D,B,D,F,
+suetonius,Suetonius,627,C,4.5,F,13.4,D,should be redone,F,F,D,F,D
+hippolytus-of-rome,Hippolytus of Rome,674,C,4.2,D,7.3,C,would benefit,C,C,B,F,
+josephus,Josephus,788,D,6.2,B,1.8,C,would benefit,F,F,B,F,D
+tacitus,Tacitus,590,C,3.6,C,4.7,C,would benefit,C,C,C,F,
+anatolius-of-alexandria-and-laodicea,Anatolius of Alexandria and Laodicea,678,B,1.0,C,5.2,B,OK to keep,C,C,B,F,
+clement-of-alexandria,Clement of Alexandria,638,B,2.2,C,3.3,B,OK to keep,C,C,B,D,
+ignatius-of-antioch,Ignatius of Antioch,667,B,1.0,B,1.0,B,OK to keep,B,B,B,D,
+lactantius,Lactantius,670,B,1.0,B,1.0,B,OK to keep,C,C,B,F,
+origen,Origen,983,B,2.8,B,1.4,B,OK to keep,C,C,B,D,
+pamphilus-of-caesarea,Pamphilus of Caesarea,666,B,1.1,C,4.2,B,OK to keep,B,B,B,D,
+peter-of-alexandria,Peter of Alexandria,698,B,1.0,B,1.0,B,OK to keep,B,B,B,F,
+pontius-the-deacon,Pontius the Deacon,668,A,0.0,C,3.1,B,OK to keep,B,B,B,F,
+tatian,Tatian,675,C,5.2,A,0.0,B,OK to keep,F,F,A,F,D
+valentinus,Valentinus,639,B,2.2,C,3.3,B,OK to keep,B,B,B,D,

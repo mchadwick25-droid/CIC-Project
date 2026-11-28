@@ -1,0 +1,118 @@
+{
+ "note": "Letters from grade_whole.py as first committed (d952e55f), with the word filter that set bare statements aside. Kept for the record; superseded.",
+ "today": {
+  "methodius-of-olympus": [
+   "B",
+   "D",
+   "D"
+  ],
+  "suetonius": [
+   "C",
+   "F",
+   "D"
+  ],
+  "hippolytus-of-rome": [
+   "C",
+   "D",
+   "C"
+  ],
+  "josephus": [
+   "C",
+   "B",
+   "C"
+  ],
+  "anatolius-of-alexandria-and-laodicea": [
+   "B",
+   "C",
+   "B"
+  ],
+  "clement-of-alexandria": [
+   "B",
+   "C",
+   "B"
+  ],
+  "lactantius": [
+   "B",
+   "B",
+   "B"
+  ],
+  "origen": [
+   "B",
+   "B",
+   "B"
+  ],
+  "pamphilus-of-caesarea": [
+   "B",
+   "C",
+   "B"
+  ],
+  "peter-of-alexandria": [
+   "B",
+   "B",
+   "B"
+  ],
+  "pontius-the-deacon": [
+   "A",
+   "C",
+   "B"
+  ],
+  "tacitus": [
+   "B",
+   "C",
+   "B"
+  ],
+  "tatian": [
+   "C",
+   "A",
+   "B"
+  ],
+  "valentinus": [
+   "B",
+   "C",
+   "B"
+  ],
+  "ignatius-of-antioch": [
+   "A",
+   "B",
+   "A"
+  ]
+ },
+ "nov25_summary": {
+  "nov25_new": {
+   "D": 75,
+   "C": 43,
+   "B": 43,
+   "A": 11,
+   "F": 100
+  },
+  "nov25_old_D_or_F_now": {
+   "D": 63,
+   "C": 17,
+   "F": 99,
+   "B": 2
+  },
+  "references": [
+   {
+    "name": "Basil of Caesarea",
+    "rigor": "B",
+    "craft": "B",
+    "overall": "B",
+    "old_conversion": "C"
+   },
+   {
+    "name": "Epiphanius of Salamis",
+    "rigor": "A",
+    "craft": "B",
+    "overall": "A",
+    "old_conversion": "C"
+   },
+   {
+    "name": "John Chrysostom",
+    "rigor": "A",
+    "craft": "B",
+    "overall": "A",
+    "old_conversion": "B"
+   }
+  ]
+ }
+}
