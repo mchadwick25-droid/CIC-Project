@@ -6472,3 +6472,9 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 **Why.** `roles/card.md` still said to keep an existing card word for word and make only new or clearly wrong edits, from "Cards: back to the originals" (2026-11-17). Mark's later rulings, "The card design: one layout, and a timeline in periods" (2026-11-25), "What 'era 1 complete' means" and "Modern works on the cards" (2026-11-26), update every card. The Josephus and Peter final checks each had to ask which governed.
 
 **Decided (Mark, 2026-11-28).** We are updating the cards, not keeping them word for word; on the drafted line: "yes". The card writer brings the card up to the card standard (the Stage Two Kit's layout and timeline, and Part 1) for its finished brief. Start from the existing card: keep what is good and still holds, and change what the new brief, the layout or Part 1 requires, each change listed with its evidence. Don't rewrite what already meets the standard for style alone. That last line keeps the 2026-11-17 guard against needless rewriting. `roles/card.md` and `Kit.md` Part 3 step 5.
+
+## 2026-11-28 — New work passes at B or with Mark's sign-off (Mark)
+
+**Decided (Mark, 2026-11-28).** "new should be b or better or my signoff". A new or rebuilt text passes at B or better, graded by the method of `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`, or with Mark's sign-off. A text left as it stands keeps the C bar of "What era 1 complete means" (2026-11-26). This pass upgrades only texts graded D or below (Mark, 2026-11-28: "we are only upgrading things that are d and below this pass"). `Stage-Two-Kit/Kit.md`, section 5.
+
+**Judgment call, for Mark to keep or strike.** His word to release a brief he has read counts as his sign-off, so a story whose brief he read before release needs no grading run.
