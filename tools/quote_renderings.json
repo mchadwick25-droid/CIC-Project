@@ -2187,41 +2187,41 @@
   },
   {
    "id": "suetonius",
-   "quote": "He drove from Rome the Jews who were constantly rioting at the urging of Chrestus.",
+   "quote": "He drove out of Rome the Jewish people who kept rioting at the urging of Chrestus.",
    "original": {
     "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
     "lines": "25843-25844",
-    "language": "English"
+    "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "minor"
    }
   },
   {
    "id": "suetonius",
-   "quote": "Punishments were inflicted on the Christians, a kind of people given to a new and harmful superstition.",
+   "quote": "Punishments were laid on the Christians, a kind of people holding a new and harmful superstition.",
    "original": {
     "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
     "lines": "28458-28460",
-    "language": "English"
+    "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
     "verdict": "same"
    }
   },
   {
    "id": "suetonius",
-   "quote": "And even when you wrongly say 'Chrestianus', since you do not even know the name for certain, it is formed from sweetness or kindness.",
+   "quote": "You say it wrong, and call us 'Chrestians', for you are not even clearly sure of the name itself. Even so, it rings of sweetness or goodness.",
    "original": {
-    "file": "cic/texts/anf03_tertullian.xml",
-    "lines": "1713-1716",
-    "language": "English"
+    "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+    "lines": "3904-3907",
+    "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "minor"
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
    }
   },
   {
@@ -2499,41 +2499,28 @@
   },
   {
    "id": "tatian",
-   "quote": "So I said goodbye to the boasting of the Romans and the lifeless talk of the Athenians, teachings that do not hang together. I made our barbarian philosophy my own.",
+   "quote": "While I was thinking hard about what mattered, I came upon some barbarian writings. They were older than the teachings of the Greeks, and more divine than their error. I was won over by their plain words, and by the artlessness of those who spoke them. I was won over by their clear account of how all things were made, and by their foreknowledge of what was to come. I was won over by their excellent commands, and by the rule of one over all things.",
    "original": {
-    "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
-    "lines": "12199-12201",
-    "language": "Greek"
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "6971-6978",
+    "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
     "verdict": "minor"
    }
   },
   {
    "id": "tatian",
-   "quote": "I myself found more than two hundred such books, held in honor in our churches. I gathered them all and put them away. In their place I brought in the Gospels of the four evangelists.",
+   "quote": "As long as he was with him, he let nothing of this kind show. But after his martyrdom he left the church. Lifted up by the conceit of being a teacher, and puffed up as if he were better than the rest, he set up a school with a character all its own.",
    "original": {
-    "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt",
-    "lines": "14994-14997",
-    "language": "Latin"
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "33664-33668",
+    "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "tatian",
-   "quote": "Now that I know who God is, and what he has made, I stand before you, ready to be questioned on what I teach. I hold to the way of life that follows God, and I will not deny it.",
-   "original": {
-    "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
-    "lines": "14236-14241",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "minor"
    }
   },
   {
