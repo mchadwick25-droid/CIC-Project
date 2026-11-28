@@ -1,0 +1,301 @@
+{
+ "josephus": {
+  "role": "Jewish historian",
+  "knownFor": "A Jewish priest and historian at Rome, whose Jewish Antiquities names Jesus and his brother James.",
+  "shortDescription": "Josephus was a Jewish priest from Jerusalem who commanded in Galilee when the Jewish people rose against Rome, gave himself up to the Roman general Vespasian in 67, and wrote his people's history at Rome. A few lines in it tell of John the Baptist, of James the brother of Jesus, and of Jesus, and Christians copied them for centuries.",
+  "datesNote": "Born 37; the year of his death is not recorded",
+  "placeNote": "Jerusalem, then Rome",
+  "keyWorks": [
+   {
+    "title": "The Jewish War",
+    "about": "the rising against Rome, in which he commanded in Galilee"
+   },
+   {
+    "title": "Jewish Antiquities",
+    "about": "the history of his people in twenty books, with the two passages that name Jesus"
+   },
+   {
+    "title": "Life",
+    "about": "his own account of himself, written to answer his accusers"
+   }
+  ]
+ },
+ "peter-of-alexandria": {
+  "role": "Bishop of Alexandria",
+  "knownFor": "Bishop of Alexandria through the Great Persecution, who wrote the rules for those who had lapsed, broke with Melitius of Lycopolis, and was beheaded in 311.",
+  "shortDescription": "Peter was bishop of Alexandria through the persecution that began in 303. He set out how the church should take back Christians who had given way and offered sacrifice to the gods; one of his bishops, Melitius, broke from him, and in 311 he was beheaded.",
+  "datesNote": "Bishop from about 300; beheaded in the ninth year of the persecution, 311",
+  "placeNote": "Alexandria",
+  "keyWorks": [
+   {
+    "title": "The Canonical Epistle",
+    "about": "his canons of 306 on receiving Christians who lapsed in the persecution, and on those who fled. He held that those who paid to be left in peace, or who withdrew to save their lives, are not to be blamed, and that those who rushed into the contest unbidden, though they ignored Christ's words about praying not to enter temptation, still share communion. Of those forced against their will to the pagan sacrifice, whose hands were burned, he wrote that they may be counted among the confessors, as the martyrs in prison had written to him about those in Libya"
+   },
+   {
+    "title": "Letter to the Church at Alexandria",
+    "about": "telling his people to hold no communion with Melitius"
+   },
+   {
+    "title": "Fragments",
+    "about": "On the Godhead, On the Advent of Our Saviour, On the Passover, and others"
+   }
+  ]
+ },
+ "ignatius-of-antioch": {
+  "role": "Bishop and martyr",
+  "knownFor": "Bishop of the church at Antioch in Syria. As a prisoner bound for death in the arena at Rome, he wrote seven letters: keep together around your bishop, hold that Christ truly suffered, and, to Rome, do not save me.",
+  "shortDescription": "Ignatius was bishop of the church at Antioch in Syria, taken under guard to Rome to face the wild beasts. On the road he wrote seven letters, urging the churches to keep together around their bishops and to hold that Christ truly suffered, and asking the church at Rome to let him die.",
+  "datesNote": "His letters give no year. Eusebius, about two centuries later, sets his death in the reign of the emperor Trajan, when Trajan stirred up persecution against the Christians. Jerome gives the eleventh year of Trajan, and the later Martyrdom of Ignatius the ninth, a numeral its editors call uncertain.",
+  "placeNote": "Antioch in Syria; Smyrna and Troas on the road to Rome",
+  "keyWorks": [
+   {
+    "title": "Letter to the Romans",
+    "about": "his plea that the church at Rome not save him from the beasts"
+   },
+   {
+    "title": "Letter to the Smyrnaeans",
+    "about": "written from Troas, against those who said Christ only seemed to suffer, and urging the church to do nothing without its bishop"
+   },
+   {
+    "title": "Letter to Polycarp",
+    "about": "to the bishop of Smyrna, asking him to care for the church at Antioch"
+   }
+  ]
+ },
+ "clement-of-alexandria": {
+  "role": "Teacher and presbyter",
+  "knownFor": "Presbyter, an elder of the church, and teacher at Alexandria, who held that Greek philosophy prepared the way for Christ; Eusebius says Origen was among his pupils.",
+  "shortDescription": "Clement was a Christian teacher and a presbyter, an elder of the church, at Alexandria in Egypt, late in the second century and into the third. He wrote that Greek philosophy may have been given to the Greeks to bring them to Christ, as the Law of Moses brought the Hebrews.",
+  "datesNote": "No old source gives the year of his birth or of his death. The first book of his Miscellanies counts the years to the death of the emperor Commodus, in 192, so Eusebius dates it to the reign of Severus. Jerome says he flourished under Severus and his son Antoninus. Alexander's letter to Origen, the last word of him, gives no year.",
+  "placeNote": "Alexandria, in Egypt, where he was trained, taught and served as a presbyter; later with the bishop Alexander, then in prison, at a place no source names; and Antioch, in Syria, whose church received the letter he carried for Alexander",
+  "keyWorks": [
+   {
+    "title": "Exhortation to the Greeks",
+    "about": "a call to the Greeks to leave their idols for the Word, Christ, whom he calls the New Song"
+   },
+   {
+    "title": "The Instructor",
+    "about": "three books on Christ, the Word, as the Instructor who leads the children, with rules for behavior and conduct"
+   },
+   {
+    "title": "Miscellanies (Stromata)",
+    "about": "eight books of notes, patched together, he said, passing from one thing to another. Eusebius says they treat Scripture, quote the Greek writers wherever they seemed useful, and answer false teachers"
+   }
+  ]
+ },
+ "valentinus": {
+  "role": "Teacher and founder of a school",
+  "knownFor": "A teacher at Rome in the middle of the second century who founded a school. By his opponents' accounts, it taught a heaven of divine powers in pairs.",
+  "shortDescription": "Valentinus taught at Rome in the middle of the second century and founded a school there, a circle of students around a teacher. His opponents say it taught that heavenly powers came forth in pairs, and his own few words survive only in their books.",
+  "datesNote": "No ancient source gives a year for his birth or his death. Irenaeus says he came to Rome when Hyginus was bishop there, flourished under Pius and stayed until Anicetus. Clement and Tertullian put the teachers of his kind in the reign of the emperor Antoninus, which falls in the middle of the second century. Tertullian also places him in the church at Rome under Eleutherus, a later bishop.",
+  "placeNote": "Rome, where he taught and founded his school. No early source we hold says where he was born.",
+  "keyWorks": [
+   {
+    "title": "Letters",
+    "about": "known only from passages Clement of Alexandria quotes in his Stromata. One compares the heart to an inn crowded with evil spirits until the one good Father visits it. One tells of the angels' terror at Adam, the man they had formed. One, to Agathopus, says Jesus ate and drank in his own way, so great was his self-control"
+   },
+   {
+    "title": "A sermon",
+    "about": "known only from a passage Clement of Alexandria quotes in his Stromata, Book 4. He tells his hearers they were immortal from the beginning, and came into death to use it up, so that death might die in them"
+   },
+   {
+    "title": "A psalm",
+    "about": "a hymn Hippolytus of Rome quotes in his Refutation of All Heresies, Book 6, on all things hanging from spirit, the flesh from the soul and the soul from the air. The held text is damaged in two places, and the Greek and English prints differ"
+   }
+  ]
+ },
+ "pontius-the-deacon": {
+  "role": "Deacon and biographer",
+  "knownFor": "Deacon of Cyprian of Carthage, who shared his exile and wrote the Life and Passion of Cyprian.",
+  "shortDescription": "Pontius, a deacon of Cyprian of Carthage, went with his bishop into exile at Curubis in 257 and was with him on his last night in 258. After Cyprian's death he wrote The Life and Passion of Cyprian, so that later readers would have his example.",
+  "datesNote": "Went into exile with Cyprian in 257, and was with him on the night before his death on 14 September 258. The court record of Cyprian's hearings gives the days, and the consuls it names give the years. Pontius wrote his book after the death. No old source gives the year of the book, or of his own birth or death.",
+  "placeNote": "Carthage, in Roman Africa, where Cyprian was bishop; Curubis, the town where they lived in exile",
+  "keyWorks": [
+   {
+    "title": "The Life and Passion of Cyprian",
+    "about": "a short book, written after Cyprian's death for people who had heard him, so that later readers would have his example. It tells his life from the time his faith began, his care for everyone in a plague, his exile and his dream at Curubis, and his suffering and death as a martyr. It never gives its author's name"
+   }
+  ]
+ },
+ "methodius-of-olympus": {
+  "role": "Bishop, martyr and writer",
+  "knownFor": "Lycian bishop and martyr who argued against Origen that the same body rises, and who praised the life of chastity.",
+  "shortDescription": "Methodius of Olympus was a bishop in Lycia, in the south of Asia Minor. He wrote the Banquet, in which ten young women praise the unmarried life given to God, and a dialogue against Origen arguing that the same body will rise.",
+  "datesNote": "No old source gives a year for his birth or his death. Jerome says he was crowned with martyrdom at the end of the recent persecution or, as others affirm, under the emperors Decius and Valerian, who reigned before it. Eusebius of Caesarea, writing in his lifetime, asked how he dared to write against Origen now. A century shown for him comes from the modern dating of those emperors and of Jerome, not from the sources.",
+  "placeNote": "Olympus, a city in Lycia, where he was bishop; Tyre, where Jerome says he was bishop afterwards; Chalcis in Greece, where Jerome says he was crowned with martyrdom",
+  "keyWorks": [
+   {
+    "title": "The Banquet of the Ten Virgins",
+    "about": "A dialogue in which ten women praise chastity in a garden. One friend asks another to repeat the speeches given at a feast held by Virtue under a wide, shady tree. One speaker says the praise of virginity does not do away with marriage, and Virtue, the host, says chastity keeps the tongue, the eyes, the hands and the mind pure, not the body alone. It ends with a hymn to Christ, the Bridegroom."
+   },
+   {
+    "title": "On the Resurrection",
+    "about": "Argues against Origen that the body is no fetter and rises again. A person is soul and body joined, and God dissolves the body in death and remakes it, as a craftsman melts down a spoiled statue and casts it again. Long passages survive in Greek in Epiphanius, and a later summary by Photius."
+   },
+   {
+    "title": "On Free Will",
+    "about": "A treatise Jerome lists as his, also against Origen."
+   }
+  ]
+ },
+ "pamphilus-of-caesarea": {
+  "role": "Presbyter of Caesarea; library builder and copyist of Origen's books; martyr",
+  "knownFor": "Presbyter, an elder and priest of the church, at Caesarea in Palestine, who built a library for his church and, Jerome says, copied most of Origen's works with his own hand. In the persecution he was tortured, held two whole years in prison and put to death about 310. Eusebius says the two friends wrote a Defense of Origen together.",
+  "shortDescription": "Pamphilus was a presbyter, an elder and priest of the church, at Caesarea on the coast of Roman Palestine, who built a library for his church and, Jerome says, copied most of Origen's works by hand. He was put to death for his faith about 310, after two years in prison, and his friend Eusebius says the two of them wrote a Defense of Origen together.",
+  "datesNote": "No old source gives the year of his birth. Eusebius dates the start of the persecution in Palestine to April in the nineteenth year of the emperor Diocletian, which is 303. He puts Pamphilus in prison in its fifth year, after the Nones of November, so late in 307 or soon after. Pamphilus died after two whole years in prison, on the fourteenth day before the Kalends of March, a day in February, so about 310. Jerome says he died in the persecution of Maximinus. Jerome's Lives of Illustrious Men, which tells of his copying, is dated to the fourteenth year of the emperor Theodosius, so 392 or 393",
+  "placeNote": "Caesarea, a port on the coast of Roman Palestine, where he was presbyter, set up a school, gathered his library, was held in prison and was put to death. The longer form of Eusebius's account of the martyrs, held only in a damaged Greek scan, says he came from Berytus, today's Beirut. Photius, writing more than five centuries later, says he studied at Alexandria under Pierius",
+  "keyWorks": [
+   {
+    "title": "Defense of Origen (Apologia pro Origene)",
+    "about": "a book answering the charges made against Origen, written in the persecution to confessors, Christians who had held to the faith under trial, condemned to the mines of Palestine. It sets out Origen's own words, under his name, with the defender's replies between, and says Origen searched the Scriptures as far as his strength allowed and did not settle them as fixed doctrine. Photius says it had six books. Only the first survives, in the Latin of Rufinus of Aquileia, which the Library holds in two printings. Eusebius says he and Pamphilus did the work jointly; later writers differ on whose it is."
+   },
+   {
+    "title": "The library at Caesarea",
+    "about": "a collection of sacred books for the church: the works of Origen and of other church writers, Eusebius says. Eusebius gave its catalog in his Life of Pamphilus, now lost, so that readers could learn which of Origen's works survived. Jerome says Pamphilus searched the whole world for books, bought every book Origen wrote at great cost, and gave them to the church at Caesarea."
+   },
+   {
+    "title": "Copies of Origen in his own hand",
+    "about": "Jerome says he copied the greater part of Origen's works with his own hand, and that these were still kept in the library at Caesarea. Jerome also writes that he found twenty-five volumes of Origen's commentaries on the twelve prophets in Pamphilus's hand, which he guarded with joy. Photius says only that Pamphilus is said to have copied most of Origen's commentaries on Scripture."
+   }
+  ]
+ },
+ "tacitus": {
+  "role": "Roman historian",
+  "knownFor": "A Roman historian whose Annals, his year-by-year history of Rome, tell how Nero put the blame for the fire of Rome on the Christians, and name Christus, that is, Christ, as put to death under Pontius Pilate.",
+  "shortDescription": "Tacitus was a Roman historian who despised the Christians and named Christus, that is, Christ, as put to death under Pontius Pilate. In a few sentences, his Annals give the fullest account from outside the church of how the emperor Nero punished them after the great fire of Rome in 64.",
+  "datesNote": "His own text gives no date. He wrote a generation or more after the great fire of Rome in 64. Tertullian says the fifth book of another of his histories began the account of the Jewish war, so that work came after the war",
+  "placeNote": "Rome, after the great fire; Nero's gardens, where the Christians were put to death as a show; Judaea, where, Tacitus says, their religion began",
+  "keyWorks": [
+   {
+    "title": "Annals, Book 15, chapter 44",
+    "about": "his year-by-year history of Rome. The one chapter the Library holds tells the prayers after the fire of Rome, Nero's blame and punishment of the Christians, and Christus put to death under Pilate. The part on the Christians runs to about 140 words of Latin, in six sentences"
+   },
+   {
+    "title": "Histories",
+    "about": "another of his histories, not held in the Library. Tertullian of Carthage cites it for what Tacitus said of the Jewish people: where they came from, a donkey's head, and the Roman general Pompey in the temple at Jerusalem"
+   }
+  ]
+ },
+ "origen": {
+  "role": "Teacher and Bible scholar",
+  "knownFor": "Teacher and Bible scholar at Alexandria and Caesarea, who wrote commentaries on Scripture and a book of doctrine that was argued over for centuries.",
+  "shortDescription": "Origen taught the Christian faith at Alexandria, in Egypt, and then at Caesarea, in Palestine, and spent his life asking what Scripture means beneath its plain words. He set the Hebrew text beside the Greek translations, and was tortured under the emperor Decius.",
+  "datesNote": "No old source used here gives a calendar year for his life. Eusebius sets the persecution in which his father died in the tenth year of the emperor Severus, when Origen was not quite seventeen. He sets the move to Caesarea in the tenth year of the emperor Alexander. He says Origen was tortured under Decius and died in the time of Gallus, aged sixty-nine. The years in the translators' notes are their own reckoning, and the third century comes from the modern dating of those reigns.",
+  "placeNote": "Alexandria, in Egypt, where he grew up and first taught; Caesarea, on the coast of Palestine, where he was ordained and later settled and taught; Tyre, where Jerome says he died and was buried",
+  "keyWorks": [
+   {
+    "title": "On First Principles",
+    "about": "his teaching on God, Christ, souls and how Scripture is to be read. Eusebius lists it among the works he wrote at Alexandria. Most of it is read in Rufinus of Aquileia's Latin, and Rufinus says he left out or reworded what he found on the Trinity that disagreed with Origen's teaching elsewhere. The part on reading Scripture also survives in Origen's Greek, kept in the Philocalia"
+   },
+   {
+    "title": "Against Celsus",
+    "about": "eight books answering True Discourse, which Celsus the Epicurean had written against the Christians. Eusebius says he wrote them when he was over sixty"
+   },
+   {
+    "title": "The Hexapla",
+    "about": "the Hebrew text set beside the Greek translations; the church historian Eusebius of Caesarea says Origen left us copies of it. Jerome says Origen searched out three more translations, which Jerome himself had from Origen's library"
+   }
+  ]
+ },
+ "suetonius": {
+  "role": "Roman biographer",
+  "knownFor": "A Roman biographer of the emperors, who notes that Claudius expelled Jewish people stirred up by \"Chrestus\" and that Nero punished the Christians.",
+  "shortDescription": "Suetonius was a Roman scholar who wrote the lives of Rome's rulers from Julius Caesar to Domitian. In them, two short lines tell of Jewish people driven from Rome under Claudius for rioting at the urging of Chrestus, and of punishments laid on the Christians under Nero.",
+  "datesNote": "No old source gives the year of his birth or his death. He says he was a young man twenty years after Nero's death, so about 88. His lives end with Domitian, who died in 96, so he wrote after that. He later ran the emperor Hadrian's letters.",
+  "placeNote": "Rome",
+  "keyWorks": [
+   {
+    "title": "Lives of the Caesars",
+    "about": "twelve rulers from Julius Caesar to Domitian, with the notices in the lives of Claudius and Nero"
+   },
+   {
+    "title": "On Illustrious Men",
+    "about": "lives of Rome's men of letters, which survive only in part. Jerome followed its example for his short lives of Christian writers"
+   }
+  ]
+ },
+ "anatolius-of-alexandria-and-laodicea": {
+  "role": "Scholar of Alexandria, then bishop at Caesarea in Palestine and at Laodicea in Syria",
+  "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
+  "shortDescription": "Anatolius, a learned Christian of Alexandria, used a vote of the city council to get almost all the besieged out of the palace quarter of the city. He later became bishop of Laodicea in Syria and wrote a rule for finding the date of Easter, and centuries later both sides of a quarrel over Easter claimed him.",
+  "datesNote": "No old source gives a year for his birth, for his becoming bishop or for his death, or ties a year to the siege he lived through. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus. The later 200s comes from the modern dating of those reigns.",
+  "placeNote": "Alexandria, in Egypt, where he was born and lived through the siege of the palace quarter; Caesarea in Palestine, where he was made a second bishop; Laodicea in Syria, where he was bishop",
+  "keyWorks": [
+   {
+    "title": "Paschal Canons",
+    "about": "his writings on finding Easter. Eusebius says that in his works he gave his views on the Passover in particular, and quotes a long extract. In it, the first month, whose fourteenth day is the Passover, must not be counted from a new moon before the spring equinox. The count runs on a cycle of nineteen years, and the rule, he says, was known to the Jewish people before Christ"
+   },
+   {
+    "title": "Institutes of Arithmetic",
+    "about": "ten books on arithmetic, which Eusebius and Jerome name. The Library does not hold them"
+   },
+   {
+    "title": "The Paschal Canon, in Latin",
+    "about": "a longer Latin book on Easter under his name, which allows the feast to be kept up to the moon's twentieth day. Columbanus, writing to Pope Gregory the Great, quoted words that stand in it as the words of Anatolius. Whether Anatolius wrote it is disputed"
+   }
+  ]
+ },
+ "hippolytus-of-rome": {
+  "role": "Teacher and writer in the church at Rome. Rome's list of bishops calls him an elder; Eusebius says he led another church, and Jerome and Theodoret call him a bishop.",
+  "knownFor": "A teacher in the church at Rome in the early 200s who wrote in Greek. In his Refutation of All Heresies, a book against every teaching he held false, he attacked the bishop Callistus, and in 235 he was deported to Sardinia with Rome's bishop.",
+  "shortDescription": "Hippolytus taught in the church at Rome in the early 200s, wrote in Greek, and held that the Son was another beside the Father, yet one God with him. He would not give way to two bishops of Rome on this or on forgiveness, and in 235 he was sent to Sardinia with Rome's bishop.",
+  "datesNote": "No old source gives the year of his birth or of his death. He taught at Rome while Zephyrinus was bishop and after Callistus took his place. Rome's list of bishops, in the book of 354, dates his deportation to Sardinia by the consuls of the year, Severus and Quintianus, which is 235. Eusebius says his Easter table ran to the first year of the emperor Alexander.",
+  "placeNote": "Rome, where he taught; Sardinia, to which he was deported with Rome's bishop; the Tiburtine Road, where Rome's calendar of martyrs places him.",
+  "keyWorks": [
+   {
+    "title": "Refutation of All Heresies",
+    "about": "a long book that traces every teaching he held false back to the Greek philosophers, the mystery cults and the astrologers. Its last part turns to the teachings of his own day at Rome, Callistus's among them, and it ends with his own account of the truth. It survives in one manuscript, found on Mount Athos in 1842 and printed in 1851 under the name of Origen; that it is his rests on its modern editors"
+   },
+   {
+    "title": "Against Noetus",
+    "about": "a work against Noetus of Smyrna, who taught that Christ was the Father himself, so that the Father was born, suffered and died. It answers that the Son is another beside the Father, yet one power with him: one God, in two persons, with the grace of the Holy Spirit as a third. Its manuscript calls it a homily of Hippolytus"
+   },
+   {
+    "title": "On the Passover",
+    "about": "a book named by Eusebius and Jerome, with a table of dates and a cycle of sixteen years for finding the day of Easter. Eusebius says the table ran to the first year of the emperor Alexander, and Jerome that it gave Eusebius the occasion for his own nineteen-year cycle"
+   }
+  ]
+ },
+ "lactantius": {
+  "role": "Teacher of Latin public speaking at Nicomedia; Christian writer in Latin",
+  "knownFor": "A teacher of Latin public speaking from Africa, Jerome says, who was teaching at Nicomedia in Bithynia when the Great Persecution began in 303. He answered it with the Divine Institutes, seven books arguing the faith to educated pagans from their own philosophers and historians, which hold that religion cannot be forced. In extreme old age, Jerome says, he taught Constantine's son Crispus in Gaul.",
+  "shortDescription": "Lactantius was teaching Latin public speaking at Nicomedia, the city where the emperor Diocletian kept his palace, when the Great Persecution began in 303. He answered it with the Divine Institutes, seven books that argue the faith to educated pagans and hold that religion cannot be forced.",
+  "datesNote": "No old source gives the year of his birth or of his death. He was teaching in Bithynia when the persecution began, in the nineteenth year of the emperor Diocletian as Eusebius counts it, so in 303. His own books were written during and after the persecution, which they describe, and name no year. Jerome puts his teaching of Crispus in his extreme old age.",
+  "placeNote": "From Africa, Jerome says, who tells of a verse account of his journey from Africa to Nicomedia. Nicomedia was a Greek-speaking city in Bithynia, a Roman province on the Black Sea in north-west Asia Minor, now north-west Turkey. The emperor Diocletian had his palace there, and Lactantius taught Latin public speaking there. Later Gaul, where Jerome says he taught Crispus; Jerome names no city.",
+  "keyWorks": [
+   {
+    "title": "Divine Institutes",
+    "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Book II traces the origin of error, and Book III sets the philosophers against one another. Book IV joins true wisdom and religion, holding that there is no religion without wisdom, nor wisdom without religion. Book V turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
+   },
+   {
+    "title": "On the Workmanship of God",
+    "about": "a short book on the making of man, addressed to Demetrianus, which Jerome calls On the work of God or the creation of man. It opens with Lactantius writing that he is disturbed, and in the greatest necessities"
+   },
+   {
+    "title": "On the Deaths of the Persecutors",
+    "about": "a book of disputed authorship, which survives in one copy under the name Lucius Caecilius. It is addressed to Donatus, who had been tortured nine times and was freed from a jail where he had lain six years. It tells how the emperors who persecuted the Christians died, so that later generations might learn from it. It tells of the fall of the church at Nicomedia, the edicts, and Galerius's disease and his edict letting Christians be Christians again. It tells of Constantine's dream before battle, the edict of Milan posted at Nicomedia, and the killing of the persecutors' families, among them a boy of eight and a girl of seven. It counts ten years and about four months from the overthrow of the church to its restoration. The Library holds it in English, in Lord Hailes' translation, and its chapter 48, the edict of Milan, in Latin"
+   }
+  ]
+ },
+ "tatian": {
+  "role": "Teacher and writer",
+  "knownFor": "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron.",
+  "shortDescription": "Tatian, born in the land of the Assyrians, became a Christian in the middle of the second century and wrote an Address to the Greeks that scorned their learning. He wove the four Gospels into one book, the Diatessaron, which Syriac-speaking churches read in worship.",
+  "datesNote": "No ancient source gives a year for his birth or his death. Irenaeus says he left the church after Justin's death. Eusebius's Chronicle names him a heretic, from whom the Encratites come, under the twelfth year of the emperor Marcus Aurelius, which is about 172. Jerome says he flourished in the reign of Marcus Antoninus Verus and Lucius Aurelius Commodus.",
+  "placeNote": "Born, he says, in the land of the Assyrians; at Rome, which he calls the great city, where he taught; later in Mesopotamia, by Epiphanius's report. Of the old sources held here, only Epiphanius names Mesopotamia.",
+  "keyWorks": [
+   {
+    "title": "Address to the Greeks",
+    "about": "a book written as a speech, telling of his conversion, his scorn for Greek religion and philosophy, and his claim that Moses is older than Homer"
+   },
+   {
+    "title": "Diatessaron",
+    "about": "one gospel story woven from the four, whose Greek name means through four; read in worship in the Syriac-speaking churches, and now known from later translations"
+   },
+   {
+    "title": "Problems",
+    "about": "a lost book, known only from his pupil Rhodon through Eusebius, which promised to explain the dark and hidden passages of the Scriptures"
+   }
+  ]
+ }
+}
