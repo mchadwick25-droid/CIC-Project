@@ -1,0 +1,16 @@
+anatolius-of-alexandria-and-laodicea.brief.txt: 676 words, grade 9.1 (names out 7.9), reading ease names out 72.8, 19.3 words a sentence, 0.7 joining words per 100, 6% short sentences, longest sentence 35 words - pass
+clement-of-alexandria.brief.txt: 638 words, grade 9.0 (names out 8.0), reading ease names out 70.0, 18.2 words a sentence, 0.3 joining words per 100, 3% short sentences, longest sentence 38 words - pass
+hippolytus-of-rome.brief.txt: 672 words, grade 8.7 (names out 7.3), reading ease names out 77.6, 19.8 words a sentence, 0.7 joining words per 100, 3% short sentences, longest sentence 35 words - pass
+ignatius-of-antioch.brief.txt: 667 words, grade 7.4 (names out 6.8), reading ease names out 81.2, 19.6 words a sentence, 0.9 joining words per 100, 15% short sentences, longest sentence 44 words - pass (note: grade 7.4 is under 8: the listener read checks it is not flat)
+josephus.brief.txt: 787 words, grade 9.3 (names out 8.4), reading ease names out 72.6, 21.3 words a sentence, 0.4 joining words per 100, 5% short sentences, longest sentence 33 words - pass
+lactantius.brief.txt: 671 words, grade 9.8 (names out 8.6), reading ease names out 67.5, 19.2 words a sentence, 0.7 joining words per 100, 3% short sentences, longest sentence 33 words - pass
+methodius-of-olympus.brief.txt: 643 words, grade 8.8 (names out 7.7), reading ease names out 74.7, 19.5 words a sentence, 0.9 joining words per 100, 12% short sentences, longest sentence 35 words - pass
+origen.brief.txt: 984 words, grade 10.1 (names out 8.9), reading ease names out 67.8, 20.5 words a sentence, 1.3 joining words per 100, 4% short sentences, longest sentence 37 words - FAIL: grade 10.1 on the full text, above the ceiling of 10
+pamphilus-of-caesarea.brief.txt: 669 words, grade 9.3 (names out 8.1), reading ease names out 70.4, 18.6 words a sentence, 0.4 joining words per 100, 8% short sentences, longest sentence 35 words - pass
+peter-of-alexandria.brief.txt: 692 words, grade 9.5 (names out 8.7), reading ease names out 69.1, 20.4 words a sentence, 1.0 joining words per 100, 12% short sentences, longest sentence 37 words - pass
+pontius-the-deacon.brief.txt: 665 words, grade 6.7 (names out 6.2), reading ease names out 79.3, 16.2 words a sentence, 1.2 joining words per 100, 17% short sentences, longest sentence 33 words - pass (note: grade 6.7 is under 8: the listener read checks it is not flat)
+suetonius.brief.txt: 625 words, grade 9.0 (names out 8.0), reading ease names out 72.7, 19.5 words a sentence, 1.0 joining words per 100, 9% short sentences, longest sentence 37 words - pass
+tacitus.brief.txt: 588 words, grade 9.8 (names out 8.6), reading ease names out 69.7, 20.3 words a sentence, 0.3 joining words per 100, 7% short sentences, longest sentence 37 words - pass
+tatian.brief.txt: 675 words, grade 8.4 (names out 7.5), reading ease names out 72.2, 17.3 words a sentence, 0.3 joining words per 100, 3% short sentences, longest sentence 31 words - pass
+valentinus.brief.txt: 638 words, grade 8.5 (names out 7.1), reading ease names out 78.8, 19.3 words a sentence, 1.3 joining words per 100, 3% short sentences, longest sentence 32 words - pass
+15 brief(s) graded, 1 failing

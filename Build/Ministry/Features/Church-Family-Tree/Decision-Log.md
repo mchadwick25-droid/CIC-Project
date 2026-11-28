@@ -6441,3 +6441,46 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 **The recordings already made (Mark, 2026-11-28, relayed by the coordinator; his words as given).** "we will put any new work in sally fords voice, leave the others in neos until we replace them". Every new person and story recording is made in Sally Ford. The people and stories already recorded in Neo stay as they are until each one is replaced.
 
 **Records.** `Brief-Kit/Recording_Settings.md` (the person command), Open-Gaps 447, and `Voice-Research/2026-11-27/Notes.md`.
+
+## 2026-11-28 — Brief kit: one story per thread, three reviews in total, cards and timelines on Sonnet (Mark)
+
+**Why.** The era 1 runs of 26 to 28 November (the coordinator, batch 12 in two sessions, and the era 1 cards thread) came to about 937 on the sessions' own `total_cost_usd` measure, about a quarter of the week's allowance, 97 per cent of it Opus. Batch 12's second session alone ran 329 subagents in about an hour and a half. Each story went through about twenty fresh hands. The main threads ran at 400,000 to 750,000 tokens and re-read that context at every hand-back. Hands read whole source files where they needed a few dozen lines. The trust reads with the sources open earned their cost: in Ignatius they caught four sentences that changed what the letters say. The later passes found little: the fresh listen found no blocking fault in 17 stories, and the card check none in 13. The measure is telemetry at list rates, not a bill. The review Mark read: https://claude.ai/artifact/EVy89TRq6LrNLva8pk6DJ4
+
+**Decided (Mark, 2026-11-28).** "i want to go one story at a time and do new threads each new story until my confidence in the system is restored. also follow the CLAUDE.MD rule of only 3 reviews, and we are looking for quality no perfection, there shouldt be a need for 20 reviews." On the shape drafted: "three in total, as drafted". Then: "converged, auto mode". During the change: "a couple other changes, narritives/briefs in opus, card information in sonnet. timelines in sonnett".
+
+1. One story per thread, each started fresh from `Brief-Kit/Launch_Template.md`, until Mark says otherwise. The thread does the research, writing, revision and release itself.
+2. Three reviews in total per story, each by a fresh Opus hand: the outline check (`roles/checker.md`), the brief review (`roles/reviewer.md`, the trust and listening reads in one hand) and the final check (`roles/final-check.md`: blind renderings of the quotes, the changed sentences against the sources, and the card). There is no recheck, second trust read, fresh read, separate card check, second-reading round or reference read. A blocking fault that review 3 cannot settle by an exact change goes to Mark; there is no fourth review (`Kit.md`, Part 3).
+3. Models: Opus for research, writing and revising the brief, and every review. Sonnet writes the card and its entry fields, timelines included (`Kit.md`, Part 3; `Stage-Two-Kit/Kit.md`, section 2), and counts and applies changes word for word. This replaces the models line of 2026-11-22 for cards.
+4. Every hand reads `Excerpts.md`, cut by `tools/cut_source_excerpts.py` from the lines the source sheet and outline cite, and opens a source file only at a line range.
+5. Each release reports the story's cost from its session record.
+
+**Judgment calls in carrying it out, for Mark to keep or strike.** Each finished brief comes to Mark before release, with its three reviews' counts, until he says otherwise. This replaces "Mark reads the first two", which assumed a batch. The brief reviewer marks SUMMARY HOLDS only after testing the compression in its place beside the sentence before; this keeps part of what the second trust read caught in Ignatius. A BLOCKING outline finding the thread does not apply goes to Mark, since no recheck now judges it.
+
+**What this does not do.** It reopens no finished story. Batch 12's unfinished stories on `claude/batch12-era1-persons` wait for Mark's ruling on how they finish under this kit. The superseded role prompts are in `Archive/Church-Family-Tree-Brief-Kit-roles-2026-11-28/`.
+
+## 2026-11-28 — "The Jewish people" in the narrator's words (Mark)
+
+**Why.** Reading the Josephus card, Mark asked: "can we say the isrealits or jewish people rather than jews". "Israelites" names the ancient Israel of the Bible and would mislead for the first century. Three options were shown: A, the narrator's own words only; B, A and the quote renderings too; C, every instance, titles included.
+
+**Decided (Mark, 2026-11-28): "A, and make it a rule for every story"; then "yes, use claude/kit-jewish-people for the kit rule".**
+1. In our own English, a story and its card say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews" (`Brief-Kit/Kit.md`, Part 1, Accessibility, "Plain modern words").
+2. Quotes too (Mark: "yes, quotes too in the rule"): a quote's modern rendering says "the Jewish people" or "Jewish"; its printed wording stays verbatim. A work is given its own title, faithfully rendered: Mark, on the draft line's example: "no that is a later translation its jewish antiquties", so *Jewish Antiquities*, not *Antiquities of the Jews*.
+3. It governs the next story on, and Josephus, which was unfinished when it was made. It reopens no finished story except by a named change order.
+
+## 2026-11-28 — Cards are brought up to the card standard, not kept word for word (Mark)
+
+**Why.** `roles/card.md` still said to keep an existing card word for word and make only new or clearly wrong edits, from "Cards: back to the originals" (2026-11-17). Mark's later rulings, "The card design: one layout, and a timeline in periods" (2026-11-25), "What 'era 1 complete' means" and "Modern works on the cards" (2026-11-26), update every card. The Josephus and Peter final checks each had to ask which governed.
+
+**Decided (Mark, 2026-11-28).** We are updating the cards, not keeping them word for word; on the drafted line: "yes". The card writer brings the card up to the card standard (the Stage Two Kit's layout and timeline, and Part 1) for its finished brief. Start from the existing card: keep what is good and still holds, and change what the new brief, the layout or Part 1 requires, each change listed with its evidence. Don't rewrite what already meets the standard for style alone. That last line keeps the 2026-11-17 guard against needless rewriting. `roles/card.md` and `Kit.md` Part 3 step 5.
+
+## 2026-11-28 — New work passes at B or with Mark's sign-off (Mark)
+
+**Decided (Mark, 2026-11-28).** "new should be b or better or my signoff". A new or rebuilt text passes at B or better, graded by the method of `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`, or with Mark's sign-off. A text left as it stands keeps the C bar of "What era 1 complete means" (2026-11-26). This pass upgrades only texts graded D or below (Mark, 2026-11-28: "we are only upgrading things that are d and below this pass"). `Stage-Two-Kit/Kit.md`, section 5.
+
+Then: "no everything should have a grading run". Every new or rebuilt text is graded by that method; reading a brief before release does not stand in for its grade. Then: "i release after the grade, to make sure a c raiting is not just a small thing", and "i want to see everything". The grade comes before release; each story then comes to Mark whole (brief, card, the three reviews' counts and the grade with its findings), and he releases it (`Brief-Kit/Kit.md`, Part 3, step 6).
+
+## 2026-11-28 — Grading on the whole text, reading level with names out, a blind comparison, kit rulings together (Mark)
+
+**Why.** Grading finding by finding failed texts on exactness that is not the heart; scored on the whole text, of the 181 D-or-F texts in the 25 Nov set, 165 stay D or F. A blind comparison with the Basil reference caught a year slip in Josephus that three reviews and two gradings missed.
+
+**Decided (Mark, 2026-11-28).** "thats not a helpful grading then"; "a"; "i still want the truth and not passing because i want it"; "much of the failing seems to be unreasonable exactness that is not the heart, we are not pursuing perfection, but accedemic and listening/reading appreciation/this is really good"; "also make sure you remove names from the reading level"; "1 yes"; "2 yes" (the readability gate judges names out, `engine/m1/profile_readability.py`). On asking "can i trust the grades or is it ai apeasment" and "run the test blind", to adding a blind comparison before release: "yes to all". On "do we need a pull request for every little tweek": "yes". On the kit: "dont put all my comments in the kit, it stays protected from edits to keep quality, keep it clean with only minor adjustments i approve." On the day's kit changes, shown old beside new: "approve". Lines: `Stage-Two-Kit/Kit.md` opening and section 5; `Brief-Kit/Kit.md` Part 1 (limits), Part 3 step 6, "Keeping the kit clean".

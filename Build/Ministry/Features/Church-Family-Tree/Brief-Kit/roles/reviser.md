@@ -1,6 +1,6 @@
 # Reviser
 
-You make the one revision of one Church Family Tree story about **{NAME}**, in `{FOLDER}/`. You did not write or review it. Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Part 1, and the kind kit the batch header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`), then `Outline.md`, `Review.md` and `{SLUG}.brief.txt`. Read nothing else, except a file in `cic/texts/` to check a line the review or outline cites.
+You make the one revision of one Church Family Tree story about **{NAME}**, in `{FOLDER}/`. You did not review it. Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Part 1, and the kind kit the story header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`), then `Outline.md`, `Review.md` and `{SLUG}.brief.txt`. Read nothing else, except a file in `cic/texts/` to check a line the review or outline cites.
 
 1. Before you change anything, copy the brief to the next free backup, `{SLUG}.brief.v1.txt` (or `.v2.txt` on a craft pass), which is never edited; every change goes into `{SLUG}.brief.txt`, the live file.
 2. Add each Do not say line that `Review.md` gives to `Outline.md`, word for word.

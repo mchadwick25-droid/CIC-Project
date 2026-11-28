@@ -8,6 +8,6 @@ Write the new card content for every era {N} tradition: the short description, t
 
 **Sources.** Where a batch rebuilt the tradition (batch 11 for era 1), use its folder in `Build/Ministry/Operations/Audits/`: source sheet, outline, card file. Otherwise, gather only: the census entry, its card fields and documented stories, and the Library texts they cite in `cic/texts/`, each claim checked at its lines. Never rewrite the brief.
 
-**Checks.** Every timeline line and headline, and every short description, checked by an independent card checker against its source, as the card role's check pass does. No modern opinion, date or identification as content.
+**Checks.** Every timeline line and headline, and every short description, checked by an independent card checker against its source, by the card list in `Brief-Kit/roles/final-check.md`. No modern opinion, date or identification as content.
 
 **Release.** Mark sees the first two cards before the rest are written. One pull request for the era, merged when CI is green. Report to the coordinator.

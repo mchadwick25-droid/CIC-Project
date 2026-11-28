@@ -2226,40 +2226,40 @@
   },
   {
    "id": "josephus",
-   "quote": "I declare it openly: I do not go over to the Romans as a deserter from the Jews, but as a servant sent by you.",
+   "quote": "I give them my hands willingly, and I am content to live. And I declare openly that I do not go over to the Romans as a deserter from the Jewish people, but as a servant sent by you.",
    "original": {
     "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-    "lines": "110853-110856",
+    "lines": "110852-110856",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/josephus/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "josephus",
-   "quote": "About this time there lived Jesus, a wise man, if it is right to call him a man. For he did astonishing deeds, and taught people who gladly accept the truth.",
+   "quote": "About this time there lived Jesus, a wise man, if one ought to call him a man. For he did astonishing deeds, and taught people who gladly receive the truth. He won over many of the Jewish people, and many of the Greeks as well. This man was the Christ.",
    "original": {
-    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-    "lines": "81405-81409",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "9228-9232",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/josephus/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "josephus",
-   "quote": "And this is the remarkable thing. He did not accept that our Jesus was the Christ. Yet he still bore witness that James was so upright.",
+   "quote": "the brother of Jesus who was called Christ, James by name",
    "original": {
-    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
-    "lines": "30627-30629",
+    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+    "lines": "91005-91009",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/josephus/Final_Check.md",
     "verdict": "same"
    }
   },

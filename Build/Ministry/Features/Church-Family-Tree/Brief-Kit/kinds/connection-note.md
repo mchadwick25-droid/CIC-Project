@@ -15,4 +15,4 @@ One or two sentences, about 25 to 50 words, in the narrator's voice. Part 1's ru
 
 ## Steps
 
-Research (a source sheet and an outline of the tie and what passed, with their source lines), outline check, write, review, one revision and one fresh read, Mark's reading of the first two, and release. A note has no hearts page, no card, no second reading unless it quotes, and no recording.
+Research (a source sheet and an outline of the tie and what passed, with their source lines), outline check, write, brief review and one revision, the final check, Mark's reading of the brief, and release. A note has no hearts page, no card, no second reading unless it quotes, and no recording.

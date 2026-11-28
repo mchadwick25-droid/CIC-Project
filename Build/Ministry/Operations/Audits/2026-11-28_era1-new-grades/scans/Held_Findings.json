@@ -1,0 +1,367 @@
+{
+ "tree/josephus": [
+  {
+   "quote": "lived on at Rome under the emperors' favor",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "Why did the emperors favor him?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "he defended himself against a rival historian who, he says, had written falsely of him",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Written what falsely of him?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "The fairest-minded citizens protested that he had no right to call the court.",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why had he no right?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "between a riot under Pilate, the Roman governor of Judea, and another disaster",
+   "missing": "what",
+   "weight": 1,
+   "asks": "What disaster?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S003"
+  },
+  {
+   "quote": "so how much of it Josephus wrote is uncertain",
+   "kind": "guess",
+   "weight": 2,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S004"
+  }
+ ],
+ "tree/tacitus": [
+  {
+   "quote": "people hated for their shameful acts",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What shameful acts?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "First those who confessed were seized.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Confessed to what: being Christians, or the fire?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "though it was held back for a moment",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Held back by what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/ignatius-of-antioch": [
+  {
+   "quote": "News had come that the church at Antioch, which he had left in chains, was at peace and whole again",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "At peace after what trouble?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/suetonius": [
+  {
+   "quote": "if this one is about them at all",
+   "kind": "guess",
+   "weight": 2,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S005"
+  },
+  {
+   "quote": "so he wrote after Domitian's death, a generation or more after both events",
+   "kind": "guess",
+   "weight": 1,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S006"
+  }
+ ],
+ "tree/valentinus": [
+  {
+   "quote": "until writings from these circles were found in Egypt in 1945",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "What writings, saying what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Hippolytus says the school split into an Italian branch, Ptolemy's, and an Eastern one.",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Split over what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/tatian": [
+  {
+   "quote": "a group he says sprang from earlier teachers",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Which earlier teachers?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S007"
+  },
+  {
+   "quote": "Tatian crossed to the East and set up his school in Mesopotamia",
+   "missing": "why",
+   "weight": 1,
+   "asks": "Why did he leave for the East?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S008"
+  },
+  {
+   "quote": "so he meant the writings of Moses and the prophets",
+   "kind": "guess",
+   "weight": 2,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S009"
+  }
+ ],
+ "tree/clement-of-alexandria": [
+  {
+   "quote": "Eusebius writes that under the emperor Severus the churches were persecuted.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "Why were they persecuted?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Alexander, a bishop, wrote from prison",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why was he in prison?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/origen": [
+  {
+   "quote": "those who said his books differed from the church's teaching",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Differed on what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "a council of bishops at Constantinople named him, with his writings, among the heretics",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why? For which teachings?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "on a church errand to Greece",
+   "missing": "what",
+   "weight": 1,
+   "asks": "What errand?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S011"
+  },
+  {
+   "quote": "the ordination itself so enraged Demetrius that he wrote everywhere against him",
+   "missing": "why",
+   "weight": 2,
+   "asks": "Why did the ordination enrage him?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S012"
+  }
+ ],
+ "tree/hippolytus-of-rome": [
+  {
+   "quote": "In 235 he was sent to Sardinia with Rome's bishop",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why? By whom?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Some whom Hippolytus's own side had judged and put out of the church",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Put out for what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "were deported to Sardinia",
+   "missing": "why",
+   "weight": 2,
+   "asks": "Why, and by whom?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S013"
+  },
+  {
+   "quote": "while a tyrant's orders pressed",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Which tyrant, and what orders?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S014"
+  }
+ ],
+ "tree/pontius-the-deacon": [],
+ "tree/anatolius-of-alexandria-and-laodicea": [
+  {
+   "quote": "The palace quarter held out against a Roman army, while the rest of the city sided with Rome.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What war? Why was it besieged?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/pamphilus-of-caesarea": [
+  {
+   "quote": "bishops who had since condemned Origen as a heretic",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Condemned him for what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/peter-of-alexandria": [
+  {
+   "quote": "which the eastern emperor Maximinus would not accept",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why would he not accept it?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/lactantius": [
+  {
+   "quote": "whether it is Lactantius's is disputed",
+   "kind": "modern writer",
+   "weight": 1,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S021"
+  }
+ ],
+ "tree/methodius-of-olympus": [
+  {
+   "quote": "asked how Methodius dared to write against Origen now",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why \"now\"? What had changed?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ]
+}
