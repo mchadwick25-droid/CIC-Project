@@ -3344,40 +3344,40 @@
   },
   {
    "id": "peter-of-alexandria",
-   "quote": "They did not come to this by their own choice. The weakness of the flesh betrayed them. For they show the marks of Jesus in their bodies.",
+   "quote": "They did not come to this by deliberate choice. They were betrayed by the weakness of the flesh, since they show the marks of Jesus in their bodies.",
    "original": {
     "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt",
     "lines": "49722-49723",
     "language": "Greek"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "peter-of-alexandria",
-   "quote": "Peter's case was for mercy and kindness. The case of Melitius and those with him was for truth and zeal.",
+   "quote": "Take heed of this. Do not share communion with him until I meet him with some wise and sensible men, and see what he has in mind.",
    "original": {
-    "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
-    "lines": "43852-43853",
-    "language": "Greek"
+    "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+    "lines": "27802-27804",
+    "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "peter-of-alexandria",
-   "quote": "He was seized for no cause, when no one expected it. All at once and with no reason given, as though on Maximinus's order, he was beheaded.",
+   "quote": "He was seized for no cause at all, without warning, and suddenly and without reason, as if Maximinus had ordered it, he was beheaded.",
    "original": {
     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
     "lines": "47996-47998",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Final_Check.md",
     "verdict": "same"
    }
   },

@@ -36,9 +36,9 @@ On the kit: 29. To do: 0.
 | Novatian (`novatian`) | person | 7 | yes |
 | Origen (`origen`) | person | 7 | yes |
 | Pamphilus of Caesarea (`pamphilus-of-caesarea`) | person | 7 | yes |
-| Peter of Alexandria (`peter-of-alexandria`) | person | 7 | yes |
 | Pontius the Deacon (`pontius-the-deacon`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
+| Peter of Alexandria (`peter-of-alexandria`) | person | 12 | yes |
 
 ## Era 2
 
