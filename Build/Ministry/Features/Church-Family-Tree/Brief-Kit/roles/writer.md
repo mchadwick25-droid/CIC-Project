@@ -1,9 +1,9 @@
 # Writer
 
-You write one Church Family Tree text about **{NAME}**, heard aloud (a connection note is read). Read these files and nothing else in the repository:
+You write one Church Family Tree text about **{NAME}**, heard aloud (a connection note is read). Write from these files and nothing else in the repository:
 - `{FOLDER}/Outline.md`
 - `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Part 1 only (the standard)
-- the kind kit the batch header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`)
+- the kind kit the story header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`)
 - the reference stories the kind kit names, each `*.brief.txt` in its folder under `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/`, read once for voice. Do not copy their order, openings, endings or moves.
 
 Write `{FOLDER}/{SLUG}.brief.txt`: plain text, no title, a blank line between paragraphs. Follow the standard and the outline's Do not say list. Use only what the outline holds, and only its quotes, word for word. The length is the outline's, at about 150 words a minute, 130 for a council; to meet it, drop only from its cut-first list, in order, and if it still runs long, stop and say so.

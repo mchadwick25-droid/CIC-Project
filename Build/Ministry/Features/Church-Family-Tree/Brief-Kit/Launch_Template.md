@@ -1,19 +1,15 @@
-# Church Family Tree, batch {N} ({ERA AND GROUP}): launch
+# Church Family Tree story: {NAME} ({KIND}, era {ERA}): launch
 
-Paste this as the first message of a new session.
+Paste this as the first message of a new session. One story per session.
 
 ---
 
-Run Church Family Tree batch {N} end to end on the brief kit. Read `CLAUDE.md`, then `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`. The kit and its role prompts in `Brief-Kit/roles/` hold every standing rule. Each agent gets its role prompt filled in with the batch header the kit describes, and nothing else.
+Run the Church Family Tree story for **{NAME}** end to end on the brief kit. Read `CLAUDE.md`, then `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`. The kit and its role prompts in `Brief-Kit/roles/` hold every standing rule. You do the research, writing, revision and release yourself, on Opus. The card is written by a Sonnet hand. The three reviews (outline check, brief review, final check) are each a fresh Opus hand, given its role prompt filled in with the story header the kit describes and nothing else. There are no other reviews.
 
-**The group.** {THE GROUP, AND THE DECISION-LOG ENTRY WHERE MARK APPROVED IT.} {STORIES APPROVED BEFORE THE KIT THAT ARE REVIEWED HERE, OR "NONE".} Before the slate, run `python tools/list_story_status.py --write` and read {ERA} in `Story-Ledger.md`.
+**The story.** {SLUG}, its census home {TRADITION}, its card file {CARD}. {THE DECISION-LOG ENTRY WHERE MARK APPROVED IT.} {"APPROVED BEFORE THE KIT AND REVIEWED HERE", OR "NEW".} Run `python tools/list_story_status.py --write` and read era {ERA} in `Story-Ledger.md` first.
 
-**Where things go.** The batch folder is `Build/Ministry/Operations/Audits/<date>_batch-{N}/`, with a README that carries each story's step, the open items and this batch's rulings, so a fresh session can pick up from it. `{LAST BATCH'S FOLDER}` shows what each step's records look like.
+**Where things go.** The story folder is `Build/Ministry/Operations/Audits/<date>_{SLUG}/`, with a README that carries the story's step, the open items and its rulings, so a fresh session can pick up from it.
 
-**Step 0, then stop for Mark.** One page (an Artifact): each story's job in one line, its half, its census home and that tradition's direct line as its card shows it, with any descent or break the story will tell that the census lacks or contradicts, its siblings, and the live stories it sits beside. Name each quote already used elsewhere on the tree, and any reuse the kit's quote rule would allow. Run `python tools/check_tree_overlap.py` once on the old texts. Research starts only after Mark approves.
+**Stops for Mark:** the slate check (step 0), on one page; the heart and length; a BLOCKING outline finding not applied; a blocking fault the final check cannot settle; the finished brief before release; a sibling or shape question; and any recording, in his own words with a credit cap.
 
-**Stops for Mark:** the slate; the hearts and lengths page; the first two finished briefs, before any other is written; a brief that still fails after its one revision; a sibling or shape question; the recording approval, in his own words with a credit cap; and the first recording, for his ear.
-
-**Recording.** The settings in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Recording_Settings.md`, each passed on the command. Run one story per command.
-
-**Release.** One pull request into `main`, merged when CI is green, then check churchfamilytree.com. Open-Gaps entries at the next free number. Promotion to `live` is Mark's call. Do not write the next batch's launch prompt unless Mark asks; when he does, fill in the blanks of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Launch_Template.md` and change nothing else.
+**Release.** One pull request into `main` for the story, merged when CI is green, then check churchfamilytree.com. Open-Gaps entries at the next free number. Promotion to `live` is Mark's call. Report the story's cost from this session's record in the release. Do not start another story in this session.
