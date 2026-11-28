@@ -27,7 +27,7 @@ Thirteen people released into the census and the tree: Anatolius of Alexandria a
 ## Checks
 
 - `validate-census.mjs --atlas … --tree …`: "629 movements, 736 edges, 10 eras — 0 errors, 4 warnings" (the four are existing shortName warnings on other entries), after the merge and after the Valentinus fix.
-- `node --test tools/tests/validate_census_*.test.mjs`: see the PR's CI run.
+- `node --test tools/tests/validate_census_*.test.mjs`: 124 tests, 124 pass, 0 fail.
 - `check_live_commentary.py --base origin/main --enforce`: exit 0 after the Valentinus fix (3 REWRITE record-slug lines before it, one source).
 - `build_tree_site.mjs`: "1778 own files …, 174 shared files, 0 mismatched", exit 0.
 - From the first session, before the merge: `atlas-check` and `--edges-only` exit 0; `node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs` exit 0; `check_open_gaps_numbers.py` exit 0; `check_spelling.py --enforce` 0 found; `check_standard_lock.py` no locked file changed; `profile_readability` 13 briefs, 0 failing (Suetonius re-graded after the ruling: grade 9.0, 0 failing).
