@@ -1,0 +1,597 @@
+{
+  "otherNames": [
+    "Bardesanes",
+    "Bardesan",
+    "Bardasanes",
+    {
+      "name": "Bar Daisan",
+      "note": "Syriac for son of Daisan, a river at Edessa"
+    }
+  ],
+  "shortDescription": "Bardaisan was a Christian teacher at Edessa around the year 200 who taught that people are free and not ruled by the stars. His argument comes down in a conversation one of his pupils tells, the Book of the Laws of Countries, and later writers both praised it and named him among the teachers the church condemned.",
+  "knownFor": "A Christian teacher of Edessa around 200 who taught that people are free and not ruled by the stars; his argument comes down in the Book of the Laws of Countries, a conversation as one of his pupils, Philip, tells it.",
+  "datesNote": "Born in the 150s and died in the early 220s, by later Syriac chronicles. The Chronicle of Edessa, put together about 540, gives the birth as the eleventh day of Tammuz in the year 465 of the Greek reckoning, which Cowper counts as 154 and Hort, through McGiffert, as 155. Barhebraeus, in the 13th century, says he lived 68 years and died in the year 533, which Holl works out as 221 or 222 and Hort, through McGiffert, as 223",
+  "placeNote": "Edessa, in Mesopotamia",
+  "role": "Teacher and writer of dialogues",
+  "briefSources": [
+    {
+      "title": "The Book of the Laws of Countries, in Ante-Nicene Fathers vol. 8",
+      "author": "told by his pupil Philip",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+    },
+    {
+      "title": "Church History 4.30, with McGiffert's notes",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+    },
+    {
+      "title": "Preparation for the Gospel 6.10 (Greek)",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt"
+    },
+    {
+      "title": "Preparation for the Gospel 6.10 (Gifford's English)",
+      "author": "Eusebius of Caesarea",
+      "file": "cic/texts/eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt"
+    },
+    {
+      "title": "Panarion 56 (Greek, ed. Holl)",
+      "author": "Epiphanius of Salamis",
+      "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men 33, in Latin",
+      "author": "Jerome",
+      "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men 33, in English",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+      "author": "Ephrem the Syrian",
+      "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+    },
+    {
+      "title": "Nisibene Hymn 51 and Hymns against Heresies 53 and 55, in Gwynn's English",
+      "author": "Ephrem the Syrian",
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+    },
+    {
+      "title": "Church History 3.16",
+      "author": "Sozomen",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+    },
+    {
+      "title": "First Apology 58, and Against Heresies 1.1 and 1.27",
+      "author": "Justin Martyr and Irenaeus",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "The 150s",
+      "headline": "Born at Edessa",
+      "witness": "The Chronicle of Edessa, put together about 540 from the city's records, for the year; Epiphanius, about 375, for the family",
+      "lines": [
+        {
+          "when": "The 150s",
+          "text": "He is born at Edessa on the eleventh day of the month Tammuz, in the year 465 by the Greek reckoning the Chronicle uses.",
+          "reference": "Chronicle of Edessa, entry 6, tr. Cowper",
+          "note": "Cowper counts the year as 154, and Hort, through McGiffert, as 155. The Chronicle was put together about 380 years after the birth."
+        },
+        {
+          "when": "Date unknown",
+          "text": "His name in Syriac, Bar Daisan, means son of Daisan, the name of a river at Edessa.",
+          "reference": "Book of the Laws of Countries, Hahn's note in Pratten's English; John Gwynn's note in Nicene and Post-Nicene Fathers 2.13",
+          "note": "The gloss is the editors'. Barhebraeus, in the 13th century, adds that his mother bore him on the river's bank."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Epiphanius says his family came from Mesopotamia, from the people living at the city of Edessa.",
+          "reference": "Epiphanius, Panarion 56.1",
+          "note": "Epiphanius writes about 375, some 220 years after the birth."
+        }
+      ]
+    },
+    {
+      "when": "Around 200",
+      "headline": "A Christian teacher at Edessa, and the conversation his pupil tells",
+      "witness": "The Book of the Laws of Countries, as one of his pupils, Philip, tells it. The conversation gives no date or place for its scene.",
+      "lines": [
+        {
+          "when": "Around 200",
+          "text": "He is a Christian teacher at Edessa with pupils around him.",
+          "reference": "Book of the Laws of Countries, the opening; Eusebius, Church History 4.30; Epiphanius, Panarion 56.1",
+          "note": "The time is that of his lifetime: born in the 150s, dead in the early 220s."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Epiphanius says he was learned in two languages, Greek and Syriac, and at first close to the ruler of the Edessenes and working with him.",
+          "reference": "Epiphanius, Panarion 56.1",
+          "note": "The print of the Greek is garbled at the ruler's name. Holl's note says Abgar IX bar Manu is meant."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Pupils visiting a friend, Shemashgram, are talking when Bardaisan comes in and asks, as was his habit, what they were saying.",
+          "reference": "Book of the Laws of Countries, the opening"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Avida, who has lately joined the disciples and was too bashful to ask himself, puts a question through them: if God is one, made us and wants us to do what we are commanded, why did he not make us unable to do wrong?",
+          "reference": "Book of the Laws of Countries, the opening"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Bardaisan answers that a person made so would not belong to himself, but would be like a harp another plays or a ship another guides, where the praise and blame belong to the player or the steersman. The sun never says it will not rise at its hour, but a person can choose, so the good he does is his own.",
+          "reference": "Book of the Laws of Countries, the answer on freedom"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He says nature gives every person the same course of birth, growth, old age and death. He grants that he once followed the astrologers himself, and that there is such a thing as fate: the course of the stars from the hour of birth, which deals out wealth, honors, health, sickness and children, and these are not in our power.",
+          "reference": "Book of the Laws of Countries, on nature and fate",
+          "note": "The dialogue names the astrologers the Chaldaeans. Its editor glosses the hour of birth with the Greek word genesis."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He sums it up: people are ruled by nature all alike, by fate each in a different way, and by their freedom each as he chooses.",
+          "reference": "Book of the Laws of Countries, on nature and fate"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Avida says he is convinced that wrongdoing does not come from nature, and asks for proof that it does not come from fate.",
+          "reference": "Book of the Laws of Countries, Avida's reply"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Bardaisan answers from the laws of countries. People are born under every star at every hour, yet each people keeps the laws it made for itself. The Brahmans of India forbid killing and eating meat; the Persians marry their sisters and daughters; at Edessa a woman merely suspected of adultery is put to death. Laws change when rulers change them.",
+          "reference": "Book of the Laws of Countries, the laws of countries",
+          "note": "He cites death and maiming as facts of law, not as praise."
+        },
+        {
+          "when": "Date unknown",
+          "text": "In Syria and Edessa men used to give up their manhood in honor of Tharatha. When King Abgar became a believer he ordered that any man who did so should have his hand cut off, and from that day no one does so in the country of Edessa.",
+          "reference": "Book of the Laws of Countries, the laws of countries; Eusebius, Preparation for the Gospel 6.10",
+          "note": "This dialogue is the only source held here for Abgar becoming a believer. In Eusebius's Greek the order is given without that, and the goddess is named Rhea. The note in Pratten's English dates the conversion between 160 and 170, following Neander."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He turns to the Christians, whom Christ planted in every country, who are all called by the one name of Christ. In Gaul, Parthia, Judaea, Persia, Media, Edessa and Hatra they do not keep the local customs. The laws of their countries do not hinder them from obeying the law of Christ, and fate does not compel them.",
+          "reference": "Book of the Laws of Countries, the Christians",
+          "note": "In Eusebius's Greek the Christians are called by one name; the words of Christ are in the Syriac."
+        },
+        {
+          "when": "Date unknown",
+          "text": "The conversation ends on the world to come: a time is coming when the harm people still do will be brought to an end, all evil turmoil will cease, every rebellion will end, the foolish will be convinced, what is lacking will be filled up, and there will be quiet and peace.",
+          "reference": "Book of the Laws of Countries, the ending"
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "His writings and pupils, as Eusebius reports them",
+      "witness": "Eusebius, Church History 4.30, writing about a century later",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "He is a most skillful debater in Syriac. He writes dialogues against the followers of Marcion and against certain others, in his own language, with many other works.",
+          "reference": "Eusebius, Church History 4.30",
+          "note": "Marcion taught that the God who made the world was not the Father of Jesus (Justin, First Apology 58; Irenaeus, Against Heresies 1.27)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "His pupils, of whom he had very many, put these works from Syriac into Greek. Eusebius adds, as a reason for the number, that he was a powerful defender of the faith.",
+          "reference": "Eusebius, Church History 4.30",
+          "note": "The wording is McGiffert's English; the Greek is not held."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Among them is his most able dialogue On Fate, and other works which they say he wrote on the occasion of a persecution that arose then.",
+          "reference": "Eusebius, Church History 4.30",
+          "note": "Eusebius says the dialogue was addressed to Antoninus. See the open questions."
+        }
+      ]
+    },
+    {
+      "when": "About 222",
+      "headline": "Dies, in his late sixties",
+      "witness": "Barhebraeus, in the 13th century",
+      "lines": [
+        {
+          "when": "About 222",
+          "text": "He lived 68 years and died in the year 533 of the Greek reckoning.",
+          "reference": "Barhebraeus, Ecclesiastical Chronicle",
+          "note": "Holl works out 533 as 221 or 222; Hort, through McGiffert, gives 223. Barhebraeus writes about a thousand years later. Eusebius places him in the reign of Marcus Aurelius, which McGiffert takes for a confusion of the later emperors named Antoninus with the earlier."
+        }
+      ]
+    },
+    {
+      "when": "The 220s or 230s",
+      "headline": "Named at Rome as one of the eastern school of Valentinus",
+      "witness": "Hippolytus, Refutation of All Heresies, writing at Rome in his own times",
+      "lines": [
+        {
+          "when": "The 220s or 230s",
+          "text": "Hippolytus counts Bardesianes with Axionicus among the Orientals of the school of Valentinus, who say the body of the Savior was spiritual.",
+          "reference": "Hippolytus, Refutation of All Heresies 6.30",
+          "note": "Valentinus taught that a chain of divine beings came forth, pair by pair, from a hidden first Father (Irenaeus, Against Heresies 1.1). The English editor takes Bardesianes to be Bardesanes."
+        },
+        {
+          "when": "The 220s or 230s",
+          "text": "Prepon, a follower of Marcion, gives an account of his heresy in a work inscribed to Bardesanes, whom Hippolytus calls an Armenian.",
+          "reference": "Hippolytus, Refutation of All Heresies 7.19",
+          "note": "Hippolytus's is the earliest witness held. Prepon's work is not held."
+        }
+      ]
+    },
+    {
+      "when": "Early 300s",
+      "headline": "Eusebius praises and blames him, and quotes his argument in Greek",
+      "witness": "Eusebius of Caesarea",
+      "lines": [
+        {
+          "when": "Early 300s",
+          "text": "Eusebius says he was at first a follower of Valentinus, but afterward rejected his teaching and refuted most of his fictions, and fancied he had come over to the more correct opinion. Nevertheless he did not entirely wash off the filth of the old heresy.",
+          "reference": "Eusebius, Church History 4.30",
+          "note": "The Greek of the last clause is quoted in Holl's notes to Epiphanius."
+        },
+        {
+          "when": "Early 300s",
+          "text": "In a work arguing against belief in fate, Eusebius presents his proofs from a Syrian named Bardesanes, and quotes long stretches of the conversation in Greek, from his Dialogues with his companions.",
+          "reference": "Eusebius, Preparation for the Gospel 6.10, in Gifford's English and the Greek",
+          "note": "The quotation keeps Philip as the narrator. McGiffert says Eusebius gives a fragment of the work called On Fate."
+        }
+      ]
+    },
+    {
+      "when": "The 300s",
+      "headline": "Ephrem answers him at Edessa",
+      "witness": "Ephrem the Syrian, who died in 373, in his own words; his hymns are quoted in Gwynn's English",
+      "lines": [
+        {
+          "when": "The 300s",
+          "text": "Ephrem writes that he came upon a book of Bardaisan's and was troubled for an hour; it tainted his ears, and he hurried to purge them with the reading of Scripture.",
+          "reference": "Ephrem, Nisibene Hymn 51, in Gwynn's English"
+        },
+        {
+          "when": "The 300s",
+          "text": "In a prose discourse against Bardaisan, Ephrem says Bardaisan declares that even without Adam's sin the body would turn to its dust, and that flesh does not cleave to spirit. He also gives Bardaisan's question why Christ, raised from the dead, did not raise all bodies.",
+          "reference": "Ephrem, Prose Refutations, discourse against Bardaisan, tr. Mitchell"
+        },
+        {
+          "when": "The 300s",
+          "text": "Ephrem also answers a discourse called Domnus, which he says Bardaisan composed against the Platonists.",
+          "reference": "Ephrem, Prose Refutations, discourse against Domnus, tr. Mitchell"
+        },
+        {
+          "when": "The 300s",
+          "text": "Ephrem says Bardaisan fashioned hymns and joined them with tunes, and composed a hundred and fifty psalms, mixing poison with sweetness for the simple.",
+          "reference": "Ephrem, Hymns against Heresies 53, in Gwynn's English",
+          "note": "Ephrem gives the songs to Bardaisan himself; Sozomen and Theodoret give them to his son Harmonius."
+        },
+        {
+          "when": "The 300s",
+          "text": "Ephrem curses anyone who says, as Bardaisan said, that the rain and the dew come from the Seven.",
+          "reference": "Ephrem, Hymns against Heresies, in Gwynn's English",
+          "note": "Gwynn's note glosses the Seven as the seven beings of Bardaisan's teaching. In the dialogue the Seven are the stars."
+        },
+        {
+          "when": "Late 300s",
+          "text": "Gregory of Nyssa calls Eunomius the imitator of Manichaeus and Bardesanes.",
+          "reference": "Gregory of Nyssa, Against Eunomius 11, summary"
+        }
+      ]
+    },
+    {
+      "when": "About 375",
+      "headline": "Epiphanius tells it the other way round",
+      "witness": "Epiphanius of Salamis, Panarion 56, in the Greek of Holl's edition",
+      "lines": [
+        {
+          "when": "About 375",
+          "text": "Bardaisan was at first an excellent man, who wrote many speeches while his mind was strong, for he came from the holy church of God.",
+          "reference": "Epiphanius, Panarion 56.1"
+        },
+        {
+          "when": "About 375",
+          "text": "He argued at length against Abeidas the astronomer, speaking against fate, and other writings of his for the faith are in circulation.",
+          "reference": "Epiphanius, Panarion 56.1",
+          "note": "Holl and McGiffert take Abeidas to be the dialogue's Avida."
+        },
+        {
+          "when": "About 375",
+          "text": "Epiphanius says he stood against Apollonius, a companion of Antoninus, refusing to deny that he called himself a Christian; he came near the rank of a confessor, and said he did not fear death.",
+          "reference": "Epiphanius, Panarion 56.1",
+          "note": "Only Epiphanius tells this. Holl notes that the emperor cannot be Marcus Aurelius."
+        },
+        {
+          "when": "About 375",
+          "text": "Epiphanius says that he then fell into the error of his own heresy, like a fine ship laden with a cargo beyond compare, wrecked at the banks of the harbor, losing its goods and bringing death to the other passengers. He attached himself to the Valentinians, brought in many first principles and emanations, and denied the resurrection of the dead.",
+          "reference": "Epiphanius, Panarion 56.1 and 56.2",
+          "note": "Epiphanius writes some 150 years after Bardaisan's death."
+        }
+      ]
+    },
+    {
+      "when": "About 392",
+      "headline": "Jerome praises the book on fate and condemns the man",
+      "witness": "Jerome, Lives of Illustrious Men 33, in Latin and English",
+      "lines": [
+        {
+          "when": "About 392",
+          "text": "Jerome says he was at first a follower of Valentinus, then his opponent, and founded a new heresy. The Syrians say he was a brilliant mind and vehement in argument.",
+          "reference": "Jerome, Lives of Illustrious Men 33"
+        },
+        {
+          "when": "About 392",
+          "text": "He wrote an endless number of works against almost all the heretics of his time; the most famous and strongest is the book On Fate, which Jerome says he gave to Marcus Antoninus, and many volumes on persecution, which his followers turned from Syriac into Greek.",
+          "reference": "Jerome, Lives of Illustrious Men 33",
+          "note": "Jerome follows Eusebius on the emperor."
+        },
+        {
+          "when": "About 392",
+          "text": "Jerome asks: if there is so much force and brilliance in the translation, how much must there be in his own tongue?",
+          "reference": "Jerome, Lives of Illustrious Men 33"
+        }
+      ]
+    },
+    {
+      "when": "The 400s",
+      "headline": "Later writers: the songs, the books read, and a name in lists",
+      "witness": "Sozomen and Theodoret, each named in the line",
+      "lines": [
+        {
+          "when": "The 400s",
+          "text": "Sozomen says Harmonius, the son of Bardasanes, was the first to bring the Syriac language under meters and musical laws, and the Syrians still sing the same melodies. Ephrem, fearing the Syrians would take in his opinions with the songs, learned the meters and composed poems in accordance with the doctrines of the church.",
+          "reference": "Sozomen, Church History 3.16"
+        },
+        {
+          "when": "The 400s",
+          "text": "Theodoret says Harmonius composed songs that beguiled the hearers, and Ephrem adopted their music but set it to piety. The songs are still used at the festivals of the martyrs.",
+          "reference": "Theodoret, Church History 4.26"
+        },
+        {
+          "when": "The 400s",
+          "text": "Theodoret says Bardaisan was a Syrian, born at Edessa, who flourished in the time of Marcus Verus Caesar. They say he cut away many of Valentinus's fables. Theodoret says he came upon his books written against fate and against the heresy of Marcion.",
+          "reference": "Theodoret, Compendium of Heretical Fables 1.22, in Latin"
+        },
+        {
+          "when": "The 400s",
+          "text": "Theodoret lists Valentinus, Basilides, Bardesanes, Harmonius and their followers together: they accept the conception of the Virgin and the birth, but say God the Word took nothing from the Virgin.",
+          "reference": "Theodoret, Letter 146"
+        }
+      ]
+    },
+    {
+      "when": "The 1100s and 1200s",
+      "headline": "Late chronicles tell his life with stories about a thousand years on",
+      "witness": "Michael the Syrian, in the 12th century, and Barhebraeus, in the 13th",
+      "lines": [
+        {
+          "when": "The 1100s",
+          "text": "His parents fled from Persia to Edessa, and he was born as they crossed the river. A pagan priest at Mabbug raised him and taught him the songs of the pagans. At 25, passing the church, he heard the bishop Hystaspes explain the Scriptures, was baptized and made a deacon, wrote treatises against heresies, and then turned to the teachings of Valentinus.",
+          "reference": "Michael the Syrian, Chronicle, in Chabot's French",
+          "note": "Michael places the birth in the year 475 of the Greek reckoning, about 164, ten years after the Chronicle of Edessa. These are late legends, not witnesses."
+        },
+        {
+          "when": "The 1200s",
+          "text": "Barhebraeus says he embraced the faith, was baptized and taught the church's teaching at Edessa, and wrote treatises against heresies, then turned aside to the inventions of Marcion and Valentinus and denied the resurrection.",
+          "reference": "Barhebraeus, Ecclesiastical Chronicle",
+          "note": "The editors of Barhebraeus prefer Elias of Nisibis's year for the birth, 134. A late legend, not a witness."
+        }
+      ]
+    }
+  ],
+  "keyWorks": [
+    {
+      "title": "The Book of the Laws of Countries",
+      "about": "a dialogue in which Bardaisan answers Avida on fate and freedom; told by one of his pupils, Philip"
+    },
+    {
+      "title": "Dialogues against the followers of Marcion",
+      "about": "named by Eusebius of Caesarea, against the followers of Marcion, who taught that the God who made the world was not the Father of Jesus; not held in the Library"
+    },
+    {
+      "title": "On Fate",
+      "about": "named by Eusebius as his most able dialogue, and by Jerome as the most famous and strongest of his works"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His followers. Sozomen, the church historian, says his son Harmonius is said to have set Syriac verse to meter and music, and that the Syrians still sang the melodies in Sozomen's day. Theodoret says the songs were still used at the festivals of the martyrs.",
+      "Eusebius says his very many pupils put his works from Syriac into Greek, and in his Preparation for the Gospel he quotes long stretches of the conversation in Greek, under Bardaisan's name.",
+      "Theodoret says he came upon his books written against fate and against the heresy of Marcion."
+    ],
+    "remembered": [
+      "Ephrem the Syrian learned Harmonius's meters and wrote hymns of his own for the church, Sozomen says.",
+      "Ephrem wrote a prose discourse against his teaching that the body would turn to dust even without Adam's sin, and so would not rise.",
+      "Jerome called his book on fate the most famous and strongest of his works, and asked how much force it must have had in Syriac, if it had so much in translation.",
+      "His name stands in later lists of heresies, in Theodoret and in Gregory of Nyssa."
+    ]
+  },
+  "uncertain": [
+    "Which came first, the church or the school of Valentinus, a teacher who said a chain of divine beings came forth, pair by pair, from a hidden first Father. Eusebius says he began as a follower of Valentinus and left him, but never wholly washed off the stain of the old heresy. Epiphanius says he began as an excellent member of the church and fell to the Valentinians. Jerome says he began with Valentinus, then argued against him, and founded a new heresy. Hippolytus, who wrote at Rome in the 220s or 230s and is the earliest witness held, counts him among the eastern school of Valentinus. Barhebraeus says he first embraced the faith, then turned to Marcion, who taught that the God who made the world was not the Father of Jesus, and to Valentinus. McGiffert, following Hort, finds no system of divine beings like Valentinus's in his teaching, and calls it not improbable that Eusebius's order is right.",
+    "The dialogue was written by a disciple, not by Bardaisan, says McGiffert, who translated Eusebius, and Pratten says many modern critics hold the same. In it Bardaisan speaks to Philip and Baryama. Eusebius, Epiphanius and Jerome treat it as his own. McGiffert thinks it was written soon after his death and does not depart widely from his teaching.",
+    "Whether On Fate is the Book of the Laws of Countries. McGiffert identifies the two, wholly or in part. Eusebius and Jerome say On Fate was addressed to the emperor Antoninus; Epiphanius says Bardaisan argued against Abeidas the astronomer. Holl and McGiffert take Antoninus for a slip for Avida, and Abeidas for the dialogue's Avida.",
+    "McGiffert thinks Ephrem knew Bardaisan only through his followers, and so judged him more harshly. But Ephrem says he came upon a book of Bardaisan's, and he answers Bardaisan's discourse called Domnus by name. Burkitt says Ephrem does not seem to misrepresent his opponents or to misquote them.",
+    "His dates come through McGiffert from the Chronicle of Edessa and Barhebraeus. Karl Holl's notes give Barhebraeus's year of death as 221 or 222. Eusebius placed him under Marcus Aurelius. McGiffert, with Hort and Hilgenfeld, takes this as a confusion of the later emperors named Antoninus with the earlier. Michael the Syrian gives the birth about 164, and the editors of Barhebraeus prefer 134.",
+    "Whose songs. Ephrem gives the hymns and 150 psalms to Bardaisan himself; Sozomen and Theodoret give them to his son Harmonius. Burkitt doubts that the Hymn of the Soul, a Syriac poem, is Bardaisan's.",
+    "Epiphanius says he refused when a companion of the emperor Antoninus urged him to deny he was a Christian. Karl Holl, who edited Epiphanius, notes that the emperor meant cannot be Marcus Aurelius.",
+    "The editors' notes to the Recognitions of Clement, a Christian work of its own, say that some of its chapters are taken, in altered form, from a work on fate ascribed to Bardaisan."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Book of the Laws of Countries (his argument, as one of his pupils, Philip, tells it)",
+        "language": "English translation",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 4, chapter 30, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Preparation for the Gospel 6.10, the long quotation of the dialogue (Greek)",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt"
+      },
+      {
+        "title": "Preparation for the Gospel 6.10 (Gifford's English)",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt"
+      },
+      {
+        "title": "Panarion 56 (Greek, ed. Holl)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+        "author": "Ephrem the Syrian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+      },
+      {
+        "title": "Nisibene Hymn 51 and Hymns against Heresies 53 and 55, in Gwynn's English",
+        "author": "Ephrem the Syrian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Church History, Book 3, chapter 16",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History 4.26 and Letter 146",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Compendium of Heretical Fables 1.22",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "Latin and Greek",
+        "file": "cic/texts/theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men 33",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "De viris illustribus 33 (PL 23)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+      },
+      {
+        "title": "Refutation of All Heresies 6.30 and 7.19",
+        "author": "Hippolytus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Against Eunomius, Book 11, summary",
+        "author": "Gregory of Nyssa",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
+      },
+      {
+        "title": "First Apology 58, and Against Heresies 1.1 and 1.27",
+        "author": "Justin Martyr and Irenaeus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "The Chronicle of Edessa (tr. B. H. Cowper)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/chronicle-of-edessa_cowper.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle (ed. Abbeloos and Lamy)",
+        "author": "Barhebraeus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "Chronicle (tr. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "The Book of the Laws of Countries, tr. B. P. Pratten, the opening: the pupils visiting a friend, Bardaisan asking what they had been talking about, as was his habit, and the question of Avida, a newcomer too bashful to ask, why God did not make people unable to do wrong.",
+    "The Book of the Laws of Countries: Philip addressed by name and telling the conversation in the first person; Arthur McGiffert and B. P. Pratten on its writing by a disciple.",
+    "The Book of the Laws of Countries: a person made unable to do wrong would be like a harp another plays or a ship another guides; the sun never says it will not rise; the good a person does is his own.",
+    "The Book of the Laws of Countries: he once followed the astrologers; fate, the order given to the powers of the heavens from the hour of birth, rules wealth, sickness and children; nature rules the body; freedom rules conduct.",
+    "The Book of the Laws of Countries: each nation's laws under the same stars, the Brahmans of India, King Abgar's law at Edessa, and the Christians who keep the law of Christ in every land.",
+    "The Book of the Laws of Countries: the ending, on the new world to come.",
+    "The Chronicle of Edessa, tr. B. H. Cowper: his birth, in 154 by Cowper's reckoning, 155 by Hort's through McGiffert. The river Daisan and his name: Hahn's note to the dialogue, and John Gwynn.",
+    "Barhebraeus, Ecclesiastical Chronicle, with Karl Holl's note: he lived 68 years and died in the year 533 of the Greeks, 221 or 222.",
+    "Eusebius of Caesarea, Church History 4.30, tr. McGiffert: a most skillful debater in Syriac, dialogues against the followers of Marcion, his very many pupils who put his works into Greek, a powerful defender of the faith, his most able dialogue On Fate, first a follower of Valentinus, and the stain of the old heresy he never wholly washed off.",
+    "Eusebius of Caesarea, Preparation for the Gospel 6.10, in Gifford's English and the Greek: the long quotation of the conversation under Bardaisan's name, in a work arguing against belief in fate.",
+    "Justin Martyr, First Apology 58, and Irenaeus, Against Heresies 1.27: what Marcion taught. Irenaeus, Against Heresies 1.1: what the followers of Valentinus taught.",
+    "Epiphanius of Salamis, Panarion 56 (Greek, ed. Holl): at first an excellent man of the church, who later joined the followers of Valentinus and denied the resurrection of the dead, like a fine ship wrecked by the harbor.",
+    "Jerome, Lives of Illustrious Men 33, in Latin and English: his book on fate the most famous and strongest of his works; he began with Valentinus and founded a new heresy.",
+    "Ephrem the Syrian, Prose Refutations, tr. C. W. Mitchell: against his teaching that even without Adam's sin the body would turn to dust.",
+    "Ephrem the Syrian, in John Gwynn's English: Ephrem's account of his school's hymns.",
+    "Sozomen, Church History 3.16: Ephrem learned the meters of the Syrians' songs and wrote hymns of his own in them.",
+    "World census, Edessa, today in Turkey."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "So we humans are ruled by nature all alike, by fate each in a different way, and by our freedom each as we choose.",
+      "printed": "And thus we men are found to be governed by Nature all alike, and by Fate variously, and by our freedom each as he chooses.",
+      "work": "The Book of the Laws of Countries, tr. B. P. Pratten, Ante-Nicene Fathers 8",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": "68441-68443"
+    },
+    {
+      "modern": "Wherever we are, we are all called by the one name of Christ: Christians.",
+      "printed": "for, lo! wherever we are, we are all called after the one name of Christ—Christians.",
+      "work": "The Book of the Laws of Countries, tr. B. P. Pratten, Ante-Nicene Fathers 8",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": "68968-68969",
+      "uncertain": "Eusebius's Greek has only that they are called by one name; the words of Christ stand in the Syriac, whose Latin in Nau's edition reads solo nomine Christi christiani vocamur."
+    },
+    {
+      "modern": "When that new world is set up, all evil turmoil will cease, and every rebellion will end.",
+      "printed": "at the establishment of that new world all evil commotions shall cease, and all rebellions terminate",
+      "work": "The Book of the Laws of Countries, tr. B. P. Pratten, Ante-Nicene Fathers 8",
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": "69026-69028"
+    }
+  ]
+}

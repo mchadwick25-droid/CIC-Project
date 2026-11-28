@@ -20,12 +20,27 @@ The live text was approved before the kit. It grades C on the whole-text method 
 
 1. Research: done. `Source_Sheet.md` (the batch 6 sheet, brought up to the kit: E14, E15, X1–X3 added), `Outline.md` (new, to Part 2: the essence said once, the dialogue told once in its own order, the witnesses in time order, Cut first list), `Excerpts.md`.
 2. Review 1, the outline check: FIX (2 BLOCKING, 6 MINOR), all applied (`Fixes.md`: none set aside). B1 brought in four held texts the sweep had missed, above all Eusebius's long Greek quotation of the dialogue (*Preparation for the Gospel* VI.10); B2 recounted the beats at about 845 words and added Cut first items 7–11.
-3. Write: draft written, every Cut first item dropped, wording tightened with nothing further cut: 784 words, about 5:14 (readability pass: grade 8.8, names out 7.9; reading ease names out 75.3). The essence is complete at word 135. `check_tree_overlap.py`: clear. **Stopped for the length** (writer role: "if it still runs long, stop and say so"); Mark ruled (a): about 5:15, up to about 790 words, this story only. Review 2 next.
+3. Write: draft written, every Cut first item dropped, wording tightened with nothing further cut: 784 words, about 5:14 (readability pass: grade 8.8, names out 7.9; reading ease names out 75.3). The essence is complete at word 135. `check_tree_overlap.py`: clear. **Stopped for the length** (writer role: "if it still runs long, stop and say so"); Mark ruled (a): about 5:15, up to about 790 words, this story only.
+4. Review 2, the brief review: REVISE (3 BLOCKING, 3 MINOR), all applied word for word, no wording of my own (`Revision.md`); its four Do not say lines added to `Outline.md`. 795 words, about 5:18; grade 9.0 (names out 8.1), reading ease names out 75.0: pass. The essence ends at word 135. Backup `bardaisan-of-edessa.brief.v1.txt`.
+5. Card (Sonnet hand): `bardaisan-of-edessa.card.json`, `Card_Edits.md` (timeline in 12 periods, briefSources, shortDescription, Q3 trimmed to the brief's span, Gwynn and Smith moved to `modernWorks`; entry-field changes listed for release; none not found). The card hand's note: on a scratch census copy the validator shows two errors only, `tools/quote_renderings.json` lacking the new Q3 and holding the old one; release replaces that listing.
+6. Review 3 set up: `Second_Reading_Requests.md` and `Second_Reading_Key.md` written (3 spans, all read blind). **Next: the final check**, a fresh Opus hand given `roles/final-check.md` filled in with the story header above and nothing else.
 
 ## Open items
 
 - Decision-Log entry for the length ruling: at release.
 
+## Handover (2026-11-28, context past 150,000 tokens)
+
+This session stopped after the card with context about 285,000 tokens and cost $14.80 of its $20 cap. A fresh session picks up from this README:
+1. Review 3, the final check (`roles/final-check.md`, the header above). Apply its exact changes word for word; a blocking fault it cannot settle goes to the manager.
+2. The grade (Stage Two Kit section 5). `Grade/` already holds copies, unchanged, of `grade.py`, `grade_whole.py`, `score_this.py` and `Listener_Prompt.md` from `../tertullian-s-voice/Grade_2/`, and in `Grade/scans/` the reader, modern-reader and third-read prompts and `merge.py` from `../tertullian-s-voice/Grade/scans/`. Still to make: `Grade/Set.json`, `Grade/packets/S01.md` and `L01.md` (the final brief, in the Tertullian packets' format), then two bare readers, one modern reader, `merge.py`, a third read if needed, the listener and `score_this.py`. Note: the copied `merge.py` writes the era1-new-grades packet path into the third-read header; point the third reader at `Grade/packets/S01.md`. The grade passes at B, or with Mark's sign-off.
+3. The blind check: three fresh Opus readers, one each against the Basil, Epiphanius and Chrysostom reference briefs, using the prompt in `../tertullian-s-voice/Grade/blind_pairs_inputs/pairs/p01/prompt.txt` with only the paths changed, X and Y drawn at random. It passes when 2 of 3 give B− or better and none says clearly worse.
+4. One Artifact page: the brief, the card, the three reviews' counts, the grade with its findings, and the blind result. Send the manager the link and stop. No release, pull request or recording.
+
+Review counts so far: outline check FIX, 2 BLOCKING, 6 MINOR; brief review REVISE, 3 BLOCKING, 3 MINOR.
+
 ## Cost (from `get_session`)
 
 - After the outline check and fix pass: $6.10 (`get_session` `usage.cost_usd`, list-rate telemetry, not a bill; read again after writing, still $6.10, last updated 09:16 UTC).
+- After review 2 and the revision: $12.05 (13:14 UTC).
+- After the card: $14.80 (13:20 UTC).
