@@ -1,0 +1,250 @@
+[
+ {
+  "id": "methodius-of-olympus",
+  "quote": "asked how Methodius dared to write against Origen now",
+  "old": "Eusebius of Caesarea, in a book he wrote in Origen's defense, asked how Methodius dared to write against Origen now.",
+  "new": "no change: the source gives only the question",
+  "source": "Outline.md: 'Eusebius's \"now\"... what he had said is not given' (Beat 6, D4)",
+  "note": "Jerome reports only the question; any reason for 'now' would be invented."
+ },
+ {
+  "id": "methodius-of-olympus",
+  "quote": "missing when",
+  "old": "In the Banquet, a book by Methodius of Olympus, a young woman and two friends climb a rough, steep path to a garden where ten guests will meet.",
+  "new": "Methodius of Olympus, Jerome says, died a martyr at the end of the last persecution. In his book the Banquet, a young woman and two friends climb a rough, steep path to a garden where ten guests will meet.",
+  "source": "Outline.md: 'Use \"at the end of the last persecution, Jerome says\" (Beat 7)'",
+  "note": "No year is allowed (editors' dates). The later clause in paragraph 2 'Jerome says he died a martyr' can then go."
+ },
+ {
+  "id": "methodius-of-olympus",
+  "quote": "it opens on a scene from his book, not his life, and follows his ideas more than the man",
+  "old": "(whole brief)",
+  "new": "Open on one moment from Methodius's own life in the record (Jerome reporting Eusebius's question, or the martyrdom at Chalcis, or Socrates scorning him), with people acting, then tell events in order; give the Banquet and the statue argument as what he wrote, in a clause or two each, not as the spine.",
+  "source": "Outline.md: Beat 6 'Eusebius ... asked how Methodius dared'; Beat 7 'crowned with martyrdom at Chalcis in Greece'",
+  "note": "Form-level; the Banquet scene is the outline's own opening choice, so this is a change order for Mark if taken."
+ },
+ {
+  "id": "suetonius",
+  "quote": "if this one is about them at all",
+  "old": "This line, and one more under Nero, is all he says of the first Christians, if this one is about them at all.",
+  "new": "This line, and one more under Nero, is all he says on the matter.",
+  "source": "Outline.md: 'Only the second names the Christians, and he does not say who Chrestus was (E1, E3, D1)'",
+  "note": "The next sentence already says only the second names the Christians."
+ },
+ {
+  "id": "suetonius",
+  "quote": "so he wrote after Domitian's death, a generation or more after both events",
+  "old": "His lives end with that emperor, so he wrote after Domitian's death, a generation or more after both events.",
+  "new": "His lives end with that emperor, so he wrote after Domitian's death.",
+  "source": "Source_Sheet.md S5: 'It ends with Domitian, who died in 96, so it was written after 96 (Documented by its contents)'",
+  "note": "'A generation or more' rests on modern reign dates (S6)."
+ },
+ {
+  "id": "suetonius",
+  "quote": "He tells the expulsion in that one sentence, with no year, number or source.",
+  "old": "He tells the expulsion in that one sentence, with no year, number or source.",
+  "new": "cut",
+  "source": "none needed (cut)",
+  "note": ""
+ },
+ {
+  "id": "suetonius",
+  "quote": "Suetonius names Chrestus without saying who he was or where.",
+  "old": "Suetonius names Chrestus without saying who he was or where.",
+  "new": "cut",
+  "source": "none needed (cut)",
+  "note": "The next sentence gives the name's sound and that it was a real name."
+ },
+ {
+  "id": "suetonius",
+  "quote": "That is all Suetonius set down: seven Latin words between old Troy's tax and the German envoys' seats at the theater, and nine between the taverns' beans and greens and the chariot drivers.",
+  "old": "That is all Suetonius set down: seven Latin words between old Troy's tax and the German envoys' seats at the theater, and nine between the taverns' beans and greens and the chariot drivers.",
+  "new": "cut",
+  "source": "none needed (cut)",
+  "note": "Story then ends on Bede's chronicle line."
+ },
+ {
+  "id": "suetonius",
+  "quote": "it opens on a list of an emperor's acts, curious but dry, with no one acting",
+  "old": "(whole brief)",
+  "new": "Open on the one line in motion: Claudius drives the rioting Jews out of Rome, with the quote first, then say in a clause that it sits among his other acts (Troy's tax, the envoys' seats).",
+  "source": "Outline.md: Q1 'He drove out of Rome the Jews who kept rioting at the urging of Chrestus'; Source_Sheet.md E1",
+  "note": ""
+ },
+ {
+  "id": "suetonius",
+  "quote": "a close reading of two lines and facts about their writer, with few people acting",
+  "old": "(whole brief)",
+  "new": "Retell as events in order with people acting: Claudius expels the Jews; Nero punishes the Christians; Christians (Tertullian, Lactantius) answer the name 'Chrestians'; Bede copies the Claudius line. Keep Suetonius's own life to one clause, and give his father, Domitian and Hadrian only if each acts in the telling.",
+  "source": "Outline.md: beats 3-5 (Claudius line, Nero line, 'The readers, in time order')",
+  "note": ""
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "In 235 he was sent to Sardinia with Rome's bishop",
+  "old": "In 235 he was sent to Sardinia with Rome's bishop, and Rome kept his day among its martyrs.",
+  "new": "no change: the source gives only the act",
+  "source": "Outline.md Beat 6: 'the list gives no reason'; Never-say table: 'any reason for the exile → No reason: the list gives none'",
+  "note": "Applies to the craft 'bare' finding on the same quote as well."
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "Some whom Hippolytus's own side had judged and put out of the church",
+  "old": "Some whom Hippolytus's own side had judged and put out of the church went over to Callistus.",
+  "new": "no change: the source gives only the act",
+  "source": "Source_Sheet.md E5: 'in accordance with our condemnatory sentence, had been by us forcibly ejected from the Church'",
+  "note": "Hippolytus names no ground."
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "were deported to Sardinia",
+  "old": "In 235, Rome's list of bishops records, Pontianus, the bishop, and Hippolytus, whom it calls an elder, were deported to Sardinia.",
+  "new": "no change: the source gives only the act",
+  "source": "Outline.md Beat 6: 'the list gives no reason; narrated, never quoted'",
+  "note": ""
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "while a tyrant's orders pressed",
+  "old": "Hippolytus, an elder, it was said, had always stayed in the split of Novatus while a tyrant's orders pressed.",
+  "new": "no change: the source gives only the act",
+  "source": "Outline.md Ending 1: 'stayed in the split of Novatus while a tyrant's orders pressed' (I4, Damasus's verse)",
+  "note": "Damasus names no tyrant and no orders."
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "In 235 he was sent to Sardinia with Rome's bishop",
+  "old": "In 235 he was sent to Sardinia with Rome's bishop, and Rome kept his day among its martyrs.",
+  "new": "no change: the source gives only the act",
+  "source": "Outline.md: 'exiled by the emperor Maximinus' / any reason for the exile → 'No reason: the list gives none'",
+  "note": ""
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "This was the split that Novatian's party made from the church at Rome in 251, sixteen years after the exile, refusing to take back those who had given way in persecution.",
+  "old": "This was the split that Novatian's party made from the church at Rome in 251, sixteen years after the exile, refusing to take back those who had given way in persecution.",
+  "new": "Novatian's party made that split at Rome in 251, sixteen years after the exile. They refused to take back those who had given way in persecution.",
+  "source": "Outline.md: 'the split that Novatian's party made from the church at Rome in 251, sixteen years after the exile, refusing to take back those who had given way in persecution' (Source_Sheet I4; LP 66819-66827)",
+  "note": "Two short sentences so the listener holds 235 against 251; the verse's 'it was said' stays in the sentence before. No claim that he lived to 251 is added."
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "quote": "it opens on an abstract claim about the Father and Christ, hard for an outsider to picture",
+  "old": "(whole brief)",
+  "new": "Open on one moment with people acting: the elders call Noetus before the church a second time and put him out, or Hippolytus says Callistus called him and his side worshippers of two gods; then say in one plain clause what Noetus claimed.",
+  "source": "Outline.md / Source_Sheet.md E1: elders called Noetus twice and put him out; E4: Callistus 'called him and his side worshippers of two gods'",
+  "note": ""
+ },
+ {
+  "id": "josephus",
+  "quote": "lived on at Rome under the emperors' favor",
+  "old": "In 67 he gave himself up to Vespasian, and lived on at Rome under the emperors' favor.",
+  "new": "In 67 he gave himself up to Vespasian, and lived on at Rome, where Vespasian gave him rooms in his own house, Roman citizenship and a yearly pension.",
+  "source": "Source_Sheet.md S4: Vespasian 'gave me an apartment in his own house ... honoured me with the privilege of a Roman citizen, and gave me an annual pension'",
+  "note": ""
+ },
+ {
+  "id": "josephus",
+  "quote": "he defended himself against a rival historian who, he says, had written falsely of him",
+  "old": "In his Life, a book on his own life, he defended himself against a rival historian who, he says, had written falsely of him.",
+  "new": "no change: the source gives only the charge",
+  "source": "Source_Sheet.md (Own words): Justus 'falsified in what he related about me ... being belied by him, I am under a necessity to make my defence' (JW 4614-4632)",
+  "note": "Josephus names no particular falsehood about himself."
+ },
+ {
+  "id": "josephus",
+  "quote": "The fairest-minded citizens protested that he had no right to call the court.",
+  "old": "The fairest-minded citizens protested that he had no right to call the court.",
+  "new": "The fairest-minded citizens protested that he had no right to call the court without the Roman governor's consent.",
+  "source": "Source_Sheet.md E13: 'it was not lawful for Ananus to assemble a sanhedrim without his consent' (Albinus, the governor)",
+  "note": ""
+ },
+ {
+  "id": "josephus",
+  "quote": "between a riot under Pilate, the Roman governor of Judea, and another disaster",
+  "old": "In the same book, between a riot under Pilate, the Roman governor of Judea, and another disaster, stands a passage of about a hundred words on Jesus.",
+  "new": "In the same book, between a riot under Pilate, the Roman governor of Judea, and a scandal at the temple of Isis in Rome, stands a passage of about a hundred words on Jesus.",
+  "source": "Excerpts.md 81423-81426: 'another sad calamity put the Jews into disorder; and certain shameful practices happened about the temple of Isis that was at Rome'",
+  "note": ""
+ },
+ {
+  "id": "josephus",
+  "quote": "so how much of it Josephus wrote is uncertain",
+  "old": "The passage itself says he was the Christ, and Origen wrote that Josephus did not accept him as the Christ, so how much of it Josephus wrote is uncertain.",
+  "new": "The passage itself says he was the Christ, yet Origen wrote that Josephus did not accept him as the Christ.",
+  "source": "Outline.md: 'the passage says \"This man was the Christ\"; Origen ... says Josephus did not accept Jesus as the Christ' (D2)",
+  "note": "Cuts the modern-style inference; the two old statements stand side by side."
+ },
+ {
+  "id": "josephus",
+  "quote": "missing when",
+  "old": "When the Roman general Vespasian took Jotapata, a walled town in Galilee, in the north of the country, Josephus hid in a cave with forty leading men.",
+  "new": "In 67, when the Roman general Vespasian took Jotapata, a walled town in Galilee, in the north of the country, Josephus hid in a cave with forty leading men.",
+  "source": "Source_Sheet.md E2: 'Jotapata falls, 67'",
+  "note": ""
+ },
+ {
+  "id": "josephus",
+  "quote": "To the forty, surrender was treason and death was honor; to Josephus, in his telling, taking his own life was wrong.",
+  "old": "To the forty, surrender was treason and death was honor; to Josephus, in his telling, taking his own life was wrong.",
+  "new": "cut",
+  "source": "none needed (cut)",
+  "note": "The scene before it already shows both sides."
+ },
+ {
+  "id": "tacitus",
+  "quote": "people hated for their shameful acts",
+  "old": "So, to kill the rumor, Nero put forward others as the guilty: people hated for their shameful acts, whom the common crowd called Christians.",
+  "new": "no change: the source gives only the charge",
+  "source": "Source_Sheet.md C3: 'hated for their abominations ... He does not say what the acts were'",
+  "note": "Tacitus names no act. Covers the craft 'bare' finding on the same quote."
+ },
+ {
+  "id": "tacitus",
+  "quote": "First those who confessed were seized.",
+  "old": "First those who confessed were seized.",
+  "new": "no change: the source gives only the act",
+  "source": "Source_Sheet.md C5: 'first those who confessed were seized ... He does not say what they confessed'",
+  "note": ""
+ },
+ {
+  "id": "tacitus",
+  "quote": "though it was held back for a moment",
+  "old": "Their religion was a deadly superstition, he says with contempt, and though it was held back for a moment, it broke out again, in Judaea, where the evil began, and in Rome itself.",
+  "new": "no change: the source gives only the act",
+  "source": "Source_Sheet.md C4: 'repressaque in praesens exitiabilis superstitio rursum erumpebat'",
+  "note": "The Latin says checked for the present and names no check."
+ },
+ {
+  "id": "tacitus",
+  "quote": "missing when",
+  "old": "When daylight failed in the emperor Nero's gardens in Rome, Christians were set alight to light the dark.",
+  "new": "After the great fire of Rome in 64, when daylight failed in the emperor Nero's gardens, Christians were set alight to light the dark.",
+  "source": "Source_Sheet.md S1: 'the great Roman conflagration, which took place in 64 a.d.'; Outline.md: 'Rome, after the great fire of 64'",
+  "note": "Year is the moderns' reckoning, kept as the outline allows. Paragraph 2 can then drop its own 'in 64'."
+ },
+ {
+  "id": "tacitus",
+  "quote": "people hated for their shameful acts",
+  "old": "So, to kill the rumor, Nero put forward others as the guilty: people hated for their shameful acts, whom the common crowd called Christians.",
+  "new": "no change: the source gives only the charge",
+  "source": "Source_Sheet.md C3: 'He does not say what the acts were'",
+  "note": ""
+ },
+ {
+  "id": "tacitus",
+  "quote": "First those who confessed were seized.",
+  "old": "First those who confessed were seized.",
+  "new": "no change: the source gives only the act",
+  "source": "Source_Sheet.md C5: 'He does not say what they confessed'",
+  "note": ""
+ },
+ {
+  "id": "tacitus",
+  "quote": "Mockery was added to their deaths, the deaths told at the start",
+  "old": "Mockery was added to their deaths, the deaths told at the start, and Nero offered his own gardens for the show.",
+  "new": "Nero offered his own gardens for the show.",
+  "source": "Source_Sheet.md C6 (s11): 'Nero offered his gardens for the spectacle'",
+  "note": ""
+ }
+]
