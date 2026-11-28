@@ -23,7 +23,7 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 
 ## Open items
 
-- **The heart's wording.** The batch 7 heart said he "gave Latin its words for God as one substance in three persons" (Widely Accepted, from the census and editors). Under Part 1's modern-work rule no held old or later witness carries that claim, so the outline keeps the substance at what the record holds: he said in Latin how God is one and yet three (the words *trinitas*, *persona*, *substantia* stand in his book), and later Latin writers read him closely (Cyprian, through Jerome; Novatian, Jerome's judgment). The approved essence, "the foremost early writer of the faith in Latin, around the year 200", stands word for word. Told to the manager as a judgment within the heart, not a change of it.
+- **The heart's wording.** The batch 7 heart said he "gave Latin its words for God as one substance in three persons" (Widely Accepted, from the census and editors). Under Part 1's modern-work rule no held old or later witness carries that claim, so the outline keeps the substance at what the record holds: he said in Latin how God is one and yet three (the words *trinitas*, *persona*, *substantia* stand in his book), and later Latin writers read him closely (Cyprian, through Jerome; Novatian, Jerome's judgment). The approved essence, "the foremost early writer of the faith in Latin, around the year 200", stands word for word. Told to the manager as a judgment within the heart, not a change of it. Manager (2026-11-28): "Proceed. Holding the claim to what the record holds is the kit's own rule ... no ruling is needed. Note the narrowing in the README and on Mark's final page." Goes on Mark's final page.
 
 ## Rulings made during this run
 
