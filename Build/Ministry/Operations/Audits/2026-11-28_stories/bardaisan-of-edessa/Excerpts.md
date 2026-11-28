@@ -1,4 +1,4 @@
-# Source excerpts: bardaisan-of-edessa
+# Source excerpts: 
 
 Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outline.md` cite, 4 lines of context on each side. Each line keeps its file's own number. Open a file itself only at a line range.
 
@@ -972,6 +972,19 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 1941: 
 ```
 
+### EPH-P 2086-2094
+```
+2086: LXXI. The Second Adam also-- . . . and was raised up in Sheol,--He brings all that are [there],--in Him they were living secretly,--and when their resurrection drew nigh--there sprang upon them the voice of .... --in that as a dead man made the living die--the voice of resurrection makes them alive. LXXII. For that first Thousand --is the type of that last [P. 162.] Thousand,--in that as the death of Adam put to death--all those that that Thousand [had brought to life] . . . delivered--one that flew away and one that was rescued.
+2087: 
+2088: LXXIII. Our Lord also in the last Thousand--raises the Dead by His resurrection--in that all the Dead are found in His Thousand,--and there comes the Deluge of Fire--in the midst of which the Wicked sink--and the Righteous in it are delivered ;--like Enoch the living [are] snatched away,--in the manner of Noah the Dead are rescued.
+2089: 
+2090: LXXIV. But Bardaisan in this has erred--and wishes to make us also err therein,--in this [he has greatly gone astray ;]--he has died, and caused all [his comrades] to die.--" Our Lord also, (says he) Who was raised,--(why) did He not raise all Bodies,--that as their undoing was in Adam--their reconstruction should be by our Lord ? " |lxxvi
+2091: 
+2092: [P. 163.] LXXV. Lo, Adam not at the moment -- when he died and fell did he cast down everything. -- but he died in his sin -- and the world died in the sentence on him ; -- our Lord also not at the moment -- when He was raised did He raise everything. -- but He lived by His glorious acts -- and the world lived in the pledge He gave.
+2093: 
+2094: LXXVI. In the hour that Adam died and fell -- the earth was full of living beings, -- and on his account only did Death reign ; -- our Lord also gave life now -- when Sheol was full of the dead -- on His account only does Resurrection reign. -- Death spread from one on all, -- from [one also] spread Resurrection.
+```
+
 ### EPH-P 2490-2502
 ```
 2490: *       *       *       *       *       *       *
@@ -1240,8 +1253,13 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 
 ## JER-L = `jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt`
 
-### JER-L 53433-53446
+### JER-L 53428-53446
 ```
+53428: CAPUT XXXIII. 
+53429: 
+53430: 
+53431: Bardesanes in Mesopotamia * clarus habitus est, 
+53432: qui primum Valentini sectator, deinde confutator, 
 53433: novam heresim condidit ?. Ardens ejus a Syris 
 53434: predicatur ingenium, et in disputatione vehemens. 
 53435: Seripsit ? infinita adversum omnes pene hereticos, 
@@ -1453,6 +1471,25 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 20495:    Let us now go on to the next stage in his argument:--"....the
 ```
 
+## THF = `theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt`
+
+### THF 29762-29774
+```
+29762: XXII. — De ἜΝ el Harmonio. 
+29763: 
+29764: Bardesanes autem Syrus, Edesx natus, Marci 
+29765: Veri Cesaris temporibus floruit. Hunc ferunt * mul- 
+29766: ta de Valentini fabulis resecuisse. Multa etiam Sy- 
+29767: rorum lingua scripsit, que alii quidam in Grzccam 
+29768: transtulerunt. Incidi et ego in libros ejus, quos ad- 
+29769: versus fatum scripserat, et contra bzresin Marcio- 
+29770: nis, et in alios non paucos. Narrant et Harmonium, 
+29771: qui hujus fuit filius, lipguam Grzcam Athenis di- 
+29772: dícisse. Multa porro Syriaca lingua scripsit. Utrius- 
+29773: que autem errorem Ephraim Syrus vir celeberrimus 
+29774: strenue confutavit. 
+```
+
 ## ANF1 = `anf01_apostolic-fathers-justin-irenaeus.xml`
 
 ### ANF1 16127-16139
@@ -1537,3 +1574,7 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 ## Wide ranges, not cut (over 40 lines; open at the lines needed)
 
 - EPH-P 282-345 (`ephraim_prose-refutations_mitchell1912-1921.txt`)
+
+## Files not found
+
+- PS = patrologia-syriaca_pars1-t2-...-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt

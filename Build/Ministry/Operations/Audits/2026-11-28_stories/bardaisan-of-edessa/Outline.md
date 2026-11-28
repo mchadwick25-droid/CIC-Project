@@ -1,6 +1,6 @@
 # Outline: Bardaisan of Edessa
 
-Sheet items (S, E, I, D, X) are in `Source_Sheet.md`, which gives each file and line. BLC is the dialogue (Pratten's English, ANF 8, from Cureton's Syriac; the Syriac is not held).
+Sheet items (S, E, I, D, X) are in `Source_Sheet.md`, which gives each file and line. BLC is the dialogue (Pratten's English, ANF 8, from Cureton's Syriac; the Syriac is held with Nau's Latin, PS, and Eusebius's Greek extract, PE VI.10).
 
 ## The heart
 
@@ -17,7 +17,7 @@ Sheet items (S, E, I, D, X) are in `Source_Sheet.md`, which gives each file and 
 
 ## Length
 
-About 4:30 (Decision-Log, "2026-11-19 — Batch 6: Bardaisan's length (Mark)"), about 675 words. Count the story must carry: Q1 + Q2 + Q3 about 55 words; glosses (fate, Syriac, Marcion's followers, Valentinus's followers, the body charge, meters, a pagan rite) about 90; credited witnesses (Philip, Eusebius twice, Ephrem, a later historian, Epiphanius, Jerome) about 60. Beats as planned run about 760; the Cut first list brings it to about 675.
+About 4:30 (Decision-Log, "2026-11-19 — Batch 6: Bardaisan's length (Mark)"), about 675 words. Count the story must carry: Q1 + Q2 + Q3 about 55 words; glosses (fate, Syriac, Marcion's followers, Valentinus's followers, the body charge, meters, a pagan rite) about 90; credited witnesses (Philip, Eusebius twice, Ephrem, a later historian, Epiphanius, Jerome) about 60. Beats as planned run about 845 (recount at the outline check); the Cut first list brings it to about 675.
 
 ## Setting
 
@@ -33,7 +33,7 @@ About 4:30 (Decision-Log, "2026-11-19 — Batch 6: Bardaisan's length (Mark)"), 
 - **Marcion's followers:** "followers of Marcion, who taught that the God who made the world was not the Father of Jesus" (X1).
 - **Valentinus's followers / Valentinians:** "followers of Valentinus, a teacher who said a chain of divine beings came forth, pair by pair, from a hidden first Father" (X2). Never "aeons" or "Gnostic".
 - **heresy / heretic:** always a witness's word; plain sense "teaching the church condemned".
-- **the body charge:** that the body was always meant to return to dust, sin or no sin, and so would not rise (X3; Epiphanius: "denying the resurrection of the dead", I1b).
+- **the body charge:** that the body was always meant to return to dust, sin or no sin, and so would not rise (X3; EPH-P 1937, 2090; Epiphanius: "denying the resurrection of the dead", I1b).
 - **meters:** "the beat and pattern of their verse" (SOZ 32079–32103, "metres").
 - **Tharatha:** do not name; say "in a pagan rite" (S3; the text does not say who Tharatha was, and the rite is one the king forbade on becoming a believer).
 - **Brahmans:** told inside the sentence: "in India, the Brahmans eat no meat" (BLC 68629–68636).
@@ -61,11 +61,11 @@ The opening and the essence fill the first minute (about 150 words). Then once, 
 
 1. **The harp and the ship** (E3, E4; BLC 67939–67943, 68006–68023, 68029–68036, 68066–68071). He tells Avida that teachers are the ones who are asked, and that it is good to know how to ask. Had God made people unable to do wrong, they would not belong to themselves: like a harp another plays, or a ship another steers, where praise and blame belong to the player. The sun cannot refuse to rise; a person can. So the good a person does is his own. Documented, his words, narrated.
 2. **Nature, fate and freedom** (E5, E6; Q1). Nature gives every person birth, growth, eating and sleeping, old age and death (BLC 68249–68252). He grants that he once followed the astrologers himself (BLC 68337–68342), and still says fate is real (68396–68397): wealth and honors, health and sickness, children, are under fate, not in our power (68430–68433). Then Q1. Documented, his words.
-3. **Avida asks for proof; the laws of countries** (E9, E7, S3). Avida says he is convinced that wrongdoing does not come from nature, but asks proof that it does not come from fate (BLC 68568–68576, 68587–68589). The proof: people are born at every hour in every land, yet each people keeps its own laws (68605–68612, 68846–68849). In India the Brahmans eat no meat; the Persians marry their sisters; among the people of Edessa a woman merely suspected of adultery is put to death (68629–68636, 68666–68670, 68743–68749). Laws change when rulers change them: when King Abgar became a believer, the dialogue says, he ordered that any man who castrated himself in a pagan rite should have his hand cut off (68959–68965). Keep the force: he cites death and maiming as facts of law, not as praise. Documented, his words; the king's conversion is the dialogue's claim.
+3. **Avida asks for proof; the laws of countries** (E9, E7, S3). Avida says he is convinced that wrongdoing does not come from nature, but asks proof that it does not come from fate (BLC 68568–68576, 68587–68589). The proof: people are born at every hour in every land, yet each people keeps its own laws (68605–68612, 68846–68849). In India the Brahmans eat no meat; the Persians marry their sisters; among the people of Edessa a woman merely suspected of adultery is put to death (68629–68636, 68666–68670, 68743–68749). Laws change when rulers change them: when King Abgar became a believer, the dialogue says, he ordered that any man who castrated himself in a pagan rite should have his hand cut off (68959–68965). Keep the force: he cites death and maiming as facts of law, not as praise. Documented, his words; the king's conversion is Documented in the Syriac; the Greek extract omits the conversion (card).
 4. **The Christians** (E8; Q2). Last, the Christians, whom Christ planted in every land: Q2. In Gaul and Parthia, in Persia and at Edessa, they do not keep the local customs; the laws of their countries do not stop them obeying the law of Christ, and fate does not force them (BLC 68976–68991). Documented, his words.
-5. **The teacher, in Eusebius's report** (E12; about a century later). Transition: Avida's was not the only question he answered. Eusebius says he was a most skillful debater in Syriac, who wrote dialogues against the followers of Marcion and other teachers; he had very many pupils, who put his works into Greek; Eusebius calls him a powerful defender of the faith, and his dialogue on fate the ablest of his works (EU 26633–26643). Then, the same writer: he began among the followers of Valentinus, rejected them and refuted most of their tales, but never wholly washed off the stain of the old heresy (EU 26652–26656; Greek ῥύπον, "filth", rendered "stain"). Documented as Eusebius's report.
-6. **Ephrem, in Edessa, a century and a half on** (I3, I2, X3, EPH-G 11200–11204). His followers still sang songs: Ephrem says Bardaisan made them; a later historian, Sozomen, gives them to his son Harmonius (I3; credit each). Ephrem learned their meters and answered with hymns for the church. In prose he attacked Bardaisan's teaching that the body was always meant to return to dust, sin or no sin, and so would not rise (X3). Reading a book of Bardaisan's, he wrote, troubled him for an hour and tainted his ears. Documented as Ephrem's charges; Contested.
-7. **Epiphanius and Jerome, the reverse and the praise** (I1b, E14, I4). Epiphanius, a bishop writing in the same years, tells it the other way round: Bardaisan was first a fine man of the church, who argued against fate, then fell to the Valentinians and denied that the dead will rise, like a fine ship wrecked at the harbor's edge with its passengers lost (EPI 26328–26330, 26413, 26491–26501; my reading of the Greek). Jerome, writing in Latin about twenty years later (392/3), called his book on fate the most famous and strongest of his works, and asked how much force it must have had in Syriac, if it had so much in translation; he too says Bardaisan began with Valentinus and later founded a teaching of his own that the church condemned (THD 40139–40150; JER-L 53437–53442). Documented as their reports; the order of his turn, Contested (D1).
+5. **The teacher, in Eusebius's report** (E12; about a century later). Transition: Avida's was not the only question he answered. Eusebius says he was a most skillful debater in Syriac, who wrote dialogues against the followers of Marcion and other teachers; he had very many pupils, who put his works into Greek; Eusebius calls him a powerful defender of the faith, and names his most able dialogue, *On Fate*, and Eusebius himself copied long stretches of it into Greek in another book, to answer the astrologers (EU 26633–26643; PE VI.10, Eng. 17927–17933). Then, the same writer: he began among the followers of Valentinus, rejected them and refuted most of their tales, but never wholly washed off the stain of the old heresy (EU 26652–26656; Greek ῥύπον, "filth", rendered "stain"). Documented as Eusebius's report.
+6. **Ephrem, in Edessa, a century and a half on** (I3, I2, X3, EPH-G 11200–11204). In Ephrem's day the people of Syria still sang songs made in Bardaisan's circle: Ephrem says Bardaisan made them; a later historian, Sozomen, gives them to his son Harmonius (I3; credit each). Ephrem learned their meters and answered with hymns for the church. In prose he attacked Bardaisan's teaching that the body was always meant to return to dust, sin or no sin, and so would not rise (X3; EPH-P 1937, 2090). Reading a book of Bardaisan's, he wrote, troubled him for an hour and tainted his ears. Documented as Ephrem's charges; Contested.
+7. **Epiphanius and Jerome, the reverse and the praise** (I1b, E14, I4). Epiphanius, a bishop writing in the same years, tells it the other way round: Bardaisan was first a fine man of the church, who argued against fate, then fell to the Valentinians and denied that the dead will rise, like a fine ship wrecked at the harbor's edge with its passengers lost (EPI 26328–26330, 26413, 26491–26501; my reading of the Greek). Jerome, writing in Latin about twenty years later (392/3), called his book on fate the most famous and strongest of his works, and asked how much force it must have had in Syriac, if it had so much in translation; he too says Bardaisan began with Valentinus, then argued against him, and founded a teaching of his own that the church condemned (THD 40139–40150; JER-L 53432–53442). Documented as their reports; the order of his turn, Contested (D1).
 
 ## Ending
 
@@ -75,14 +75,14 @@ The opening and the essence fill the first minute (about 150 words). Then once, 
 ## What came of him (ranked heaviest first)
 
 1. **Called a heretic, by witnesses who disagree** (I1, I2, I3, D1). Eusebius: began with Valentinus, not wholly clean. Ephrem: attacked his teaching on the body and answered his school's songs. Epiphanius: a churchman who fell. Jerome: began with Valentinus, founded his own. Documented as each witness's charge; Contested. DEFENDED: the faith against Marcion's followers (E12, Eusebius's report).
-2. **The argument kept and praised** (E12, E14, I4). His pupils put his works into Greek; Eusebius called his dialogue on fate his ablest; Epiphanius knew his argument against fate; Jerome praised it in Latin. DEFENDED: human freedom against the astrologers' fate (E4–E8).
+2. **The argument kept and praised** (E12, E14, I4, I4b). Eusebius, about a century later, quoted the argument at length in Greek, under Bardaisan's name, in his *Preparation for the Gospel*, in a book against the astrologers (PE VI.10, Gifford Eng. 17920–18364; Greek 28434–28997). Documented. Theodoret, in the fifth century, says he read the books against fate and against Marcion's followers (Haer. fab. I.22, 29766–29778). Card. His pupils put his works into Greek; Eusebius called his dialogue On Fate most able; Epiphanius knew his argument against fate; Jerome praised it in Latin. DEFENDED: human freedom against the astrologers' fate (E4–E8).
 3. **The songs** (I3). Ephrem took the meters of the songs of Bardaisan's school and answered them. A clause; the `ephrem-the-syrian` story tells it.
 4. Card only: the *Clementine Recognitions*' reworked chapters (REC 6252–6254, 18279–18281: an editor's judgment); Theodoret's list (I5); Hippolytus's line (I1c); Prepon's book (E12).
 
-## Quotes (rendered by me from Pratten's English, printed 1886; the Syriac is not held)
+## Quotes (rendered from Pratten's English, checked against Nau's Latin (PS I.2: Q1 51621–51624, Q2 53782–53786, Q3 54009–54012) and, where it overlaps, Eusebius's Greek (PE VI.10))
 
 - **Q1.** "So we humans are ruled by nature all alike, by fate each in a different way, and by our freedom each as we choose." BLC 68441–68443. Job: the whole argument in his words. The narration before it gives only the examples, never its own "alike", "unevenly" or "as we choose".
-- **Q2.** "Wherever we are, we are all called by the one name of Christ: Christians." BLC 68968–68969. Job: the last proof, and what he defended: one people under every sky. The law of Christ (68988–68990) is narrated after it as the next step of his argument, never as a gloss on it.
+- **Q2.** "Wherever we are, we are all called by the one name of Christ: Christians." BLC 68968–68969. The Greek has only "are called by one name" (Eng. 18338–18339); "of Christ" is in the Syriac (Nau 53785–53786, "solo nomine Christi christiani vocamur"): quote from the Syriac, as here. Job: the last proof, and what he defended: one people under every sky. The law of Christ (68988–68990) is narrated after it as the next step of his argument, never as a gloss on it.
 - **Q3.** "When that new world is set up, all evil turmoil will cease, and every rebellion will end." BLC 69026–69028. Optional second span: "There will be quiet and peace, through the gift of the Lord of all that exists." BLC 69029–69031. Job: the ending, his own answer to Avida's question. The skipped words ("the foolish shall be convinced, and all deficiencies shall be filled up") are never quoted.
 
 ## Names
@@ -94,7 +94,7 @@ The opening and the essence fill the first minute (about 150 words). Then once, 
 
 ## Connection to carry into the story
 
-His argument passed from his circle of pupils at Edessa into writing (Philip's telling, E15), into Greek (his pupils, EU 26637–26639), and into the praise of Greek and Latin writers (Eusebius, Epiphanius, Jerome: EU 26641–26643, EPI 26413, THD 40146–40150). The same writers, and Ephrem in his own city, set his name among the teachers the church condemned (I1, I2). The listener must hear that the praise and the condemnation come from the same witnesses; that the charges they name are about the body's rising and his first link with Valentinus, each in its witness's voice; and that Ephrem answered his school's songs with the church's own (I3). The narrator does not say whether the charges touch the freedom argument. It comes through what each witness wrote, never a "this matters because" sentence.
+His argument passed from his circle of pupils at Edessa into writing (Philip's telling, E15), into Greek (his pupils, EU 26637–26639), into Eusebius's own long Greek quotation (PE VI.10), and into the praise of Greek and Latin writers (Eusebius, Epiphanius, Jerome: EU 26641–26643, EPI 26413, THD 40146–40150). The same writers, and Ephrem in his own city, set his name among the teachers the church condemned (I1, I2). The listener must hear that the praise and the condemnation come from the same witnesses; that the charges they name are about the body's rising and his first link with Valentinus, each in its witness's voice; and that Ephrem answered his school's songs with the church's own (I3). The narrator does not say whether the charges touch the freedom argument. It comes through what each witness wrote, never a "this matters because" sentence.
 
 ## Links
 
@@ -103,7 +103,7 @@ Marcion: argued against his followers. Valentinus: later writers say he began in
 ## Who tells it
 
 - **The dialogue** (old; OWN, a pupil's telling, date not given in the text): the scene, the argument, his admission, the laws, Abgar's law, the Christians, the new world. Say once, in the essence, that it comes as Philip tells it. That a pupil, not Bardaisan, wrote it is the editors' judgment (E11; modern, clarifies the text): not told as a judgment.
-- **Eusebius** (old; early 300s, about a century on): the debates, the pupils, the Greek, "a powerful defender of the faith" (McGiffert's English; told unquoted), the dialogue on fate, the old heresy. Credited by name.
+- **Eusebius** (old; early 300s, about a century on): the debates, the pupils, the Greek, "a powerful defender of the faith" (McGiffert's English; told unquoted), the dialogue on fate, the old heresy; *Preparation for the Gospel* VI.10: quotes the dialogue at length (old; about 313). Credited by name.
 - **Ephrem** (old; Edessa, d. 373; hostile, and he read Bardaisan's books, EPH-G 11200): the songs, the body charge, his ears tainted. Credited by name.
 - **Sozomen** (old; 5th century): the songs given to Harmonius. Credited as "a later historian".
 - **Epiphanius** (old; about 375): the fine churchman who fell, the ship, the argument against fate. Credited by name.
@@ -123,7 +123,9 @@ Marcion: argued against his followers. Valentinus: later writers say he began in
 - Any birth or death year in the story; "under Marcus Aurelius"; "addressed to the emperor" → leave out (card).
 - "He was martyred", "tried before the emperor", Epiphanius's story of his refusal to deny the faith → leave out (one late witness, the emperor confused, D6; card).
 - "He wrote the Hymn of the Soul" → leave out (D3).
+- "Eusebius says Abgar became a believer" → never.
 - "Bardaisan converted King Abgar" or "Abgar became a Christian" as fact → "when King Abgar became a believer, the dialogue says".
+- "his followers sang" → "the Syrians sang (Sozomen)".
 - "Harmonius was a heretic", or "Bardaisan wrote the songs" as fact → "Ephrem says he made them; a later historian gives them to his son".
 - "Tharatha", "Seres", "Geli", "Hatra", "Chaldaeans", "aeons", "Gnostic", "docetism", "the Seven" → leave out.
 - "fate", "Syriac", "Valentinus", "Marcion" without the plain sense the first time.
@@ -136,13 +138,16 @@ Marcion: argued against his followers. Valentinus: later writers say he began in
 - A gloss or restatement after Q1, Q2 or Q3 → the narration before Q1 gives only examples; after Q2 only the next step of the argument; after Q3 nothing.
 - "Ephrem attacked his teaching on the soul and the body" bare → give the one charge plainly (X3), or leave it out.
 - "the dialogue never records Avida's last word", or any sentence that only says what is missing.
+- "Eusebius translated the dialogue" → "his pupils put his works into Greek, Eusebius says; Eusebius quoted it".
+- "the earliest Christian argument for free will" → never.
+- "Eusebius was the first to call him a heretic" → never.
 - "the question is still argued", "most editors judge", or the *Recognitions* → leave out (modern; card).
 
 ## Leave out
 
 The late birth legends (I6); Bardaisan as historian of Armenia; the archer story; the Indian sages; the planetary cycles and the soul's seven parts (technical); Ephrem's curse on "the Seven" (it lost the last listener: who the Seven are and who confessed what); Ephrem calling him the teacher of Mani (needs a gloss the story has no room for); Hippolytus's line and Prepon's book (card); Theodoret's list (card); the *Recognitions* (an editor's judgment; card); the dating quarrel (D4; card); Epiphanius's story of the refusal to deny (D6; card); the "days of the readings" fast (unclear). None of the record's force is left out: Eusebius's, Ephrem's, Epiphanius's and Jerome's charges, and the dialogue's harsh laws, are told.
 
-## Cut first (to bring about 760 to about 675 words)
+## Cut first (to bring about 845 to about 675 words)
 
 1. The Persians' marriage example in beat 3 (Leave out).
 2. Jerome's own line that Bardaisan began with Valentinus and founded his own teaching (card): his praise stays.
@@ -150,3 +155,8 @@ The late birth legends (I6); Bardaisan as historian of Armenia; the archer story
 4. Q3's optional second span (Leave out).
 5. "In Gaul and Parthia, in Persia and at Edessa" shortened to "in every land" in beat 4 (Leave out).
 6. Ephrem's "troubled for an hour" line in beat 6 (card): his charge on the body stays.
+7. Beat 7: Jerome's question about the force of the Syriac ("and asked how much force ... in translation") (card). His "most famous and strongest" praise stays.
+8. Beat 6: the father-or-son credit. Change it to "songs made in his circle" (D3 to card).
+9. Beat 3: the Edessa adultery law (card). Abgar's order keeps the record's force.
+10. Beat 7: Epiphanius's "who argued against fate" (card). PE VI.10 now carries the argument's survival.
+11. Beat 2: nature's list cut to "birth, growth, old age and death" (Leave out).
