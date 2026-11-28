@@ -14,7 +14,7 @@
   "keyWorks": [
     {
       "title": "Divine Institutes",
-      "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Books II and III set the philosophers against one another, and hold that there is no religion without wisdom, nor wisdom without religion. Book V, on justice, turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
+      "about": "seven books arguing the faith to educated pagans from their own philosophers and historians. He took the title from the lawyers' handbooks of the civil law, called Institutes, written to settle quarrels; his are on hope, life, salvation, immortality and God. Book I argues that the pagan gods had once been men, and calls the Sibyls, prophetesses whose verses the pagans kept, as witnesses against them. Book II traces the origin of error, Book III sets the philosophers against one another, and Book IV joins true wisdom and religion, holding that there is no religion without wisdom, nor wisdom without religion. Book V, on justice, turns to the persecution and holds that religion cannot be forced, and must be defended by dying, not by killing. Book VI is on true worship. Book VII holds that the world lasts six thousand years, and that righteousness then reigns on earth for a thousand. Some copies open with an address to the emperor Constantine, and whether Lactantius wrote it is disputed"
     },
     {
       "title": "On the Workmanship of God",
@@ -398,7 +398,7 @@
         {
           "when": "Date unknown",
           "text": "A judge who had pressed for the persecution writes two books to the Christians, as if out of kindness, to prove that their Scripture contradicts itself, and attacks Paul and Peter as spreaders of deceit.",
-          "reference": "Lactantius, Divine Institutes V.2 and V.3, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 4505, 4513",
+          "reference": "Lactantius, Divine Institutes V.2, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 4505, 4513",
           "note": "Lactantius's portrait of him; he gives no name."
         }
       ]
@@ -450,8 +450,8 @@
         },
         {
           "when": "Date unknown",
-          "text": "Books II and III set the philosophers against one another, so that philosophy destroys itself, and hold that there is no religion without wisdom, nor wisdom without religion.",
-          "reference": "Divine Institutes I.1 and III.4, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 575, 584, 2300"
+          "text": "He holds that the philosophers disagree and refute one another, so that philosophy destroys itself, and that there is no religion without wisdom, nor wisdom without religion.",
+          "reference": "Divine Institutes I.1 and III.4, chapters as numbered in the English edition, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml lines 575, 584, 2300"
         },
         {
           "when": "Date unknown",

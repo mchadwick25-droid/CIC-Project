@@ -62,7 +62,7 @@ Batch 12, Part D. Row codes (S, E, X, I, L, D, M) are rows of `Source_Sheet.md` 
   - The Defense (old; Pamphilus's and Eusebius's, in Rufinus's Latin of 397): it speaks for itself in Quote 2; "the Defense says", never "Pamphilus wrote" or "Eusebius wrote" beside Quote 2.
   - Jerome (old; about 80 to 90 years later; used the library; later the Defense's chief accuser): credited beside the copying (E3), the buying of books (E2), the volumes (Quote 3), the library's later damage (I1) and the complaint (I2).
   - Rufinus (old; 397; translator and defender of the Defense): acts in What came of it 2.
-  - Photius (old; about 550 years later): credited beside "in prison" (E7). Also his verdict and the charges list (D8, E9), card.
+  - Photius (old; about 550 years later): credited beside "in prison" (E7). His verdict and the list of charges are of an anonymous defense in five volumes, not of the Defense (D8, E9): card, credited to that work.
   - Isidore of Seville (old; about 300 years later): credited beside the library's fame (I1); the thirty thousand is his, card.
   - Socrates (old; about 130 years later; a defender of Origen): card or one clause.
   - McGiffert, Fremantle, Lightfoot, Martianay, Lommatzsch, Delarue, the Letter 84 translator (modern): translators and editors who clarify the texts. Their dates (M1), their authorship verdicts (M5), the library as Eusebius's source (M3) and the colophons (M4) are claims of their own: not told.
@@ -89,7 +89,7 @@ Batch 12, Part D. Row codes (S, E, X, I, L, D, M) are rows of `Source_Sheet.md` 
   - "The martyr's name made people trust Origen" as the narrator's judgment → Jerome's complaint, credited, with "thought" (I2).
   - "Apology" alone → "a Defense of Origen" with its plain sense (X6).
   - "The young man Porphyry" → "a young man of his household" (Names).
-  - "The charges were false" or "Origen was cleared" in the narrator's voice → "the Defense calls them slanders" only if needed, credited (E9, PHOT 11400-11402).
+  - "The charges were false" or "Origen was cleared" in the narrator's voice → not told. "Slanders" is the anonymous five-volume defense's word as Photius reports it (PHOT 11400-11402), not the Defense's (E9, D8).
   - "After Pamphilus died, Eusebius took his name" → not dated in the old sources (EUS-ed 43011 only).
   - "The pages were stained with his blood" or "he copied them in prison" → Jerome's "seems to me he marked them with the traces of his own blood", his figure, in his words (E3).
   - "Pamphilus's commentaries" → Origen's commentaries on the twelve prophets, in Pamphilus's hand (E3).
@@ -103,7 +103,7 @@ Batch 12, Part D. Row codes (S, E, X, I, L, D, M) are rows of `Source_Sheet.md` 
   - The Egyptians' trial before the governor and the heavenly Jerusalem (EUS 47138-47189): another martyr's scene.
   - Seleucus, Theodulus and Julian (EUS 47247-47309): the other martyrs of the day; card if any.
   - The bodies left for the beasts (E10): a wonder; leave out.
-  - The fifteen charges and Photius's hostile verdict (E9, D8): card, each in its own content and credited.
+  - The fifteen charges and Photius's hostile verdict, both of the anonymous five-volume defense, not of the Defense (E9, D8): card, each in its own content and credited to that work.
   - The book "Against the mathematicians" (D5): card.
   - The Hebrew Matthew in the library (E2): card, unless the writer needs a second thing Jerome found.
   - The colophons (I6): editors only; card, marked.
