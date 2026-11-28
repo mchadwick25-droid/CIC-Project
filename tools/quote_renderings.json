@@ -171,32 +171,6 @@
    }
   },
   {
-   "id": "origen",
-   "quote": "Be careful not to change your mind because of us.",
-   "original": {
-    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-    "lines": "32562",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "origen",
-   "quote": "the hardworking Origen",
-   "original": {
-    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-    "lines": "28650-28652",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "ephrem-the-syrian",
    "quote": "See, on your behalf I appoint myself to take in and care for the needy.",
    "original": {
@@ -1211,123 +1185,6 @@
    }
   },
   {
-   "id": "clement-of-alexandria",
-   "quote": "bare faith alone,",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "28315",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "27891-27893",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "whatever has been well said",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "28147-28148",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "in my judgment the most learned of men,",
-   "original": {
-    "file": "cic/texts/npnf206_jerome-principal-works.xml",
-    "lines": "16628-16629",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "Is learning missing from these books? Or are they not rather drawn from the very heart of philosophy?",
-   "original": {
-    "file": "cic/texts/npnf206_jerome-principal-works.xml",
-    "lines": "16634-16636",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "I tracked him down where he was hidden in Egypt, and I found rest.",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "27489-27492",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "found rest",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "27489-27492",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "bare faith alone",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "28315",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "clement-of-alexandria",
-   "quote": "the most learned of men",
-   "original": {
-    "file": "cic/texts/npnf206_jerome-principal-works.xml",
-    "lines": "16628-16629",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "columba",
    "quote": "to make a pilgrimage for Christ",
    "original": {
@@ -2147,45 +2004,6 @@
    }
   },
   {
-   "id": "tacitus",
-   "quote": "Christus, from whom the name came, was put to death in the reign of Tiberius by one of our governors, Pontius Pilatus.",
-   "original": {
-    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
-    "lines": "68",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "tacitus",
-   "quote": "that same Cornelius Tacitus, who truly talks more lies than anyone,",
-   "original": {
-    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
-    "lines": "17915-17916",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "tacitus",
-   "quote": "So even for criminals who deserved to be punished harshly, as an example to all, a feeling of pity arose. For it seemed they were being destroyed not for the public good, but to feed one man's cruelty.",
-   "original": {
-    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
-    "lines": "68",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "suetonius",
    "quote": "He drove out of Rome the Jewish people who kept rioting at the urging of Chrestus.",
    "original": {
@@ -2260,45 +2078,6 @@
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/josephus/Final_Check.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "ignatius-of-antioch",
-   "quote": "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day.",
-   "original": {
-    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-    "lines": "7083-7086",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "ignatius-of-antioch",
-   "quote": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. But if they are right, why am I in chains? Why do I long to face the wild beasts? Do I die for nothing, then?",
-   "original": {
-    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-    "lines": "6671-6676",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "ignatius-of-antioch",
-   "quote": "I am God's wheat, and let me be ground by the teeth of wild beasts, so that I may be found the pure bread of Christ.",
-   "original": {
-    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-    "lines": "7040-7042",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
     "verdict": "same"
    }
   },
@@ -2459,45 +2238,6 @@
    }
   },
   {
-   "id": "valentinus",
-   "quote": "It is unclean, the home of many demons. But when the Father, who alone is good, visits it, it is made holy and shines with light.",
-   "original": {
-    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-    "lines": "34300-34302",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "valentinus",
-   "quote": "Valentinus had hoped to become a bishop, for he was able in mind and in speech. But another man won the place, by the claim his suffering for the faith had given him. Angry at this, Valentinus broke away from the church of the true rule.",
-   "original": {
-    "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
-    "lines": "9633-9653",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "valentinus",
-   "quote": "love is not love unless there is something to love.",
-   "original": {
-    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-    "lines": "9171-9172",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
    "id": "tatian",
    "quote": "While I was thinking hard about what mattered, I came upon some barbarian writings. They were older than the teachings of the Greeks, and more divine than their error. I was won over by their plain words, and by the artlessness of those who spoke them. I was won over by their clear account of how all things were made, and by their foreknowledge of what was to come. I was won over by their excellent commands, and by the rule of one over all things.",
    "original": {
@@ -2556,84 +2296,6 @@
     "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
     "lines": "69026-69029",
     "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "hippolytus-of-rome",
-   "quote": "He also said that Noah's ark was made as a sign of the church. In it were dogs and wolves and ravens, everything clean and unclean. So, he says, it should be with the church.",
-   "original": {
-    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-    "lines": "13909-13912",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "hippolytus-of-rome",
-   "quote": "Christ did not say, 'I and the Father am one,' but 'are one.' The word 'are' is not said of one person. It speaks of two persons and one power.",
-   "original": {
-    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-    "lines": "23442-23450",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "hippolytus-of-rome",
-   "quote": "the elder Hippolytus,",
-   "original": {
-    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-    "lines": "66807",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "hippolytus-of-rome",
-   "quote": "the unhealthy island.",
-   "original": {
-    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-    "lines": "66808",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "hippolytus-of-rome",
-   "quote": "It is said that Hippolytus, an elder, while the tyrant's orders pressed hard, had stayed all along in the split of Novatus.",
-   "original": {
-    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-    "lines": "109159-109160",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "hippolytus-of-rome",
-   "quote": "Damasus tells what he has heard. Christ tests it all.",
-   "original": {
-    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-    "lines": "109166",
-    "language": "Latin"
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
@@ -3005,110 +2667,6 @@
    }
   },
   {
-   "id": "lactantius",
-   "quote": "Spurred on by their proud ungodliness, by my awareness of the truth itself, and, as I believe, by God, I took up this task.",
-   "original": {
-    "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
-    "lines": "23206-23210",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "lactantius",
-   "quote": "Religion must be defended not by killing but by dying, not by cruelty but by patient endurance, not by crime but by faithfulness.",
-   "original": {
-    "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
-    "lines": "26240-26242",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "lactantius",
-   "quote": "He was the most eloquent man of his time, but so poor in this life that he often lacked even the necessities.",
-   "original": {
-    "file": "cic/texts/lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt",
-    "lines": "11251-11252",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pamphilus-of-caesarea",
-   "quote": "If it is a joy to have one letter of a martyr,",
-   "original": {
-    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-    "lines": "40966-40968",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pamphilus-of-caesarea",
-   "quote": "how much more to have so many thousand lines! He seems to me to have marked them with the traces of his own blood.",
-   "original": {
-    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-    "lines": "40966-40968",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pamphilus-of-caesarea",
-   "quote": "Who among those eager to learn was not a friend of Pamphilus? If he saw any of them lacking what they needed to live, he gave freely what he could. He gave the holy Scriptures too, most readily, not only to read but to keep. He gave them not only to men, but also to women he saw devoted to reading. So he kept many books ready, to give to those who wanted them whenever need arose.",
-   "original": {
-    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-    "lines": "51430-51437",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pamphilus-of-caesarea",
-   "quote": "When he explains these things, he often adds and declares that he is not pronouncing them as a final verdict, or settling them as fixed doctrine. He is searching as far as his strength allows, and examining the sense of the Scriptures. He does not claim to have grasped it wholly and perfectly.",
-   "original": {
-    "file": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
-    "lines": "14211-14215",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pamphilus-of-caesarea",
-   "quote": "since they think a martyr praised him.",
-   "original": {
-    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-    "lines": "51456",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "dionysius-of-alexandria",
    "quote": "Then I understood why they had come. I cried out, begging and pleading with them to go away and leave us alone. If they wanted to do a kindness, I asked them to act before the men leading me away, and cut off my head themselves.",
    "original": {
@@ -3187,58 +2745,6 @@
    }
   },
   {
-   "id": "pontius-the-deacon",
-   "quote": "a willing exile",
-   "original": {
-    "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
-    "lines": "41015",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pontius-the-deacon",
-   "quote": "He spread his hand out flat, like a sword blade, and mimed the stroke of the usual execution. What he wanted understood, he made as clear as plain speech. I understood the sentence still to come: my martyrdom.",
-   "original": {
-    "file": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
-    "lines": "1309-1313",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pontius-the-deacon",
-   "quote": "I have decided to write down a few things, in brief. Not that the life of so great a man is hidden from anyone, even the pagans. It is so that this great, matchless example may be handed on to those after us too, into undying memory.",
-   "original": {
-    "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
-    "lines": "40267-40270",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "pontius-the-deacon",
-   "quote": "Shall I grieve that I was not his companion? But his victory must be celebrated. Shall I celebrate his victory? But I grieve that I am not his companion. Yet I must confess to you plainly what you know too: this is how I felt. I rejoice much, even too much, in his glory. But I grieve more that I remained behind.",
-   "original": {
-    "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
-    "lines": "41405-41410",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "eusebius-of-caesarea",
    "quote": "I confess that it is beyond my power to write a perfect and complete history. Since I am the first to enter on this subject, I am trying to travel, as it were, a lonely and untrodden path.",
    "original": {
@@ -3304,67 +2810,41 @@
    }
   },
   {
-   "id": "anatolius-of-alexandria-and-laodicea",
-   "quote": "I advise you to send out of the gates those who are surplus, of no use to us at all: old women, small children and old men. Let them walk wherever they wish. Why keep them here for nothing, when they will soon be dead?",
-   "original": {
-    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-    "lines": "42736-42739",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "anatolius-of-alexandria-and-laodicea",
-   "quote": "It is agreed that Anatolius was a most holy and most learned man, most worthy of praise. But what have you to do with him, when you do not even keep his rules? For he followed the rule of truth in his Easter, and set down a cycle of nineteen years. Either you do not know it, or you know it and treat it as nothing, though the whole church of Christ keeps it.",
-   "original": {
-    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
-    "lines": "21583-21587",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "peter-of-alexandria",
-   "quote": "They did not come to this by their own choice. The weakness of the flesh betrayed them. For they show the marks of Jesus in their bodies.",
+   "quote": "They did not come to this by deliberate choice. They were betrayed by the weakness of the flesh, since they show the marks of Jesus in their bodies.",
    "original": {
     "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt",
     "lines": "49722-49723",
     "language": "Greek"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "peter-of-alexandria",
-   "quote": "Peter's case was for mercy and kindness. The case of Melitius and those with him was for truth and zeal.",
+   "quote": "Take heed of this. Do not share communion with him until I meet him with some wise and sensible men, and see what he has in mind.",
    "original": {
-    "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
-    "lines": "43852-43853",
-    "language": "Greek"
+    "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+    "lines": "27802-27804",
+    "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "peter-of-alexandria",
-   "quote": "He was seized for no cause, when no one expected it. All at once and with no reason given, as though on Maximinus's order, he was beheaded.",
+   "quote": "He was seized for no cause at all, without warning, and suddenly and without reason, as if Maximinus had ordered it, he was beheaded.",
    "original": {
     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
     "lines": "47996-47998",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Final_Check.md",
     "verdict": "same"
    }
   },
@@ -4782,6 +4262,396 @@
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-24_references/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "origen",
+   "quote": "All these I have spoken of hold false and impious opinions about God, or ignorant ones. The only reason, it seems, is that Scripture is not understood on its spiritual side, but is taken in its bare, literal sense.",
+   "original": {
+    "file": "cic/texts/origen_philocalia_lewis1911.txt",
+    "lines": "74",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "origen",
+   "quote": "From these writers he learned the figurative way of explaining the Greek mystery rites, and he applied it to the Jewish scriptures.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "35122-35124",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "origen",
+   "quote": "We came out of the storm; we were brought out of Egypt. The God who led his people out from there set us free.",
+   "original": {
+    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+    "lines": "24729-24732",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "lactantius",
+   "quote": "I myself saw in Bithynia a governor astonishingly elated with joy, as if he had conquered some nation of barbarians. It was because one man, who had held out for two years with great courage, seemed at last to give way.",
+   "original": {
+    "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+    "lines": "24576-24579",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "lactantius",
+   "quote": "For religion must be defended not by killing but by dying, not by cruelty but by endurance, not by crime but by faithfulness.",
+   "original": {
+    "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+    "lines": "26240-26242",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pamphilus-of-caesarea",
+   "quote": "He handed out the holy Scriptures as well, and most readily, to keep and not only to read. He gave them to men, and to women too, when he saw they were devoted to reading. So he kept many books prepared, to give freely to anyone who wished whenever need called for it.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "51433-51437",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pamphilus-of-caesarea",
+   "quote": "They think the command to become approved money-changers is wholly shut out for those who read Origen's books. Such money-changers know how to keep what is good and hold back from every kind of evil. If anyone is only seen reading his books, at once they drench him in the shame of the heretics.",
+   "original": {
+    "file": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
+    "lines": "14153-14158",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pamphilus-of-caesarea",
+   "quote": "If it is a joy to own one letter from a martyr, how much greater to own so many thousand lines! It seems to me he marked them with the traces of his own blood.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "40966-40968",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tacitus",
+   "quote": "Christus, from whom that name comes, had been put to death in the reign of Tiberius by the governor Pontius Pilate.",
+   "original": {
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "2541-2543",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tacitus",
+   "quote": "So he turned the blame onto the Christians. And the cruellest tortures were used on the innocent.",
+   "original": {
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "10659-10661",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tacitus",
+   "quote": "So pity began to rise, even toward the guilty, who had earned the harshest punishment as a warning. It was as if they were being destroyed not for the public good, but for one man's cruelty.",
+   "original": {
+    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+    "lines": "68",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "ignatius-of-antioch",
+   "quote": "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day. I am bound to ten leopards, I mean a band of soldiers. Even when they are treated well, they grow all the worse.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "7083-7090",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ignatius-of-antioch",
+   "quote": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. If that is so, why am I in chains? Why do I long to fight the wild beasts? Do I die for nothing, then?",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "6671-6676",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ignatius-of-antioch",
+   "quote": "I am God's wheat. I am ground by the teeth of wild beasts, so that I may be found pure bread.",
+   "original": {
+    "file": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt",
+    "lines": "15547-15552",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "valentinus",
+   "quote": "So it is with the heart, while no one gives it any thought. It is unclean, a home for many demons. But when the Father, who alone is good, visits it, it is made holy, and it shines with light.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "34298-34302",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "valentinus",
+   "quote": "Valentinus had hoped to be made a bishop, because he had the talent and the gift of speech for it. But another man won the place, by the claim his suffering for the faith gave him. Angry at this, he broke away from the church of the true rule.",
+   "original": {
+    "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+    "lines": "9633-9653",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "valentinus",
+   "quote": "You are immortal from the beginning, and children of eternal life. You wanted death shared out to you, to spend it and squander it, so that death might die in you and through you.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "39090-39093",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "I came upon the last, who was the first in power. I tracked him down where he was hidden in Egypt, and I found rest.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27489-27492",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "Perhaps philosophy too was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27890-27893",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "What in them is unlearned? Or rather, what in them does not come from the heart of philosophy?",
+   "original": {
+    "file": "cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
+    "lines": "35367-35368",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "When I say 'another,' I do not mean two Gods. I mean it as light from light, or water from a spring, or a ray from the sun. For there is one power, which comes from the whole. The whole is the Father, and from him comes the power, the Word.",
+   "original": {
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "23614-23626",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "We are their successors. We share in the same grace, in the high priesthood and in the teaching, and we are counted guardians of the church. We do not let our eyes droop, and we do not keep the right word silent.",
+   "original": {
+    "file": "cic/texts/hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt",
+    "lines": "1348-1351",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pontius-the-deacon",
+   "quote": "a willing exile.",
+   "original": {
+    "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+    "lines": "41015",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pontius-the-deacon",
+   "quote": "For he held his hand open and flat, like a sword blade, and copied the stroke of the usual execution. What he wanted understood, he showed as clearly as plain speech. I understood the sentence of martyrdom that was to come.",
+   "original": {
+    "file": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
+    "lines": "1309-1313",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pontius-the-deacon",
+   "quote": "I have decided to write down a few things, briefly. It is not that the life of so great a man is hidden from anyone, even among the pagans. It is so that this great and matchless example may be passed on to those after us too, into undying memory.",
+   "original": {
+    "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+    "lines": "40267-40270",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pontius-the-deacon",
+   "quote": "Shall I grieve that I was not his companion? But his victory must be celebrated. Shall I celebrate the victory? But I grieve that I am not his companion. Yet I must confess it to you plainly, and you know it too: this was how I felt. I rejoice much, far too much, in his glory. Yet I grieve more that I remained behind.",
+   "original": {
+    "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+    "lines": "41405-41410",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "anatolius-of-alexandria-and-laodicea",
+   "quote": "I advise sending out of the gates those we have too many of, who are of no use to us at all: old women, infants and old men.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "42736-42738",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "anatolius-of-alexandria-and-laodicea",
+   "quote": "like a father and a doctor",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "42760",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "anatolius-of-alexandria-and-laodicea",
+   "quote": "make no small mistake, and no careless one.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "42816-42817",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "anatolius-of-alexandria-and-laodicea",
+   "quote": "It is agreed that Anatolius was a most holy man, most learned and most worthy of praise.",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "21582",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings.md",
     "verdict": "same"
    }
   }

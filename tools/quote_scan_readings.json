@@ -1098,6 +1098,13 @@
     "304",
     "S. Aureli Augustini"
    ]
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2541",
+   "scan": "Cliristus",
+   "reads": "Christus",
+   "kind": "OCR misread"
   }
  ]
 }
