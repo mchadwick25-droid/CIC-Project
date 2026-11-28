@@ -1,0 +1,3 @@
+p01: basil-of-caesarea; Tertullian is Y
+p02: epiphanius-of-salamis; Tertullian is X
+p03: john-chrysostom; Tertullian is Y

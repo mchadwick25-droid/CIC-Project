@@ -1,0 +1,19 @@
+[
+ {
+  "id": "tertullian-s-voice",
+  "name": "Tertullian",
+  "kind": "person",
+  "era": 1,
+  "batch": "rebuild 2026-11-28, fix pass",
+  "reference": false,
+  "words": 815,
+  "floor": 300,
+  "scan": "this audit",
+  "text_from": "claude/cft-story-tertullian: Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/tertullian-s-voice.brief.txt",
+  "tour": true,
+  "major": true,
+  "home": "",
+  "home_built": false,
+  "home_living": false
+ }
+]

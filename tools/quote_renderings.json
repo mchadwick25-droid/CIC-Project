@@ -2551,28 +2551,28 @@
   },
   {
    "id": "tertullian-s-voice",
-   "quote": "Then let the truth reach your ears at least by the hidden road of silent writing.",
+   "quote": "Let the truth reach your ears at least by the hidden road of silent writing.",
    "original": {
     "file": "cic/texts/anf03_tertullian.xml",
     "lines": "1457-1459",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
+    "verdict": "minor"
    }
   },
   {
    "id": "tertullian-s-voice",
-   "quote": "One thing only she asks for now: not to be condemned unknown.",
+   "quote": "For now, she longs for one thing: not to be condemned unknown.",
    "original": {
     "file": "cic/texts/anf03_tertullian.xml",
     "lines": "1463-1465",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "minor"
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
+    "verdict": "same"
    }
   },
   {
@@ -2584,7 +2584,7 @@
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
     "verdict": "same"
    }
   },
@@ -2597,21 +2597,47 @@
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "tertullian-s-voice",
-   "quote": "I have already said how you should take the word 'another'. It names a person, not a substance. It marks a distinction, not a division. I hold everywhere one substance in three who are joined together.",
+   "quote": "I am the heir of the apostles.",
    "original": {
-    "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
-    "lines": "12558-12561",
-    "language": "Latin"
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "21751",
+    "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "minor"
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tertullian-s-voice",
+   "quote": "The root and the tree are two things, but joined. The spring and the river are two forms, but undivided. The sun and the ray are two forms, but they hold together.",
+   "original": {
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "51561-51564",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tertullian-s-voice",
+   "quote": "The Spirit is third from God and the Son, as the fruit from the tree is third from the root.",
+   "original": {
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "51568-51569",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-28_stories/tertullian-s-voice/Final_Check.md",
+    "verdict": "same"
    }
   },
   {

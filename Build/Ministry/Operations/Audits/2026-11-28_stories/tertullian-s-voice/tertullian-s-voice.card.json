@@ -1,0 +1,635 @@
+{
+  "shortDescription": "Tertullian of Carthage was the foremost early writer of the faith in Latin, around the year 200. He defended the Christians to Rome's governors and claimed the Scriptures for the churches the apostles founded; later in life he joined the New Prophecy, a strict movement of prophets, and wrote against the bishops.",
+  "knownFor": "Convert and writer of Carthage, the foremost early writer of the faith in Latin. In the Apology he defended the Christians before Rome's governors; in the Prescription he claimed the Scriptures for the churches the apostles founded; in Against Praxeas he said in Latin how God is one and yet three, with the Latin words trinitas, persona and substantia in his text. Later in life he took up the strict New Prophecy, a movement whose prophets said the Holy Spirit was speaking anew through them, and wrote against the bishops. Augustine counted his followers at Carthage, the Tertullianists, among the heretics, those he held outside the true faith.",
+  "otherNames": [
+    "Tertullian of Carthage",
+    "Tertullianus",
+    "Septimius Tertullianus",
+    "Tertullianus Afer"
+  ],
+  "datesNote": "No source gives his birth or his death. Jerome says only that he flourished chiefly under the emperors Severus and Antoninus Caracalla, that he stayed in the church until middle life and then turned to the New Prophecy, and that he is said to have lived to a decrepit old age. Only the Apology has a year that is Widely Accepted, about 197; the old sources do not give it. The years proposed for his other books are modern reconstructions and are not given here.",
+  "placeNote": "Carthage, in the Roman province of Africa, today in Tunisia (Jerome: of the city of Carthage in the province of Africa); Eusebius calls him one of those especially distinguished in Rome",
+  "role": "Writer in Latin at Carthage; convert, versed in Roman law by Eusebius's account; later a follower of the New Prophecy",
+  "timeline": [
+    {
+      "when": "Date unknown",
+      "headline": "A convert from Carthage",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Born at Carthage in the province of Africa, the son of a centurion on the proconsul's staff, Jerome says.",
+          "reference": "Jerome, Lives of Illustrious Men 53, and Chronicle",
+          "note": "The English translation of the Lives wrongly reads son of a proconsul or Centurion; Jerome's Latin says a centurion on the proconsul's staff."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Tells the readers of the Apology that he too once ridiculed these beliefs, being of their own stock: Christians are made, not born.",
+          "reference": "Apology 18",
+          "note": "No source says when or how he was converted."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Eusebius calls him a man well versed in the laws of the Romans, and one of those especially distinguished in Rome.",
+          "reference": "Eusebius, Church History II.2",
+          "note": "Eusebius wrote about a century later. Whether Tertullian practiced as an advocate is not settled."
+        }
+      ]
+    },
+    {
+      "when": "About 197",
+      "headline": "The Apology to Rome's governors",
+      "witness": "Tertullian's own book, the Apology",
+      "lines": [
+        {
+          "when": "About 197",
+          "text": "Writes the Apology, a defense of the Christians, to the rulers who sat as judges for Rome: if they will not look into the charges openly, let the truth reach them by the hidden road of a noiseless book.",
+          "reference": "Apology 1",
+          "note": "The year is Widely Accepted; the book does not give it."
+        },
+        {
+          "when": "About 197",
+          "text": "Argues that to condemn the name of Christian unheard, out of ignorance, is unjust, since hatred is deserved only when it is known to be deserved.",
+          "reference": "Apology 1"
+        },
+        {
+          "when": "About 197",
+          "text": "Says that if the Tiber floods, the heavens give no rain, or there is earthquake, famine or plague, the cry goes up to throw the Christians to the lion.",
+          "reference": "Apology 40",
+          "note": "The Latin has the lion in the singular."
+        },
+        {
+          "when": "About 197",
+          "text": "Tells the judges to kill, torture, condemn and grind the Christians to dust: their injustice proves the Christians innocent.",
+          "reference": "Apology 50"
+        },
+        {
+          "when": "About 197",
+          "text": "Ends: the oftener the Christians are mown down, the more they grow; the blood of Christians is seed.",
+          "reference": "Apology 50",
+          "note": "The popular saying, the blood of the martyrs is the seed of the church, is not his wording."
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "The Prescription: whose the Scriptures are",
+      "witness": "Tertullian's own book, the Prescription Against Heretics",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Holds that rival teachers may not argue from the Scriptures until it is settled whose the Scriptures are.",
+          "reference": "Prescription Against Heretics 15",
+          "note": "A prescription is a lawyer's plea that throws a case out before it is argued."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Names the first question: with whom lies the faith to which the Scriptures belong, and through whom, when and to whom the rule by which men become Christians was handed down.",
+          "reference": "Prescription Against Heretics 19"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Says what the apostles preached can be proved only through the churches they founded in person.",
+          "reference": "Prescription Against Heretics 21"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Tells his reader to run over the apostolic churches, Corinth, Philippi, the Thessalonians, Ephesus and Rome, where the apostles' own thrones still stand and their writings are read.",
+          "reference": "Prescription Against Heretics 36"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Speaks as an owner to trespassers: Marcion, Valentinus and Apelles have no right to his wood, his springs or his landmarks; the property is his, long held and held first, and he is the heir of the apostles.",
+          "reference": "Prescription Against Heretics 37"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Says one rival teacher cut the Scriptures with a knife, Marcion, and another kept them whole but bent their meaning, Valentinus.",
+          "reference": "Prescription Against Heretics 38"
+        }
+      ]
+    },
+    {
+      "when": "After middle life, Jerome says",
+      "headline": "The turn to the New Prophecy",
+      "lines": [
+        {
+          "when": "After middle life, Jerome says",
+          "text": "Jerome says he was presbyter of the church until middle life, then, driven by the envy and abuse of the clergy of the Roman church, lapsed to the doctrine of Montanus and mentions the new prophecy in many of his books.",
+          "reference": "Jerome, Lives of Illustrious Men 53",
+          "note": "Jerome wrote about 170 years later and alone gives this reason; Augustine, below, gives another cause."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Says heretics do away with marriages and the unspiritual take them again and again, the former not marrying even once, the latter not only once.",
+          "reference": "On Monogamy 1"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Says his side was separated from the carnally-minded by its acknowledgment and maintenance of the Paraclete, the Helper Jesus promised.",
+          "reference": "Against Praxeas 1",
+          "note": "Whether this was a break with the church at Carthage or only with Rome is not settled."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Augustine says Tertullian became a heretic because he went over to the Phrygians whom he had earlier refuted, began to condemn second marriage as fornication, and later broke from them too and spread his own gatherings.",
+          "reference": "Augustine, On Heresies 86",
+          "note": "Augustine wrote about two centuries later. His because answers why he counted Tertullian a heretic, not why he turned."
+        }
+      ]
+    },
+    {
+      "when": "After the turn",
+      "headline": "Against Praxeas: one God, three",
+      "witness": "Tertullian's own book, Against Praxeas",
+      "lines": [
+        {
+          "when": "After the turn",
+          "text": "Writes against Praxeas, who by Tertullian's account brought from Asia to Rome the teaching that the Father himself came down into the Virgin, was born and suffered, and was Jesus Christ.",
+          "reference": "Against Praxeas 1",
+          "note": "Praxeas is known only from Tertullian's hostile account. The book cites the Paraclete's teaching, which places it after the turn."
+        },
+        {
+          "when": "After the turn",
+          "text": "Says that when the bishop of Rome acknowledged the gifts of the prophets Montanus, Prisca and Maximilla and gave his peace to the churches of Asia and Phrygia, Praxeas urged false accusations until he recalled his letter, so that he drove away prophecy and crucified the Father.",
+          "reference": "Against Praxeas 1",
+          "note": "The bishop is not named in the old sources held here."
+        },
+        {
+          "when": "After the turn",
+          "text": "Says he and his side, better taught by the Paraclete, believe in one only God, whose unity is spread into a Trinity, the Father, the Son and the Holy Spirit: three in degree, form and aspect, not in condition, substance or power, yet of one substance.",
+          "reference": "Against Praxeas 2",
+          "note": "Holmes's English adds the word Persons here; the Latin names the three without it."
+        },
+        {
+          "when": "After the turn",
+          "text": "Gives his image: root and tree, spring and river, sun and ray are two, but joined, undivided, and holding together; the Spirit is third from God and the Son, as the fruit from the tree is third from the root.",
+          "reference": "Against Praxeas 8"
+        },
+        {
+          "when": "After the turn",
+          "text": "Says the Spirit speaks as the third person, and that the words of Father, Son and Spirit set each person in its own nature.",
+          "reference": "Against Praxeas 11"
+        },
+        {
+          "when": "After the turn",
+          "text": "Says that the one who commands is another than the one who makes, in the sense of person, not of substance, and of distinction, not of division, and that he holds one substance in three who cohere.",
+          "reference": "Against Praxeas 12",
+          "note": "Holmes's English adds the word Persons in brackets; the Latin has only three who cohere."
+        },
+        {
+          "when": "After the turn",
+          "text": "The Latin word for the Trinity, trinitas, stands in the book, with persona and substantia.",
+          "reference": "Against Praxeas 2 and 8",
+          "note": "The Greek word for the Trinity is older: Theophilus of Antioch uses it, To Autolycus II.15."
+        }
+      ]
+    },
+    {
+      "when": "After the turn",
+      "headline": "On Modesty: the church of the Spirit",
+      "witness": "Tertullian's own book, On Modesty",
+      "lines": [
+        {
+          "when": "After the turn",
+          "text": "Answers a bishop's edict: I remit, to those who have done the repentance, the sins of both adultery and fornication.",
+          "reference": "On Modesty 1",
+          "note": "The bishop is not named in the text; which bishop it was is disputed."
+        },
+        {
+          "when": "After the turn",
+          "text": "Says the Church has the power to forgive sins, which he grants, but cites the Paraclete himself in the new prophets: the Church has the power to forgive sins, but I will not do it, lest they commit others.",
+          "reference": "On Modesty 21"
+        },
+        {
+          "when": "After the turn",
+          "text": "Says the church will forgive sins, but it will be the church of the Spirit, through a spiritual man, not the church that consists of a number of bishops.",
+          "reference": "On Modesty 21"
+        },
+        {
+          "when": "After the turn",
+          "text": "Jerome lists On Modesty among the volumes Tertullian wrote directly against the church, with On Persecution, On Fasts, On Monogamy and six books On Ecstasy.",
+          "reference": "Jerome, Lives of Illustrious Men 53",
+          "note": "Jerome says the volumes were written directly against the church, after the turn; he wrote about 170 years later."
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "Two scenes from his other books",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "A soldier comes to a distribution of the emperors' bounty with his laurel crown in his hand, says he is a Christian, and is held in prison; adverse judgments are passed on him as headstrong and rash.",
+          "reference": "The Chaplet (On the Military Crown) 1",
+          "note": "Tertullian says he does not know whether the judgments came from Christians, for the heathen's are not different."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Tells the proconsul of Africa that when Arrius Antoninus pressed the Christians in Asia, they all came before his judgment-seat; he had a few led to execution and told the rest to use precipices or halters.",
+          "reference": "To Scapula 5"
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "Old age",
+      "witness": "Jerome",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Said to have lived to a decrepit old age and to have composed many small works which are not extant.",
+          "reference": "Jerome, Lives of Illustrious Men 53",
+          "note": "Jerome writes is said; no held source gives his death."
+        }
+      ]
+    },
+    {
+      "when": "A generation later, by Jerome's report",
+      "headline": "Cyprian reads him every day",
+      "witness": "Jerome, from an old man in Italy who had met Cyprian's secretary",
+      "lines": [
+        {
+          "when": "A generation later",
+          "text": "Cyprian never lets a day pass without reading him, and often says to his secretary, Give me the master, meaning Tertullian.",
+          "reference": "Jerome, Lives of Illustrious Men 53",
+          "note": "Jerome heard it from Paul of Concordia, who as a young man had seen Cyprian's aged secretary at Rome."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Novatian writes a great volume On the Trinity, which Jerome calls a sort of epitome of the work of Tertullian.",
+          "reference": "Jerome, Lives of Illustrious Men 70",
+          "note": "Jerome adds that many mistakenly ascribe it to Cyprian."
+        }
+      ]
+    },
+    {
+      "when": "About 305 to 310",
+      "headline": "Lactantius on his style and his Apology",
+      "witness": "Lactantius, Divine Institutes",
+      "lines": [
+        {
+          "when": "About 305 to 310",
+          "text": "Says he was skilled in literature of every kind but had little readiness in eloquence, was not polished and was very obscure, so that he did not find sufficient renown.",
+          "reference": "Lactantius, Divine Institutes V.1"
+        },
+        {
+          "when": "About 305 to 310",
+          "text": "Says he fully pleaded the same cause in the treatise entitled the Apology.",
+          "reference": "Lactantius, Divine Institutes V.4"
+        }
+      ]
+    },
+    {
+      "when": "About 393",
+      "headline": "Jerome's short life of him",
+      "witness": "Jerome, Lives of Illustrious Men 53",
+      "lines": [
+        {
+          "when": "About 393",
+          "text": "Places Tertullian the presbyter first of the Latin writers in his book after Victor and Apollonius, and calls him a man of keen and vigorous character who flourished chiefly under Severus and Antoninus Caracalla and wrote many volumes.",
+          "reference": "Jerome, Lives of Illustrious Men 53",
+          "note": "Jerome dates the book to the fourteenth year of Theodosius."
+        }
+      ]
+    },
+    {
+      "when": "About 428",
+      "headline": "Augustine on the Tertullianists",
+      "witness": "Augustine, On Heresies 86",
+      "lines": [
+        {
+          "when": "About 428",
+          "text": "Lists the Tertullianists among the heresies, from Tertullian, many of whose little works, most eloquently written, are read.",
+          "reference": "Augustine, On Heresies 86"
+        },
+        {
+          "when": "Some years before Augustine wrote",
+          "text": "Says that in his time at Carthage the Tertullianists, who had dwindled to a last remnant, came wholly to an end: the very few left crossed to the Catholic church and handed over their basilica, which he calls still well known.",
+          "reference": "Augustine, On Heresies 86"
+        }
+      ]
+    },
+    {
+      "when": "434",
+      "headline": "Vincent of Lérins on his rank and his error",
+      "witness": "Vincent of Lérins, Commonitory",
+      "lines": [
+        {
+          "when": "434",
+          "text": "Says that as Origen holds by far the first place among the Greeks, so does Tertullian among the Latins.",
+          "reference": "Vincent of Lérins, Commonitory 18"
+        },
+        {
+          "when": "434",
+          "text": "Says he was more eloquent than faithful, changed his belief, and was a great trial in the Church; quotes Hilary that by his subsequent error he detracted from the authority of his approved writings.",
+          "reference": "Vincent of Lérins, Commonitory 18",
+          "note": "The reading more faithful is disputed in the editions; Hilary's words are known here only through Vincent."
+        }
+      ]
+    },
+    {
+      "when": "Date and author disputed",
+      "headline": "The decree on books not received",
+      "lines": [
+        {
+          "when": "Date and author disputed",
+          "text": "A decree wrongly called Gelasian lists Opuscula Tertulliani among the books not received, beside the History of Eusebius and the works of Lactantius.",
+          "reference": "Decree on books received and not received, in Mansi, Sacrorum conciliorum collectio, vol. 8",
+          "note": "Mansi's own note says its author has long been disputed."
+        }
+      ]
+    }
+  ],
+  "keyWorks": [
+    {
+      "title": "Apology",
+      "about": "a defense of the Christians addressed to the governors who sat as judges for Rome: the charge is only the name, the crowd blames the Christians for every flood, drought, famine and plague, and the more they are cut down, the more they grow"
+    },
+    {
+      "title": "The Prescription Against Heretics",
+      "about": "a plea of the kind the law courts call a demurrer, a formal objection that throws a case out before it is argued: those who teach against the apostles may not argue from Scripture at all, because the Scriptures belong to the churches that received them from the apostles, such as Ephesus and Rome"
+    },
+    {
+      "title": "Against Praxeas",
+      "about": "written after his turn to the New Prophecy, against a teacher at Rome who, by Tertullian's account, said the Father himself was born and suffered; he answers that God is one substance and three persons, distinct but not divided, and the Latin words trinitas, persona and substantia stand in his text"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Jerome heard, through two people, that Cyprian never let a day pass without reading him and often said to his secretary, Give me the master, meaning Tertullian.",
+      "Jerome says Novatian's book On the Trinity is a sort of epitome of the work of Tertullian, and that many mistakenly ascribe it to Cyprian.",
+      "Augustine says his followers, the Tertullianists, dwindled to a last remnant at Carthage; the very few left crossed to the Catholic church and handed over their basilica, which he calls still well known."
+    ],
+    "remembered": [
+      "Jerome places him first of the Latin writers in his book after Victor and Apollonius, and calls him a man of keen and vigorous character.",
+      "Lactantius says he was skilled in literature of every kind but had little readiness in eloquence, was not polished and was very obscure, so that he did not find sufficient renown; elsewhere Lactantius says he fully pleaded the same cause in the treatise entitled the Apology.",
+      "Augustine says many of his little works, most eloquently written, are read.",
+      "Vincent of Lérins, in 434, gives him by far the first place among the Latins, as Origen has among the Greeks, then calls him more eloquent than faithful, quotes Hilary that by his subsequent error he detracted from the authority of his approved writings, and says he was a great trial in the Church."
+    ]
+  },
+  "uncertain": [
+    "Nearly all that is known of his life comes from his own books and from Jerome's short life of him, written about 170 years later. Eusebius and Lactantius wrote about a century after him, and Augustine and Vincent about two centuries. No source says when or why he was converted.",
+    "Trained in the law. Eusebius calls him a man well versed in the laws of the Romans and one of those especially distinguished in Rome. His books use the language of the law courts: the Prescription pleads like a lawyer, and speaks as an owner does of timber, springs and heirs. No old source says he practiced as an advocate, and that is not settled.",
+    "The governors. The Apology speaks to the rulers of the Roman Empire who sat as judges for Rome, not to the emperors.",
+    "Why he turned to the New Prophecy. Jerome, who wrote his life, says that after middle life he lapsed to the doctrine of Montanus, driven by the envy and abuse of the clergy of the Roman church. Augustine gives no reason for the turn. He says Tertullian became a heretic because, going over to the Phrygians whom he had earlier refuted, he began to condemn second marriage as fornication against the apostle's teaching, and later broke from them too and spread his own gatherings.",
+    "From whom he withdrew. In Against Praxeas he says his side withdrew from the carnally-minded, whom the Latin calls psychici, on its acknowledgment and maintenance of the Paraclete, the Helper whom Jesus promised and whom the New Prophecy's prophets said was speaking through them; unspiritual is the plain English for psychici. The old sources do not say whether this was a break with the church at Carthage or only with the bishop of Rome. Augustine says he later broke from the New Prophecy too.",
+    "His office. That he was a presbyter rests only on Jerome, who says he was one until middle life.",
+    "Foremost. The rank is Widely Accepted and rests on the old witnesses together: Vincent says that as Origen holds by far the first place among the Greeks, so does Tertullian among the Latins, and Augustine says many of his works are most eloquently written and are read. Jerome's Latin, primus post Victorem et Apollonium Latinorum ponitur, places him first of the Latin writers in his book after Victor and Apollonius, a place in his list; the English translation renders it now regarded as chief.",
+    "The Latin words. Trinitas, persona and substantia all stand in his Against Praxeas. That he coined them, or first put them to work in Latin, is a modern claim, and no held old or later witness says it. The Greek word for the Trinity is older: Theophilus of Antioch uses it in To Autolycus II.15. No held source says the Council of Nicaea used his words.",
+    "Praxeas and the bishops. What is known of Praxeas comes from Tertullian's own hostile account. The old sources held here do not name the bishop of Rome who, in that account, withdrew his letter of peace, or the bishop whose edict On Modesty answers; both are disputed.",
+    "When the books were written. The years proposed for the Prescription, the turn, Against Praxeas and On Modesty rest on modern reconstruction and are left out. Jerome lists On Modesty among the volumes he says Tertullian wrote directly against the church, and On Modesty itself cites the new prophets, which places it after his turn. Jerome says many of his small works are not extant.",
+    "Cyprian's words. The report that Cyprian read him daily and said, Give me the master, reaches us through Jerome, from the old man Paul of Concordia, who had met Cyprian's aged secretary at Rome. Jerome's Latin says so; the English translation of Jerome wrongly makes Paul himself the secretary, while Heurtley, quoting Kaye, reads it as the Latin does and gives the words as Give me my master. No held source says that Cyprian and Tertullian ever met.",
+    "Novatian. Jerome calls Novatian's On the Trinity a sort of epitome of Tertullian's work, and says many mistakenly ascribe it to Cyprian. That is Jerome's judgment, and the card gives no other.",
+    "His father. Jerome's Latin says patre centurione proconsulari, a centurion on the governor's staff, and his Chronicle says the same; the English translation of the Lives reads son of a proconsul or Centurion, which is a mistranslation, and Heurtley's quotation of Kaye reads the son of a proconsular centurion.",
+    "Vincent's verdict. The English reads more eloquent by far than faithful, but its editor notes that Baluze reads fidelior and others read felicior, so the reading is disputed. Hilary's judgment reaches us here only through Vincent in English. The decree wrongly called Gelasian lists Opuscula Tertulliani among the books not received, beside the History of Eusebius and the works of Lactantius; its date and its author have long been disputed.",
+    "The quoted Latin. The Latin of the Apology and the Prescription is held only in Oehler's 1853 edition in a damaged scan, which has lost words and garbled others; no other held print confirms them, so these quotations are printed in English alone, except one short line of the Prescription that the scan prints cleanly, I am the heir of the apostles, which carries the Latin. For Against Praxeas the Latin of the root and the tree is held in Kroymann's print, which Oehler's agrees with; Kroymann's scan misreads one word of the sentence on the Spirit, which Oehler's print confirms."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Apology (tr. S. Thelwall), in Ante-Nicene Fathers, vol. 3",
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "The Prescription Against Heretics (tr. Holmes), in Ante-Nicene Fathers, vol. 3",
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Against Praxeas (tr. Holmes), in Ante-Nicene Fathers, vol. 3",
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "On Modesty and On Monogamy (tr. S. Thelwall), in Ante-Nicene Fathers, vol. 4",
+        "language": "English translation",
+        "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+      },
+      {
+        "title": "Quae supersunt omnia, vol. 1: the Apology (ed. F. Oehler, 1853)",
+        "language": "Latin, in a damaged scan",
+        "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
+      },
+      {
+        "title": "Quae supersunt omnia, vol. 2: the Prescription and Against Praxeas (ed. F. Oehler, 1853)",
+        "language": "Latin, in a damaged scan for the Prescription",
+        "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt"
+      },
+      {
+        "title": "Opera, part 3: Against Praxeas (ed. A. Kroymann, CSEL 47, 1906)",
+        "language": "Latin",
+        "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt"
+      },
+      {
+        "title": "Opera, part 1: On Modesty (ed. Reifferscheid and Wissowa, CSEL 20, 1890)",
+        "language": "Latin",
+        "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, ch. 53, with the translator's notes (tr. Richardson), in Nicene and Post-Nicene Fathers, second series, vol. 3",
+        "author": "Jerome",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+        "date": "392 or 393"
+      },
+      {
+        "title": "Lives of Illustrious Men, ch. 53 (Migne, Patrologia Latina 23)",
+        "author": "Jerome",
+        "language": "Latin",
+        "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+        "date": "392 or 393"
+      },
+      {
+        "title": "Chronicle (Eusebii Chronici canones, ed. Fotheringham)",
+        "author": "Jerome",
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+        "date": null
+      },
+      {
+        "title": "Church History II.2, with the translator's notes (tr. McGiffert), in Nicene and Post-Nicene Fathers, second series, vol. 1",
+        "author": "Eusebius of Caesarea",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "date": "early 4th century"
+      },
+      {
+        "title": "Divine Institutes V.1 and V.4 (ed. Brandt, CSEL 19)",
+        "author": "Lactantius",
+        "language": "Latin",
+        "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+        "date": "about 305 to 310"
+      },
+      {
+        "title": "Divine Institutes (tr. Fletcher), in Ante-Nicene Fathers, vol. 7",
+        "author": "Lactantius",
+        "language": "English translation",
+        "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+        "date": "about 305 to 310"
+      },
+      {
+        "title": "On Heresies, no. 86 (Migne, Patrologia Latina 42)",
+        "author": "Augustine of Hippo",
+        "language": "Latin",
+        "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+        "date": "about 428"
+      },
+      {
+        "title": "Commonitory, ch. 18, with the editor's notes (tr. Heurtley), in Nicene and Post-Nicene Fathers, second series, vol. 11",
+        "author": "Vincent of Lérins",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+        "date": "434"
+      },
+      {
+        "title": "To Autolycus II.15, in Ante-Nicene Fathers, vol. 2",
+        "author": "Theophilus of Antioch",
+        "language": "English translation",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+        "date": null
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, vol. 8: the decree on books received and not received",
+        "author": "Mansi",
+        "language": "Latin, in a damaged scan",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt",
+        "date": null
+      }
+    ]
+  },
+  "briefSources": [
+    {
+      "title": "Apology, Prescription Against Heretics and Against Praxeas, in Ante-Nicene Fathers, vol. 3",
+      "author": "Tertullian",
+      "file": "cic/texts/anf03_tertullian.xml"
+    },
+    {
+      "title": "On Modesty and On Monogamy, in Ante-Nicene Fathers, vol. 4",
+      "author": "Tertullian",
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+    },
+    {
+      "title": "Against Praxeas, Latin (ed. A. Kroymann, CSEL 47)",
+      "author": "Tertullian",
+      "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt"
+    },
+    {
+      "title": "On Modesty, Latin (ed. Reifferscheid and Wissowa, CSEL 20)",
+      "author": "Tertullian",
+      "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men, ch. 53, in Nicene and Post-Nicene Fathers, second series, vol. 3",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "Lives of Illustrious Men, ch. 53, Latin (Migne, Patrologia Latina 23)",
+      "author": "Jerome",
+      "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+    },
+    {
+      "title": "On Heresies, no. 86 (Migne, Patrologia Latina 42)",
+      "author": "Augustine of Hippo",
+      "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+    }
+  ],
+  "briefReferences": [
+    "Apology 1 (Thelwall; the Latin is held in a damaged scan): the rulers who sat as judges, the hidden road of silent writing, the plea not to be condemned unknown, and the charge laid on the name of Christian; the brief puts him around the year 200; the book's own year, 197, is Widely Accepted.",
+    "Apology 50 (Thelwall; Latin in Oehler): the more they are cut down the more they grow; the blood of Christians is seed.",
+    "Prescription Against Heretics 15, 19, 21, 34, 36, 37 and 38 (Holmes): whose the Scriptures are, the churches the apostles founded such as Rome, which kept what the apostles taught, Marcion's other god of goodness only, Valentinus's Aeons and the Creator traced to the sin of one of them, Marcion's knife and Valentinus's bent meaning, and the property lines about timber, springs and heirs. Against Marcion 1.5 (Holmes): Valentinus's swarm of divine essences.",
+    "Against Praxeas 1 (Holmes): his side separated from the carnally-minded by the Paraclete, who in the brief is the Holy Spirit; On Monogamy 1: the stricter rule of the New Prophecy on marriage. Jerome, Lives 53: after middle life, the envy and abuse of the clergy of Rome.",
+    "Against Praxeas 1, 2, 8, 11 and 12 (Holmes; Latin in Kroymann and Oehler): Praxeas and the Father who was born and suffered by Tertullian's account, the root and the tree, the Spirit as third, Father, Son and Spirit distinct but not divided, as persons and not as substance, one substance in three who are joined together, and the words trinitas, persona and substantia.",
+    "On Modesty 1 and 21 (Thelwall; Latin in CSEL 20): the bishop's offer to forgive adultery after repentance, and the church of the Spirit against a church that is a number of bishops. Jerome, Lives 53: the volumes written directly against the church.",
+    "Jerome, Lives 53: Cyprian never let a day pass without reading him and asked for the master, as reported through an old man in Italy who had met Cyprian's secretary.",
+    "Augustine, On Heresies 86: his works still read, the Tertullianists, Tertullian named a heretic for going over to the Phrygians and condemning second marriage as fornication, his later break from the prophets, and the last of his followers handing their basilica to the Catholic church."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Let the truth reach your ears at least by the hidden road of silent writing.",
+      "printed": "you cannot surely forbid the Truth to reach your ears by the secret pathway of a noiseless book.",
+      "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "1457-1459",
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin read through that scan: let it be permitted to the truth to reach your ears by the hidden road of silent writing, the Latin's tacitarum litterarum, where Thelwall has a noiseless book. Thelwall puts it as what the judges cannot forbid.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "For now, she longs for one thing: not to be condemned unknown.",
+      "printed": "One thing, meanwhile, she anxiously desires of earthly rulers—not to be condemned unknown.",
+      "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "1463-1465",
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. She is the truth, which the Apology has just named. This sentence comes in chapter 1; the Apology goes on after it and closes in chapter 50.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "By what right, Marcion, do you cut my timber? By whose leave, Valentinus, do you turn my springs aside?",
+      "printed": "Indeed, Marcion, by what right do you hew my wood? By whose permission, Valentinus, are you diverting the streams of my fountain?",
+      "work": "The Prescription Against Heretics 37, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "21744-21746",
+      "uncertain": "The Latin is held only in a damaged scan that has lost words and garbled others, so the English stands alone. Cut before this: Who are you? When and whence did you come? As you are none of mine, what have you to do with that which is mine? Cut after it: By what power, Apelles, are you removing my landmarks? This is my property. Why are you, the rest, sowing and feeding here at your own pleasure?",
+      "secondReading": "same"
+    },
+    {
+      "modern": "This property is mine. I have held it long; I held it first.",
+      "printed": "This (I say) is my property. I have long possessed it; I possessed it before you.",
+      "work": "The Prescription Against Heretics 37, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "21748-21749",
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. This is the second time the sentence This is my property comes in the passage; the cut before it is given on the span above. Cut after it: I hold sure title-deeds from the original owners themselves, to whom the estate belonged.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I am the heir of the apostles.",
+      "printed": "I am the heir of the apostles.",
+      "work": "The Prescription Against Heretics 37, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "21751",
+      "original": "Ego sum haeres apostolorum",
+      "originalFile": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+      "originalLines": "2289",
+      "secondReading": "same"
+    },
+    {
+      "modern": "The root and the tree are two things, but joined. The spring and the river are two forms, but undivided. The sun and the ray are two forms, but they hold together.",
+      "printed": "For the root and the tree are distinctly two things, but correlatively joined; the fountain and the river are also two forms, but indivisible; so likewise the sun and the ray are two forms, but coherent ones.",
+      "work": "Against Praxeas 8, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "51561-51564",
+      "original": "nam et radix et frutex duae res sunt, sed coniunctae; et fons et flumen duae species sunt, sed indiuisae; et sol et radius duae formae sunt, sed cohaerentes",
+      "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+      "originalLines": "12221-12224",
+      "uncertain": "Holmes's distinctly and correlatively are his own fullness; the Latin has only two things, but joined. Oehler's print agrees with Kroymann's, with letters damaged in his scan. Cut before this: the tree is not severed from the root, nor the river from the fountain, nor the ray from the sun; nor is the Word separated from God.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "The Spirit is third from God and the Son, as the fruit from the tree is third from the root.",
+      "printed": "Now the Spirit indeed is third from God and the Son; just as the fruit of the tree is third from the root,",
+      "work": "Against Praxeas 8, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "51568-51569",
+      "original": "tertius enim est spiritus a deo et filio",
+      "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+      "originalLines": "12227",
+      "uncertain": "The Latin given is Kroymann's first clause only, because his scan misreads sicut as siout in the clause that follows; Oehler's print reads that clause cleanly, sicut tertius a radice fructus ex frutice, and has a damaged letter in the first. Cut after it: the stream out of the river is third from the fountain, and the tip of the ray is third from the sun.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Give me the master,",
+      "printed": "Give me the master",
+      "work": "Jerome, Lives of Illustrious Men 53, tr. Richardson, in Nicene and Post-Nicene Fathers, second series, vol. 3",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "40505",
+      "original": "Da magistrum",
+      "originalFile": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+      "originalLines": "55625",
+      "uncertain": "Heurtley, quoting Kaye, gives the words as Give me my master. The English translation wrongly makes Paul himself Cyprian's secretary; Jerome's Latin says Paul had met the aged secretary at Rome.",
+      "secondReading": "checked at card"
+    }
+  ]
+}

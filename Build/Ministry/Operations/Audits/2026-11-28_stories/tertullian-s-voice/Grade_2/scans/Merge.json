@@ -1,0 +1,34 @@
+{
+ "held": {
+  "tree/tertullian-s-voice": [
+   {
+    "quote": "Jerome, who wrote his life, says the envy and insults of the clergy of Rome drove him to the New Prophecy.",
+    "missing": "what",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "Envy of what, insults over what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "Later he broke from the prophets too and gathered meetings of his own.",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why did he break from them?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ]
+ },
+ "third": [],
+ "hearts": {
+  "tree/tertullian-s-voice": "Tertullian, the foremost early Latin writer of the faith, defended Christians to Rome's governors, claimed the Scriptures for the apostles' churches, and gave Latin its words for God as one and three. Later he joined the strict New Prophecy and turned against the bishops, so later writers both read him closely and counted him a heretic."
+ }
+}

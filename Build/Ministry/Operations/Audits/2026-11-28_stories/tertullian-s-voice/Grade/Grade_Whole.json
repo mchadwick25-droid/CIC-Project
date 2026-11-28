@@ -1,0 +1,96 @@
+[
+ {
+  "id": "tertullian-s-voice",
+  "name": "Tertullian",
+  "kind": "person",
+  "era": 1,
+  "batch": "rebuild 2026-11-28",
+  "reference": false,
+  "words": 794,
+  "rigor": "C",
+  "rigor_load": 3.5,
+  "craft": "B",
+  "craft_load": 2.6,
+  "overall": "C",
+  "action": "would benefit",
+  "findings": [
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Supporting",
+    "size": "small",
+    "weight": 1,
+    "quote": "Rival teachers used the Scriptures too, for teachings the churches rejected.",
+    "fix": "Answer in a clause, from the source: What did Marcion and Valentinus teach? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "unexplained where the story leans on it, still one clause to supply",
+    "why": "both readers"
+   },
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Passing",
+    "size": "small",
+    "weight": 1,
+    "quote": "later he broke from the prophets too and gathered meetings of his own",
+    "fix": "Answer in a clause, from the source: Why did he break from the prophets, and over what? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "a thing or act left unexplained on the way; one clause supplies it",
+    "why": "both readers"
+   },
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Passing",
+    "size": "small",
+    "weight": 1,
+    "quote": "the very few who were left crossed into the Catholic church, the main body, and handed over their church building",
+    "fix": "Answer in a clause, from the source: Why did they cross over? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "a thing or act left unexplained on the way; one clause supplies it",
+    "why": "both readers"
+   },
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Passing",
+    "size": "small",
+    "weight": 1,
+    "quote": "Valentinus kept them whole but bent their meaning",
+    "fix": "Answer in a clause, from the source: Bent them to mean what? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "a thing or act left unexplained on the way; one clause supplies it",
+    "why": "Opus third read"
+   },
+   {
+    "dim": "craft",
+    "kind": "bare",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "Rival teachers used the Scriptures too, for teachings the churches rejected.",
+    "fix": "Answer in a clause, from the source: what did Marcion and Valentinus teach? I hear only how they handled the Scriptures, never what their teachings were",
+    "reason": "the listener lost a thing named without its explanation; one clause",
+    "why": ""
+   },
+   {
+    "dim": "craft",
+    "kind": "bare",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "later he broke from the prophets too and gathered meetings of his own",
+    "fix": "Answer in a clause, from the source: why did he break from the prophets he had defended?",
+    "reason": "the listener lost a thing named without its explanation; one clause",
+    "why": ""
+   },
+   {
+    "dim": "craft",
+    "kind": "tell",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "Yet Augustine opens that same entry by saying that many of Tertullian's works, written with great eloquence, were still being read.",
+    "fix": "Cut the sentence, or tell what happened instead (summing-up close: a \"yet\" turn that ends on a later writer to weigh his whole life, after the story itself has ended).",
+    "reason": "a tell Part 1 names, in one sentence; cut or retell it",
+    "why": ""
+   }
+  ]
+ }
+]
