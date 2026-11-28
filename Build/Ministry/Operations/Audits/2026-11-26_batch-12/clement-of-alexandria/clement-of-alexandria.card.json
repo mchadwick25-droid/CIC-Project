@@ -240,17 +240,6 @@
       "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
       "originalLines": "3050",
       "secondReading": "checked at card"
-    },
-    {
-      "modern": "What in them is unlearned? Or rather, what in them does not come from the heart of philosophy?",
-      "printed": "quid in illis indoctum, immo quid non de media philosophia est?",
-      "work": "Jerome, Letter 70.4, to Magnus (Latin, ed. Isidor Hilberg); English tr. W. H. Fremantle",
-      "file": "cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
-      "lines": "35367-35368",
-      "englishPrinted": "Is there any want of learning in these, or are they not rather drawn from the very heart of philosophy?",
-      "englishFile": "cic/texts/npnf206_jerome-principal-works.xml",
-      "englishLines": "16634-16636",
-      "secondReading": "same"
     }
   ],
   "timeline": [

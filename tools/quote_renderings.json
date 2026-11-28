@@ -4513,19 +4513,6 @@
    }
   },
   {
-   "id": "clement-of-alexandria",
-   "quote": "What in them is unlearned? Or rather, what in them does not come from the heart of philosophy?",
-   "original": {
-    "file": "cic/texts/jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
-    "lines": "35367-35368",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/Second_Readings_SR1.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "hippolytus-of-rome",
    "quote": "When I say 'another,' I do not mean two Gods. I mean it as light from light, or water from a spring, or a ray from the sun. For there is one power, which comes from the whole. The whole is the Father, and from him comes the power, the Word.",
    "original": {
