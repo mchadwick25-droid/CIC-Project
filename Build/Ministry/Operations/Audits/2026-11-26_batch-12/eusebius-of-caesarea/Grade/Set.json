@@ -1,0 +1,19 @@
+[
+ {
+  "id": "eusebius-of-caesarea",
+  "name": "Eusebius of Caesarea",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 889,
+  "floor": 300,
+  "scan": "this run",
+  "text_from": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/eusebius-of-caesarea/eusebius-of-caesarea.brief.txt",
+  "tour": false,
+  "major": true,
+  "home": "palestinian-church-pre-constantinian",
+  "home_built": true,
+  "home_living": false
+ }
+]
