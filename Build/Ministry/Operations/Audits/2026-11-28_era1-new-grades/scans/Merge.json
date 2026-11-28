@@ -1,0 +1,571 @@
+{
+ "held": {
+  "tree/josephus": [
+   {
+    "quote": "lived on at Rome under the emperors' favor",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     1,
+     2
+    ],
+    "asks": "Why did the emperors favor him?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "he defended himself against a rival historian who, he says, had written falsely of him",
+    "missing": "what",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Written what falsely of him?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "The fairest-minded citizens protested that he had no right to call the court.",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why had he no right?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/tacitus": [
+   {
+    "quote": "people hated for their shameful acts",
+    "missing": "what",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "What shameful acts?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "First those who confessed were seized.",
+    "missing": "what",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "Confessed to what: being Christians, or the fire?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "though it was held back for a moment",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Held back by what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/ignatius-of-antioch": [
+   {
+    "quote": "News had come that the church at Antioch, which he had left in chains, was at peace and whole again",
+    "missing": "what",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "At peace after what trouble?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/suetonius": [],
+  "tree/valentinus": [
+   {
+    "quote": "until writings from these circles were found in Egypt in 1945",
+    "missing": "what",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "What writings, saying what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "Hippolytus says the school split into an Italian branch, Ptolemy's, and an Eastern one.",
+    "missing": "what",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Split over what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/tatian": [],
+  "tree/clement-of-alexandria": [
+   {
+    "quote": "Eusebius writes that under the emperor Severus the churches were persecuted.",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     1,
+     2
+    ],
+    "asks": "Why were they persecuted?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "Alexander, a bishop, wrote from prison",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why was he in prison?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/origen": [
+   {
+    "quote": "those who said his books differed from the church's teaching",
+    "missing": "what",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Differed on what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "a council of bishops at Constantinople named him, with his writings, among the heretics",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "Why? For which teachings?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/hippolytus-of-rome": [
+   {
+    "quote": "In 235 he was sent to Sardinia with Rome's bishop",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "Why? By whom?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   },
+   {
+    "quote": "Some whom Hippolytus's own side had judged and put out of the church",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Put out for what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/pontius-the-deacon": [],
+  "tree/anatolius-of-alexandria-and-laodicea": [
+   {
+    "quote": "The palace quarter held out against a Roman army, while the rest of the city sided with Rome.",
+    "missing": "why",
+    "weight": 2,
+    "weights": [
+     2,
+     2
+    ],
+    "asks": "What war? Why was it besieged?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/pamphilus-of-caesarea": [
+   {
+    "quote": "bishops who had since condemned Origen as a heretic",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Condemned him for what?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/peter-of-alexandria": [
+   {
+    "quote": "which the eastern emperor Maximinus would not accept",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why would he not accept it?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ],
+  "tree/lactantius": [],
+  "tree/methodius-of-olympus": [
+   {
+    "quote": "asked how Methodius dared to write against Origen now",
+    "missing": "why",
+    "weight": 1,
+    "weights": [
+     1,
+     1
+    ],
+    "asks": "Why \"now\"? What had changed?",
+    "test": "bare statement",
+    "decided_by": "both readers"
+   }
+  ]
+ },
+ "third": [
+  {
+   "id": "S001",
+   "key": "tree/josephus",
+   "test": "bare statement",
+   "f": {
+    "quote": "charged them with breaking the law",
+    "missing": "what",
+    "weight": 1,
+    "asks": "Breaking which law, how?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S002",
+   "key": "tree/josephus",
+   "test": "bare statement",
+   "f": {
+    "quote": "forged records of Pilate's dealings with Jesus",
+    "missing": "what",
+    "weight": 1,
+    "asks": "Saying what about Jesus?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S003",
+   "key": "tree/josephus",
+   "test": "bare statement",
+   "f": {
+    "quote": "between a riot under Pilate, the Roman governor of Judea, and another disaster",
+    "missing": "what",
+    "weight": 1,
+    "asks": "What disaster?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S004",
+   "key": "tree/josephus",
+   "test": "modern opinion",
+   "f": {
+    "quote": "so how much of it Josephus wrote is uncertain",
+    "kind": "guess",
+    "weight": 2,
+    "who": "unnamed"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S005",
+   "key": "tree/suetonius",
+   "test": "modern opinion",
+   "f": {
+    "quote": "if this one is about them at all",
+    "kind": "guess",
+    "weight": 2,
+    "who": "unnamed"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S006",
+   "key": "tree/suetonius",
+   "test": "modern opinion",
+   "f": {
+    "quote": "so he wrote after Domitian's death, a generation or more after both events",
+    "kind": "guess",
+    "weight": 1,
+    "who": "unnamed"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S007",
+   "key": "tree/tatian",
+   "test": "bare statement",
+   "f": {
+    "quote": "a group he says sprang from earlier teachers",
+    "missing": "what",
+    "weight": 1,
+    "asks": "Which earlier teachers?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S008",
+   "key": "tree/tatian",
+   "test": "bare statement",
+   "f": {
+    "quote": "Tatian crossed to the East and set up his school in Mesopotamia",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why did he leave for the East?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S009",
+   "key": "tree/tatian",
+   "test": "modern opinion",
+   "f": {
+    "quote": "so he meant the writings of Moses and the prophets",
+    "kind": "guess",
+    "weight": 2,
+    "who": "unnamed"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S010",
+   "key": "tree/origen",
+   "test": "bare statement",
+   "f": {
+    "quote": "bishops and scholars after him read Scripture through his books and fought over them for centuries",
+    "missing": "what",
+    "weight": 2,
+    "asks": "Fought over what in them?"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S011",
+   "key": "tree/origen",
+   "test": "bare statement",
+   "f": {
+    "quote": "on a church errand to Greece",
+    "missing": "what",
+    "weight": 1,
+    "asks": "What errand?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S012",
+   "key": "tree/origen",
+   "test": "bare statement",
+   "f": {
+    "quote": "the ordination itself so enraged Demetrius that he wrote everywhere against him",
+    "missing": "why",
+    "weight": 2,
+    "asks": "Why did the ordination enrage him?"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S013",
+   "key": "tree/hippolytus-of-rome",
+   "test": "bare statement",
+   "f": {
+    "quote": "were deported to Sardinia",
+    "missing": "why",
+    "weight": 2,
+    "asks": "Why, and by whom?"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S014",
+   "key": "tree/hippolytus-of-rome",
+   "test": "bare statement",
+   "f": {
+    "quote": "while a tyrant's orders pressed",
+    "missing": "what",
+    "weight": 1,
+    "asks": "Which tyrant, and what orders?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S015",
+   "key": "tree/pontius-the-deacon",
+   "test": "bare statement",
+   "f": {
+    "quote": "officers had been sent to take him to another city",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why were they taking him to another city?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S016",
+   "key": "tree/anatolius-of-alexandria-and-laodicea",
+   "test": "bare statement",
+   "f": {
+    "quote": "the bishop of Caesarea in Palestine made him a second bishop there",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why did he choose Anatolius?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S017",
+   "key": "tree/pamphilus-of-caesarea",
+   "test": "bare statement",
+   "f": {
+    "quote": "Then the emperors' orders reached Palestine",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why did the emperors order this?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S018",
+   "key": "tree/pamphilus-of-caesarea",
+   "test": "bare statement",
+   "f": {
+    "quote": "Eusebius took Pamphilus's name as a surname.",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why did he take the name?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S019",
+   "key": "tree/peter-of-alexandria",
+   "test": "bare statement",
+   "f": {
+    "quote": "an enemy of the Melitians",
+    "missing": "why",
+    "weight": 1,
+    "asks": "Why was he their enemy?"
+   },
+   "weights": [
+    1
+   ]
+  },
+  {
+   "id": "S020",
+   "key": "tree/peter-of-alexandria",
+   "test": "bare statement",
+   "f": {
+    "quote": "let Melitius keep his city but took away his power to ordain",
+    "missing": "why",
+    "weight": 2,
+    "asks": "Why did the council decide this?"
+   },
+   "weights": [
+    2
+   ]
+  },
+  {
+   "id": "S021",
+   "key": "tree/lactantius",
+   "test": "modern opinion",
+   "f": {
+    "quote": "whether it is Lactantius's is disputed",
+    "kind": "modern writer",
+    "weight": 1,
+    "who": "unnamed"
+   },
+   "weights": [
+    1
+   ]
+  }
+ ],
+ "hearts": {
+  "tree/josephus": "Josephus, a Temple priest and Jewish commander who surrendered to Rome, wrote at Rome the histories that hold a few lines on John the Baptist, James and Jesus, which Christians copied for centuries as an outsider's word and argued over.",
+  "tree/tacitus": "Tacitus, a Roman historian who despised the Christians, gave the fullest outside account of how Nero blamed them for the fire of 64 and killed them cruelly, and named Christ as put to death under Pilate.",
+  "tree/ignatius-of-antioch": "Ignatius, bishop of Antioch, led in chains to die in the arena at Rome, wrote seven letters on the way urging the churches to keep together around their bishop, to hold that Christ truly suffered, and asking Rome not to save him.",
+  "tree/suetonius": "Suetonius, a Roman writer of emperors' lives, left only two short lines that may touch the first Christians, a Claudius expulsion over \"Chrestus\" and a Nero punishment, which later Christians took up and joined to the Acts.",
+  "tree/valentinus": "Valentinus, a teacher at Rome in the mid-second century, founded a school that taught heavenly powers coming forth in pairs and a world born from a fall; he is known almost only through the church writers who answered him with faith in one God who made the world.",
+  "tree/tatian": "Tatian, a convert trained in Greek learning, scorned Greek wisdom as younger than Moses, left the church after Justin's death to found his own strict school, and wove the four Gospels into the Diatessaron, long read in the Syriac churches.",
+  "tree/clement-of-alexandria": "Clement taught at Alexandria and answered Christians who feared Greek philosophy by arguing it might be God's gift to lead the Greeks to Christ, as the Law led the Hebrews.",
+  "tree/origen": "Origen made his life's work the question of what Scripture means beneath its plain words; he taught at Alexandria and Caesarea, set the Hebrew beside the Greek, and his books were read and fought over for centuries.",
+  "tree/hippolytus-of-rome": "Hippolytus, a Greek-writing teacher at Rome in the early 200s, held against Noetus and the bishops Zephyrinus and Callistus that the Son is another beside the Father yet one God with him, and resisted Callistus's forgiveness; exiled to Sardinia in 235, he was kept among Rome's martyrs.",
+  "tree/pontius-the-deacon": "Pontius, Cyprian's deacon who shared his exile and his last night, wrote the Life and Passion of Cyprian so that later readers would have his bishop's example, and ended it grieving that he was left behind.",
+  "tree/anatolius-of-alexandria-and-laodicea": "Anatolius, a learned Christian of Alexandria, used a council vote to free almost all of a starving besieged quarter, later became bishop of Laodicea, and wrote an Easter rule that the Irish and Rome's defenders both claimed centuries on.",
+  "tree/pamphilus-of-caesarea": "Pamphilus, a presbyter of Caesarea, built his church's library, copied and defended Origen's works, gave Scriptures freely, and was put to death as a martyr about 310.",
+  "tree/peter-of-alexandria": "Peter, bishop of Alexandria in the Great Persecution, set out how the church should take back those who had fallen, weighing what each had suffered and chosen, faced Melitius's break, and was beheaded in 311.",
+  "tree/lactantius": "Lactantius, teaching Latin rhetoric at Nicomedia when the Great Persecution began, answered with the Divine Institutes, arguing the faith to educated pagans from their own authorities and holding that religion cannot be forced, only defended by dying, not killing.",
+  "tree/methodius-of-olympus": "Methodius, bishop of Olympus, praised the virgin life in the Banquet and argued against Origen in On the Resurrection that body and soul are one and the same body will rise."
+ }
+}
