@@ -86,3 +86,17 @@ The whole-text grading (`2026-11-28_era1-new-grades/Grades_Whole.json`) graded J
 Card, same words: the timeline line on Justus and the timeline line on the passage carry the same two additions; the two `briefReferences` lines for the *Life* and *Antiquities* carry them with the added line ranges. No other sentence changed. The recording `cft-website/audio/tree/josephus.mp3` stays (no new recording is approved).
 
 Scorer: 806 words, grade 9.3 (names out 8.5), reading ease names out 72.2, 21.2 words a sentence, longest sentence 35 words: pass.
+
+## After the blind test, carrying out Mark's ruling (2026-11-28)
+
+A blind reader compared the brief with a reference and found three faults. Mark ruled "yes to all". Each change is the smallest that fixes its fault, checked at its source line; every other sentence stands word for word. Backup of the tested brief: `josephus.brief.v3.txt`. The census `longDescription` carries the same change; the card holds none of these sentences.
+
+| Finding | Old | New | Source line |
+|---|---|---|---|
+| A date slip: "That year" put the surrender in 66 | …when the Jewish people rose against Rome in 66. That year he gave himself up to Vespasian and foretold that the general would be emperor. | …when the Jewish people rose against Rome in 66. ¶ … ¶ In 67 he gave himself up to Vespasian and foretold that the general would be emperor. | JW 110707–110710 (Jotapata taken in Nero's thirteenth year; 67 Widely Accepted, Source_Sheet E2); JW 110754–110756 (found on the third day); Source_Sheet E6 (the prediction, 67) |
+| Going back after the ending: the surrender and Rome, then "Back in the cave" | Paragraph 2 whole (the rising, the surrender, Rome, the three passages), then "Back in the cave, after his prayer, …" | Paragraph 2 split after its first sentence; the cave paragraph moved between them, word for word: the rising (66), the sword and the lots, the surrender (67), Rome, the three passages | JW 110857–110899, 110897–110901, 111066–111069, 111107–111133 (the sword and lots, in the cave, before he went over); JW 111175–111191 (the surrender and prediction after) |
+| Told twice: Origen's word that Josephus did not accept Jesus as the Christ | The passage itself says he was the Christ, and Origen wrote that Josephus did not accept him as the Christ. | The passage itself says he was the Christ. | Kept once, in Origen's own paragraph: CC 37933–37934; OMG 3731–3733 (Source_Sheet I2) |
+
+The essence keeps its words; it now begins at word 88 and is complete at word 296 (about 2 minutes), against word 192 before, because the cave scene now sits inside it. The kit asks for the essence within the first minute; keeping the scene, the heart's words and the order together leaves no smaller change, so this goes to Mark with the brief.
+
+Scorer: 793 words, grade 9.2 (names out 8.4), reading ease names out 72.1, 20.9 words a sentence, 0.3 joining words per 100, 8% short sentences, longest sentence 35 words: pass.
