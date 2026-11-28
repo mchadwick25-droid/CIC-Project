@@ -153,3 +153,10 @@ In the entry fields, at release, the same ruling:
 
 - `teaser` (the card's `knownFor`, kept identical): "A Roman biographer of the emperors, who notes that Claudius expelled Jews stirred up by "Chrestus" and that Nero punished the Christians." → "A Roman biographer of the emperors, who notes that Claudius expelled Jewish people stirred up by "Chrestus" and that Nero punished the Christians."
 - `modernWorks[3].note` (Mirbt): "… with Dio's Greek on Claudius and the Jews." → "… with Dio's Greek on Claudius and the Jewish people." The work's own title stays as printed.
+
+## After review, carrying out Mark's ruling on the release judgment calls (2026-11-28)
+
+Mark kept none of "a Jew" for Aquila. Brief, card and census changed identically; the brief's change is in `Revision.md`.
+
+- `briefReferences[4]`: "Acts 18:1-2, World English Bible: Paul at Corinth meets a Jew and his wife, …" → "Acts 18:1-2, World English Bible: Paul at Corinth meets a Jewish man and his wife, …"
+- `timeline` (Acts 18:1-2 line) `text`: "At Corinth, the apostle Paul meets Aquila, a Jew, and his wife Priscilla, …" → "At Corinth, the apostle Paul meets Aquila, a Jewish man, and his wife Priscilla, …"

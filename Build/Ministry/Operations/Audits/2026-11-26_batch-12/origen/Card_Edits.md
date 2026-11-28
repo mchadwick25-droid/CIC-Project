@@ -153,3 +153,12 @@ In the card, field, old beside new:
 - `briefReferences.6`: "Origen, On First Principles IV, in the Greek kept by the Philocalia, chapter I.8-9, tr. George Lewis, with Crombie's English: Jews, heretics and simple believers who go wrong about God, and the quotation on the bare, literal sense." → "Origen, On First Principles IV, in the Greek kept by the Philocalia, chapter I.8-9, tr. George Lewis, with Crombie's English: Jewish people, heretics and simple believers who go wrong about God, and the quotation on the bare, literal sense."
 - `timeline.1.lines.7.text`: "He learns Hebrew, gets the Hebrew Scriptures from the Jews, and searches out Greek translations besides the Seventy, the old Greek translation the churches read. One he finds in a jar at Jericho." → "He learns Hebrew, gets the Hebrew Scriptures from the Jewish people, and searches out Greek translations besides the Seventy, the old Greek translation the churches read. One he finds in a jar at Jericho."
 - `timeline.1.lines.9.text`: "In a letter to Africanus he explains why. He kept the churches' Greek, so as not to pass a forgery to the churches, and learned the Jews' readings, so as not to quote to Jews what their copies lack." → "In a letter to Africanus he explains why. He kept the churches' Greek, so as not to pass a forgery to the churches, and learned the Jewish readings, so as not to quote to Jewish people what their copies lack."
+
+## After review, carrying out Mark's ruling on the release judgment calls (2026-11-28)
+
+Mark asked for "Jerome ... later called his teachings poison" in the entry `legacy` to be checked in Jerome's held texts: kept if found, cut if not. Found in Jerome's own words, so the sentence stays unchanged:
+
+- Jerome, Apology against Rufinus, Book III, chapter "When we parted as friends I believed you a true believer…", `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml` lines 55571-55574: "you were putting your own cover upon Origen's poisoned dish by lending your majestic eloquence to this translation of his notorious work" (On First Principles).
+- Jerome, To Pammachius against John of Jerusalem 25, `cic/texts/npnf206_jerome-principal-works.xml` lines 41464-41468: "briefly explain Origen's views respecting the resurrection (for you cannot know the efficacy of the antidote unless you see clearly what the poison is)".
+
+The earlier search (J6, "poison") ran on other lines; these supersede its "not found".

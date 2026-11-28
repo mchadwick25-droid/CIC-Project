@@ -99,3 +99,9 @@ None. Every kept or new claim stands on a line cited above. "303" for the ninete
 
 - The codex 117 correction, above: the card departs from Source_Sheet D8, E9 and X6 on the file's own lines.
 - The three quotations carry no `secondReading`, as the role says; the validator needs one before release. None is under six words, so none is "checked at card".
+
+## After review, carrying out Mark's ruling on the release judgment calls (2026-11-28)
+
+Mark struck the builder's sentence. In the census entry's `legacy` (the only place it stood), the first sentence is cut and nothing else changes:
+
+- "Two later worlds in the Library name him. Eusebius of Caesarea, …" → "Eusebius of Caesarea, …"

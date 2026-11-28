@@ -53,3 +53,11 @@ In the brief, old beside new:
 - "In his appeal to the pagans, without naming Suetonius, he says the name "Christian" comes from anointing; in plain words, Christ means "the anointed one", for the Jews anointed their priests and kings with holy oil." → "In his appeal to the pagans, without naming Suetonius, he says the name "Christian" comes from anointing; in plain words, Christ means "the anointed one", for the Jewish people anointed their priests and kings with holy oil."
 
 The quoted sentence is also the card's `quotationOriginals[0].modern`, changed identically. Its `englishPrinted` (Rolfe) stays verbatim. "A Jew", for Aquila, is singular and outside the ruling's wording, so it stands.
+
+## After review, carrying out Mark's ruling on the release judgment calls (2026-11-28)
+
+Mark kept none of "a Jew" for Aquila ("yes" to the handover's judgment calls, relayed by the managing session). The brief, the card and the census change identically.
+
+- "At Corinth, the apostle Paul met a Jew and his wife lately come from Italy because of that order." → "At Corinth, the apostle Paul met a Jewish man and his wife lately come from Italy because of that order."
+
+This replaces the note above that "a Jew" stands.
