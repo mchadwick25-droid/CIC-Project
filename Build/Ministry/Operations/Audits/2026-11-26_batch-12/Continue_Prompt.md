@@ -2,7 +2,7 @@
 
 You are taking over Church Family Tree batch 12 from an earlier session. Work on branch `claude/batch12-era1-persons`.
 
-**Mark asked to slow down (2026-11-28, through the coordinator): "we need to slow down, we have used 24 percent of my weekly total in a couple of hours how can that be right".** The earlier session stopped there. Do not start work until the coordinator or Mark says to go on, and then keep few hands running at once.
+**Mark asked to slow down (2026-11-28, through the coordinator): "we need to slow down, we have used 24 percent of my weekly total in a couple of hours how can that be right".** The earlier session stopped there. Mark has since answered page version 5 (below), but do not start work until the coordinator or Mark says to go on, and then keep few hands running at once.
 
 1. Read `CLAUDE.md`, then `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md` and `Brief-Kit/kinds/person.md` (and `kinds/era.md` for the era brief).
 2. Read `README.md` in this folder for the rulings (Mark's words verbatim) and how each step was run. Its status table is older than this file: **"Where each story stands" below is current.**
@@ -19,9 +19,12 @@ Commit and push as you go.
 - **Voice (Mark, 2026-11-28, via the coordinator):** "we will put any new work in sally fords voice, leave the others in neos until we replace them". Sally Ford, `kBag1HOZlaVBH7ICPE8x`, `eleven_multilingual_v2`, `mp3_44100_64`, speed 1.04; the settings go into `Brief-Kit/Recording_Settings.md` in a separate pull request. Batch 12 still records nothing; release hides each old player as planned, and a separate recording run follows.
 - **Lead rulings within the kit (no Mark ruling needed, report them):** Tatian's ceiling is 675 under "lengths measured by the draft" (its recheck's 650 was set aside); Cyprian's fresh-read fix restoring Pontius's "if" clause was applied (+7) for fidelity, with the length sent to Mark.
 
-## Waiting on Mark: page version 5
+## Mark's answer to page version 5 (2026-11-28): "follow recommendations on all"
 
-Asked, with recommendations: Tertullian heart **A**, Bardaisan heart **A**, Justin heart **A**, era 1 heart timing **b**, and accept five lengths: Josephus 778 (about 725), Peter 698 (675), era about 755 (about 730), Cyprian 1,006 (about 965), Eusebius 887 (about 850). No answer yet.
+In the Decision-Log ("Batch 12: three hearts, the era's heart timing and five lengths", 2026-11-28). Apply it:
+- Tertullian **A**, Bardaisan **A**, Justin **A**: apply each option at the outline as the page gives it, then redraft, review, revise and fresh-read.
+- Era 1 **b**: the reviser moves the letters sentence into the Tertullian paragraph and joins the ruling sentences.
+- Lengths accepted as they stand: Josephus 778, Peter 698, era about 755, Cyprian 1,006, Eusebius 887. Josephus, Peter, Cyprian and Eusebius go straight to their cards.
 
 ## Where each story stands
 
@@ -29,11 +32,11 @@ Asked, with recommendations: Tertullian heart **A**, Bardaisan heart **A**, Just
 
 **Brief final, card done, second readings in progress:** Anatolius, Hippolytus, Lactantius, Tatian. Round 2 blind readings are in (`Second_Readings_Blind_A.md`, `_B.md`, ids SR2-01 to SR2-12; key `Second_Reading_Key.md`). The comparison is done: `Second_Readings.md` (5 same, 7 minor, none changing meaning; Hippolytus's Q2 rests on nothing no held print gives). It also proposes two `uncertain` notes (tatian[1]: Otto 1851 prints the "puffed up" clause cleanly; anatolius[0]: "infants" follows Schwartz's νήπια). Not yet applied: rename the SR2 files with an `_SR2` suffix, set each `secondReading` and the two notes on the cards as SR1 was (one Sonnet apply), and confirm with `python tools/list_second_readings.py <folders>` (exit 0).
 
-**Brief final, card held for Mark's length ruling:** Josephus (778), Peter (698), Cyprian (1,006), Eusebius (887). On "accept": `python _gen/make_card.py <slug>` from the repo root, card writer, card check, apply, then second readings. On "cut": cut at the outline with the draft in hand (`make_length.py`), targeted recheck, fresh read, then the card.
+**Brief final, lengths accepted, card next:** Josephus (778), Peter (698), Cyprian (1,006), Eusebius (887). From the repo root, `python Build/Ministry/Operations/Audits/2026-11-26_batch-12/_gen/make_card.py <slug>`, then the card writer, card check and apply, then second readings.
 
-**Waiting on Mark's heart answer, then redraft:** Tertullian (on A: apply the reworded heart; on B or C see the page), Bardaisan (on A: restore "in prose and in song"; chronicle and Marcion debates to the card), Justin (on A: keep the heresies book line, pay 2 words; apply the MINORs in `Recheck_Length.md`; draft2 is kept). Each then reviews, revises and fresh-reads as the others did.
+**Hearts ruled (A for each), redraft next:** Tertullian (apply the reworded heart), Bardaisan (restore "in prose and in song"; chronicle and Marcion debates to the card), Justin (keep the heresies book line, pay 2 words; apply the MINORs in `Recheck_Length.md`; draft2 is kept). Each then reviews, revises and fresh-reads as the others did.
 
-**Era 1:** outline fixed and rechecked; apply the recheck-review minors (`Recheck_Review.md`), then the reviser with Mark's timing answer (b moves the letters sentence into the Tertullian paragraph and joins the ruling sentences), then fresh reads and the era card.
+**Era 1:** outline fixed and rechecked; apply the recheck-review minors (`Recheck_Review.md`), then the reviser with Mark's answer b (it moves the letters sentence into the Tertullian paragraph and joins the ruling sentences), then fresh reads and the era card.
 
 ## For release (gathered so far)
 

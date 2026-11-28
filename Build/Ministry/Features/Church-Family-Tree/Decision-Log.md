@@ -6472,3 +6472,16 @@ This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/
 2. The era 1 cards thread writes cards only for the era 1 people batch 12 does not touch, and leaves the twenty alone.
 
 This replaces, for these twenty people, the card ruling of 2026-11-26 ("this thread does what it has and when batch 12 runs it then does the card refinements like now on new material"). This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/README.md`.
+
+## 2026-11-28 — Batch 12: three hearts, the era's heart timing and five lengths (Mark)
+
+**Why.** After the cuts under the lengths ruling, three approved hearts no longer carried as worded, the era 1 heart could not finish by about 150 words, and five stories ran past their lengths once the review fixes were in. The page: https://claude.ai/artifact/RBTfTfBxXXpT5RD7qjZVVk (version 5).
+
+**Decided (Mark, 2026-11-28, through the coordinator): "follow recommendations on all".**
+1. Tertullian, A: the heart reads that he "kept a stricter rule than the church's (by Augustine's report, on second marriage), and he parted from those who refused it."
+2. Bardaisan, A: the essence ends "and Ephrem answered him, in prose and in song, in his own city"; the Edessa chronicle and the debates against Marcion's followers go to the card, and the heart is reworded to match.
+3. Justin, A: the story keeps his books "against all heresies and against Marcion of Pontus", paid for with two words elsewhere; the heart stands as approved.
+4. The era 1 brief, b: the writer moves the sentence on the letters linking the churches into the Tertullian paragraph and joins the ruling sentences, adding no word and leaving the opening untouched.
+5. Five lengths accepted as they stand: Josephus 778 (and its heart timing), Peter of Alexandria 698, the era 1 brief about 755, Cyprian 1,006, Eusebius 887.
+
+This batch only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/Continue_Prompt.md`.
