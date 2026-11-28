@@ -19,7 +19,7 @@ Run under the brief kit as merged in PR #1841. Launch: from the managing session
 
 ## Open items
 
-- "The Jewish people" (Mark, 2026-11-28, in the first thread: "A, and make it a rule for every story"). Applied after review 3 to the narrator's own words: 6 brief sentences (, last section) and 16 card lines (, last section). Quotes and the title *Antiquities of the Jews* are unchanged. The brief is now 785 words. The wording is the thread's own and came after review 3, so under the kit it goes to Mark with the brief page. The kit rule itself is not yet written: it needs its own pull request to  and one targeted check.
+- "The Jewish people" (Mark, 2026-11-28, in the first thread: "A, and make it a rule for every story"). Applied after review 3 to the narrator's own words: 6 brief sentences (`Revision.md`, last section) and 16 card lines (`Card_Edits.md`, last section). Quotes and the title *Antiquities of the Jews* are unchanged. The brief is now 785 words. The wording is the thread's own and came after review 3, so under the kit it goes to Mark with the brief page. The kit rule itself is not yet written: it needs its own pull request to `main` and one targeted check.
 
 - The card's scope: the launch gives the existing card as the starting card under `roles/card.md`; Mark's batch 12 ruling "a" (2026-11-27) asks for the full card, Timeline included. Both are kept: the header quotes the ruling, and the card writer keeps the existing card word for word and adds the Stage Two sections. Raised to the managing session for Mark.
 - Kit gap from the final check, for Mark: the outline line "Modern, making claims of their own (card only)" sent modern views to the card; proposed "modernWorks only, by what each covers". Not applied.
