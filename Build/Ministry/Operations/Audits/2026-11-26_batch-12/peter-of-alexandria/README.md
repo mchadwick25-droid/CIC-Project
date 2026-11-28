@@ -9,7 +9,7 @@ Run under the brief kit on `main` (PRs #1841 and #1842). Launch: from the managi
 - Step 5, card: one Sonnet hand, `peter-of-alexandria.card.json` and `Card_Edits.md`.
 - Step 6, review 3: `Final_Check.md`, FIX. Brief passes; three quotes SAME. Card items 1 to 6 applied word for word. Item 7 (the entry `teaser`, exact wording in `Final_Check.md`) and `secondReading` "same" for Q1 to Q3 are applied at release.
 - Step 4 of the launch, the "Jewish people" and own-title rule: no change needed.
-- Brief page sent to Mark: https://claude.ai/artifact/YYhYsBx5ookvx6ccbewsoP. Waiting for his word.
+- Brief page sent to Mark (version 2, with the edits after review 3): https://claude.ai/artifact/YYhYsBx5ookvx6ccbewsoP. Waiting for his word to release.
 
 ## Next
 
@@ -17,7 +17,7 @@ Release (`roles/release.md`) on Mark's word: bring `main` in first; one draft PR
 
 ## Open items
 
-- For Mark (final check, card item 8): the starting card's `uncertain` carries modern scholars' views in eight items; the kit keeps modern views off the card, the card role keeps a starting card word for word. Options A (release as is, kit question to Open-Gaps) and B (strip now) are on the brief page.
+- Final check card item 8: Mark ruled "b" (2026-11-28, with "Modern works on the cards", 2026-11-26). One Sonnet hand changed eight `uncertain` items (`Card_Edits.md`, last section); checked by this thread against Part 1 and the cited lines; on the brief page as edits after review 3.
 - `knownFor` "Great Persecution" / "lapsed": MINOR in the final check, given without exact wording; not applied.
 
 ## Rulings for this story
@@ -26,3 +26,4 @@ Release (`roles/release.md`) on Mark's word: bring `main` in first; one draft PR
 - "Batch 12: hearts and lengths approved" (2026-11-27): the heart as `Outline.md` states it. This story only.
 - "Batch 12: three hearts, the era's heart timing and five lengths" (2026-11-28), item 5: Peter of Alexandria 698. This story only.
 - "Batch 12: the full cards for its twenty people" (2026-11-27, "a"). This story only.
+- "b" on the card's Open questions (2026-11-28), under "Modern works on the cards" (2026-11-26). This story only.

@@ -43,3 +43,49 @@ None found.
 ## Validator
 
 Run on a census copy outside the repository: the only errors left are release's own: `secondReading` absent on the three quotations (set from the blind renderings), the three stale renderings in `tools/quote_renderings.json` (two replaced, one removed), and the new renderings awaiting that registry.
+
+## After review 3: modern views out of uncertain (Mark, 2026-11-28, "b")
+
+Item numbers are the 1-indexed positions before this edit. Items 2, 7 and 10 are deleted; the rest move up.
+
+- Item 2
+  - Old: "Harold Idris Bell, who edited papyri of the Melitians in 1924, thinks the sacrifice charge "need not be taken very seriously", and that Epiphanius had good sources, probably bishops of Egypt banished to Palestine. He reads the two accounts as stages of one quarrel. Charles Joseph Hefele, historian of the councils, says the first letters show neither man was in prison when the split began, and that Epiphanius was mistaken on the main points."
+  - New: deleted
+  - Evidence: Nothing from an old source; the whole item argues or reads (Bell, Hefele). Deleted.
+- Item 4
+  - Old: "Sozomen says Peter ordained Arius a deacon and later cast him out over the Melitians. Sozomen's translator, Chester Hartranft, notes that no one else links Arius with the Melitians early. Archibald Robertson, editor of Athanasius, says such tales "deserve little credit"."
+  - New: "Sozomen says Peter ordained Arius a deacon and later cast him out over the Melitians."
+  - Evidence: Kept: SOC 27560-27563 (Sozomen: ordained deacon by Peter, who afterwards cast him out over the Melitians). Cut: Hartranft's note (SOC 27556) and Robertson's judgment.
+- Item 5
+  - Old: "The Genuine Acts of Peter, a later Passion, tell of his last night, a vision about Arius and his death at the tomb of Mark. McGiffert calls them "spurious and historically quite worthless.""
+  - New: "The Genuine Acts of Peter, a later Passion, tell of his last night, a vision about Arius and his death at the tomb of Mark."
+  - Evidence: Kept: ANF6 25834-25838 (the Genuine Acts, in Anastasius's Latin), 26078-26113 (night, boy in vision, Arius), 26284-26286 and 26323 (tomb of Mark). Cut: McGiffert's judgment (EUS 43251-43253).
+- Item 7
+  - Old: "The date of the split is given as 301 (Robertson), about 304 or 305 (Hefele) and probably 305 (Bell)."
+  - New: deleted
+  - Evidence: Dates rest on Robertson, Hefele and Bell alone; no old source gives them. Deleted.
+- Item 9
+  - Old: "The year of the canons is read two ways. Hawkins and McGiffert give 306, counting from Peter's own words, "the fourth passover of the persecution". Nikodemos, in the Greek book of church law, gives 304."
+  - New: "Peter dates his canons by his own words, "the fourth passover of the persecution". Nikodemos, in the Greek book of church law, gives 304."
+  - Evidence: Kept: ANF6 26657 and PED 49718 (Greek: τέταρτον ἤδη Πάσχα ἐπικατείληφε τὸν διωγμὸν), PED 49702-49703 (Nikodemos: 304). Cut: Hawkins's and McGiffert's 306 (ANF6 25777-25778).
+- Item 10
+  - Old: "On the prison, Bell thinks Peter and Melitius were set free soon after the quarrel began, probably when the persecution paused."
+  - New: deleted
+  - Evidence: Bell's guess only; no old source. Deleted.
+- Item 11
+  - Old: "That Peter himself was in hiding when he wrote to his people is Bell's and Hefele's reading. The account kept with the four bishops' letter says only that the priests he had appointed were in hiding."
+  - New: "The account kept with the four bishops' letter says that the priests Peter had appointed were in hiding. It does not say where Peter was."
+  - Evidence: Kept: ANF6 16836-16838 (presbyters, then in hiding, to whom Peter had given power). Cut: the Bell and Hefele reading.
+- Item 12
+  - Old: "Eusebius gives the ninth year of the persecution for Peter's death. McGiffert reckons that year from February 311 to February 312 and puts the death not long before the spring of 312. Hawkins and Bell give 311, and the day, 25 November, comes from the Egyptian church's later reckoning."
+  - New: "Eusebius gives the ninth year of the persecution for Peter's death, and no day. The Genuine Acts of Peter give the day as 25 November."
+  - Evidence: Kept: EUS 43266-43267 (ninth year); ANF6 26415-26417 (Acts: beheaded on 25 November). Cut: McGiffert's reckoning, Hawkins's and Bell's 311, and the Egyptian reckoning (ANF6 25770-25771, Hawkins's note).
+
+Nothing else on the card changed. `sources` is unchanged. After this edit no quote in `uncertain` rests on a modern work, so Bell and Hefele in `sources.about` are no longer needed for the validator; they stay, and moving them is a release choice.
+
+### Entry fields
+
+`modernWorks`, in addition to the list above, each note saying what the work covers:
+- Hartranft (tr.), Sozomen's Church History in NPNF 2, volume 2, with notes: English of Sozomen with notes on his text. No longer cited anywhere on the card.
+- Robertson (ed.), Athanasius, Select Works and Letters, NPNF 2, volume 4, with Prolegomena: English of Athanasius's Apology against the Arians with an introduction to his career and the period. Cited now only in a `sources.about` title.
+- Bell, Hefele, McGiffert and Hawkins stay as already listed.
