@@ -156,9 +156,9 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 #panel .tl-all{min-height:44px;padding:0 .9rem;margin:.2rem 0 .4rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--gold-leaf);font:600 .9375rem "Alegreya Sans",sans-serif;cursor:pointer}
 #panel .tl-all:focus-visible,#panel details.tl-period>summary:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
 #panel details.tl-period{border-bottom:1px solid var(--rule)}
-#panel details.tl-period>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:.1rem .6rem;align-items:baseline;min-height:44px;padding:.5rem 0;box-sizing:border-box}
+#panel details.tl-period>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.1rem .6rem;align-items:baseline;min-height:44px;padding:.5rem 0;box-sizing:border-box}
 #panel details.tl-period>summary::-webkit-details-marker{display:none}
-#panel .tl-pw{font:700 .85rem "Alegreya Sans",sans-serif;font-variant-numeric:tabular-nums;color:var(--gold-leaf);white-space:nowrap}
+#panel .tl-pw{grid-column:1/-1;font:700 .85rem "Alegreya Sans",sans-serif;font-variant-numeric:tabular-nums;color:var(--gold-leaf)}
 #panel .tl-ph{font-size:.95rem;min-width:0}
 #panel .tl-pc{font-size:.8rem;color:var(--ink-faded)}
 #panel .tl-wit{font-size:.88rem;font-style:italic;color:var(--ink-faded)}
