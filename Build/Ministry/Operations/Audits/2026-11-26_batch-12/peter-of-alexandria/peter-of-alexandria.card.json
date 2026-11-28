@@ -1,5 +1,5 @@
 {
-  "shortDescription": "Peter was bishop of Alexandria through the persecution that began in 303. He set out how the church should take back Christians who had given way and offered sacrifice to the gods, one of his bishops, Melitius, broke from him, and in 311 he was beheaded.",
+  "shortDescription": "Peter was bishop of Alexandria through the persecution that began in 303. He set out how the church should take back Christians who had given way and offered sacrifice to the gods; one of his bishops, Melitius, broke from him, and in 311 he was beheaded.",
   "otherNames": [
     "Peter the Martyr",
     {
@@ -8,7 +8,7 @@
     }
   ],
   "knownFor": "Bishop of Alexandria through the Great Persecution, who wrote the rules for those who had lapsed, broke with Melitius of Lycopolis, and was beheaded in 311.",
-  "datesNote": "Bishop from about 300; beheaded in the ninth year of the persecution, 25 November 311 by Bell's date",
+  "datesNote": "Bishop from about 300; beheaded in the ninth year of the persecution, 311",
   "placeNote": "Alexandria",
   "role": "Bishop of Alexandria",
   "keyWorks": [
@@ -34,8 +34,7 @@
     "remembered": [
       "Eusebius of Caesarea calls him \"a divine example of a bishop\" and \"one of the most excellent teachers of the religion of Christ.\"",
       "Athanasius of Alexandria calls him \"the blessed Peter, Bishop and Martyr.\"",
-      "Socrates of Constantinople, retelling Rufinus, speaks of \"the day in which the memory of the martyr and bishop Peter was celebrated\" at Alexandria.",
-      "Arthur Cleveland Coxe, the American editor of the Ante-Nicene Fathers, quotes Dupin's judgment that no canons of antiquity on the lapsed are \"more judicious or more equitable.\""
+      "Socrates of Constantinople, retelling Rufinus, speaks of \"the day in which the memory of the martyr and bishop Peter was celebrated\" at Alexandria."
     ]
   },
   "uncertain": [
@@ -157,15 +156,11 @@
   "briefReferences": [
     "Peter of Alexandria, Canonical Epistle, canon 1, tr. James B. H. Hawkins, and its Greek in the 1886 Pedalion: the fourth passover of the persecution, those tortured until they gave way, the marks of Jesus, and the forty more days.",
     "Eusebius of Caesarea, Church History VII.32, tr. A. C. McGiffert: Peter bishop at Alexandria, less than three years in office before the persecution, beheaded in the ninth year of the persecution. McGiffert's note on the edict of February 303 that the churches be pulled down.",
-    "Eusebius, Martyrs of Palestine 3: the imperial edicts that all the people sacrifice.",
     "Epiphanius of Salamis, Panarion 68.3: the archbishop of Alexandria governs all Egypt; the two in prison and their quarrel over taking the fallen back.",
     "Peter of Alexandria, Canonical Epistle, canons 2 to 7 and 10, tr. Hawkins: prison without torture, fear alone and the fig tree, those who tricked the officials, slaves and masters, and fallen clergy who keep communion but not office.",
     "Letter of Hesychius, Pachomius, Theodorus and Phileas to Melitius, and the account kept with it, ANF 6: ordaining in other bishops' churches; the four dead as martyrs, Melitius at Alexandria, Peter's appointed priests put out and men of his own ordained.",
-    "Peter of Alexandria, Letter to the Church at Alexandria, ANF 6: hold no communion with Melitius until Peter meets him with wise and discreet men. Bell and Hefele: Peter wrote from hiding.",
+    "Peter of Alexandria, Letter to the Church at Alexandria, ANF 6: hold no communion with Melitius until Peter meets him with wise and discreet men.",
     "Athanasius, Apology against the Arians 59, NPNF 4: Peter's council of bishops removes Melitius for many crimes, among them sacrifice to idols. Apology 11: the blessed Peter, Bishop and Martyr.",
-    "Epiphanius, Panarion 68.3, Greek: Peter's case for mercy and kindness, the case of Melitius for truth and zeal.",
-    "Hefele, History of the Councils, vol. 1: Peter's tenth canon keeps fallen clergy out of office, the strictness Epiphanius gives to Melitius.",
-    "Bell, Jews and Christians in Egypt: the persecution renewed under Maximinus, and reaching Peter.",
     "Eusebius, Church History IX.6.2, tr. McGiffert: Peter seized and beheaded as if by command of Maximinus, and with him many other bishops of Egypt.",
     "Council in Trullo (692), canon 2, NPNF 14: the seal set on the canons of Peter of Alexandria. Hawkins: the canons in every collection of canons.",
     "Socrates, Church History I.9: the letter of the Council of Nicaea to the church of Alexandria on Melitius, a nominal dignity and no power to ordain.",
@@ -271,8 +266,7 @@
         {
           "when": "The fourth Easter of the persecution",
           "text": "Peter writes of Christians who were jailed and tortured until they gave way, and of those already in a third year of mourning their fall. He says they did not come to this by choice.",
-          "reference": "Peter of Alexandria, Canonical Epistle, canon 1, tr. Hawkins; Greek in the Pedalion",
-          "note": "The year is counted as 306 by Hawkins and McGiffert; Nikodemos gives 304."
+          "reference": "Peter of Alexandria, Canonical Epistle, canon 1, tr. Hawkins; Greek in the Pedalion"
         },
         {
           "when": "The fourth Easter of the persecution",
@@ -307,7 +301,7 @@
         {
           "when": "The fourth Easter of the persecution",
           "text": "Those who paid to be left alone, or left everything and fled: not to be blamed.",
-          "reference": "Peter of Alexandria, Canonical Epistle, canon 12"
+          "reference": "Peter of Alexandria, Canonical Epistle, canons 12 and 13"
         },
         {
           "when": "The fourth Easter of the persecution",
