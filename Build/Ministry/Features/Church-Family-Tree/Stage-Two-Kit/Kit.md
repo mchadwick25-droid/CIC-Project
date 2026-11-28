@@ -1,6 +1,6 @@
 # The Church Family Tree stage two kit
 
-Stage two begins once a brief has passed its fresh read and Mark has read it. The Brief Kit (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`) stays as it is, and its steps 5 to 8 (card, final check, release, recording) run as written. This kit says what each card must now hold, and how recording and release are judged; where the two differ, this kit governs stage two.
+Stage two begins once a brief has passed its brief review and its one revision. The Brief Kit (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`) stays as it is, and its steps 5 to 8 (card, final check, release, recording) run as written. This kit says what each card must now hold, and how recording and release are judged; where the two differ, this kit governs stage two.
 
 ## 1. The card: one layout for every kind
 
