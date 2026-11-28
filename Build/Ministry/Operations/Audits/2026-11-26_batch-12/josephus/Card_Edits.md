@@ -68,3 +68,24 @@ Card written to `josephus.card.json` from `Card.existing.json`. Every field not 
 - `secondReading` is absent on all three entries (each is over six words), as the card role requires.
 - `tools/quote_renderings.json` still holds three `josephus` records for the old renderings; they are for release to replace with the brief's three.
 - The brief's three quoted spans are not yet in `tools/quote_renderings.json` (they are renderings, not verbatim print).
+
+## After the card: "the Jewish people" (Mark, 2026-11-28)
+
+The thread applied Mark's ruling ("A, and make it a rule for every story") to the card's own prose. Quotes (`modern`, `printed`), work titles and *Antiquities of the Jews* are unchanged. These are the thread's own words, for review 3:
+
+- `shortDescription`: "when the Jews rose against Rome" → "when the Jewish people rose against Rome"
+- `briefReferences` [6]: "to die as general of the Jews or" → "to die as general of the Jewish people or"
+- `briefReferences` [7]: "or hatred of the Jews (lines" → "or hatred of the Jewish people (lines"
+- timeline, birth period, line 4: "the three schools of the Jews," → "the three Jewish schools,"
+- timeline, period 2, line 1: "The Jews' war with Rome begins" → "The Jewish people's war with Rome begins"
+- timeline, period 3, line 5: "calamities of the Jews" → "calamities of the Jewish people"
+- timeline, period 3, line 6: "not as a deserter from the Jews" → "not as a deserter from the Jewish people"
+- timeline, period 3, line 7: "general of the Jews or" → "general of the Jewish people or"
+- timeline, period 4, line 3: "the Jews want him punished" → "the Jewish people want him punished"
+- timeline, period 5, line 1: "Domitian punishes Jews who accused him" → "Domitian punishes his Jewish accusers"
+- timeline, period 5, line 2: "or hatred of the Jews" → "or hatred of the Jewish people"
+- timeline, period 6, line 1: "Some Jews take" → "Some Jewish people take"
+- timeline, period 6, line 2: "told the Jews to practice" → "told the Jewish people to practice"
+- timeline, period 6, line 4: "drew over many Jews and many of the Gentiles" → "drew over many Jewish people and many of the Gentiles"; "the anointed one the Jews awaited" → "the anointed one the Jewish people awaited"
+- timeline, period 7, line 2: "came to the Jews as a punishment" → "came to the Jewish people as a punishment"
+- timeline, period 8, line 4: "happened to the Jews to avenge" → "happened to the Jewish people to avenge"

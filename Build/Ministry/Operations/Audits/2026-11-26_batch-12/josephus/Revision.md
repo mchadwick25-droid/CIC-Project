@@ -47,3 +47,16 @@ No sentence is the reviser's own. Each changed sentence is the review's exact wo
 - **Over the ceiling.** The review's fixes take the brief past the 725-word ceiling by 51 words. Nothing the review did not name was cut; this goes to Mark as a length question, as the review says.
 - Scorer: `776 words, grade 9.2 (names out 8.5), reading ease names out 72.9, 21.6 words a sentence, 0.4 joining words per 100, 6% short sentences, longest sentence 36 words - pass`.
 - Re-read for the four faults: none found. The passage's wonder stays in its voice ("The passage goes on"); the doubt is credited to the passage, Origen and Jerome; the defence now sits on the *Life* alone; no reading is carried forward as settled. American spelling outside quotes.
+
+## After the revision: "the Jewish people" (Mark, 2026-11-28)
+
+Mark's ruling in this thread: "A, and make it a rule for every story". In the narrator's own sentences, "the Jews" becomes "the Jewish people" or "Jewish". The quotes and the title *Antiquities of the Jews* keep the word. The thread worded these six changes, so they are for review 3:
+
+- "when the Jews rose against Rome in 66" → "when the Jewish people rose against Rome in 66"
+- "He could die as general of the Jews, they said," → "He could die as general of the Jewish people, they said,"
+- "out of flattery to Rome or hatred of the Jews" → "out of flattery to Rome or hatred of the Jewish people"
+- "who urged the Jews to deal justly" → "who urged the Jewish people to deal justly"
+- "the anointed one the Jews awaited" → "the anointed one the Jewish people awaited"
+- "The Greeks are the non-Jews." → "The Greeks are those who were not Jewish."
+
+Scorer: 785 words, grade 9.2 (names out 8.4), reading ease names out 72.8, 21.2 words a sentence, longest sentence 33 words - pass. That is 7 words over the 778 Mark accepted, all from this ruling.
