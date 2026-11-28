@@ -43,7 +43,10 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .topbar #searchBtn svg{flex:0 0 auto;color:var(--gold-leaf)}
 .topbar #searchBtn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .topbar #searchBtn .sb-short{display:none}
-@media (min-width:641px) and (max-width:1100px){.topbar>.support-link,.topbar>#feedback-toggle,.topbar>#resetBtn{display:none!important}.topbar #menuBtn{display:inline-flex;flex:0 0 auto;align-items:center}#zoomCtl #zoomResetBtn{display:block;font-size:1.35rem}.topbar #searchBtn{flex:1 1 0;margin-inline:.4rem}}
+.topbar>.cic-link,.topbar>.support-link,.topbar>#feedback-toggle,.topbar>#resetBtn{display:none!important}
+.topbar #menuBtn{display:inline-flex;flex:0 0 auto;align-items:center}
+#zoomCtl #zoomResetBtn{display:block;font-size:1.35rem}
+@media (max-width:1100px){.topbar #searchBtn{flex:1 1 0;margin-inline:.4rem}}
 .topbar a.cic-link{display:inline-flex;align-items:center;min-height:44px;font-size:1.05rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
   border:1px solid var(--rule);border-radius:999px;padding:.55rem 1.1rem}
 .topbar a.cic-link:hover,.topbar a.cic-link:focus-visible{border-color:var(--gold-leaf);color:var(--gold-leaf)}
