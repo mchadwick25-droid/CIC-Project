@@ -101,3 +101,31 @@ Three fresh Opus judges, one per reference, each with the judge prompt of `claud
 - Against John Chrysostom: C; reference clearly better (B).
 
 **FAIL** (1 of 3 at B− or better). Faults named by two or more judges: the question phrase said twice and heard as scaffolding ("At issue was what the body is to the soul" / "As for what the body is to the soul", all three); the statue quote hard to follow when heard once (all three); Eusebius's question given without its reason (Basil, Chrysostom). Raised for Mark; no further change made.
+
+## The last fix round, carrying out Mark's ruling (2026-11-28)
+
+Mark ruled "a": one last fix round on the three faults two or more readers named in the blind recheck above, then a three-reader recheck; if it fails again, the brief stays live as it is, with no further rounds. Each fault gets the smallest change that fixes it, using only the outline and the sources (Opus). Every other sentence was unchanged, word for word.
+
+In the brief, old beside new:
+
+- **1. "What the body is to the soul" said twice.** "In a dialogue, On the Resurrection, he argued against Origen, the great teacher of Alexandria and Caesarea, that the body is no chain on the soul and that the same body will rise. At issue was what the body is to the soul." → "In a dialogue, On the Resurrection, he asked what the body is to the soul. Against Origen, the great teacher of Alexandria and Caesarea, he argued that the body is no chain on the soul and that the same body will rise." With it, "As for what the body is to the soul, he held that a human being is soul and body joined in one." → "A human being, he held, is soul and body joined in one." The question is told once, as the dialogue's own question (Outline, Also told, The question; Who tells it, Photius: the dialogue "asks what the body is to the soul"); the answer sentence goes back to its wording before the second blind reading, undoing that round's second telling rather than patching it.
+- **2. The statue quote hard to follow heard once.** Before the quote, added "The statue itself is not lost, Methodius explains, and only its flaws melt away." The quote stands verbatim; its plain sense now comes before it, as a guide, in the outline's own words (Also told, His answer: "so the flaws melt away and the statue itself is not lost"; R8, A6 35442-35446).
+- **3. Eusebius's question has no reason given.** The one old source, Jerome (D4, NP3 51485-51494), gives only "after having said this thing and that of his doctrines", which the source sheet rates Contested and the outline's Do not say bars naming ("what he had said is not given, so it is not named"). No old source gives a reason, so the line is cut, as the ruling directs: "Eusebius of Caesarea, in a book he wrote in Origen's defense, asked how Methodius dared to write against Origen. Jerome, who reports the question, says Methodius was crowned" → "Jerome says Methodius was crowned". By the ruling this lifts "Eusebius's question and Jerome's report of it" from the outline's Never cut list, for this story only; the question stays on the card.
+
+### Checks
+
+- `python -m engine.m1.profile_readability`: 512 words, grade 8.1 (names out 7.3), reading ease names out 76.3, 19.0 words a sentence, longest sentence 35 words, pass (grade 10 and reading ease 60 are the limits).
+- **Length:** 512 words, about 3:25 at 150 words a minute, inside the person kit's 450 to 675.
+- Re-read for the four faults: Jerome's two dates stay credited; Origen's teaching stays told as Methodius gave it; no modern view; nothing moved onto the wrong event. Cutting Eusebius's question removes the quarrel in Methodius's lifetime from the audio; the quarrel over Origen is still carried by the dialogue and Epiphanius's copying.
+
+### Blind recheck
+
+Three fresh Opus judges, one per reference, each given the judge prompt of `claude/cft-blind-check-14` (`2026-11-28_era1-blind-check/x3/pairs/p01/prompt.txt`) word for word, with only the file paths changed, and X and Y drawn at random (Methodius was Y against Basil, X against Epiphanius and Chrysostom). It passes when 2 of 3 give Methodius B− or better and none calls it clearly worse.
+
+- Against Basil of Caesarea: **B**; this story somewhat better (reference C+).
+- Against Epiphanius of Salamis: **C**; reference clearly better (B).
+- Against John Chrysostom: **C**; reference somewhat better (B).
+
+**FAIL** (1 of 3 at B− or better; one judge calls it clearly worse). Faults named by two or more judges: the statue's plain sense said again by the quote straight after it (Epiphanius, Chrysostom); the Banquet's frame ("a story within a story") coming after the scene it frames, with the life between the two Banquet passages (all three); "the virgin life" used before it is glossed (Basil, Chrysostom); the argument that the body is no chain told and then told again (Basil, Epiphanius); no risk or quarrel running through it (Epiphanius, Chrysostom).
+
+By Mark's ruling the brief stays live as it is, with no further rounds. The three changes above are not carried into the brief: `methodius-of-olympus.brief.txt` and the census `longDescription` keep the text of the round before, and the tree is not rebuilt.
