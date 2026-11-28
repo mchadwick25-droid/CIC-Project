@@ -15,7 +15,6 @@ On the kit: 29. To do: 0.
 | Bardaisan of Edessa (`bardaisan-of-edessa`) | person | 6 | yes |
 | Hermas (`hermas`) | person | 6 | yes |
 | Irenaeus of Lyon (`irenaeus-of-lyon`) | person | 6 | yes |
-| Josephus (`josephus`) | person | 6 | yes |
 | Pliny the Younger (`pliny-the-younger`) | person | 6 | yes |
 | Polycarp of Smyrna (`polycarp-of-smyrna`) | person | 6 | yes |
 | Polycrates of Ephesus (`polycrates-of-ephesus`) | person | 6 | yes |
@@ -30,6 +29,7 @@ On the kit: 29. To do: 0.
 | Clement of Alexandria (`clement-of-alexandria`) | person | 12 | yes |
 | Hippolytus of Rome (`hippolytus-of-rome`) | person | 12 | yes |
 | Ignatius of Antioch (`ignatius-of-antioch`) | person | 12 | yes |
+| Josephus (`josephus`) | person | 12 | yes |
 | Lactantius (`lactantius`) | person | 12 | yes |
 | Methodius of Olympus (`methodius-of-olympus`) | person | 12 | yes |
 | Origen (`origen`) | person | 12 | yes |

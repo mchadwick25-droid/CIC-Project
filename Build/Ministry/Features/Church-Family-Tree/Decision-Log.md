@@ -6466,3 +6466,9 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 1. In our own English, a story and its card say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews" (`Brief-Kit/Kit.md`, Part 1, Accessibility, "Plain modern words").
 2. Quotes too (Mark: "yes, quotes too in the rule"): a quote's modern rendering says "the Jewish people" or "Jewish"; its printed wording stays verbatim. A work is given its own title, faithfully rendered: Mark, on the draft line's example: "no that is a later translation its jewish antiquties", so *Jewish Antiquities*, not *Antiquities of the Jews*.
 3. It governs the next story on, and Josephus, which was unfinished when it was made. It reopens no finished story except by a named change order.
+
+## 2026-11-28 — Cards are brought up to the card standard, not kept word for word (Mark)
+
+**Why.** `roles/card.md` still said to keep an existing card word for word and make only new or clearly wrong edits, from "Cards: back to the originals" (2026-11-17). Mark's later rulings, "The card design: one layout, and a timeline in periods" (2026-11-25), "What 'era 1 complete' means" and "Modern works on the cards" (2026-11-26), update every card. The Josephus and Peter final checks each had to ask which governed.
+
+**Decided (Mark, 2026-11-28).** We are updating the cards, not keeping them word for word; on the drafted line: "yes". The card writer brings the card up to the card standard (the Stage Two Kit's layout and timeline, and Part 1) for its finished brief. Start from the existing card: keep what is good and still holds, and change what the new brief, the layout or Part 1 requires, each change listed with its evidence. Don't rewrite what already meets the standard for style alone. That last line keeps the 2026-11-17 guard against needless rewriting. `roles/card.md` and `Kit.md` Part 3 step 5.

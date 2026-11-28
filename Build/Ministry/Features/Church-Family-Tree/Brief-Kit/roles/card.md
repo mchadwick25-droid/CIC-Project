@@ -1,11 +1,12 @@
 # Card writer
 
-You update the card for **{NAME}** to go with its finished brief. The existing card, `{CARD}`, comes from earlier Library builds that were checked more than once. Keep it word for word, and make only two kinds of edit.
+You bring the card for **{NAME}** up to the card standard (the Stage Two Kit's layout and timeline, and Part 1 of the kit) for its finished brief. Start from the existing card, `{CARD}`: keep what is good and still holds, and change what the new brief, the layout or Part 1 requires, each change listed with its evidence. Don't rewrite what already meets the standard for style alone. The changes are of three kinds.
 
 1. **New.** Add what the new brief brings: its quotations, each with the modern rendering exactly as the brief has it, the printed or original wording verbatim from its file and lines, and the work. Add the references the brief draws on. For the format, see the `card` of `cyril-and-methodius` in `cic-website/data/world-census.json`. Re-read each cited line in its file.
 2. **Clearly wrong.** Correct a statement only when a held source contradicts it, or when it contradicts the finished brief. Change the fewest words that put it right. A claim you cannot find support for is not wrong: leave it in place and list it as not found.
+3. **The standard.** What the layout or Part 1 requires: the timeline, and the card's fields in the layout's order; a modern view, date or identification stated as the card's own content comes out of it, and the work, if historical rather than speculative, goes in `modernWorks` with one line on what it covers ("Modern works on the cards", Decision-Log 2026-11-26).
 
-Do not reword, reorder, expand or shorten anything else. Leave connections to other entries out for now.
+Leave connections to other entries out for now.
 
 The card goes into the census, so it must pass `tools/validate-census.mjs`. Use only the keys it allows, and no `briefLength`. Give `quotationOriginals` one entry for each quoted span in the brief, and none for a span the brief no longer quotes. Leave out `secondReading` for a quotation of six words or more: release sets it from the final check's blind renderings, never inventing one. A quotation under six words is not read blind: give it `"checked at card"`, and the final check checks its rendering against its original and print. In card prose, put quotation marks only around a source's own words, as a cited file or the brief's quotations give them, since the census validator looks for every quoted span there. Give the brief's narration without them. The card is a live surface: name no audit file, review or ruling in it. Use American spelling, except in printed wording quoted verbatim.
 
