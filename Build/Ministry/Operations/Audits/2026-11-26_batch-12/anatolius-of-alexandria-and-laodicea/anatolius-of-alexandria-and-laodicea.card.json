@@ -5,7 +5,7 @@
   ],
   "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
   "shortDescription": "Anatolius, a learned Christian of Alexandria, used a vote of the city council to get almost all the besieged out of the palace quarter of the city. He later became bishop of Laodicea in Syria and wrote a rule for finding the date of Easter, and centuries later both sides of a quarrel over Easter claimed him.",
-  "datesNote": "No old source gives a year for his birth, for the siege, for his becoming bishop or for his death. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus. The later 200s comes from the modern dating of those reigns.",
+  "datesNote": "No old source gives a year for his birth, for his becoming bishop or for his death, or ties a year to the siege he lived through. Eusebius says the synod held on the case of Paul of Samosata called him to Antioch, and that the believers at Laodicea kept him as their bishop as he passed through. Jerome says he flourished under the emperors Probus and Carus. The later 200s comes from the modern dating of those reigns.",
   "placeNote": "Alexandria, in Egypt, where he was born and lived through the siege of the palace quarter; Caesarea in Palestine, where he was made a second bishop; Laodicea in Syria, where he was bishop",
   "role": "Scholar of Alexandria, then bishop at Caesarea in Palestine and at Laodicea in Syria",
   "keyWorks": [
@@ -43,11 +43,11 @@
   },
   "uncertain": [
     "The siege rests on report. Eusebius tells it as others told it to him (\"They relate\", \"They say\"), and gives no cause for the siege and no year.",
-    "The cause of the war. Eusebius says only that the rest of the city was allied with the Roman army. Rufinus calls it a war that broke out among the citizens of Alexandria. Jerome's Chronicle says the palace quarter had been besieged for many years.",
+    "The cause of the war. Eusebius says only that the rest of the city was allied with the Roman army. Rufinus calls it a war that broke out among the citizens of Alexandria. Jerome's Chronicle, under the first year of the emperor Claudius, says the palace quarter, besieged for many years, was at last destroyed. No old source says this is the siege Eusebius tells.",
     "Rufinus, in his Latin version of Eusebius a century later, tells the siege in other terms. He has Anatolius in the part of the city loyal to Rome, going to the Roman commander himself and receiving the refugees with a parent's and a doctor's care. His speech asks only that all unfit for war be let out of the gates, and Rufinus adds that he freed the city from famine and war alike. Eusebius gives the message and the welcome to the deacon outside the lines.",
     "The school. Eusebius gives only the report that the citizens asked him to found a school of Aristotle's philosophy. Rufinus says that he was trained from boyhood, so that all the learned men and philosophers of Alexandria made him teach logic. Neither says he held a church office there.",
     "His subjects. Eusebius lists arithmetic, geometry, astronomy, logic, physics and rhetoric. Jerome has grammar in place of physics.",
-    "The years. No held old source gives a year for his birth, the siege, his becoming bishop or his death. Jerome says he flourished under Probus and Carus, and his Chronicle names him under Probus. Elias of Nisibis says he lived in the time of the emperor Gallus. Modern editors give years of their own reckoning, which differ.",
+    "The years. No held old source gives a year for his birth, his becoming bishop or his death, or ties a year to the siege he lived through. Jerome says he flourished under Probus and Carus, and his Chronicle names him under Probus. Elias of Nisibis says he lived in the time of the emperor Gallus. Modern editors give years of their own reckoning, which differ.",
     "The synod. Eusebius says only that the synod on Paul's case called him to Antioch and that the believers at Laodicea kept him as he passed through. No old source says whether he ever reached the synod. That Paul taught that Christ was by nature an ordinary man is the charge Eusebius gives.",
     "His death. No held old source tells how, where or when he died. Eusebius says only that after him Stephen was the last bishop of Laodicea before the persecution.",
     "The Easter book. No old source says where or when he wrote it. Eusebius quotes only part of it.",
@@ -135,7 +135,7 @@
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
       },
       {
-        "title": "Ecclesiastical History of the English People, Book 3, chapter 25 (Latin, ed. Plummer)",
+        "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25 (Latin, ed. Plummer)",
         "author": "Bede",
         "date": null,
         "language": "Latin",
@@ -413,7 +413,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "He sets the new moon of the first month on the 26th of the Egyptian month Phamenoth. That new moon is the beginning of every cycle of nineteen years.",
+          "text": "In the first year of his cycle, he sets the new moon of the first month on the 26th of the Egyptian month Phamenoth. That new moon is the beginning of every cycle of nineteen years.",
           "reference": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42788-42803"
         },
         {
@@ -429,7 +429,7 @@
         {
           "when": "Date unknown",
           "text": "He writes the Institutes of Arithmetic, in ten books.",
-          "reference": "Eusebius, Church History VII.32.20; Jerome, Lives of Illustrious Men 73, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42917-42918"
+          "reference": "Eusebius, Church History VII.32.20, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 42917-42918; Jerome, Lives of Illustrious Men 73, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40936-40938"
         }
       ]
     },
@@ -439,7 +439,7 @@
       "lines": [
         {
           "when": "While Gregory the Great was pope",
-          "text": "Columbanus, an Irish abbot, writes to Gregory against an Easter on the moon's 21st or 22nd day. He cites Anatolius, a man of wonderful learning, as Jerome says. He quotes words from the Latin Easter book under his name: when the moon rises only at midnight, darkness rules over the light.",
+          "text": "Columbanus, an Irish abbot, writes to Gregory against an Easter on the moon's 21st or 22nd day. He cites Anatolius, a man of wonderful learning, as Jerome says, whose writings Eusebius set into his Church History. He quotes words from the Latin Easter book under his name: when the moon rises only at midnight, darkness rules over the light.",
           "reference": "Columbanus, letter to Gregory the Great, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 4320-4355",
           "note": "The words Columbanus quotes stand in the Latin Paschal Canon under Anatolius's name, not in the Greek extract Eusebius keeps."
         },
@@ -450,13 +450,13 @@
         },
         {
           "when": "664",
-          "text": "A synod meets in the monastery at Whitby, where Abbess Hild presides. Colman, for the Irish side, says Anatolius wrote that Easter was to be kept from the fourteenth to the twentieth.",
-          "reference": "Bede, Ecclesiastical History III.25, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 7956-7967; 8117-8121"
+          "text": "A synod meets in the monastery at Whitby, where Abbess Hild presides. Bishop Colman, who leads the Irish side, asks whether Anatolius, a holy man much commended in church history, went against the law and the Gospel when he wrote that Easter was to be kept from the fourteenth to the twentieth.",
+          "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 7956-7967; 8117-8121; 8236-8237"
         },
         {
           "when": "664",
           "text": "Wilfrid, for Rome's side, answers that Anatolius set out a cycle of nineteen years, which the whole church of Christ keeps. He adds that Anatolius counted his days in the Egyptian way, from evening.",
-          "reference": "Bede, Ecclesiastical History III.25, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8134-8150"
+          "reference": "Bede, Ecclesiastical History III.25 to 26, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 8134-8150; 8236-8237"
         },
         {
           "when": "664",
@@ -466,7 +466,7 @@
         {
           "when": "By 731",
           "text": "Bede writes that the northern Irish and the Picts believed they followed the writings of Anatolius, and that anyone skilled could very easily tell whether that was true.",
-          "reference": "Bede, Ecclesiastical History III.3 and V.23, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 5749-5757; 15190-15192"
+          "reference": "Bede, Ecclesiastical History III.3 and V.23, cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt lines 5749-5757; 15190-15192; Latin, cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt lines 18705-18709"
         }
       ]
     },
