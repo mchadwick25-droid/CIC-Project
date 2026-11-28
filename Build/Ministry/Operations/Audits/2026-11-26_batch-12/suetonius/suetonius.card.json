@@ -1,0 +1,477 @@
+{
+  "otherNames": [
+    "Gaius Suetonius Tranquillus",
+    {
+      "name": "Tranquillus",
+      "note": "the name Jerome uses for him"
+    }
+  ],
+  "label": "Outside witness",
+  "knownFor": "A Roman biographer of the emperors, who notes that Claudius expelled Jewish people stirred up by \"Chrestus\" and that Nero punished the Christians.",
+  "shortDescription": "Suetonius was a Roman scholar who wrote the lives of Rome's rulers from Julius Caesar to Domitian. In them, two short lines tell of Jewish people driven from Rome under Claudius for rioting at the urging of Chrestus, and of punishments laid on the Christians under Nero.",
+  "datesNote": "No old source gives the year of his birth or his death. He says he was a young man twenty years after Nero's death, so about 88. His lives end with Domitian, who died in 96, so he wrote after that. He later ran the emperor Hadrian's letters.",
+  "placeNote": "Rome",
+  "role": "Roman biographer",
+  "keyWorks": [
+    {
+      "title": "Lives of the Caesars",
+      "about": "twelve rulers from Julius Caesar to Domitian, with the notices in the lives of Claudius and Nero"
+    },
+    {
+      "title": "On Illustrious Men",
+      "about": "lives of Rome's men of letters, which survive only in part. Jerome followed its example for his short lives of Christian writers"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "About 725, Bede set down the Claudius line in his chronicle of the world almost in Suetonius's words, without Chrestus. He put it in Claudius's ninth year and added that Luke also reports it, joining it to the Acts of the Apostles.",
+      "Jerome wrote short lives of Christian writers, up to the fourteenth year of the emperor Theodosius. He says he was asked to follow the example of Tranquillus, and to do for Christian writers what Suetonius had done for the men of letters among the pagans.",
+      "In the preface to his chronicle, Jerome says he gathered much for the years from Troy to Constantine from Tranquillus and other historians."
+    ],
+    "remembered": [
+      "About 200, Tertullian of Carthage names Suetonius twice. He sends his readers to him on which games were founded for which gods, and cites him for the report that Nero never dreamed, except with difficulty at the very end of his life. He never cites the line on the Christians.",
+      "Tertullian complained that pagans called Christians Chrestians, and Lactantius, later, that the ignorant called Christ Chrestus. Neither names Suetonius.",
+      "Thierry Ruinart, a monk of Saint-Germain-des-Prés who died in 1709, used both lines against Henry Dodwell's dissertation on the fewness of martyrs, printed at Oxford in 1684. Ruinart read the Jewish people whom Claudius drove out as including Christians. Because Suetonius lists the punishment among Nero's measures, Ruinart judged that Nero must have issued a written order against the Christians. Suetonius names no such order."
+    ]
+  },
+  "uncertain": [
+    "Who Chrestus was. Suetonius does not say who Chrestus was, or where he was. The name is close in sound to Christus, the Latin form of Christ. Lactantius says the ignorant call Christ Chrestus by changing one letter, and Tertullian says pagans call Christians Chrestians. Neither of them names Suetonius.",
+    "Chrestus as a name. It was also a real name. Eusebius copies a letter from the emperor Constantine to Chrestus, bishop of Syracuse.",
+    "All the Jewish people. The Latin of the Claudius line says only Jewish people. It has no word for all, and none for one before Chrestus. The Acts of the Apostles says Claudius ordered all the Jewish people to leave Rome.",
+    "Driven out, or barred from meeting. Suetonius and Acts both say the Jewish people left Rome. Dio, a later Roman historian, is held here only in a badly damaged print of his Greek. As far as it can be read, he says Claudius did not drive the Jewish people out, but ordered them not to gather.",
+    "The year. Neither Suetonius nor Acts gives a year for the expulsion. Bede, writing about 725, puts it in the ninth year of Claudius's reign.",
+    "The same event. Neither Suetonius nor Acts says that it tells of the same order as the other. Bede joins them, adding that Luke also reports it.",
+    "The punishment under Nero. Suetonius names no charge, no number, no kind of punishment and no law. He files it among Nero's acts that, he says, deserve no blame, and some even praise.",
+    "Suetonius blames Nero for the great fire, but his notice of the Christians does not mention it.",
+    "Superstition. Suetonius calls the Christians' faith a new and harmful superstition, his word for a religion he despised. In his life of Claudius, the Druids' rite in Gaul is a religion.",
+    "Suetonius names the Christians only once, in his life of Nero.",
+    "The dismissal. A life of Hadrian written long after says that Hadrian replaced Suetonius, Septicius Clarus, the commander of his guard, and many others. The reason it gives is that they had behaved toward his wife Sabina, without his leave, more familiarly than the respect owed to the court allowed. No other old source tells of it."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Lives of the Caesars, Latin with English (tr. John C. Rolfe, 1914)",
+        "language": "Latin and English",
+        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      },
+      {
+        "title": "Lives of the Twelve Caesars (tr. Alexander Thomson, revised by T. Forester)",
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Acts of the Apostles, chapter 18, World English Bible (British Edition)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/webbe_world-english-bible-british-edition.xml"
+      },
+      {
+        "title": "To the Nations 1.3, On the Shows 5 and On the Soul 44, Latin, ed. August Reifferscheid and Georg Wissowa",
+        "author": "Tertullian of Carthage",
+        "date": "1890",
+        "language": "Latin",
+        "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+      },
+      {
+        "title": "To the Nations 1.3, On the Shows 5 and On the Soul 44, in the Ante-Nicene Fathers, vol. 3",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Apology, chapter 3, Latin, in Tertulliani quae supersunt omnia, volume 1, ed. Franz Oehler",
+        "author": "Tertullian",
+        "date": "1853",
+        "language": "Latin",
+        "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
+      },
+      {
+        "title": "Apology, chapter 3",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Divine Institutes 4.7, Latin, ed. Samuel Brandt",
+        "author": "Lactantius",
+        "date": "1890",
+        "language": "Latin",
+        "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt"
+      },
+      {
+        "title": "Divine Institutes 4.7, in the Ante-Nicene Fathers, vol. 7",
+        "author": "Lactantius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, preface",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 47, and the preface to the Chronicle",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Greater Chronicle 287, in Chronica minora, vol. 3, ed. Theodor Mommsen",
+        "author": "Bede",
+        "date": "1898",
+        "language": "Latin",
+        "file": "cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt"
+      },
+      {
+        "title": "Church History 10.5.21, the letter of Constantine to Chrestus",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Life of Hadrian 11.3, Latin, as printed by Schanz, Hosius and Krüger",
+        "author": "Spartianus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt"
+      },
+      {
+        "title": "Roman History 60.6, Greek, as printed by Carl Mirbt (badly damaged scan)",
+        "author": "Dio Cassius",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "Annals 15.44 (tr. Alfred John Church and William Jackson Brodribb)",
+        "author": "Tacitus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt"
+      },
+      {
+        "title": "Acta martyrum, preface, 1859 reprint",
+        "author": "Thierry Ruinart",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt"
+      }
+    ]
+  },
+  "briefSources": [
+    {
+      "title": "Lives of the Caesars: Claudius, Nero, Otho and Domitian",
+      "author": "Suetonius",
+      "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+    },
+    {
+      "title": "The Acts of the Apostles, chapter 18",
+      "file": "cic/texts/webbe_world-english-bible-british-edition.xml"
+    },
+    {
+      "title": "To the Nations 1.3, On the Shows 5 and On the Soul 44",
+      "author": "Tertullian of Carthage",
+      "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+    },
+    {
+      "title": "Divine Institutes 4.7",
+      "author": "Lactantius",
+      "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt"
+    },
+    {
+      "title": "Greater Chronicle 287",
+      "author": "Bede",
+      "file": "cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt"
+    },
+    {
+      "title": "Life of Hadrian 11.3",
+      "author": "Spartianus",
+      "file": "cic/texts/schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt"
+    },
+    {
+      "title": "Annals 15.44",
+      "author": "Tacitus",
+      "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt"
+    }
+  ],
+  "briefReferences": [
+    "Lives of the Caesars, Claudius 25.3 to 25.4, Latin, with tr. John C. Rolfe: the people of old Troy freed from tax forever as founders of the Roman race; the Jewish people driven from Rome for rioting at the urging of Chrestus; the German envoys allowed to sit with the senators at the theater.",
+    "Nero 16.2: abuses severely punished and put down, and new rules made; the limit on spending; the taverns barred from selling cooked food except beans and greens; punishments laid on the Christians; the chariot drivers stopped from roaming the streets and cheating people for fun. Nero 19.3: these acts deserve no blame, some even praise. Nero 38: Nero set Rome on fire.",
+    "Otho 10.1, Nero 57.2 and Domitian 12.2: his father an army officer; Suetonius a young man under Domitian. The lives run from Julius Caesar to Domitian.",
+    "Spartianus, Life of Hadrian 11.3: Suetonius master of Hadrian's letters.",
+    "Acts 18:1-2, World English Bible: Paul at Corinth meets a Jewish man and his wife, lately come from Italy because Claudius had commanded all the Jewish people to leave Rome.",
+    "Tertullian, On the Shows 5 and On the Soul 44: Suetonius named on the games and on Nero's dreams. To the Nations 1.3, Latin ed. Reifferscheid and Wissowa, with the Ante-Nicene English: the name Christian from anointing; Chrestians, said wrong; sweetness or goodness; the editor's note on chrestos as pleasant and good.",
+    "Lactantius, Divine Institutes 4.7.5 to 4.7.7, Latin ed. Brandt, with the Ante-Nicene English: Christ called Chrestus by the change of a letter; the holy oil for those called to the priesthood or the kingship; Christ, that is, the Anointed.",
+    "Bede, Greater Chronicle 287, ed. Theodor Mommsen: the Claudius line in Claudius's ninth year, which Luke also reports.",
+    "Tacitus, Annals 15.44: the Christians put to death under Nero."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "He drove out of Rome the Jewish people who kept rioting at the urging of Chrestus.",
+      "printed": "Iudaeos impulsore Chresto assidue tumultuantis Roma expulit.",
+      "work": "Suetonius, Lives of the Caesars, Claudius 25.4, Latin, with tr. John C. Rolfe (1914)",
+      "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+      "lines": "25843-25844",
+      "englishPrinted": "Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome.",
+      "englishFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+      "englishLines": "25907-25909",
+      "uncertain": "The Latin has no word for \"since\", \"all\" or \"one\". Rolfe adds \"since\"; the Thomson and Forester English adds \"all\" and \"one\".",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "Chrestians",
+      "printed": "you call us “Chrestians”",
+      "work": "Tertullian, To the Nations 1.3, in the Ante-Nicene Fathers, vol. 3; Latin ed. Reifferscheid and Wissowa (1890)",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "9206",
+      "original": "Chrestiani  pronuntiamur",
+      "originalFile": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+      "originalLines": "3905",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "Chrestus",
+      "printed": "who by the change of a letter are accustomed to call Him Chrestus",
+      "work": "Lactantius, Divine Institutes 4.7.5, in the Ante-Nicene Fathers, vol. 7; Latin ed. Samuel Brandt (1890)",
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": "3163",
+      "original": "qui eum inmutata littera Chrestum solent dicere",
+      "originalFile": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+      "originalLines": "16813-16814",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "Punishments were laid on the Christians, a kind of people holding a new and harmful superstition.",
+      "printed": "afflicti suppliciis Christiani, genus hominum superstitionis novae ac maleficae",
+      "work": "Suetonius, Lives of the Caesars, Nero 16.2, Latin, with tr. John C. Rolfe (1914)",
+      "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+      "lines": "28458-28460",
+      "englishPrinted": "Punishment was inflicted on the Christians, a class of men given to a new and mischievous superstition.",
+      "englishFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+      "englishLines": "28523-28525",
+      "uncertain": "For maleficae Rolfe has \"mischievous\" and the Thomson and Forester English \"impious\". The modern English says \"harmful\". The Latin has no verb with Nero as its subject: punishments were laid on the Christians, under him.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Christian",
+      "printed": "The name Christian",
+      "work": "Tertullian, To the Nations 1.3, in the Ante-Nicene Fathers, vol. 3; Latin ed. Reifferscheid and Wissowa (1890)",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "9204",
+      "original": "Christianum",
+      "originalFile": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+      "originalLines": "3903",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "the anointed one",
+      "printed": "we call Him Christ, that is, the Anointed",
+      "work": "Lactantius, Divine Institutes 4.7.7, in the Ante-Nicene Fathers, vol. 7; Latin ed. Samuel Brandt (1890)",
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": "3177",
+      "original": "nos eum Christum nuncupamus, id est unctum",
+      "originalFile": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+      "originalLines": "16830",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "You say it wrong, and call us 'Chrestians', for you are not even clearly sure of the name itself. Even so, it rings of sweetness or goodness.",
+      "printed": "etiam  cum  corrupte  a uobis Chrestiani  pronuntiamur  (nam  ne  no|minis  quidem  ipsius  liquido certi  estis),  sic  quoque  de  suauitate  uel  boni|tate  modulatum est.",
+      "work": "Tertullian, To the Nations 1.3, Latin, ed. August Reifferscheid and Georg Wissowa (1890)",
+      "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+      "lines": "3904-3907",
+      "englishPrinted": "Even when by a faulty pronunciation you call us “Chrestians” (for you are not certain about even the sound of this noted name), you in fact lisp out the sense of pleasantness and goodness.",
+      "englishFile": "cic/texts/anf03_tertullian.xml",
+      "englishLines": "9205-9208",
+      "uncertain": "The modern English is made from the Latin. The vertical strokes and the double spaces stand in the printed Latin as the Library holds it. Tertullian makes the same point in his Apology 3, where the Ante-Nicene English adds \"the name you hate\".",
+      "secondReading": "same"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Under Claudius, in the first century",
+      "headline": "Jewish people driven from Rome",
+      "lines": [
+        {
+          "when": "Under Claudius; no year given",
+          "text": "Claudius frees the people of old Troy from tax forever, because, Suetonius says, they founded the Roman race.",
+          "reference": "Suetonius, Claudius 25.3, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 25769-25770"
+        },
+        {
+          "when": "Under Claudius; no year given",
+          "text": "Claudius drives from Rome the Jewish people who, Suetonius says, kept rioting at the urging of Chrestus. Suetonius does not say who Chrestus was.",
+          "reference": "Suetonius, Claudius 25.4, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 25843-25844"
+        },
+        {
+          "when": "Under Claudius; no year given",
+          "text": "Claudius lets German envoys sit with the senators at the theater.",
+          "reference": "Suetonius, Claudius 25.4, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 25909-25916"
+        },
+        {
+          "when": "Under Claudius; no year given",
+          "text": "At Corinth, the apostle Paul meets Aquila, a Jewish man, and his wife Priscilla, lately come from Italy because Claudius had ordered all the Jewish people to leave Rome.",
+          "reference": "The Acts of the Apostles 18:1-2, cic/texts/webbe_world-english-bible-british-edition.xml lines 88521-88524",
+          "note": "This is the Acts of the Apostles, in the New Testament. Neither Acts nor Suetonius says that both tell of the same order."
+        }
+      ]
+    },
+    {
+      "when": "Under Nero, in the first century",
+      "headline": "Punishments laid on the Christians",
+      "witness": "Suetonius, in his life of Nero",
+      "lines": [
+        {
+          "when": "Under Nero; no year given",
+          "text": "Many abuses, Suetonius says, are severely punished and put down, and new rules made. Spending is limited, and taverns are barred from selling cooked food except beans and greens.",
+          "reference": "Suetonius, Nero 16.2, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 28454-28458"
+        },
+        {
+          "when": "Under Nero; no year given",
+          "text": "Punishments are laid on the Christians, whom Suetonius calls a kind of people holding a new and harmful superstition, his word for a religion he despised. He names no charge, number or kind of punishment.",
+          "reference": "Suetonius, Nero 16.2, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 28458-28460"
+        },
+        {
+          "when": "Under Nero; no year given",
+          "text": "The chariot drivers are stopped from roaming the streets and cheating and robbing people for fun.",
+          "reference": "Suetonius, Nero 16.2, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 28460-28462"
+        },
+        {
+          "when": "Under Nero",
+          "text": "Suetonius files these among Nero's acts that deserve no blame, and some even praise, before he turns to Nero's crimes.",
+          "reference": "Suetonius, Nero 19.3, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 28653-28656"
+        },
+        {
+          "when": "Under Nero",
+          "text": "Suetonius says Nero himself set Rome on fire. In that chapter he names no Christians.",
+          "reference": "Suetonius, Nero 38, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 30503-30507"
+        }
+      ]
+    },
+    {
+      "when": "From Otho's war to the reign of Hadrian",
+      "headline": "The writer's own life",
+      "witness": "Suetonius, in his own words",
+      "lines": [
+        {
+          "when": "In Otho's war",
+          "text": "His father, Suetonius Laetus, an officer in the Thirteenth legion, takes part in the war.",
+          "reference": "Suetonius, Otho 10.1, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 34517-34519"
+        },
+        {
+          "when": "Twenty years after Nero's death, so about 88",
+          "text": "Suetonius is a young man when a man of unknown birth appears, claiming to be Nero.",
+          "reference": "Suetonius, Nero 57.2, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 32023-32025"
+        },
+        {
+          "when": "Under Domitian",
+          "text": "In his youth, Suetonius is present at a hearing before a Roman official and a crowded court.",
+          "reference": "Suetonius, Domitian 12.2, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 40104-40107"
+        },
+        {
+          "when": "After Domitian's death in 96",
+          "text": "He writes the lives of twelve rulers of Rome, from Julius Caesar to Domitian.",
+          "reference": "Suetonius, Lives of the Caesars, from the life of Julius to the life of Domitian, cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt lines 918-41018"
+        },
+        {
+          "when": "In the reign of Hadrian",
+          "text": "He runs the emperor Hadrian's letters, until Hadrian replaces him.",
+          "reference": "Spartianus, Life of Hadrian 11.3, cic/texts/schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt lines 6074-6076",
+          "note": "This rests on a life of Hadrian written long after."
+        }
+      ]
+    },
+    {
+      "when": "About 200, and later",
+      "headline": "Christian readers, and a name said wrong",
+      "lines": [
+        {
+          "when": "About 200",
+          "text": "At Carthage, Tertullian sends his readers to Suetonius Tranquillus on which games were founded for which gods.",
+          "reference": "Tertullian, On the Shows 5, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 919-920"
+        },
+        {
+          "when": "About 200",
+          "text": "Tertullian cites Suetonius for the report that Nero never dreamed, except with difficulty at the very end of his life.",
+          "reference": "Tertullian, On the Soul 44, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 21023-21025"
+        },
+        {
+          "when": "About 200",
+          "text": "In his appeal to the pagans, Tertullian says the name Christian comes from anointing. He tells them they say it wrong and call Christians Chrestians, and that even so it rings of sweetness or goodness. He does not name Suetonius.",
+          "reference": "Tertullian, To the Nations 1.3, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 3903-3907",
+          "note": "In Greek, chrestos means good or kind. Tertullian makes the same point in his Apology 3."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Lactantius writes that Christ is a title of power and rule, not a proper name, since the Jewish people called their kings by it. He says the ignorant call Christ Chrestus by changing one letter. He explains that the Jewish people anointed their priests and kings with holy oil, so Christ means the anointed one. He does not name Suetonius.",
+          "reference": "Lactantius, Divine Institutes 4.7.4 to 4.7.7, cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt lines 16770-16830"
+        }
+      ]
+    },
+    {
+      "when": "From the sixth consulship of Valens to the fourteenth year of Theodosius",
+      "headline": "Jerome draws on him and follows his example",
+      "witness": "Jerome",
+      "lines": [
+        {
+          "when": "At the sixth consulship of the emperor Valens, where his chronicle ends",
+          "text": "In the preface to his chronicle, Jerome says he gathered much for the years from Troy to Constantine from Tranquillus and other historians.",
+          "reference": "Jerome, preface to the Chronicle, cic/texts/npnf206_jerome-principal-works.xml lines 46321-46329"
+        },
+        {
+          "when": "In the fourteenth year of the emperor Theodosius",
+          "text": "Asked to follow the example of Tranquillus, Jerome writes short lives of Christian writers up to that year, as Suetonius had done for the men of letters among the pagans.",
+          "reference": "Jerome, Lives of Illustrious Men, preface, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 38773-38785"
+        }
+      ]
+    },
+    {
+      "when": "About 725",
+      "headline": "Bede carries the Claudius line on",
+      "lines": [
+        {
+          "when": "About 725",
+          "text": "In his chronicle of the world, Bede sets down the Claudius line almost in Suetonius's words, without Chrestus. He puts it in Claudius's ninth year and adds that Luke also reports it.",
+          "reference": "Bede, Greater Chronicle 287, cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt lines 23216-23217"
+        }
+      ]
+    },
+    {
+      "when": "Between 1684 and 1709",
+      "headline": "A monk reads both lines against a scholar",
+      "witness": "Thierry Ruinart, a monk of Saint-Germain-des-Prés",
+      "lines": [
+        {
+          "when": "After 1684",
+          "text": "Ruinart answers Henry Dodwell's dissertation on the fewness of martyrs, printed at Oxford in 1684.",
+          "reference": "Ruinart, Acta martyrum, preface, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 2295-2300"
+        },
+        {
+          "when": "After 1684",
+          "text": "Ruinart reads the Jewish people whom Claudius drove out as including Christians.",
+          "reference": "Ruinart, Acta martyrum, preface, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 3126-3129"
+        },
+        {
+          "when": "After 1684",
+          "text": "Because Suetonius lists the punishment among Nero's measures, Ruinart judges that Nero must have issued a written order against the Christians.",
+          "reference": "Ruinart, Acta martyrum, preface, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 3153-3158",
+          "note": "Suetonius names no such order."
+        },
+        {
+          "when": "27 September 1709",
+          "text": "Ruinart dies of a fever.",
+          "reference": "Ruinart, Acta martyrum, his epitaph, cic/texts/ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt lines 789-792"
+        }
+      ]
+    }
+  ]
+}
