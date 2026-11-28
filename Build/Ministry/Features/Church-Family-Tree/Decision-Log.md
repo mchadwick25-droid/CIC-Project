@@ -6477,4 +6477,4 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 
 **Decided (Mark, 2026-11-28).** "new should be b or better or my signoff". A new or rebuilt text passes at B or better, graded by the method of `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`, or with Mark's sign-off. A text left as it stands keeps the C bar of "What era 1 complete means" (2026-11-26). This pass upgrades only texts graded D or below (Mark, 2026-11-28: "we are only upgrading things that are d and below this pass"). `Stage-Two-Kit/Kit.md`, section 5.
 
-**Judgment call, for Mark to keep or strike.** His word to release a brief he has read counts as his sign-off, so a story whose brief he read before release needs no grading run.
+Then: "no everything should have a grading run". Every new or rebuilt text is graded by that method; reading a brief before release does not stand in for its grade.
