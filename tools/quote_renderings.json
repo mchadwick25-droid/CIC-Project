@@ -2746,66 +2746,40 @@
   },
   {
    "id": "eusebius-of-caesarea",
-   "quote": "I confess that it is beyond my power to write a perfect and complete history. Since I am the first to enter on this subject, I am trying to travel, as it were, a lonely and untrodden path.",
+   "quote": "I admit that a perfect and complete history is beyond my power. I am the first to take up this subject, so I am trying to travel, as it were, a lonely and untrodden path.",
    "original": {
     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
     "lines": "6934-6937",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/eusebius-of-caesarea/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "eusebius-of-caesarea",
-   "quote": "With our own eyes we saw the houses of prayer thrown down from top to ground, to their very foundations. We saw the inspired and sacred Scriptures handed over to the fire in the middle of the market squares. We saw the shepherds of the churches hiding shamefully here and there, and some of them caught in disgrace and mocked by their enemies.",
+   "quote": "We saw with our own eyes the houses of prayer thrown down from top to ground, foundations and all. We saw the inspired and holy Scriptures handed to the fire in the middle of the market squares. We saw the shepherds of the churches hiding shamefully here and there, and some of them caught in disgrace and mocked by their enemies.",
    "original": {
     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
     "lines": "43431-43437",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/eusebius-of-caesarea/Final_Check.md",
     "verdict": "same"
    }
   },
   {
    "id": "eusebius-of-caesarea",
-   "quote": "of one being",
-   "original": {
-    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-    "lines": "2091",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "eusebius-of-caesarea",
-   "quote": "You sit there, Eusebius, and Athanasius, an innocent man, is judged by you?",
-   "original": {
-    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-    "lines": "1515-1517",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "eusebius-of-caesarea",
-   "quote": "Tell me, were you not with me in prison in the persecution? I lost an eye for the truth. But you seem to have no part of your body maimed. You did not suffer as a martyr; you stand here alive, with nothing cut away. How did you get out of prison, unless you promised our persecutors to do something unlawful, or did it?",
+   "quote": "Tell me, were you not with me in prison in the persecution? I lost an eye for the truth. But you seem to have nothing maimed in your body. You did not suffer as a martyr. You stand alive, with nothing cut away. How did you get out of prison, unless you promised those who forced the persecution on us to do the forbidden thing, or did it?",
    "original": {
     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
     "lines": "1517-1523",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-26_batch-12/eusebius-of-caesarea/Final_Check.md",
     "verdict": "same"
    }
   },

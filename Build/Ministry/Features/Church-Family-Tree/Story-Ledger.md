@@ -20,12 +20,12 @@ On the kit: 29. To do: 0.
 | Polycrates of Ephesus (`polycrates-of-ephesus`) | person | 6 | yes |
 | Councils of Carthage and Rome on the lapsed (`councils-of-rome-and-carthage-251`) | council | 7 | yes |
 | Dionysius of Alexandria (`dionysius-of-alexandria`) | person | 7 | yes |
-| Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 7 | yes |
 | Novatian (`novatian`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
 | Anatolius of Alexandria and Laodicea (`anatolius-of-alexandria-and-laodicea`) | person | 12 | yes |
 | Clement of Alexandria (`clement-of-alexandria`) | person | 12 | yes |
 | Cyprian of Carthage (`cyprian-of-carthage`) | person | 12 | yes |
+| Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 12 | yes |
 | Hippolytus of Rome (`hippolytus-of-rome`) | person | 12 | yes |
 | Ignatius of Antioch (`ignatius-of-antioch`) | person | 12 | yes |
 | Josephus (`josephus`) | person | 12 | yes |

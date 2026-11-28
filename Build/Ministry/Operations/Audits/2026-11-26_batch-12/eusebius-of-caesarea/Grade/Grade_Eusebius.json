@@ -1,0 +1,96 @@
+[
+ {
+  "id": "eusebius-of-caesarea",
+  "name": "Eusebius of Caesarea",
+  "kind": "person",
+  "era": 1,
+  "batch": "12",
+  "reference": false,
+  "words": 889,
+  "rigor": "B",
+  "rigor_load": 2.4,
+  "craft": "C",
+  "craft_load": 4.7,
+  "overall": "B",
+  "action": "OK to keep",
+  "findings": [
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Supporting",
+    "size": "small",
+    "weight": 1,
+    "quote": "They accused him over a cup used at the Lord's Supper, the church's meal of bread and wine, that had been broken.",
+    "fix": "Answer in a clause, from the source: Accused him of what, exactly, and why did a broken cup matter? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "unexplained where the story leans on it, still one clause to supply",
+    "why": "both readers"
+   },
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Passing",
+    "size": "small",
+    "weight": 1,
+    "quote": "envy, like a dark cloud, stirs up quarrels in Egypt's churches",
+    "fix": "Answer in a clause, from the source: Quarrels over what? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "a thing or act left unexplained on the way; one clause supplies it",
+    "why": "both readers"
+   },
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Supporting",
+    "size": "small",
+    "weight": 1,
+    "quote": "In 303 the emperors ordered the churches leveled and the Scriptures burned",
+    "fix": "Answer in a clause, from the source: Why did the emperors turn on the church? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "unexplained where the story leans on it, still one clause to supply",
+    "why": "Opus third read"
+   },
+   {
+    "dim": "craft",
+    "kind": "opening",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "missing when",
+    "fix": "Bring the when into the opening, in a clause.",
+    "reason": "the opening lacks a when or where; a clause fixes it",
+    "why": ""
+   },
+   {
+    "dim": "craft",
+    "kind": "bare",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "They accused him over a cup used at the Lord's Supper, the church's meal of bread and wine, that had been broken.",
+    "fix": "Answer in a clause, from the source: what was Athanasius said to have done with the cup, and why was a broken cup a charge against a bishop?",
+    "reason": "the listener lost a thing named without its explanation; one clause",
+    "why": ""
+   },
+   {
+    "dim": "craft",
+    "kind": "tell",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "while Athanasius and Potamo go unnamed",
+    "fix": "Cut the sentence, or tell what happened instead (add-on that only says what is missing (narrator's pointed aside)).",
+    "reason": "a tell Part 1 names, in one sentence; cut or retell it",
+    "why": ""
+   },
+   {
+    "dim": "craft",
+    "kind": "thread",
+    "band": "any",
+    "size": "medium",
+    "weight": 3,
+    "quote": "His friend in Caesarea was Pamphilus, a priest there.",
+    "fix": "Retell the sentence so the listener keeps hold of it: the paragraph before has already run ahead to Nicaea and the charge at Tyre; this jumps back to earlier life, and I lose where the story is going, then hear Nicaea and Tyre told a second time",
+    "reason": "a sentence where the listener lost the thread: a failure to understand on one hearing",
+    "why": ""
+   }
+  ]
+ }
+]
