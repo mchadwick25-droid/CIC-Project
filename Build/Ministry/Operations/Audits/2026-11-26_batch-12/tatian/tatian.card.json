@@ -1,6 +1,6 @@
 {
   "knownFor": "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron.",
-  "shortDescription": "Tatian, born in the land of the Assyrians and trained in Greek learning, became a Christian in the middle of the second century. He wrote an Address to the Greeks that scorned their learning as younger than the writings of Moses, and he wove the four Gospels into one book, the Diatessaron, which Syriac-speaking churches read in worship.",
+  "shortDescription": "Tatian, born in the land of the Assyrians, became a Christian in the middle of the second century and wrote an Address to the Greeks that scorned their learning. He wove the four Gospels into one book, the Diatessaron, which Syriac-speaking churches read in worship.",
   "datesNote": "No ancient source gives a year for his birth or his death. Irenaeus says he left the church after Justin's death. Eusebius's Chronicle names him a heretic, from whom the Encratites come, under the twelfth year of the emperor Marcus Aurelius, which is about 172. Jerome says he flourished in the reign of Marcus Antoninus Verus and Lucius Aurelius Commodus.",
   "placeNote": "Born, he says, in the land of the Assyrians; at Rome, which he calls the great city, where he taught; later in Mesopotamia, by Epiphanius's report. Of the old sources held here, only Epiphanius names Mesopotamia.",
   "role": "Teacher and writer",
@@ -32,7 +32,7 @@
       "Hippolytus of Rome, a generation later, repeats Irenaeus's charges and calls him a disciple of Justin the Martyr.",
       "Eusebius of Caesarea and Jerome of Strido name him the founder of the Encratites. Jerome heads his chapter Tatian the heresiarch, the founder of a heresy.",
       "Theodoret of Cyrrhus says that after his teacher's death he longed to become the head of a sect.",
-      "A writer of the early 200s, quoted by Eusebius, names Tatian with Justin, Miltiades and Clement among the brethren who wrote for the truth against the heathen and the heresies, in all of whose works Christ is spoken of as God."
+      "A writer quoted by Eusebius names Tatian with Justin, Miltiades and Clement. These brethren, he says, wrote for the truth against the heathen and the heresies, and in all their works Christ is spoken of as God."
     ]
   },
   "uncertain": [
@@ -457,7 +457,7 @@
         },
         {
           "when": "In the 400s",
-          "text": "Theodoret, bishop of Cyrrhus, which served under the chief bishop at Antioch and held eight hundred parishes, finds more than two hundred copies held in honor in his churches.",
+          "text": "Theodoret is bishop of Cyrrhus, which held eight hundred parishes and served under the chief bishop at Antioch. He finds more than two hundred copies held in honor in his churches.",
           "reference": "Theodoret, Compendium of Heretical Fables I.20, cic/texts/theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt lines 29735-29738, and cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt lines 14984-14986; his letter, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 33157-33166"
         },
         {
@@ -482,7 +482,7 @@
           "reference": "Clement, Stromata I.21, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 29724-29727"
         },
         {
-          "when": "Early in the 200s",
+          "when": "Date unknown",
           "text": "A writer quoted by Eusebius names Tatian with Justin, Miltiades and Clement among those whose works speak of Christ as God.",
           "reference": "Eusebius, Church History V.28.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32129-32139",
           "note": "The writer says these brethren wrote before the times of Victor, bishop of Rome."
@@ -504,7 +504,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "Michael the Syrian, a much later chronicler, says Tatian imagined invisible worlds like the Valentinians, called lawful marriage corruption, mixed a Gospel he called Diatessaron, and gave the Encratites their start.",
+          "text": "Michael the Syrian, a much later chronicler, says Tatian imagined invisible worlds like the Valentinians and called lawful marriage corruption and adultery. He also says Tatian mixed a Gospel he called Diatessaron, and that the Encratites began from him.",
           "reference": "Michael the Syrian, Chronicle, cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt lines 14340-14354",
           "note": "A much later source."
         },
