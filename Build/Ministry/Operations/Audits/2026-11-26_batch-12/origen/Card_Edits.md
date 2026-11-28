@@ -133,3 +133,11 @@ All carried: Outline "For the card" (dates; Rufinus quote; 553 and Hefele; E19, 
 Card running text (short description, knownFor, datesNote, placeNote, key works, legacy, uncertain, timeline headlines, lines and notes), on a plain file outside the repository:
 
 `card_text.txt: 3054 words, grade 9.7 (names out 7.6), reading ease names out 71.7, 17.6 words a sentence, 0.4 joining words per 100, 14% short sentences, longest sentence 36 words - pass`
+
+## Entry fields (card check)
+
+- **modernWorks**, add this entry to the list above (Card_Check fix 1):
+
+```json
+{"title": "The Ecclesiastical History of Evagrius with the Scholia", "author": "J. Bidez and L. Parmentier (eds.)", "year": "1898", "publisher": "Methuen, London", "note": "Greek text of Evagrius's Church History, which tells of the council at Constantinople and its acts on Origen."}
+```

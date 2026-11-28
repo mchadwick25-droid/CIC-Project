@@ -39,6 +39,7 @@
       "Epiphanius of Cyprus charged, and Jerome repeated, that Origen taught even the devil would one day repent.",
       "Epiphanius wrote against Origen more than a century after his death. He says that in Alexandria Origen was made to put incense on an altar fire and was cast out by the confessors and the church. Unable to bear the mockery, Epiphanius adds, he left for Palestine.",
       "About three centuries after his death, a council at Constantinople named Origen in its eleventh anathema, a formal curse, beside Arius and others, with their impious writings.",
+      "The church historian Evagrius Scholasticus says that monks petitioned the council against Origen's teachings. He says the council sent the emperor Justinian a report after crying out against Origen and those who shared his errors, and attached chapters setting out what Origen's followers had been taught to hold.",
       "The History of the Patriarchs of Alexandria, a much later Egyptian chronicle, says Demetrius cut him off for writing unlawful books of magic, and that he then wrote treatises full of blasphemies."
     ]
   },
@@ -49,12 +50,12 @@
     "Eusebius of Caesarea is our witness that Origen took a saying of Jesus too literally and made himself a eunuch. He adds that Demetrius at first admired the act, then wrote of it to bishops everywhere as most foolish. Jerome says only that Demetrius was wildly enraged at Origen after his ordination.",
     "In his Commentary on Matthew, Origen writes that some took the saying on eunuchs in a bodily sense and did it to themselves, out of fear of God but without understanding, and brought reproach on themselves. He names no one, himself included.",
     "In his Commentary on John, Origen says he came out of the storm in Alexandria and that an enemy attacked him in new writings. He does not say who the enemy was.",
-    "Eusebius of Caesarea says Origen died in the time of the emperor Trebonianus Gallus, at sixty-nine. Jerome adds that he died at Tyre and was buried there. Photius says Pamphilus and others wrote that he died a martyr at Caesarea under Decius. Photius himself thinks the account of Tyre truer, unless the letters Origen is said to have written after the persecution are forged.",
-    "We read On First Principles mostly in Rufinus of Aquileia's Latin. Rufinus says in his preface that wherever he found anything on the Trinity contrary to what Origen taught elsewhere, he left it out or set it down in words that agree with the rule of faith.",
+    "Eusebius of Caesarea says Origen died in the time of the emperor Gallus, at sixty-nine. Jerome adds that he died at Tyre and was buried there. Photius says Pamphilus and others wrote that he died a martyr at Caesarea under Decius. Photius himself thinks the account of Tyre truer, unless the letters Origen is said to have written after the persecution are forged.",
+    "We read On First Principles mostly in Rufinus of Aquileia's Latin. Rufinus says in his preface that wherever he found anything on the Trinity contrary to what Origen taught elsewhere, he left it out or set it down in words that agree with the rule of faith. Jerome, who made his own translation, says Rufinus cut out what gave offense, while he himself set the books down just as they stood in the Greek.",
     "The simple believers. In On First Principles, the third group who go wrong about God are, in Crombie's English, the simpler among those who profess to belong to the church. In Lewis's English, they are the less sophisticated among those who have left the church.",
     "He does not say every passage has three senses. He writes that some passages have no bodily, plain sense at all, and that the plain sense alone helps a great many simple believers.",
     "Where the way of reading came from. Origen points to Paul, who said the story of Hagar and Sarah contains an allegory. Porphyry says Origen learned it from Greek writers. Porphyry also said Origen had been raised a pagan Greek and went over to the Christians; Eusebius calls this false, since his parents taught him Christ.",
-    "Whether Origen's name stood in the council's eleventh anathema from the first is a question raised by modern scholars, not by the old sources used here. Hefele's History of the Councils, under Modern works, sets it out.",
+    "Whether Origen's name stood in the council's eleventh anathema from the first is a question raised by modern scholars, not by the old sources used here.",
     "The quotations. Origen's Greek of On First Principles and of Book VI of his Commentary on John is not held, so their modern English follows the printed English translations. Porphyry's Greek is held only in a damaged scan, so the English printed with his words is McGiffert's."
   ],
   "sources": {
@@ -191,11 +192,25 @@
         "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
       },
       {
+        "title": "Church History, Book IV, chapter 38",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt"
+      },
+      {
         "title": "Preface to Job; Against John of Jerusalem",
         "author": "Jerome",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Apology against Rufinus, Book III",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
         "title": "Defence of the Nicene Definition (De Decretis), chapter 27",
@@ -492,7 +507,7 @@
           "when": "Date unknown",
           "text": "Sent to Greece on church business, he passes through Palestine and is ordained presbyter at Caesarea by the bishops there.",
           "reference": "Eusebius, Church History VI.23.4; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35953-35963",
-          "note": "Jerome says he was going to Athens for the churches of Achaia, with a church letter; Photius, summarizing Pamphilus, says he went without his bishop's permission."
+          "note": "Jerome says he was going to Athens for the churches of Achaia, with a church letter (Lives of Illustrious Men 54; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40532-40538); Photius, summarizing Pamphilus, says he went without his bishop's permission (Library 118; cic/texts/photius_library-v1_freese1920.txt lines 11480-11484)."
         },
         {
           "when": "Date unknown",
@@ -564,7 +579,7 @@
           "when": "Under Decius",
           "text": "Decius persecutes the churches out of hatred for Philip, the emperor before him, Eusebius says.",
           "reference": "Eusebius, Church History VI.39.1; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37383-37384, 37413-37416",
-          "note": "Jerome says Decius was mad against the religion of Philip, whom he had killed."
+          "note": "Jerome says Decius was mad against the religion of Philip, whom he had killed (Lives of Illustrious Men 54; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40576-40579)."
         },
         {
           "when": "Under Decius",
@@ -586,7 +601,7 @@
           "when": "In the time of Gallus",
           "text": "He dies, aged sixty-nine. Jerome says he died at Tyre and was buried there.",
           "reference": "Eusebius, Church History VII.1; Jerome, Lives of Illustrious Men 54; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39146-39163; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40589-40591",
-          "note": "Photius says Pamphilus and others wrote that he died a martyr at Caesarea under Decius."
+          "note": "Photius says Pamphilus and others wrote that he died a martyr at Caesarea under Decius (Library 118; cic/texts/photius_library-v1_freese1920.txt lines 11449-11454)."
         }
       ]
     },
@@ -628,7 +643,7 @@
           "when": "Date unknown",
           "text": "Epiphanius, writing against him, tells that he was made to put incense on an altar fire and was cast out of the church at Alexandria.",
           "reference": "Epiphanius, Panarion 64; cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 31290-31305",
-          "note": "A hostile account written more than a century after his death, against Eusebius's account."
+          "note": "A hostile account written more than a century after his death."
         },
         {
           "when": "Date unknown",
