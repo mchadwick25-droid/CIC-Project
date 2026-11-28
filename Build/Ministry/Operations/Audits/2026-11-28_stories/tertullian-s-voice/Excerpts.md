@@ -183,6 +183,27 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 20946: undoubtedly containing that which the (said) churches received from the
 ```
 
+### ANF3 21570-21586
+```
+21570: themselves) existed in their own day.  And yet we find amongst so
+21571: many various perversions of truth, not one school<note anchored="yes" id="v.iii.xxxiv-p2.1" n="2213" place="end"><p class="endnote" id="v.iii.xxxiv-p3" shownumber="no"> Institutionem.</p></note> which raised any controversy concerning God
+21572: as the Creator of all things. No man was bold enough to surmise a
+21573: second god. More readily was doubt felt about the Son than about the
+21574: Father, until Marcion introduced, in addition to the Creator, another
+21575: god of goodness only.  Apelles made the Creator of some
+21576: nondescript<note anchored="yes" id="v.iii.xxxiv-p3.1" n="2214" place="end"><p class="endnote" id="v.iii.xxxiv-p4" shownumber="no"> Nescio quem.</p></note> glorious angel, who
+21577: belonged to the superior God, the god (according to him,) of the law
+21578: and of Israel, affirming that he was fire.<note anchored="yes" id="v.iii.xxxiv-p4.1" n="2215" place="end"><p class="endnote" id="v.iii.xxxiv-p5" shownumber="no"> Igneum,
+21579: “consisted of fire.”</p></note>
+21580: Valentinus disseminated his Æons, and traced the sin of one
+21581: Æon<note anchored="yes" id="v.iii.xxxiv-p5.1" n="2216" place="end"><p class="endnote" id="v.iii.xxxiv-p6" shownumber="no"> “The
+21582: <i>ectroma</i>, or fall of Sophia from the Pleroma, from whom the
+21583: Creator was fabled to be descended” (Dodgson).</p></note> to the production
+21584: of God the Creator. To none, forsooth, except these, nor prior to
+21585: these, was revealed the truth of the Divine Nature; and they obtained
+21586: this especial honour and fuller favour from the devil, we cannot
+```
+
 ### ANF3 21653-21681
 ```
 21653: Apostolic Churches the Voice of the Apostles. Let the Heretics Examine
@@ -236,6 +257,46 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 21753: trust, and adjured (the trustees to be faithful to their
 21754: charge),<note anchored="yes" id="v.iii.xxxvii-p4.1" n="2249" place="end"><p class="endnote" id="v.iii.xxxvii-p5" shownumber="no"> Compare <scripRef id="v.iii.xxxvii-p5.1" osisRef="Bible:1Tim.5.21 Bible:1Tim.6.13 Bible:2Tim.2.14 Bible:2Tim.4.1-2Tim.4.4" parsed="|1Tim|5|21|0|0;|1Tim|6|13|0|0;|2Tim|2|14|0|0;|2Tim|4|1|4|4" passage="1 Tim. 5.21; 6.13; 2 Tim. 2.14; 4.1-4">1 Tim. v. 21, and vi. 13; 2 Tim. ii. 14, and iv.
 21755: 1–4</scripRef>.</p></note> even so do I hold
+```
+
+### ANF3 21801-21822
+```
+21801: with that which it emulates, it is as incredible to every man of sense
+21802: that we should seem to have introduced any corrupt text into the
+21803: Scriptures, existing, as we have been, from the very first, and being
+21804: the first, as it is that they have not in fact introduced it who are
+21805: both later in date and opposed (to the Scriptures). One man perverts
+21806: the Scriptures with his hand, another their meaning by his exposition.
+21807: For although Valentinus seems to use the entire volume,<note anchored="yes" id="v.iii.xxxviii-p7.1" n="2255" place="end"><p class="endnote" id="v.iii.xxxviii-p8" shownumber="no"> Integro
+21808: instrumento.</p></note> he has none the less laid violent hands on
+21809: the truth only with a more cunning mind and skill<note anchored="yes" id="v.iii.xxxviii-p8.1" n="2256" place="end"><p class="endnote" id="v.iii.xxxviii-p9" shownumber="no"> Callidiore
+21810: ingenio.</p></note> than Marcion. Marcion expressly and openly
+21811: used the knife, not the pen, since he made such an excision of the
+21812: Scriptures as suited his own subject-matter.<note anchored="yes" id="v.iii.xxxviii-p9.1" n="2257" place="end"><p class="endnote" id="v.iii.xxxviii-p10" shownumber="no"> That is, cutting out
+21813: whatever did not fall in with it (Dodgson).</p></note>
+21814: Valentinus, however, abstained from such excision, because he did not
+21815: invent Scriptures to square with his own subject-matter, but adapted
+21816: his matter to the Scriptures; and yet he took away more, and added
+21817: more, by removing the proper meaning of every particular word, and
+21818: adding fantastic arrangements of things which have no real
+21819: existence.<note anchored="yes" id="v.iii.xxxviii-p10.1" n="2258" place="end"><p class="endnote" id="v.iii.xxxviii-p11" shownumber="no"> Non comparentium
+21820: rerum. [Note, he says above “of <i>them</i>, the
+21821: Scriptures, we, Catholics, <i>have our being</i>.”
+21822: <i>Præscription</i> does not undervalue Scripture as the food and
+```
+
+### ANF3 22783-22792
+```
+22783: supreme powers to <i>two</i>? I would first ask, If there be two, why
+22784: not more? Because if <i>number</i> be compatible with the substance of
+22785: Deity, the richer you make it in number the better. Valentinus was more
+22786: consistent and more liberal; for he, having once imagined two deities,
+22787: Bythos and Sige,<note anchored="yes" id="v.iv.ii.v-p2.1" n="2381" place="end"><p class="endnote" id="v.iv.ii.v-p3" shownumber="no"> Depth and silence.</p></note> poured forth a
+22788: swarm of divine essences, a brood of no less than thirty Æons,
+22789: like the sow of Æneas.<note anchored="yes" id="v.iv.ii.v-p3.1" n="2382" place="end"><p class="endnote" id="v.iv.ii.v-p4" shownumber="no"> See Virgil,
+22790: <i>Æneid</i>, viii. 43, etc.</p></note> Now, whatever
+22791: principle refuses to admit several supreme beings, the same must reject
+22792: even two, for there is plurality in the very lowest number after
 ```
 
 ### ANF3 51010-51020
@@ -551,6 +612,23 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 
 ## OEH2 = `tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt`
 
+### OEH2 2088-2100
+```
+2088: quae  sub  apostolis  fuisse  ab  ipsis  apostolis  discimus.  Et  tamen 
+2089: nuUam  invenimus  institutionem  Unter  tot  diversitates  perYersitatum 
+2090: quae  de  deo  creatore  universorum  controversiam  ^^moveriL  Nemo 
+2091: alterum  deum  ausus  est  suspicari.  Facilius  de  filio  quam  de  patre 
+2092: haesitabatur,  .donec  Marcion  praeter  creatorem  alium  deum  solias 
+2093: bonitatis  induceret,  'Apelles  creatorem  ^angelum  nescio  quem  glo- 
+2094: riosum  supenoris  dei  faceret  deum  legis  et^Israelis,  illum  igneam 
+2095: affirmans',  Yalentinus  Aeonas  suos  spargeret  et  unius  Aeonis  ▼itium 
+2096: in  onginem  deduceret  dei  creatoris.  His  solis  et  his  primis  revelata 
+2097: ^est  veritas  divinitatis,  maiorem  scilicet  'dignationem  et  pleniorem 
+2098: gratiam  a  diabolo  consecutis,  ^qui  deum  sic  quoque  '  voluerit  aemulari, 
+2099: *ut  de  doctrinis  venenorum,  quod  ^^dominus  negavit,  ipse  Taceret 
+2100: discipulos  super  magistrum.  Eligant  igitur  sibi  tempora  universae 
+```
+
 ### OEH2 2276-2294
 ```
 2276: Ckrislo,  Chrittus  a  deo  tradidit,  constat  ratio  propositi  nostri%  de- 
@@ -714,6 +792,33 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 12233: chiae  nihil  obstrepit  et  oikonomiae  statum  protegit. 
 12234: 
 12235: 9.  Hanc  me  regulam   professum,   qua  inseparatos   ab  alter- 
+```
+
+### KRO 12461-12469
+```
+12461: alio:  domine,  quid  multiplicati  sunt  qui  comprimunt 
+12462: me?  sed  et  omnes  paene  psalmi,  <qui)  Christi  personam 
+12463: sustinent,  filium  ad  patrem  [id  est  Ghristum  ad  deum]  uerba 
+12464: facientem  repraesentant.  animaduerte  etiarn  spiritum  loquentem  lo 
+12465: ex  tertia  persona  de  patre  et  filio:  dixit  dominus  domino 
+12466: meo:  sede  ad  dexteram  meam,  donec  ponam  inimicos 
+12467: tuos  scabelium  pedumtuorum,  item  per  Esaiam:  haec 
+12468: d  i  c i  t  d  0  m  i n  u  s  d  0  m  i  n  0  m  e  0  C  h  r i  s  1 0,  item  per  eundem 
+12469: ad  patrem  de  filio:  domine,  quis  credidit  auditui  20 
+```
+
+### KRO 12493-12502
+```
+12493: distinctio  trinitatis  exponitur:  est  enim  ipse,  qui  pronuntiat, 
+12494: spiritus,  et  pater,  ad  quem  pronuntiat,  et  filius,  de  quo 
+12495: pronuntiat.  sic  et  cetera,  quae  nunc  ad  patrem  de  filio  uel 
+12496: 5  ad  filiura,  nunc  ad  filium  de  patre  uel  ad  patrem  [nunc]  a 
+12497: spiritu  pronuntiantur,  unamquamque  personam  in  sua  proprie- 
+12498: tate  constituunt. 
+12499: 
+12500: 12.   Si  te   adhuc   numerus   scandalizat  trinitatis    quasi  non 
+12501: conexae    in    unitate    simplici,    interrogo:    quomodo   unicus   et 
+12502: 
 ```
 
 ### KRO 12554-12566
@@ -924,6 +1029,19 @@ Cut by `tools/cut_source_excerpts.py` from the lines `Source_Sheet.md` and `Outl
 10307: appears to have been very limited. He must have had some acquaintance
 10308: with it, for he translates Hadrian’s rescript to Fundanus from
 10309: Latin into Greek, as he informs us in Bk. IV. chap. 8; but the
+```
+
+### EUS 29263-29271
+```
+29263: and a lover of evil, and leaves untried no manner of craft against men,
+29264: was again active in causing strange heresies to spring up against the
+29265: Church.<note place="end" n="1564" id="iii.x.xv-p2.2"><p class="endnote" id="iii.x.xv-p3"> Cf.
+29266: Bk. IV. chap. 7, note 3.</p></note> For some persons, like venomous
+29267: reptiles, crawled over Asia and Phrygia, boasting that Montanus was the
+29268: Paraclete, and that the women that followed him, Priscilla and
+29269: Maximilla, were prophetesses of Montanus.<note place="end" n="1565" id="iii.x.xv-p3.1"><p class="endnote" id="iii.x.xv-p4"> On
+29270: Montanus and the Montanists, see chap. 16.</p></note></p>
+29271: </div3>
 ```
 
 ## LACT = `lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt`

@@ -25,7 +25,8 @@ The live census `longDescription` grades D on the whole-text method (`Build/Mini
 5. Card (Sonnet): `tertullian-s-voice.card.json`, `Card_Edits.md`.
 6. Review 3, final check: FIX, card only; 4 card fixes and the optional brief MINOR ("For that teaching on marriage") applied word for word. Quotes: 4 SAME, 1 MINOR, 0 MEANING; release sets `secondReading` [0] minor, [1] [5] [6] same.
 7. Grade (`Grade/`): **C** (rigor C, craft B). Blind (`Grade/Blind_Result.md`): passes, B / C+ / B−.
-8. **Stopped for the manager and Mark:** the grade is under B. Mark signs off at C, or rules the fix pass below; a fix pass is new wording after review 3, so it goes to Mark, then a fresh grading run.
+8. Mark ruled the fix pass ("a", 2026-11-28); done ("Fix pass" below). Fresh grade (`Grade_2/`): **B** (rigor B, craft C). Blind (`Grade_2/Blind_Result.md`): passes, B / C+ / B. Mark's page: https://claude.ai/artifact/1N8JcMVx8FuXgYrAvokPZ8. Next: Mark's word on the page; release is the manager's.
+9. Earlier stop, now settled by the ruling: the grade is under B. Mark signs off at C, or rules the fix pass below; a fix pass is new wording after review 3, so it goes to Mark, then a fresh grading run.
 
 ## Handover (context limit and cost cap reached, 2026-11-28)
 
@@ -45,3 +46,24 @@ A fresh session picks up here. Brief, card and every review are final at commit 
 
 - **Length (Mark, 2026-11-28, via the manager):** "a": about 5:15, up to about 800 words, for this story only; tighten wording where nothing is lost. Lives: this story only.
 - **The heart's wording (manager, 2026-11-28):** no ruling needed; the narrowing goes on Mark's final page.
+
+## Fix pass (Mark, 2026-11-28, "a")
+
+Mark ruled one fix pass on the grade and blind-check findings, then a fresh grade, then his page. The two findings on "why" (the break from the prophets; the very few crossing over) fall away, because Augustine gives no reason; nothing is added there. New held lines are in `Outline.md`, beat 3 (Prescription 34, ANF3 21574–21582, OEH2 2092–2096; Against Marcion I.5, ANF3 22787–22788), and `Excerpts.md` was cut again. The card's `briefReferences` were brought into line with the brief.
+
+Old beside new, in brief order:
+
+| # | Old | New |
+|---|---|---|
+| 1 | At Carthage, in Roman Africa, about the year 197, Tertullian wrote to the governors who judged Christians for Rome. | At Carthage, in Roman Africa, around the year 200, Tertullian wrote to the governors who judged Christians for Rome. |
+| 2 | That letter was his Apology, a defense of Christians on trial. | Those lines open his Apology, a defense of Christians on trial. |
+| 3 | Marcion, as Tertullian tells it in another book, cut the Scriptures down to suit himself, and Valentinus kept them whole but bent their meaning. | Marcion, as Tertullian tells it in another book, taught that beside the Creator there was another god, who was only good. Valentinus told of a swarm of divine beings, and said the Creator came from the sin of one of them. Marcion cut the Scriptures down to suit himself, and Valentinus kept them whole but bent their meaning. |
+| 4 | There he answered them with a plea from the law courts, one that throws a case out before it is argued. | In that book he answered them with a plea from the law courts, one that throws a case out before it is argued. |
+| 5 | Then he came to believe the New Prophecy, a movement from Phrygia, in today's Turkey. | The New Prophecy had begun in Phrygia, in today's Turkey. |
+| 6 | Jerome, who wrote his life, says the envy and insults of the clergy of Rome drove him to it. Augustine says he went over to the prophets he had once argued against, and began to condemn second marriage as if it were sexual sin. | Jerome, who wrote his life, says the envy and insults of the clergy of Rome drove him to the New Prophecy. (Augustine's sentence moves to the end.) |
+| 7 | About two centuries after Tertullian, Augustine listed the Tertullianists among the heresies, the teachings he counted outside the true faith. For that teaching on marriage, he wrote, Tertullian became a heretic; later he broke from the prophets too and gathered meetings of his own. | About two centuries after Tertullian, Augustine wrote that many of his works, written with great eloquence, were still read. Yet he listed the Tertullianists among the heresies, the teachings he counted outside the true faith. Tertullian became a heretic, Augustine wrote, because he went over to the prophets he had once argued against, and began to condemn second marriage as if it were sexual sin. Later he broke from the prophets too and gathered meetings of his own. |
+| 8 | Yet Augustine opens that same entry by saying that many of Tertullian's works, written with great eloquence, were still being read. | (cut: the summing-up close; the story now ends on the building handed over) |
+
+Scorer after the pass: 813 words, grade 8.2 (names out 7.0), reading ease names out 77.2, pass.
+
+Fresh hand check (`Fix_Check.md`, Opus): FIX, card only; the brief needs no change (14 changed sentences, none blocking; listener count 0 blocking). Its one card change (`briefReferences` entry 3: "the faith handed from Christ to the apostles and their churches such as Rome" → "the churches the apostles founded such as Rome, which kept what the apostles taught") is applied word for word. Its note on two `Outline.md` Do-not-say lines that the pass had left stale (the Apology's "about 197"; Augustine's going-over in beat 4) is applied in the outline.

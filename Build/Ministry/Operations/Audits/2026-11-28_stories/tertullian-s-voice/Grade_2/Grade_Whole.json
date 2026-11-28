@@ -1,0 +1,63 @@
+[
+ {
+  "id": "tertullian-s-voice",
+  "name": "Tertullian",
+  "kind": "person",
+  "era": 1,
+  "batch": "rebuild 2026-11-28, fix pass",
+  "reference": false,
+  "words": 815,
+  "rigor": "B",
+  "rigor_load": 1.7,
+  "craft": "C",
+  "craft_load": 3.4,
+  "overall": "B",
+  "action": "OK to keep",
+  "findings": [
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Supporting",
+    "size": "small",
+    "weight": 1,
+    "quote": "Jerome, who wrote his life, says the envy and insults of the clergy of Rome drove him to the New Prophecy.",
+    "fix": "Answer in a clause, from the source: Envy of what, insults over what? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "unexplained where the story leans on it, still one clause to supply",
+    "why": "both readers"
+   },
+   {
+    "dim": "rigor",
+    "kind": "bare",
+    "band": "Passing",
+    "size": "small",
+    "weight": 1,
+    "quote": "Later he broke from the prophets too and gathered meetings of his own.",
+    "fix": "Answer in a clause, from the source: Why did he break from them? If the old source gives only the act, leave it as told and the finding falls.",
+    "reason": "a thing or act left unexplained on the way; one clause supplies it",
+    "why": "both readers"
+   },
+   {
+    "dim": "craft",
+    "kind": "bare",
+    "band": "any",
+    "size": "small",
+    "weight": 1,
+    "quote": "Later he broke from the prophets too and gathered meetings of his own.",
+    "fix": "Answer in a clause, from the source: why did he break from the prophets he had joined?",
+    "reason": "the listener lost a thing named without its explanation; one clause",
+    "why": ""
+   },
+   {
+    "dim": "craft",
+    "kind": "thread",
+    "band": "any",
+    "size": "medium",
+    "weight": 3,
+    "quote": "The church would forgive sins, he wrote, but it would be the church of the Spirit, through a spiritual man, and not the church that is a number of bishops.",
+    "fix": "Retell the sentence so the listener keeps hold of it: I lose whether Tertullian agreed the sinner could be forgiven or refused it, and what \"the church that is a number of bishops\" means, so his quarrel with the bishop is unclear",
+    "reason": "a sentence where the listener lost the thread: a failure to understand on one hearing",
+    "why": ""
+   }
+  ]
+ }
+]
