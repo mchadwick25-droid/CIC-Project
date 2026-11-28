@@ -1,0 +1,650 @@
+{
+  "otherNames": [
+    "Cyprianus",
+    "Thascius Cyprianus",
+    "Cyprian of Africa"
+  ],
+  "shortDescription": "Cyprian was bishop of Carthage in Roman Africa in the middle of the third century, a teacher of public speaking chosen bishop while still a new Christian, who led his church through persecution and plague. He taught that the church is one, quarreled with Stephen, bishop of Rome, over whether baptism given outside the church counted, and was put to the sword in 258.",
+  "knownFor": "Bishop of Carthage until he was put to the sword in 258. A teacher of public speaking who became bishop while still a new Christian, he led the church of Roman Africa through the persecution under Decius, the plague, the rival bishop Novatian at Rome and the quarrel with Stephen of Rome over baptism, in some eighty letters and in treatises such as On the Unity of the Catholic Church and On the Mortality. Both the Donatists and Augustine of Hippo later claimed him.",
+  "datesNote": "No ancient source gives the year of his baptism, the year he became bishop, the year of the plague or the year of On the Unity of the Church; Pontius says only that he was chosen bishop while still a new Christian. The persecution under Decius is dated 250, which is Widely Accepted; Eusebius tells it in Decius's reign and gives no year. The record of the council of eighty-seven bishops on baptism gives the day, 1 September, and no year. His first hearing, before the proconsul Paternus, was on 30 August, under the consuls Valerian for the fourth time and Gallienus for the third, which is 257; it ended in exile to Curubis. He was taken at his gardens on the Ides of September and tried the next day, 14 September, under the consuls Tuscus and Bassus, which is 258; the record of his trial gives both days. The years follow from the consuls the record names and are Widely Accepted.",
+  "placeNote": "Carthage, in Roman Africa, today's Tunisia. The council of 1 September gathered bishops from the province of Africa, Numidia and Mauretania. Exiled in 257 to Curubis. In 258 officers were sent to take him to Utica, another city, and he left his gardens for a while. He was tried before the governor on 14 September 258 and put to the sword in the field of Sextus, and his body was carried by night to a burial ground on the Mappalian road",
+  "role": "Bishop of Carthage; teacher of public speaking before his baptism; letter writer and church leader; martyr",
+  "briefSources": [
+    {
+      "title": "The Life and Passion of Cyprian, in Ante-Nicene Fathers vol. 5",
+      "author": "Pontius the deacon, as Jerome names him",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+    },
+    {
+      "title": "Letters (ed. Wilhelm Hartel, CSEL 3.2)",
+      "author": "Cyprian of Carthage",
+      "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+    },
+    {
+      "title": "On the Unity of the Catholic Church (ed. Hartel)",
+      "author": "Cyprian of Carthage",
+      "file": "cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt"
+    },
+    {
+      "title": "On the Mortality (ed. Hartel)",
+      "author": "Cyprian of Carthage",
+      "file": "cic/texts/cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt"
+    },
+    {
+      "title": "Opinions of the Bishops on baptizing heretics, the record of the council (ed. Hartel)",
+      "author": "Cyprian of Carthage",
+      "file": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt"
+    },
+    {
+      "title": "Acta Proconsularia of Cyprian, no. 13, in Ausgewählte Märtyrerakten (ed. Knopf and Krüger)",
+      "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men, chapter 67, in Nicene and Post-Nicene Fathers, second series, vol. 3",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "On Baptism, against the Donatists, in Nicene and Post-Nicene Fathers, first series, vol. 4",
+      "author": "Augustine of Hippo",
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+    },
+    {
+      "title": "Sermon 310, on the birthday of the martyr Cyprian, in Patrologia Latina vol. 38",
+      "author": "Augustine of Hippo",
+      "file": "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Date unknown",
+      "headline": "A teacher of public speaking, chosen bishop while still a new Christian",
+      "witness": "Pontius, Cyprian's deacon, who writes as an admirer, for his conversion and election; Jerome and Lactantius, long after, for his earlier life",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "He is first known as a teacher of public speaking, which the sources call rhetoric.",
+          "reference": "Jerome, Lives of Illustrious Men 67; Lactantius, Divine Institutes V.1",
+          "note": "Lactantius writes about fifty years after his death and Jerome about 135. Pontius passes over his life before baptism."
+        },
+        {
+          "when": "Date unknown",
+          "text": "A presbyter named Caecilius converts him, and he gives his wealth to the poor.",
+          "reference": "Pontius, Life of Cyprian 2 and 4; Jerome, Lives of Illustrious Men 67",
+          "note": "Pontius says he dispensed the price of whole estates. Jerome says he gave all he had to the poor and took his surname from Caecilius."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes in To Donatus that, lying in darkness, he had thought it hard that anyone could be born again through the washing of saving water.",
+          "reference": "Cyprian, To Donatus 3"
+        },
+        {
+          "when": "Date unknown",
+          "text": "The whole people of Carthage want him as their bishop, and a crowd besieges the doors of his house while he gives place to older men.",
+          "reference": "Pontius, Life of Cyprian 5"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He is chosen bishop while still a new Christian.",
+          "reference": "Pontius, Life of Cyprian 5",
+          "note": "Pontius says some resisted him, and that he later counted them among his closest friends."
+        }
+      ]
+    },
+    {
+      "when": "250",
+      "headline": "Under Decius he withdraws and leads his church by letter",
+      "lines": [
+        {
+          "when": "250",
+          "text": "The emperor Decius begins a persecution of the churches, in which Fabianus, bishop of Rome, is put to death.",
+          "reference": "Eusebius, Church History VI.39",
+          "note": "The year is Widely Accepted; Eusebius gives the reign, not the year."
+        },
+        {
+          "when": "250",
+          "text": "Many who are called before the magistrates give way and sacrifice; some run to the forum of their own accord.",
+          "reference": "Cyprian, On the Lapsed 8"
+        },
+        {
+          "when": "250",
+          "text": "The people demand him again and again with violent shouting. He withdraws for a while, thinking less of his own safety than of the peace of the brothers, so that his presence will not stir the riot further, and he leads the church by letter.",
+          "reference": "Cyprian, Letter 20.1",
+          "note": "He says his letters of those months number thirteen. This is his own account, sent to Rome."
+        },
+        {
+          "when": "Date unknown",
+          "text": "A public notice names him as bishop of the Christians and calls on anyone holding his goods to come forward; he says he was demanded again and again for the lion in the circus and the amphitheater.",
+          "reference": "Cyprian, Letters 66.4 and 59.6",
+          "note": "Pontius also says he was often demanded for the lions (Life of Cyprian 7)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "The clergy at Rome write to the clergy at Carthage that he has withdrawn for a certain reason and has done rightly. In the same letter they speak of the good shepherd who lays down his life and the hired man who runs from the wolf, and say they do not want Carthage's clergy found hired men.",
+          "reference": "Letter 8, the clergy at Rome to the clergy at Carthage, in Cyprian's letters",
+          "note": "Whether the hired man passage was meant as a reproach is not settled."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Cyprian writes to the clergy at Rome that what is done at Carthage has been reported to them less than plainly and faithfully, and gives his account of his acts.",
+          "reference": "Cyprian, Letter 20.1"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Pontius asks whether the cause of his withdrawal was fear, and answers that he suffered afterward, and would have run from that too had he run before.",
+          "reference": "Pontius, Life of Cyprian 7",
+          "note": "A defense by an admirer."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He will not claim the question of those who gave way for himself alone; it waits until peace lets the bishops meet and examine each case.",
+          "reference": "Cyprian, Letter 26"
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "A rival bishop at Rome, and the book On the Unity of the Church",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Novatian is made a second bishop at Rome. Learning of it, Cyprian bars Novatian's envoys from communion, calling the ordination unlawful and against the church.",
+          "reference": "Cyprian, Letter 44.1"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes to Roman confessors who had agreed to another bishop being made: a second church set up, Christ's members torn apart; come back to the mother you came from.",
+          "reference": "Cyprian, Letter 46.1"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He sends them his book on the unity of the church, saying they now fulfill in deeds what he wrote in words.",
+          "reference": "Cyprian, Letter 54.4",
+          "note": "No ancient source gives the year of the book."
+        },
+        {
+          "when": "Date unknown",
+          "text": "The book: the church is one as a tree's many branches are one trunk, and break a branch off and it cannot bud. The office of bishop is one, and each bishop holds his share of it in full. She is one mother, from whose womb Christians are born and by whose milk they are fed.",
+          "reference": "Cyprian, On the Unity of the Catholic Church 5",
+          "note": "Chapter 4 has come down in two forms; see Open questions."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Whoever has left the church of Christ is a stranger, unholy, an enemy; whoever does not have the Church as mother cannot have God as Father.",
+          "reference": "Cyprian, On the Unity of the Catholic Church 6"
+        }
+      ]
+    },
+    {
+      "when": "Afterwards, in Pontius's word",
+      "headline": "A plague at Carthage, and what Cyprian said in it",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "A dreadful plague breaks out over the whole city. All are shuddering and fleeing, shunning the contagion and exposing their own friends.",
+          "reference": "Pontius, Life of Cyprian 9",
+          "note": "Pontius says only afterwards, and no ancient source held here gives a year."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He gathers the people and urges mercy: it is nothing wonderful to care for our own only; the perfect one loves even his enemies. Pontius says good was done to all, not to the household of faith only.",
+          "reference": "Pontius, Life of Cyprian 9 and 10",
+          "note": "The care for the pagan sick rests on Pontius; On the Mortality does not mention them."
+        },
+        {
+          "when": "Date unknown",
+          "text": "In his address On the Mortality he says some are troubled that the sickness strikes Christians as it strikes the pagans, and he names its signs: the bowels loosened into a flow, a fire in the throat, vomiting, eyes red with blood, and feet or limbs lost to rot.",
+          "reference": "Cyprian, On the Mortality 8 and 14"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He says the plague searches out how just each person is: whether the healthy serve the sick, relatives love their kin, masters pity their sick slaves and doctors stay with those who plead.",
+          "reference": "Cyprian, On the Mortality 16"
+        },
+        {
+          "when": "Date unknown",
+          "text": "He calls these things trainings for believers, not deaths, and the dead not lost but sent before.",
+          "reference": "Cyprian, On the Mortality 16 and 20"
+        }
+      ]
+    },
+    {
+      "when": "Date unknown",
+      "headline": "The quarrel with Stephen of Rome over baptism",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "A correspondent asks whether those who come from Novatian, after his unholy washing, must be baptized in the church.",
+          "reference": "Cyprian, Letter 69.1",
+          "note": "The question is whether a washing given by a group outside the church counts when the person comes over to it."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Cyprian writes that there is one baptism, in the church, because the church is one and there can be no baptism outside her; those who come from heretics are not baptized again among us but baptized, since they received nothing where there was nothing.",
+          "reference": "Cyprian, Letter 71.1",
+          "note": "He cites an older African council under Agrippinus (Letter 73.3); who first held the rule is told differently (see Open questions)."
+        },
+        {
+          "when": "Date unknown",
+          "text": "He writes to Stephen that he forces no one and lays down no law, since each bishop has free choice in running his church and will answer to the Lord.",
+          "reference": "Cyprian, Letter 72.3"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Seventy-one bishops of Africa and Numidia, meeting together, again decide that there is one baptism, in the catholic church.",
+          "reference": "Cyprian, Letter 73.1"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Stephen's letter, as Cyprian quotes it: if any come from any heresy, let nothing new be done beyond what was handed down; hands are to be laid on them for repentance, since the heretics themselves do not baptize those who come to them but only admit them to communion.",
+          "reference": "Cyprian, Letter 74.1",
+          "note": "Stephen's own letter is lost. Cyprian calls it proud, beside the point or self-contradicting, and Stephen's view an error."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Eusebius says Stephen, thinking it needless to add an innovation against the tradition held from the beginning, was very indignant.",
+          "reference": "Eusebius, Church History VII.3",
+          "note": "Eusebius writes about seventy years later."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Firmilian, bishop of Caesarea in Cappadocia, writes to Cyprian that Stephen would not admit the African bishops even to talk, told the brothers to give them neither roof nor lodging, boasted of the place of his see and the succession from Peter, and called Cyprian a false Christ and a false apostle.",
+          "reference": "Cyprian's Letter 75 (Firmilian to Cyprian), 25",
+          "note": "Firmilian takes Cyprian's side."
+        },
+        {
+          "when": "1 September",
+          "text": "Eighty-seven bishops from Africa, Numidia and Mauretania meet at Carthage with presbyters, deacons and much of the people. Cyprian says each is to give his view, that they judge no one and cut no one off from communion for thinking otherwise, and that none sets himself up as a bishop of bishops.",
+          "reference": "Opinions of the Bishops on baptizing heretics, the opening",
+          "note": "The record gives the day and no year. Whether the words were aimed at Stephen is not settled."
+        }
+      ]
+    },
+    {
+      "when": "30 August 257",
+      "headline": "A first hearing, and exile to Curubis",
+      "witness": "The Acts of Cyprian, a Christian account in the form of the court's questions and answers",
+      "lines": [
+        {
+          "when": "30 August 257",
+          "text": "Before the proconsul Paternus, he is told that the emperors Valerian and Gallienus order those who do not honor Rome's religion to take up the Roman rites. He answers that he is a Christian and a bishop and knows no gods but the one true God.",
+          "reference": "Acts of Cyprian 1",
+          "note": "The year follows from the consuls the record names."
+        },
+        {
+          "when": "30 August 257",
+          "text": "Asked to name his presbyters, he answers that the laws forbid informers.",
+          "reference": "Acts of Cyprian 1"
+        },
+        {
+          "when": "30 August 257",
+          "text": "He is sent into exile at Curubis.",
+          "reference": "Acts of Cyprian 1 and 2"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Paternus is succeeded by the proconsul Galerius Maximus, who has Cyprian called back from exile.",
+          "reference": "Acts of Cyprian 2"
+        }
+      ]
+    },
+    {
+      "when": "258",
+      "headline": "The new order, the last letter and the arrest",
+      "lines": [
+        {
+          "when": "258",
+          "text": "Valerian writes to the senate that bishops, presbyters and deacons are to be put to death at once, and Xistus, bishop of Rome, is put to death in a cemetery on 6 August with four deacons.",
+          "reference": "Cyprian, Letter 80.1",
+          "note": "The year is Widely Accepted."
+        },
+        {
+          "when": "Date unknown",
+          "text": "At his gardens he learns that officers have been sent to take him to Utica. On friends' advice he leaves for a while, because a bishop should confess his faith in the city where he leads the church, before all his people, and he waits in hiding for the governor's return to Carthage.",
+          "reference": "Cyprian, Letter 81",
+          "note": "Pontius says friends offered places to withdraw to and he did not consent (Life of Cyprian 14). The Acts say he stayed at his gardens ex sacro praecepto, a phrase the sources do not settle (see Open questions)."
+        },
+        {
+          "when": "13 September 258",
+          "text": "Two officers come to his gardens and take him. He is held overnight in an officer's house, where the whole people of the brothers gather, and he has the young women guarded.",
+          "reference": "Acts of Cyprian 2",
+          "note": "The record dates the arrest to the Ides of September under the consuls Tuscus and Bassus."
+        }
+      ]
+    },
+    {
+      "when": "14 September 258",
+      "headline": "The trial, the sentence and his death",
+      "witness": "The Acts of Cyprian; Pontius where named",
+      "lines": [
+        {
+          "when": "14 September 258",
+          "text": "Next morning, before the governor Galerius Maximus, he answers yes to Are you Thascius Cyprianus. Told the emperors have ordered him to perform the rites, he answers that he does not.",
+          "reference": "Acts of Cyprian 3"
+        },
+        {
+          "when": "14 September 258",
+          "text": "The sentence names him an enemy of the Roman gods and sacred rites, who had gathered many into an impious conspiracy, and says his blood will make the law hold; he is to be put to the sword. He says, Thanks be to God.",
+          "reference": "Acts of Cyprian 4"
+        },
+        {
+          "when": "14 September 258",
+          "text": "The crowd of brothers cries that they will be beheaded with him, and a great crowd follows him.",
+          "reference": "Acts of Cyprian 5"
+        },
+        {
+          "when": "14 September 258",
+          "text": "In the field of Sextus he takes off his cloak, kneels in prayer, gives his tunic to the deacons and stands in his linen. He has twenty-five gold pieces given to the executioner and covers his eyes with his own hand; when he cannot tie the cloth, the presbyter Julian and the subdeacon Julian tie it.",
+          "reference": "Acts of Cyprian 5",
+          "note": "Pontius says he bound his eyes with his own hands, that people climbed into the trees to see, and that the executioner's trembling hand was strengthened from above (Life of Cyprian 18); the last is Pontius's reading."
+        },
+        {
+          "when": "14 September 258",
+          "text": "His body is laid nearby because of the pagans' curiosity, and that night it is carried with candles and torches to a burial ground on the Mappalian road.",
+          "reference": "Acts of Cyprian 5"
+        },
+        {
+          "when": "14 September 258",
+          "text": "The record dates his death to the eighteenth day before the Kalends of October, under Valerian and Gallienus.",
+          "reference": "Acts of Cyprian 6"
+        },
+        {
+          "when": "14 September 258",
+          "text": "Pontius says he was the first in Africa to stain his priestly crown with the blood of martyrdom: no earlier bishop of Carthage is recorded to have come to suffering.",
+          "reference": "Pontius, Life of Cyprian 19",
+          "note": "A claim of Pontius's, who writes as an admirer."
+        }
+      ]
+    },
+    {
+      "when": "After his death",
+      "headline": "Claimed by the Donatists, answered by Augustine, and kept as a martyr",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "Lactantius calls him distinguished and renowned, and Jerome says his works are more conspicuous than the sun.",
+          "reference": "Lactantius, Divine Institutes V.1; Jerome, Lives of Illustrious Men 67",
+          "note": "Written about fifty and about 135 years after his death."
+        },
+        {
+          "when": "314",
+          "text": "The bishops at Arles rule on the African practice of baptizing again: one who comes from heretics and was baptized in the Father, the Son and the Holy Spirit is to have only hands laid on him.",
+          "reference": "Council of Arles, canon 8",
+          "note": "The year is Widely Accepted."
+        },
+        {
+          "when": "About 140 years after his death",
+          "text": "Augustine tells the Donatists that they bring up Cyprian's letters, opinion and council against us, and to cease citing his authority for repeating baptism and cling with us to his example of keeping unity.",
+          "reference": "Augustine, On Baptism II.3 and II.7",
+          "note": "The interval is a rough reckoning."
+        },
+        {
+          "when": "About 140 years after his death",
+          "text": "Augustine quotes the bishop-of-bishops opening and says Cyprian allows him to hold opinions differing from his own without losing the right of communion: what could be more kind, what more humble.",
+          "reference": "Augustine, On Baptism III.3"
+        },
+        {
+          "when": "About 140 years after his death",
+          "text": "Augustine preaches on Cyprian's birthday, the martyr's feast on the day he died, kept through all Africa. Where he was put to death a table for God stands, called Cyprian's table because there he was offered up, and worshippers now ring the place where persecutors ringed him.",
+          "reference": "Augustine, Sermon 310"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Vincent of Lérins writes that the authors of the doctrine of baptizing again are judged Catholics and the followers heretics, the teachers absolved and the disciples condemned.",
+          "reference": "Vincent of Lérins, Commonitorium 6, section 18",
+          "note": "Written long after, from Stephen's side."
+        },
+        {
+          "when": "533",
+          "text": "Procopius writes that Cyprian is revered above all others by the Carthaginians, who have built a temple to him on the sea-shore and keep a festival there called the Cypriana; the Vandals took the temple from the Christians.",
+          "reference": "Procopius, Vandalic War III.21",
+          "note": "Procopius writes about 275 years after Cyprian's death."
+        }
+      ]
+    }
+  ],
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "some eighty letters from him and to him, numbered 1 to 81 in Hartel's edition, which show how a third-century church was run: his reply from hiding to the clergy at Rome, his refusal of Novatian's envoys, Stephen's letter as he quotes it, a letter from a bishop in Cappadocia on Stephen, and his last letter on where he would meet his arrest. On the Lapsed describes those who gave way under Decius: some ran to the forum of their own accord to sacrifice, and others who kept their hands from sacrifice stained their conscience with certificates"
+    },
+    {
+      "title": "On the Unity of the Catholic Church",
+      "about": "written at the time of Novatian's break, as his own letter to the Roman confessors says. The church is one as the sun's rays are one light, a tree's branches one trunk and a spring's streams one source; break a branch from the tree and it cannot bud, cut a stream from its spring and it dries up. She is one mother, from whose womb Christians are born, by whose milk they are fed and by whose spirit they are given life. Chapter 6 says that whoever does not have the Church as mother cannot have God as Father"
+    },
+    {
+      "title": "On the Mortality",
+      "about": "his own address on the plague. It names its effects: the bowels loosened into a flow, a fire burning in the throat, constant vomiting, eyes red with blood, and feet or limbs lost to rot. It says the plague searches out how upright each person is, asking whether the healthy serve the sick, relatives love their kin, masters pity their sick slaves and doctors stand by those who beg for help; it also calls these things trainings for believers, not deaths"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Donatists of Africa, who had broken from the rest of the church, quoted his letters and his council to defend baptizing again. About 140 years after his death Augustine of Hippo told them to stop citing his authority for repeating baptism and to hold with him to Cyprian's example of keeping unity. He quoted the line about a bishop of bishops again and again, and said that though Cyprian held a different view on baptism, he did not forsake the unity of the church.",
+      "In 314 the bishops at Arles ruled on the African practice of baptizing again: one who came from heretics and had been baptized in the Father, the Son and the Holy Spirit was to have only hands laid on him. The ruling speaks of the Africans and names no one.",
+      "About 434, Vincent of Lérins wrote of the same quarrel that the authors of the doctrine of baptizing again are judged Catholics and the followers heretics, the teachers absolved and the disciples condemned.",
+      "In one sermon Augustine speaks of the birthday of blessed Cyprian, the day of his death, and in another says that the birthday of Cyprian the martyr is greatly kept through all Africa.",
+      "Telling of the year 533, Procopius wrote that Cyprian, a holy man, was revered above all others by the people of Carthage, who had built a notable temple to him on the sea-shore and kept a festival there that they called the Cypriana. He adds that the Vandals took the temple from the Christians.",
+      "A traveler in a work by Sulpicius Severus says he longed to go to Carthage to worship at the tomb of the martyr Cyprian."
+    ],
+    "remembered": [
+      "Pontius says he was the first bishop of Carthage to die a martyr, and that no earlier bishop of the city is recorded to have come to suffering; Coxe, the American editor, adds that he was the first of the province.",
+      "Lactantius, about fifty years later, calls him distinguished and renowned and says he had sought great glory from the art of oratory. Jerome says his works are more conspicuous than the sun. Pontius thought he would probably never cease to speak to the end of the world."
+    ]
+  },
+  "uncertain": [
+    "His death and his hearings are told by a Christian account built on the court record, which survives in Latin in the Library in the printings of Knopf and Krüger and of Gebhardt. His life is told by Pontius, the deacon who shared his exile, as open praise. Jerome says Pontius wrote the Life; the Life itself is unsigned, and Hartel's title page says only that it is commonly attributed to him.",
+    "His baptism and his election. Pontius says he was chosen to the episcopate while still a new Christian, and that some resisted him. No ancient source gives the years. Jerome says that after he became a Christian he gave all he had to the poor and was soon made presbyter and bishop; Pontius says he sold whole estates for the poor. In To Donatus, his own words, he says he had once thought it hard that a man could be born again.",
+    "His name. Jerome says he took his surname from the presbyter Caecilius, who persuaded him to become a Christian. Pontius says only that Caecilius converted him.",
+    "Before he was a Christian. Jerome and Lactantius agree that he was first known as a teacher of rhetoric. Pontius passes over his earlier life.",
+    "His hiding under Decius, and the charge. Cyprian says that when the people had often demanded him with violent clamor he withdrew for a while, thinking less of his own safety than of the public peace of the brothers, and that he sent thirteen letters in that time; he later says he was named in a public notice with his title of bishop added and was called for again and again to the lion in the circus, and Pontius also says he was often demanded for the lions. The clergy at Rome, whose bishop Fabian had just died, wrote to the clergy of Carthage that he had withdrawn for a certain reason and had acted rightly, and in the same letter spoke of the good shepherd and the hired man who runs from the wolf. Whether the hired man passage was meant as a reproach is not settled. Cyprian answered that his acts had been reported to Rome less than plainly and faithfully; the Edinburgh English reads somewhat garbled and untruthful. Pontius defends him at length, asking whether the cause of his withdrawal was fear when he suffered later.",
+    "The lapsed. Cyprian would not settle the return of those who had given way by himself; he promised to come to a meeting of bishops after Easter, and the councils of 251 took the matter up.",
+    "What the plague address says and Pontius says. Pontius says Cyprian urged care for all, not only for believers. On the Mortality tests whether the healthy serve the sick but does not mention pagans. The care for the pagan sick rests on Pontius.",
+    "The Unity of the Church, chapter 4, has come down in two forms. Hartel prints a text without the words that primacy is given to Peter and without the chair of Peter, and puts them in his notes as found in some manuscripts. Whether Cyprian wrote both forms, or the longer one was added later, is disputed among modern readers.",
+    "Who first held that baptism must be repeated. Eusebius says Cyprian was the first. Cyprian says an African council under Agrippinus had decided it long before, and Augustine also names Agrippinus. Vincent of Lérins, about 434, writing from Stephen's side, calls Agrippinus the first who held it and gives Stephen's rule as let there be no innovation. An anonymous treatise on re-baptism, printed with his works in the Edinburgh edition, argues against his side; it is by another hand.",
+    "Stephen of Rome. His letter is lost; his words are held only as Cyprian quotes them, and Cyprian calls the letter proud, or beside the point, or self-contradictory, and Stephen's view an error. Eusebius says Stephen was very indignant, and that Xystus succeeded him after two years. What is told of Stephen's treatment of the African envoys comes from Firmilian, bishop of Caesarea in Cappadocia, who was on Cyprian's side: that he would not let them speak with him, told the brothers to give them no roof or lodging, and called Cyprian a false Christ and a false apostle. Firmilian also writes that Stephen boasts of the place of his episcopate and says he holds the succession from Peter. No letter or record of a settlement between the two is held; Pontius calls Xystus, Stephen's successor at Rome, the good and peace-making priest.",
+    "The line about a bishop of bishops, which Cyprian spoke in opening the council of eighty-seven bishops. Augustine reads it as kindness and humility. Whether it was aimed at Stephen is not settled. The record of the council gives the day, 1 September, and no year.",
+    "His last hiding. In his last letter Cyprian says that officers were sent to take him to Utica, and that on friends' advice he left his gardens for a while, because a bishop should declare his faith in the city where he leads the church and honor all his people by confessing before them. Pontius says friends offered places to withdraw to, and that he did not consent. The account of his death says that after returning from Curubis he stayed at his gardens, expecting every day that they would come for him. Its phrase for why he stayed, ex sacro praecepto, can be read as by imperial order or as by a holy command, and the sources do not settle which.",
+    "How he died. The account says he covered his eyes with his own hand, and that when he could not tie the cloths the presbyter Julian and the subdeacon Julian tied them; Pontius says he bound his eyes with his own hands. The account says he had twenty-five gold pieces given to the executioner. Pontius says the executioner's hand shook until it was strengthened from above, which is Pontius's reading. Theodoret, long after, says Cyprian found a death in the fire; the account of his trial does not say so, and it gives 14 September 258 for the death. Pontius says people climbed into the trees to see.",
+    "That he read Tertullian every day and called him the master comes from Jerome, who had it from an old man, Paul of Concordia, who said that as a very young man he had met Cyprian's aged secretary at Rome. Jerome's Latin says so; the English translation wrongly makes Paul himself the secretary. It is hearsay at two removes, set down more than 130 years after Cyprian's death.",
+    "The Cypriana and the shrines. Augustine and Procopius are late witnesses to his feast, about 140 and 275 years after his death. No source held here says who keeps his feast today."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters (ed. Wilhelm Hartel, CSEL 3.2)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+      },
+      {
+        "title": "On the Unity of the Catholic Church (ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt"
+      },
+      {
+        "title": "On the Mortality (ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt"
+      },
+      {
+        "title": "On the Lapsed (ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt"
+      },
+      {
+        "title": "To Donatus (ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_ad-donatum-lat_hartel1868-csel3-tei.txt"
+      },
+      {
+        "title": "Opinions of the Bishops on baptizing heretics, the record of the council of 256 (ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt"
+      },
+      {
+        "title": "Letters and treatises, in Ante-Nicene Fathers vol. 5 (English tr. Ernest Wallis, American ed. A. Cleveland Coxe)",
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Life and Passion of Cyprian, in Ante-Nicene Fathers vol. 5 (English)",
+        "author": "Pontius the deacon, as Jerome names him; the Life itself is unsigned, and Hartel's title page says only that it is commonly attributed to him",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Acta Proconsularia of Cyprian, no. 13, in Ausgewählte Märtyrerakten (ed. Knopf and Krüger)",
+        "author": null,
+        "date": "1929",
+        "language": "Latin",
+        "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+      },
+      {
+        "title": "Acta of Cyprian, in Acta martyrum selecta (ed. Gebhardt)",
+        "author": null,
+        "date": "1902",
+        "language": "Latin",
+        "file": "cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt"
+      },
+      {
+        "title": "Life of Cyprian and the Acta Proconsularia, in Hartel's CSEL 3.3 (a damaged scan)",
+        "author": "commonly attributed to Pontius the deacon, as Hartel's title page says",
+        "date": "1871",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+      },
+      {
+        "title": "On Baptism, against the Donatists, in Nicene and Post-Nicene Fathers, first series, vol. 4 (English tr. J. R. King)",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+      },
+      {
+        "title": "Sermons on the birthday of the martyr Cyprian, in Patrologia Latina vol. 38",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt"
+      },
+      {
+        "title": "Sermons found after the Maurists (ed. Germain Morin)",
+        "author": "Augustine of Hippo",
+        "date": "1930",
+        "language": "Latin",
+        "file": "cic/texts/augustine_sermones-post-maurinos-reperti-lat_morin1930.txt"
+      },
+      {
+        "title": "Church History, in Nicene and Post-Nicene Fathers, second series, vol. 1 (English tr. A. C. McGiffert)",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, and Theodoret's letters, in Nicene and Post-Nicene Fathers, second series, vol. 3 (English)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Divine Institutes, in Ante-Nicene Fathers vol. 7 (English)",
+        "author": "Lactantius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+      },
+      {
+        "title": "Vandalic War (English tr. H. B. Dewing)",
+        "author": "Procopius of Caesarea",
+        "date": "1916",
+        "language": "English translation",
+        "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt"
+      },
+      {
+        "title": "Commonitorium, and Sulpicius Severus, in Nicene and Post-Nicene Fathers, second series, vol. 11 (English)",
+        "author": "Vincent of Lérins",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, ch. 53, on Tertullian (Migne, Patrologia Latina 23)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+      },
+      {
+        "title": "Canons of the council of Arles, in Die Kanones der wichtigsten altkirchlichen Concilien (ed. Friedrich Lauchert)",
+        "author": "Council of Arles",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Pontius, Life of Cyprian, in the English of the Ante-Nicene Fathers: the people crowding the doors of the house, his stepping aside for older men, and the deacon who writes as an admirer; the argument that fear was not the cause of his withdrawal; the dreadful plague that broke out over the whole city.",
+    "Jerome, Lives of Illustrious Men 67: he had once been a teacher of rhetoric.",
+    "Letter 20 (Hartel's numbering), Cyprian to the clergy at Rome: the crowds demanding him with violent shouting, his withdrawal to keep the peace, and his leading the church by letter.",
+    "Letter 8, the clergy at Rome to the clergy at Carthage: the good shepherd who lays down his life and the hired man who runs from the wolf.",
+    "Letters 44 and 46: Novatian made bishop against the church, and another church set up.",
+    "On the Unity of the Catholic Church, chapter 6: whoever does not have the Church as mother cannot have God as Father; chapter 5, the one mother from whose womb Christians are born and by whose milk they are fed.",
+    "On the Mortality, chapter 8, why he spoke, and chapter 16: the questions on the healthy and the sick, relatives, masters and doctors.",
+    "Letter 71, Cyprian to a colleague: one baptism because the church is one; Letter 74, Stephen's letter as Cyprian quotes it, to keep to what was handed down, with hands laid on those who come.",
+    "Opinions of the Bishops, the opening of the council of eighty-seven bishops held on 1 September: no one of us sets himself up as a bishop of bishops.",
+    "Letter 81, his last letter, on leaving his gardens when officers were sent to take him to Utica, and on waiting in hiding for the governor's return to Carthage.",
+    "Acta Proconsularia of Cyprian: the refusal of the Roman rites, the sentence to the sword, Thanks be to God, the cloth tied over his eyes by the two Julians.",
+    "Augustine of Hippo, On Baptism, against the Donatists, books 2 and 3: the Donatists' use of Cyprian and Augustine's reply, to hold with him to the example of keeping unity.",
+    "Augustine of Hippo, Sermon 310, on the birthday of the martyr Cyprian: the feast kept through all Africa, and the table at the place where he was put to death.",
+    "World census, Latin Pastoral Congregations: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "He is a stranger, he is unholy, he is an enemy. The one who does not have the Church as mother cannot have God as Father.",
+      "printed": "He is a stranger; he is profane; he is an enemy. He can no longer have God for his Father, who has not the Church for his mother.",
+      "work": "Cyprian, On the Unity of the Catholic Church, ch. 6, English of the Ante-Nicene Fathers",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "42320-42322",
+      "original": "alienus est, profanus est, hostis est. habere non potest Deum patrem qui ecclesiam non habet matrem.",
+      "originalFile": "cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt",
+      "originalLines": "363-365",
+      "uncertain": "The English print has no longer, which is not in the Latin; the modern English follows the Latin. The Latin profanus is rendered unholy, where the print says profane."
+    },
+    {
+      "modern": "This plague and pestilence, which seems so dreadful and deadly, searches out how just each person is. It tests the minds of the human race. Do the healthy serve the sick? Do relatives love their kin as they ought? Do masters pity their sick slaves? Do doctors not abandon the sick who plead with them?",
+      "printed": "pestilence and plague which seems horrible and deadly, searches out the righteousness of each one, and examines the minds of the human race, to see whether they who are in health tend the sick; whether relations affectionately love their kindred; whether masters pity their languishing servants; whether physicians do not forsake the beseeching patients",
+      "work": "Cyprian, On the Mortality, ch. 16, English of the Ante-Nicene Fathers",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "47052-47057",
+      "original": "pestis ista et lues quae horribilis et feralis uidetur explorat iustitiam singulorum et mentes humani generis examinat, an infirmis seruiant sani, an propinqui cognatos pie diligant, an misereantur seruorum languentium domini, an deprecantes aegros non deserant medici",
+      "originalFile": "cic/texts/cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt",
+      "originalLines": "584-588",
+      "uncertain": "The Latin clauses begin with an, whether, and the modern English asks them as questions. The Latin servi are slaves, where the English print says servants, a word whose modern sense misleads."
+    },
+    {
+      "modern": "It remains for each of us to say what we think on this matter. We judge no one, and we cut no one off from communion if he thinks otherwise. For none of us sets himself up as a bishop of bishops. None of us drives his colleagues to obey by a tyrant's terror.",
+      "printed": "It remains that we severally declare our opinion on this subject, judging no one, nor depriving any one of the right of communion if he differ from us. For no one of us sets himself up as a bishop of bishops, or, by tyrannical terror, forces his colleagues to a necessity of obeying",
+      "work": "Cyprian, opening of the council on baptism, in Augustine, On Baptism, against the Donatists, book 2, English",
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "lines": "11292-11293",
+      "original": "re singuli quid sentiamus proferamus neminem iudicantes aut a iure communicationis aliquem si diuersum senserit amouentes. neque enim quisquam nostrum episcopum se episcoporum constituit aut tyrannico terrore ad obsequendi necessitatem collegas suos adigit",
+      "originalFile": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt",
+      "originalLines": "138-142",
+      "uncertain": "We judge no one renders the Latin participle iudicantes, judging no one. The original given starts at re singuli; the opening words, superest ut de hac ipsa, stand at line 121, with Hartel's notes between."
+    },
+    {
+      "modern": "Thanks be to God.",
+      "printed": "Deo gratias.",
+      "work": "Acta Proconsularia of Cyprian, the sentence, Latin, in Knopf and Krüger no. 13",
+      "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+      "lines": "4910-4911",
+      "uncertain": "No English of this record is held. Gebhardt's print reads the same Latin at lines 6625-6626.",
+      "secondReading": "checked at card"
+    }
+  ]
+}
