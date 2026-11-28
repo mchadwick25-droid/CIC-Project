@@ -23,7 +23,6 @@ On the kit: 29. To do: 0.
 | Dionysius of Alexandria (`dionysius-of-alexandria`) | person | 7 | yes |
 | Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 7 | yes |
 | Novatian (`novatian`) | person | 7 | yes |
-| Peter of Alexandria (`peter-of-alexandria`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
 | Anatolius of Alexandria and Laodicea (`anatolius-of-alexandria-and-laodicea`) | person | 12 | yes |
 | Clement of Alexandria (`clement-of-alexandria`) | person | 12 | yes |
@@ -34,6 +33,7 @@ On the kit: 29. To do: 0.
 | Methodius of Olympus (`methodius-of-olympus`) | person | 12 | yes |
 | Origen (`origen`) | person | 12 | yes |
 | Pamphilus of Caesarea (`pamphilus-of-caesarea`) | person | 12 | yes |
+| Peter of Alexandria (`peter-of-alexandria`) | person | 12 | yes |
 | Pontius the Deacon (`pontius-the-deacon`) | person | 12 | yes |
 | Suetonius (`suetonius`) | person | 12 | yes |
 | Tacitus (`tacitus`) | person | 12 | yes |

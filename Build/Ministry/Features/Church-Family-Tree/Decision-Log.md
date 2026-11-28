@@ -6478,3 +6478,15 @@ Mark, 2026-11-27: "can we start a thread to research the second voice for people
 **Decided (Mark, 2026-11-28).** "new should be b or better or my signoff". A new or rebuilt text passes at B or better, graded by the method of `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`, or with Mark's sign-off. A text left as it stands keeps the C bar of "What era 1 complete means" (2026-11-26). This pass upgrades only texts graded D or below (Mark, 2026-11-28: "we are only upgrading things that are d and below this pass"). `Stage-Two-Kit/Kit.md`, section 5.
 
 Then: "no everything should have a grading run". Every new or rebuilt text is graded by that method; reading a brief before release does not stand in for its grade. Then: "i release after the grade, to make sure a c raiting is not just a small thing", and "i want to see everything". The grade comes before release; each story then comes to Mark whole (brief, card, the three reviews' counts and the grade with its findings), and he releases it (`Brief-Kit/Kit.md`, Part 3, step 6).
+
+## 2026-11-28 — Release 13 and Peter of Alexandria in one merge; the F and D stories held (Mark)
+
+**Why.** Peter of Alexandria (graded B) was ready, and release 13 (PR #1846, thirteen era 1 people) also edits the census. The era 1 grades (`Build/Ministry/Operations/Audits/2026-11-28_era1-new-grades/Grades.csv`) put Suetonius and Tatian at F ("must be redone"), Methodius of Olympus at D ("should be redone"), six at C and the rest at B.
+
+**Decided (Mark, 2026-11-28).** "lets get everything together in one merge then continue". Asked what the merge holds: "Peter + #1846". Asked how to treat the low grades: "Hold the F and D ones", with the option's words: "One merge with Peter and #1846's stories graded B or C (11 people). Suetonius, Tatian and Methodius stay at their current live text until they're redone."
+
+- One pull request carries Peter and the ten release 13 people graded B or C. #1849 (whole-text grading) stays its own pull request.
+- Suetonius, Tatian and Methodius keep `main`'s census entries, tree pages and quote renderings; their batch 12 folders stay as work for the redo.
+- The six graded C (Tacitus, Anatolius, Clement, Hippolytus, Origen, Lactantius) go out on this choice, which is Mark's sign-off under "New work passes at B or with Mark's sign-off" (2026-11-28).
+
+This merge only. Records: `Build/Ministry/Operations/Audits/2026-11-26_batch-12/peter-of-alexandria/Release.md`.

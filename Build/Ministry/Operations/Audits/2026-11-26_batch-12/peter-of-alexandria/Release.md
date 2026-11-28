@@ -1,5 +1,12 @@
 # Release: Peter of Alexandria
 
+Released in one merge with release 13 (PR #1846's branch, merged in), less the three stories it graded F and D (Mark, 2026-11-28, Decision-Log "Release 13 and Peter of Alexandria in one merge; the F and D stories held"). Release 13's own record is `Build/Ministry/Operations/Audits/2026-11-26_batch-12/Release.md`.
+
+## Held from release 13
+
+- Suetonius (F), Tatian (F) and Methodius of Olympus (D): census entries, tree pages and `tools/quote_renderings.json` listings put back to `main`'s, then the tree rebuilt; each page now equals `main`'s. `tools/quote_scan_readings.json` is keyed by source file, not story, and is kept as release 13 wrote it. Open-Gaps 449.
+- The six graded C go out on Mark's choice, his sign-off under "New work passes at B or with Mark's sign-off".
+
 ## What changed
 
 - `cic-website/data/world-census.json`, entry `peter-of-alexandria` only: `longDescription` is the final brief (698 words, final newline removed); `card` is `peter-of-alexandria.card.json` with `secondReading` "same" on its three quotations (`Final_Check.md`, Quotes); `teaser` as the final check worded it (card item 7); `modernWorks` added, the seven works listed in `Card_Edits.md` (Entry fields, and the section after review 3), titles taken from the files' own headers for the ANF 6 and NPNF volumes as `Card_Edits.md` asked.
@@ -32,7 +39,7 @@
 - "Batch 12: three hearts, the era's heart timing and five lengths" (2026-11-28), item 5: 698 words. This story only.
 - "Batch 12: the full cards for its twenty people" (2026-11-27, "a"). This story only.
 - Final check card item 8, "b" (2026-11-28), applied under "Modern works on the cards" (2026-11-26) and Kit Part 1, Rigor: the eight modern-view items of `uncertain` (`Card_Edits.md`, last section). This story only; it follows the kit lines it cites.
-- Release on Mark's word, through the managing session (2026-11-28, "follow your recommendation to move forward").
+- Graded B, "OK to keep" (`Build/Ministry/Operations/Audits/2026-11-28_era1-new-grades/Grades.csv`). Released by Mark, 2026-11-28: "lets get everything together in one merge then continue" (Decision-Log, same day). This merge only.
 
 ## Cost
 
@@ -40,7 +47,10 @@ This session's record, `usage.cost_usd` (telemetry at API rates, not a bill): $9
 
 ## Not done
 
-- No pull request: Mark releases after the grade (2026-11-28, "i release after the grade"), graded from this branch.
 
 - Recording (step 8): not in this run. The old recording (4:17, of the earlier text) keeps its file and manifest entry; the rebuilt page hides its player, as slate decision 5 says.
 - The Melitian line and Pamphilus's home stay in Open-Gaps for a later census pass (slate decision 4).
+
+## Mechanical fix in release 13's cards
+
+- `check_spelling.py --enforce` found "Saviour" twice in card prose (not quotes): Pamphilus's timeline ("the Saviour's deeds") and Hippolytus's card ("On the praise of our Lord and Saviour"). Both are now "Savior" (Decision-Log 77, American spelling), and the pages are rebuilt.
