@@ -18,7 +18,6 @@ On the kit: 29. To do: 0.
 | Hippolytus of Rome (`hippolytus-of-rome`) | person | 6 | yes |
 | Ignatius of Antioch (`ignatius-of-antioch`) | person | 6 | yes |
 | Irenaeus of Lyon (`irenaeus-of-lyon`) | person | 6 | yes |
-| Josephus (`josephus`) | person | 6 | yes |
 | Pliny the Younger (`pliny-the-younger`) | person | 6 | yes |
 | Polycarp of Smyrna (`polycarp-of-smyrna`) | person | 6 | yes |
 | Polycrates of Ephesus (`polycrates-of-ephesus`) | person | 6 | yes |
@@ -39,6 +38,7 @@ On the kit: 29. To do: 0.
 | Peter of Alexandria (`peter-of-alexandria`) | person | 7 | yes |
 | Pontius the Deacon (`pontius-the-deacon`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
+| Josephus (`josephus`) | person | 12 | yes |
 
 ## Era 2
 
