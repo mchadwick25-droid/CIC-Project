@@ -48,3 +48,14 @@ The page for Mark: https://claude.ai/artifact/AvZuXHP56nze2REh3uexPF
 - `listener/`: the listener read.
 - `Grades.csv`, `Grades.json`, `Rebuild_Order.csv`: every grade, with its basis and the old grade.
 - `Readability.txt`: reading level of each brief.
+
+## Whole-text conversion (proposed, for Mark's approval)
+
+Mark ruled on 2026-11-28 that the letter conversion "is not a helpful grading" and chose option "a": keep the readers, and grade on the whole text. `grade_whole.py` is that conversion. `grade.py` is unchanged. No reader was re-run.
+
+- **Weights first.** The weights and thresholds were committed (d952e55f) before any brief was scored. A word filter in that commit set plain conflicts aside as below the bar. It was dropped, which only makes grades stricter. `First_Commit_Whole.json` keeps the letters it gave.
+- **Result.** Overall A 0, B 10, C 3, D 2, F 0 (`Grades_Whole.csv`, `Grades_Whole.json`).
+- **Calibration.** The same script on the 25 Nov set is in `Calibration_Whole.json`, with the three frozen references.
+- **Proposed fixes.** For the five stories below B: `Proposed_Fixes.json`, the old wording, new wording or cut, and the source line. Proposals only.
+- **Reading level, names out.** `readability_names_out.py` writes `Readability_Names_Out.json` from the profile tool's own names-out figure. All 15 pass grade 10 and reading ease 60 with names out; Origen is 8.9 and 67.8 (10.1 and 59.4 with names).
+- **The page for Mark:** https://claude.ai/artifact/PeyLDKosBmz5GwDYLUxjZ4

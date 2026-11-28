@@ -77,10 +77,19 @@ def test_longest_sentence_is_counted():
     assert pr.grade_profile_text(FLAT).longest_sentence == 8
 
 
-def test_dense_prose_fails_the_ceiling_and_reading_ease():
-    failures = pr.profile_readability_failures(DENSE)
-    assert any("above the ceiling of 10" in f for f in failures)
-    assert any("below the floor of 60" in f for f in failures)
+def test_dense_prose_fails_the_ceiling_and_reading_ease_names_out():
+    score = pr.grade_profile_text(DENSE)
+    assert score.fk_names_out > pr.PROFILE_FK_CEILING
+    assert score.fre_names_out < pr.PROFILE_FRE_FLOOR
+    assert any("with names left out, above the ceiling of 10" in f for f in score.failures)
+    assert any("below the floor of 60" in f for f in score.failures)
+
+
+def test_a_brief_over_the_ceiling_only_with_names_in_passes():
+    text = (FIXTURES.parent / "profile_names_out" / "origen.brief.txt").read_text(encoding="utf-8")
+    score = pr.grade_profile_text(text)
+    assert (round(score.fk, 1), round(score.fk_names_out, 1)) == (10.1, 8.9)
+    assert score.passed, score.failures
 
 
 def test_short_text_is_not_scored():
