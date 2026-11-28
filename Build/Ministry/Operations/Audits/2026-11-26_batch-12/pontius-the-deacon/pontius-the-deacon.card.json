@@ -1,0 +1,467 @@
+{
+  "otherNames": [
+    "Pontius"
+  ],
+  "knownFor": "Deacon of Cyprian of Carthage, who shared his exile and wrote the Life and Passion of Cyprian.",
+  "shortDescription": "Pontius, a deacon of Cyprian of Carthage, went with his bishop into exile at Curubis in 257 and was with him on his last night in 258. After Cyprian's death he wrote The Life and Passion of Cyprian, so that later readers would have his example.",
+  "datesNote": "Went into exile with Cyprian in 257, and was with him on the night before his death on 14 September 258. The court record of Cyprian's hearings gives the days, and the consuls it names give the years. Pontius wrote his book after the death. No old source gives the year of the book, or of his own birth or death.",
+  "placeNote": "Carthage, in Roman Africa, where Cyprian was bishop; Curubis, the town where they lived in exile",
+  "role": "Deacon and biographer",
+  "keyWorks": [
+    {
+      "title": "The Life and Passion of Cyprian",
+      "about": "a short book, written after Cyprian's death for people who had heard him, so that later readers would have his example. It tells his life from the time his faith began, his care for everyone in a plague, his exile and his dream at Curubis, and his suffering and death as a martyr. It never gives its author's name"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Life was copied with Cyprian's own writings.",
+      "Bede copied Jerome's sentence on Pontius and his book into his chronicle, and the Roman calendar of saints repeats its words."
+    ],
+    "remembered": [
+      "Jerome, in his catalog of Christian writers, names Pontius, Cyprian's deacon, as the author, and calls the Life \"a notable volume\".",
+      "Later calendars of saints keep Pontius's day at Carthage, on 8 March."
+    ]
+  },
+  "uncertain": [
+    "The witnesses. Almost all that is known of Pontius comes from his own book, which praises his bishop throughout. Jerome's one sentence adds his name and his office.",
+    "The author's name. The Life never names its author or gives his office. Jerome is the one old witness that its author was Pontius, Cyprian's deacon. The heading By Pontius the Deacon, in the English translation, is its editors' title.",
+    "Jerome's date. Jerome's catalog runs to the fourteenth year of the emperor Theodosius. The English translation's note prints that year as 492. Another note in the same volume has Theodosius named emperor in January 379, so the year is about 392, some 130 years after Cyprian's death.",
+    "Where Pontius was. The Life puts him with Cyprian in exile at Curubis and on the night after his arrest. It does not say that he saw the execution.",
+    "The day of the dream. The first day at Curubis is the day Cyprian had the dream. The Life does not say when he told it.",
+    "A year to the day. Pontius reads the one day's delay in the dream as one year. He says Cyprian was put to death on the very day of the year on which his sentence had been shown him. No other old source gives the day Cyprian reached Curubis, so this rests on Pontius alone.",
+    "The delay. In the dream Cyprian asks for a delay to put his affairs in order. Pontius says these affairs were church business, above all the care of the poor. The court record says only that Cyprian, back at his gardens, expected every day that they would come for him, as had been shown to him.",
+    "The young man in the dream. Cyprian calls him a young man of more than human size. The Life does not call him an angel.",
+    "The last withdrawal. Pontius says Cyprian would not agree when friends of high rank urged him again and again to withdraw and offered him places to go. Cyprian's own last letter says that when he heard officers had been sent to take him to Utica, his dearest friends persuaded him to leave his gardens for a while. He agreed, he writes, because a bishop should confess the Lord in the city where he leads the church. He waited in a hidden place for the governor's return to Carthage.",
+    "His sources. In his preface Pontius says he will tell what he was there for, and what he learned of earlier things. The prints differ at the second phrase. Hartel's and Harnack's Latin read of earlier things, and the Acta Sanctorum print reads of his earlier works, which the English translation follows as his more illustrious labors.",
+    "What the book leaves out. The Life says nothing of the councils of bishops Cyprian led, or of his quarrel with the bishop of Rome over whether a washing given outside the church counted as baptism. No old source says why.",
+    "The court record. For what Cyprian answered the governor at the first hearing, Pontius sends readers to the court record. A Christian record of the two hearings and the death survives, and it is listed among the sources.",
+    "His own end. No early source says how or when Pontius died. The Roman calendar of saints, as the Acta Sanctorum quotes it, copies Jerome's words on him. It then adds that in his own sufferings he earned the crown of life. No earlier witness held says so."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life and Passion of Cyprian (tr. Ernest Wallis)",
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Vita Caecilii Cypriani (Latin, ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+      },
+      {
+        "title": "Vita Cypriani (Latin, in Adolf Harnack's print of Hartel's text, 1913)",
+        "language": "Latin",
+        "file": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, 68",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "De viris illustribus, 68",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+      },
+      {
+        "title": "Letters, 81",
+        "author": "Cyprian of Carthage",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+      },
+      {
+        "title": "The Proconsular Acts of Cyprian, in Ausgewählte Märtyrerakten",
+        "author": null,
+        "date": "1929",
+        "language": "Latin, with German",
+        "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+      },
+      {
+        "title": "Greater Chronicle (ed. Theodor Mommsen)",
+        "author": "Bede",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March vol. 1, 8 March: Pontius, with the Roman calendar of saints",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-1-lat_palme1865.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "The Proconsular Acts of Cyprian, in Knopf, Ausgewählte Märtyrerakten: the hearing at Carthage in 257, the emperors' order that all who do not keep the Roman religion take part in the Roman rites, and the sentence of exile to Curubis.",
+    "The Life and Passion of Cyprian 12: Cyprian chose Pontius from among the men of his household for a willing exile, and Pontius wished he might have shared the martyrdom too.",
+    "Jerome, Lives of Illustrious Men 68: Pontius, one of Cyprian's deacons, named as the author of the unsigned book; Jerome's catalog runs to the fourteenth year of the emperor Theodosius.",
+    "The Life and Passion of Cyprian 12: the dream Cyprian had on their first day at Curubis, the young man of more than human size, the governor's judgment on his tablet, the sign of the sword stroke and the delay of one day.",
+    "The Life and Passion of Cyprian 13: Pontius reads the one day as a year more of life, and says Cyprian died on the very day of the year on which his sentence had been shown him.",
+    "The Proconsular Acts of Cyprian: back from Curubis, Cyprian stayed at his gardens; the arrest; the sentence to the sword as an enemy of the Roman gods; the death on 14 September 258.",
+    "The Life and Passion of Cyprian 14 and 15, with Cyprian, Letter 81: Pontius says Cyprian turned down friends' offers of places to go; Cyprian's letter says his dearest friends persuaded him to leave for a while, because a bishop should confess in the city where he leads the church; the last night in the officer's house, with those who shared his table.",
+    "The Life and Passion of Cyprian 1: the church's forebears wrote down the sufferings of ordinary believers who died as martyrs, so the death and deeds of so great a bishop should not be passed over; the book is written so that his example passes to those after.",
+    "The Life and Passion of Cyprian 2 and 11: he begins where Cyprian's faith began, passes over his earlier studies, and sends readers to the court record for the first hearing.",
+    "The manuscripts of Cyprian's works, as their modern editors report them: the Life copied with his own writings.",
+    "Jerome, Lives of Illustrious Men 68: a notable volume.",
+    "The Life and Passion of Cyprian 19: the book's last lines, torn between joy at Cyprian's glory and grief that Pontius remained behind."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "a willing exile",
+      "printed": "a voluntary exile",
+      "work": "Pontius, Life and Passion of Cyprian 12, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28057",
+      "original": "exulem uoluntarium",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "41015",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "For he held his hand open and flat, like a sword blade, and copied the stroke of the usual execution. What he wanted understood, he showed as clearly as plain speech. I understood the sentence of martyrdom that was to come.",
+      "printed": "For, with hand expanded and flattened like a blade, he imitated the stroke of the accustomed punishment, and expressed what he wished to be understood as clearly as by speech,—I understood the future sentence of my passion.",
+      "work": "Pontius, Life and Passion of Cyprian 12, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28071-28074",
+      "original": "manu enim expansa et complanata ad spatae modum ictum solitae animadversionis imitatus, quod volebat intellegi, ad instar liquidi sermonis expressit; intellexi sententiam passionis futuram.",
+      "originalFile": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
+      "originalLines": "1309-1313",
+      "uncertain": "Passion in the English translation means the martyr's suffering and death, so the modern wording says martyrdom. Spata is a sword, so the modern wording says sword blade, and the usual punishment is the sword stroke of execution. Hartel's Latin reads the same words.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I have decided to write down a few things, briefly. It is not that the life of so great a man is hidden from anyone, even among the pagans. It is so that this great and matchless example may be passed on to those after us too, into undying memory.",
+      "printed": "I have thought it well to prepare this brief and compendious narrative. Not that the life of so great a man can be unknown to any even of the heathen nations, but that to our posterity also this incomparable and lofty pattern may be prolonged into immortal remembrance.",
+      "work": "Pontius, Life and Passion of Cyprian 1, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "27673-27677",
+      "original": "placuit summatim pauca conscribere, non quo aliquem uel gentilium lateat tanti uiri uita, sed ut ad posteros quoque nostros incomparabile et grande documentum in immortalem memoriam porrigatur",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "40267-40270",
+      "uncertain": "Hartel's Latin reads quo, where Harnack prints quod and queries quo; the sense is the same. The English translation has pattern for documentum, and the modern wording has example. Hartel's Latin goes on with a further clause, which Harnack strikes because the manuscripts omit it or place it differently; the quotation stops before it.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "these things I pass over",
+      "printed": "these things I pass over",
+      "work": "Pontius, Life and Passion of Cyprian 2, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "27707",
+      "original": "illa praetereo",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "40331",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "a notable volume",
+      "printed": "a notable volume",
+      "work": "Jerome, Lives of Illustrious Men 68, tr. Ernest Cushing Richardson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "40834",
+      "original": "egregium volumen",
+      "originalFile": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+      "originalLines": "57621-57622",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "Shall I grieve that I was not his companion? But his victory must be celebrated. Shall I celebrate the victory? But I grieve that I am not his companion. Yet I must confess it to you plainly, and you know it too: this was how I felt. I rejoice much, far too much, in his glory. Yet I grieve more that I remained behind.",
+      "printed": "Shall I grieve that I was not his associate? But yet I must triumph in his victory. Shall I triumph at his victory? Still I grieve that I am not his companion. Yet still to you I must in simplicity confess, what you also are aware of, that it was my intention to be his companion. Much and excessively I exult at his glory; but still more do I grieve that I remained behind.",
+      "work": "Pontius, Life and Passion of Cyprian 19, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28297-28303",
+      "original": "dolebo quod non comes fuerim? sed illius uictoria triumphanda est. de uictoria triumphabo ? sed doleo quod comes non sim. uerum uobis tamen et simpliciter confitendum est, quod et uos scitis, in hac me fuisse sententia. multum ac nimis multum de gloria eius exulto, plus tamen doleo quod remansi.",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "41405-41410",
+      "uncertain": "The Latin in hac me fuisse sententia means that I was of this mind. The English translation reads it as it was my intention to be his companion. Harnack's print sets a colon after sententia, where Hartel's Latin has a full stop, so that the words point forward to the joy and the grief. The modern wording, this was how I felt, holds both readings. The English translation has I must triumph in his victory, where the modern wording says his victory must be celebrated. Harnack's print and the Acta Sanctorum print read the same words.",
+      "secondReading": "minor"
+    }
+  ],
+  "briefSources": [
+    {
+      "title": "The Life and Passion of Cyprian (tr. Ernest Wallis)",
+      "author": "Pontius the Deacon",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+    },
+    {
+      "title": "Vita Caecilii Cypriani (Latin, ed. Hartel)",
+      "author": "Pontius the Deacon",
+      "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+    },
+    {
+      "title": "The Proconsular Acts of Cyprian, the court record of his hearings and death",
+      "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+    },
+    {
+      "title": "Letters, 81, his last letter",
+      "author": "Cyprian of Carthage",
+      "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+    },
+    {
+      "title": "Lives of Illustrious Men, 68",
+      "author": "Jerome",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "257",
+      "headline": "Into exile at Curubis with Cyprian",
+      "lines": [
+        {
+          "when": "30 August 257",
+          "text": "At Carthage the governor questions Cyprian, because the emperors Valerian and Gallienus have ordered all who do not keep the Roman religion to take part in the Roman rites.",
+          "reference": "The Proconsular Acts of Cyprian 1, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4823-4827",
+          "note": "The court record gives the day and the consuls; the year comes from the consuls."
+        },
+        {
+          "when": "30 August 257",
+          "text": "Cyprian answers that he is a Christian and a bishop, and knows no other gods but the one true God. The governor sends him into exile at Curubis.",
+          "reference": "The Proconsular Acts of Cyprian 1, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4828-4836"
+        },
+        {
+          "when": "257",
+          "text": "Cyprian chooses Pontius from among the men of his household to go into exile with him by choice. Pontius wishes he had also been allowed to share the martyrdom.",
+          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28055-28059; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41013-41015"
+        },
+        {
+          "when": "257",
+          "text": "Pontius pictures the harshest kind of exile, a filthy, deserted place with no good water. He then says God gave Cyprian a sunny, fit place, a dwelling as hidden as he wished, many visiting Christians and kind townspeople who supplied what he lacked.",
+          "reference": "Pontius, Life and Passion of Cyprian 11 and 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28032-28036, 28044-28051"
+        },
+        {
+          "when": "257",
+          "text": "To a Christian, Pontius writes, the whole world is one home.",
+          "reference": "Pontius, Life and Passion of Cyprian 11, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28014-28016"
+        }
+      ]
+    },
+    {
+      "when": "257, the first day at Curubis",
+      "headline": "Cyprian's dream of his sentence",
+      "witness": "Cyprian's own words, as Pontius gives them",
+      "lines": [
+        {
+          "when": "The first day at Curubis",
+          "text": "Before he fell asleep, Cyprian says, a young man of more than human size seemed to lead him to the governor's court.",
+          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28055-28065",
+          "note": "A wonder, in Cyprian's words as Pontius reports them."
+        },
+        {
+          "when": "The first day at Curubis",
+          "text": "The governor writes a judgment on his tablet without the usual questions. The young man standing behind the governor reads it and shows it by a sign, the stroke of the sword.",
+          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28065-28074"
+        },
+        {
+          "when": "The first day at Curubis",
+          "text": "Cyprian begs a delay of one day to put his affairs in order. From the judge's calm face, he senses that the request has moved him, and the young man signals, twisting his fingers one behind the other, that the delay is granted until the next day.",
+          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28074-28084"
+        },
+        {
+          "when": "The first day at Curubis",
+          "text": "Cyprian wakes glad of the delay, yet trembling at what it might mean.",
+          "reference": "Pontius, Life and Passion of Cyprian 12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28084-28089"
+        }
+      ]
+    },
+    {
+      "when": "257 to 258",
+      "headline": "The year Pontius saw in the dream",
+      "lines": [
+        {
+          "when": "257 to 258",
+          "text": "Pontius reads the one day's delay as one year more of life.",
+          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28095-28102",
+          "note": "Pontius's own reading of the dream."
+        },
+        {
+          "when": "257 to 258",
+          "text": "Pontius says the delay was asked for church business, above all the care of the poor, and that Cyprian spent it so.",
+          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28124-28136"
+        },
+        {
+          "when": "257 to 258",
+          "text": "Everyone knew his death was near, Pontius says, though no one spoke of the day.",
+          "reference": "Pontius, Life and Passion of Cyprian 13, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28114-28117"
+        },
+        {
+          "when": "Date unknown",
+          "text": "A new governor calls Cyprian back from exile. Back from Curubis, he stays at his gardens, and expects every day that they will come for him, as had been shown to him.",
+          "reference": "The Proconsular Acts of Cyprian 2, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4850-4857"
+        },
+        {
+          "when": "Date unknown",
+          "text": "A messenger comes to Cyprian from Rome with word about its bishop, whom Pontius calls a most blessed martyr.",
+          "reference": "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28137-28139; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41141-41142",
+          "note": "The Latin says the messenger came about the bishop; the English translation says from him."
+        }
+      ]
+    },
+    {
+      "when": "258, to 14 September",
+      "headline": "Cyprian's last days, and the last night",
+      "lines": [
+        {
+          "when": "Before his arrest",
+          "text": "Friends of high rank urge Cyprian again and again to withdraw, and offer him places to go. Pontius says he would not agree.",
+          "reference": "Pontius, Life and Passion of Cyprian 14, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28142-28149",
+          "note": "Cyprian's own last letter tells it differently, in the next line."
+        },
+        {
+          "when": "Before his arrest",
+          "text": "Cyprian writes that when he heard officers had been sent to take him to Utica, his dearest friends persuaded him to leave his gardens for a while. He agreed, because a bishop should confess the Lord in the city where he leads the church, and waits in a hidden place for the governor's return to Carthage.",
+          "reference": "Cyprian, Letter 81, cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 17370-17384"
+        },
+        {
+          "when": "13 September 258",
+          "text": "Two of the governor's officers come for Cyprian and take him to the governor, who puts the hearing off to the next day.",
+          "reference": "The Proconsular Acts of Cyprian 2, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4857-4873",
+          "note": "The court record gives the Ides of September and the consuls; the year comes from the consuls."
+        },
+        {
+          "when": "The night of 13 September 258",
+          "text": "Cyprian spends the night in the officer's house, under a gentle guard. Pontius and the others who shared his table are with him, as usual.",
+          "reference": "Pontius, Life and Passion of Cyprian 15, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28181-28184; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41246-41248"
+        },
+        {
+          "when": "14 September 258",
+          "text": "An officer who had once been a Christian offers Cyprian dry clothes. Cyprian answers that they are treating troubles that will likely be gone by the end of the day.",
+          "reference": "Pontius, Life and Passion of Cyprian 16, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28218-28226"
+        },
+        {
+          "when": "14 September 258",
+          "text": "Brought before the governor and asked his name, Cyprian answers that he is Cyprian, Pontius writes. That was all that was said.",
+          "reference": "Pontius, Life and Passion of Cyprian 16, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28227-28230; cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41309-41310"
+        },
+        {
+          "when": "14 September 258",
+          "text": "The governor sentences him to the sword as an enemy of the Roman gods, who had gathered men into a wicked conspiracy.",
+          "reference": "The Proconsular Acts of Cyprian 4, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4901-4910"
+        },
+        {
+          "when": "14 September 258",
+          "text": "Pontius reads the sentence as a prophecy: all that was said, though a pagan said it, is divine.",
+          "reference": "Pontius, Life and Passion of Cyprian 17, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28231-28239"
+        },
+        {
+          "when": "14 September 258",
+          "text": "Cyprian is put to death.",
+          "reference": "The Proconsular Acts of Cyprian 6, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4955-4956",
+          "note": "Pontius says it was the very day of the year on which his sentence had been shown him (Life and Passion 13, lines 28112-28114)."
+        }
+      ]
+    },
+    {
+      "when": "After 258; the year is not given",
+      "headline": "Pontius writes The Life and Passion of Cyprian",
+      "witness": "Pontius, in his own book",
+      "lines": [
+        {
+          "when": "After Cyprian's death",
+          "text": "He writes for people who had heard Cyprian and wanted to hear everything about him, now that his living voice was silent. He feels pressed on both sides, by the bishop's greatness and by their asking.",
+          "reference": "Pontius, Life and Passion of Cyprian 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27692-27700"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "The church's forebears, he writes, honored ordinary believers and people still learning the faith before baptism who died as martyrs. They wrote down nearly every detail of their sufferings, so that people not yet born would know them.",
+          "reference": "Pontius, Life and Passion of Cyprian 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27677-27682"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "It would be hard, he says, if the death of so great a bishop were passed over, when he had much to teach even apart from it, and if his deeds in life stayed hidden.",
+          "reference": "Pontius, Life and Passion of Cyprian 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27682-27685"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He writes a few things in brief, so that Cyprian's example may pass to those after him, into undying memory.",
+          "reference": "Pontius, Life and Passion of Cyprian 1, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27672-27677"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He begins where Cyprian's faith began, because the deeds of a man of God should be counted only from the time he was born of God. He passes over the studies that filled Cyprian's mind before.",
+          "reference": "Pontius, Life and Passion of Cyprian 2, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27701-27708"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He will tell, he says, what he was there for, and what he learned of earlier things.",
+          "reference": "Pontius, Life and Passion of Cyprian 2, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 40333-40364",
+          "note": "The prints differ at the second phrase; see Open questions."
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He tells how Cyprian, while still new to the faith, gave the price of whole estates to the poor.",
+          "reference": "Pontius, Life and Passion of Cyprian 2, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27715-27741"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He defends Cyprian's withdrawal in an earlier persecution as obedience to God, pointing out that Cyprian suffered later after all.",
+          "reference": "Pontius, Life and Passion of Cyprian 7, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27905-27910"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He tells how, in a plague, Cyprian taught his people to do good to everyone, beyond their own household of faith.",
+          "reference": "Pontius, Life and Passion of Cyprian 9 and 10, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27958-27962, 27990-27992"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "He says he leaves out many other things, great ones too, to keep the book in measure.",
+          "reference": "Pontius, Life and Passion of Cyprian 10, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27976-27978"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "For what Cyprian answered the governor at the first hearing, he sends readers to the court record.",
+          "reference": "Pontius, Life and Passion of Cyprian 11, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28002-28004"
+        },
+        {
+          "when": "After Cyprian's death",
+          "text": "His book ends torn between joy at Cyprian's glory and grief that he himself remained behind.",
+          "reference": "Pontius, Life and Passion of Cyprian 19, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28294-28303"
+        }
+      ]
+    },
+    {
+      "when": "About 392",
+      "headline": "Jerome names the author",
+      "lines": [
+        {
+          "when": "About 392",
+          "text": "In his catalog of Christian writers, Jerome writes that Pontius, Cyprian's deacon, shared his exile until the day of his death, and left \"a notable volume\" on his life and death.",
+          "reference": "Jerome, Lives of Illustrious Men 68, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40833-40835; cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 57618-57622",
+          "note": "Jerome's catalog runs to the fourteenth year of the emperor Theodosius (line 38785), and another note in the same volume has Theodosius named emperor in January 379 (lines 15402-15403), so about 392."
+        }
+      ]
+    },
+    {
+      "when": "Later",
+      "headline": "Copied and kept",
+      "lines": [
+        {
+          "when": "Date unknown",
+          "text": "The Life is copied with Cyprian's own writings.",
+          "reference": "The manuscripts of Cyprian's works, as their modern editors report them, cic/texts/vonsoden_cyprianische-briefsammlung-deu_1904.txt lines 4159-4161; cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt lines 260-264",
+          "note": "The manuscripts themselves are not held."
+        },
+        {
+          "when": "Date unknown",
+          "text": "Bede copies Jerome's sentence on Pontius into his chronicle, under the persecution of Valerian.",
+          "reference": "Bede, Greater Chronicle, cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt lines 23904-23909"
+        },
+        {
+          "when": "Date unknown",
+          "text": "Later calendars of saints keep Pontius's day at Carthage on 8 March. The Roman one copies Jerome's words, and adds that in his own sufferings he earned the crown of life.",
+          "reference": "Acta Sanctorum, March vol. 1, 8 March, cic/texts/acta-sanctorum_martii-tomus-1-lat_palme1865.txt lines 196261-196266, 196815-196824",
+          "note": "A late witness, known here only as the Acta Sanctorum quotes it."
+        }
+      ]
+    }
+  ]
+}

@@ -11,34 +11,34 @@ On the kit: 29. To do: 0.
 | Story | Kind | Batch | Recorded |
 |---|---|---|---|
 | Justin Martyr (`justin-martyr`) | person | 3 | yes |
-| Clement of Alexandria (`clement-of-alexandria`) | person | 4 | yes |
 | Marcion of Pontus (`marcion-of-pontus`) | person | 4 | yes |
 | Bardaisan of Edessa (`bardaisan-of-edessa`) | person | 6 | yes |
 | Hermas (`hermas`) | person | 6 | yes |
-| Hippolytus of Rome (`hippolytus-of-rome`) | person | 6 | yes |
-| Ignatius of Antioch (`ignatius-of-antioch`) | person | 6 | yes |
 | Irenaeus of Lyon (`irenaeus-of-lyon`) | person | 6 | yes |
 | Josephus (`josephus`) | person | 6 | yes |
 | Pliny the Younger (`pliny-the-younger`) | person | 6 | yes |
 | Polycarp of Smyrna (`polycarp-of-smyrna`) | person | 6 | yes |
 | Polycrates of Ephesus (`polycrates-of-ephesus`) | person | 6 | yes |
-| Suetonius (`suetonius`) | person | 6 | yes |
-| Tacitus (`tacitus`) | person | 6 | yes |
-| Tatian (`tatian`) | person | 6 | yes |
-| Valentinus (`valentinus`) | person | 6 | yes |
-| Anatolius of Alexandria and Laodicea (`anatolius-of-alexandria-and-laodicea`) | person | 7 | yes |
 | Councils of Carthage and Rome on the lapsed (`councils-of-rome-and-carthage-251`) | council | 7 | yes |
 | Cyprian of Carthage (`cyprian-of-carthage`) | person | 7 | yes |
 | Dionysius of Alexandria (`dionysius-of-alexandria`) | person | 7 | yes |
 | Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 7 | yes |
-| Lactantius (`lactantius`) | person | 7 | yes |
-| Methodius of Olympus (`methodius-of-olympus`) | person | 7 | yes |
 | Novatian (`novatian`) | person | 7 | yes |
-| Origen (`origen`) | person | 7 | yes |
-| Pamphilus of Caesarea (`pamphilus-of-caesarea`) | person | 7 | yes |
 | Peter of Alexandria (`peter-of-alexandria`) | person | 7 | yes |
-| Pontius the Deacon (`pontius-the-deacon`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
+| Anatolius of Alexandria and Laodicea (`anatolius-of-alexandria-and-laodicea`) | person | 12 | yes |
+| Clement of Alexandria (`clement-of-alexandria`) | person | 12 | yes |
+| Hippolytus of Rome (`hippolytus-of-rome`) | person | 12 | yes |
+| Ignatius of Antioch (`ignatius-of-antioch`) | person | 12 | yes |
+| Lactantius (`lactantius`) | person | 12 | yes |
+| Methodius of Olympus (`methodius-of-olympus`) | person | 12 | yes |
+| Origen (`origen`) | person | 12 | yes |
+| Pamphilus of Caesarea (`pamphilus-of-caesarea`) | person | 12 | yes |
+| Pontius the Deacon (`pontius-the-deacon`) | person | 12 | yes |
+| Suetonius (`suetonius`) | person | 12 | yes |
+| Tacitus (`tacitus`) | person | 12 | yes |
+| Tatian (`tatian`) | person | 12 | yes |
+| Valentinus (`valentinus`) | person | 12 | yes |
 
 ## Era 2
 
