@@ -34,7 +34,7 @@ Every text lets an interested non-specialist meet one part of the church's histo
 
 - Plain modern words: simplify the language, never the thought. Use the precise words a grown listener knows, and work any puzzling word or custom into the sentence as part of what happens. In our own English, the narrator's words and a quote's modern rendering alike, in the story and on its card, say "the Jewish people" or "Jewish" (Jewish forces, a Jewish historian), not "the Jews"; a quote's printed wording stays verbatim, and a work is given its own title, faithfully rendered (*Jewish Antiquities*, not the later English *Antiquities of the Jews*).
 - The audio tells the story. The card carries the rest: the Original sources list, the fuller qualifications and the debates among the old sources, and a Modern works list for further reading, each work with one line on what it covers, never what it argues.
-- Aim for reading grade 8 to 9. Grade 10 and reading ease 60 are hard limits; inside them a score is a warning for the listening review, never a goal. Never simplify to move it.
+- Aim for reading grade 8 to 9. Grade 10 and reading ease 60, counted with names left out, are hard limits; inside them a score is a warning for the listening review, never a goal. Never simplify to move it.
 
 ## Part 2. The outline
 
@@ -89,6 +89,6 @@ Block only for unsupported claims (a sentence that softens its source, adds an a
 ### Keeping the kit clean
 
 - Fix a problem where it starts. An error a writer could repeat goes into that outline's Do not say list. A gap in the method goes into the kit.
-- A new ruling rewrites the line it touches. A line is added only when no existing line covers it. Part 1 stays one page. A ruling that changes this kit is merged to `main` the day it is made, on its own, before any story uses it; it never lives only on a working branch.
+- A new ruling rewrites the line it touches. A line is added only when no existing line covers it. Part 1 stays one page. The kit rulings of one working session go to `main` together, in one pull request apart from story work, the same day and before any story uses them; it never lives only on a working branch.
 - A fix whose wording the fixer writes, whoever the fixer is, and any edit that carries out a ruling, is checked by the next of the three reviews, which reads the sentences on either side; after review 3 it goes to Mark. A fix applied word for word as a checker worded it needs no check. An edit to this kit gets one targeted independent check.
 - Make targeted corrections and preserve approved text. Do not reopen finished briefs for optional polishing. A change to this kit governs the next story on; it reopens a finished story only when Mark says so, as a named change order.

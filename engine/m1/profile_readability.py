@@ -1,9 +1,9 @@
 """Readability check for Church Family Tree profile briefs (Who and council).
 
-Grade is counted on the full text and must not pass PROFILE_FK_CEILING; a
-grade under PROFILE_FK_FLOOR is printed as a note and does not fail. Reading
-ease is counted with proper names left out of the syllable count and must
-reach PROFILE_FRE_FLOOR. The longest sentence is printed. The limits are the
+Grade and reading ease are judged with proper names left out of the syllable
+count: the grade must not pass PROFILE_FK_CEILING and the reading ease must
+reach PROFILE_FRE_FLOOR. The grade on the full text is printed beside it; a
+full-text grade under PROFILE_FK_FLOOR is printed as a note and does not fail. The longest sentence is printed. The limits are the
 ones in Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md, Part 1.
 
     python -m engine.m1.profile_readability PATH [PATH ...]
@@ -126,8 +126,8 @@ class ProfileScore:
     @property
     def failures(self) -> tuple[str, ...]:
         found = []
-        if self.fk > PROFILE_FK_CEILING:
-            found.append(f"grade {self.fk:.1f} on the full text, above the ceiling of {PROFILE_FK_CEILING}")
+        if self.fk_names_out > PROFILE_FK_CEILING:
+            found.append(f"grade {self.fk_names_out:.1f} with names left out, above the ceiling of {PROFILE_FK_CEILING}")
         if self.fre_names_out < PROFILE_FRE_FLOOR:
             found.append(f"reading ease {self.fre_names_out:.1f} with names left out, below the floor of {PROFILE_FRE_FLOOR}")
         return tuple(found)

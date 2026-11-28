@@ -43,7 +43,7 @@ Rulings: "Recording settings for tradition briefs" (2026-11-25); "The project or
 
 ## 5. When a piece, and an era, is done
 
-- A text passes at grade C or better, graded by the method of `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`. Every new or rebuilt text gets a grading run by that method, and passes at B or better, or with Mark's sign-off.
+- A text passes at grade C or better. It is graded by the method's readers (`Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/` and `Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`), scored on the whole text by `Build/Ministry/Operations/Audits/2026-11-28_era1-new-grades/grade_whole.py`, each finding weighed by its size. Each finding is judged against the Brief Kit's bar first: exactness that does not touch the heart is a note with zero weight, and a large fault still fails. Reading level is judged with names left out. Every new or rebuilt text gets a grading run by that method, and passes at B or better, or with Mark's sign-off.
 - An era is complete when its traditions, people and councils pass, with its era brief and every card in the new layout, timeline included.
 
-Rulings: "What era 1 complete means" (2026-11-26); "New work passes at B or with Mark's sign-off" (2026-11-28).
+Rulings: "What era 1 complete means" (2026-11-26); "New work passes at B or with Mark's sign-off" (2026-11-28); "Grading on the whole text, reading level with names out" (2026-11-28).
