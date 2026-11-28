@@ -76,3 +76,9 @@ A full new card, built under the role's "A new card". The starting card (`Card.e
 Scorer (`python -m engine.m1.profile_readability`, card running text, outside the repository): `2255 words, grade 7.6 (names out 5.4), reading ease names out 81.6, 14.0 words a sentence, 0.8 joining words per 100, 23% short sentences, longest sentence 33 words - pass (note: grade 7.6 is under 8: the listener read checks it is not flat)`
 
 Validator (`tools/validate-census.mjs --skip-quotes` on a census copy outside the repository, with this card and the brief as `longDescription`): the only errors are the three missing `secondReading` values, which release sets. The full quote check runs out of memory in this container; every quoted span in the card's prose was checked by hand-run script against its cited files and found.
+
+## At release, a mechanical fix the live-surface check required (2026-11-28)
+
+`check_live_commentary.py --enforce` flagged a record slug (REWRITE, record-slug) in the card's timeline reference to the tradition entry, as the card check worded it. The entry is already named by its title, so only the slug goes; the reference otherwise stands word for word.
+
+- "World census, Valentinian and other Gnostic Christianities, cic-website/data/world-census.json, entry valentinian-and-other-gnostic-christianities, longDescription and legacy" → "World census, Valentinian and other Gnostic Christianities, cic-website/data/world-census.json, longDescription and legacy"
