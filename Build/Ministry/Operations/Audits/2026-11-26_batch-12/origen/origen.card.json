@@ -290,21 +290,24 @@
       "printed": "Now the only reason why all these of whom I have spoken entertain false and impious opinions, or ignorant views respecting God, appears to be that the Scripture on the spiritual side is not understood, but is taken in the bare literal sense.",
       "work": "Origen, On First Principles IV, in the Greek kept by the Philocalia, chapter I.9, tr. George Lewis",
       "file": "cic/texts/origen_philocalia_lewis1911.txt",
-      "lines": "74"
+      "lines": "74",
+      "secondReading": "same"
     },
     {
       "modern": "From these writers he learned the figurative way of explaining the Greek mystery rites, and he applied it to the Jewish scriptures.",
       "printed": "Becoming acquainted through them with the figurative interpretation of the Grecian mysteries, he applied it to the Jewish Scriptures.",
       "work": "Porphyry, Against the Christians III, quoted by Eusebius, Church History VI.19.8, tr. A. C. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "35122-35124"
+      "lines": "35122-35124",
+      "secondReading": "same"
     },
     {
       "modern": "We came out of the storm; we were brought out of Egypt. The God who led his people out from there set us free.",
       "printed": "We emerged from the storm, we were brought out of Egypt, that God delivering us who led His people forth from there.",
       "work": "Origen, Commentary on John VI.1, tr. Allan Menzies",
       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
-      "lines": "24729-24732"
+      "lines": "24729-24732",
+      "secondReading": "minor"
     }
   ],
   "briefSources": [

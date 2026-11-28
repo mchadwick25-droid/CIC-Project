@@ -448,7 +448,8 @@
       "work": "Valentinus, a letter, in Clement of Alexandria, Stromata II.20, ANF English",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
       "lines": "34298-34302",
-      "uncertain": "Clement's Greek is not held, so the modern English is rendered from the ANF English."
+      "uncertain": "Clement's Greek is not held, so the modern English is rendered from the ANF English.",
+      "secondReading": "same"
     },
     {
       "modern": "Valentinus had hoped to be made a bishop, because he had the talent and the gift of speech for it. But another man won the place, by the claim his suffering for the faith gave him. Angry at this, he broke away from the church of the true rule.",
@@ -456,10 +457,11 @@
       "work": "Tertullian, Against the Valentinians 4, ANF English",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "43109-43113",
-      "uncertain": "The modern English is rendered from Kroymann's Latin. \"Suffering for the faith\" renders martyrii, where the ANF has \"confessorship\"; \"the true rule\" renders authenticae regulae, where the ANF has \"the true faith\".",
+      "uncertain": "The modern English is rendered from Kroymann's Latin. \"Suffering for the faith\" renders martyrii, where the ANF has \"confessorship\"; \"the true rule\" renders authenticae regulae, where the ANF has \"the true faith\". The scan reads Yalentinus and aliura. Oehler's print reads Valentinus and alium, and Speraverat against the variant separauerat in Kroymann's apparatus (`tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt` lines 21632-21636; Kroymann line 9647).",
       "original": "sperauerat episcopatum Valentinus, quia et ingenio poterat et eloquio, sed alium ex martyrii praerogatiua loci potitum indignatus de ecclesia authenticae regulae abrupit",
       "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
-      "originalLines": "9633-9653"
+      "originalLines": "9633-9653",
+      "secondReading": "same"
     },
     {
       "modern": "You are immortal from the beginning, and children of eternal life. You wanted death shared out to you, to spend it and squander it, so that death might die in you and through you.",
@@ -467,7 +469,8 @@
       "work": "Valentinus, a sermon, in Clement of Alexandria, Stromata IV.13, ANF English",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
       "lines": "39090-39093",
-      "uncertain": "The ANF prints \"Valentinian\"; its index files the passage under Valentinus, and Clement goes on to answer his teaching. Clement's Greek is not held, so the modern English is rendered from the ANF English."
+      "uncertain": "The ANF prints \"Valentinian\"; its index files the passage under Valentinus, and Clement goes on to answer his teaching. Clement's Greek is not held, so the modern English is rendered from the ANF English.",
+      "secondReading": "same"
     }
   ]
 }

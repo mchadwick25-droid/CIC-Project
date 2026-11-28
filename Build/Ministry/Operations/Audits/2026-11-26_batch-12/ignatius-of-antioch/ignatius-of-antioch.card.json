@@ -164,7 +164,8 @@
       "printed": "From Syria even unto Rome I fight with beasts, both by land and sea, both by night and day, being bound to ten leopards, I mean a band of soldiers, who, even when they receive benefits, show themselves all the worse.",
       "work": "Ignatius, Letter to the Romans 5, shorter form, Ante-Nicene Fathers vol. 1",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "7083-7090"
+      "lines": "7083-7090",
+      "secondReading": "same"
     },
     {
       "modern": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. If that is so, why am I in chains? Why do I long to fight the wild beasts? Do I die for nothing, then?",
@@ -172,7 +173,8 @@
       "work": "Ignatius, Letter to the Trallians 10, shorter form, Ante-Nicene Fathers vol. 1",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
       "lines": "6671-6676",
-      "uncertain": "The modern English has fight, where the English prints be exposed to, from the translators' note at that word: \"Literally, “to fight with.”\" (line 6675). The translators also note that some read the last question, and the clause after it, as statements rather than questions (lines 6677-6678)."
+      "uncertain": "The modern English has fight, where the English prints be exposed to, from the translators' note at that word: \"Literally, “to fight with.”\" (line 6675). The translators also note that some read the last question, and the clause after it, as statements rather than questions (lines 6677-6678).",
+      "secondReading": "same"
     },
     {
       "modern": "I am God's wheat. I am ground by the teeth of wild beasts, so that I may be found pure bread.",
@@ -183,7 +185,8 @@
       "original": "ΒΊτος εἰμὶ τοῦ Θ εοὗ, και δὶ ὀδόντων ϑηρίων ἀλήϑομα!, ἵνα καϑαρὸς ἄρτος εὐρεϑῶ",
       "originalFile": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt",
       "originalLines": "15547-15552",
-      "uncertain": "The Greek is printed as the damaged scan reads it; it reads Σῖτός εἰμι τοῦ Θεοῦ, καὶ δι᾽ ὀδόντων θηρίων ἀλήθομαι, ἵνα καθαρὸς ἄρτος εὑρεθῶ, and ἀλήθομαι means \"I am ground\", a statement. The longer Greek form, the Syriac version, whose translators note \"Literally, “I am ground.”\", and Irenaeus read the same. The Ante-Nicene English of the shorter form alone reads \"let me be ground\", a plea, and ends \"the pure bread of Christ\" (anf01 lines 7040-7042)."
+      "uncertain": "The Greek is printed as the damaged scan reads it; it reads Σῖτός εἰμι τοῦ Θεοῦ, καὶ δι᾽ ὀδόντων θηρίων ἀλήθομαι, ἵνα καθαρὸς ἄρτος εὑρεθῶ, and ἀλήθομαι means \"I am ground\", a statement. The longer Greek form, the Syriac version, whose translators note \"Literally, “I am ground.”\", and Irenaeus read the same. The Ante-Nicene English of the shorter form alone reads \"let me be ground\", a plea, and ends \"the pure bread of Christ\" (anf01 lines 7040-7042).",
+      "secondReading": "same"
     }
   ],
   "shortDescription": "Ignatius was bishop of the church at Antioch in Syria, taken under guard to Rome to face the wild beasts. On the road he wrote seven letters, urging the churches to keep together around their bishops and to hold that Christ truly suffered, and asking the church at Rome to let him die.",

@@ -198,7 +198,8 @@
       "work": "Methodius, The Banquet of the Ten Virgins, Discourse II.1, Theophila's speech, tr. William R. Clark, Ante-Nicene Fathers vol. 6",
       "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
       "lines": "30280-30282",
-      "uncertain": "The Greek of the Banquet is not held, so the modern English follows Clark's English alone. The chapter heading gives the plain sense: Marriage Not Abolished by the Commendation of Virginity (lines 30269-30270)."
+      "uncertain": "The Greek of the Banquet is not held, so the modern English follows Clark's English alone. The chapter heading gives the plain sense: Marriage Not Abolished by the Commendation of Virginity (lines 30269-30270).",
+      "secondReading": "same"
     },
     {
       "modern": "For the statue cannot be lost while it is in the same craftsman's hands, even if it is melted down into its material again. It can be restored. But the blemishes and the damage can be lost, for they melt away. They cannot be restored.",
@@ -209,7 +210,8 @@
       "original": "τῷ μὲν γὰρ ἀγάλματι ἀπολέσϑαι οὖκ ἔστιν ὑπὸ τῷ αὐτῷ τεχνίτῃ ὄντι, χἂν πάλιν eis ὕλην λυϑῇ, ἀποχατασταϑῆναι δὲ ἔστι\" τοῖς δὲ αἴσχεσι χαὶ λωβήμασιν ἀπολέσϑαι μὲν ἔστιν (τήχονται γάρ), ἀποχατασταϑ'ῆναι δὲ οὐκ ἔστι",
       "originalFile": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
       "originalLines": "35713-35716",
-      "uncertain": "The Greek is printed as the damaged scan reads it; it reads κἂν πάλιν εἰς ὕλην λυθῇ and ἀποκατασταθῆναι, and Oehler's print of the same passage confirms the reading (epiphanius_panarion-haer-48-69, lines 22929-22933). Holl's notes record that two manuscripts lack ὄντι and one reads χυθῇ, which leaves the sense unchanged (lines 35747-35750). The modern English follows the Greek: statue for ἄγαλμα, where Clark prints image, and material for ὕλη, since the statue is of gold or other material (Clark, lines 35424-35425); the same craftsman for τῷ αὐτῷ τεχνίτῃ, where Clark prints the original artist."
+      "uncertain": "The Greek is printed as the damaged scan reads it; it reads κἂν πάλιν εἰς ὕλην λυθῇ and ἀποκατασταθῆναι, and Oehler's print of the same passage confirms the reading (epiphanius_panarion-haer-48-69, lines 22929-22933). Holl's notes record that two manuscripts lack ὄντι and one reads χυθῇ, which leaves the sense unchanged (lines 35747-35750). The modern English follows the Greek: statue for ἄγαλμα, where Clark prints image, and material for ὕλη, since the statue is of gold or other material (Clark, lines 35424-35425); the same craftsman for τῷ αὐτῷ τεχνίτῃ, where Clark prints the original artist.",
+      "secondReading": "same"
     },
     {
       "modern": "Worthless people, who cannot be noticed on their own, want to be seen by finding fault with their betters. Methodius was the first to fall into this.",
@@ -220,7 +222,8 @@
       "original": "οἱ εὐτελεῖς καὶ dp’ ἑαυτῶν μὴ δυνάμενοι φαίνεσθαι ἐκ τοῦ ψέγειν τοὺς ἑαυτῶν κρείττονας δείκνυσθαι βούλονται. τοῦτο πέπονθε πρῶτος Μεθόδιος",
       "originalFile": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
       "originalLines": "13702-13704",
-      "uncertain": "The Greek is printed as the scan reads it; for dp’ it reads ἀφ᾽, as Hussey's print of Socrates has it (socrates_historia-ecclesiastica-tomus2, line 12878), which is damaged further on. The modern English follows the Greek: wish to be seen for δείκνυσθαι βούλονται, and the first to fall into this for τοῦτο πέπονθε πρῶτος, where Zenos prints often seek to get into notice and first labored under this malady."
+      "uncertain": "The Greek is printed as the scan reads it; for dp’ it reads ἀφ᾽, as Hussey's print of Socrates has it (socrates_historia-ecclesiastica-tomus2, line 12878), which is damaged further on. The modern English follows the Greek: wish to be seen for δείκνυσθαι βούλονται, and the first to fall into this for τοῦτο πέπονθε πρῶτος, where Zenos prints often seek to get into notice and first labored under this malady.",
+      "secondReading": "same"
     }
   ],
   "briefSources": [

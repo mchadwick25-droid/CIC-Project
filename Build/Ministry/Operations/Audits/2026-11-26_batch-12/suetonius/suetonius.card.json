@@ -225,7 +225,8 @@
       "englishPrinted": "Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome.",
       "englishFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
       "englishLines": "25907-25909",
-      "uncertain": "The Latin has no word for \"since\", \"all\" or \"one\". Rolfe adds \"since\"; the Thomson and Forester English adds \"all\" and \"one\"."
+      "uncertain": "The Latin has no word for \"since\", \"all\" or \"one\". Rolfe adds \"since\"; the Thomson and Forester English adds \"all\" and \"one\".",
+      "secondReading": "minor"
     },
     {
       "modern": "Chrestians",
@@ -258,7 +259,8 @@
       "englishPrinted": "Punishment was inflicted on the Christians, a class of men given to a new and mischievous superstition.",
       "englishFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
       "englishLines": "28523-28525",
-      "uncertain": "For maleficae Rolfe has \"mischievous\" and the Thomson and Forester English \"impious\". The modern English says \"harmful\". The Latin has no verb with Nero as its subject: punishments were laid on the Christians, under him."
+      "uncertain": "For maleficae Rolfe has \"mischievous\" and the Thomson and Forester English \"impious\". The modern English says \"harmful\". The Latin has no verb with Nero as its subject: punishments were laid on the Christians, under him.",
+      "secondReading": "same"
     },
     {
       "modern": "Christian",
@@ -291,7 +293,8 @@
       "englishPrinted": "Even when by a faulty pronunciation you call us “Chrestians” (for you are not certain about even the sound of this noted name), you in fact lisp out the sense of pleasantness and goodness.",
       "englishFile": "cic/texts/anf03_tertullian.xml",
       "englishLines": "9205-9208",
-      "uncertain": "The modern English is made from the Latin. The vertical strokes and the double spaces stand in the printed Latin as the Library holds it. Tertullian makes the same point in his Apology 3, where the Ante-Nicene English adds \"the name you hate\"."
+      "uncertain": "The modern English is made from the Latin. The vertical strokes and the double spaces stand in the printed Latin as the Library holds it. Tertullian makes the same point in his Apology 3, where the Ante-Nicene English adds \"the name you hate\".",
+      "secondReading": "same"
     }
   ],
   "timeline": [

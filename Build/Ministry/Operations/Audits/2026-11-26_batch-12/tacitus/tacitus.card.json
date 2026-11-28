@@ -149,7 +149,8 @@
       "englishPrinted": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus",
       "englishFile": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
       "englishLines": "68",
-      "uncertain": "The scan reads Cliristus at line 2541; Hooker's print of the same words reads Christus. The 1876 English adds one of our, which the Latin does not have."
+      "uncertain": "The scan reads Cliristus at line 2541; Hooker's print of the same words reads Christus. The 1876 English adds one of our, which the Latin does not have.",
+      "secondReading": "same"
     },
     {
       "modern": "So he turned the blame onto the Christians. And the cruellest tortures were used on the innocent.",
@@ -157,7 +158,8 @@
       "work": "Sulpicius Severus, Sacred History (Chronicle) 2.29, tr. Alexander Roberts",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
       "lines": "10659-10661",
-      "uncertain": "Rendered from Sulpicius's Latin in Halm's edition, which the Library holds only in a damaged scan at this sentence and in no other print, so the English print stands alone here."
+      "uncertain": "Rendered from Sulpicius's Latin in Halm's edition, which the Library holds only in a damaged scan at this sentence and in no other print, so the English print stands alone here.",
+      "secondReading": "same"
     },
     {
       "modern": "So pity began to rise, even toward the guilty, who had earned the harshest punishment as a warning. It was as if they were being destroyed not for the public good, but for one man's cruelty.",
@@ -165,7 +167,8 @@
       "work": "Tacitus, Annals 15.44, in the translation standardly identified as Church and Brodribb",
       "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
       "lines": "68",
-      "uncertain": "Rendered from Halm's Latin as Mirbt prints it, whose last words are damaged in the scan; Ruinart's print confirms the first half only, so the English print stands alone here."
+      "uncertain": "Rendered from Halm's Latin as Mirbt prints it, whose last words are damaged in the scan; Ruinart's print confirms the first half only, so the English print stands alone here.",
+      "secondReading": "minor"
     }
   ],
   "briefSources": [

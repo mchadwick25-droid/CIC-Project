@@ -202,7 +202,8 @@
       "work": "Clement, Stromata I.1, tr. William Wilson (no Greek held)",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
       "lines": "27489-27492",
-      "uncertain": "\"First in power\" is given its plain sense in the story, the first in ability, as the English of Eusebius, who quotes the passage, has it: \"in ability truly he was first\" (Church History V.11.4, npnf201 lines 28756-28757)."
+      "uncertain": "\"First in power\" is given its plain sense in the story, the first in ability, as the English of Eusebius, who quotes the passage, has it: \"in ability truly he was first\" (Church History V.11.4, npnf201 lines 28756-28757).",
+      "secondReading": "same"
     },
     {
       "modern": "us, the simple,",
@@ -218,7 +219,8 @@
       "work": "Clement, Stromata I.5, tr. William Wilson (no Greek held)",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
       "lines": "27890-27893",
-      "uncertain": "\"Guide\" stands for the printed \"schoolmaster\", Paul's word in Galatians 3:24 (marked at line 27893). Clement gives the word's sense himself: the Instructor \"who leads the children\" (Instructor I.7, lines 19937-19938). The modern sense of schoolmaster, a man who runs a school, would mislead. \"The Law\" is the law given through Moses (Stromata I.26, lines 31207-31208)."
+      "uncertain": "\"Guide\" stands for the printed \"schoolmaster\", Paul's word in Galatians 3:24 (marked at line 27893). Clement gives the word's sense himself: the Instructor \"who leads the children\" (Instructor I.7, lines 19937-19938). The modern sense of schoolmaster, a man who runs a school, would mislead. \"The Law\" is the law given through Moses (Stromata I.26, lines 31207-31208).",
+      "secondReading": "same"
     },
     {
       "modern": "the blessed presbyter.",
@@ -247,7 +249,8 @@
       "lines": "35367-35368",
       "englishPrinted": "Is there any want of learning in these, or are they not rather drawn from the very heart of philosophy?",
       "englishFile": "cic/texts/npnf206_jerome-principal-works.xml",
-      "englishLines": "16634-16636"
+      "englishLines": "16634-16636",
+      "secondReading": "same"
     }
   ],
   "timeline": [

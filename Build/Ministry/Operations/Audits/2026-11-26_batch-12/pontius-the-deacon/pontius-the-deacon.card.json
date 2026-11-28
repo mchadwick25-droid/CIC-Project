@@ -136,7 +136,8 @@
       "original": "manu enim expansa et complanata ad spatae modum ictum solitae animadversionis imitatus, quod volebat intellegi, ad instar liquidi sermonis expressit; intellexi sententiam passionis futuram.",
       "originalFile": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
       "originalLines": "1309-1313",
-      "uncertain": "Passion in the English translation means the martyr's suffering and death, so the modern wording says martyrdom. Spata is a sword, so the modern wording says sword blade, and the usual punishment is the sword stroke of execution. Hartel's Latin reads the same words."
+      "uncertain": "Passion in the English translation means the martyr's suffering and death, so the modern wording says martyrdom. Spata is a sword, so the modern wording says sword blade, and the usual punishment is the sword stroke of execution. Hartel's Latin reads the same words.",
+      "secondReading": "same"
     },
     {
       "modern": "I have decided to write down a few things, briefly. It is not that the life of so great a man is hidden from anyone, even among the pagans. It is so that this great and matchless example may be passed on to those after us too, into undying memory.",
@@ -147,7 +148,8 @@
       "original": "placuit summatim pauca conscribere, non quo aliquem uel gentilium lateat tanti uiri uita, sed ut ad posteros quoque nostros incomparabile et grande documentum in immortalem memoriam porrigatur",
       "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
       "originalLines": "40267-40270",
-      "uncertain": "Hartel's Latin reads quo, where Harnack prints quod and queries quo; the sense is the same. The English translation has pattern for documentum, and the modern wording has example. Hartel's Latin goes on with a further clause, which Harnack strikes because the manuscripts omit it or place it differently; the quotation stops before it."
+      "uncertain": "Hartel's Latin reads quo, where Harnack prints quod and queries quo; the sense is the same. The English translation has pattern for documentum, and the modern wording has example. Hartel's Latin goes on with a further clause, which Harnack strikes because the manuscripts omit it or place it differently; the quotation stops before it.",
+      "secondReading": "same"
     },
     {
       "modern": "these things I pass over",
@@ -180,7 +182,8 @@
       "original": "dolebo quod non comes fuerim? sed illius uictoria triumphanda est. de uictoria triumphabo ? sed doleo quod comes non sim. uerum uobis tamen et simpliciter confitendum est, quod et uos scitis, in hac me fuisse sententia. multum ac nimis multum de gloria eius exulto, plus tamen doleo quod remansi.",
       "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
       "originalLines": "41405-41410",
-      "uncertain": "The Latin in hac me fuisse sententia means that I was of this mind. The English translation reads it as it was my intention to be his companion. Harnack's print sets a colon after sententia, where Hartel's Latin has a full stop, so that the words point forward to the joy and the grief. The modern wording, this was how I felt, holds both readings. The English translation has I must triumph in his victory, where the modern wording says his victory must be celebrated. Harnack's print and the Acta Sanctorum print read the same words."
+      "uncertain": "The Latin in hac me fuisse sententia means that I was of this mind. The English translation reads it as it was my intention to be his companion. Harnack's print sets a colon after sententia, where Hartel's Latin has a full stop, so that the words point forward to the joy and the grief. The modern wording, this was how I felt, holds both readings. The English translation has I must triumph in his victory, where the modern wording says his victory must be celebrated. Harnack's print and the Acta Sanctorum print read the same words.",
+      "secondReading": "minor"
     }
   ],
   "briefSources": [

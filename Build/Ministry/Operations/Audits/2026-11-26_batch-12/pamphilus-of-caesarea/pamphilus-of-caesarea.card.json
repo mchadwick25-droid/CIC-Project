@@ -227,7 +227,8 @@
       "work": "Eusebius, Life of Pamphilus III, as Jerome quotes it in the Apology against Rufinus I.9, in Nicene and Post-Nicene Fathers, second series, vol. 3",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "51433-51437",
-      "uncertain": "Eusebius's Greek is lost. The story's English is made from the Latin that Jerome quotes, held only in a scan with letter faults, so the printed English stands alone; it agrees with the Latin in sense. The Latin says to keep, where the English says lend and give."
+      "uncertain": "Eusebius's Greek is lost. The story's English is made from the Latin that Jerome quotes, held only in a scan with letter faults, so the printed English stands alone; it agrees with the Latin in sense. The Latin says to keep, where the English says lend and give.",
+      "secondReading": "same"
     },
     {
       "modern": "They think the command to become approved money-changers is wholly shut out for those who read Origen's books. Such money-changers know how to keep what is good and hold back from every kind of evil. If anyone is only seen reading his books, at once they drench him in the shame of the heretics.",
@@ -235,7 +236,8 @@
       "work": "The Defense of Origen, Book I, preface to the confessors, in Rufinus's Latin, ed. Lommatzsch",
       "file": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
       "lines": "14153-14158",
-      "uncertain": "No English of the Defense is held, so the story's English is made from this Latin. The Migne printing of the same Latin agrees, and reads si quis, if anyone, which the story's English follows. The Defense says this; whose words they are, Pamphilus's or Eusebius's, is disputed."
+      "uncertain": "No English of the Defense is held, so the story's English is made from this Latin. The Migne printing of the same Latin agrees, and reads si quis, if anyone, which the story's English follows. The Defense says this; whose words they are, Pamphilus's or Eusebius's, is disputed.",
+      "secondReading": "minor"
     },
     {
       "modern": "If it is a joy to own one letter from a martyr, how much greater to own so many thousand lines! It seems to me he marked them with the traces of his own blood.",
@@ -243,7 +245,8 @@
       "work": "Jerome, Lives of Illustrious Men 75, in Nicene and Post-Nicene Fathers, second series, vol. 3",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "40966-40968",
-      "uncertain": "The story's English is made from Jerome's Latin, which the Library holds only in a scan with letter faults, so the printed English stands alone. The Latin says Pamphilus seems to him to have marked them with the traces of his own blood. The Greek of Sophronius beside it, read from a scan with faults, ends with the traces of his own suffering."
+      "uncertain": "The story's English is made from Jerome's Latin, which the Library holds only in a scan with letter faults, so the printed English stands alone. The Latin says Pamphilus seems to him to have marked them with the traces of his own blood. The Greek of Sophronius beside it, read from a scan with faults, ends with the traces of his own suffering.",
+      "secondReading": "same"
     }
   ],
   "timeline": [
