@@ -1,7 +1,8 @@
 """Cut the source lines a Church Family Tree story cites into one file.
 
 Reads the story folder's Source_Sheet.md (and Outline.md, if present). The
-sheet names each file once under a short name, as "- **ANF** = `file.xml`",
+sheet names each file once under a short name, as "- **ANF** = `file.xml`"
+or "- **ANF**: `file.xml`",
 and cites lines as "ANF 4704-4705" or "ANF 4704–4705, 4710". Every cited
 range is cut from its file in cic/texts/ (or the repository root), with a
 margin of context on each side, overlapping ranges merged, and written to
@@ -19,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TEXTS = ROOT / "cic" / "texts"
-SHORT = re.compile(r"\*\*([A-Za-z][\w.-]*)\*\*\s*=\s*`([^`]+)`")
+SHORT = re.compile(r"\*\*([A-Za-z][\w.-]*):?\*\*\s*[=:]?\s*`([^`]+)`")
 NUM = r"\d{1,6}"
 RANGE = rf"{NUM}(?:\s*[-–]\s*{NUM})?"
 DASH = re.compile(r"\s*[-–]\s*")
